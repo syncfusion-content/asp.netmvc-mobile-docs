@@ -1,0 +1,231 @@
+---
+layout: post
+title: Getting-Started
+description: getting started
+platform: mobileaspnetmvc
+control: ProgressBar
+documentation: ug
+---
+
+# Getting Started
+
+In this section, you can learn how to create ProgressBar and how to use it in your application.
+
+## Create your first ProgressBar in MVC
+
+ASP.NET MVC, Mobile ProgressBar is a simple interface that indicates the current progress of an operation, such as uploading a document. In the following guidelines, you will learn about the features in ProgressBar widget and create an App Installer.
+
+{ ![1](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{:.image }
+
+
+Create the required layout for App Installer
+
+The ASP.NET MVC Mobile ProgressBar widget is rendered by calling ProgressBar helper method with corresponding properties. You can easily customize ProgressBar control by changing its properties according to your requirements. In the App Installer, the ProgressBar is used to show the progress of installation. 
+
+Create a simple MVC application and paste the following header and scrollpanel layout page content inside the body tag of layout.cshtml. Paste other templates in the view page for ProgressBar creation. 
+
+You can create an MVC Project and add necessary Dlls and script, with the help of the [MVC-Getting Started Documentation.](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm)
+
+    &lt;!-- Layout Page Content --&gt;
+
+    &lt;!-- header control --&gt;
+
+    @Html.EJMobile().Header("header").Title("App Installer")
+
+          @RenderBody()
+
+    &lt;!-- ScrollPanel --&gt;
+
+    @Html.EJMobile().Scrollpanel("scrollpanel").Target("content")
+
+
+
+
+
+    &lt;!-- View Page Content --&gt;
+
+    &lt;div id="content"&gt;
+
+        &lt;div&gt;
+
+            &lt;!-- Add image and definition --&gt;
+
+            &lt;div align="center"&gt;
+
+                &lt;img src="http://js.syncfusion.com/UG/Mobile/Content/debug.png" style="width: 125px;" /&gt;
+
+            &lt;/div&gt; &lt;br /&gt;&lt;br /&gt;
+
+            &lt;div id="definition" align="center" style="padding: 0 20px"&gt;
+
+                <b>BUG DETECTIVE</b>&lt;br /&gt;
+
+                Bug Detective is an open source application which integrates with web browsers to debug web development tools while you browse. We can debug HTML and JavaScript live in any web page using bug detective.
+
+            &lt;/div&gt;&lt;br /&gt;
+
+            &lt;!-- Button control --&gt;
+
+            &lt;div align="center"&gt;
+
+                @Html.EJMobile().Button("button").Text("Install").ClientSideEvents(eve => eve.TouchEnd("startProgress"))
+
+            &lt;/div&gt;
+
+
+
+            &lt;!--Add progressbar Element here--&gt;
+
+
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+
+
+
+
+Run the above code example and you can see the following output.
+
+{ ![2](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{:.image }
+
+
+Create ProgressBar Control
+
+You can call ProgressBar helper to render ProgressBar control. You can set its initial value by using Value property. By default, it takes parent’s width. But, you can customize it by using Width property.
+
+ &lt;!--ProgressBar control --&gt;
+
+ &lt;div style="width: 75%; margin:auto;"&gt;
+
+      @Html.EJMobile().ProgressBar("progress").Value(73)
+
+ &lt;/div&gt;
+
+
+
+You can hide ProgressBar, with desired action on its hide API and you can show it with desired action on its show API.
+
+&lt;script&gt;
+
+        $(function () {
+
+            window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
+
+            $("#progress").hide();//to hide progressbar at initialize
+
+        });
+
+        function startProgress(args) {
+
+            $(".e-m-btnwrapper").hide();//to hide button
+
+            $("#progress").show();// to show progressbar
+
+            }
+
+&lt;/script&gt;
+
+
+
+Run the above code example and you can see the following output.
+
+{ ![3](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{:.image }
+
+
+Customize Text
+
+The default text of ProgressBar is downloading. In this scenario you are installing the app, not downloading it. So, to change the text of ProgressBar, you can use the Text property. Add the following code example to the ProgressBar helper.
+
+
+
+  &lt;!-- Progressbar control --&gt;
+
+ &lt;div style="width: 75%; margin:auto;"&gt;
+
+      @Html.EJMobile().ProgressBar("progress").Value(73) .EnableCustomText(true).Text("Installing..")
+
+ &lt;/div&gt;
+
+
+
+Run the above code example and you can see the following output.
+
+{ ![1](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{:.image }
+
+
+Customize Text and Value Dynamically
+
+The ProgressBar text and its value can be changed dynamically. In this scenario, to indicate the progress of installation, its value dynamically changes when you click the Install button. And when it reaches 100%, then the ProgressBar text will change from Installingto Completed. Here, its value must start from zero, so that the Value property is removed and modifies the following code example.  
+
+&lt;!-- Progressbar control --&gt;
+
+ &lt;div style="width: 75%; margin:auto;"&gt;
+
+      @Html.EJMobile().ProgressBar("progress").EnableCustomText(true).Text("Installing..")
+
+                 @* Value(73) is removed here *@
+
+ &lt;/div&gt;
+
+
+
+You can use setInterval function in JavaScript to change its value and text dynamically.
+
+
+
+&lt;script&gt;
+
+        window.currValue = 0;
+
+        $(function () {
+
+            window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
+
+            $("#progress").hide(); //to hide progressbar at starting
+
+        });
+
+        function startProgress(args) {
+
+            $(".e-m-btnwrapper").hide(); //to hide button
+
+            $("#progress").show(); // to show progressbar
+
+            window.timeInterval = setInterval(runProgress, 100); //set time intervel to repeat the process
+
+        }
+
+        function runProgress() {
+
+            progressObject.option("value", window.currValue); //set value for progress
+
+            var value = currValue++;
+
+            if (value == 100) {
+
+                progressObject.option("text", "Completed..."); // change the text when it reaches 100%
+
+                clearInterval(window.timeInterval); //to clear time interval
+
+            }
+
+        }
+
+    &lt;/script&gt;
+
+
+
+Run the above code example and you can see the following output, after you click the Install button. The following output is taken after the ProgressBar value reaches 100%. The text of the ProgressBar is changed in the following output.	
+
+
+
+{ ![4](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{:.image }
+
+

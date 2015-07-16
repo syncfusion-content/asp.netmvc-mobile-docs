@@ -1,0 +1,119 @@
+---
+layout: post
+title: Getting-Started
+description: getting started
+platform: mobileaspnetmvc
+control: TextArea
+documentation: ug
+---
+
+# Getting Started
+
+This section briefly describes how to create Essential MVC Mobile TextArea widget in a simple mobile application for new mail creation process.
+
+## Create your first TextArea in MVC
+
+From the following guidelines, you can create basic Mail sending form by using the TextArea control.
+
+{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{:.image }
+
+
+
+
+In the above image, message field is rendered by using the TextArea.
+
+
+
+Create the necessary layout 
+
+Create a simple MVC application and add the following header and scrollpanel layout page content inside the &lt;body&gt; tag of layout.cshtml. To create a MVC Project, add necessary Dll’s and Scripts with the help of [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile.
+
+Create an HTML file and add the following template to the HTML file.
+
+
+
+{% highlight html %}
+
+<!-- header control -->          
+@Html.EJMobile().Header("mailheader").Title("New Message")
+
+<div id="mailcontainer" class="sample">
+
+    <div>
+
+        <span>To</span>
+
+        @Html.EJMobile().TextBox("mailTo")
+
+        <span>Subject</span>
+
+        @Html.EJMobile().TextBox("mailSubject")
+
+        <span>Message</span>
+    <!-- Add TextArea elements here -->          
+
+        <div class="submit">
+
+            @Html.EJMobile().Button("submit").Text("Send")
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="scrollPanel" data-role="ejmscrollpanel" data-ej-target="mailcontainer"></div>
+
+
+
+{% endhighlight %}
+
+
+
+Create textarea
+
+Add the following Layout code to the corresponding view page.                                     
+
+{% highlight html %}
+
+    <!-- TextArea element -->
+@Html.EJMobile().TextArea("mailMessage")
+
+
+
+
+{% endhighlight %}
+
+ Add the following styles to show the TextArea control in an order.
+
+{% highlight html %}
+
+
+
+<style>
+
+        .sample {
+
+            padding: 10px 20px;
+
+        }
+
+</style>
+
+
+
+
+
+{% endhighlight %}
+
+
+
+Run this code example and you can see the following output.
+
+{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{:.image }
+
+
+
+

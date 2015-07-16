@@ -1,0 +1,446 @@
+---
+layout: post
+title: Getting-Started
+description: getting started
+platform: mobileaspnetmvc
+control: SplitPane
+documentation: ug
+---
+
+# Getting Started
+
+This section enables you to create SplitPane using JavaScript in your mobile app.
+
+## Create your first SplitPane in MVC
+
+The Essential Studio for ASP.NET MVC Mobile Splitpane divides a region on the web page.  It is configured to split up the horizontal view vertically. Right side panes can display the content from an external URL that is specific to the item selected in the left pane. In the following guidelines, you can learn the features in Splitpane widget by creating a Mail App.
+
+{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{:.image }
+
+
+Create the Splitpane control
+
+The Essential Studio for ASP.NET MVC MobileSplitpane control is rendered by calling the Splitpane Helper. 
+
+Create a simple MVC application and add the following code example in the view page named as SplitPaneSample for Splitpane creation. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the MVC-Getting Started Documentation.
+
+
+
+@Html.EJMobile().SplitPane("splitview").LeftPaneTemplate(@&lt;div&gt;&lt;/div&gt;)
+
+
+
+
+
+Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
+
+
+
+{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{:.image }
+
+
+Add left Pane content
+
+In the Left Pane, you can add listbox for easy navigation. To provide data source for listbox template in the Left Pane content, you can create a ListTemplate.cs file in the model and add the following code example to the file.
+
+    public class ListTemplate
+
+    {
+
+        public string Name { get; set; }
+
+        public string Time { get; set; }
+
+        public string About { get; set; }
+
+        public string Url { get; set; }
+
+    }
+
+    public static class ListTemplateModal
+
+    {
+
+        public static List<ListTemplate> listTempSource = new List<ListTemplate>();
+
+        public static List<ListTemplate> setListTempSource()
+
+        {
+
+            listTempSource.Add(new ListTemplate { Name = "Skype", Time = "3:06 am", About = "Password changed successfully", Url = "load1" });
+
+            listTempSource.Add(new ListTemplate { Name = "Skype", Time = "3:00 am", About = "Your password has been changed", Url = "load2" });
+
+            listTempSource.Add(new ListTemplate { Name = "Skype", Time = "Yesterday", About = "Password token", Url = "load3" });
+
+            listTempSource.Add(new ListTemplate { Name = "Skype", Time = "Monday", About = "Hello from Skype", Url = "load4" });
+
+            return listTempSource;
+
+        }
+
+        public static void clearSource()
+
+        {
+
+            listTempSource.Clear();
+
+        }       
+
+    }
+
+
+
+In the controller for the view page, add the following code example.
+
+        public ActionResult SplitPaneSample()
+
+        {
+
+            ListTemplateModal.clearSource();
+
+            return View(ListTemplateModal.setListTempSource());
+
+        }
+
+
+Create a partial view page with the name “ListViewContent.cshtml” and add the following code example to the file.
+
+@model List<ListTemplate>
+
+@{
+
+@Html.EJMobile().ListView("templatelist").AllowScrolling(true).ShowHeader(false).RenderTemplate(true).DataSource(Model).PersistSelection(true).SelectedItemIndex(0).ClientSideEvents(evt => { evt.TouchEnd("listItemSelect"); }).ContentTemplate(
+
+
+
+    @&lt;div class="cont-bg"&gt;
+
+
+
+        &lt;span class="templatetext"&gt;{{>Name}}&lt;/span&gt; &lt;span class="timestyle"&gt;{{>Time}}&lt;/span&gt;
+
+
+
+        &lt;div class="aboutstyle"&gt;
+
+
+
+{{>About}}
+
+        &lt;/div&gt;
+
+
+
+    &lt;/div&gt;)
+
+}
+
+
+
+Title of the Left Pane is set using LeftHeaderSettings property. In this case, you can set the title as “Inbox”. In the same way, you can set the title for Right Pane by using RightHeaderSettings property. In android mode you don’t have header, instead toolbar is present. To set title for toolbar, use the ToolbarSettings property.
+
+Refer the following code example. The partial view (ListViewContent) is called to render the Left Pane content.
+
+
+
+@Html.EJMobile().SplitPane("splitview").LeftHeaderSettings(left => left.Title("Inbox")).RightHeaderSettings(right => right.Title("Message")).ToolbarSettings(tool => tool.Android(and => and.Title("Inbox"))).LeftPaneTemplate(@&lt;div&gt;@Html.Partial("ListViewContent")&lt;/div&gt;)
+
+
+
+Use the following styles to apply style for ListView template.
+
+&lt;style type="text/css"&gt;
+
+    .cont-bg {
+
+        padding: 6px 0px;
+
+    }
+
+
+
+    .templatetext {
+
+        font-weight: bolder;
+
+        font-size: 17px;
+
+    }
+
+
+
+    #templatelist .timestyle {
+
+        float: right;
+
+        font-size: 12px;
+
+        position: relative;
+
+        right: 25px;
+
+        padding-right: 5px;
+
+    }
+
+
+
+    #templatelist .aboutstyle {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .e-m-ios7.e-m-tablet .e-m-state-active .e-m-list-div * {
+
+        color: #FFFFFF;
+
+    }
+
+
+
+    #splitview.e-m-windows.e-m-dark .e-m-sp-left {
+
+        background: black;
+
+    }
+
+&lt;/style&gt;
+
+
+
+Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
+
+{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{:.image }
+
+
+Add right Pane content
+
+Refer to the following code example.
+
+&lt;script type="text/javascript"&gt;
+
+
+
+    // initial loading right pane content
+
+
+
+    $(document).ready(function () {
+
+
+
+        // $("#splitview").data("ejmSplitPane").loadContent(toPage, options)
+
+
+
+        var split = $("#splitview").data("ejmSplitPane");
+
+        var args = $('#templatelist').ejmListView('instance');
+
+        split.loadContent(args.model.dataSource[0].Url, {
+
+
+
+            rightHeaderSettings:
+
+            { title: args.model.dataSource[0].About },
+
+            toolbarSettings: { android: { title: args.model.dataSource[0].About } },
+
+            transition: "none"
+
+
+
+        });
+
+
+
+    });
+
+
+
+
+
+
+
+    // loading right pane content by clicking list item selected
+
+
+
+    function listItemSelect(args) {
+
+
+
+        // $("#splitview").data("ejmSplitPane").loadContent(toPage, options)
+
+
+
+        var split = $("#splitview").data("ejmSplitPane");
+
+
+
+        split.loadContent(args.model.dataSource[args.index].Url, {
+
+
+
+            rightHeaderSettings:
+
+            { title: args.model.dataSource[args.index].About },
+
+            toolbarSettings: { android: { title: args.model.dataSource[args.index].About } },
+
+            transition: "none"
+
+
+
+        });
+
+
+
+    }
+
+
+
+&lt;/script&gt;
+
+Create a view page with name load1.cshtml and add the following code example to the file.
+
+&lt;h2&gt;
+
+    Hi John,&lt;/h2&gt;
+
+&lt;br /&gt;
+
+&lt;h3&gt;
+
+    Password successfully changed</h3>
+
+&lt;br /&gt;
+
+Your new Skype password has been set.
+
+&lt;br /&gt;
+
+You can now access your Account, view your call history or change your account settings.
+
+&lt;br /&gt;
+
+&lt;br /&gt;
+
+&lt;h5&gt;
+
+    Talk soon,&lt;/h5&gt;
+
+The people at Skype
+
+
+
+Create a view page with name load2.cshtml and add the following code example to the file.
+
+&lt;h2&gt;
+
+    Hello John,&lt;/h2&gt;
+
+&lt;br /&gt;
+
+&lt;h3&gt;
+
+    Your password has been changed</h3>
+
+&lt;br /&gt;
+
+Your Skype password has been changed. If you did not change this yourself please
+
+contact one of the administrators of the Skype Manager you belong to.
+
+&lt;br /&gt;
+
+&lt;br /&gt;
+
+&lt;h5&gt;
+
+    Talk soon,&lt;/h5&gt;
+
+The people at Skype
+
+
+
+Create a view page with name load3.cshtml and add the following code example to the file,
+
+&lt;h2&gt;
+
+    Hello John,&lt;/h2&gt;
+
+&lt;br /&gt;
+
+&lt;h3&gt;
+
+    Password token</h3>
+
+&lt;br /&gt;
+
+Reset your password with this temporary code. Please note that this link is only
+
+active for 6 hours after receipt. After the time limit expires, the code does not
+
+work and you have to resubmit the password change request.&lt;br /&gt;
+
+&lt;br /&gt;
+
+If the link doesn't work, you can enter the code manually using this token: 45c5chg15ae33c438ch2cc7ehn004hg6
+
+&lt;br /&gt;
+
+&lt;br /&gt;
+
+&lt;h5&gt;
+
+    Talk soon,&lt;/h5&gt;
+
+The people at Skype
+
+
+
+Create a view page with name load4.cshtml and add the following code example to the file,
+
+&lt;h3&gt;
+
+    Hi John,&lt;/h3&gt;
+
+&lt;br /&gt;
+
+&lt;h2&gt;
+
+    Welcome to Skype</h2>
+
+&lt;br /&gt;
+
+Congratulations on joining Skype! Now you can enjoy the magic of free face-to-face
+
+calls, instant messaging, screen sharing and so much more - all with Skype.
+
+&lt;br /&gt;
+
+&lt;br /&gt;
+
+&lt;h5&gt;
+
+    Talk soon,&lt;/h5&gt;
+
+The people at Skype
+
+
+
+Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
+
+{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{:.image }
+
+
