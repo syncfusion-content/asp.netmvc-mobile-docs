@@ -19,7 +19,7 @@ EnableStrictMode property makes Textbox accept only a value between the defined 
 
 The following screenshot displays the output.
 
-{ ![](Strict-Mode_images/Strict-Mode_img1.png) | markdownify }
+{{ '![](Strict-Mode_images/Strict-Mode_img1.png)' | markdownify }}
 {:.image }
 
 

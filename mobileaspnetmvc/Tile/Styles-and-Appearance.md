@@ -29,7 +29,7 @@ This is the root class of the Tile.</td></tr>
 <tr>
 <td>
 e-m-child-tile</td><td>
-This class is applied to the child &lt;div&gt; of the Tile.</td></tr>
+This class is applied to the child <div> of the Tile.</td></tr>
 <tr>
 <td>
 e-m-enabled-text</td><td>

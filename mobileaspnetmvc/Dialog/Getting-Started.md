@@ -15,7 +15,7 @@ This section explains briefly on how to create a Dialog control in your applicat
 
 The ASP.NET MVCDialog window is an overlay positioned within the AppView and displays a message along with supplementary content such as images or text and interactive content such as forms etc. It contains a title and a content area. The following example explains how to create a MailSign in form through that you can learn the features of the ASP.NET MVC Dialog widget.
 
-{ ![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -23,23 +23,23 @@ _Alert Dialog_
 
 Create the required layout
 
-You can render the Dialog control based on the default values for all the properties. You can easily customize Dialog control by changing its properties according to your requirement. Create a simple MVC application and add the following header and scrollpanel layout page content inside the &lt;body&gt; tag of layout.cshtml. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile. 
+You can render the Dialog control based on the default values for all the properties. You can easily customize Dialog control by changing its properties according to your requirement. Create a simple MVC application and add the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile. 
 
-&lt;!-- header control --&gt;          
+<!-- header control -->          
 
 @Html.EJMobile().Header("header").Title("Mail").RightButtonCaption("Next").ShowRightButton(true).ClientSideEvents(evt => { evt.RightButtonTap("formsubmit"); })
 
-        &lt;div id="content"&gt;
+        <div id="content">
 
-            &lt;div&gt;
+            <div>
 
                 @RenderBody()
 
-            &lt;/div&gt;			
+            </div>			
 
-        &lt;/div&gt;
+        </div>
 
-&lt;!-- ScrollPanel --&gt;        
+<!-- ScrollPanel -->        
 
 @Html.EJMobile().Scrollpanel("scroll").Target("content") 
 
@@ -47,93 +47,93 @@ You can render the Dialog control based on the default values for all the proper
 
 Add the following Layout code to the corresponding view page
 
-&lt;div id="content"&gt;
+<div id="content">
 
-    &lt;div&gt;
+    <div>
 
-        &lt;!-- Adding Mail Sign in Form --&gt;
-
-
-
-        &lt;form id="form1"&gt;
+        <!-- Adding Mail Sign in Form -->
 
 
 
-            &lt;label&gt;
+        <form id="form1">
+
+
+
+            <label>
 
                 Name:
 
 
 
-            &lt;/label&gt;
+            </label>
 
 
 
-            &lt;div&gt;
+            <div>
 
                 @Html.EJMobile().TextBox("name_def").WatermarkText("Name")
 
-                &lt;label for="name_def" class="error" generated="true" /&gt;
+                <label for="name_def" class="error" generated="true" />
 
 
 
-            &lt;/div&gt;
+            </div>
 
 
 
-            &lt;label&gt;
+            <label>
 
                 Email:
 
 
 
-            &lt;/label&gt;
+            </label>
 
 
 
-            &lt;div&gt;
+            <div>
 
                 @Html.EJMobile().TextBox("email_def").WatermarkText("user@mail.com")
 
-                &lt;label for="email_def" class="error" generated="true" /&gt;
+                <label for="email_def" class="error" generated="true" />
 
 
 
-            &lt;/div&gt;
+            </div>
 
 
 
-            &lt;label&gt;
+            <label>
 
                 Password:
 
 
 
-            &lt;/label&gt;
+            </label>
 
 
 
-            &lt;div&gt;
+            <div>
 
                 @Html.EJMobile().PassWord("password_def").WatermarkText("Required")
 
-                &lt;label for="password_def" class="error" generated="true" /&gt;
+                <label for="password_def" class="error" generated="true" />
 
-            &lt;/div&gt;
+            </div>
 
 
 
-            &lt;label&gt;
+            <label>
 
                 Job Description (Optional):
 
 
 
-            &lt;/label&gt;
+            </label>
 
 
 
-            &lt;div&gt;
+            <div>
 
 
 
@@ -141,15 +141,15 @@ Add the following Layout code to the corresponding view page
 
 
 
-            &lt;/div&gt;
+            </div>
 
 
 
-        &lt;/form&gt;
+        </form>
 
 
 
-        &lt;!-- Adding Dialog Helper Here --&gt;
+        <!-- Adding Dialog Helper Here -->
 
 
 
@@ -159,7 +159,7 @@ Add the following Layout code to the corresponding view page
 
 Use the following styles for adding content element.
 
-&lt;style type="text/css"&gt;
+<style type="text/css">
 
     .appview.e-m-ios7 #content {
 
@@ -225,13 +225,13 @@ Use the following styles for adding content element.
 
     }
 
-&lt;/style&gt;
+</style>
 
 
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-{ ![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -243,19 +243,19 @@ There are four types of Dialog modes namely alert, confirm, normal and full view
 
 To render the Dialog control, you can add the following code example and specify the Dialog content (HTML content) using “Content” API. Specify a value for “Title” property to set title for Dialog. In your case you can set it as “Invalid email address”. Specify a value for “LeftButtonCaption” property to set Dialog button text; here you can set it as “OK”. 
 
-        @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@&lt;div id="contentDialog"&gt;&lt;/div&gt;)
+        @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>)
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 Display the Dialog
 
 To display the Dialog, you can click the next button present in the header. The click event is handled by “formsubmit” function as mentioned as follows. Create an object for Dialog control and then using the dialog’s “open” function you can display the Dialog. 
 
-Add the following script code to the &lt;body&gt; tag.
+Add the following script code to the <body> tag.
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 
         function formsubmit(event) {
 
@@ -295,13 +295,13 @@ Add the following script code to the &lt;body&gt; tag.
 
         }
 
-&lt;/script&gt;
+</script>
 
 
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-{ ![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -309,17 +309,17 @@ Enable Modal Dialog
 
 The EnableModalDialog prevents you from interacting with the rest of the page until it is closed. Enable the modal Dialog using “EnableModal” property.
 
-        @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@&lt;div id="contentDialog"&gt;&lt;/div&gt;).EnableModal(true)
+        @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>).EnableModal(true)
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-{ ![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -329,11 +329,11 @@ To close the alert Dialog, click OK. This is achieved by triggering the ButtonTa
 
 Refer to the following code example. 
 
-        @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@&lt;div id="contentDialog"&gt;&lt;/div&gt;).EnableModal(true).ClientSideEvents(evt => { evt.ButtonTap("alertClose"); })
+        @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>).EnableModal(true).ClientSideEvents(evt => { evt.ButtonTap("alertClose"); })
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 

@@ -43,7 +43,7 @@ You can set the Windows Specific properties to the control by accessing Windows 
 
 The following screenshot displays the Windows Specific Customization:
 
-{ ![preventScew](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png) | markdownify }
+{{ '![preventScew](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

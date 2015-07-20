@@ -175,7 +175,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
 {% endhighlight %}
 
-{ ![C:/Users/sridhar.SYNCLAPN3965/Downloads/mockup/IMG_0539_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/sridhar.SYNCLAPN3965/Downloads/mockup/IMG_0539_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 

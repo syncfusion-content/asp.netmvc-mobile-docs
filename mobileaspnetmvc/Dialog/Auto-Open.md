@@ -15,11 +15,11 @@ The EnableAutoOpen property is used to open the Dialog box on initial loading. T
 
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableAutoOpen(true).Content(@&lt;div&gt;
+@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableAutoOpen(true).Content(@<div>
 
 Syncfusion provides software components and tools for the Microsoft .NET platform
 
-&lt;/div&gt;)
+</div>)
 
 }
 
@@ -27,7 +27,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
 The following screenshot displays the output.
 
-{ ![](Auto-Open_images/Auto-Open_img1.png) | markdownify }
+{{ '![](Auto-Open_images/Auto-Open_img1.png)' | markdownify }}
 {:.image }
 
 

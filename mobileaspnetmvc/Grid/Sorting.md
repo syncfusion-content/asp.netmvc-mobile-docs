@@ -48,7 +48,7 @@ Result of the above code snippet:
 
 
 
-{ ![16](Sorting_images/Sorting_img1.png) | markdownify }
+{{ '![16](Sorting_images/Sorting_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -91,7 +91,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![17](Sorting_images/Sorting_img2.png) | markdownify }
+{{ '![17](Sorting_images/Sorting_img2.png)' | markdownify }}
 {:.image }
 
 _Multi sorting_

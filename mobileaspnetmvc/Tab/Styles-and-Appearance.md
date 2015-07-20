@@ -29,7 +29,7 @@ This is the root class of the Tab.</td></tr>
 <tr>
 <td>
 e-m-tab-container</td><td>
-This class is applied to container &lt;div&gt; element inside the Tab control.</td></tr>
+This class is applied to container <div> element inside the Tab control.</td></tr>
 <tr>
 <td>
 e-m-tab-hdr</td><td>
@@ -61,43 +61,43 @@ This class is applied to anchor element inside each item of the Tab control.</td
 <tr>
 <td>
 e-m-tab-text</td><td>
-This class is applied to &lt;div&gt; element that contains the Tab image and Tab text elements in it.</td></tr>
+This class is applied to <div> element that contains the Tab image and Tab text elements in it.</td></tr>
 <tr>
 <td>
 e-m-tab-image</td><td>
-This class is applied to &lt;div&gt; element that contains image of a tab item.</td></tr>
+This class is applied to <div> element that contains image of a tab item.</td></tr>
 <tr>
 <td>
 e-m-text</td><td>
-This class is applied to &lt;div&gt; element that contains text of a Tab item.</td></tr>
+This class is applied to <div> element that contains text of a Tab item.</td></tr>
 <tr>
 <td>
 e-m-tab-badge</td><td>
-This class is applied to &lt;div&gt; element inside the badge &lt;div&gt; element of anchor.</td></tr>
+This class is applied to <div> element inside the badge <div> element of anchor.</td></tr>
 <tr>
 <td>
 e-m-tab-content</td><td>
-This class is applied to root &lt;div&gt; element that holds the whole content of the Tab control.</td></tr>
+This class is applied to root <div> element that holds the whole content of the Tab control.</td></tr>
 <tr>
 <td>
 e-m-content-container</td><td>
-This class is applied to &lt;div&gt; element inside the Tab wrapper.</td></tr>
+This class is applied to <div> element inside the Tab wrapper.</td></tr>
 <tr>
 <td>
 e-m-content</td><td>
-This class is applied to &lt;div&gt; element that holds the content of a Tab item.</td></tr>
+This class is applied to <div> element that holds the content of a Tab item.</td></tr>
 <tr>
 <td>
 e-m-state-block</td><td>
-This class is applied to &lt;div&gt; element that holds the content of an active Tab item.</td></tr>
+This class is applied to <div> element that holds the content of an active Tab item.</td></tr>
 <tr>
 <td>
 e-m-state-hide</td><td>
-This class is applied to &lt;div&gt; elements that holds content of all the Tab items except the active Tab item.</td></tr>
+This class is applied to <div> elements that holds content of all the Tab items except the active Tab item.</td></tr>
 <tr>
 <td>
 e-m-state-disabled</td><td>
-This class is applied to content &lt;div&gt; or the Tab item elements when content or Tab item is disabled.</td></tr>
+This class is applied to content <div> or the Tab item elements when content or Tab item is disabled.</td></tr>
 </table>
 
 

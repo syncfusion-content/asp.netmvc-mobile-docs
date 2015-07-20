@@ -26,21 +26,21 @@ The AlertDialog box property is used to communicate an Alert message.
 
 @Html.EJMobile().Dialog("alertdlg").Mode(DialogMode.Alert).Content(
 
-@&lt;div&gt;
+@<div>
 
 5% of battery remaining
 
-&lt;/div&gt;)
+</div>)
 
 }
 
 
 
-&lt;div style="text-align: center"&gt;
+<div style="text-align: center">
 
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -60,7 +60,7 @@ The AlertDialog box property is used to communicate an Alert message.
 
 The following screenshot displays the output.
 
-{ ![](Mode_images/Mode_img1.png) | markdownify }
+{{ '![](Mode_images/Mode_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -74,21 +74,21 @@ The ConfirmDialog box property is mostly used to take the user's consent on any 
 
 @Html.EJMobile().Dialog("alertdlg").Title("Cellular Data is Turned off").Mode(DialogMode.Confirm).Content(
 
-@&lt;div&gt;
+@<div>
 
 Turn on cellular data or use Wi-Fi to access data
 
-&lt;/div&gt;)
+</div>)
 
 }
 
 
 
-&lt;div style="text-align: center"&gt;
+<div style="text-align: center">
 
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -108,7 +108,7 @@ Turn on cellular data or use Wi-Fi to access data
 
 The following screenshot displays the output.
 
-{ ![](Mode_images/Mode_img2.png) | markdownify }
+{{ '![](Mode_images/Mode_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -122,21 +122,21 @@ The Normal Mode Dialog box property is used to display the message in sub screen
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome").Mode(DialogMode.Normal).Content(
 
-@&lt;div&gt;
+@<div>
 
 Syncfusion provides software components and tools for the Microsoft .NET platform.
 
-&lt;/div&gt;)
+</div>)
 
 }
 
 
 
-&lt;div style="text-align: center"&gt;
+<div style="text-align: center">
 
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -156,7 +156,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
 The following screenshot displays the output.
 
-{ ![](Mode_images/Mode_img3.png) | markdownify }
+{{ '![](Mode_images/Mode_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -168,21 +168,21 @@ The FullViewDialog box property is used to display messages on full screen and i
 
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome").Mode(DialogMode.Fullview).Content(@&lt;div&gt;
+@Html.EJMobile().Dialog("alertdlg").Title("Welcome").Mode(DialogMode.Fullview).Content(@<div>
 
 Syncfusion provides software components and tools for the Microsoft .NET platform.
 
-&lt;/div&gt;)
+</div>)
 
 }
 
 
 
-&lt;div style="text-align: center"&gt;
+<div style="text-align: center">
 
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -202,7 +202,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
 The following screenshot displays the output.
 
-{ ![](Mode_images/Mode_img4.png) | markdownify }
+{{ '![](Mode_images/Mode_img4.png)' | markdownify }}
 {:.image }
 
 

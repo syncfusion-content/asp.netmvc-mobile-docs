@@ -73,7 +73,7 @@ The ListView widget makes a grouped list when ‘EnableGroupList’ property is 
 
 The following screenshot displays the first level group list:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_3.png](Grouped-List_images/Grouped-List_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_3.png](Grouped-List_images/Grouped-List_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -151,7 +151,7 @@ While selecting a list item that is grouped, you can render another set of list 
 
 The following screenshot displays the Nested Child Group List:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_4.png](Grouped-List_images/Grouped-List_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_4.png](Grouped-List_images/Grouped-List_img2.png)' | markdownify }}
 {:.image }
 
 

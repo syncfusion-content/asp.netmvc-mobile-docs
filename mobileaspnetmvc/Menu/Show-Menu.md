@@ -11,11 +11,11 @@ documentation: ug
 
 The Menu is shown by tap or taphold action on the target element and by setting the ID of target element in TargetId property. Set the ShowOn property to specify the event after which the Menu is shown. By updating the desired event, the Menu shows when that particular event happens on the target element. Refer to the following code example. Here button is the target control (element). So its target ID (“menutarget”) is mentioned in the TargetId property. On clicking it, Menu control is displayed. 
 
-    &lt;div style="text-align: center;"&gt;
+    <div style="text-align: center;">
 
         @Html.EJMobile().Button("menutarget").Text("Menu")
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Menu("menu_sample").TargetId("menutarget").ShowOn(ShowOn.Tap).Items(item =>
 
@@ -31,7 +31,7 @@ The Menu is shown by tap or taphold action on the target element and by setting 
 
 The following screenshot displays the Show Menu:
 
-{ ![ShowOn](Show-Menu_images/Show-Menu_img1.png) | markdownify }
+{{ '![ShowOn](Show-Menu_images/Show-Menu_img1.png)' | markdownify }}
 {:.image }
 
 

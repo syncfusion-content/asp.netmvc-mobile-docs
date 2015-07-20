@@ -21,7 +21,7 @@ WatermarkText property displays text in the AutoComplete textbox when it is empt
 
 The following screenshot displays Watermark text:
 
-{ ![](WatermarkText_images/WatermarkText_img1.png) | markdownify }
+{{ '![](WatermarkText_images/WatermarkText_img1.png)' | markdownify }}
 {:.image }
 
 

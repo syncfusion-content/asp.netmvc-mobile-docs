@@ -29,7 +29,7 @@ Refer to the following code example.
 
 The following screenshot displays the ShowBorder property.
 
-{ ![D:/Final Doc/mockup/IMG_0527_iphone5s_spacegrey_portrait.png](Border-support_images/Border-support_img1.png) | markdownify }
+{{ '![D:/Final Doc/mockup/IMG_0527_iphone5s_spacegrey_portrait.png](Border-support_images/Border-support_img1.png)' | markdownify }}
 {:.image }
 
 

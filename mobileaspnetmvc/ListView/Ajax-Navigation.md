@@ -29,7 +29,7 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
    })
 
-    &lt;style&gt;
+    <style>
 
         .listrightdiv
 
@@ -39,7 +39,7 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 
@@ -47,57 +47,57 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
 @*Load1.html*@
 
-&lt;div class="listrightdiv"&gt;      
+<div class="listrightdiv">      
 
-&lt;span class="subtitlestyle"&gt;<b>Movie Info:&lt;/b&gt;&lt;/span&gt;
+<span class="subtitlestyle"><b>Movie Info:</b></span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       A young boy learns that he has extraordinary powers and is not of this Earth.
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 @*Load2.html*@
 
-&lt;div class="listrightdiv"&gt;
+<div class="listrightdiv">
 
-&lt;span class="subtitlestyle"&gt;<b>Movie Info:&lt;/b&gt;&lt;/span&gt;
+<span class="subtitlestyle"><b>Movie Info:</b></span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       The story revolves around United Nations employee Gerry Lane (Pitt).
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 @*Load3.html*@
 
-&lt;div class="listrightdiv"&gt;
+<div class="listrightdiv">
 
-&lt;span class="subtitlestyle"&gt;<b>Movie Info:&lt;/b&gt;&lt;/span&gt;
+<span class="subtitlestyle"><b>Movie Info:</b></span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 The following screenshot displays the Enable Ajax:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -137,57 +137,57 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 
 @*Load1.cshtml*@
 
-&lt;div class="listrightdiv"&gt;
+<div class="listrightdiv">
 
-      <span class="templatetext">Man of Steel</span> <span class="subtitlestyle">Movie Info:&lt;/span&gt;
+      <span class="templatetext">Man of Steel</span> <span class="subtitlestyle">Movie Info:</span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       A young boy learns that he has extraordinary powers and is not of this Earth.
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 @*Load2.cshtml*@
 
-&lt;div class="listrightdiv"&gt;
+<div class="listrightdiv">
 
-      <span class="templatetext">World War Z</span> <span class="subtitlestyle">Movie Info:&lt;/span&gt;
+      <span class="templatetext">World War Z</span> <span class="subtitlestyle">Movie Info:</span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       The story revolves around United Nations employee Gerry Lane (Pitt).
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 @*Load3.cshtml*@
 
-&lt;div class="listrightdiv"&gt;
+<div class="listrightdiv">
 
-      <span class="templatetext">Monsters University</span> <span class="subtitlestyle">Movie Info:&lt;/span&gt;
+      <span class="templatetext">Monsters University</span> <span class="subtitlestyle">Movie Info:</span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 The following screenshots display the Ajax Settings:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -219,49 +219,49 @@ EnableCache is used to prevent loading Ajax content every time. This is set to t
 
 @*Load1.cshtml*@
 
-&lt;div class="listrightdiv"&gt;
+<div class="listrightdiv">
 
-      <span class="templatetext">Man of Steel</span> <span class="subtitlestyle">Movie Info:&lt;/span&gt;
+      <span class="templatetext">Man of Steel</span> <span class="subtitlestyle">Movie Info:</span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       A young boy learns that he has extraordinary powers and is not of this Earth.
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 @*Load2.cshtml*@
 
-&lt;div class="listrightdiv"&gt;
+<div class="listrightdiv">
 
-      <span class="templatetext">World War Z</span> <span class="subtitlestyle">Movie Info:&lt;/span&gt;
+      <span class="templatetext">World War Z</span> <span class="subtitlestyle">Movie Info:</span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       The story revolves around United Nations employee Gerry Lane (Pitt).
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 @*Load3.cshtml*@
 
-&lt;div class="listrightdiv"&gt;
+<div class="listrightdiv">
 
-      <span class="templatetext">Monsters University</span> <span class="subtitlestyle">Movie Info:&lt;/span&gt;
+      <span class="templatetext">Monsters University</span> <span class="subtitlestyle">Movie Info:</span>
 
-      &lt;div class="subtitlestyle"&gt;
+      <div class="subtitlestyle">
 
       Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
 
-      &lt;/div&gt;
+      </div>
 
-&lt;/div&gt;
+</div>
 
 
 

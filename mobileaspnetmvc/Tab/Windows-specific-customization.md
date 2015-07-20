@@ -27,7 +27,7 @@ In the Windows phone, by default the Tab title's text is in the lower case irres
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
@@ -43,7 +43,7 @@ In the Windows phone, by default the Tab title's text is in the lower case irres
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
@@ -55,7 +55,7 @@ In the Windows phone, by default the Tab title's text is in the lower case irres
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
@@ -71,7 +71,7 @@ In the Windows phone, by default the Tab title's text is in the lower case irres
 
 The following screenshot displays window specific customization:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab6.png](Windows-specific-customization_images/Windows-specific-customization_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab6.png](Windows-specific-customization_images/Windows-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -93,7 +93,7 @@ The Position property holds fixed and normal values. Normal position allows rela
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
@@ -109,7 +109,7 @@ The Position property holds fixed and normal values. Normal position allows rela
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
@@ -121,7 +121,7 @@ The Position property holds fixed and normal values. Normal position allows rela
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
@@ -137,7 +137,7 @@ The Position property holds fixed and normal values. Normal position allows rela
 
 The following screenshot displays the Window Specific Customization Position:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab7.png](Windows-specific-customization_images/Windows-specific-customization_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab7.png](Windows-specific-customization_images/Windows-specific-customization_img2.png)' | markdownify }}
 {:.image }
 
 

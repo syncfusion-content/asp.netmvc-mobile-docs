@@ -15,7 +15,7 @@ Refer to the following code example.
 
 
 
-&lt;div id="target" class="targeticon"&gt;&lt;/div&gt;      @Html.EJMobile().NavigationDrawer("navpane").TargetId("target").EnableListView(true).ListViewSettings(list =>
+<div id="target" class="targeticon"></div>      @Html.EJMobile().NavigationDrawer("navpane").TargetId("target").EnableListView(true).ListViewSettings(list =>
 
 {
 
@@ -39,43 +39,43 @@ Refer to the following code example.
 
 
 
-    &lt;div id="content" style="margin-top: 45px;"&gt;
+    <div id="content" style="margin-top: 45px;">
 
-        &lt;div id="Home"&gt;
+        <div id="Home">
 
               The Home screen allows you to choose the specific content type displayed.
 
 
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;div id="Profile" style="display: none"&gt;
+        <div id="Profile" style="display: none">
 
             The Profile page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
 
 
-        &lt;div id="Photos" style="display: none"&gt;
+        <div id="Photos" style="display: none">
 
             The Photos page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
 
 
-        &lt;div id="Location" style="display: none"&gt;
+        <div id="Location" style="display: none">
 
             The Location page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
 
 
-    &lt;style&gt;
+    <style>
 
         .targeticon {
 
@@ -95,19 +95,19 @@ Refer to the following code example.
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 
 Refer to the script section to update the page content while clicking the item in the drawer.
 
-{ ![](Configure-target-element_images/Configure-target-element_img1.png) | markdownify }
+{{ '![](Configure-target-element_images/Configure-target-element_img1.png)' | markdownify }}
 {:.image }
 
 
 You can display the drawer either by clicking on the target icon or else by swiping from left. Refer to the following screenshot.
 
-{ ![](Configure-target-element_images/Configure-target-element_img2.png) | markdownify }
+{{ '![](Configure-target-element_images/Configure-target-element_img2.png)' | markdownify }}
 {:.image }
 
 

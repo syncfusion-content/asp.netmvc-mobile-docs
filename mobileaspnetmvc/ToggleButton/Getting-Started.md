@@ -15,7 +15,7 @@ This section briefly describes about how to create a Toggle button and how to us
 
 The ASP.NET MVC Mobile Toggle Button functions, to switch On/Off functions such as Wi - Fi, Bluetooth in mobile.
 
-{ ![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -25,17 +25,17 @@ The Toggle Button widget is rendered based on the default values for all the pro
 
 1. Add the following code to the corresponding Layout.cshtml page.
 
- &lt;!-- Header control --&gt;
+ <!-- Header control -->
 
 @Html.EJMobile().Header("header").Title("Settings") .Position(MobileHeaderPosition.Normal)
 
-&lt;div&gt;
+<div>
 
           @RenderBody()  
 
-&lt;/div&gt;
+</div>
 
-&lt;!-- Scroll Panel control --&gt;
+<!-- Scroll Panel control -->
 
 @Html.EJMobile().Scrollpanel("scrollpanel").Target("content")
 
@@ -43,25 +43,25 @@ The Toggle Button widget is rendered based on the default values for all the pro
 
 2. To render Toggle Button control, add the following code to the corresponding view page. 
 
-&lt;!-- Toggle Button control --&gt;
+<!-- Toggle Button control -->
 
-        &lt;div id="content" style="margin: 25px 30px;"&gt;
+        <div id="content" style="margin: 25px 30px;">
 
-        &lt;div class="togglesamtext"&gt;
+        <div class="togglesamtext">
 
             Wi-Fi
 
-        &lt;/div&gt;
+        </div>
 
 
 
-        &lt;div class="togglesamele" style="float:right"&gt;
+        <div class="togglesamele" style="float:right">
 
             @Html.EJMobile().ToggleButton("toggle").ToggleState(true)
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
 
 
@@ -71,7 +71,7 @@ The Toggle Button widget is rendered based on the default values for all the pro
 
 
 
-{ ![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/durga/Pictures/image1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -81,12 +81,12 @@ You can customize the initial Toggle Button rendering state by setting the Toggl
 
 Add the following code to set the ToggleState property.
 
-&lt;!-- Toggle Button control --&gt;
+<!-- Toggle Button control -->
 
-  &lt;div class="togglesamele" style="float: right"&gt;
+  <div class="togglesamele" style="float: right">
 
             @Html.EJMobile().ToggleButton("toggle").ToggleState(false)
-  &lt;/div&gt;
+  </div>
 
 
 
@@ -94,7 +94,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![C:/Users/durga/Pictures/image2.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/durga/Pictures/image2.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -104,19 +104,19 @@ In this application, when the Toggle Button state is changed, a dialog appears t
 
 Add the following code to render the dialog when the toggle state is changed.
 
-&lt;!-- Toggle Button control --&gt;
+<!-- Toggle Button control -->
 
-&lt;div class="togglesamele" style="float: right"&gt;
+<div class="togglesamele" style="float: right">
 
             @Html.EJMobile().ToggleButton("toggle").ToggleState(false).ClientSideEvents(evt => { evt.Change("showDialog"); })
 
-        &lt;/div&gt;
+        </div>
 
 
 
 
 
-&lt;!--Dialog Control--&gt;
+<!--Dialog Control-->
 
 //to create dialog object
 
@@ -126,7 +126,7 @@ Add the following code to render the dialog when the toggle state is changed.
 
 }
 
-&lt;script&gt;
+<script>
 
     function alertClose() {
 
@@ -144,13 +144,13 @@ Add the following code to render the dialog when the toggle state is changed.
 
 
 
-&lt;/script&gt;
+</script>
 
 
 
 Execute the above code to render the following output.
 
-{ ![C:/Users/durga/Pictures/image3.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![C:/Users/durga/Pictures/image3.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

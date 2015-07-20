@@ -22,19 +22,19 @@ Default value: Small
 
 Refer to the following code example.
 
-&lt;div style="margin-top:45px;"&gt;
+<div style="margin-top:45px;">
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
 @Html.EJMobile().Tile("tile").ImageUrl("map.png").ImagePath(Url.Content("~/themes/sample/tileview")).TileSize(TileSize.Medium).ImagePosition(TileImagePosition.Fill).Text("map")
 
-&lt;/div&gt;
+</div>
 
 
 
 The following screenshot illustrates the output of the above code.
 
-{ ![](Customize-size_images/Customize-size_img1.png) | markdownify }
+{{ '![](Customize-size_images/Customize-size_img1.png)' | markdownify }}
 {:.image }
 
 

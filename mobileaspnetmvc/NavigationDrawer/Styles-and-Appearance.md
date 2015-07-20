@@ -49,7 +49,7 @@ This class is applied to visibility of Navigation Drawer.</td></tr>
 <tr>
 <td>
 e-m-nb-container</td><td>
-This class is applied to Navigation Drawer container &lt;div&gt; element.</td></tr>
+This class is applied to Navigation Drawer container <div> element.</td></tr>
 <tr>
 <td>
 e-m-nb-layout</td><td>

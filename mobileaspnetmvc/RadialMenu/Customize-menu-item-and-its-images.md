@@ -35,7 +35,7 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/lig
 
 })
 
-&lt;script&gt;
+<script>
 
     function click(e) {
 
@@ -43,7 +43,7 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/lig
 
     }
 
-&lt;/script&gt;
+</script>
 
 
 

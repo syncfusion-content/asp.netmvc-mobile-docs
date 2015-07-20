@@ -19,7 +19,7 @@ The RenderDefault property is used to enable the iOS7 native DatePicker. But, by
 
 The following screenshot displays the output.
 
-{ ![](Native-DatePicker_images/Native-DatePicker_img1.png) | markdownify }
+{{ '![](Native-DatePicker_images/Native-DatePicker_img1.png)' | markdownify }}
 {:.image }
 
 

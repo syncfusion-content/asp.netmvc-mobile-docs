@@ -17,7 +17,7 @@ In Footer control, you can view the next page by using the ShowRightButton. You 
 
 The following screenshot displays the output.
 
-{ ![](Customize-Right-Button_images/Customize-Right-Button_img1.png) | markdownify }
+{{ '![](Customize-Right-Button_images/Customize-Right-Button_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -29,7 +29,7 @@ To specify the caption (text) for Footer Right Button, set RightButtonCaption pr
 
 The following screenshot displays the output.
 
-{ ![](Customize-Right-Button_images/Customize-Right-Button_img2.png) | markdownify }
+{{ '![](Customize-Right-Button_images/Customize-Right-Button_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -47,15 +47,15 @@ Footer has template support feature. The templateID property is used to define t
 
 
 
- &lt;div id="template" class="temp"&gt;
+ <div id="template" class="temp">
 
 @Html.EJMobile().Rating("rating") 
 
- &lt;/div&gt; 
+ </div> 
 
 The following screenshot displays the output.
 
-{ ![F:/ios7_phone.png](Customize-Right-Button_images/Customize-Right-Button_img3.png) | markdownify }
+{{ '![F:/ios7_phone.png](Customize-Right-Button_images/Customize-Right-Button_img3.png)' | markdownify }}
 {:.image }
 
 

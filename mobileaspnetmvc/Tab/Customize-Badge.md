@@ -31,7 +31,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
 
@@ -47,7 +47,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
@@ -59,7 +59,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
@@ -75,7 +75,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
 The following screenshot displays the Customization of Badge:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab4.png](Customize-Badge_images/Customize-Badge_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab4.png](Customize-Badge_images/Customize-Badge_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -97,7 +97,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
 
@@ -113,7 +113,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
@@ -125,7 +125,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
@@ -143,7 +143,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
 The following screenshot displays the MaxValue:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png)' | markdownify }}
 {:.image }
 
 

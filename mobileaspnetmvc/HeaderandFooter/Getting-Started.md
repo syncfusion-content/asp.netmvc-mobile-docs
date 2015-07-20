@@ -15,7 +15,7 @@ In this section you will learn how to create Header and Footer in your Mobile ap
 
 The ASP.NET MVC Mobile Header is placed at the top of the page. It usually contains page title and optional buttons positioned to the left and right for navigation or actions. The position of Header can be fixed according to your requirement. The ASP.NET MVC MobileFooter has the same structure as header but it is at the bottom of the page. You can use the following guidelines to learn about the features in Mobile Header and Footer controls and use it to create a webpage.
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -25,21 +25,21 @@ Header and Footer controls are rendered based on the default values of all the p
 
 Create a simple MVC application and paste the scrollpanel layout page content inside the body tag of layout.cshtml. You can create an MVC Project and add necessary Dlls and scripts with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm)for Mobile.
 
-&lt;div id="page" data-role="appview"&gt;
+<div id="page" data-role="appview">
 
 
 
-       &lt;!-- Add Header control here --&gt;       
+       <!-- Add Header control here -->       
 
 
 
-        &lt;div id="content"&gt;
+        <div id="content">
 
-        &lt;div&gt;        
+        <div>        
 
-        &lt;!-- Adding web page content Here --&gt;
+        <!-- Adding web page content Here -->
 
-         &lt;div class="companydetails"&gt;&lt;/div&gt;
+         <div class="companydetails"></div>
 
                 Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning.
 
@@ -51,27 +51,27 @@ Create a simple MVC application and paste the scrollpanel layout page content in
 
                 At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies.
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;!--Scroll Panel--&gt;
+        <!--Scroll Panel-->
 
 @Html.EJMobile().Scrollpanel("header").Target("content")
 
- &lt;!-- Dialog --&gt;        @Html.EJMobile().Dialog("dialog").Title("Event").LeftButtonCaption("Ok").EnableModal(true).ClientSideEvents(evt => { evt.ButtonTap("dlgclose"); }).Content(@&lt;div id="dlgcontent"&gt;&lt;/div&gt;)
+ <!-- Dialog -->        @Html.EJMobile().Dialog("dialog").Title("Event").LeftButtonCaption("Ok").EnableModal(true).ClientSideEvents(evt => { evt.ButtonTap("dlgclose"); }).Content(@<div id="dlgcontent"></div>)
 
 
 
-&lt;!-- Add Footer control here --&gt;
+<!-- Add Footer control here -->
 
 
 
-&lt;/div&gt;
+</div>
 
 Use the following styles to add webpage content element.
 
-&lt;style type="text/css"&gt;
+<style type="text/css">
 
         .companydetails {
 
@@ -91,11 +91,11 @@ Use the following styles to add webpage content element.
 
         } 
 
- &lt;/style&gt;
+ </style>
 
 Run the above code and you can see the following output. 
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -113,7 +113,7 @@ To set Header title, you can set the Title API with the desired heading; in this
 
 Run the above code and you can see the following output. 
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -129,7 +129,7 @@ To enable HeaderButtons, set the ShowLeftButton and ShowRightButtonAPI values as
 
 Run the above code and you can see the following output. 
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -145,7 +145,7 @@ You can add functionalities for the left and right Header Buttons by triggering 
 @Html.EJMobile().Header("header").Title("Syncfusion").ShowLeftButton(true).ShowRightButton(true).LeftButtonCaption("Back").RightButtonCaption("Next").ClientSideEvents(evt=>{ evt.LeftButtonTap("buttonclicked");evt.RightButtonTap("buttonclicked"); })</td></tr>
 <tr>
 <td>
- &lt;script&gt;//Adding script for header buttons events    function buttonclicked(args) {        $("#dlgcontent").html(args.text + " was selected");        $("#dialog").ejmDialog("open");    }    function dlgclose() {        $("#dialog").ejmDialog("close");    }<br>&lt;/script&gt;</td></tr>
+ <script>//Adding script for header buttons events    function buttonclicked(args) {        $("#dlgcontent").html(args.text + " was selected");        $("#dialog").ejmDialog("open");    }    function dlgclose() {        $("#dialog").ejmDialog("close");    }<br></script></td></tr>
 </table>
 Run the above code and you can see the following output, when you click the Back and Next buttons respectively. 
 
@@ -171,7 +171,7 @@ To set Footer title, set Title API with the desired title. In this case, you can
 
 Run the above code and you can see the following output. 
 
-{ ![](Getting-Started_images/Getting-Started_img7.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
 {:.image }
 
 

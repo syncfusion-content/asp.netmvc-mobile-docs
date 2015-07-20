@@ -15,7 +15,7 @@ This section explains briefly on how to create an AutoComplete control in your a
 
 The ASP.NET MVC Mobile AutoComplete control is a textbox control that provides a list of suggestions based on the query.  When you enter text into the text box, the control performs a search operation and provides a list of results. There are several filter types available, to perform the search. In the following example, you can learn how to create an application to search for a contact and learn about the features in AutoComplete widget.
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -33,15 +33,15 @@ Add the following code layout to the corresponding master page.
 
     @Html.EJMobile().Header("header").Title("Contacts")
 
-    &lt;div id="content"&gt;
+    <div id="content">
 
-        &lt;div&gt;   
+        <div>   
 
              @RenderBody()
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Scrollpanel("scroll").Target("content")
 
@@ -52,18 +52,18 @@ Add the following code layout to the corresponding master page.
 Add the following code example to render the AutoComplete control in the corresponding view page.
 
 
-&lt;div style="padding: 5px 0; text-indent: 5px;"&gt;
+<div style="padding: 5px 0; text-indent: 5px;">
 
         Select Contacts
 
-    &lt;/div&gt;
- &lt;!-- Autocomplete control --&gt;
+    </div>
+ <!-- Autocomplete control -->
 
 @Html.EJMobile().AutoComplete("contacts")   
 
 
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -76,14 +76,14 @@ You can customize watermark text using the WatermarkText property as follows.
 
 
 
-     &lt;!-- Autocomplete control --&gt;
+     <!-- Autocomplete control -->
 
 @Html.EJMobile().AutoComplete("contacts").WatermarkText("Search Contacts")
 
 
 
 
-{ ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -115,7 +115,7 @@ public ActionResult Contacts()
 
 
 
-     &lt;!-- Autocomplete control --&gt;
+     <!-- Autocomplete control -->
 
 
 
@@ -129,7 +129,7 @@ public ActionResult Contacts()
 
 Run the above code and type the contact details to search for (In this example, you can type A) in the AutoComplete textbox, and you can see the result displayed.
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -139,7 +139,7 @@ AutoComplete textbox enables you to select multiple items from the suggestions l
 
 
      <label>Select Contacts</label>
-     &lt;!-- Autocomplete control --&gt;
+     <!-- Autocomplete control -->
 
 @model List<Contacts>
 
@@ -148,7 +148,7 @@ AutoComplete textbox enables you to select multiple items from the suggestions l
 
 Run the above code and type the necessary query in the textbox. The contact is displayed as shown in the following screenshot.
 
-{ ![](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -156,19 +156,19 @@ Event handling
 
 The Select eventenables you to handle AutoComplete selection. By assigning a function name to the event, you can handle the selection. Here you can set Select event with the function name OnSelect.  By processing the onSelect( ) function, you can implement the necessary actions. In this example, the full Contact detail of the selected contact name is displayed. 
 
-          &lt;!-- Autocomplete control --&gt;
+          <!-- Autocomplete control -->
 
 @Html.EJMobile().AutoComplete("contacts").WatermarkText("Search Contacts").DataSource(Model).Field("name").EnableMultiSelect(true).DelimiterChar(";").ClientSideEvents(c => c.Select("onSelect"))   
 
-     &lt;!-- onSelect() function is called on selection of a suggestion item.--&gt;
+     <!-- onSelect() function is called on selection of a suggestion item.-->
 
-     &lt;!-- Dialog control --&gt;
+     <!-- Dialog control -->
 
-@Html.EJMobile().Dialog("dialog").Title("Alert").EnableModal(true).LeftButtonCaption("OK").ClientSideEvents(c => c.ButtonTap("hidedialog")).Content(@&lt;div id="dialogcontent"&gt;&lt;!-- Dialog content --&gt;&lt;/div&gt;)
+@Html.EJMobile().Dialog("dialog").Title("Alert").EnableModal(true).LeftButtonCaption("OK").ClientSideEvents(c => c.ButtonTap("hidedialog")).Content(@<div id="dialogcontent"><!-- Dialog content --></div>)
 
-     &lt;/div&gt;
+     </div>
 
-    &lt;script&gt;
+    <script>
 
        function onSelect(args) {
 
@@ -191,11 +191,11 @@ The Select eventenables you to handle AutoComplete selection. By assigning a fun
             dialogobj.close();
 
         } 
-   &lt;/script&gt;
+   </script>
 
 
 
-&lt;style&gt;
+<style>
 
     .appview.e-m-windows.e-m-light #content {
 
@@ -211,12 +211,12 @@ The Select eventenables you to handle AutoComplete selection. By assigning a fun
 
     }
 
-&lt;/style&gt;
+</style>
 
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 

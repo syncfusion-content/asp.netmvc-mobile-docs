@@ -27,7 +27,7 @@ Refer to the following code example.
 
 The following screenshot displays the customization of the text with WatermarkText property.
 
-{ ![D:/Final Doc/mockup/IMG_0530_iphone5s_spacegrey_portrait.png](Customize-Watermark-text_images/Customize-Watermark-text_img1.png) | markdownify }
+{{ '![D:/Final Doc/mockup/IMG_0530_iphone5s_spacegrey_portrait.png](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)' | markdownify }}
 {:.image }
 
 

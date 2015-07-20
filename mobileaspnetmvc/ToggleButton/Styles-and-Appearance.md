@@ -29,23 +29,23 @@ This is the root class of the Toggle Button.</td></tr>
 <tr>
 <td>
 e-m-innerdiv</td><td>
-This class is applied to &lt;div&gt; element inside Toggle Button.</td></tr>
+This class is applied to <div> element inside Toggle Button.</td></tr>
 <tr>
 <td>
 e-m-tslider</td><td>
-This class is applied to slider &lt;div&gt; element inside innerdiv element of Toggle Button.</td></tr>
+This class is applied to slider <div> element inside innerdiv element of Toggle Button.</td></tr>
 <tr>
 <td>
 e-m-onstate</td><td>
-This class is applied to &lt;div&gt; element inside innerdiv element of Toggle Button.</td></tr>
+This class is applied to <div> element inside innerdiv element of Toggle Button.</td></tr>
 <tr>
 <td>
 e-m-active</td><td>
-This class is applied to onstate &lt;div&gt; element of Toggle Button when control is ON.</td></tr>
+This class is applied to onstate <div> element of Toggle Button when control is ON.</td></tr>
 <tr>
 <td>
 e-m-default</td><td>
-This class is applied to onstate &lt;div&gt; element of Toggle Button when control is OFF.</td></tr>
+This class is applied to onstate <div> element of Toggle Button when control is OFF.</td></tr>
 <tr>
 <td>
 e-m-state-disabled</td><td>

@@ -112,7 +112,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![18](Filtering_images/Filtering_img1.png) | markdownify }
+{{ '![18](Filtering_images/Filtering_img1.png)' | markdownify }}
 {:.image }
 
 

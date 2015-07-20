@@ -27,7 +27,7 @@ Refer to the following code example.
 
 
 
-{ ![D:/Final Doc/mockup/IMG_0523_iphone5s_spacegrey_portrait.png](Enable-and-Disable_images/Enable-and-Disable_img1.png) | markdownify }
+{{ '![D:/Final Doc/mockup/IMG_0523_iphone5s_spacegrey_portrait.png](Enable-and-Disable_images/Enable-and-Disable_img1.png)' | markdownify }}
 {:.image }
 
 

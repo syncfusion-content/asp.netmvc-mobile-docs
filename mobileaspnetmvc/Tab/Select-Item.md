@@ -23,7 +23,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
 
@@ -39,7 +39,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
@@ -51,7 +51,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
@@ -67,7 +67,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
 The following screenshot displays the Selected Items:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab5.png](Select-Item_images/Select-Item_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab5.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
 {:.image }
 
 

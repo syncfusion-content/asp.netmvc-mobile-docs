@@ -17,7 +17,7 @@ Customize Toolbar
 
 ShowToolbar property is used to show/hide the toolbar when the control is rendered in android mode. You can customize toolbar title by using this toolbarSettings property. 
 
-@Html.EJMobile().SplitPane("splitpane").RenderMode(RenderMode.Android).ToolbarSettings(tool=>tool.Android(toolbar=>toolbar.Title("ToolbarHeader"))).LeftPaneTemplate(@&lt;div&gt;
+@Html.EJMobile().SplitPane("splitpane").RenderMode(RenderMode.Android).ToolbarSettings(tool=>tool.Android(toolbar=>toolbar.Title("ToolbarHeader"))).LeftPaneTemplate(@<div>
 
     @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
 
@@ -37,13 +37,13 @@ ShowToolbar property is used to show/hide the toolbar when the control is render
 
    })
 
-    &lt;/div&gt;)   
+    </div>)   
 
 
 
 Refer to the script section and page content section to load the right pane content of appropriate page created. The following screenshot illustrates the output.
 
-{ ![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png) | markdownify }
+{{ '![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

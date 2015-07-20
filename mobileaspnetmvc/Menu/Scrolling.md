@@ -13,11 +13,11 @@ The AllowScrolling property defines whether to allow the scrolling behavior or n
 
 
 
-    &lt;div style="text-align: center;"&gt;
+    <div style="text-align: center;">
 
         @Html.EJMobile().Button("menuitem").Text("Menu")
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").AllowScrolling(true).ShowScrollbars(true).Height(200).Items(item =>
 
@@ -45,7 +45,7 @@ The AllowScrolling property defines whether to allow the scrolling behavior or n
 
 The following screenshot displays Scrolling:
 
-{ ![ShowScrollBars](Scrolling_images/Scrolling_img1.png) | markdownify }
+{{ '![ShowScrollBars](Scrolling_images/Scrolling_img1.png)' | markdownify }}
 {:.image }
 
 

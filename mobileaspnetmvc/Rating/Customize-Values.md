@@ -17,7 +17,7 @@ The MaximumValue property is used to denote the maximum value up to which the ra
 
 The following screenshot displays the output.
 
-{ ![C:/Users/Vignesh Kumar/Desktop/2.png](Customize-Values_images/Customize-Values_img1.png) | markdownify }
+{{ '![C:/Users/Vignesh Kumar/Desktop/2.png](Customize-Values_images/Customize-Values_img1.png)' | markdownify }}
 {:.image }
 
 

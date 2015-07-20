@@ -19,7 +19,7 @@ The ReadOnly property is used to disable the interaction in the Rating control. 
 
 The following screenshot displays the output:                        
 
-{ ![](Disable-Rating_images/Disable-Rating_img1.png) | markdownify }
+{{ '![](Disable-Rating_images/Disable-Rating_img1.png)' | markdownify }}
 {:.image }
 
 

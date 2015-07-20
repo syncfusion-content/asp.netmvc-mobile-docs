@@ -19,7 +19,7 @@ The culture property is used to enable the localization support. The default val
 
 The following screenshot displays the output.
 
-{ ![](Localization_images/Localization_img1.png) | markdownify }
+{{ '![](Localization_images/Localization_img1.png)' | markdownify }}
 {:.image }
 
 

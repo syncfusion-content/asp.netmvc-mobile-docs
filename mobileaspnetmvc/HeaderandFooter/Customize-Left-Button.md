@@ -17,7 +17,7 @@ In Footer control, you can view the previous page by using the ShowLeftButton. Y
 
 The following screenshot displays the output.
 
-{ ![](Customize-Left-Button_images/Customize-Left-Button_img1.png) | markdownify }
+{{ '![](Customize-Left-Button_images/Customize-Left-Button_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -29,7 +29,7 @@ To specify the caption (text) for Footer left button, set LeftButtonCaption prop
 
 The following screenshot displays the output.
 
-{ ![](Customize-Left-Button_images/Customize-Left-Button_img2.png) | markdownify }
+{{ '![](Customize-Left-Button_images/Customize-Left-Button_img2.png)' | markdownify }}
 {:.image }
 
 

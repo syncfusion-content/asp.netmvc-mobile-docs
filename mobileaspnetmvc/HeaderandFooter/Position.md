@@ -20,7 +20,7 @@ The Position property is used to customize the Footer Position. You can set the 
 
 The following screenshot displays the output.
 
-{ ![](Position_images/Position_img1.png) | markdownify }
+{{ '![](Position_images/Position_img1.png)' | markdownify }}
 {:.image }
 
 

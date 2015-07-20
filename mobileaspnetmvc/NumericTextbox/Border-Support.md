@@ -25,7 +25,7 @@ The ShowBorder property is used to specify whether Textbox border is visible
 
 The following screenshot displays the output.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image20_45.png](Border-Support_images/Border-Support_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_45.png](Border-Support_images/Border-Support_img1.png)' | markdownify }}
 {:.image }
 
 

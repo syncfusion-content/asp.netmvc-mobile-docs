@@ -31,7 +31,7 @@ SelectedItemIndex(1).Name("options").Buttons(button =>
 
 The following screenshot displays the Selected Item Index:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/android_1.png](Select-Item_images/Select-Item_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/android_1.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
 {:.image }
 
 

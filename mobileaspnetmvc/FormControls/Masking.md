@@ -21,7 +21,7 @@ Refer to the following code example.
 
 
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML195b49f5.PNG](Masking_images/Masking_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML195b49f5.PNG](Masking_images/Masking_img1.png)' | markdownify }}
 {:.image }
 
 

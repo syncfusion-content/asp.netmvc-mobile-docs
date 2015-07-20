@@ -149,7 +149,7 @@ You have options to set the state of the RadioButton either as checked or unchec
 
 The following screenshot displays the checkedstatus:
 
-{ ![](Easy-Customization_images/Easy-Customization_img1.png) | markdownify }
+{{ '![](Easy-Customization_images/Easy-Customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -291,7 +291,7 @@ This is a Boolean property that lets you enable or disable the options. When set
 
 The following screenshot displays the disabledRadioButton.
 
-{ ![](Easy-Customization_images/Easy-Customization_img2.png) | markdownify }
+{{ '![](Easy-Customization_images/Easy-Customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -421,7 +421,7 @@ Specifies the text content for the RadioButton. In previous programs, separate l
 
 The following screenshot displays the customized labels in RadioButton.
 
-{ ![](Easy-Customization_images/Easy-Customization_img3.png) | markdownify }
+{{ '![](Easy-Customization_images/Easy-Customization_img3.png)' | markdownify }}
 {:.image }
 
 

@@ -47,7 +47,7 @@ Scrolling is an important feature in Mobile Grid. It makes Grid more compatible 
 
 Result of above code snippet
 
-{ ![22](Scrolling_images/Scrolling_img1.png) | markdownify }
+{{ '![22](Scrolling_images/Scrolling_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -96,7 +96,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![23](Scrolling_images/Scrolling_img2.png) | markdownify }
+{{ '![23](Scrolling_images/Scrolling_img2.png)' | markdownify }}
 {:.image }
 
 

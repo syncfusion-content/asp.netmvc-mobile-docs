@@ -17,7 +17,7 @@ The ASP.NET MVC DatePicker allows you to display the picker element in your webp
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -29,15 +29,15 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 
 @Html.EJMobile().Header("header").Title("Ticket Booking")
 
-&lt;div id="content_container"&gt;
+<div id="content_container">
 
-    &lt;div&gt;
+    <div>
 
-       &lt;!-- Add DatePicker Elements here --&gt;
+       <!-- Add DatePicker Elements here -->
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -47,53 +47,53 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 
 
 
-    &lt;table&gt;
+    <table>
 
-            &lt;tr&gt;
+            <tr>
 
                 <td class="tdclass">Onward Date</td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td class="tdclass"&gt;
+                <td class="tdclass">
 
-                    &lt;span class="innerdp"&gt;
+                    <span class="innerdp">
 
-              &lt;!-- DatePicker control --&gt;
+              <!-- DatePicker control -->
 
               @Html.EJMobile().DatePicker("startDate")
 
-                    &lt;/span&gt;
+                    </span>
 
-                &lt;/td&gt;
+                </td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
                 <td class="tdclass">Return date</td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td class="tdclass"&gt;
+                <td class="tdclass">
 
-                    &lt;span class="innerdp"&gt;
+                    <span class="innerdp">
 
-              &lt;!-- DatePicker control --&gt;
+              <!-- DatePicker control -->
 
               @Html.EJMobile().DatePicker("endDate")
 
-                    &lt;/span&gt;
+                    </span>
 
-                &lt;/td&gt;
+                </td>
 
-            &lt;/tr&gt;
+            </tr>
 
-        &lt;/table&gt;
+        </table>
 
 
 
@@ -103,7 +103,7 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 
 
 
-    &lt;style type="text/css" class="cssStyles"&gt;
+    <style type="text/css" class="cssStyles">
 
         .tdclass
 
@@ -127,7 +127,7 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 
@@ -135,7 +135,7 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -147,7 +147,7 @@ In a real-time ticket booking scenario, the booking is open only for a limited n
 
 
 
-    &lt;script type="text/javascript"&gt;
+    <script type="text/javascript">
 
         var curDate = new Date();// mentions the current date.
 
@@ -173,13 +173,13 @@ In a real-time ticket booking scenario, the booking is open only for a limited n
 
         });
 
-    &lt;/script&gt;
+    </script>
 
 
 
 Run the above code example to render the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -187,53 +187,53 @@ Set Event to Process Min and Max Date Validations
 
 In the first DatePicker, after you select the Onward Journey Date, the Return Journey Date must be selected. This validation process is done after the selection of Onward Journey Date and the changes must be reflected on the Return Journey Date selection DatePicker. You can manipulate this process using the Select event of Onward Date Picker.
 
-        &lt;table&gt;
+        <table>
 
-            &lt;tr&gt;
+            <tr>
 
                 <td class="tdclass">Onward Date</td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td class="tdclass"&gt;
+                <td class="tdclass">
 
-                    &lt;span class="innerdp"&gt;
+                    <span class="innerdp">
 
-              &lt;!-- DatePicker control --&gt;
+              <!-- DatePicker control -->
 
               @Html.EJMobile().DatePicker("startDate").ClientSideEvents(eve => { eve.Select("selectedStartDate");})
 
-                &lt;/span&gt;
+                </span>
 
-                &lt;/td&gt;
+                </td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
                 <td class="tdclass">Return date</td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td class="tdclass"&gt;
+                <td class="tdclass">
 
-                    &lt;span class="innerdp"&gt;
+                    <span class="innerdp">
 
-              &lt;!-- DatePicker control --&gt;
+              <!-- DatePicker control -->
 
               @Html.EJMobile().DatePicker("endDate")
 
-                    &lt;/span&gt;
+                    </span>
 
-                &lt;/td&gt;
+                </td>
 
-            &lt;/tr&gt;
+            </tr>
 
-        &lt;/table&gt;    
+        </table>    
 
 
 
@@ -241,7 +241,7 @@ By selecting the Onward Journey Date in the first DatePicker, you can select the
 
 
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 
         function selectedStartDate(args) {
 
@@ -253,7 +253,7 @@ By selecting the Onward Journey Date in the first DatePicker, you can select the
 
         }
 
-&lt;/script&gt;    
+</script>    
 
 
 
@@ -261,7 +261,7 @@ Run the above code and you can see the following output.
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

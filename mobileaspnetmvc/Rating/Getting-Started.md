@@ -14,7 +14,7 @@ documentation: ug
 The ASP.NET MVC, Mobile Rating Control provides an intuitive Rating experience that allows you to select a number of stars that represent a Rating.
 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -31,11 +31,11 @@ The following steps guide you to add a Rating control for a mobile application. 
 
  @Html.EJMobile().Header("header").Title(" Google Search") .Position(MobileHeaderPosition.Normal)
 
-&lt;br /&gt;
+<br />
 
 
 
-&lt;style&gt;
+<style>
 
     #image {
 
@@ -55,15 +55,15 @@ The following steps guide you to add a Rating control for a mobile application. 
 
     }
 
-&lt;/style&gt;
+</style>
 
 
 
-&lt;div&gt;
+<div>
 
     @RenderBody()
 
-&lt;/div&gt;   
+</div>   
 
 
 
@@ -75,51 +75,51 @@ The following steps guide you to add a Rating control for a mobile application. 
 
 
 
-&lt;div id="content"&gt;
+<div id="content">
 
 
 
-    &lt;div align="center" id="form" style="padding: 10px;"&gt;
+    <div align="center" id="form" style="padding: 10px;">
 
-        &lt;div id="image"&gt;
+        <div id="image">
 
-            &lt;!-- to display the google image --&gt;
+            <!-- to display the google image -->
 
-        &lt;/div&gt;
+        </div>
 
 
 
-        &lt;div style="padding: 0 20px;"&gt;
+        <div style="padding: 0 20px;">
 
-            &lt;h2&gt;
+            <h2>
 
                 Description
 
-            &lt;/h2&gt;
+            </h2>
 
             The fastest, easiest way to find what you need on the web and on your device. Quickly search the web and your phone or tablet.
 
-            &lt;br /&gt;&lt;br /&gt;
+            <br /><br />
 
-            &lt;h2&gt;
+            <h2>
 
                   Rate Me
 
-            &lt;/h2&gt;
+            </h2>
 
-        &lt;/div&gt;
+        </div>
 
-      &lt;!-- Need to render rating here --&gt;
+      <!-- Need to render rating here -->
 
-    &lt;/div&gt;
+    </div>
 
 
 
-&lt;!-- Scroll panel --&gt;
+<!-- Scroll panel -->
 
-&lt;div data-role="ejmscrollpanel" data-ej-target="content"&gt;
+<div data-role="ejmscrollpanel" data-ej-target="content">
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -139,7 +139,7 @@ Adding Rating control
 
 
 
-{ ![IMG_0180](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![IMG_0180](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -158,7 +158,7 @@ The Rating control supports three precision modes as follows.
 @Html.EJMobile().Rating("rating").Precision(Precision.Exact)
 
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 

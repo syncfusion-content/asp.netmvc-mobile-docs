@@ -17,7 +17,7 @@ The ASP.NET MVC TimePicker provides support to display the TimePicker element wi
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -31,83 +31,83 @@ Create a simple MVC application and add the following header content inside the 
 
 @Html.EJMobile().Header("header").Title("Hotel Reservation").Position(MobileHeaderPosition.Normal)
 
-   &lt;div&gt;
+   <div>
 
 @RenderBody()
 
-  &lt;/div&gt;
+  </div>
 
 
 
 Add the following code example to the corresponding view page. Here you can add two TimePickers to specify InTime and OutTime.
 
-       &lt;div align="center"&gt;
+       <div align="center">
 
- &lt;table&gt;
+ <table>
 
-             &lt;tr&gt;
+             <tr>
 
                 <td class="tdclass">Date</td>
 
-                &lt;td class="innerclass"&gt;
+                <td class="innerclass">
 
-                    &lt;span class="innerdp"&gt;
+                    <span class="innerdp">
 
-               &lt;!-- Creating DatePicker to select the booking date --&gt;
+               <!-- Creating DatePicker to select the booking date -->
 
                  @Html.EJMobile().DatePicker("entryDate")").Value("01/01/2000")
 
 
 
-                    &lt;/span&gt;
+                    </span>
 
-                &lt;/td&gt;
+                </td>
 
-             &lt;/tr&gt;
+             </tr>
 
-             &lt;tr&gt;
+             <tr>
 
                 <td class="tdclass">In Time</td>
 
-                &lt;td class="innerclass"&gt;
+                <td class="innerclass">
 
-                    &lt;span class="innerdp"&gt;
+                    <span class="innerdp">
 
-                &lt;!-- Add InTime Timepicker control here --&gt;
+                <!-- Add InTime Timepicker control here -->
 
-                    &lt;/span&gt;
+                    </span>
 
-                &lt;/td&gt;
+                </td>
 
-             &lt;/tr&gt;
+             </tr>
 
-             &lt;tr&gt;
+             <tr>
 
-                <td class="tdclass">Out Time &lt;/td&gt;
+                <td class="tdclass">Out Time </td>
 
-                &lt;td class="innerclass"&gt;
+                <td class="innerclass">
 
-                    &lt;span class="innerdp"&gt;
+                    <span class="innerdp">
 
-                &lt;!-- Add OutTime Timepicker control here --&gt;
+                <!-- Add OutTime Timepicker control here -->
 
-                    &lt;/span&gt;
+                    </span>
 
-                &lt;/td&gt;
+                </td>
 
-             &lt;/tr&gt;
+             </tr>
 
-        &lt;/table&gt;
+        </table>
 
 
 
-           &lt;div&gt;
+           <div>
 
-               &lt;!-- Creating button to reserve the hotel --&gt;
+               <!-- Creating button to reserve the hotel -->
 
                 @Html.EJMobile().Button("button").Text("Book Now").RenderMode(RenderMode.Auto).ClientSideEvents(evt=>evt.TouchEnd("displayConfirmation"))
 
-          &lt;/div&gt;                                                                        &lt;/div&gt; 
+          </div>                                                                        </div> 
 
 
 
@@ -115,7 +115,7 @@ Add the following code example to the corresponding view page. Here you can add 
 
 Run the above code to render the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -125,11 +125,11 @@ To render the TimePicker control, you can add the following code example. Here t
 
 
 
-  &lt;!-- InTime Timepicker element --&gt;
+  <!-- InTime Timepicker element -->
 
       @Html.EJMobile().TimePicker("startTime").HourMode(HourFormat.TwentyFour).Value("11:00")
 
-  &lt;!-- OutTime Timepicker element --&gt;
+  <!-- OutTime Timepicker element -->
 
       @Html.EJMobile().TimePicker("endTime").HourMode(HourFormat.TwentyFour).Value("21:00")
 
@@ -142,7 +142,7 @@ Apply the following styles to align the MVCMobileTimePicker.
 <table>
 <tr>
 <td>
-     &lt;style type="text/css" class="cssStyles"&gt;        .tdclass {            width: 100px;                        }        Table   {            margin: 10px;                }.innerclass {            width: 300px;             padding: 10px;                     }     &lt;/style&gt;</td></tr>
+     <style type="text/css" class="cssStyles">        .tdclass {            width: 100px;                        }        Table   {            margin: 10px;                }.innerclass {            width: 300px;             padding: 10px;                     }     </style></td></tr>
 <tr>
 <td>
 </td></tr>
@@ -151,7 +151,7 @@ Apply the following styles to align the MVCMobileTimePicker.
 
 Run the above code and focus on InTime or OutTimeTimePicker element (here OutTime element is focused) to render the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -161,11 +161,11 @@ The TimePicker widget supports both 12 hour and 24 hour time format. The default
 
 
 
-  &lt;!-- InTime Timepicker element --&gt;
+  <!-- InTime Timepicker element -->
 
        @Html.EJMobile().TimePicker("startTime").HourMode(HourFormat.TwentyFour)
 
-  &lt;!-- OutTime Timepicker element --&gt;
+  <!-- OutTime Timepicker element -->
 
        @Html.EJMobile().TimePicker("endTime").HourMode(HourFormat.TwentyFour)
 
@@ -175,7 +175,7 @@ The TimePicker widget supports both 12 hour and 24 hour time format. The default
 
 Run this code and focus on InTime or OutTimeTimePicker element (here OutTime element is focused) to render the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -187,7 +187,7 @@ Refer the following code example to display a confirmation message by clicking t
 
 
 
-&lt;script&gt;
+<script>
 
     function alertClose() {
 
@@ -203,13 +203,13 @@ Refer the following code example to display a confirmation message by clicking t
 
 
 
-&lt;/script&gt;
+</script>
 
 Run the above code and click Book Now button to render the confirmation message as displayed in the following screenshot.
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

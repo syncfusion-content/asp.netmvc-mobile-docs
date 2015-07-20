@@ -15,7 +15,7 @@ The RenderDefault property is used to enable iOS7 native TimePicker instead of t
 
 The following screenshot displays the output.
 
-{ ![](Native-TimePicker_images/Native-TimePicker_img1.png) | markdownify }
+{{ '![](Native-TimePicker_images/Native-TimePicker_img1.png)' | markdownify }}
 {:.image }
 
 

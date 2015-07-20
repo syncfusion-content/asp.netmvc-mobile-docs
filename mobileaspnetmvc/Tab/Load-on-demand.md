@@ -27,101 +27,101 @@ In some applications, the content for the specific Tab item is loaded only when 
 
 Create an HTML file with title mymusic.html and add the following code example to it.
 
-&lt;!DOCTYPE html&gt;
+<!DOCTYPE html>
 
-&lt;html&gt;
+<html>
 
-&lt;head&gt;
+<head>
 
 <title>Tab-Mymusic</title>
 
-&lt;/head&gt;
+</head>
 
-&lt;body&gt;
+<body>
 
-&lt;div data-role="ejmlistview" data-ej-showheader="false" id="mymusic"&gt;
+<div data-role="ejmlistview" data-ej-showheader="false" id="mymusic">
 
-    &lt;ul&gt;
+    <ul>
 
-        &lt;li data-ej-text="Not Afraid"&gt;&lt;/li&gt;
+        <li data-ej-text="Not Afraid"></li>
 
-        &lt;li data-ej-text="Get Lucky"&gt;&lt;/li&gt;
+        <li data-ej-text="Get Lucky"></li>
 
-        &lt;li data-ej-text="Roar"&gt;&lt;/li&gt;
+        <li data-ej-text="Roar"></li>
 
-        &lt;li data-ej-text="Till I Collapse"&gt;&lt;/li&gt;
+        <li data-ej-text="Till I Collapse"></li>
 
-    &lt;/ul&gt;
+    </ul>
 
-&lt;/div&gt;
+</div>
 
-&lt;/body&gt;
+</body>
 
-&lt;/html&gt;
+</html>
 
 
 
 Create a HTML file with the title favorites.html and add the following code example to it.
 
-&lt;!DOCTYPE html&gt;
+<!DOCTYPE html>
 
-&lt;html&gt;
+<html>
 
-&lt;head&gt;
+<head>
 
 <title>Tab-Favorites</title>
 
-&lt;/head&gt;
+</head>
 
-&lt;body&gt;
+<body>
 
-&lt;div data-role="ejmlistview" data-ej-showheader="false" id="favorites"&gt;
+<div data-role="ejmlistview" data-ej-showheader="false" id="favorites">
 
-    &lt;ul&gt;
+    <ul>
 
-        &lt;li data-ej-text="Dark Horse"&gt;&lt;/li&gt;
+        <li data-ej-text="Dark Horse"></li>
 
-        &lt;li data-ej-text="Roar"&gt;&lt;/li&gt;
+        <li data-ej-text="Roar"></li>
 
-    &lt;/ul&gt;
+    </ul>
 
-&lt;/div&gt;
+</div>
 
-&lt;/body&gt;
+</body>
 
-&lt;/html&gt;
+</html>
 
 
 
 Create a HTML file with the title updates.html and add the following code example to it.
 
-&lt;!DOCTYPE html&gt;
+<!DOCTYPE html>
 
-&lt;html&gt;
+<html>
 
-&lt;head&gt;
+<head>
 
 <title>Tab-Updates</title>
 
-&lt;/head&gt;
+</head>
 
-&lt;body&gt;
+<body>
 
-&lt;div data-role="ejmlistview" data-ej-showheader="false" id="updates"&gt;
+<div data-role="ejmlistview" data-ej-showheader="false" id="updates">
 
- &lt;ul&gt;
+ <ul>
 
-     &lt;li data-ej-text="New songs available for download"&gt;&lt;/li&gt;
+     <li data-ej-text="New songs available for download"></li>
 
-     &lt;li data-ej-text="1.2.1 update available"&gt;&lt;/li&gt;
+     <li data-ej-text="1.2.1 update available"></li>
 
- &lt;/ul&gt;
+ </ul>
 
-&lt;/div&gt;
+</div>
 
-&lt;/body&gt;
+</body>
 
-&lt;/html&gt;
+</html>
 
 
 

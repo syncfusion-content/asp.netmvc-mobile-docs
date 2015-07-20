@@ -15,7 +15,7 @@ In this section you will learn how to create the Essential JavaScript Mobile Tab
 
 The Essential Studio for ASP.NET MVC Mobile Tab provides a way to switch views within a web page. In the following guidelines, you can create Music App (simulator) through that you can learn the features of mobileTab widget.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image34_7.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image34_7.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -31,15 +31,15 @@ Add the following Layout code to the corresponding layout view page.
 
 @Html.EJMobile().Header("header").HideForUnSupportedDevice(true).Position(MobileHeaderPosition.Normal).Title("Music App")
 
-&lt;div id="content"&gt;
+<div id="content">
 
-    &lt;div&gt;
+    <div>
 
-       &lt;!-- Adds Tab Elements here --&gt;
+       <!-- Adds Tab Elements here -->
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 @Html.EJMobile().Scrollpanel("scrollpanel").Target("content")
 
@@ -47,7 +47,7 @@ Add the following Layout code to the corresponding layout view page.
 
 To render the Tab control, you add the following code example in the corresponding view page and specify the list of Tab items to be added in the “Items” API. Specify a value for “Text” property to set text for each item.
 
-&lt;!-- Tab control --&gt;
+<!-- Tab control -->
 
 @Html.EJMobile().Tab("tabdefault").Android(a => a.Position(ControlPosition.Normal)).Windows(w => w.Position(ControlPosition.Normal)).Items(item =>
 
@@ -69,7 +69,7 @@ You can specify the “Href” property for specifying the content to be loaded 
 
 
 
-&lt;!-- Tab control --&gt;
+<!-- Tab control -->
 
 @Html.EJMobile().Tab("tabdefault").Android(a => a.Position(ControlPosition.Normal)).Windows(w => w.Position(ControlPosition.Normal)).Items(item =>
 
@@ -81,7 +81,7 @@ You can specify the “Href” property for specifying the content to be loaded 
 
             })
 
-&lt;!-- Tab1 --&gt;
+<!-- Tab1 -->
 
 @Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
 
@@ -97,7 +97,7 @@ You can specify the “Href” property for specifying the content to be loaded 
 
             })
 
-&lt;!-- Tab2 --&gt;
+<!-- Tab2 -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
@@ -113,7 +113,7 @@ You can specify the “Href” property for specifying the content to be loaded 
 
 Run this code and the following output is achieved. For more details, to run the samples refer "Common Getting Started" section.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image34_9.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image34_9.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -143,7 +143,7 @@ Use the following styles for adding the image to Tab.
 
 
 
-&lt;style&gt;
+<style>
 
 .icn-Mymusic
 
@@ -231,13 +231,13 @@ left: 20px;
 
 }
 
-&lt;/style&gt;
+</style>
 
 
 
 Run this code and the following output is achieved. For more details, to run the samples refer to "Common Getting Started" section.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image34_10.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image34_10.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -287,7 +287,7 @@ Create a view page with the following code example.
 
 Run this code and the following output is achieved. For more details, to run the samples refer to "Common Getting Started" section.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image34_11.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image34_11.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -319,7 +319,7 @@ item.Add().Text("Favorites").Href("#favorites").IOS7(ios7 => ios7.ImageClass("ic
 
 Run this code and the following output is achieved. For more details, to run the samples refer "Common Getting Started" section.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image34_12.png](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image34_12.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -327,13 +327,13 @@ To update the Badge value dynamically whenever a new update is added, use the fo
 
 
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 
    //Updates the _Badge value_
 
    $("#tabdefault").ejmTab("updateBadgeValue", 2, 10);
 
-&lt;/script&gt;
+</script>
 
 
 
@@ -341,7 +341,7 @@ To update the Badge value dynamically whenever a new update is added, use the fo
 
 After calling the above script you can get the updated Badge as shown in the following screenshot.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image34_13.png](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image34_13.png](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 

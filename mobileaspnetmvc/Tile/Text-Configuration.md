@@ -22,19 +22,19 @@ TextPosition property wraps the text inside or outside of a tile. The possible p
 
 
 
-&lt;div style="margin-top:45px;"&gt;
+<div style="margin-top:45px;">
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
 @Html.EJMobile().Tile("tile").ShowText(true).TextAlignment(TextAlignment.Center).Text("Weather").ImageUrl("weather.png").ImagePath("~/themes/sample/tileview").IOS7(item=>item.TextPosition(TileTextPosition.Outer)).ImagePosition(TileImagePosition.Fill)
 
-&lt;/div&gt;
+</div>
 
 
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png)' | markdownify }}
 {:.image }
 
 

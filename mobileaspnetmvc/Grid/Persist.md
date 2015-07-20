@@ -41,7 +41,7 @@ This section explains you on how to maintain Grid state. Refer the following cod
 
 Execute the above code to render the following output.
 
-{ ![26](Persist_images/Persist_img1.png) | markdownify }
+{{ '![26](Persist_images/Persist_img1.png)' | markdownify }}
 {:.image }
 
 

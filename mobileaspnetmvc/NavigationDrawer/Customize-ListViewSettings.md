@@ -37,39 +37,39 @@ Refer to the following code example.
 
 
 
-    &lt;div id="content" style="margin-top: 45px;"&gt;
+    <div id="content" style="margin-top: 45px;">
 
-        &lt;div id="Home"&gt;
+        <div id="Home">
 
                 The Home screen allows you to choose the specific content type displayed.
 
 
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;div id="Profile" style="display: none"&gt;
+        <div id="Profile" style="display: none">
 
             The Profile page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
 
 
-        &lt;div id="Photos" style="display: none"&gt;
+        <div id="Photos" style="display: none">
 
             The Photos page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
 
 
-        &lt;div id="Location" style="display: none"&gt;
+        <div id="Location" style="display: none">
 
             The Location page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
 
 
@@ -79,7 +79,7 @@ Refer to the script section to update the page content while clicking the item i
 
 The following screenshot illustrates the output.
 
-{ ![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png) | markdownify }
+{{ '![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png)' | markdownify }}
 {:.image }
 
 

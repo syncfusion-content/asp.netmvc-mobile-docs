@@ -13,19 +13,19 @@ The Badge property handles badge specific functionalities like enable or disable
 
 Refer to the following code example.
 
-&lt;div style="margin-top:45px;"&gt;
+<div style="margin-top:45px;">
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
 @Html.EJMobile().Tile("tile").ImageUrl("messaging.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Messaging").Badge(badge => { badge.Enabled(true).MaxValue(80).MinValue(10).Value(88); })
 
-&lt;/div&gt;
+</div>
 
 
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/badgechanges.png](Configure-Badge_images/Configure-Badge_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/badgechanges.png](Configure-Badge_images/Configure-Badge_img1.png)' | markdownify }}
 {:.image }
 
 

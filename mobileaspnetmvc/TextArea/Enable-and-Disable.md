@@ -25,7 +25,7 @@ Refer to the following code example.
 
 
 
-{ ![](Enable-and-Disable_images/Enable-and-Disable_img1.png) | markdownify }
+{{ '![](Enable-and-Disable_images/Enable-and-Disable_img1.png)' | markdownify }}
 {:.image }
 
 

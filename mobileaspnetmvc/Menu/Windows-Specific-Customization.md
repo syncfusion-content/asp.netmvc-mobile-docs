@@ -22,11 +22,11 @@ The possible values are,
 
 
 
-    &lt;div style="text-align: center;"&gt;
+    <div style="text-align: center;">
 
         @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.Windows)
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").RenderMode(RenderMode.Windows).Windows(windows=>windows.Type(WindowsMenuType.Contextual)).Items(item =>
 
@@ -42,7 +42,7 @@ The possible values are,
 
 The following screenshot displays the Windows-specific Type:
 
-{ ![Type-Windows](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png) | markdownify }
+{{ '![Type-Windows](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -21,7 +21,7 @@ Properties</td></tr>
 <tr>
 <td>
 Ajax Post</td><td>
-1. Href-This property can hold either the ID of an element or the name of the HTML page.* Option 1 - ID: The value should start with ‘#&lt;ID&gt;’* Option 2 - HTML: The value should be like ‘&lt;HTML&gt;.html’ or ‘&lt;HTML&gt;.htm’.2. EnableAjax-This property must be set to true when the second option for href property is provided as mentioned above. </td></tr>
+1. Href-This property can hold either the ID of an element or the name of the HTML page.* Option 1 - ID: The value should start with ‘#<ID>’* Option 2 - HTML: The value should be like ‘<HTML>.html’ or ‘<HTML>.htm’.2. EnableAjax-This property must be set to true when the second option for href property is provided as mentioned above. </td></tr>
 <tr>
 <td>
 <br>Selection</td><td>

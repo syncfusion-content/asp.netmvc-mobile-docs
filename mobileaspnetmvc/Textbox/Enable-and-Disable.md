@@ -29,7 +29,7 @@ Refer to the following code example.
 
 The following screenshot displays the Enabled property set to false.
 
-{ ![D:/Final Doc/mockup/IMG_0528_iphone5s_spacegrey_portrait.png](Enable-and-Disable_images/Enable-and-Disable_img1.png) | markdownify }
+{{ '![D:/Final Doc/mockup/IMG_0528_iphone5s_spacegrey_portrait.png](Enable-and-Disable_images/Enable-and-Disable_img1.png)' | markdownify }}
 {:.image }
 
 

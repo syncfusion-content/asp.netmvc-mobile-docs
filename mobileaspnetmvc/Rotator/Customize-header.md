@@ -17,7 +17,7 @@ To show or hide the header in Rotator, you can use ShowHeader property. You can 
 
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-3.png](Customize-header_images/Customize-header_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-3.png](Customize-header_images/Customize-header_img1.png)' | markdownify }}
 {:.image }
 
 

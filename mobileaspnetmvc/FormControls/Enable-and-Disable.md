@@ -23,7 +23,7 @@ Refer to the following code example.
 
 
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML801ee361.PNG](Enable-and-Disable_images/Enable-and-Disable_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML801ee361.PNG](Enable-and-Disable_images/Enable-and-Disable_img1.png)' | markdownify }}
 {:.image }
 
 

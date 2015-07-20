@@ -16,7 +16,7 @@ In this section, you can learn how to create Scroll Panel for your mobile app.
 The Essential Studio for ASP.NET MVC Mobile ScrollPanel is an interactive panel for scrolling. The ScrollPanel control wraps its contents in a scrollable area, as an object in a GUI, and lets you scroll through continuous text and pictures. It allows you to view it, even when it does not fit into the space of a mobile or computer display.
 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -26,36 +26,36 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
 
 1. Add the following header control code in layout.cshtml page.
 
-&lt;!-- Header control --&gt;
+<!-- Header control -->
 
 
  @Html.EJMobile().Header("header").Title("Syncfusion")
 
 2. Add the following code example to the corresponding view page.
 
-&lt;!-- Content that needs to be scrolled--&gt;
+<!-- Content that needs to be scrolled-->
 
-&lt;div id="content" style="text-align:justify;"&gt;
+<div id="content" style="text-align:justify;">
 
-    &lt;div&gt;
+    <div>
 
-&lt;div id="image"&gt;
+<div id="image">
 
-&lt;/div&gt;
+</div>
 
        Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio. For more details about Essential Studio please click the below.
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
-&lt;!— Add scroll panel helper here--&gt;
+<!— Add scroll panel helper here-->
 
 3. Add the following styles to display image and align the content.
 
-&lt;style&gt;
+<style>
 
         #image
 
@@ -83,13 +83,13 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
 
         }
 
-&lt;/style&gt;
+</style>
 
 Run the above code example to render the following output.
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -99,7 +99,7 @@ To render the ScrollPanel control, set the Target property with a value that mat
 
 Add the following code example to the corresponding view page.
 
-&lt;!-- Scroll Panel control --&gt;
+<!-- Scroll Panel control -->
 
 
 
@@ -111,13 +111,13 @@ Set Panel Height and Width
 
 The TargetHeight and TargetWidth properties describe the height and width of the Target panel respectively. When height or width of the content exceeds the height or width of the Target panel, then you can scroll the contents. 
 
- &lt;!-- Scroll Panel control --&gt;
+ <!-- Scroll Panel control -->
 
   @Html.EJMobile().ScrollPanel("ScrollPanel").Target("content").TargetHeight(400).TargetWidth(300)
 
 Run the above code example and you will see the following output.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -125,7 +125,7 @@ Enable Horizontal and Vertical Scrolling
 
 The Target content can be scrolled vertically or horizontally or in both ways. The property EnableVerticalScroll enables vertical scrolling and the property EnableHorizontalScroll enables horizontal scrolling.
 
-&lt;!-- Scroll Panel control --&gt;
+<!-- Scroll Panel control -->
 
 
 

@@ -25,7 +25,7 @@ EssentialStudio ASP.NET MVC,Mobile Radial Menu control is a context that represe
 
 
 
-{ ![](Overview_images/Overview_img1.png) | markdownify }
+{{ '![](Overview_images/Overview_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -46,15 +46,15 @@ Create basic mobile layout
 
 
 
-&lt;div style="padding: 66px 25px; text-align: justify "&gt;
+<div style="padding: 66px 25px; text-align: justify ">
 
-        &lt;p&gt;
+        <p>
 
             Syncfusion is the enterprise technology partner of choice for Windows development, delivering a broad range of software frameworks and tools. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications.
 
-        &lt;/p&gt;
+        </p>
 
-    &lt;/div&gt;
+    </div>
 
 
 
@@ -74,7 +74,7 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/music.png
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm).
 
-{ ![](Overview_images/Overview_img2.png) | markdownify }
+{{ '![](Overview_images/Overview_img2.png)' | markdownify }}
 {:.image }
 
 

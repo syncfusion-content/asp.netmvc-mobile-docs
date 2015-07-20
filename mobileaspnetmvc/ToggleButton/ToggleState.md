@@ -19,7 +19,7 @@ ToggleState property is used to set the state of the Toggle Button in which the 
 
 The following screenshot displays the ToggleState:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ToggleButton/images/android_1.png](ToggleState_images/ToggleState_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ToggleButton/images/android_1.png](ToggleState_images/ToggleState_img1.png)' | markdownify }}
 {:.image }
 
 

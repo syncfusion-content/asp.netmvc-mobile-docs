@@ -19,7 +19,7 @@ Refer to the following code example.
 
 
 
-{ ![C:/Users/labuser/AppData/Local/Temp/SNAGHTMLa514ae.PNG](Windows-specific-customization_images/Windows-specific-customization_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Local/Temp/SNAGHTMLa514ae.PNG](Windows-specific-customization_images/Windows-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 

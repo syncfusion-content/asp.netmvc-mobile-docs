@@ -27,7 +27,7 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
@@ -43,7 +43,7 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
@@ -55,7 +55,7 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
@@ -71,7 +71,7 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
 
 The following screenshot displays the Android ShowImage:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -99,7 +99,7 @@ android.ImageClass("icn-Updates"));
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Android).
 
@@ -117,7 +117,7 @@ ShowHeader(false).Items(item =>
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Android).
 
@@ -131,7 +131,7 @@ ShowHeader(false).Items(item =>
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").RenderMode(RenderMode.Android).
 
@@ -149,7 +149,7 @@ ShowHeader(false).Items(item =>
 
 The following screenshot displays the Android ImageClass:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -169,7 +169,7 @@ The Position property holds fixed and normal values. Normal position allows rela
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
@@ -185,7 +185,7 @@ The Position property holds fixed and normal values. Normal position allows rela
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
@@ -197,7 +197,7 @@ The Position property holds fixed and normal values. Normal position allows rela
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
@@ -213,7 +213,7 @@ The Position property holds fixed and normal values. Normal position allows rela
 
 The following screenshot displays the AndroidPosition:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png)' | markdownify }}
 {:.image }
 
 

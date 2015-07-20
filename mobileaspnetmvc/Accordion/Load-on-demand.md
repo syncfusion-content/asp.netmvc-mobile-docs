@@ -37,7 +37,7 @@ Create an HTML file with the name text1.html.
 
 [HTML]
 
-&lt;body&gt;
+<body>
 
     Model-view-controller (MVC) is a software architecture pattern which separates the
 
@@ -45,7 +45,7 @@ Create an HTML file with the name text1.html.
 
     The model consists      of application data, business rules, logic, and functions
 
-&lt;/body&gt;
+</body>
 
 
 
@@ -57,7 +57,7 @@ Create an HTML file with the name text2.html.
 
 
 
-&lt;body&gt;
+<body>
 
     Developed by Microsoft, the Windows Presentation Foundation (or WPF) is a 
 
@@ -65,7 +65,7 @@ Create an HTML file with the name text2.html.
 
     in Windows-based applications.
 
-&lt;/body&gt;
+</body>
 
 
 
@@ -77,7 +77,7 @@ Create an HTML file with the name text3.html.
 
 
 
-&lt;body&gt;
+<body>
 
     WCF is a tool often used to implement and deploy a service-oriented architecture
 
@@ -85,7 +85,7 @@ Create an HTML file with the name text3.html.
 
     distributed computing where services have remote consumers.
 
-&lt;/body&gt;
+</body>
 
 
 
@@ -93,7 +93,7 @@ The following screenshot displays the load on demand:
 
 
 
-{ ![](Load-on-demand_images/Load-on-demand_img1.png) | markdownify }
+{{ '![](Load-on-demand_images/Load-on-demand_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -33,15 +33,15 @@ Default usage:
 
 
 
-&lt;div class="group"&gt;
+<div class="group">
 
-    &lt;div class="column"&gt;
+    <div class="column">
 
-           &lt;!— Add tile control here --&gt;
+           <!— Add tile control here -->
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -53,13 +53,13 @@ To render column grouped tile, render the number of tiles inside a div element w
 
 
 
-&lt;div class="defaultsample" style="margin-top: 45px;"&gt;
+<div class="defaultsample" style="margin-top: 45px;">
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
-       &lt;div class="group"&gt;
+       <div class="group">
 
-            &lt;div class="column"&gt;
+            <div class="column">
 
                 @Html.EJMobile().Tile("tile1").Theme(Theme.Dark).ImageUrl("setting.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Settings")
 
@@ -77,9 +77,9 @@ To render column grouped tile, render the number of tiles inside a div element w
 
                 @Html.EJMobile().Tile("tile8").Theme(Theme.Dark).ImageUrl("phone.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Phone")
 
-            &lt;/div&gt;
+            </div>
 
-            &lt;div class="column"&gt;
+            <div class="column">
 
                 @Html.EJMobile().Tile("tile9").Theme(Theme.Dark).ImageUrl("calendar.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Calender")
 
@@ -89,13 +89,13 @@ To render column grouped tile, render the number of tiles inside a div element w
 
                 @Html.EJMobile().Tile("tile12").Theme(Theme.Dark).ImageUrl("music.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Music")
 
-            &lt;/div&gt;
+            </div>
 
-        &lt;/div&gt;
+        </div>
 
-&lt;/div&gt;
+</div>
 
-    &lt;style&gt;
+    <style>
 
         .e-m-ios7 .defaultsample {
 
@@ -133,9 +133,9 @@ To render column grouped tile, render the number of tiles inside a div element w
 
 
 
-    &lt;/style&gt;
+    </style>
 
-&lt;script&gt;
+<script>
 
         if (ej.getRenderMode() == "windows") {
 
@@ -147,21 +147,21 @@ To render column grouped tile, render the number of tiles inside a div element w
 
             $($('.group').find('div[data-role="ejmtile"]')).attr({ 'data-ej-theme': 'light' });
 
-&lt;/script&gt;
+</script>
 
 
 
 The following screenshots illustrates the output of the above code.
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/ios7changes.png](Add-Group-Tiles_images/Add-Group-Tiles_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/ios7changes.png](Add-Group-Tiles_images/Add-Group-Tiles_img1.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_img2.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_img2.png)' | markdownify }}
 {:.image }
 
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/windowschange.png](Add-Group-Tiles_images/Add-Group-Tiles_img3.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/windowschange.png](Add-Group-Tiles_images/Add-Group-Tiles_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -171,17 +171,17 @@ Refer to the following code example.
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
-&lt;div class="defaultsample" style="margin-top: 45px;"&gt;
+<div class="defaultsample" style="margin-top: 45px;">
 
-&lt;div class="group"&gt;
+<div class="group">
 
-                &lt;div class="column"&gt;
+                <div class="column">
 
                     @Html.EJMobile().Tile("tile1").ImageUrl("setting.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("people").TileSize(TileSize.Medium).BackgroundColor("green")
 
 
 
-                    &lt;div class="small-col-2"&gt;
+                    <div class="small-col-2">
 
                         @Html.EJMobile().Tile("tile2").ImageUrl("notes.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Notes").BackgroundColor("rgb(208, 75, 43)")
 
@@ -199,19 +199,19 @@ Refer to the following code example.
 
 
 
-                    &lt;/div&gt;
+                    </div>
 
-                &lt;/div&gt;
+                </div>
 
-              &lt;/div&gt;  
+              </div>  
 
-            &lt;/div&gt;
+            </div>
 
 
 
 The following screenshot illustrates the output of the above code.
 
-{ ![](Add-Group-Tiles_images/Add-Group-Tiles_img4.png) | markdownify }
+{{ '![](Add-Group-Tiles_images/Add-Group-Tiles_img4.png)' | markdownify }}
 {:.image }
 
 

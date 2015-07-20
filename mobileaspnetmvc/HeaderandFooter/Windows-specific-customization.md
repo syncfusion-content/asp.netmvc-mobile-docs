@@ -19,7 +19,7 @@ In the Windows phones, by default, the Header title's text is in the lower case 
 
 The following screenshot displays the Windows specific customization:
 
-{ ![](Windows-specific-customization_images/Windows-specific-customization_img1.png) | markdownify }
+{{ '![](Windows-specific-customization_images/Windows-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 

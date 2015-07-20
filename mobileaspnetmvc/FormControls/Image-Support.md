@@ -17,9 +17,9 @@ You can refer the following code examples.
 
 
 
-    &lt;!--In head section--&gt;
+    <!--In head section-->
 
-&lt;style&gt;
+<style>
 
      .image {
 
@@ -27,11 +27,11 @@ You can refer the following code examples.
 
         }
 
-&lt;/style&gt;
+</style>
 
 
 
-    &lt;!--In body section--&gt;
+    <!--In body section-->
 
 @Html.EJMobile().Button("sample_button").ContentType(ButtonContentType.Image).ImageClass("image")
 
@@ -39,7 +39,7 @@ You can refer the following code examples.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abcd1f9.PNG](Image-Support_images/Image-Support_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abcd1f9.PNG](Image-Support_images/Image-Support_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -59,7 +59,7 @@ You can refer to the following code examples.
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abf8235.PNG](Image-Support_images/Image-Support_img2.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2abf8235.PNG](Image-Support_images/Image-Support_img2.png)' | markdownify }}
 {:.image }
 
 

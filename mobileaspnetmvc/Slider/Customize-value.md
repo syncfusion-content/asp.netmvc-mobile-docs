@@ -15,7 +15,7 @@ Value property is used to set the value for the Slider on initialization. Maximu
 
 The following screenshot displays the customized Slider Value:
 
-{ ![C:/Users/dineshr/Desktop/val.png](Customize-value_images/Customize-value_img1.png) | markdownify }
+{{ '![C:/Users/dineshr/Desktop/val.png](Customize-value_images/Customize-value_img1.png)' | markdownify }}
 {:.image }
 
 

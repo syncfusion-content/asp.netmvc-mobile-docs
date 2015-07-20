@@ -24,11 +24,11 @@ The possible values are,
 
 
 
-    &lt;div style="text-align: center;"&gt;
+    <div style="text-align: center;">
 
         @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.Android)
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").RenderMode(RenderMode.Android).Android(android=>android.Type(AndroidMenuType.Contextual)).Items(item =>
 
@@ -44,7 +44,7 @@ The possible values are,
 
 The following screenshot displays the Android-specific Type:
 
-{ ![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png) | markdownify }
+{{ '![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

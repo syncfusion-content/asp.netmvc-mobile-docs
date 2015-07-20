@@ -26,7 +26,7 @@ Default is used to render the AutoComplete as normal textbox. Search is used to 
 
 The following screenshot displays Mode:
 
-{ ![](Mode_images/Mode_img1.png) | markdownify }
+{{ '![](Mode_images/Mode_img1.png)' | markdownify }}
 {:.image }
 
 

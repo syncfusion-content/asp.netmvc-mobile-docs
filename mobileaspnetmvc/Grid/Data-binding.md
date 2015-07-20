@@ -94,7 +94,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![2](Data-binding_images/Data-binding_img1.png) | markdownify }
+{{ '![2](Data-binding_images/Data-binding_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -132,13 +132,13 @@ Execute the above code to render the following output.
 
 
 
-{ ![3](Data-binding_images/Data-binding_img2.png) | markdownify }
+{{ '![3](Data-binding_images/Data-binding_img2.png)' | markdownify }}
 {:.image }
 
 
 
 
-{ ![Note](Data-binding_images/Data-binding_img3.png) | markdownify }
+{{ '![Note](Data-binding_images/Data-binding_img3.png)' | markdownify }}
 {:.image }
 _Note: For information about DataManager with Mobie Grid check DataAdaptors concept._
 
@@ -182,7 +182,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![4](Data-binding_images/Data-binding_img4.png) | markdownify }
+{{ '![4](Data-binding_images/Data-binding_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -225,7 +225,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![6](Data-binding_images/Data-binding_img5.png) | markdownify }
+{{ '![6](Data-binding_images/Data-binding_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -265,7 +265,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![6](Data-binding_images/Data-binding_img6.png) | markdownify }
+{{ '![6](Data-binding_images/Data-binding_img6.png)' | markdownify }}
 {:.image }
 
 
@@ -306,7 +306,7 @@ ejmGrid contains a feature to refresh datasource dynamically after Grid initiali
 
 
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 
     window.newData = [
 
@@ -326,7 +326,7 @@ ejmGrid contains a feature to refresh datasource dynamically after Grid initiali
 
     }
 
-&lt;/script&gt;
+</script>
 
 
 
@@ -383,7 +383,7 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 
 
-{ ![7](Data-binding_images/Data-binding_img7.png) | markdownify }
+{{ '![7](Data-binding_images/Data-binding_img7.png)' | markdownify }}
 {:.image }
 
 
@@ -394,45 +394,45 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
 
 
-&lt;script id="table1" type="text/template" &gt;
+<script id="table1" type="text/template" >
 
-        &lt;table&gt;
+        <table>
 
-            &lt;thead&gt;
+            <thead>
 
-                &lt;tr&gt;
+                <tr>
 
                     <th>Laptop
 
-                    &lt;/th&gt;
+                    </th>
 
                     <th>Model
 
-                    &lt;/th&gt;
+                    </th>
 
                     <th>Price
 
-                    &lt;/th&gt;
+                    </th>
 
                     <th>OS
 
-                    &lt;/th&gt;
+                    </th>
 
                     <th>RAM
 
-                    &lt;/th&gt;
+                    </th>
 
                     <th>ScreenSize
 
-                    &lt;/th&gt;
+                    </th>
 
-                &lt;/tr&gt;
+                </tr>
 
-            &lt;/thead&gt;
+            </thead>
 
-            &lt;tbody&gt;
+            <tbody>
 
-                &lt;tr&gt;
+                <tr>
 
                     <td>Dell Vostro</td>
 
@@ -446,9 +446,9 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
                     <td>15.6</td>
 
-                &lt;/tr&gt;
+                </tr>
 
-                &lt;tr&gt;
+                <tr>
 
                     <td>HP Pavilion Sleekbook</td>
 
@@ -462,9 +462,9 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
                     <td>14</td>
 
-                &lt;/tr&gt;
+                </tr>
 
-                &lt;tr&gt;
+                <tr>
 
                     <td>Sony Vaio</td>
 
@@ -478,9 +478,9 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
                     <td>14</td>
 
-                &lt;/tr&gt;
+                </tr>
 
-                &lt;tr&gt;
+                <tr>
 
                     <td>Lenovo</td>
 
@@ -494,9 +494,9 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
                     <td>11.6</td>
 
-                &lt;/tr&gt;
+                </tr>
 
-                &lt;tr&gt;
+                <tr>
 
                     <td>Toshiba</td>
 
@@ -510,13 +510,13 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
                     <td>15.6</td>
 
-                &lt;/tr&gt;
+                </tr>
 
-            &lt;/tbody&gt;
+            </tbody>
 
-        &lt;/table&gt;
+        </table>
 
-        &lt;/script&gt;
+        </script>
 
 
 
@@ -544,7 +544,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![8](Data-binding_images/Data-binding_img8.png) | markdownify }
+{{ '![8](Data-binding_images/Data-binding_img8.png)' | markdownify }}
 {:.image }
 
 
@@ -584,7 +584,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![11](Data-binding_images/Data-binding_img9.png) | markdownify }
+{{ '![11](Data-binding_images/Data-binding_img9.png)' | markdownify }}
 {:.image }
 
 

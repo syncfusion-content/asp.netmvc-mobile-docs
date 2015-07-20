@@ -40,7 +40,7 @@ The Possible values for Position property are
 
 })
 
-&lt;style&gt;
+<style>
 
     .imageclass {
 
@@ -52,9 +52,9 @@ The Possible values for Position property are
 
         }
 
-&lt;/style&gt;
+</style>
 
-&lt;script&gt;
+<script>
 
     function click(e) {
 
@@ -62,13 +62,13 @@ The Possible values for Position property are
 
     }
 
-&lt;/script&gt;
+</script>
 
 
 
 The following screenshot illustrates the output of the above code.
 
-{ ![](Dimensions_images/Dimensions_img1.png) | markdownify }
+{{ '![](Dimensions_images/Dimensions_img1.png)' | markdownify }}
 {:.image }
 
 

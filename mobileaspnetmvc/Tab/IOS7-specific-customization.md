@@ -27,7 +27,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
        })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
 
@@ -43,7 +43,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
@@ -55,7 +55,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
@@ -71,7 +71,7 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
 To add the images, use the following styles.
 
-&lt;style&gt;
+<style>
 
     .icn-Mymusic {
 
@@ -151,13 +151,13 @@ To add the images, use the following styles.
 
     }
 
-&lt;/style&gt;
+</style>
 
 
 
 The following screenshot displays ImageClass:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -195,7 +195,7 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
 })
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
@@ -207,7 +207,7 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("charts").ShowHeader(false).Items(item =>
 
@@ -221,7 +221,7 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("explore").ShowHeader(false).Items(item =>
 
@@ -231,7 +231,7 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
             })
 
-&lt;!-- Tab fourth item --&gt;
+<!-- Tab fourth item -->
 
 @Html.EJMobile().ListView("music").ShowHeader(false).Items(item =>
 
@@ -247,7 +247,7 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
             })
 
-&lt;!-- Tab fifth item --&gt;
+<!-- Tab fifth item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
@@ -259,7 +259,7 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
             })
 
-&lt;!-- Tab sixth item --&gt;
+<!-- Tab sixth item -->
 
 @Html.EJMobile().ListView("search").ShowHeader(false).Items(item =>
 
@@ -273,7 +273,7 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
 The following screenshot displays the Overflow Badge:
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -303,7 +303,7 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
 }) 
 
-&lt;!-- Tab first item --&gt;
+<!-- Tab first item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
@@ -315,7 +315,7 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
             })
 
-&lt;!-- Tab second item --&gt;
+<!-- Tab second item -->
 
 @Html.EJMobile().ListView("charts").ShowHeader(false).Items(item =>
 
@@ -329,7 +329,7 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
             })
 
-&lt;!-- Tab third item --&gt;
+<!-- Tab third item -->
 
 @Html.EJMobile().ListView("explore").ShowHeader(false).Items(item =>
 
@@ -339,7 +339,7 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
             })
 
-&lt;!-- Tab fourth item --&gt;
+<!-- Tab fourth item -->
 
 @Html.EJMobile().ListView("music").ShowHeader(false).Items(item =>
 
@@ -355,7 +355,7 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
             })
 
-&lt;!-- Tab fifth item --&gt;
+<!-- Tab fifth item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
@@ -367,7 +367,7 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
             })
 
-&lt;!-- Tab sixth item --&gt;
+<!-- Tab sixth item -->
 
 @Html.EJMobile().ListView("search").ShowHeader(false).Items(item =>
 
@@ -381,7 +381,7 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
 The following screenshot displays the MaxValue:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png)' | markdownify }}
 {:.image }
 
 

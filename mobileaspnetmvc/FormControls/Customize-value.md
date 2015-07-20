@@ -19,7 +19,7 @@ The current value of the Numeric Textbox can be specified by using Value propert
 
 The following screenshot displays the output.
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTMLd87e051.PNG](Customize-value_images/Customize-value_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTMLd87e051.PNG](Customize-value_images/Customize-value_img1.png)' | markdownify }}
 {:.image }
 
 

@@ -15,7 +15,7 @@ This section briefly describes how to create a Group Button and use it in your a
 
 The ASP.NET MVC Mobile Group Button allows you to display multiple buttons that is stacked together in a single line and appears like a navigation component. The following section explains you to create Group Button widgetusing a Mail App.
 
-{ ![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -23,29 +23,29 @@ Create the required Layout
 
 The ASP.NET MVC Mobile Group Button widget is created with Radiobutton or Checkbox using the “GroupButtonType” property. In the Mail App, you can use the Radiobutton as input element to view the Mail content with three options “All”, “Read” and “Unread”. The respective content displays on clicking the specific button in the group. 
 
-Create a MVC application and add the following code example in the &lt;body&gt; tag of layout.cshtml file.
+Create a MVC application and add the following code example in the <body> tag of layout.cshtml file.
 
 You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](http://help.syncfusion.com/ug/js/default.htm)
 
-  &lt;div id="page"&gt;
+  <div id="page">
 
       @Html.EJMobile().Header("header").Title("Mail")
 
-      &lt;div id="grpbutton_sample" class="sample"&gt;
+      <div id="grpbutton_sample" class="sample">
 
-          &lt;div&gt;
+          <div>
 
                 @RenderBody()
 
-          &lt;/div&gt;
+          </div>
 
-      &lt;/div&gt;
+      </div>
 
-      &lt;!--Scroll Panel--&gt;
+      <!--Scroll Panel-->
 
       @Html.EJMobile().Scrollpanel("grp").Target("grpbutton_sample")
 
-  &lt;/div&gt;
+  </div>
 
 Create the Group Button
 
@@ -53,7 +53,7 @@ To create the Group Button control, add the following code example to the corres
 
 Refer to the following code example.
 
-&lt;!—Group Button Control--&gt;
+<!—Group Button Control-->
 
      @Html.EJMobile().GroupButton("groupbutton")
 
@@ -73,7 +73,7 @@ Refer to the following code example.
 
 Add the following styles for content.
 
-&lt;style&gt;
+<style>
 
     .appview .sample {
 
@@ -177,13 +177,13 @@ Add the following styles for content.
 
     }
 
-&lt;/style&gt;
+</style>
 
 
 
 Execute the above code to render the following output.
 
-{ ![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -207,7 +207,7 @@ Refer the following code example.
 
 
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 
       $(function () {//hiding read and unread elements initially
 
@@ -227,7 +227,7 @@ Refer the following code example.
 
         }
 
-   &lt;/script&gt;
+   </script>
 
 
 
@@ -379,9 +379,9 @@ Add the following code example to the corresponding controller page.
 
 Add the following code to the corresponding view page.
 
-&lt;!--Add the Mail Content--&gt;
+<!--Add the Mail Content-->
 
-       &lt;div id="all"&gt;
+       <div id="all">
 
             @Html.EJMobile().ListView("templatelistAll").AllowScrolling(false)
 
@@ -389,21 +389,21 @@ Add the following code to the corresponding view page.
 
             .ShowHeader(false).RenderTemplate(true).ContentTemplate(
 
-                 @&lt;div class="cont-bg"&gt;
+                 @<div class="cont-bg">
 
-                      &lt;span class="templatetext"&gt;{{>Name}}&lt;/span&gt;
+                      <span class="templatetext">{{>Name}}</span>
 
-                      &lt;span class="designationstyle"&gt;{{>Time}}&lt;/span&gt;
+                      <span class="designationstyle">{{>Time}}</span>
 
-                      &lt;div class="message-title"&gt;{{>Title}}&lt;/div&gt;
+                      <div class="message-title">{{>Title}}</div>
 
-                      &lt;div class="aboutstyle"&gt;{{>Message}}&lt;/div&gt;
+                      <div class="aboutstyle">{{>Message}}</div>
 
-                  &lt;/div&gt;)
+                  </div>)
 
-       &lt;/div&gt;
+       </div>
 
-       &lt;div id="read"&gt;
+       <div id="read">
 
             @Html.EJMobile().ListView("templatelistRead").AllowScrolling(false)
 
@@ -411,47 +411,47 @@ Add the following code to the corresponding view page.
 
             .ShowHeader(false).RenderTemplate(true).ContentTemplate(
 
-                 @&lt;div class="cont-bg"&gt;
+                 @<div class="cont-bg">
 
-                      &lt;span class="templatetext"&gt;{{>Name}}&lt;/span&gt;
+                      <span class="templatetext">{{>Name}}</span>
 
-                      &lt;span class="designationstyle"&gt;{{>Time}}&lt;/span&gt;
+                      <span class="designationstyle">{{>Time}}</span>
 
-                      &lt;div class="message-title"&gt;{{>Title}}&lt;/div&gt;
+                      <div class="message-title">{{>Title}}</div>
 
-                      &lt;div class="aboutstyle"&gt;{{>Message}}&lt;/div&gt;
+                      <div class="aboutstyle">{{>Message}}</div>
 
-                   &lt;/div&gt;)
+                   </div>)
 
-       &lt;/div&gt;
+       </div>
 
-       &lt;div id="unread"&gt;
+       <div id="unread">
 
-            &lt;div class="border-panel"&gt;&lt;/div&gt;
+            <div class="border-panel"></div>
 
-            &lt;div class="border-panel"&gt;&lt;/div&gt;
+            <div class="border-panel"></div>
 
             <div class="content-text">You've read all the messages in your mail</div>
 
-            &lt;div class="border-panel"&gt;&lt;/div&gt;
+            <div class="border-panel"></div>
 
-            &lt;div class="border-panel"&gt;&lt;/div&gt;
+            <div class="border-panel"></div>
 
-       &lt;/div&gt;
+       </div>
 
 
 
 Execute the above code examples to render the following outputs.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
 
 
-{ ![C:/Users/ApoorvahR/Desktop/5.png](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![C:/Users/ApoorvahR/Desktop/5.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

@@ -21,7 +21,7 @@ EnableAutoFill property is used to automatically fill the AutoComplete textbox w
 
 The following screenshot displays AutoFill:
 
-{ ![](AutoFill_images/AutoFill_img1.png) | markdownify }
+{{ '![](AutoFill_images/AutoFill_img1.png)' | markdownify }}
 {:.image }
 
 

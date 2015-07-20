@@ -15,7 +15,7 @@ Option 1: Button
 
 
 
-&lt;!-- Group Button : button type --&gt;
+<!-- Group Button : button type -->
 
     @Html.EJMobile().GroupButton("groupbutton_sample").Buttons(button =>
 
@@ -33,7 +33,7 @@ Option 2: Radio Button
 
 
 
-&lt;!-- Group Button : radio type --&gt;
+<!-- Group Button : radio type -->
 
 @Html.EJMobile().GroupButton("groupbutton_sample").GroupButtonType(GroupButtonType.
 
@@ -53,7 +53,7 @@ Option 3: Checkbox
 
 
 
-&lt;!-- Group Button : checkbox type --&gt;
+<!-- Group Button : checkbox type -->
 
 @Html.EJMobile().GroupButton("groupbutton_sample").GroupButtonType(GroupButtonType.
 
@@ -75,7 +75,7 @@ The following screenshot displays the Group Button:
 
 
 
-{ ![](Type_images/Type_img1.png) | markdownify }
+{{ '![](Type_images/Type_img1.png)' | markdownify }}
 {:.image }
 
 

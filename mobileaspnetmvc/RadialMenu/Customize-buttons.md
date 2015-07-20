@@ -61,7 +61,7 @@ Refer to the following code example.
 
 
 
-&lt;style&gt;
+<style>
 
     .imageclass {
 
@@ -95,11 +95,11 @@ Refer to the following code example.
 
     }
 
-&lt;/style&gt;
+</style>
 
 
 
-&lt;script&gt;
+<script>
 
     function click(e) {
 
@@ -107,7 +107,7 @@ Refer to the following code example.
 
     }
 
-&lt;/script&gt;
+</script>
 
 
 
@@ -115,9 +115,9 @@ Refer to the following code example.
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png)' | markdownify }}
 {:.image }
-{ ![](Customize-buttons_images/Customize-buttons_img2.png) | markdownify }
+{{ '![](Customize-buttons_images/Customize-buttons_img2.png)' | markdownify }}
 {:.image }
 
 

@@ -15,49 +15,49 @@ The Essential Studio for ASP.NET MVC Mobile Toolbar provides a single interface 
 
 
 
-{ ![1](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
 Create the necessary layout
 
-Create a simple MVC application and paste the following header and scrollpanel layout page content inside the &lt;body&gt; tag of layout.cshtml. Add other templates in the view page for Toolbar creation. To create a MVC Project, add necessary Dll’s and Scripts done with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile.
+Create a simple MVC application and paste the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. Add other templates in the view page for Toolbar creation. To create a MVC Project, add necessary Dll’s and Scripts done with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile.
 
      @Html.EJMobile().Header("header").Position(MobileHeaderPosition.Normal).Title("inbox")
 
-    &lt;div id="content"&gt;
+    <div id="content">
 
         @RenderBody()
 
-    &lt;/div&gt;
+    </div>
 
 @Html.EJMobile().Scrollpanel("scroll").Target("content")
 
  Add the following code in the corresponding view page.
 
-&lt;!--Add Toolbar control here. --&gt;
+<!--Add Toolbar control here. -->
 
 
 
-&lt;!-- Inbox sample content--&gt;
+<!-- Inbox sample content-->
 
-&lt;div id="mailContent" style="padding: 20px;"&gt;
+<div id="mailContent" style="padding: 20px;">
 
-    <b>From:&lt;/b&gt; websupport@syncfusion.com<br />&lt;br /&gt;
+    <b>From:</b> websupport@syncfusion.com<br /><br />
 
-    <b>To:</b>john@abc.com</br>&lt;br /&gt;
+    <b>To:</b>john@abc.com</br><br />
 
- <b>SUB:&lt;/b&gt; Your Syncfusion Metro Studio Order 261234 submitted<br />&lt;br /&gt;
+ <b>SUB:</b> Your Syncfusion Metro Studio Order 261234 submitted<br /><br />
 
-    &lt;p&gt;
+    <p>
 
-        Dear Customer,&lt;br /&gt;&lt;br /&gt;
+        Dear Customer,<br /><br />
 
         Thank you for requesting a free license to use Syncfusion Metro Studio. The license provided is perpetual, subject to the terms of our license agreement.
 
-    &lt;/p&gt;
+    </p>
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -67,7 +67,7 @@ Create a simple MVC application and paste the following header and scrollpanel l
 
 Execute this code to render the following output.
 
-{ ![2](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -93,7 +93,7 @@ To render the Toolbar control, add the following code and include a list of Tool
 
  Use the following styles for content style.
 
-        &lt;style&gt;
+        <style>
 
            .e-m-header.e-m-android {
 
@@ -101,13 +101,13 @@ To render the Toolbar control, add the following code and include a list of Tool
 
            }
 
-      &lt;/style&gt;
+      </style>
 
  Execute this code to render the following output.
 
 
 
-{ ![1](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -131,7 +131,7 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
             })
 
- &lt;script&gt;
+ <script>
 
     $(document).ready(function (args) {
 
@@ -161,11 +161,11 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
     }
 
-&lt;/script&gt;
+</script>
 
   Execute this code to render the following output.
 
-{ ![3](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![3](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

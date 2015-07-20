@@ -23,7 +23,7 @@ ItemsCount specifies the number of items to be displayed in the suggestion list.
 
 The following screenshot displays items count:
 
-{ ![](Customize-suggestion-list_images/Customize-suggestion-list_img1.png) | markdownify }
+{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -66,7 +66,7 @@ The AllowScrolling property defines whether to allow the scrolling functionality
 
 The following screenshot displays the ouput:
 
-{ ![](Customize-suggestion-list_images/Customize-suggestion-list_img2.png) | markdownify }
+{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -91,7 +91,7 @@ The possible values are,
 
 The following screenshot displays sorting:
 
-{ ![](Customize-suggestion-list_images/Customize-suggestion-list_img3.png) | markdownify }
+{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -111,7 +111,7 @@ EmptyResultText property is used to customize the text that is displayed when no
 
 The following screenshot displays empty result:
 
-{ ![](Customize-suggestion-list_images/Customize-suggestion-list_img4.png) | markdownify }
+{{ '![](Customize-suggestion-list_images/Customize-suggestion-list_img4.png)' | markdownify }}
 {:.image }
 
 

@@ -106,7 +106,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![12](Columns_images/Columns_img1.png) | markdownify }
+{{ '![12](Columns_images/Columns_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -151,7 +151,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![14](Columns_images/Columns_img2.png) | markdownify }
+{{ '![14](Columns_images/Columns_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -229,7 +229,7 @@ Execute the above code to render Auto-generate columns.
 
 
 
-{ ![15](Columns_images/Columns_img3.png) | markdownify }
+{{ '![15](Columns_images/Columns_img3.png)' | markdownify }}
 {:.image }
 
 

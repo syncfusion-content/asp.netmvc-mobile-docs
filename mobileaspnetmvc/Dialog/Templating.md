@@ -17,21 +17,21 @@ The TemplateId property is used to define the ID of the template element where y
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").TemplateId("temp").Content(
 
-@&lt;div&gt;
+@<div>
 
 Syncfusion provides software components and tools for the Microsoft .NET platform
 
-&lt;/div&gt;).Content(@<div id="temp">Syncfusion Software</div>)
+</div>).Content(@<div id="temp">Syncfusion Software</div>)
 
 }
 
 
 
-&lt;div style="text-align: center"&gt;
+<div style="text-align: center">
 
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -51,7 +51,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
 The following screenshot displays the output.
 
-{ ![](Templating_images/Templating_img1.png) | markdownify }
+{{ '![](Templating_images/Templating_img1.png)' | markdownify }}
 {:.image }
 
 

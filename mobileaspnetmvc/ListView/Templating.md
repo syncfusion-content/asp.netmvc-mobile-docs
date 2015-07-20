@@ -19,25 +19,25 @@ By using template support, you can customize the appearance of the individual li
 
 @Html.EJMobile().ListView("templatelist").AllowScrolling(false).DataBinding(true).DataSource("window.dbitem").RenderTemplate(true)
 
-&lt;div class="cont-bg"&gt;
+<div class="cont-bg">
 
     <div class="{{>Class}}">
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div class="listrightdiv"&gt;
+    <div class="listrightdiv">
 
-        &lt;span class="templatetext"&gt;{{>Name}}&lt;/span&gt; &lt;span class="designationstyle"&gt;{{>Designation}}&lt;/span&gt;
+        <span class="templatetext">{{>Name}}</span> <span class="designationstyle">{{>Designation}}</span>
 
-        &lt;div class="aboutstyle"&gt;
+        <div class="aboutstyle">
 
 {{>About}}
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 External template
 
@@ -57,103 +57,103 @@ The TemplateId property is used to define the template ID for the list item. Tem
 
    })
 
-&lt;div id="target1"&gt;
+<div id="target1">
 
-        &lt;div class="content-panel"&gt;
+        <div class="content-panel">
 
-            &lt;div class="name-panel"&gt;
+            <div class="name-panel">
 
                 John Linden<div class="time-panel">
 
                     5th Jan
 
-                &lt;/div&gt;
+                </div>
 
-            &lt;/div&gt;
+            </div>
 
-            &lt;div class="message-title"&gt;
+            <div class="message-title">
 
                 Fw:Training
 
-            &lt;/div&gt;
+            </div>
 
-            &lt;p class="text-panel"&gt;
+            <p class="text-panel">
 
                 All WinRT controls are optimized for touch, supporting common gestures: zooming, panning, selecting, double-tapping, rotating, resizing.
 
-            &lt;/p&gt;
+            </p>
 
-            &lt;div class="border-panel"&gt;
+            <div class="border-panel">
 
-            &lt;/div&gt;
+            </div>
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="target2"&gt;
+    <div id="target2">
 
-        &lt;div class="content-panel"&gt;
+        <div class="content-panel">
 
-            &lt;div class="name-panel" style="padding-top: 10px;"&gt;
+            <div class="name-panel" style="padding-top: 10px;">
 
                 David<div class="time-panel">
 
                     6th Jan
 
-                &lt;/div&gt;
+                </div>
 
-            &lt;/div&gt;
+            </div>
 
-            &lt;div class="message-title"&gt;
+            <div class="message-title">
 
                 Re:Training
 
-            &lt;/div&gt;
+            </div>
 
-            &lt;p class="text-panel"&gt;
+            <p class="text-panel">
 
                 All the components in the ASP. NET MVC Essential Studio have been built from the ground up with performance in mind and are extremely lightweight.
 
-            &lt;/p&gt;
+            </p>
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div id="target3"&gt;
+    <div id="target3">
 
-        &lt;div class="content-panel"&gt;
+        <div class="content-panel">
 
-            &lt;div class="name-panel" style="padding-top: 10px;"&gt;
+            <div class="name-panel" style="padding-top: 10px;">
 
                 James Mario<div class="time-panel">
 
                     6th Jan
 
-                &lt;/div&gt;
+                </div>
 
-            &lt;/div&gt;
+            </div>
 
-            &lt;div class="message-title"&gt;
+            <div class="message-title">
 
                 Re:Training
 
-            &lt;/div&gt;
+            </div>
 
-            &lt;p class="text-panel"&gt;
+            <p class="text-panel">
 
                 Syncfusion Metro Studio is a collection of over 2500 Metro-style icon templates that can be easily customized to create thousands of unique Metro icons.
 
-            &lt;/p&gt;
+            </p>
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
 You can add the following styles for better appearance.
 
-&lt;style&gt;
+<style>
 
 
 
@@ -225,13 +225,13 @@ You can add the following styles for better appearance.
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 
 The following screenshot displays the Template:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_18.png](Templating_images/Templating_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_18.png](Templating_images/Templating_img1.png)' | markdownify }}
 {:.image }
 
 

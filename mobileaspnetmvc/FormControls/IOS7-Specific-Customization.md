@@ -21,25 +21,25 @@ You can refer to the following code examples.
 
 
 
-&lt;div align="center" style="margin:10px"&gt;
+<div align="center" style="margin:10px">
 
-@Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Gray)).Text("button") &lt;br /&gt;&lt;br /&gt;
+@Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Gray)).Text("button") <br /><br />
 
-@Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Black)).Text("button") &lt;br /&gt;&lt;br /&gt;
+@Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Black)).Text("button") <br /><br />
 
-@Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Blue)).Text("button") &lt;br /&gt;&lt;br /&gt;
+@Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Blue)).Text("button") <br /><br />
 
-@Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Green)).Text("button") &lt;br /&gt;&lt;br /&gt;
+@Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Green)).Text("button") <br /><br />
 
 @Html.EJMobile().ActionLink("sample_button","").RenderMode(RenderMode.IOS7).IOS7(e=>e.Color(IOS7ButtonColor.Red))
 
-&lt;/div&gt;
+</div>
 
 
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f717c65.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f717c65.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -56,9 +56,9 @@ You can refer to the following code examples.
 
 
 
-&lt;div align="center" style="margin:10px"&gt;
+<div align="center" style="margin:10px">
 
-                @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.IOS7).IOS7(e => e.Style(IOS7ButtonStyle.Normal)) &lt;br /&gt;&lt;br /&gt;
+                @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.IOS7).IOS7(e => e.Style(IOS7ButtonStyle.Normal)) <br /><br />
 
 
 
@@ -72,13 +72,13 @@ You can refer to the following code examples.
 
             @Html.EJMobile().Button("sample_button4").Text("Header").RenderMode(RenderMode.IOS7).IOS7(e => e.Style(IOS7ButtonStyle.Header))
 
-    &lt;/div&gt;
+    </div>
 
 
 
 
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f700342.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML1f700342.PNG](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)' | markdownify }}
 {:.image }
 
 

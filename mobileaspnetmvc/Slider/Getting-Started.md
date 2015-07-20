@@ -17,7 +17,7 @@ The ASP.NET MVC Mobile Slider allows you to select a single value or a range of 
 
 
 
-{ ![1](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -25,7 +25,7 @@ Create the layout for Shopping cart app
 
 You can customize Slider control by changing their properties. In shopping cart app a range slider is used to set price range.
 
-Create a simple MVC application and add the following code example in the &lt;body&gt; tag of Layout.cshtml file.
+Create a simple MVC application and add the following code example in the <body> tag of Layout.cshtml file.
 
 You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](http://help.syncfusion.com/ug/js/default.htm)
 
@@ -33,11 +33,11 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
 
 
-    &lt;div id="content"&gt;
+    <div id="content">
 
 
 
-        &lt;div&gt;
+        <div>
 
 
 
@@ -45,11 +45,11 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
 
 
-        &lt;/div&gt;
+        </div>
 
 
 
-    &lt;/div&gt;
+    </div>
 
 
 
@@ -59,79 +59,79 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
 Add the following code example to the corresponding view page.
 
-&lt;div id="form" style="margin: 20px;"&gt;
+<div id="form" style="margin: 20px;">
 
-     &lt;div style="margin-bottom: 10px"&gt;
+     <div style="margin-bottom: 10px">
 
-         &lt;div style="margin-top:10px;"&gt;
+         <div style="margin-top:10px;">
 
              <h1>Search-->MobilePhones-->Filter</h1>
 
-          &lt;/div&gt;
+          </div>
 
            <h1>Operating System</h1>
 
-      &lt;/div&gt;
+      </div>
 
-       &lt;!-- create check box for different OS  --&gt;
+       <!-- create check box for different OS  -->
 
-       &lt;div align="center" id="checkbox" style="margin-bottom:10px"&gt;
+       <div align="center" id="checkbox" style="margin-bottom:10px">
 
-       &lt;table border="0" cellpadding="6"&gt;
+       <table border="0" cellpadding="6">
 
-        &lt;tr&gt;
+        <tr>
 
          @Html.EJMobile().CheckBox("check1").Text("IOS7")
 
-        &lt;/tr&gt;
+        </tr>
 
-        &lt;tr&gt;
+        <tr>
 
           @Html.EJMobile().CheckBox("check3").Text("Android")
 
-        &lt;/tr&gt;
+        </tr>
 
-        &lt;tr&gt;
+        <tr>
 
           @Html.EJMobile().CheckBox("check2").Text("Windows")
 
-        &lt;/tr&gt;
+        </tr>
 
-       &lt;/table&gt;
+       </table>
 
-           &lt;/div&gt;
+           </div>
 
-           &lt;div style="margin-bottom: 10px"&gt;
+           <div style="margin-bottom: 10px">
 
                <h1>Price Range</h1>
 
-            &lt;/div&gt;
+            </div>
 
-            <b>Min:&lt;/b&gt;&lt;span id="min"&gt;      <b>Max:  &lt;/b&gt;&lt;/span&gt;&lt;span id="max" style="float:right"&gt;&lt;/span&gt;
+            <b>Min:</b><span id="min">      <b>Max:  </b></span><span id="max" style="float:right"></span>
 
-             &lt;!—Add your Slider control here--&gt;
+             <!—Add your Slider control here-->
 
-             &lt;/div&gt;
+             </div>
 
-             &lt;div align=center style="margin-top:20px;"&gt;
+             <div align=center style="margin-top:20px;">
 
             @Html.EJMobile().Button("submit").Text("SUBMIT").ClientSideEvents(events => events.TouchEnd("openAlertDialog"))
 
-              &lt;/div&gt;
+              </div>
 
-              &lt;!-- dialog control --&gt;
+              <!-- dialog control -->
 
-   @Html.EJMobile().Dialog("alert").LeftButtonCaption("OK").ClientSideEvents(events r=> events.ButtonTap("alertClose")).Content(@&lt;div&gt;
+   @Html.EJMobile().Dialog("alert").LeftButtonCaption("OK").ClientSideEvents(events r=> events.ButtonTap("alertClose")).Content(@<div>
 
       Based on your suggestions the phones will display now
 
-               &lt;/div&gt;).EnableAutoOpen(false)
+               </div>).EnableAutoOpen(false)
 
 
 
 Execute the above code to render the following output. 
 
-{ ![2](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -141,7 +141,7 @@ To create the Slider control with a predefined range, add the following code to 
 
 @Html.EJMobile().Slider("slider1").MinimumValue(100).MaximumValue(5000).IncrementStep(100)
 
-{ ![3](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![3](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -149,7 +149,7 @@ Create the range slider
 
 In this scenario, you can set EnableRange property to True to set the price range using range slider. You can set the initial range values using Values property as 100, 1500. And set the Slider’s left thumb to 100 and the right thumb to 1500. 
 
-Add the following code to the Slider&lt;div&gt; tag.
+Add the following code to the Slider<div> tag.
 
 
 
@@ -159,7 +159,7 @@ Add the following code to the Slider&lt;div&gt; tag.
 
 Execute the above code to render the following output. 
 
-{ ![4](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![4](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -177,7 +177,7 @@ Add the following code example to the Slider.
 
 
 
-You can get the present value of both the Slider handles at any time using its getValue property.  Add the following code example to the &lt;script&gt; tag.
+You can get the present value of both the Slider handles at any time using its getValue property.  Add the following code example to the <script> tag.
 
 
 
@@ -221,7 +221,7 @@ You can get the present value of both the Slider handles at any time using its g
 
 Execute the above code to render the following output. 
 
-{ ![5](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![5](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -231,7 +231,7 @@ In the shopping cart app, a dialog displays to provide the information about the
 
 
 
-&lt;script&gt;
+<script>
 
 function alertClose() {
 
@@ -255,7 +255,7 @@ function alertClose() {
 
     }//close dialog
 
-&lt;/script&gt;
+</script>
 
 
 
@@ -265,7 +265,7 @@ Execute the above code to render the following output, when you click submit.
 
 
 
-{ ![6](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![6](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 

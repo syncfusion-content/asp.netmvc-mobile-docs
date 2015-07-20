@@ -29,7 +29,7 @@ This is the root class of the ListView.</td></tr>
 <tr>
 <td>
 e-m-parentlb</td><td>
-This class is applied to the parent &lt;div&gt; of the ListView.</td></tr>
+This class is applied to the parent <div> of the ListView.</td></tr>
 <tr>
 <td>
 e-m-childitem</td><td>
@@ -37,11 +37,11 @@ This class is applied to the root element of the nested child group list.</td></
 <tr>
 <td>
 e-m-list-container</td><td>
-This class is applied to the ListView container &lt;div&gt; element.</td></tr>
+This class is applied to the ListView container <div> element.</td></tr>
 <tr>
 <td>
 e-m-lb-filter</td><td>
-This class is applied to &lt;div&gt; element inside the ListView control when enablefilter option is set to true.</td></tr>
+This class is applied to <div> element inside the ListView control when enablefilter option is set to true.</td></tr>
 <tr>
 <td>
 e-m-list-hdr</td><td>
@@ -49,19 +49,19 @@ This class is applied to ul element inside the ListView container.</td></tr>
 <tr>
 <td>
 e-m-grouped</td><td>
-This class is applied to the grouped ListView container &lt;div&gt; and ul element inside the grouped ListView container.</td></tr>
+This class is applied to the grouped ListView container <div> and ul element inside the grouped ListView container.</td></tr>
 <tr>
 <td>
 e-m-grouplist</td><td>
-This class is applied to the root &lt;div&gt; element inside the grouped ListView container.</td></tr>
+This class is applied to the root <div> element inside the grouped ListView container.</td></tr>
 <tr>
 <td>
 e-m-groupdiv</td><td>
-This class is applied to all &lt;div&gt; elements that are root elements of individual groups in the ListView control.</td></tr>
+This class is applied to all <div> elements that are root elements of individual groups in the ListView control.</td></tr>
 <tr>
 <td>
 e-m-grouptitle</td><td>
-This class is applied to title &lt;div&gt; elements of individual groups in the ListView control.</td></tr>
+This class is applied to title <div> elements of individual groups in the ListView control.</td></tr>
 <tr>
 <td>
 e-m-list</td><td>
@@ -93,7 +93,7 @@ This class is applied to li element inside the ListView container when list item
 <tr>
 <td>
 e-m-list-div</td><td>
-This class is applied to &lt;div&gt; element inside the ListView items.</td></tr>
+This class is applied to <div> element inside the ListView items.</td></tr>
 <tr>
 <td>
 e-m-list-anchor</td><td>

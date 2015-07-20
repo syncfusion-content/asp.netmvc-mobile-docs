@@ -17,7 +17,7 @@ The ASP.NET MVC Mobile Accordion Control provides a way to display collapsible c
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -31,21 +31,21 @@ Create a simple MVC application and paste the following header and scrollpanel l
 
 
 
-       &lt;!-- header control --&gt;
+       <!-- header control -->
 
        @Html.EJMobile().Header("header").Title("Live Soccer").Render()
 
-       &lt;div id="accordion" class="sample"&gt;
+       <div id="accordion" class="sample">
 
-           &lt;div&gt;
+           <div>
 
                 @RenderBody()
 
-           &lt;/div&gt;
+           </div>
 
-       &lt;/div&gt;
+       </div>
 
-      &lt;!--Scroll Panel--&gt;
+      <!--Scroll Panel-->
 
        @Html.EJMobile().Scrollpanel("acc").Target("accordion")
 
@@ -57,25 +57,25 @@ To render Accordion control, you can call Accordion Helper Method. You can refer
 
 
 
-        &lt;!--Accordion Control--&gt;
+        <!--Accordion Control-->
 
         @Html.EJMobile().Accordion("accordionControl").Items(accItem=>
 
              {
 
-                 &lt;!--Accordion Item 1--&gt;
+                 <!--Accordion Item 1-->
 
                  accItem.Add().Text("Recent Matches");
 
 
 
-                 &lt;!--Accordion Item 2--&gt;
+                 <!--Accordion Item 2-->
 
                  accItem.Add().Text("Upcoming Matches");
 
 
 
-                 &lt;!--Accordion Item 3--&gt;
+                 <!--Accordion Item 3-->
 
                  accItem.Add().Text("Ongoing Matches");
 
@@ -89,7 +89,7 @@ Run this code to render the following output.
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -99,25 +99,25 @@ The SelectedItems property expands the specific content section, initially by us
 
 
 
-       &lt;!--Accordion Control--&gt;
+       <!--Accordion Control-->
 
        @Html.EJMobile().Accordion("accordionControl").SelectedItems(new int[]{-1}).Items(accItem=>
 
             {
 
-                  &lt;!--Accordion Item 1--&gt;
+                  <!--Accordion Item 1-->
 
                   accItem.Add().Text("Recent Matches");
 
 
 
-                  &lt;!--Accordion Item 2--&gt;
+                  <!--Accordion Item 2-->
 
                   accItem.Add().Text("Upcoming Matches");
 
 
 
-                  &lt;!--Accordion Item 3--&gt;
+                  <!--Accordion Item 3-->
 
                   accItem.Add().Text("Ongoing Matches");
 
@@ -125,7 +125,7 @@ The SelectedItems property expands the specific content section, initially by us
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -135,25 +135,25 @@ By default Header icons are not visible. To make the icons visible, set ShowHead
 
 
 
-       &lt;!--Accordion Control--&gt;
+       <!--Accordion Control-->
 
        @Html.EJMobile().Accordion("accordionControl").SelectedItems(new int[]{-1}).ShowHeaderIcon(true).Items(accItem=>
 
             {
 
-                  &lt;!--Accordion Item 1--&gt;
+                  <!--Accordion Item 1-->
 
                   accItem.Add().Text("Recent Matches");
 
 
 
-                  &lt;!--Accordion Item 2--&gt;
+                  <!--Accordion Item 2-->
 
                   accItem.Add().Text("Upcoming Matches");
 
 
 
-                  &lt;!--Accordion Item 3--&gt;
+                  <!--Accordion Item 3-->
 
                   accItem.Add().Text("Ongoing Matches");
 
@@ -161,7 +161,7 @@ By default Header icons are not visible. To make the icons visible, set ShowHead
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -171,7 +171,7 @@ By default, all the content sections are not collapsible. To make all its conten
 
 
 
-        &lt;!--Accordion Control--&gt;
+        <!--Accordion Control-->
 
        @Html.EJMobile().Accordion("accordionControl").SelectedItems(new int[]{-1}).ShowHeaderIcon(true)
 
@@ -179,19 +179,19 @@ By default, all the content sections are not collapsible. To make all its conten
 
             {
 
-                  &lt;!--Accordion Item 1--&gt;
+                  <!--Accordion Item 1-->
 
                   accItem.Add().Text("Recent Matches");
 
 
 
-                  &lt;!--Accordion Item 2--&gt;
+                  <!--Accordion Item 2-->
 
                   accItem.Add().Text("Upcoming Matches");
 
 
 
-                  &lt;!--Accordion Item 3--&gt;
+                  <!--Accordion Item 3-->
 
                   accItem.Add().Text("Ongoing Matches");
 
@@ -205,7 +205,7 @@ The following code example adds Recent Matches and Upcoming Matches panels’ co
 
 
 
-       &lt;!--Accordion Control--&gt;
+       <!--Accordion Control-->
 
        @Html.EJMobile().Accordion("accordionControl").SelectedItems(new int[]{1}).ShowHeaderIcon(true)
 
@@ -213,87 +213,87 @@ The following code example adds Recent Matches and Upcoming Matches panels’ co
 
            {
 
-               &lt;!--Accordion Item 1--&gt;
+               <!--Accordion Item 1-->
 
                accItem.Add().Text("Recent Matches").Content(
 
-                  @&lt;div&gt;
+                  @<div>
 
-                      &lt;!--Content--&gt;
+                      <!--Content-->
 
 <div class="message-title">Crystal Palace – 3
 
-                         <div class="time-panel">6th May</div>&lt;/div&gt;
+                         <div class="time-panel">6th May</div></div>
 
                       <div class="message-title">Liverpool - 3</div>
 
                       <div class="text-panel">Match Drawn</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Arsenal – 1
 
-                         <div class="time-panel">4th May</div>&lt;/div&gt;
+                         <div class="time-panel">4th May</div></div>
 
                       <div class="message-title">West Brom - 0</div>
 
                       <div class="text-panel">Arsenal won the match</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                       <div class="message-title">Rayo – 0
 
-                         <div class="time-panel">3rd May</div>&lt;/div&gt;
+                         <div class="time-panel">3rd May</div></div>
 
                       <div class="message-title">Athletic - 3</div>
 
                       <div class="text-panel">Athletic won the match</div>
 
-                   &lt;/div&gt;);
+                   </div>);
 
 
 
-               &lt;!--Accordion Item 2--&gt;
+               <!--Accordion Item 2-->
 
                accItem.Add().Text("Upcoming Matches").Content(
 
-                  @&lt;div&gt;
+                  @<div>
 
-                      &lt;!--Content--&gt;
+                      <!--Content-->
 
 <div class="message-title">Man City
 
-                          <div class="time-panel">8th May</div>&lt;/div&gt;
+                          <div class="time-panel">8th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Aston Villa</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Valladolid
 
-                          <div class="time-panel">8th May</div>&lt;/div&gt;
+                          <div class="time-panel">8th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Real Madrid</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Villarreal
 
-                          <div class="time-panel">10th May</div>&lt;/div&gt;
+                          <div class="time-panel">10th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Rayo</div>
 
-                   &lt;/div&gt;);
+                   </div>);
 
 
 
-               &lt;!--Accordion Item 3--&gt;
+               <!--Accordion Item 3-->
 
                accItem.Add().Text("Ongoing Matches");
 
@@ -305,7 +305,7 @@ Use the following styles for the content style.
 
 
 
-       &lt;style&gt;
+       <style>
 
            .appview .sample{
 
@@ -349,13 +349,13 @@ Use the following styles for the content style.
 
             }
 
-      &lt;/style&gt;
+      </style>
 
-{ ![](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
-{ ![](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 
@@ -365,7 +365,7 @@ In some cases, you can load content only when it is required. In this case, the 
 
 
 
-       &lt;!--Accordion Control--&gt;
+       <!--Accordion Control-->
 
        @Html.EJMobile().Accordion("accordionControl").SelectedItems(new int[]{2}).ShowHeaderIcon(true)
 
@@ -375,75 +375,75 @@ In some cases, you can load content only when it is required. In this case, the 
 
                accItem.Add().Text("Recent Matches").Content(
 
-                  @&lt;div&gt;
+                  @<div>
 
-                      &lt;!--Content--&gt;
+                      <!--Content-->
 
                    <div class="message-title">Crystal Palace – 3
 
-                         <div class="time-panel">6th May</div>&lt;/div&gt;
+                         <div class="time-panel">6th May</div></div>
 
                       <div class="message-title">Liverpool - 3</div>
 
                       <div class="text-panel">Match Drawn</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Arsenal – 1
 
-                         <div class="time-panel">4th May</div>&lt;/div&gt;
+                         <div class="time-panel">4th May</div></div>
 
                       <div class="message-title">West Brom - 0</div>
 
                       <div class="text-panel">Arsenal won the match</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                       <div class="message-title">Rayo – 0
 
-                         <div class="time-panel">3rd May</div>&lt;/div&gt;
+                         <div class="time-panel">3rd May</div></div>
 
                       <div class="message-title">Athletic - 3</div>
 
                       <div class="text-panel">Athletic won the match</div>
 
-                   &lt;/div&gt;);
+                   </div>);
 
                accItem.Add().Text("Upcoming Matches").Content(
 
-                  @&lt;div&gt;
+                  @<div>
 
-                      &lt;!--Content--&gt;
+                      <!--Content-->
 
                    <div class="message-title">Man City
 
-                          <div class="time-panel">8th May</div>&lt;/div&gt;
+                          <div class="time-panel">8th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Aston Villa</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Valladolid
 
-                          <div class="time-panel">8th May</div>&lt;/div&gt;
+                          <div class="time-panel">8th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Real Madrid</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Villarreal
 
-                          <div class="time-panel">10th May</div>&lt;/div&gt;
+                          <div class="time-panel">10th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Rayo</div>
 
-                   &lt;/div&gt;);
+                   </div>);
 
                accItem.Add().Text("Ongoing Matches").AjaxUrl("load");
 
@@ -453,63 +453,63 @@ In some cases, you can load content only when it is required. In this case, the 
 
 Create a new view page with the name load.cshtml and assign its URL to AjaxUrl property.
 
-      &lt;div&gt;
+      <div>
 
-        &lt;div class="message-title"&gt;
+        <div class="message-title">
 
             Brighton & Hove Albion  - 1
 
-       &lt;div class="time-panel"&gt;
+       <div class="time-panel">
 
-            FT</div>&lt;/div&gt;
+            FT</div></div>
 
        <div class="text-panel">vs</div>
 
-       &lt;div class="message-title"&gt;
+       <div class="message-title">
 
             Derby County  - 2</div>
 
-        &lt;div class="border-panel"&gt;&lt;/div&gt;
+        <div class="border-panel"></div>
 
-        &lt;div class="message-title"&gt;
+        <div class="message-title">
 
             Manchester United - 3
 
-       &lt;div class="time-panel"&gt;
+       <div class="time-panel">
 
-            FT</div>&lt;/div&gt;
+            FT</div></div>
 
        <div class="text-panel">vs</div>
 
-       &lt;div class="message-title"&gt;
+       <div class="message-title">
 
             Hull City  -  1</div>
 
-       &lt;div class="border-panel"&gt;&lt;/div&gt;
+       <div class="border-panel"></div>
 
-       &lt;div class="message-title"&gt;
+       <div class="message-title">
 
             Empoli
 
-       &lt;div class="time-panel"&gt;
+       <div class="time-panel">
 
             19:00</div>
 
-        &lt;/div&gt;
+        </div>
 
        <div class="text-panel">vs</div>
 
-       &lt;div class="message-title"&gt;
+       <div class="message-title">
 
             Crotone
 
-       &lt;/div&gt;
+       </div>
 
-      &lt;/div&gt;
+      </div>
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img7.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
 {:.image }
 
 
@@ -519,7 +519,7 @@ By default, Cache is enabled. So when you load the Ongoing Matches content, it l
 
 
 
-&lt;!--Accordion Control--&gt;
+<!--Accordion Control-->
 
        @Html.EJMobile().Accordion("accordionControl").SelectedItems(new int[]{2}).ShowHeaderIcon(true)
 
@@ -529,75 +529,75 @@ By default, Cache is enabled. So when you load the Ongoing Matches content, it l
 
                accItem.Add().Text("Recent Matches").Content(
 
-                  @&lt;div&gt;
+                  @<div>
 
-                      &lt;!--Content--&gt;
+                      <!--Content-->
 
                    <div class="message-title">Crystal Palace – 3
 
-                         <div class="time-panel">6th May</div>&lt;/div&gt;
+                         <div class="time-panel">6th May</div></div>
 
                       <div class="message-title">Liverpool - 3</div>
 
                       <div class="text-panel">Match Drawn</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Arsenal – 1
 
-                         <div class="time-panel">4th May</div>&lt;/div&gt;
+                         <div class="time-panel">4th May</div></div>
 
                       <div class="message-title">West Brom - 0</div>
 
                       <div class="text-panel">Arsenal won the match</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                       <div class="message-title">Rayo – 0
 
-                         <div class="time-panel">3rd May</div>&lt;/div&gt;
+                         <div class="time-panel">3rd May</div></div>
 
                       <div class="message-title">Athletic - 3</div>
 
                       <div class="text-panel">Athletic won the match</div>
 
-                   &lt;/div&gt;);
+                   </div>);
 
                accItem.Add().Text("Upcoming Matches").Content(
 
-                  @&lt;div&gt;
+                  @<div>
 
-                      &lt;!--Content--&gt;
+                      <!--Content-->
 
                    <div class="message-title">Man City
 
-                          <div class="time-panel">8th May</div>&lt;/div&gt;
+                          <div class="time-panel">8th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Aston Villa</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Valladolid
 
-                          <div class="time-panel">8th May</div>&lt;/div&gt;
+                          <div class="time-panel">8th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Real Madrid</div>
 
-                   &lt;div class="border-panel"&gt;&lt;/div&gt;
+                   <div class="border-panel"></div>
 
                    <div class="message-title">Villarreal
 
-                          <div class="time-panel">10th May</div>&lt;/div&gt;
+                          <div class="time-panel">10th May</div></div>
 
                        <div class="text-panel">vs</div>
 
                        <div class="message-title">Rayo</div>
 
-                   &lt;/div&gt;);
+                   </div>);
 
                accItem.Add().Text("Ongoing Matches").AjaxUrl("load");
 

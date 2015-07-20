@@ -29,7 +29,7 @@ Name("options").Buttons(button =>
 
        })
 
-    &lt;style&gt;
+    <style>
 
         .apple {
 
@@ -47,13 +47,13 @@ Name("options").Buttons(button =>
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 
 The following screenshot displays the Image Class:
 
-{ ![](Customize-Image_images/Customize-Image_img1.png) | markdownify }
+{{ '![](Customize-Image_images/Customize-Image_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -85,7 +85,7 @@ The following screenshot displays the Image URL:
 
 
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/ios7_4.png](Customize-Image_images/Customize-Image_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/ios7_4.png](Customize-Image_images/Customize-Image_img2.png)' | markdownify }}
 {:.image }
 
 

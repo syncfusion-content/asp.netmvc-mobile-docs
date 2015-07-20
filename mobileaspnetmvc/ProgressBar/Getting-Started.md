@@ -15,7 +15,7 @@ In this section, you can learn how to create ProgressBar and how to use it in yo
 
 ASP.NET MVC, Mobile ProgressBar is a simple interface that indicates the current progress of an operation, such as uploading a document. In the following guidelines, you will learn about the features in ProgressBar widget and create an App Installer.
 
-{ ![1](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -27,15 +27,15 @@ Create a simple MVC application and paste the following header and scrollpanel l
 
 You can create an MVC Project and add necessary Dlls and script, with the help of the [MVC-Getting Started Documentation.](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm)
 
-    &lt;!-- Layout Page Content --&gt;
+    <!-- Layout Page Content -->
 
-    &lt;!-- header control --&gt;
+    <!-- header control -->
 
     @Html.EJMobile().Header("header").Title("App Installer")
 
           @RenderBody()
 
-    &lt;!-- ScrollPanel --&gt;
+    <!-- ScrollPanel -->
 
     @Html.EJMobile().Scrollpanel("scrollpanel").Target("content")
 
@@ -43,45 +43,45 @@ You can create an MVC Project and add necessary Dlls and script, with the help o
 
 
 
-    &lt;!-- View Page Content --&gt;
+    <!-- View Page Content -->
 
-    &lt;div id="content"&gt;
+    <div id="content">
 
-        &lt;div&gt;
+        <div>
 
-            &lt;!-- Add image and definition --&gt;
+            <!-- Add image and definition -->
 
-            &lt;div align="center"&gt;
+            <div align="center">
 
-                &lt;img src="http://js.syncfusion.com/UG/Mobile/Content/debug.png" style="width: 125px;" /&gt;
+                <img src="http://js.syncfusion.com/UG/Mobile/Content/debug.png" style="width: 125px;" />
 
-            &lt;/div&gt; &lt;br /&gt;&lt;br /&gt;
+            </div> <br /><br />
 
-            &lt;div id="definition" align="center" style="padding: 0 20px"&gt;
+            <div id="definition" align="center" style="padding: 0 20px">
 
-                <b>BUG DETECTIVE</b>&lt;br /&gt;
+                <b>BUG DETECTIVE</b><br />
 
                 Bug Detective is an open source application which integrates with web browsers to debug web development tools while you browse. We can debug HTML and JavaScript live in any web page using bug detective.
 
-            &lt;/div&gt;&lt;br /&gt;
+            </div><br />
 
-            &lt;!-- Button control --&gt;
+            <!-- Button control -->
 
-            &lt;div align="center"&gt;
+            <div align="center">
 
                 @Html.EJMobile().Button("button").Text("Install").ClientSideEvents(eve => eve.TouchEnd("startProgress"))
 
-            &lt;/div&gt;
+            </div>
 
 
 
-            &lt;!--Add progressbar Element here--&gt;
+            <!--Add progressbar Element here-->
 
 
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
 
 
@@ -89,7 +89,7 @@ You can create an MVC Project and add necessary Dlls and script, with the help o
 
 Run the above code example and you can see the following output.
 
-{ ![2](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -97,19 +97,19 @@ Create ProgressBar Control
 
 You can call ProgressBar helper to render ProgressBar control. You can set its initial value by using Value property. By default, it takes parent’s width. But, you can customize it by using Width property.
 
- &lt;!--ProgressBar control --&gt;
+ <!--ProgressBar control -->
 
- &lt;div style="width: 75%; margin:auto;"&gt;
+ <div style="width: 75%; margin:auto;">
 
       @Html.EJMobile().ProgressBar("progress").Value(73)
 
- &lt;/div&gt;
+ </div>
 
 
 
 You can hide ProgressBar, with desired action on its hide API and you can show it with desired action on its show API.
 
-&lt;script&gt;
+<script>
 
         $(function () {
 
@@ -127,13 +127,13 @@ You can hide ProgressBar, with desired action on its hide API and you can show i
 
             }
 
-&lt;/script&gt;
+</script>
 
 
 
 Run the above code example and you can see the following output.
 
-{ ![3](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![3](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -143,19 +143,19 @@ The default text of ProgressBar is downloading. In this scenario you are install
 
 
 
-  &lt;!-- Progressbar control --&gt;
+  <!-- Progressbar control -->
 
- &lt;div style="width: 75%; margin:auto;"&gt;
+ <div style="width: 75%; margin:auto;">
 
       @Html.EJMobile().ProgressBar("progress").Value(73) .EnableCustomText(true).Text("Installing..")
 
- &lt;/div&gt;
+ </div>
 
 
 
 Run the above code example and you can see the following output.
 
-{ ![1](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![1](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -163,15 +163,15 @@ Customize Text and Value Dynamically
 
 The ProgressBar text and its value can be changed dynamically. In this scenario, to indicate the progress of installation, its value dynamically changes when you click the Install button. And when it reaches 100%, then the ProgressBar text will change from Installingto Completed. Here, its value must start from zero, so that the Value property is removed and modifies the following code example.  
 
-&lt;!-- Progressbar control --&gt;
+<!-- Progressbar control -->
 
- &lt;div style="width: 75%; margin:auto;"&gt;
+ <div style="width: 75%; margin:auto;">
 
       @Html.EJMobile().ProgressBar("progress").EnableCustomText(true).Text("Installing..")
 
                  @* Value(73) is removed here *@
 
- &lt;/div&gt;
+ </div>
 
 
 
@@ -179,7 +179,7 @@ You can use setInterval function in JavaScript to change its value and text dyna
 
 
 
-&lt;script&gt;
+<script>
 
         window.currValue = 0;
 
@@ -217,7 +217,7 @@ You can use setInterval function in JavaScript to change its value and text dyna
 
         }
 
-    &lt;/script&gt;
+    </script>
 
 
 
@@ -225,7 +225,7 @@ Run the above code example and you can see the following output, after you click
 
 
 
-{ ![4](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![4](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 

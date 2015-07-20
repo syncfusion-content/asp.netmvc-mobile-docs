@@ -17,7 +17,7 @@ You can show/hide the leftpane header by setting the ShowLeftPaneHeader property
 
 You can customize the left pane header by using LeftHeaderSettings property. The following code illustrates how to set the title for the left pane
 
-    @Html.EJMobile().SplitPane("splitpane").LeftHeaderSettings(left=>left.Title("Sample Header")).LeftPaneTemplate(@&lt;div&gt;    @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>   {
+    @Html.EJMobile().SplitPane("splitpane").LeftHeaderSettings(left=>left.Title("Sample Header")).LeftPaneTemplate(@<div>    @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>   {
 
        items.Add().Text("Item1");
 
@@ -33,13 +33,13 @@ You can customize the left pane header by using LeftHeaderSettings property. The
 
    })
 
-    &lt;/div&gt;)          
+    </div>)          
 
 Script Section
 
 While selecting an item from the left pane, the corresponding content in right pane is to be loaded. To achieve this, you can handle the touchEnd handler using the loadContent method as follows. 
 
-&lt;script&gt;
+<script>
 
     function loadContent() {
 
@@ -49,7 +49,7 @@ While selecting an item from the left pane, the corresponding content in right p
 
 
 
-&lt;/script&gt;
+</script>
 
 Page Content Section
 
@@ -58,13 +58,13 @@ The following screenshot illustrates the output for iOS7 and Windows.
 
 iOS7
 
-{ ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img1.png) | markdownify }
+{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 
 Windows
 
-{ ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img2.png) | markdownify }
+{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -76,7 +76,7 @@ You can show/hide the right pane header by set as false/true to the ShowRightPan
 
 You can customize the header related features by using RightHeaderSettings property. The following code illustrates how to set the title for the right pane.  
 
-@Html.EJMobile().SplitPane("splitpane").RightHeaderSettings(header=>header.Title("Page Header")).LeftPaneTemplate(@&lt;div&gt;
+@Html.EJMobile().SplitPane("splitpane").RightHeaderSettings(header=>header.Title("Page Header")).LeftPaneTemplate(@<div>
 
     @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
 
@@ -96,7 +96,7 @@ You can customize the header related features by using RightHeaderSettings prope
 
    })
 
-    &lt;/div&gt;)
+    </div>)
 
 
 
@@ -104,13 +104,13 @@ Refer to the script section and page content section to load the right pane cont
 
 iOS7
 
-{ ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img3.png) | markdownify }
+{{ '![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img3.png)' | markdownify }}
 {:.image }
 
 
 Windows
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML636b64a.PNG](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML636b64a.PNG](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)' | markdownify }}
 {:.image }
 
 

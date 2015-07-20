@@ -17,11 +17,11 @@ Text and Color
 
 The iOS7 Animate Type Menu comes with CancelButton at the bottom. The Cancel Button color can be customized by CancelButtonColor property. The Cancel Button text is changed by using CancelButtonText property. Set the desired text by using this property.
 
-    &lt;div style="text-align: center;"&gt;
+    <div style="text-align: center;">
 
         @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.CancelButtonColor(IOS7ButtonColor.Red).CancelButtonText("Cancel")).Items(item =>
 
@@ -37,7 +37,7 @@ The iOS7 Animate Type Menu comes with CancelButton at the bottom. The Cancel But
 
 The following screenshot displays the Button Customization:
 
-{ ![CancelButtonColor](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png) | markdownify }
+{{ '![CancelButtonColor](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -45,11 +45,11 @@ Hide Cancel Button
 
 You can hide or show the Cancel Button by setting false or true to the ShowCancelButton property.
 
-    &lt;div style="text-align: center;"&gt;
+    <div style="text-align: center;">
 
         @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.ShowCancelButton(false)).Items(item =>
 
@@ -65,7 +65,7 @@ You can hide or show the Cancel Button by setting false or true to the ShowCance
 
 The following screenshot displays the Show Cancel Button:
 
-{ ![ShowCancelButton](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png) | markdownify }
+{{ '![ShowCancelButton](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -73,11 +73,11 @@ Title
 
 When iOS7 Menu is used, it comes up with a Title on the top of the Menu container. You can hide or show the Title by setting false or true by using ShowTitle property. You can also change the Title text by setting the desired Title for Title property.
 
-    &lt;div style="text-align: center;"&gt;
+    <div style="text-align: center;">
 
         @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.ShowTitle(false)).Items(item =>
 
@@ -95,7 +95,7 @@ When iOS7 Menu is used, it comes up with a Title on the top of the Menu containe
 
 The following screenshot displays the Title:
 
-{ ![ShowTitle](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img3.png) | markdownify }
+{{ '![ShowTitle](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -111,11 +111,11 @@ When you click a button or a target element, the Menu is shown. The appearance o
 
 
 
-    &lt;div style="text-align: center;"&gt;
+    <div style="text-align: center;">
 
         @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
 
-    &lt;/div&gt;
+    </div>
 
     @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.Type(IOS7MenuType.Normal)).Items(item =>
 
@@ -131,7 +131,7 @@ When you click a button or a target element, the Menu is shown. The appearance o
 
  The following screenshot displays the Type:
 
-{ ![C:/Users/dineshr/Desktop/def.png](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img4.png) | markdownify }
+{{ '![C:/Users/dineshr/Desktop/def.png](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img4.png)' | markdownify }}
 {:.image }
 
 

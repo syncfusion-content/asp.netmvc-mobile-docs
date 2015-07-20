@@ -72,7 +72,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![19](Paging_images/Paging_img1.png) | markdownify }
+{{ '![19](Paging_images/Paging_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -125,7 +125,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![20](Paging_images/Paging_img2.png) | markdownify }
+{{ '![20](Paging_images/Paging_img2.png)' | markdownify }}
 {:.image }
 
 

@@ -23,7 +23,7 @@ The maxdate and mindate properties are used to denote the maximum and minimum se
 
 The following screenshot displays the output.
 
-{ ![](Configure-date_images/Configure-date_img1.png) | markdownify }
+{{ '![](Configure-date_images/Configure-date_img1.png)' | markdownify }}
 {:.image }
 
 

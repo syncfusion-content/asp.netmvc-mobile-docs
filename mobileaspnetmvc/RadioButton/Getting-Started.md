@@ -15,7 +15,7 @@ This section briefly describes you how to create a QuizApp by using the Essentia
 
 The following guidelines show you how to use the RadioButton to select the answers in the application and get the selected items. The following screenshot displays a sample Quiz application.
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -23,7 +23,7 @@ The following guidelines show you how to use the RadioButton to select the answe
 
 Create the necessary layout
 
-Create a simple MVC application and paste the following header and add the following template inside the &lt;body&gt; tag of the layout.cshtml and paste other templates in the view page for the RadioButton creation.
+Create a simple MVC application and paste the following header and add the following template inside the <body> tag of the layout.cshtml and paste other templates in the view page for the RadioButton creation.
 
 You can create an MVCProject and add necessary Dlls and script with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for Mobile.
 
@@ -207,7 +207,7 @@ Now, add the following style to align the RadioButton and contents properly in t
 
 The following screenshot is the output for the above code examples.
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 

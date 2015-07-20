@@ -115,7 +115,7 @@ For example, use the following code example to give you the exact output.
 
 The following screenshot displays the Local Data Binding:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_11.png](Data-Binding_images/Data-Binding_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_11.png](Data-Binding_images/Data-Binding_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -143,7 +143,7 @@ In RemoteData Binding, the data is retrieved from a particular URL unlike the lo
 
 The following screenshot displays the remote Data Binding:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_17.png](Data-Binding_images/Data-Binding_img2.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_17.png](Data-Binding_images/Data-Binding_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -188,11 +188,11 @@ In DB, you can define the desired class name or styles for the list item through
 
 The following screenshots display the Field Settings:
 
-{ ![Field Setting z](Data-Binding_images/Data-Binding_img3.png) | markdownify }
+{{ '![Field Setting z](Data-Binding_images/Data-Binding_img3.png)' | markdownify }}
 {:.image }
 
 
-{ ![Field Setting (2) z](Data-Binding_images/Data-Binding_img4.png) | markdownify }
+{{ '![Field Setting (2) z](Data-Binding_images/Data-Binding_img4.png)' | markdownify }}
 {:.image }
 
 

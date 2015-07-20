@@ -45,7 +45,7 @@ To customize the ListView dimensions, Width and Height properties are used.
 
 The following screenshot displays the Dimensions:
 
-{ ![Height z](Dimensions_images/Dimensions_img1.png) | markdownify }
+{{ '![Height z](Dimensions_images/Dimensions_img1.png)' | markdownify }}
 {:.image }
 
 

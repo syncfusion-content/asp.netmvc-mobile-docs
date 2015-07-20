@@ -43,13 +43,13 @@ Execute the above code to render the following output.
 
 
 
-{ ![27](Column-Selection_images/Column-Selection_img1.png) | markdownify }
+{{ '![27](Column-Selection_images/Column-Selection_img1.png)' | markdownify }}
 {:.image }
 
 
 
 
-{ ![28](Column-Selection_images/Column-Selection_img2.png) | markdownify }
+{{ '![28](Column-Selection_images/Column-Selection_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -57,7 +57,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![29](Column-Selection_images/Column-Selection_img3.png) | markdownify }
+{{ '![29](Column-Selection_images/Column-Selection_img3.png)' | markdownify }}
 {:.image }
 
 

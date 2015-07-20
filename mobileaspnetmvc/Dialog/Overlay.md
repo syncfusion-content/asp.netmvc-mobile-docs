@@ -17,21 +17,21 @@ The EnableModal property enables the modal Dialog that blocks you from interacti
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableModal(true).Content(
 
-@&lt;div&gt;
+@<div>
 
 Syncfusion provides software components and tools for the Microsoft .NET platform
 
-&lt;/div&gt;)
+</div>)
 
 }
 
 
 
-&lt;div style="text-align: center"&gt;
+<div style="text-align: center">
 
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -51,7 +51,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
 The following screenshot displays the output.
 
-{ ![](Overlay_images/Overlay_img1.png) | markdownify }
+{{ '![](Overlay_images/Overlay_img1.png)' | markdownify }}
 {:.image }
 
 

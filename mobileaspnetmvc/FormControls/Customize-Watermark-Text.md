@@ -25,7 +25,7 @@ Refer to the following code example.
 
 
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](Customize-Watermark-text_images/Customize-Watermark-text_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)' | markdownify }}
 {:.image }
 
 

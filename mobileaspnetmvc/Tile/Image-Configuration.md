@@ -39,11 +39,11 @@ ImageUrl property is used to specify the file name for the background image of t
 
 
 
-&lt;div style="margin-top:45px;"&gt;
+<div style="margin-top:45px;">
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
-@Html.EJMobile().Tile("tile").ImagePosition(TileImagePosition.Fill).ImagePath("~/themes/sample/tileview").ImageUrl("Weather_1.png").BackgroundColor("#ae12ae").Text("Weather")&lt;/div&gt;
+@Html.EJMobile().Tile("tile").ImagePosition(TileImagePosition.Fill).ImagePath("~/themes/sample/tileview").ImageUrl("Weather_1.png").BackgroundColor("#ae12ae").Text("Weather")</div>
 
 
 
@@ -51,7 +51,7 @@ ImageUrl property is used to specify the file name for the background image of t
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -61,17 +61,17 @@ Refer to the following code example.
 
 
 
-&lt;div style="margin-top:45px;"&gt;
+<div style="margin-top:45px;">
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
 @Html.EJMobile().Tile("tile").ImageClass("picture").Text("Weather")
 
-&lt;/div&gt;
+</div>
 
 
 
-    &lt;style&gt;
+    <style>
 
         .picture {
 
@@ -83,13 +83,13 @@ Refer to the following code example.
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 
 The following screenshot illustrates the output of the above code.
 
-{ ![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png) | markdownify }
+{{ '![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png)' | markdownify }}
 {:.image }
 
 

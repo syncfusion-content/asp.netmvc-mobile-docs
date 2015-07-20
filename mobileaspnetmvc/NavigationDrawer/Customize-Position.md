@@ -37,39 +37,39 @@ Refer to the following code examples.
 
 @Html.EJMobile().Header("head").Title("NavigationDrawer").Position(MobileHeaderPosition.Normal)
 
-    &lt;div id="content" style="margin-top: 45px;"&gt;
+    <div id="content" style="margin-top: 45px;">
 
-        &lt;div id="Home"&gt;
+        <div id="Home">
 
                 The Home screen allows you to choose the specific content type displayed.
 
 
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;div id="Profile" style="display: none"&gt;
+        <div id="Profile" style="display: none">
 
             The Profile page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
 
 
-        &lt;div id="Photos" style="display: none"&gt;
+        <div id="Photos" style="display: none">
 
             The Photos page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
 
 
-        &lt;div id="Location" style="display: none"&gt;
+        <div id="Location" style="display: none">
 
             The Location page content is displayed.
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
 
 

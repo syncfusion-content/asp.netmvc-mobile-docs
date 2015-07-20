@@ -13,7 +13,7 @@ RightPane Scroll Settings
 
 The AllowRightPaneScrolling property is used to enable/disable the right pane content scrolling. By default the property is set to true. You can customize the right pane scrolling behavior by using this RightPaneScrollSettings property. 
 
-@Html.EJMobile().SplitPane("splitpane").RightPaneScrollSettings(right=>right.TargetWidth(200)).LeftPaneTemplate(@&lt;div&gt;
+@Html.EJMobile().SplitPane("splitpane").RightPaneScrollSettings(right=>right.TargetWidth(200)).LeftPaneTemplate(@<div>
 
     @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
 
@@ -33,7 +33,7 @@ The AllowRightPaneScrolling property is used to enable/disable the right pane co
 
    })
 
-    &lt;/div&gt;)            
+    </div>)            
 
 
 
@@ -47,7 +47,7 @@ LeftPane Scroll Settings
 
 The AllowLeftPaneScrolling property is used to enable/disable the left pane content scrolling. By default the property is set to true. You can customize the left pane scrolling behavior by using this LeftPaneScrollSettings property. 
 
-@Html.EJMobile().SplitPane("splitpane").LeftPaneScrollSettings(left=>left.TargetWidth(320)).LeftPaneTemplate(@&lt;div&gt;
+@Html.EJMobile().SplitPane("splitpane").LeftPaneScrollSettings(left=>left.TargetWidth(320)).LeftPaneTemplate(@<div>
 
     @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
 
@@ -67,7 +67,7 @@ The AllowLeftPaneScrolling property is used to enable/disable the left pane cont
 
    })
 
-    &lt;/div&gt;)
+    </div>)
 
 
 

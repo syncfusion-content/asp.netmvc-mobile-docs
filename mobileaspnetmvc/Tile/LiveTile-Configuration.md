@@ -21,25 +21,25 @@ Refer to the following code example.
 
 
 
-&lt;div style="margin-top:45px;"&gt;
+<div style="margin-top:45px;">
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
 @Html.EJMobile().Tile("tile").RenderMode(RenderMode.Windows).LiveTile(live => { live.Enabled(true).Type(LiveTileType.Slide).UpdateInterval(2500).ImageUrl(new string[] { "photo1.png", "photo2.png" }); }).ImagePath(Url.Content("~/themes/sample/tileview")).ImagePosition(TileImagePosition.Fill)
 
-&lt;/div&gt;
+</div>
 
 
 
 Using ImageTemplateId property, you can specify live tile images outside the tile rendering. To achieve this, you have to provide image content inside the element where the path is specified by using templateid. You can update the ImageTemplateId dynamically through updateTemplateID public method.
 
-&lt;div style="margin-top:45px;"&gt;
+<div style="margin-top:45px;">
 
 
 
 @Html.EJMobile().Tile("tile").RenderMode(RenderMode.Windows).LiveTile(live => { live.Enabled(true).ImageTemplateId(new string[] { "temp1", "temp2" }); })
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -49,7 +49,7 @@ Using ImageTemplateId property, you can specify live tile images outside the til
 
      100%;">
 
-     &lt;/div&gt;
+     </div>
 
      <div id="temp2" style="background-image:   
 
@@ -57,7 +57,7 @@ Using ImageTemplateId property, you can specify live tile images outside the til
 
      100%;">
 
-     &lt;/div&gt;
+     </div>
 
 
 
@@ -65,15 +65,15 @@ Using ImageTemplateId property, you can specify live tile images outside the til
 
 You can specify the array of images for live tile through CSS classes by using ImageClass property and you can define the desired styles in the specified class.
 
-&lt;div style="margin-top:45px;"&gt;
+<div style="margin-top:45px;">
 
 
 
 @Html.EJMobile().Tile("tile").RenderMode(RenderMode.Windows).LiveTile(live => { live.Enabled(true).ImageClass(new string[] { "calendar", "setting" }); })
 
-&lt;/div&gt;
+</div>
 
-   &lt;style&gt;
+   <style>
 
         .calendar {
 
@@ -87,7 +87,7 @@ You can specify the array of images for live tile through CSS classes by using I
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 

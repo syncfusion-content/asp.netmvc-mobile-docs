@@ -13,59 +13,59 @@ You can render the contents for the Rotator by specifying the particular target 
 
 The TargetId property is used to define the Id of the target element where you can specify the content to render in the control. The TargetHeight and TargetWidth properties are used to specify the Rotator height and width respectively on initialization. Refer to the following code example.
 
-&lt;!-- header control --&gt;
+<!-- header control -->
 
 @Html.EJMobile().Header("header").Title("Photo Gallery")
 
 
 
-&lt;div id="rotatorcontentdefault"&gt;
+<div id="rotatorcontentdefault">
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo1"&gt;
+        <div class="photo photo1">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo2"&gt;
+        <div class="photo photo2">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo3"&gt;
+        <div class="photo photo3">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo4"&gt;
+        <div class="photo photo4">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo5"&gt;
+        <div class="photo photo5">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
- &lt;div id="scrollparent"&gt;
+ <div id="scrollparent">
 
     @{
 
@@ -73,13 +73,13 @@ The TargetId property is used to define the Id of the target element where you c
 
     }
 
-&lt;/div&gt;
+</div>
 
 
 
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Render-the-specified-target_images/Render-the-specified-target_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Render-the-specified-target_images/Render-the-specified-target_img1.png)' | markdownify }}
 {:.image }
 
 

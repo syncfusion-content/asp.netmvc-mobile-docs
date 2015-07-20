@@ -15,7 +15,7 @@ This section enables you to create SplitPane using JavaScript in your mobile app
 
 The Essential Studio for ASP.NET MVC Mobile Splitpane divides a region on the web page.  It is configured to split up the horizontal view vertically. Right side panes can display the content from an external URL that is specific to the item selected in the left pane. In the following guidelines, you can learn the features in Splitpane widget by creating a Mail App.
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -27,7 +27,7 @@ Create a simple MVC application and add the following code example in the view p
 
 
 
-@Html.EJMobile().SplitPane("splitview").LeftPaneTemplate(@&lt;div&gt;&lt;/div&gt;)
+@Html.EJMobile().SplitPane("splitview").LeftPaneTemplate(@<div></div>)
 
 
 
@@ -37,7 +37,7 @@ Run this code example and the following output is displayed. For more details, t
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -116,25 +116,25 @@ Create a partial view page with the name “ListViewContent.cshtml” and add th
 
 
 
-    @&lt;div class="cont-bg"&gt;
+    @<div class="cont-bg">
 
 
 
-        &lt;span class="templatetext"&gt;{{>Name}}&lt;/span&gt; &lt;span class="timestyle"&gt;{{>Time}}&lt;/span&gt;
+        <span class="templatetext">{{>Name}}</span> <span class="timestyle">{{>Time}}</span>
 
 
 
-        &lt;div class="aboutstyle"&gt;
+        <div class="aboutstyle">
 
 
 
 {{>About}}
 
-        &lt;/div&gt;
+        </div>
 
 
 
-    &lt;/div&gt;)
+    </div>)
 
 }
 
@@ -146,13 +146,13 @@ Refer the following code example. The partial view (ListViewContent) is called t
 
 
 
-@Html.EJMobile().SplitPane("splitview").LeftHeaderSettings(left => left.Title("Inbox")).RightHeaderSettings(right => right.Title("Message")).ToolbarSettings(tool => tool.Android(and => and.Title("Inbox"))).LeftPaneTemplate(@&lt;div&gt;@Html.Partial("ListViewContent")&lt;/div&gt;)
+@Html.EJMobile().SplitPane("splitview").LeftHeaderSettings(left => left.Title("Inbox")).RightHeaderSettings(right => right.Title("Message")).ToolbarSettings(tool => tool.Android(and => and.Title("Inbox"))).LeftPaneTemplate(@<div>@Html.Partial("ListViewContent")</div>)
 
 
 
 Use the following styles to apply style for ListView template.
 
-&lt;style type="text/css"&gt;
+<style type="text/css">
 
     .cont-bg {
 
@@ -210,13 +210,13 @@ Use the following styles to apply style for ListView template.
 
     }
 
-&lt;/style&gt;
+</style>
 
 
 
 Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -224,7 +224,7 @@ Add right Pane content
 
 Refer to the following code example.
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 
 
 
@@ -308,35 +308,35 @@ Refer to the following code example.
 
 
 
-&lt;/script&gt;
+</script>
 
 Create a view page with name load1.cshtml and add the following code example to the file.
 
-&lt;h2&gt;
+<h2>
 
-    Hi John,&lt;/h2&gt;
+    Hi John,</h2>
 
-&lt;br /&gt;
+<br />
 
-&lt;h3&gt;
+<h3>
 
     Password successfully changed</h3>
 
-&lt;br /&gt;
+<br />
 
 Your new Skype password has been set.
 
-&lt;br /&gt;
+<br />
 
 You can now access your Account, view your call history or change your account settings.
 
-&lt;br /&gt;
+<br />
 
-&lt;br /&gt;
+<br />
 
-&lt;h5&gt;
+<h5>
 
-    Talk soon,&lt;/h5&gt;
+    Talk soon,</h5>
 
 The people at Skype
 
@@ -344,29 +344,29 @@ The people at Skype
 
 Create a view page with name load2.cshtml and add the following code example to the file.
 
-&lt;h2&gt;
+<h2>
 
-    Hello John,&lt;/h2&gt;
+    Hello John,</h2>
 
-&lt;br /&gt;
+<br />
 
-&lt;h3&gt;
+<h3>
 
     Your password has been changed</h3>
 
-&lt;br /&gt;
+<br />
 
 Your Skype password has been changed. If you did not change this yourself please
 
 contact one of the administrators of the Skype Manager you belong to.
 
-&lt;br /&gt;
+<br />
 
-&lt;br /&gt;
+<br />
 
-&lt;h5&gt;
+<h5>
 
-    Talk soon,&lt;/h5&gt;
+    Talk soon,</h5>
 
 The people at Skype
 
@@ -374,35 +374,35 @@ The people at Skype
 
 Create a view page with name load3.cshtml and add the following code example to the file,
 
-&lt;h2&gt;
+<h2>
 
-    Hello John,&lt;/h2&gt;
+    Hello John,</h2>
 
-&lt;br /&gt;
+<br />
 
-&lt;h3&gt;
+<h3>
 
     Password token</h3>
 
-&lt;br /&gt;
+<br />
 
 Reset your password with this temporary code. Please note that this link is only
 
 active for 6 hours after receipt. After the time limit expires, the code does not
 
-work and you have to resubmit the password change request.&lt;br /&gt;
+work and you have to resubmit the password change request.<br />
 
-&lt;br /&gt;
+<br />
 
 If the link doesn't work, you can enter the code manually using this token: 45c5chg15ae33c438ch2cc7ehn004hg6
 
-&lt;br /&gt;
+<br />
 
-&lt;br /&gt;
+<br />
 
-&lt;h5&gt;
+<h5>
 
-    Talk soon,&lt;/h5&gt;
+    Talk soon,</h5>
 
 The people at Skype
 
@@ -410,29 +410,29 @@ The people at Skype
 
 Create a view page with name load4.cshtml and add the following code example to the file,
 
-&lt;h3&gt;
+<h3>
 
-    Hi John,&lt;/h3&gt;
+    Hi John,</h3>
 
-&lt;br /&gt;
+<br />
 
-&lt;h2&gt;
+<h2>
 
     Welcome to Skype</h2>
 
-&lt;br /&gt;
+<br />
 
 Congratulations on joining Skype! Now you can enjoy the magic of free face-to-face
 
 calls, instant messaging, screen sharing and so much more - all with Skype.
 
-&lt;br /&gt;
+<br />
 
-&lt;br /&gt;
+<br />
 
-&lt;h5&gt;
+<h5>
 
-    Talk soon,&lt;/h5&gt;
+    Talk soon,</h5>
 
 The people at Skype
 
@@ -440,7 +440,7 @@ The people at Skype
 
 Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

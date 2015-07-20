@@ -25,7 +25,7 @@ The Precision property is used to specify how the Rating control can accept its 
 
 The following screenshot displays the output.                        
 
-{ ![](Customize-Precision_images/Customize-Precision_img1.png) | markdownify }
+{{ '![](Customize-Precision_images/Customize-Precision_img1.png)' | markdownify }}
 {:.image }
 
 

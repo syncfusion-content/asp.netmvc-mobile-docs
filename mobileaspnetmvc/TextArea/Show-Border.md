@@ -27,7 +27,7 @@ Refer to the following code example.
 
 
 
-{ ![](Show-Border_images/Show-Border_img1.png) | markdownify }
+{{ '![](Show-Border_images/Show-Border_img1.png)' | markdownify }}
 {:.image }
 
 

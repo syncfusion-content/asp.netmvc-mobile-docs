@@ -11,71 +11,71 @@ documentation: ug
 
 Rotator control takes a numeric value given in CurrentItemIndex property and displays the corresponding item that matches the given index. Refer to the following code example.
 
-&lt;!-- header control --&gt;
+<!-- header control -->
 
 @Html.EJMobile().Header("header").Title("Photo Gallery")
 
 
 
-&lt;div id="rotatorcontentdefault"&gt;
+<div id="rotatorcontentdefault">
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo1"&gt;
+        <div class="photo photo1">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo2"&gt;
+        <div class="photo photo2">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo3"&gt;
+        <div class="photo photo3">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo4"&gt;
+        <div class="photo photo4">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo5"&gt;
+        <div class="photo photo5">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
-&lt;div id="scrollparent"&gt;
+<div id="scrollparent">
 
     @{         @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault").CurrentItemIndex(3);
 
     }
 
-&lt;/div&gt;
+</div>
 
 
 
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-2.png](Select-Item_images/Select-Item_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-2.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
 {:.image }
 
 

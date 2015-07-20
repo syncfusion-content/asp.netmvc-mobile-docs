@@ -175,7 +175,7 @@ In theCSHTML page, add the following input elements to render the Checkbox with 
 
 Execute the above code example to render the following output.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image20_36.png](Easy-customization_images/Easy-customization_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_36.png](Easy-customization_images/Easy-customization_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -253,7 +253,7 @@ Refer to the following code example.
 
  Execute the above code example to render the following output.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image20_37.png](Easy-customization_images/Easy-customization_img2.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_37.png](Easy-customization_images/Easy-customization_img2.png)' | markdownify }}
 {:.image }
 
 

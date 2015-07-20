@@ -45,7 +45,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![24](Selection_images/Selection_img1.png) | markdownify }
+{{ '![24](Selection_images/Selection_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -101,7 +101,7 @@ In this section, you can learn how to get selected records from one Grid and als
 
 
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 
     function onRowSelect(e) {
 
@@ -109,7 +109,7 @@ In this section, you can learn how to get selected records from one Grid and als
 
     }
 
-&lt;/script&gt;
+</script>
 
 
 
@@ -164,7 +164,7 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 
 
-{ ![25](Selection_images/Selection_img2.png) | markdownify }
+{{ '![25](Selection_images/Selection_img2.png)' | markdownify }}
 {:.image }
 
 

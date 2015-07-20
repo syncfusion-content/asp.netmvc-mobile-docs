@@ -27,7 +27,7 @@ You can refer to the following code examples.
 
 The following screenshot displays the DelimiterChar:
 
-{ ![](Multi-Selection_images/Multi-Selection_img1.png) | markdownify }
+{{ '![](Multi-Selection_images/Multi-Selection_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -45,7 +45,7 @@ EnableCheckBox property is used to display the checkbox for the suggestion list.
 
 The following screenshot displays EnableCheckBox:
 
-{ ![](Multi-Selection_images/Multi-Selection_img2.png) | markdownify }
+{{ '![](Multi-Selection_images/Multi-Selection_img2.png)' | markdownify }}
 {:.image }
 
 

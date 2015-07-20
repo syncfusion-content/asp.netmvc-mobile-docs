@@ -15,7 +15,7 @@ EnableCustomText property is used to specify the custom text for ProgressBar. Th
 
 Output of enable Customize text:
 
-{ ![C:/Users/Dhinesh R/Desktop/progress.jpg](Customize-text_images/Customize-text_img1.jpeg) | markdownify }
+{{ '![C:/Users/Dhinesh R/Desktop/progress.jpg](Customize-text_images/Customize-text_img1.jpeg)' | markdownify }}
 {:.image }
 
 

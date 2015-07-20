@@ -13,7 +13,7 @@ documentation: ug
 
 The Essential Studio for ASP.NET MVC Mobile Tiles are simple, opaque rectangles or squares and that are arrayed on the Start screen in a grid-like pattern and it can be either static or live. Tapping or selecting a Tile launches the app or other experience that is represented by the Tile.
 
-{ ![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -25,13 +25,13 @@ Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/defau
 
 Add the following code example in layout page of the application.
 
-    &lt;!-- Add Header Control Here --&gt;
+    <!-- Add Header Control Here -->
 
-    &lt;div&gt;
+    <div>
 
            @RenderBody()
 
-    &lt;/div&gt;
+    </div>
 
 Add Header control for Tile
 
@@ -49,17 +49,17 @@ To add a Tile control, call Tile helper. You can set images for Tile by using Im
 
 Add the following code to the corresponding view page.
 
-&lt;div id="tile" style="margin-top: 45px;"&gt; 
+<div id="tile" style="margin-top: 45px;"> 
 
 @Html.EJMobile().Tile("tile1").Width(50).Height(50).Theme(Theme.Dark).ImageUrl("setting.png").ImagePath("http://js.syncfusion.com/UG/Mobile/Content/tile").Text("Settings") 
 
-    &lt;/div&gt;
+    </div>
 
 
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{ ![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -69,18 +69,18 @@ In this scenario, you require different sizes of tiles aligned in a grid-like ma
 
 Refer to the following code example.
 
-     &lt;!--Adding Multiple Tiles --&gt;
-&lt;div id="tiledefault" class="defaultsample"&gt;
+     <!--Adding Multiple Tiles -->
+<div id="tiledefault" class="defaultsample">
 
-  &lt;div id="scrollcontent"&gt;
+  <div id="scrollcontent">
 
-     &lt;div class="group"&gt;
+     <div class="group">
 
-       &lt;div class="column"&gt;
+       <div class="column">
 
                 @Html.EJMobile().Tile("tile1").Width(50).Height(50).Theme(Theme.Dark).ImageUrl("setting.png").ImagePath("http://js.syncfusion.com/UG/Mobile/Content/tile").Text("Settings")
 
-      &lt;div class="small-col-2"&gt;
+      <div class="small-col-2">
 
                     @Html.EJMobile().Tile("tile2").Theme(Theme.Dark).ImageUrl("notes.png").ImagePath("http://js.syncfusion.com/UG/Mobile/Content/tile").Text("Notes")
 
@@ -90,7 +90,7 @@ Refer to the following code example.
 
                     @Html.EJMobile().Tile("tile5").Theme(Theme.Dark).ImageUrl("messaging.png").ImagePath("http://js.syncfusion.com/UG/Mobile/Content/tile").Text("Messages")
 
-                &lt;/div&gt;
+                </div>
 
                 @Html.EJMobile().Tile("tile6").Theme(Theme.Dark).ImageUrl("contact.png").ImagePath("http://js.syncfusion.com/UG/Mobile/Content/tile").Text("Contacts")
 
@@ -98,13 +98,13 @@ Refer to the following code example.
 
                 @Html.EJMobile().Tile("tile8").Theme(Theme.Dark).ImageUrl("phone.png").ImagePath("http://js.syncfusion.com/UG/Mobile/Content/tile").Text("Phone")
 
-            &lt;/div&gt;
+            </div>
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 @Html.EJMobile().Scrollpanel("scroll").Target("scrollcontent")
 
@@ -112,7 +112,7 @@ Refer to the following code example.
 
 Add the following style for setting the background image for all Tiles (page background).
 
-&lt;style&gt;
+<style>
 
   .e-m-ios7  .defaultsample
 
@@ -128,13 +128,13 @@ Add the following style for setting the background image for all Tiles (page bac
 
     }
 
- &lt;/style&gt;
+ </style>
 
 
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{ ![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -146,7 +146,7 @@ Refer to the following code example.
 
 
 
-&lt;script&gt;
+<script>
 
   if (ej.getRenderMode() == "windows" || ej.getRenderMode() == "flat") {
 
@@ -190,7 +190,7 @@ Refer to the following code example.
 
 
 
-&lt;/script&gt;
+</script>
 
 
 

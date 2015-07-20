@@ -53,7 +53,7 @@ The Textbox package contains the following controls.
 
 1. Textbox - Textbox accept both numeric values and other text key values. 
 2. Password Textbox - Password fields are similar to text fields. The difference is that, the entered password into the password field shows up as dots on the screen in hidden state 
-3. Text Area - The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control.
+3. Text Area - The HTML <textarea> element represents a multi-line plain-text editing control.
 4. Mask Edit Textbox - The Masked Edit control provides restricted data input as well as formatted data output. It generally behaves as a standard text box control with enhancements for optional masked input and formatted output. When you do not use an input mask, the Masked Edit control behaves much like a standard text box. 
 
 

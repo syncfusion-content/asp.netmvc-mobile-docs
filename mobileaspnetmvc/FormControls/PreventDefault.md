@@ -17,59 +17,59 @@ Refer to the following code examples.
 
 @Html.EJMobile().Header("sample_header").Title("CheckBox")
 
-&lt;div align="center" style="padding-top: 100px"&gt;
+<div align="center" style="padding-top: 100px">
 
-    &lt;div&gt;
+    <div>
 
         <b>Favorite Mobile</b>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;br /&gt;
+    <br />
 
-    &lt;table border="0" cellpadding="6"&gt;
+    <table border="0" cellpadding="6">
 
-        &lt;tr&gt;
+        <tr>
 
-            &lt;td width="100px"&gt;
+            <td width="100px">
 
                 @Html.EJMobile().CheckBox("apple").Text("Apple").PreventDefault(true)
 
-            &lt;/td&gt;
+            </td>
 
 
 
-            &lt;td width="100px"&gt;
+            <td width="100px">
 
                 @Html.EJMobile().CheckBox("android").Text("Android")
 
-            &lt;/td&gt;
+            </td>
 
-        &lt;/tr&gt;
+        </tr>
 
-        &lt;tr&gt;
+        <tr>
 
-            &lt;td width="100px"&gt;
+            <td width="100px">
 
                 @Html.EJMobile().CheckBox("windows").Text("Windows")
 
-            &lt;/td&gt;
+            </td>
 
 
 
-            &lt;td width="100px"&gt;
+            <td width="100px">
 
                 @Html.EJMobile().CheckBox("Bberry").Text("BlackBerry")
 
-            &lt;/td&gt;
+            </td>
 
 
 
-        &lt;/tr&gt;
+        </tr>
 
-    &lt;/table&gt;
+    </table>
 
-&lt;/div&gt;
+</div>
 
 
 

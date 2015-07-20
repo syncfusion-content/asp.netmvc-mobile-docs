@@ -77,7 +77,7 @@ In some cases, for navigation purposes you may want to show Back button in the L
 
  The following screenshot displays the Customize Header:
 
-{ ![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_9.png](Customize-Header_images/Customize-Header_img1.png) | markdownify }
+{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_9.png](Customize-Header_images/Customize-Header_img1.png)' | markdownify }}
 {:.image }
 
 

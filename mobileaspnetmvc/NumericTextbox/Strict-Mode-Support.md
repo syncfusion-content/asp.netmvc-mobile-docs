@@ -29,7 +29,7 @@ The EnableStrictMode property makes Textbox accept only a value between the d
 
 The following screenshot displays the output.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image20_42.png](Strict-Mode-Support_images/Strict-Mode-Support_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_42.png](Strict-Mode-Support_images/Strict-Mode-Support_img1.png)' | markdownify }}
 {:.image }
 
 

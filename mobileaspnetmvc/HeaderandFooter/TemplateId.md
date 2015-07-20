@@ -15,15 +15,15 @@ Template ID is used to define the ID of the template element where you can speci
 
 
 
- &lt;div id="template" class="temp"&gt;
+ <div id="template" class="temp">
 
 @Html.EJMobile().Rating("rating") 
 
- &lt;/div&gt;
+ </div>
 
 The following screenshot displays the Template ID:
 
-{ ![F:/headertemplate.png](TemplateId_images/TemplateId_img1.png) | markdownify }
+{{ '![F:/headertemplate.png](TemplateId_images/TemplateId_img1.png)' | markdownify }}
 {:.image }
 
 

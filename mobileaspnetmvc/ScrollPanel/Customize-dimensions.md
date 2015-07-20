@@ -15,17 +15,17 @@ The “ScrollHeight” and “ScrollWidth” properties allow you to specify the
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
-    &lt;div id="maincontent" style="padding:10px"&gt;
+    <div id="maincontent" style="padding:10px">
 
-        &lt;div&gt;
+        <div>
 
             Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt; 
+    </div> 
 
 
 
@@ -33,7 +33,7 @@ The “ScrollHeight” and “ScrollWidth” properties allow you to specify the
 
 The following screenshot displays the scroll height:
 
-{ ![](Customize-dimensions_images/Customize-dimensions_img1.png) | markdownify }
+{{ '![](Customize-dimensions_images/Customize-dimensions_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -43,21 +43,21 @@ The “AdjustFixedPosition” is a Boolean property that lets you adjust the scr
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
-    &lt;div id="maincontent" style="padding:10px"&gt;
+    <div id="maincontent" style="padding:10px">
 
-        &lt;div&gt;
+        <div>
 
             Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt; @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AdjustFixedPosition(true)
+    </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AdjustFixedPosition(true)
 
 The following screenshot displays the auto adjustscroll height:
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Customize-dimensions_images/Customize-dimensions_img2.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Customize-dimensions_images/Customize-dimensions_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -67,17 +67,17 @@ When the “AutoAdjustHeight” property is set to true, it sets the height of t
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
-    &lt;div id="maincontent" style="padding:10px"&gt;
+    <div id="maincontent" style="padding:10px">
 
-        &lt;div&gt;
+        <div>
 
             Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt; @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AutoAdjustHeight(true)
+    </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AutoAdjustHeight(true)
 
 Target height and width
 
@@ -87,17 +87,17 @@ The TargetHeight and TargetWidth properties are used to manually set the height 
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
-    &lt;div id="maincontent" style="padding:10px"&gt;
+    <div id="maincontent" style="padding:10px">
 
-        &lt;div&gt;
+        <div>
 
             Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt; 
+    </div> 
 
 
 

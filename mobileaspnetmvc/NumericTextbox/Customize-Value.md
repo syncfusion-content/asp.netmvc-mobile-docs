@@ -23,7 +23,7 @@ The current value of the Numeric Textbox can be specified by using the Value�
 
 The following screenshot displays the output.
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image20_41.png](Customize-Value_images/Customize-Value_img1.png) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_41.png](Customize-Value_images/Customize-Value_img1.png)' | markdownify }}
 {:.image }
 
 

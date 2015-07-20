@@ -25,9 +25,9 @@ You can refer to the following code examples.
 
 
 
-&lt;div align="center" style="margin:10px"&gt;
+<div align="center" style="margin:10px">
 
- @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.Android).Android(e=>e.Style(AndroidButtonStyle.Normal)) &lt;br /&gt;&lt;br /&gt;
+ @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.Android).Android(e=>e.Style(AndroidButtonStyle.Normal)) <br /><br />
 
 
 
@@ -37,13 +37,13 @@ You can refer to the following code examples.
 
             @Html.EJMobile().Button("sample_button3").Text("Dialog").RenderMode(RenderMode.Android).Android(e=>e.Style(AndroidButtonStyle.Dialog))
 
-    &lt;/div&gt;
+    </div>
 
 
 
 
 
-{ ![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png) | markdownify }
+{{ '![](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
 {:.image }
 
 

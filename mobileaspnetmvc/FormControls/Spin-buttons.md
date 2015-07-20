@@ -19,7 +19,7 @@ ShowSpinButton property is used to specify whether the Spin Button is visible or
 
 The following screenshot displays the output.
 
-{ ![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTMLdc4ac96.PNG](Spin-buttons_images/Spin-buttons_img1.png) | markdownify }
+{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTMLdc4ac96.PNG](Spin-buttons_images/Spin-buttons_img1.png)' | markdownify }}
 {:.image }
 
 

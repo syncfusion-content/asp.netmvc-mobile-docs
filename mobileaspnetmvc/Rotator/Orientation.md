@@ -31,61 +31,61 @@ Refer to the following code example.
 
 
 
-&lt;!-- header control --&gt;
+<!-- header control -->
 
 @Html.EJMobile().Header("header").Title("Rotator")
 
 
 
-&lt;div id="rotatorcontentdefault"&gt;
+<div id="rotatorcontentdefault">
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo1"&gt;
+        <div class="photo photo1">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo2"&gt;
+        <div class="photo photo2">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo3"&gt;
+        <div class="photo photo3">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo4"&gt;
+        <div class="photo photo4">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo photo5"&gt;
+        <div class="photo photo5">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
-&lt;!-- Rotator control --&gt;
+<!-- Rotator control -->
 
-&lt;div id="scrollparent"&gt;
+<div id="scrollparent">
 
     @{  
 
@@ -93,7 +93,7 @@ Refer to the following code example.
 
 }
 
-&lt;/div&gt;
+</div>
 
 
 
@@ -103,9 +103,9 @@ Add the following styles to the style section.
 
 
 
-&lt;style type="text/css"&gt;
+<style type="text/css">
 
-   &lt;style type="text/css"&gt;
+   <style type="text/css">
 
         .photo {
 
@@ -161,11 +161,11 @@ Add the following styles to the style section.
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-4.png](Orientation_images/Orientation_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-4.png](Orientation_images/Orientation_img1.png)' | markdownify }}
 {:.image }
 
 

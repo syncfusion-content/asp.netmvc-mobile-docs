@@ -13,69 +13,69 @@ The Text property lets you set labels for the RadioButton. To set the text for t
 
 
 
-&lt;div align="center"&gt;
+<div align="center">
 
-    &lt;br /&gt;
+    <br />
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div&gt;
+        <div>
 
-            &lt;div&gt;
+            <div>
 
                 <b>Marital Status</b>
 
-            &lt;/div&gt;
+            </div>
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;br /&gt;
+        <br />
 
-        &lt;table&gt;
+        <table>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single")                &lt;/td&gt;
+                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single")                </td>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married")
 
-                &lt;/td&gt;
+                </td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
 
-                &lt;/td&gt;
+                </td>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
 
-                &lt;/td&gt;
+                </td>
 
 
 
-            &lt;/tr&gt;
+            </tr>
 
-        &lt;/table&gt;
+        </table>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 The following screenshot displays customized labels:
 
-{ ![C:/Users/deepal/AppData/Local/Temp/SNAGHTML201e992b.PNG](Customize-Label_images/Customize-Label_img1.png) | markdownify }
+{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML201e992b.PNG](Customize-Label_images/Customize-Label_img1.png)' | markdownify }}
 {:.image }
 
 

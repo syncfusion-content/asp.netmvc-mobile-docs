@@ -27,7 +27,7 @@ Refer to the following code example.
 
 
 
-{ ![D:/Final Doc/mockup/IMG_0522_iphone5s_spacegrey_portrait.png](Border-Support_images/Border-Support_img1.png) | markdownify }
+{{ '![D:/Final Doc/mockup/IMG_0522_iphone5s_spacegrey_portrait.png](Border-Support_images/Border-Support_img1.png)' | markdownify }}
 {:.image }
 
 

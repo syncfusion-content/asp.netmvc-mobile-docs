@@ -27,7 +27,7 @@ Refer to the following code example.
 
 
 
-{ ![](Customize-Watermark-text_images/Customize-Watermark-text_img1.png) | markdownify }
+{{ '![](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)' | markdownify }}
 {:.image }
 
 

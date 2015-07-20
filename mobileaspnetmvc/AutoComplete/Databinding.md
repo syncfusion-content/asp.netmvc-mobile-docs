@@ -79,7 +79,7 @@ public class AutoCompleteController : ApplicationController
 
 The following screenshot displays the DataSource:
 
-{ ![](Databinding_images/Databinding_img1.png) | markdownify }
+{{ '![](Databinding_images/Databinding_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -97,7 +97,7 @@ Mapper property is used to specify the remote URL of the DataSource for the sugg
 
 The following screenshot displays remote data binding:
 
-{ ![](Databinding_images/Databinding_img2.png) | markdownify }
+{{ '![](Databinding_images/Databinding_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -149,7 +149,7 @@ public class Countries
 
 The following screenshot displays the ImageField:
 
-{ ![](Databinding_images/Databinding_img3.png) | markdownify }
+{{ '![](Databinding_images/Databinding_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -169,7 +169,7 @@ ImageClass property is used to map the specific field name of the given DataSour
 
 
 
-&lt;style&gt;
+<style>
 
         .afghan {
 
@@ -201,7 +201,7 @@ ImageClass property is used to map the specific field name of the given DataSour
 
         }
 
-    &lt;/style&gt;
+    </style>
 
 
 
@@ -249,7 +249,7 @@ For MVC, the class has to be referred in the model list.
 
 The following screenshot displays ImageClass:
 
-{ ![](Databinding_images/Databinding_img4.png) | markdownify }
+{{ '![](Databinding_images/Databinding_img4.png)' | markdownify }}
 {:.image }
 
 

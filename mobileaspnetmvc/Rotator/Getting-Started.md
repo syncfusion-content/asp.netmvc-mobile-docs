@@ -15,7 +15,7 @@ In this section, you can learn how to create Rotator for your mobile app.
 
 The Essential Studio for ASP.NET MVC Mobile Rotator widget is a container that helps you to navigate next and previous items through swipe gestures. Each item in Rotator can hold any html content. In the following guideline, you can learn the features in the MobileRotator widget by creating a Photo Gallery App.
 
-{ ![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
 
 
@@ -23,75 +23,75 @@ Create the required layout
 
 Rotator control is rendered based on the default values of all the properties. You can customize Rotator control by changing its properties according to your requirement.  
 
-Create a simple MVC application and add the following header page content inside the &lt;Body&gt; tag of layout.cshtml. 
+Create a simple MVC application and add the following header page content inside the <Body> tag of layout.cshtml. 
 
 You can create a MVC Project and add necessary Dll’s and Scripts with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm) for mobile.
 
-&lt;!-- header control --&gt;
+<!-- header control -->
 
 @Html.EJMobile().Header("header").Title("Photo Gallery")
 
-&lt;div id="content"&gt;
+<div id="content">
 
-    &lt;div&gt;
+    <div>
 
         @RenderBody()
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 Create the Rotator control
 
-To render the Rotator control, set “TargetId” property with the id of the target element that contains the HTML template for each item. Every first level child &lt;div&gt; element of the target element acts as an item of the Rotator. 
+To render the Rotator control, set “TargetId” property with the id of the target element that contains the HTML template for each item. Every first level child <div> element of the target element acts as an item of the Rotator. 
 
 To render the Rotator control, add the following code example.
 
 
 
-    &lt;!-- View Page Content --&gt;
+    <!-- View Page Content -->
 
-&lt;div id="rotatorcontentdefault"&gt;
+<div id="rotatorcontentdefault">
 
-    &lt;div&gt;       
+    <div>       
 
-        &lt;div class="photo photo1"&gt;
+        <div class="photo photo1">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;&lt;div&gt;       
+    </div><div>       
 
-        &lt;div class="photo photo2"&gt;
+        <div class="photo photo2">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;&lt;div&gt;       
+    </div><div>       
 
-        &lt;div class="photo photo3"&gt;
+        <div class="photo photo3">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;&lt;div&gt;       
+    </div><div>       
 
-        &lt;div class="photo photo4"&gt;
+        <div class="photo photo4">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;&lt;div&gt;       
+    </div><div>       
 
-        &lt;div class="photo photo5"&gt;
+        <div class="photo photo5">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
-&lt;!-- Rotator control --&gt;
+<!-- Rotator control -->
 
 @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault") 
 
@@ -101,7 +101,7 @@ Add the following styles to the Rotator items.
 
 
 
-&lt;style type="text/css"&gt;
+<style type="text/css">
 
         .photo {
 
@@ -169,13 +169,13 @@ Add the following styles to the Rotator items.
 
 
 
-&lt;/style&gt;
+</style>
 
 
 
 Execute the above code to render the following output. 
 
-{ ![C:/Users/labuser/Desktop/ac.png](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![C:/Users/labuser/Desktop/ac.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -191,7 +191,7 @@ Execute the above code to render the following output.
 
 
 
-{ ![C:/Users/labuser/Desktop/b.png](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![C:/Users/labuser/Desktop/b.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -199,7 +199,7 @@ Execute the above code to render the following output.
 
 By swiping left and right, you can move to the other images in the Photo Gallery.
 
-{ ![C:/Users/labuser/Desktop/c.png](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![C:/Users/labuser/Desktop/c.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 

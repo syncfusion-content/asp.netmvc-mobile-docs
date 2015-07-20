@@ -17,39 +17,39 @@ Using DataBinding property you can enable the databinding and DataSource is used
 
 @model List<Images>
 
-&lt;!-- header control --&gt;
+<!-- header control -->
 
 @Html.EJMobile().Header("header").Title("Photo Gallery")
 
 
 
-&lt;div id="rotatorcontentdefault"&gt;
+<div id="rotatorcontentdefault">
 
-    &lt;div&gt;
+    <div>
 
-        &lt;div class="photo {{:imageUrl}}"&gt;
+        <div class="photo {{:imageUrl}}">
 
-        &lt;/div&gt;
+        </div>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
-&lt;div id="scrollparent"&gt;
+<div id="scrollparent">
 
     @{     @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault").DataBinding(true).DataSource(Model);
 
     }
 
-&lt;/div&gt;
+</div>
 
 
 
 
 
-{ ![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Data-Binding_images/Data-Binding_img1.png) | markdownify }
+{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Data-Binding_images/Data-Binding_img1.png)' | markdownify }}
 {:.image }
 
 

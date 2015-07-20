@@ -17,7 +17,7 @@ EssentialASP.NET MVC Mobile Listview widget is used to build an interactive list
 
 
 
-{ ![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg) | markdownify }
+{{ '![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -27,17 +27,17 @@ Create Basic Mobile Layout
 
 Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create an MVC Project, add necessary Dll’s and Scripts.
 
-Add the following code inside the &lt;body&gt; tag in the Layout.cshtml page.
+Add the following code inside the <body> tag in the Layout.cshtml page.
 
 
 
-&lt; !---Add Header Here  ---&gt; 
+< !---Add Header Here  ---> 
 
-&lt;div&gt;
+<div>
 
     @RenderBody()
 
-&lt;/div&gt;
+</div>
 
 Create ListView for Mail App
 
@@ -49,13 +49,13 @@ To add Listview control, you need to call ListView helper.
 
 
 
-&lt;div id="content"&gt;
+<div id="content">
 
             @Html.EJMobile().ListView("grouplistsamp")
 
-            &lt;!-- Add Listview Items Here --&gt;
+            <!-- Add Listview Items Here -->
 
-&lt;/div&gt;
+</div>
 
 Create Grouped List
 
@@ -105,7 +105,7 @@ Run the above code and you can see the following output. For queries on how to r
 
 
 
-{ ![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg) | markdownify }
+{{ '![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -153,11 +153,11 @@ Specify the image class name for individual items using the ImageClass propert
 
     })
 
-&lt;style&gt;
+<style>
 
-    &lt;!--Add image style here--&gt;
+    <!--Add image style here-->
 
-&lt;/style&gt;
+</style>
 
 
 
@@ -167,7 +167,7 @@ You can define the image classes specified for the ListView items as follows.
 
 
 
-&lt;style type="text/css"&gt;
+<style type="text/css">
 
 
 
@@ -247,7 +247,7 @@ You can define the image classes specified for the ListView items as follows.
 
 
 
-&lt;/style&gt;
+</style>
 
 
 
@@ -255,7 +255,7 @@ Run the above code and you can see the following output. For queries on how to r
 
 
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)' | markdownify }}
 {:.image }
 
 
@@ -275,17 +275,17 @@ To view the inbox messages, after creating the ListView, you can add its Child
 
             {
 
-                child.Add().RenderTemplate(true).ContentTemplate(@&lt;div&gt;
+                child.Add().RenderTemplate(true).ContentTemplate(@<div>
 
-                    &lt;!--User Template Code for child item1. Code given in next step --&gt;
+                    <!--User Template Code for child item1. Code given in next step -->
 
-                &lt;/div&gt;);
+                </div>);
 
-                child.Add().RenderTemplate(true).ContentTemplate(@&lt;div&gt;
+                child.Add().RenderTemplate(true).ContentTemplate(@<div>
 
-                    &lt;!--User Template Code for child item2. Code given in next step --&gt;
+                    <!--User Template Code for child item2. Code given in next step -->
 
-                &lt;/div&gt;);
+                </div>);
 
             });
 
@@ -317,71 +317,71 @@ To view the inbox messages, after creating the ListView, you can add its Child
 
 
 
-&lt;style&gt;
+<style>
 
-  &lt;!--Add Content style here--&gt;
+  <!--Add Content style here-->
 
-&lt;/style&gt;
+</style>
 
 
 
 You can use the following code example to add a customized template within a list item.
 
-  &lt;div class="mailcontentdiv"&gt;
+  <div class="mailcontentdiv">
 
-    &lt;div class="titlediv"&gt;
+    <div class="titlediv">
 
         Skype
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div class="subjectdiv"&gt;
+    <div class="subjectdiv">
 
         The future of music: crowd funding
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div class="contentdiv"&gt;
+    <div class="contentdiv">
 
         Watch the Amanda Palmer panel from TED 2014
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
-&lt;div class="mailcontentdiv"&gt;
+<div class="mailcontentdiv">
 
-    &lt;div class="titlediv"&gt;
+    <div class="titlediv">
 
         Google+
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div class="subjectdiv"&gt;
+    <div class="subjectdiv">
 
         Getting started with Google+
 
-    &lt;/div&gt;
+    </div>
 
-    &lt;div class="contentdiv"&gt;
+    <div class="contentdiv">
 
         Welcome to Google+, Share with the people you care about, and explore the stuff
 
         you're into.
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
 
 
 You can use the following styles to add custom style to the template content.
 
-&lt;!—Add Content Style Here--&gt;
+<!—Add Content Style Here-->
 
-&lt;style type="text/css"&gt;
+<style type="text/css">
 
      .mailcontentdiv, .contentdiv, .subjectdiv, .titlediv {
 
@@ -417,7 +417,7 @@ You can use the following styles to add custom style to the template content.
 
     }
 
-&lt;/style&gt;
+</style>
 
 
 
@@ -425,7 +425,7 @@ In this example, you can move to the inbox page by tapping inbox list item to re
 
 Run the above code and you can see the following output. For queries on how to run, refer this [link](http://help.syncfusion.com/ug/js/default.htm).
 
-{ ![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg) | markdownify }
+{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)' | markdownify }}
 {:.image }
 
 

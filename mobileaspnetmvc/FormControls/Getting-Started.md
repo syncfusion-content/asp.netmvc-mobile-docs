@@ -23,9 +23,9 @@ The ASP.NET MVC provides a way to create a Form with the following mobile widget
 
 From the following guidelines, you can create a BillPaymentApp where you can learn its features in the above mentioned widgets.
 
-{ ![](Getting-Started_images/Getting-Started_img1.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
 {:.image }
-{ ![](Getting-Started_images/Getting-Started_img2.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 {:.image }
 
 
@@ -33,27 +33,27 @@ Create the necessary layout
 
 In the BillPaymentApp, you can use the Textbox control to get the Name of the Person, Email, and Remarks, NumericTextbox control for the Amount field, Radio button for the Payment options, Check box for the terms and conditions, and Button control to submit the form.
 
-Create a simple MVC application and add the following header and scrollpanel layout page content inside the &lt;body&gt; tag of layout.cshtml. 
+Create a simple MVC application and add the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. 
 
 1. Create an MVC Project and add necessary Dll’s and Scripts with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile.
 
 
 
-     &lt;!--Header Control--&gt;
+     <!--Header Control-->
 
      @Html.EJMobile().Header("header").Title("Bill Payment")
 
-      &lt;div id="form_sample" class="sample"&gt;
+      <div id="form_sample" class="sample">
 
-         &lt;div&gt;
+         <div>
 
                 @RenderBody()
 
-          &lt;/div&gt;
+          </div>
 
-      &lt;/div&gt;
+      </div>
 
-      &lt;!--Scroll Panel--&gt;
+      <!--Scroll Panel-->
 
       @Html.EJMobile().Scrollpanel("form_controls").Target("form_sample")
 
@@ -63,159 +63,159 @@ Create a simple MVC application and add the following header and scrollpanel lay
 
 2. Add the following Layout code to the corresponding view page.
 
-       &lt;!--Add the Form Elements--&gt;   
+       <!--Add the Form Elements-->   
 
-                &lt;form id="form1"&gt;
+                <form id="form1">
 
-                    &lt;br /&gt;
+                    <br />
 
-                    &lt;label&gt;
+                    <label>
 
                         Name of the Person:
 
-                    &lt;/label&gt;
+                    </label>
 
-                    &lt;div&gt;
+                    <div>
 
-                        &lt;!--Add user name Text box Here--&gt;
+                        <!--Add user name Text box Here-->
 
 
 
-                    &lt;/div&gt;
+                    </div>
 
-                    &lt;br /&gt;
+                    <br />
 
-                    &lt;label&gt;
+                    <label>
 
                         Amount:
 
-                    &lt;/label&gt;
+                    </label>
 
-                    &lt;div&gt;
+                    <div>
 
-                        &lt;!--Add numeric text box for amount here--&gt;
+                        <!--Add numeric text box for amount here-->
 
 
 
-                    &lt;/div&gt;
+                    </div>
 
-                    &lt;br /&gt;
+                    <br />
 
-                    &lt;div&gt;
+                    <div>
 
-                        &lt;label&gt;
+                        <label>
 
                             Payment Option:
 
-                        &lt;/label&gt;
+                        </label>
 
-                    &lt;/div&gt;
+                    </div>
 
-                    &lt;div&gt;
+                    <div>
 
-                        &lt;table class="radio"&gt;
+                        <table class="radio">
 
-                            &lt;tr&gt;
+                            <tr>
 
-                                &lt;td&gt;
+                                <td>
 
-                                    &lt;!--radio button for credit --&gt;
+                                    <!--radio button for credit -->
 
-                                &lt;/td&gt;
+                                </td>
 
-                                &lt;td&gt;
+                                <td>
 
-                                    &lt;!--radio button for debit--&gt;
+                                    <!--radio button for debit-->
 
 
 
-                                &lt;/td&gt;
+                                </td>
 
-                            &lt;/tr&gt;
+                            </tr>
 
-                        &lt;/table&gt;
+                        </table>
 
-                    &lt;/div&gt;
+                    </div>
 
-                    &lt;br /&gt;
+                    <br />
 
-                    &lt;div&gt;
+                    <div>
 
-                        &lt;label&gt;
+                        <label>
 
                             Email:
 
-                        &lt;/label&gt;
+                        </label>
 
-                        &lt;div&gt;
+                        <div>
 
-                            &lt;!--Add email text box here--&gt;
+                            <!--Add email text box here-->
 
-                        &lt;/div&gt;
+                        </div>
 
-                        &lt;br /&gt;
+                        <br />
 
-                    &lt;/div&gt;
+                    </div>
 
-                    &lt;div&gt;
+                    <div>
 
-                        &lt;label&gt;
+                        <label>
 
                             Remarks (Optional):
 
-                        &lt;/label&gt;
+                        </label>
 
-                        &lt;div&gt;
+                        <div>
 
-                            &lt;!--Add remark text box here--&gt;
+                            <!--Add remark text box here-->
 
-                        &lt;/div&gt;
+                        </div>
 
-                        &lt;br /&gt;
+                        <br />
 
-                    &lt;/div&gt;
+                    </div>
 
-                    &lt;div&gt;
+                    <div>
 
-                        &lt;table class="check"&gt;
+                        <table class="check">
 
-                            &lt;tr&gt;
+                            <tr>
 
-                                &lt;td&gt;
+                                <td>
 
-                                    &lt;!--Add check box here--&gt;
-
-
-
-                                &lt;/td&gt;
-
-                            &lt;/tr&gt;
-
-                        &lt;/table&gt;
-
-                    &lt;/div&gt;
-
-                    &lt;br /&gt;
-
-                    &lt;div align="center" class="submitbutton"&gt;
-
-                        &lt;!--Add submit button here--&gt;
+                                    <!--Add check box here-->
 
 
 
-                    &lt;/div&gt;
+                                </td>
 
-                &lt;/form&gt;
+                            </tr>
 
- &lt;!--Add Dialog Control for Payment Status--&gt;
+                        </table>
 
- @Html.EJMobile().Dialog("info_msg").Title("Alert").LeftButtonCaption("ok").EnableModal(true).EnableAutoOpen(false).Content(@&lt;div id="dlgcontent"&gt;&lt;/div&gt;).ClientSideEvents(evt => evt.ButtonTap("exit"))
+                    </div>
+
+                    <br />
+
+                    <div align="center" class="submitbutton">
+
+                        <!--Add submit button here-->
+
+
+
+                    </div>
+
+                </form>
+
+ <!--Add Dialog Control for Payment Status-->
+
+ @Html.EJMobile().Dialog("info_msg").Title("Alert").LeftButtonCaption("ok").EnableModal(true).EnableAutoOpen(false).Content(@<div id="dlgcontent"></div>).ClientSideEvents(evt => evt.ButtonTap("exit"))
 
 
 
 3. Add the following styles.
 
-      &lt;style&gt;
+      <style>
 
         .appview .submitbutton {
 
@@ -303,23 +303,23 @@ Create a simple MVC application and add the following header and scrollpanel lay
 
     }      
 
-&lt;/style&gt;
+</style>
 
 Add Textbox Control
 
 TextboxControl is required to get the Name of the Person. To render this control, you can add the following Layout code to the corresponding view page.
 
- &lt;!—Textbox for Name of the Person--&gt;
+ <!—Textbox for Name of the Person-->
 
              @Html.EJMobile().TextBox("user_name")
 
-                &lt;label for="user_name" class="error" generated="true" /&gt;
+                <label for="user_name" class="error" generated="true" />
 
 
 
 Run the above code to render the following output. 
 
-{ ![](Getting-Started_images/Getting-Started_img3.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
 {:.image }
 
 
@@ -327,13 +327,13 @@ Set Watermark text
 
 The WatermarkText specifies a short hint that describes the expected value of the input field. This is achieved using the WatermarkText property. The following code example shows you how to set Watermarktext.
 
-      &lt;!--Textbox--&gt;
+      <!--Textbox-->
 
       @Html.EJMobile().TextBox("user_name").WatermarkText("Name")
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img4.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
 {:.image }
 
 
@@ -341,15 +341,15 @@ Add Numeric Textbox Control
 
 To render the NumericTextbox control, you can refer the following code example. 
 
-&lt;!--Numeric Textbox--&gt;
+<!--Numeric Textbox-->
 
         @Html.EJMobile().NumericTextbox("amount").WatermarkText("Amount")
 
-                &lt;label for="amount" class="error" generated="true" /&gt;
+                <label for="amount" class="error" generated="true" />
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img5.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
 {:.image }
 
 
@@ -357,7 +357,7 @@ Disable Spin Button
 
 By default, the SpinButton is visible. Using this, you can increment or decrement the values. In the BillPaymentApp, SpinButton is not required. To hide this, you can set ShowSpinButton property to false.
 
-       &lt;!--Numeric Textbox--&gt;
+       <!--Numeric Textbox-->
 
        @Html.EJMobile().NumericTextbox("amt").WatermarkText("Amount")
 
@@ -365,7 +365,7 @@ By default, the SpinButton is visible. Using this, you can increment or decremen
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img6.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
 {:.image }
 
 
@@ -373,7 +373,7 @@ Set Decimal Point
 
 By default, decimal numbers (floating point) are not allowed. In this case, you need to allow the decimal values since it is an amount field. To achieve this, you can set DecimalPlaces property with a numeric value that specifies the number of decimals allowed.
 
-        &lt;!--Numeric Textbox--&gt;
+        <!--Numeric Textbox-->
 
         @Html.EJMobile().NumericTextbox("amt").WatermarkText("Amount")
 
@@ -383,11 +383,11 @@ Add Radio Button Control
 
 A RadioButton control is required for the payment option (credit or debit). By using Text property you can add the text for radio button. To render this control, add the following code example.
 
-       &lt;!--Radio Button for Credit--&gt;
+       <!--Radio Button for Credit-->
 
 @Html.EJMobile().RadioButton("radbtn", "credit", new { id = "credit" }).Text("Credit Card").Checked(true) 
 
-       &lt;!--Radio Button for Debit--&gt;
+       <!--Radio Button for Debit-->
 
 @Html.EJMobile().RadioButton("radbtn", "debit", new { id = "debit" }).Text("Debit Card")
 
@@ -397,15 +397,15 @@ Add Textbox for E-Mail
 
 You can add Textbox for E-mail.
 
-&lt;!--Textbox for E-mail--&gt;
+<!--Textbox for E-mail-->
 
 @Html.EJMobile().TextBox("mail").WatermarkText("user@mail.com")
 
-&lt;label for="mail" class="error" generated="true" /&gt;
+<label for="mail" class="error" generated="true" />
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img7.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
 {:.image }
 
 
@@ -413,13 +413,13 @@ Add Textbox for Remarks
 
 You can add Textbox for Remarks.
 
-         &lt;!--Textbox--&gt;
+         <!--Textbox-->
 
  @Html.EJMobile().TextBox("remarks").WatermarkText("Remarks")
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img8.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img8.png)' | markdownify }}
 {:.image }
 
 
@@ -427,13 +427,13 @@ Add Checkbox Control
 
 You can use Checkbox Control for “agree the terms and conditions” option. By using Text property, you can add the text to the checkbox control. To render this, add the following code example.
 
-    &lt;!--Checkbox--&gt;
+    <!--Checkbox-->
 
 @Html.EJMobile().CheckBox("chkbox").Text("I accept the terms and conditions")
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img9.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img9.png)' | markdownify }}
 {:.image }
 
 
@@ -441,13 +441,13 @@ Add Button Control
 
 ButtonControl is required to submit the Form. By using client side events, you can perform form validation. Here TouchEnd event is used to perform the validation. To render this control, you need to add the following code example and also add the Text property to specify the Button text. 
 
- &lt;!--Button--&gt;
+ <!--Button-->
 
 @Html.EJMobile().Button("btn").Text("Pay Bill").ClientSideEvents(evt => evt.TouchEnd("formsubmit"))
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img10.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img10.png)' | markdownify }}
 {:.image }
 
 
@@ -455,7 +455,7 @@ Form Validation
 
 You have created the Billpayment with required controls and for Validation you can use ASP.NET MVCMobileDialog control to show the Status of your payment.
 
-&lt;script type="text/javascript"&gt;
+<script type="text/javascript">
 
     //$(function () {
 
@@ -541,15 +541,15 @@ You have created the Billpayment with required controls and for Validation you c
 
     }
 
-&lt;/script&gt;
+</script>
 
 
 
 
 
-{ ![](Getting-Started_images/Getting-Started_img11.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img11.png)' | markdownify }}
 {:.image }
-{ ![](Getting-Started_images/Getting-Started_img12.png) | markdownify }
+{{ '![](Getting-Started_images/Getting-Started_img12.png)' | markdownify }}
 {:.image }
 
 
