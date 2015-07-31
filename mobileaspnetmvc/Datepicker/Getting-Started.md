@@ -17,16 +17,17 @@ The ASP.NET MVC DatePicker allows you to display the picker element in your webp
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create a DatePicker 
+
+### Create a DatePicker 
 
 ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDatePicker Helper. To create an MVC Project and to add necessary Dlls and script, use the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm).
 
 1. Add the following code example to the corresponding view page.
 
+~~~ html
 @Html.EJMobile().Header("header").Title("Ticket Booking")
 
 <div id="content_container">
@@ -38,15 +39,15 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
     </div>
 
 </div>
-
+~~~
+{:.pretty-print}
 
 
 
 
 2. To render the DatePicker control, you can add the following code example, where two DatePickers are added, to specify start and end date.
 
-
-
+~~~ html
     <table>
 
             <tr>
@@ -94,15 +95,15 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
             </tr>
 
         </table>
-
-
+~~~
+{:.pretty-print}
 
 3. Apply the following styles to align the DatePickers.
 
 
 
 
-
+~~~ css
     <style type="text/css" class="cssStyles">
 
         .tdclass
@@ -128,25 +129,26 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
         }
 
     </style>
-
+~~~
+{:.pretty-print}
 
 
 4. Run the above code example and you can see the following output.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 With the above mentioned steps, you can create two MobileDatePicker widgets in a page.
 
-Set the Min and Max Date
+###  Set the Min and Max Date
 
 In a real-time ticket booking scenario, the booking is open only for a limited number of days. You can select a date from that range. You can achieve this by using the properties minDate and maxDate. 
 
 
-
+{% highlight js %}
     <script type="text/javascript">
 
         var curDate = new Date();// mentions the current date.
@@ -174,19 +176,19 @@ In a real-time ticket booking scenario, the booking is open only for a limited n
         });
 
     </script>
-
+{% endhighlight %}
 
 
 Run the above code example to render the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
-Set Event to Process Min and Max Date Validations
+
+### Set Event to Process Min and Max Date Validations
 
 In the first DatePicker, after you select the Onward Journey Date, the Return Journey Date must be selected. This validation process is done after the selection of Onward Journey Date and the changes must be reflected on the Return Journey Date selection DatePicker. You can manipulate this process using the Select event of Onward Date Picker.
-
+{% highlight html %}
         <table>
 
             <tr>
@@ -235,12 +237,12 @@ In the first DatePicker, after you select the Onward Journey Date, the Return Jo
 
         </table>    
 
-
+{% endhighlight %}
 
 By selecting the Onward Journey Date in the first DatePicker, you can select the Return Journey Date with the limited range. Add the following code example, to set the maxDate, to restrict false selection of date.
 
 
-
+{% highlight js %}
 <script type="text/javascript">
 
         function selectedStartDate(args) {
@@ -254,20 +256,17 @@ By selecting the Onward Journey Date in the first DatePicker, you can select the
         }
 
 </script>    
-
+{% endhighlight %}
 
 
 Run the above code and you can see the following output.
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img4.png)
+
 
 
 
 
 By following the above mentioned steps, you can customize the MobileDatePicker widget in an efficient manner. You can also add additional functionalities to DatePicker like localization and date formats.
-
-
-

@@ -7,7 +7,7 @@ control: DatePicker
 documentation: ug
 ---
 
-## Mobile DatePicker Dependency files
+# Mobile DatePicker Dependency files
 
 This section deals with the dependency files for the DatePicker control. The file, ej.mobile.all.min.js, is a mass collection of Mobile Controls. When you are using this file, you can skip this section. When you are not, then you can refer to the following script files to render the DatePicker control.
 
@@ -16,8 +16,8 @@ _Script Files_
 <table>
 <tr>
 <td>
-Files</td><td>
-Description/Usage</td></tr>
+{{ '*Files*' | markdownify }}</td><td>
+{{ '*Description/Usage*' |markdownify}}</td></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -71,5 +71,3 @@ It is referred to handle scrollbar related configuration while rendering the Dat
 ej.mobile.toolbar.min.js</td><td>
 It is referred to handle toolbar related configuration while rendering the DatePicker.</td></tr>
 </table>
-
-

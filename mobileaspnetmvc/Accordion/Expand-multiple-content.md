@@ -7,14 +7,14 @@ control: Accordion
 documentation: ug
 ---
 
-## Expand multiple content 
+# Expand multiple content 
 
 EnableMultipleOpen property is used to display or expand more than one item at a time. The index of the items to be expanded can be specified by using SelectedItems property as an array.
 
 
 
 
-
+{% highlight html %}
 @{ Html.EJMobile().Accordion("accordion_sample").EnableMultipleOpen(true).SelectedItems(new int []{0,1}.Items(accItem =>{
 
           accItem.Add().Text("MVC").Content(@<div>
@@ -36,12 +36,12 @@ EnableMultipleOpen property is used to display or expand more than one item at a
                   </div>);
 
  }).Render();}
-
+{% endhighlight %}
 
 
 The following screenshot displays expand multiple contents:
 
-{{ '![](Expand-multiple-content_images/Expand-multiple-content_img1.png)' | markdownify }}
-{:.image }
+![](Expand-multiple-content_images/Expand-multiple-content_img1.png)
+
 
 

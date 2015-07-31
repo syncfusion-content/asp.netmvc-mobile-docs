@@ -7,7 +7,7 @@ control: AutoComplete
 documentation: ug
 ---
 
-## Mode
+# Mode
 
 Mode property specifies the textbox type. The possible values are,
 
@@ -17,16 +17,15 @@ Mode property specifies the textbox type. The possible values are,
 Default is used to render the AutoComplete as normal textbox. Search is used to render the control with search icon. Default value for the property is “default”.
 
 
-
+{% highlight html %}
 @model List<Cars>
 
 @Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").Mode(Mode.Search)
-
+{% endhighlight %}
 
 
 The following screenshot displays Mode:
 
-{{ '![](Mode_images/Mode_img1.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img1.png)
 
 

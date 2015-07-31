@@ -7,7 +7,7 @@ control: Accordion
 documentation: ug
 ---
 
-## Customize content height 
+# Customize content height 
 
 The “HeightAdjustMode” property is used to customize the height of each item’s content. It specifies the height style of the Accordion.  Set the “HeightAdjustMode” property with the following possible values.
 
@@ -18,7 +18,7 @@ The “HeightAdjustMode” property is used to customize the height of each item
 
 
 
-
+{% highlight html %}
 @{ Html.EJMobile().Accordion("accordion_sample").HeightAdjustMode(HeightAdjustMode.Auto).Items(accItem =>{
 
           accItem.Add().Text("MVC").Content(@<div>
@@ -40,14 +40,14 @@ The “HeightAdjustMode” property is used to customize the height of each item
                   </div>);
 
  }).Render();}
-
+{% endhighlight %}
 
 
 The following screenshot displays the customizedcontent height:
 
 
 
-{{ '![C:/Users/isuriyar/Desktop/acc scr/heht.png](Customize-content-height_images/Customize-content-height_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/Desktop/acc scr/heht.png](Customize-content-height_images/Customize-content-height_img1.png)
+
 
 

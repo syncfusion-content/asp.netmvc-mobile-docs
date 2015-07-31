@@ -7,14 +7,14 @@ control: Accordion
 documentation: ug
 ---
 
-## Load on demand
+# Load on demand
 
 In some cases, you can load content only when it is required. To achieve this, specify “AjaxUrl” property with the respective URL of the HTML file that contains the dynamic content. SpinnerText property is used to show the loading text, while getting (waiting for) the response from the server (via Ajax request).
 
 
 
 
-
+{% highlight html %}
 @{ Html.EJMobile().Accordion("accordion_sample").SpinnerText("Loading..").Items(accItem =>
 
         {
@@ -28,13 +28,13 @@ In some cases, you can load content only when it is required. To achieve this, s
 
 
          }).Render();}
-
+{% endhighlight %}
 
 
 Create an HTML file with the name text1.html.
 
 
-
+{% highlight html %}
 [HTML]
 
 <body>
@@ -47,12 +47,12 @@ Create an HTML file with the name text1.html.
 
 </body>
 
-
+{% endhighlight %}
 
 Create an HTML file with the name text2.html.
 
 
-
+{% highlight html %}
 [HTML]
 
 
@@ -66,13 +66,13 @@ Create an HTML file with the name text2.html.
     in Windows-based applications.
 
 </body>
-
+{% endhighlight %}
 
 
 Create an HTML file with the name text3.html.
 
 
-
+{% highlight html %}
 [HTML]
 
 
@@ -86,14 +86,14 @@ Create an HTML file with the name text3.html.
     distributed computing where services have remote consumers.
 
 </body>
-
+{% endhighlight %}
 
 
 The following screenshot displays the load on demand:
 
 
 
-{{ '![](Load-on-demand_images/Load-on-demand_img1.png)' | markdownify }}
-{:.image }
+![](Load-on-demand_images/Load-on-demand_img1.png)
+
 
 

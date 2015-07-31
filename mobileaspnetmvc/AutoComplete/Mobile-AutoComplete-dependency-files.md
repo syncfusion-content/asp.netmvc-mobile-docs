@@ -7,7 +7,7 @@ control: AutoComplete
 documentation: ug
 ---
 
-## Mobile AutoComplete dependency files
+# Mobile AutoComplete dependency files
 
 This section deals with dependency files for AutoComplete textbox control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When not, then you need to refer to the following script files to render the AutoComplete control.
 
@@ -16,8 +16,8 @@ _Script files to render the Autocomplete control_
 <table>
 <tr>
 <td>
-File                </td><td>
-Description/Usage</td></tr>
+{{ '*File*' | markdownify }}</td><td>
+{{ '*Description/Usage*' | markdownify }}</td></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

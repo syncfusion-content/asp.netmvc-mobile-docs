@@ -7,7 +7,7 @@ control: Accordion
 documentation: ug
 ---
 
-## Mobile Accordion dependency files
+# Mobile Accordion dependency files
 
 This section deals with the dependency files for Accordion control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When not, then you need to refer the following script files to render the Accordion control.
 
@@ -16,8 +16,8 @@ _Script files_
 <table>
 <tr>
 <td>
-File</td><td>
-Description/Usage</td></tr>
+{{ '*File*' | markdownify }}</td><td>
+{{ '*Description/Usage*' | markdownify }}</td></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

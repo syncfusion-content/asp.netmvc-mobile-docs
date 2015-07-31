@@ -7,14 +7,14 @@ control: Accordion
 documentation: ug
 ---
 
-## Collapse content
+# Collapse content
 
 In some cases, you may want to collapse the Accordion content dynamically due to limited space available in the screen. You can enable this feature by setting “Collapsible” property to true. By clicking the Accordion header, you can collapse or expand the content.
 
 
 
 
-
+{% highlight html %}
 @{ Html.EJMobile().Accordion("accordion_sample").Collapsible(true).Items(accItem =>{
 
           accItem.Add().Text("MVC").Content(@<div>
@@ -36,14 +36,11 @@ In some cases, you may want to collapse the Accordion content dynamically due to
                   </div>);
 
  }).Render();}
-
+{% endhighlight %}
 
 
 The following screenshot displays the collapse content:
 
 
 
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8593e48f.PNG](Collapse-content_images/Collapse-content_img1.png)' | markdownify }}
-{:.image }
-
-
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8593e48f.PNG](Collapse-content_images/Collapse-content_img1.png)

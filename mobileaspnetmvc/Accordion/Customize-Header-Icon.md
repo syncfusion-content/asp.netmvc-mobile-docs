@@ -7,14 +7,14 @@ control: Accordion
 documentation: ug
 ---
 
-## Customize Header Icon
+# Customize Header Icon
 
 The “ShowHeaderIcon” property is used to display the default icon for the Accordion header. 
 
 
 
 
-
+{% highlight html %}
 @{ Html.EJMobile().Accordion("accordion_sample").ShowHeaderIcon(true).Items(accItem =>{
 
           accItem.Add().Text("MVC").Content(@<div>
@@ -36,14 +36,11 @@ The “ShowHeaderIcon” property is used to display the default icon for the Ac
                   </div>);
 
  }).Render();}
-
+{% endhighlight %}
 
 
 The following screenshot displays header icon:
 
 
 
-{{ '![](Customize-Header-Icon_images/Customize-Header-Icon_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Customize-Header-Icon_images/Customize-Header-Icon_img1.png)

@@ -7,11 +7,11 @@ control: DatePicker
 documentation: ug
 ---
 
-## Style and Appearance
+# Style and Appearance
 
 The Style and Appearance of the Mobile DatePicker are based on the CSS class. You require a style sheet to apply styles to the Mobile DatePicker control, that is, ej.mobile.all.min.css.
 
-Customize styles
+## Customize styles
 
 To change the color or design of the DatePicker control’s appearance, you can override default styles of the DatePicker control by using its class names. The following are specific class names you can use to modify the styles and appearance of the DatePicker.
 

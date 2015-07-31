@@ -15,11 +15,10 @@ This section explains briefly on how to create an AutoComplete control in your a
 
 The ASP.NET MVC Mobile AutoComplete control is a textbox control that provides a list of suggestions based on the query.  When you enter text into the text box, the control performs a search operation and provides a list of results. There are several filter types available, to perform the search. In the following example, you can learn how to create an application to search for a contact and learn about the features in AutoComplete widget.
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+'![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create AutoComplete to search for a contact
+### Create AutoComplete to search for a contact
 
 ASP.NET MVC Mobile AutoComplete control can be rendered based on the default values of all the properties. You can easily customize Mobile AutoComplete control by changing its properties. The following code example shows how to create AutoComplete to search for a contact. 
 
@@ -30,7 +29,7 @@ You can create an MVC Project and add necessary Dlls and script, with the help o
 Add the following code layout to the corresponding master page.
 
 
-
+{% highlight html %}
     @Html.EJMobile().Header("header").Title("Contacts")
 
     <div id="content">
@@ -44,14 +43,14 @@ Add the following code layout to the corresponding master page.
     </div>
 
     @Html.EJMobile().Scrollpanel("scroll").Target("content")
-
+{% endhighlight %}
 
 
 
 
 Add the following code example to render the AutoComplete control in the corresponding view page.
 
-
+{% highlight html %}
 <div style="padding: 5px 0; text-indent: 5px;">
 
         Select Contacts
@@ -60,34 +59,32 @@ Add the following code example to render the AutoComplete control in the corresp
  <!-- Autocomplete control -->
 
 @Html.EJMobile().AutoComplete("contacts")   
+{% endhighlight html %}
+
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
 
 
 
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
 
 
-
-
-Customize watermark text
+### Customize watermark text
 
 You can customize watermark text using the WatermarkText property as follows.
 
 
 
-
+{% highlight html %}
      <!-- Autocomplete control -->
 
 @Html.EJMobile().AutoComplete("contacts").WatermarkText("Search Contacts")
+{% endhighlight %}
 
 
 
-
-{{ '![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img3.png)
 
 
-Data Binding
+### Data Binding
 
 You need to add model, to sync the contact items to AutoComplete. For that, you can download the following zip file which contains the contacts.cs model file and paste the cs file in the model folder. 
 
@@ -95,6 +92,7 @@ Zip file link: [http://js.syncfusion.com/UG/Mobile/Content/Contacts.zip](http://
 
 Add the corresponding namespace for model in controller and modify the existing controller as follows. 
 
+{% highlight html %}
 using MVCSample.Models;
 
 
@@ -109,12 +107,12 @@ public ActionResult Contacts()
 
         }
 
-
+{% endhighlight %}
 
 > _Note: Here “MVCSample” is your project name._
 
 
-
+{% highlight html %}
      <!-- Autocomplete control -->
 
 
@@ -123,39 +121,38 @@ public ActionResult Contacts()
 
             @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource(Model).Field("name").FilterType(AutoCompleteFilterType.Contains)
 
-
+{% endhighlight %}
 
 
 
 Run the above code and type the contact details to search for (In this example, you can type A) in the AutoComplete textbox, and you can see the result displayed.
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
-Multi Value Selection
+### Multi Value Selection
 
 AutoComplete textbox enables you to select multiple items from the suggestions list. To achieve this, set the EnableMultiSelect property to true. The DelimiterChar property holds a string value that specifies the separator between two selected items.  You can customize the delimiter string. In this example “;” is used as delimiter.
 
-
+{% highlight html %}
      <label>Select Contacts</label>
      <!-- Autocomplete control -->
 
 @model List<Contacts>
 
             @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource(Model).Field("name").FilterType(AutoCompleteFilterType.Contains). EnableMultiSelect(true).DelimiterChar(";")    
-
+{% endhighlight %}
 
 Run the above code and type the necessary query in the textbox. The contact is displayed as shown in the following screenshot.
 
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img5.png)
 
 
-Event handling
+### Event handling
 
 The Select eventenables you to handle AutoComplete selection. By assigning a function name to the event, you can handle the selection. Here you can set Select event with the function name OnSelect.  By processing the onSelect( ) function, you can implement the necessary actions. In this example, the full Contact detail of the selected contact name is displayed. 
 
+{% highlight html %}
           <!-- Autocomplete control -->
 
 @Html.EJMobile().AutoComplete("contacts").WatermarkText("Search Contacts").DataSource(Model).Field("name").EnableMultiSelect(true).DelimiterChar(";").ClientSideEvents(c => c.Select("onSelect"))   
@@ -212,11 +209,10 @@ The Select eventenables you to handle AutoComplete selection. By assigning a fun
     }
 
 </style>
+{% endhighlight %}
 
 
+![](Getting-Started_images/Getting-Started_img6.png)
 
-
-{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
-{:.image }
 
 

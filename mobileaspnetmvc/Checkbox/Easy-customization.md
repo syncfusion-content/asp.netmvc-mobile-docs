@@ -7,9 +7,9 @@ control: Checkbox
 documentation: ug
 ---
 
-## Easy customization
+# Easy customization
 
-Checked Status
+## Checked Status
 
 By using checked property, you can set the state of Checkbox. When checkedproperty is true, the Checkbox is in checked state. When false, Checkbox is in unchecked state. When you want to use this checkedproperty, then checkbox should be in non Tri-state and enableTriState property should be false.
 
@@ -101,7 +101,7 @@ In the CSHTML page, add the following input elements to configure Checkbox widge
 
 
 
-Enable Tri-State
+## Enable Tri-State
 
 Sometimes, to represent the answer in partially true state, you can use the indeterminate state option that is the state between checked and unchecked state. For example, a Checkbox presented to select files to send via [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol) can use a [tree view](http://en.wikipedia.org/wiki/Tree_view) so that files can be selected one at a time, or by folder. When only some files in a folder are selected, then the checkbox for that folder could be in indeterminate state.
 
@@ -175,11 +175,11 @@ In theCSHTML page, add the following input elements to render the Checkbox with 
 
 Execute the above code example to render the following output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_36.png](Easy-customization_images/Easy-customization_img1.png)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image20_36.png](Easy-customization_images/Easy-customization_img1.png)
 
 
-Enabled 
+
+## Enabled 
 
 You can render Checkbox with disabled state by setting data-ej-enabled to false. Sometimes, to disable a checkbox during ‘out of stock’ like situations, you can use this property. By default, this data-ej-enabled is set to true.
 
@@ -253,7 +253,7 @@ Refer to the following code example.
 
  Execute the above code example to render the following output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_37.png](Easy-customization_images/Easy-customization_img2.png)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image20_37.png](Easy-customization_images/Easy-customization_img2.png)
+
 
 

@@ -7,11 +7,11 @@ control: Accordion
 documentation: ug
 ---
 
-## Styles and Appearance
+# Styles and Appearance
 
 Styles and appearance of Accordion work based on CSS class. You need a style sheet to apply styles to Accordion control, that is, ej.mobile.all.min.css
 
-Customize styles
+## Customize styles
 
 In some scenarios, you may want to change color or design of Accordion control’s appearance. Then, you can override default styles of Accordion control by using its class names. The following are specific class names you can use to modify styles and appearance in Accordion.
 
@@ -20,8 +20,8 @@ _Class names_
 <table>
 <tr>
 <td>
-Class</td><td>
-Description</td></tr>
+{{ '*Class*' | markdownify }}</td><td>
+{{ '*Description*' | markdownify }} </td></tr>
 <tr>
 <td>
 e-m-acc                                           </td><td>
