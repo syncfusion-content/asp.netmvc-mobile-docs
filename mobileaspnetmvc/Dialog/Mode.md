@@ -7,7 +7,7 @@ control: Dialog
 documentation: ug
 ---
 
-## Mode
+# Mode
 
 The Mode property specifies the different types of dialog modes. The possible values are, 
 
@@ -15,13 +15,14 @@ The Mode property specifies the different types of dialog modes. The possible va
 2. Confirm mode.
 3. Normal mode.
 4. Full view mode.
-### Alert Mode
+
+## Alert Mode
 
 
 The AlertDialog box property is used to communicate an Alert message.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Mode(DialogMode.Alert).Content(
@@ -41,9 +42,9 @@ The AlertDialog box property is used to communicate an Alert message.
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js %}
 [Script]
 
 
@@ -55,21 +56,20 @@ The AlertDialog box property is used to communicate an Alert message.
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Mode_images/Mode_img1.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img1.png)
 
 
-### Confirm Mode
+## Confirm Mode
 
 The ConfirmDialog box property is mostly used to take the user's consent on any option. It displays a Dialog box with two buttons, Ok and Cancel. Ok button returns true and Cancel button returns false.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Cellular Data is Turned off").Mode(DialogMode.Confirm).Content(
@@ -89,9 +89,9 @@ Turn on cellular data or use Wi-Fi to access data
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js %}
 [Script]
 
 
@@ -103,21 +103,20 @@ Turn on cellular data or use Wi-Fi to access data
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Mode_images/Mode_img2.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img2.png)
 
 
-### Normal Mode
+## Normal Mode
 
 The Normal Mode Dialog box property is used to display the message in sub screen area on a whole screen. It displays a Dialog box with two buttons, Continue and Cancel. Continue button returns true and Cancel button returns false. It is suitable for tablet devices.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome").Mode(DialogMode.Normal).Content(
@@ -137,9 +136,9 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js %}
 [Script]
 
 
@@ -151,21 +150,20 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Mode_images/Mode_img3.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img3.png)
 
 
-### Full View Mode
+## Full View Mode
 
 The FullViewDialog box property is used to display messages on full screen and it is suitable for mobile devices.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome").Mode(DialogMode.Fullview).Content(@<div>
@@ -183,9 +181,9 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js %}
 [Script]
 
 
@@ -197,12 +195,11 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Mode_images/Mode_img4.png)' | markdownify }}
-{:.image }
+![](Mode_images/Mode_img4.png)
 
 

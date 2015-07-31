@@ -14,7 +14,7 @@ WatermarkText property is used in customize the text that appears in the backgro
 Refer to the following code example.
 
 
-
+{% highlight html %}
     @Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox")
 
     @Html.EJMobile().PassWord("textbox_sample").WatermarkText("Password")
@@ -22,10 +22,9 @@ Refer to the following code example.
     @Html.EJMobile().TextArea("textbox_sample").WatermarkText("Textarea")
 
     @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("maskedit").Mask("+1 (999) 999-9999")   
+{% endhighlight %}
 
 
-
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)
 
 

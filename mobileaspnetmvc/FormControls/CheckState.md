@@ -20,7 +20,7 @@ The possible values are:
 Refer to the following code examples.
 
 
-
+{% highlight html %}
 @Html.EJMobile().Header("sample_header").Title("CheckBox")
 
 <div align="center" style="padding-top: 100px">
@@ -76,12 +76,11 @@ Refer to the following code examples.
     </table>
 
 </div>
-
+{% endhighlight %}
 
 
 Execute the above code examples to render the following output.
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2f71445a.PNG](CheckState_images/CheckState_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2f71445a.PNG](CheckState_images/CheckState_img1.png)
 
 

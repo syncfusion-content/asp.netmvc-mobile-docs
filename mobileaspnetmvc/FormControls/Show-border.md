@@ -14,7 +14,7 @@ ShowBorder property is used to decide whether the Textbox border can be visible 
 Refer to the following code example.
 
 
-
+{% highlight html %}
 @Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox").ShowBorder(false)
 
 
@@ -28,10 +28,9 @@ Refer to the following code example.
 
 
     @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("Maskedit").ShowBorder(false).Mask("+1 (999) 999-999")  
+{% endhighlight %}
 
 
-
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8017b82d.PNG](Show-Border_images/Show-Border_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8017b82d.PNG](Show-Border_images/Show-Border_img1.png)
 
 

@@ -7,7 +7,7 @@ control: Dialog
 documentation: ug
 ---
 
-## Mobile Dialog Dependency files
+# Mobile Dialog Dependency files
 
 This section deals with the dependency files for the Dialog control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, you can refer to the following script files to render the Dialog control.
 
@@ -16,8 +16,8 @@ _Script files to render the Dialog control_
 <table>
 <tr>
 <td>
-Files                          </td><td>
-Description/Usage</td></tr>
+{{ '*Files*' | markdownify }}</td><td>
+{{ '*Description/Usage*' | markdownify }}</td></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

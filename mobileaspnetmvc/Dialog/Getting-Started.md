@@ -15,16 +15,17 @@ This section explains briefly on how to create a Dialog control in your applicat
 
 The ASP.NET MVCDialog window is an overlay positioned within the AppView and displays a message along with supplementary content such as images or text and interactive content such as forms etc. It contains a title and a content area. The following example explains how to create a MailSign in form through that you can learn the features of the ASP.NET MVC Dialog widget.
 
-{{ '![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png)
+
 
 
 _Alert Dialog_  
 
-Create the required layout
+### Create the required layout
 
 You can render the Dialog control based on the default values for all the properties. You can easily customize Dialog control by changing its properties according to your requirement. Create a simple MVC application and add the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile. 
 
+{% highlight html %}
 <!-- header control -->          
 
 @Html.EJMobile().Header("header").Title("Mail").RightButtonCaption("Next").ShowRightButton(true).ClientSideEvents(evt => { evt.RightButtonTap("formsubmit"); })
@@ -42,11 +43,11 @@ You can render the Dialog control based on the default values for all the proper
 <!-- ScrollPanel -->        
 
 @Html.EJMobile().Scrollpanel("scroll").Target("content") 
-
+{% endhighlight %}
 
 
 Add the following Layout code to the corresponding view page
-
+{% highlight html%}
 <div id="content">
 
     <div>
@@ -154,11 +155,11 @@ Add the following Layout code to the corresponding view page
 
 
 @Html.EJMobile().Scrollpanel("scroll").Target("content")
-
+{% endhighlight %}
 
 
 Use the following styles for adding content element.
-
+{% highlight css%}
 <style type="text/css">
 
     .appview.e-m-ios7 #content {
@@ -226,35 +227,37 @@ Use the following styles for adding content element.
     }
 
 </style>
-
+{% endhighlight %}
 
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-{{ '![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 _Mail Sign in Form_
 
-Create the Dialog control
+### Create the Dialog control
 
 There are four types of Dialog modes namely alert, confirm, normal and full view Dialogs. The defaultDialog mode is “alert”. In your use case, an error message is displayed when invalid details are entered. AlertDialog contains title, content and a button. 
 
 To render the Dialog control, you can add the following code example and specify the Dialog content (HTML content) using “Content” API. Specify a value for “Title” property to set title for Dialog. In your case you can set it as “Invalid email address”. Specify a value for “LeftButtonCaption” property to set Dialog button text; here you can set it as “OK”. 
 
-        @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>)
+ {% highlight html%}
+       @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>)
 
     </div>
 
 </div>
 
-Display the Dialog
+{% endhighlight %}
+### Display the Dialog
 
 To display the Dialog, you can click the next button present in the header. The click event is handled by “formsubmit” function as mentioned as follows. Create an object for Dialog control and then using the dialog’s “open” function you can display the Dialog. 
 
 Add the following script code to the <body> tag.
-
+{% highlight js%}
 <script type="text/javascript">
 
         function formsubmit(event) {
@@ -296,49 +299,49 @@ Add the following script code to the <body> tag.
         }
 
 </script>
-
+{% endhighlight %}
 
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-{{ '![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png)
 
 
-Enable Modal Dialog
+
+### Enable Modal Dialog
 
 The EnableModalDialog prevents you from interacting with the rest of the page until it is closed. Enable the modal Dialog using “EnableModal” property.
-
+{% highlight html%}
         @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>).EnableModal(true)
 
     </div>
 
 </div>
 
-
+{% endhighlight %}
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-{{ '![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png)
 
 
-Handle Dialog events
+
+### Handle Dialog events
 
 To close the alert Dialog, click OK. This is achieved by triggering the ButtonTap event of Dialog. The ButtonTap event is handled by alertClose function. Create an object for Dialog control and using close function you can close the Dialog.
 
 Refer to the following code example. 
-
+{% highlight html%}
         @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>).EnableModal(true).ClientSideEvents(evt => { evt.ButtonTap("alertClose"); })
 
     </div>
 
 </div>
+{% endhighlight %}
 
 
 
-
-
+{% highlight js%}
 //Button tap event handling
 
         function alertClose(event) {
@@ -352,6 +355,6 @@ Refer to the following code example.
             $(".e-m-editor-input").val("");
 
         }
-
+{% endhighlight %}
 
 

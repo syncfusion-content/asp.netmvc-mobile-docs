@@ -7,11 +7,11 @@ control: AutoComplete
 documentation: ug
 ---
 
-## Styles and appearance of the control
+# Styles and appearance of the control
 
 Styles and appearance of the AutoComplete control is rendered using CSS class. The style sheet class is defined in ej.mobile.all.min.css. 
 
-Customization
+## Customization
 
 In some scenarios, you may want to change color or design of AutoComplete control’s appearance. In that situation, you can override default styles of AutoComplete control by using its class names. The following are specific class names you can use to modify styles and appearance in AutoComplete.
 

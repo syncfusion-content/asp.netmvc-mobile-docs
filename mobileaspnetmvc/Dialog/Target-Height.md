@@ -7,12 +7,12 @@ control: Dialog
 documentation: ug
 ---
 
-## Target Height
+# Target Height
 
 The TargetHeight property specifies the target height of the Dialog.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").TargetHeight(500).Content(
@@ -32,9 +32,9 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js %}
 [Script]
 
 
@@ -46,12 +46,12 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Target-Height_images/Target-Height_img1.png)' | markdownify }}
-{:.image }
+![](Target-Height_images/Target-Height_img1.png)
+
 
 

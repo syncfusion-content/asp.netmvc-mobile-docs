@@ -12,7 +12,7 @@ documentation: ug
 This is a Boolean property that lets you choose whether RadioButton needs to be selected by default or not. By default, this property is set to false.
 
 
-
+{% highlight html %}
 <div align="center">
 
     <br />
@@ -76,12 +76,11 @@ This is a Boolean property that lets you choose whether RadioButton needs to be 
     </div>
 
 </div>
-
+{% endhighlight %}
 
 
 The following screenshot displays checked status:
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2022239a.PNG](Checked_images/Checked_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2022239a.PNG](Checked_images/Checked_img1.png)
 
 

@@ -7,14 +7,14 @@ control: Dialog
 documentation: ug
 ---
 
-## Scrolling Settings
+# Scrolling Settings
 
-### AllowScrolling   
+## AllowScrolling   
 
 The AllowScrolling property is used to enable scrollingbehavior for the Dialog content. The default value is true.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").AllowScrolling(false).Content(
@@ -44,9 +44,9 @@ The AllowScrolling property is used to enable scrollingbehavior for the Dialog c
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js %}
 [Script]
 
 
@@ -58,21 +58,21 @@ The AllowScrolling property is used to enable scrollingbehavior for the Dialog c
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Scrolling-Settings_images/Scrolling-Settings_img1.png)' | markdownify }}
-{:.image }
+![](Scrolling-Settings_images/Scrolling-Settings_img1.png)
 
 
-### CheckDOMChanges                      
+
+## CheckDOMChanges                      
 
 The CheckDOMChanges property is used to refresh the scroll panel rendered in the control when elements are added dynamically. The default value is false.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").CheckDOMChanges(true).Content(
@@ -92,9 +92,9 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js %}
 [Script]
 
 
@@ -107,20 +107,20 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
         }
 
-
+{% endhighlight %}
 
 The following screenshot displays the output.
 
-{{ '![](Scrolling-Settings_images/Scrolling-Settings_img2.png)' | markdownify }}
-{:.image }
+![](Scrolling-Settings_images/Scrolling-Settings_img2.png)
 
 
-### EnableNativeScrolling
+
+## EnableNativeScrolling
 
 The EnableNativeScrolling property is used to enable native (built-in browser) scrolling functionality of the devices when scrolling is allowed. The default value is false.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableNativeScrolling(true).Content(
@@ -143,8 +143,9 @@ The EnableNativeScrolling property is used to enable native (built-in browser) s
 
 </div>
 
+{% endhighlight %}
 
-
+{% highlight js %}
 [Script]
 
 
@@ -156,12 +157,11 @@ The EnableNativeScrolling property is used to enable native (built-in browser) s
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Scrolling-Settings_images/Scrolling-Settings_img3.png)' | markdownify }}
-{:.image }
+![](Scrolling-Settings_images/Scrolling-Settings_img3.png)
 
 

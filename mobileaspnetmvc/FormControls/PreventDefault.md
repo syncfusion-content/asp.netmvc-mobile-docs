@@ -14,7 +14,7 @@ In CheckBox control, the default actions are to Check or Uncheck the control. Yo
 Refer to the following code examples.
 
 
-
+{% highlight html %}
 @Html.EJMobile().Header("sample_header").Title("CheckBox")
 
 <div align="center" style="padding-top: 100px">
@@ -70,6 +70,6 @@ Refer to the following code examples.
     </table>
 
 </div>
-
+{% endhighlight %}
 
 

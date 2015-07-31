@@ -14,14 +14,13 @@ It can be done using Mask EditTextbox control. When you define an input mask usi
 Refer to the following code example.
 
 
-
+{% highlight html %}
 @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("Maskedit").Mask("+1 (999) 999-999")  
+{% endhighlight %}
 
 
 
 
-
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML195b49f5.PNG](Masking_images/Masking_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML195b49f5.PNG](Masking_images/Masking_img1.png)
 
 

@@ -7,12 +7,12 @@ control: Dialog
 documentation: ug
 ---
 
-## Templating                                  
+# Templating                                  
 
 The TemplateId property is used to define the ID of the template element where you can specify the content to render in the Dialog.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").TemplateId("temp").Content(
@@ -32,9 +32,9 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js %}
 [Script]
 
 
@@ -46,12 +46,11 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Templating_images/Templating_img1.png)' | markdownify }}
-{:.image }
+![](Templating_images/Templating_img1.png)
 
 

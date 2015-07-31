@@ -14,12 +14,10 @@ The AllowReset property is used to reset the password value in windows rendermod
 Refer to the following code example.
 
 
-
+{% highlight html %}
 @Html.EJMobile().PassWord("textbox_sample").WatermarkText("Password").RenderMode(RenderMode.Windows).Windows(windows=>windows.AllowReset(true))
+{% endhighlight %}
 
-
-
-{{ '![C:/Users/labuser/AppData/Local/Temp/SNAGHTMLa514ae.PNG](Windows-specific-customization_images/Windows-specific-customization_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/AppData/Local/Temp/SNAGHTMLa514ae.PNG](Windows-specific-customization_images/Windows-specific-customization_img1.png)
 
 

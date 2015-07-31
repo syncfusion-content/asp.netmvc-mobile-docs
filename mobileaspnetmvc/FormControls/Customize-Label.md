@@ -12,7 +12,7 @@ documentation: ug
 The Text property lets you set labels for the RadioButton. To set the text for the RadioButton, you can refer the following code example.
 
 
-
+{% highlight html %}
 <div align="center">
 
     <br />
@@ -70,12 +70,11 @@ The Text property lets you set labels for the RadioButton. To set the text for t
     </div>
 
 </div>
-
+{% endhighlight %}
 
 
 The following screenshot displays customized labels:
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML201e992b.PNG](Customize-Label_images/Customize-Label_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML201e992b.PNG](Customize-Label_images/Customize-Label_img1.png)
 
 

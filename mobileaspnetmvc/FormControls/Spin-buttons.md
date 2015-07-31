@@ -12,14 +12,13 @@ documentation: ug
 ShowSpinButton property is used to specify whether the Spin Button is visible or hidden. By clicking these buttons, you can increment or decrement the Numeric value.
 
 
-
+{% highlight html %}
 @Html.EJMobile().NumericTextbox("textbox_sample").ShowSpinButton(false)
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTMLdc4ac96.PNG](Spin-buttons_images/Spin-buttons_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTMLdc4ac96.PNG](Spin-buttons_images/Spin-buttons_img1.png)
 
 

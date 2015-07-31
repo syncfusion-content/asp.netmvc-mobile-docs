@@ -14,7 +14,7 @@ When it is set to true, you cannot edit the value in the Textbox. The default va
 Refer to the following code example.
 
 
-
+{% highlight html %}
     @Html.EJMobile().TextBox("textbox_sample"). WatermarkText("Textbox").ReadOnly(true)
 
     @Html.EJMobile().PassWord("textbox_sample"). WatermarkText ("password").ReadOnly(true)
@@ -22,10 +22,8 @@ Refer to the following code example.
     @Html.EJMobile().TextArea("textbox_sample").WatermarkText ("Textarea").ReadOnly(true)
 
     @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("maskedit").Mask("+1 (999) 999-9999").ReadOnly(true)
+{% endhighlight %}
 
 
-
-{{ '![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](ReadOnly_images/ReadOnly_img1.png)' | markdownify }}
-{:.image }
-
+![C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML8021dede.PNG](ReadOnly_images/ReadOnly_img1.png)
 

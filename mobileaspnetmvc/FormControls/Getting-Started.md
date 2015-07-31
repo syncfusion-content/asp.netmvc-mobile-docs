@@ -23,13 +23,13 @@ The ASP.NET MVC provides a way to create a Form with the following mobile widget
 
 From the following guidelines, you can create a BillPaymentApp where you can learn its features in the above mentioned widgets.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
+
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
-Create the necessary layout 
+
+### Create the necessary layout 
 
 In the BillPaymentApp, you can use the Textbox control to get the Name of the Person, Email, and Remarks, NumericTextbox control for the Amount field, Radio button for the Payment options, Check box for the terms and conditions, and Button control to submit the form.
 
@@ -38,7 +38,7 @@ Create a simple MVC application and add the following header and scrollpanel lay
 1. Create an MVC Project and add necessary Dll’s and Scripts with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile.
 
 
-
+~~~ html
      <!--Header Control-->
 
      @Html.EJMobile().Header("header").Title("Bill Payment")
@@ -56,6 +56,8 @@ Create a simple MVC application and add the following header and scrollpanel lay
       <!--Scroll Panel-->
 
       @Html.EJMobile().Scrollpanel("form_controls").Target("form_sample")
+~~~
+{:.pretty-print}
 
 
 
@@ -63,6 +65,7 @@ Create a simple MVC application and add the following header and scrollpanel lay
 
 2. Add the following Layout code to the corresponding view page.
 
+~~~ html
        <!--Add the Form Elements-->   
 
                 <form id="form1">
@@ -211,10 +214,14 @@ Create a simple MVC application and add the following header and scrollpanel lay
 
  @Html.EJMobile().Dialog("info_msg").Title("Alert").LeftButtonCaption("ok").EnableModal(true).EnableAutoOpen(false).Content(@<div id="dlgcontent"></div>).ClientSideEvents(evt => evt.ButtonTap("exit"))
 
+~~~
+{:.pretty-print}
+
 
 
 3. Add the following styles.
 
+~~~ css
       <style>
 
         .appview .submitbutton {
@@ -305,84 +312,95 @@ Create a simple MVC application and add the following header and scrollpanel lay
 
 </style>
 
-Add Textbox Control
+~~~
+{:.pretty-print}
+
+### Add Textbox Control
 
 TextboxControl is required to get the Name of the Person. To render this control, you can add the following Layout code to the corresponding view page.
 
+{% highlight html %}
  <!—Textbox for Name of the Person-->
 
              @Html.EJMobile().TextBox("user_name")
 
                 <label for="user_name" class="error" generated="true" />
-
+{% endhighlight %}
 
 
 Run the above code to render the following output. 
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
-Set Watermark text
+
+### Set Watermark text
 
 The WatermarkText specifies a short hint that describes the expected value of the input field. This is achieved using the WatermarkText property. The following code example shows you how to set Watermarktext.
 
+{% highlight html %}
       <!--Textbox-->
 
       @Html.EJMobile().TextBox("user_name").WatermarkText("Name")
+{% endhighlight %}
+
+
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
-
-
-Add Numeric Textbox Control
+### Add Numeric Textbox Control
 
 To render the NumericTextbox control, you can refer the following code example. 
 
+{% highlight html %}
 <!--Numeric Textbox-->
 
         @Html.EJMobile().NumericTextbox("amount").WatermarkText("Amount")
 
                 <label for="amount" class="error" generated="true" />
 
+{% endhighlight %}
+
+![](Getting-Started_images/Getting-Started_img5.png)
 
 
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
 
-
-Disable Spin Button 
+### Disable Spin Button 
 
 By default, the SpinButton is visible. Using this, you can increment or decrement the values. In the BillPaymentApp, SpinButton is not required. To hide this, you can set ShowSpinButton property to false.
 
+{% highlight html %}
        <!--Numeric Textbox-->
 
        @Html.EJMobile().NumericTextbox("amt").WatermarkText("Amount")
 
        .ShowSpinButton(false)
+{% endhighlight %}
+
+
+![](Getting-Started_images/Getting-Started_img6.png)
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img6.png)' | markdownify }}
-{:.image }
-
-
-Set Decimal Point 
+### Set Decimal Point 
 
 By default, decimal numbers (floating point) are not allowed. In this case, you need to allow the decimal values since it is an amount field. To achieve this, you can set DecimalPlaces property with a numeric value that specifies the number of decimals allowed.
 
+{% highlight html %}
         <!--Numeric Textbox-->
 
         @Html.EJMobile().NumericTextbox("amt").WatermarkText("Amount")
 
          .ShowSpinButton(false).DecimalPlaces(2)
 
-Add Radio Button Control
+{% endhighlight %}
+
+### Add Radio Button Control
 
 A RadioButton control is required for the payment option (credit or debit). By using Text property you can add the text for radio button. To render this control, add the following code example.
 
+{% highlight html %}
        <!--Radio Button for Credit-->
 
 @Html.EJMobile().RadioButton("radbtn", "credit", new { id = "credit" }).Text("Credit Card").Checked(true) 
@@ -391,70 +409,75 @@ A RadioButton control is required for the payment option (credit or debit). By u
 
 @Html.EJMobile().RadioButton("radbtn", "debit", new { id = "debit" }).Text("Debit Card")
 
+{% endhighlight %}
 
-
-Add Textbox for E-Mail
+### Add Textbox for E-Mail
 
 You can add Textbox for E-mail.
 
+{% highlight html %}
 <!--Textbox for E-mail-->
 
 @Html.EJMobile().TextBox("mail").WatermarkText("user@mail.com")
 
 <label for="mail" class="error" generated="true" />
+{% endhighlight %}
+
+
+![](Getting-Started_images/Getting-Started_img7.png)
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
-{:.image }
-
-
-Add Textbox for Remarks
+### Add Textbox for Remarks
 
 You can add Textbox for Remarks.
 
+{% highlight html %}
          <!--Textbox-->
 
  @Html.EJMobile().TextBox("remarks").WatermarkText("Remarks")
+{% endhighlight %}
+
+
+![](Getting-Started_images/Getting-Started_img8.png)
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img8.png)' | markdownify }}
-{:.image }
-
-
-Add Checkbox Control
+### Add Checkbox Control
 
 You can use Checkbox Control for “agree the terms and conditions” option. By using Text property, you can add the text to the checkbox control. To render this, add the following code example.
 
+{% highlight html %}
     <!--Checkbox-->
 
 @Html.EJMobile().CheckBox("chkbox").Text("I accept the terms and conditions")
+{% endhighlight %}
+
+
+![](Getting-Started_images/Getting-Started_img9.png)
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img9.png)' | markdownify }}
-{:.image }
-
-
-Add Button Control
+### Add Button Control
 
 ButtonControl is required to submit the Form. By using client side events, you can perform form validation. Here TouchEnd event is used to perform the validation. To render this control, you need to add the following code example and also add the Text property to specify the Button text. 
 
+{% highlight html %}
  <!--Button-->
 
 @Html.EJMobile().Button("btn").Text("Pay Bill").ClientSideEvents(evt => evt.TouchEnd("formsubmit"))
+{% endhighlight %}
+
+
+![](Getting-Started_images/Getting-Started_img10.png)
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img10.png)' | markdownify }}
-{:.image }
-
-
-Form Validation
+### Form Validation
 
 You have created the Billpayment with required controls and for Validation you can use ASP.NET MVCMobileDialog control to show the Status of your payment.
 
+{% highlight js %}
 <script type="text/javascript">
 
     //$(function () {
@@ -542,14 +565,14 @@ You have created the Billpayment with required controls and for Validation you c
     }
 
 </script>
+{% endhighlight %}
 
 
 
 
+![](Getting-Started_images/Getting-Started_img11.png)
 
-{{ '![](Getting-Started_images/Getting-Started_img11.png)' | markdownify }}
-{:.image }
-{{ '![](Getting-Started_images/Getting-Started_img12.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img12.png)
+
 
 

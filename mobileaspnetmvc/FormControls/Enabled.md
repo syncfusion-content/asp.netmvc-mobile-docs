@@ -12,7 +12,7 @@ documentation: ug
 The Enabled property that lets you enable or disable the options. When set to false, this prevents you from selecting that particular choice. By default, this property is set to true.
 
 
-
+{% highlight html %}
 <div align="center">
 
     <br />
@@ -76,12 +76,11 @@ The Enabled property that lets you enable or disable the options. When set to fa
     </div>
 
 </div>
-
+{% endhighlight %}
 
 
 The following screenshot displays enabled option:
 
-{{ '![](Enabled_images/Enabled_img1.png)' | markdownify }}
-{:.image }
+![](Enabled_images/Enabled_img1.png)
 
 

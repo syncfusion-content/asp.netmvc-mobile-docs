@@ -11,7 +11,7 @@ documentation: ug
 
 You can set the Flat mode specific properties to the control by accessing Flat property.
 
-Styles
+## Styles
 
 You can change the style of Flat mode button by accessing Style property with Flat specific property. 
 
@@ -24,7 +24,7 @@ The possible values are
 You can refer to the following code examples.
 
 
-
+{% highlight html %}
 <div align="center" style="margin:10px">
 
             @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.Flat).Flat(e => e.Style(FlatButtonStyle.Normal)) <br /><br />
@@ -36,12 +36,11 @@ You can refer to the following code examples.
       @Html.EJMobile().Button("sample_button1").Text("Header").RenderMode(RenderMode.Flat).Flat(e => e.Style(FlatButtonStyle.Header))
 
 </div>
+{% endhighlight %}
 
 
 
 
-
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2ab540a8.PNG](Flat-Specific-Customization_images/Flat-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/deepal/AppData/Local/Temp/SNAGHTML2ab540a8.PNG](Flat-Specific-Customization_images/Flat-Specific-Customization_img1.png)
 
 

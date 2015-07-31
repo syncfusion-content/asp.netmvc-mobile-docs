@@ -11,7 +11,7 @@ documentation: ug
 
 Styles and appearance of Textbox works based on CSS class. You require a style sheet to apply styles to textbox control that is, ej.mobile.all.min.css
 
-Customize styles
+## Customize styles
 
 In certain scenarios, it is necessary to change the color or design of Textbox control’s appearance. In that case, you can override default styles of Textbox control using its class names. The following are specific class names that you can use to modify styles and appearance in Textbox. These classes are common for all textbox package controls.
 

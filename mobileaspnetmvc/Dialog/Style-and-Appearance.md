@@ -7,11 +7,11 @@ control: Dialog
 documentation: ug
 ---
 
-## Style and Appearance
+# Style and Appearance
 
 Style and Appearance of Mobile Dialog are based on CSS class. You require a style sheet to apply styles to Mobile Dialog control that is ej.mobile.all.min.css.
 
-Customize styles
+## Customize styles
 
 To change color or design of the Dialog control’s appearance, you can override default styles of Dialog control by using its class names. The following are specific class names that can be used to modify Styles and Appearance in the Dialog.
 

@@ -7,12 +7,12 @@ control: Dialog
 documentation: ug
 ---
 
-## Overlay
+# Overlay
 
 The EnableModal property enables the modal Dialog that blocks you from interacting with the rest of the page until it is closed. The default value is false.
 
 
-
+{% highlight html %}
 @{
 
 @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableModal(true).Content(
@@ -32,9 +32,9 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight js%}
 [Script]
 
 
@@ -46,12 +46,12 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
             App.activePage.find("#alertdlg").ejmDialog("open");
 
         }
-
+{% endhighlight %}
 
 
 The following screenshot displays the output.
 
-{{ '![](Overlay_images/Overlay_img1.png)' | markdownify }}
-{:.image }
+![](Overlay_images/Overlay_img1.png)
+
 
 
