@@ -15,11 +15,11 @@ This section describes in brief how to create and customize an ASP.NET MVC Mobil
 
 Using the following guidelines, you can create a basic login form using the Password Textbox control.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create Password Textbox
+
+### Create Password Textbox
 
 Create a simple MVC application and add the following header and Scroll panel layout page content inside the <body> tag of layout.cshtml. To create an MVC Project, and add necessary Dll’s and Scripts you can refer to [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/index.html) for Mobile.  
 
@@ -151,11 +151,11 @@ Add the following styles to show the Password control in an order. 
 
 Run this code example and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
-Set Watermark text
+
+### Set Watermark text
 
 The watermark text specifies a short hint that describes the expected value of the input field. This can be achieved by using the “watermarktext” property.
 
@@ -165,13 +165,11 @@ The watermark text specifies a short hint that describes the expected value of t
 @Html.EJMobile().PassWord("password").WatermarkText("Password")
 
 
-
-
 {% endhighlight %}
 
 Run this code example and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
+
 
 

@@ -21,7 +21,7 @@ The Possible values for Position property are
 * Rightbottom
 
 
-
+{% highlight html %}
 
 
 @Html.EJMobile().RadialMenu("radialmenu_sample").ImageClass("imageclass").Radius(300).Position(RadialMenuPosition.RightCenter).Items(item =>
@@ -64,11 +64,12 @@ The Possible values for Position property are
 
 </script>
 
+{% endhighlight %}
 
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![](Dimensions_images/Dimensions_img1.png)' | markdownify }}
-{:.image }
+![](Dimensions_images/Dimensions_img1.png)
+
 
 

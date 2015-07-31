@@ -18,9 +18,6 @@ Refer to the following code example.
     @Html.EJMobile().PassWord("textbox_sample").WatermarkText("password").Enabled(false)
 
 
-
-
-
 {% endhighlight %}
 
 

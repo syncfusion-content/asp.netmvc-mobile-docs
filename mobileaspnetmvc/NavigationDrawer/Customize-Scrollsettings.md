@@ -14,6 +14,7 @@ Built-in scrolling support is provided to enable scrolling, when the number of i
 Refer to the following code example. 
 
 
+{% highlight html %}
 
 @Html.EJMobile().NavigationDrawer("navpane").ScrollSettings(scrol => { scrol.ShowScrollbars(false); }).AllowScrolling(true).EnableListView(true).ListViewSettings(list =>{
 
@@ -70,14 +71,16 @@ Refer to the following code example.
     </div>
 
 
+{% endhighlight %}
 
 
-
-Script Section
+### Script Section
 
 You can update the content and close the Navigation Drawer, once the item is selected from the list.
 
 Refer to the following code example.
+
+{% highlight js %}
 
     <script>
 
@@ -99,5 +102,5 @@ Refer to the following code example.
 
     </script>
 
-
+{% endhighlight %}
 

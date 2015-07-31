@@ -11,7 +11,7 @@ documentation: ug
 
 Normally, the content is scrolled by dragging (touch move action) over the scrollable content. The content can also be scrolled through scrollbars by dragging it. It can be enabled by using “EnableInteraction” property. By default, this property is set to true. Refer to the following code example. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -30,4 +30,4 @@ Normally, the content is scrolled by dragging (touch move action) over the scrol
    @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableInteraction( true).EnableNativeScrolling(false)
 
 
-
+{% endhighlight %}

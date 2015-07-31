@@ -13,7 +13,7 @@ Position property is used to specify the position whether it is fixed or relativ
 
 Refer to the following code examples. 
 
-
+{% highlight html %}
 
 @{   @Html.EJMobile().NavigationDrawer("navpane").Position(NavigationDrawerPosition.Normal).EnableListView(true).ListViewSettings(list =>
 
@@ -75,7 +75,7 @@ Refer to the following code examples.
 
 }
 
-
+{% endhighlight %}
 
 
 

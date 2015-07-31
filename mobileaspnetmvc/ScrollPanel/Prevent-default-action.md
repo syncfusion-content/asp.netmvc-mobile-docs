@@ -11,6 +11,8 @@ documentation: ug
 
 The default action of mouse while dragging over the page is text selection. While using ScrollPanel, you can prevent the default action by using PreventDefault property.  By default, this property is set to true. 
 
+{% highlight html %}
+
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
     <div id="maincontent" style="padding:10px">
@@ -30,4 +32,4 @@ The default action of mouse while dragging over the page is text selection. Whil
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).PreventDefault(true)
 
 
-
+{% endhighlight %}

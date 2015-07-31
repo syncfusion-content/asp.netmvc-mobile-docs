@@ -14,11 +14,11 @@ documentation: ug
 The ASP.NET MVC, Mobile Rating Control provides an intuitive Rating experience that allows you to select a number of stars that represent a Rating.
 
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create the necessary layout
+
+## Create the necessary layout
 
 The following steps guide you to add a Rating control for a mobile application. In this scenario, Rating control is used to rate Google Search mobile app. 
 
@@ -27,15 +27,13 @@ The following steps guide you to add a Rating control for a mobile application. 
 
 
 
+    ~~~html
 
+    @Html.EJMobile().Header("header").Title(" Google Search") .Position(MobileHeaderPosition.Normal)
 
- @Html.EJMobile().Header("header").Title(" Google Search") .Position(MobileHeaderPosition.Normal)
+    <br />
 
-<br />
-
-
-
-<style>
+    <style>
 
     #image {
 
@@ -55,31 +53,32 @@ The following steps guide you to add a Rating control for a mobile application. 
 
     }
 
-</style>
+    </style>
 
 
 
-<div>
+    <div>
 
     @RenderBody()
 
-</div>   
+    </div>   
+
+      ~~~
+     {:.pretty-print}
+     
 
 
 
 3. Add the following template to the corresponding view page to create Rating control for this scenario.
 
+    ~~~html
+
+
+    <div id="content">
 
 
 
-
-
-
-<div id="content">
-
-
-
-    <div align="center" id="form" style="padding: 10px;">
+     <div align="center" id="form" style="padding: 10px;">
 
         <div id="image">
 
@@ -89,7 +88,7 @@ The following steps guide you to add a Rating control for a mobile application. 
 
 
 
-        <div style="padding: 0 20px;">
+      <div style="padding: 0 20px;">
 
             <h2>
 
@@ -111,39 +110,42 @@ The following steps guide you to add a Rating control for a mobile application. 
 
       <!-- Need to render rating here -->
 
-    </div>
+        </div>
 
 
 
-<!-- Scroll panel -->
+     <!-- Scroll panel -->
 
-<div data-role="ejmscrollpanel" data-ej-target="content">
+     <div data-role="ejmscrollpanel" data-ej-target="content">
 
-</div>
+     </div>
+     ~~~
+     {:.pretty-print}
 
 
-
-Adding Rating control
+## Adding Rating control
 
 1. To add a Rating control you need to call “Rating” helper. Initially MobileRating control is rendered with default values of all the properties and you can easily customize MobileRating control by changing their properties according to your requirement.  
 
+    ~~~html
 
 
-@Html.EJMobile().Rating("rating")
+       @Html.EJMobile().Rating("rating")
 
 
-
+     ~~~
+    {:.pretty-print}
 
 
 2. Execute this code to render a Rating control to rate the application by selecting the stars. For more details, to run the samples refer "Common Getting Started" section.
 
 
 
-{{ '![IMG_0180](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![][IMG_0180](Getting-Started_images/Getting-Started_img2.png)
 
 
-Set precision
+
+## Set precision
 
 You can customize the Rating precision based on your requirement. You can achieve this by setting the Precision property that allows you to rate more precisely. 
 
@@ -153,12 +155,14 @@ The Rating control supports three precision modes as follows.
 2. In half precision, you can rate the item with half precise (Example: 1.5, 2.5) instead of complete precise. 
 3. In exact precision, you can rate the item with exact precise (Example: 3.2, 4.6). In this scenario, you can set the precision mode to Exact.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Rating("rating").Precision(Precision.Exact)
 
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+{% endhighlight %}
+
+![](Getting-Started_images/Getting-Started_img3.png)
+
 
 

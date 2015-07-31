@@ -17,15 +17,14 @@ The Precision property is used to specify how the Rating control can accept its 
 
 
 
-
+{% highlight html %}
 
     @Html.EJMobile().Rating("rating_sample").Precision(Precision.Exact)
 
-
+{% endhighlight %}
 
 The following screenshot displays the output.                        
 
-{{ '![](Customize-Precision_images/Customize-Precision_img1.png)' | markdownify }}
-{:.image }
+![](Customize-Precision_images/Customize-Precision_img1.png)
 
 

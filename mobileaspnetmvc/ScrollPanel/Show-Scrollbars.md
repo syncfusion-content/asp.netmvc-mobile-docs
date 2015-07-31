@@ -11,7 +11,7 @@ documentation: ug
 
 The “ShowScrollbars” property is to control the visibility of the Scrollbars in your application. By default, this property is set to true. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -31,11 +31,14 @@ The “ShowScrollbars” property is to control the visibility of the Scrollbars
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableFade(false).EnableNativeScrolling(false).ShowScrollbars(true)
 
+
+{% endhighlight %}
+
 The following screenshot displays “show scrollbars”:
 
 
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Show-Scrollbars_images/Show-Scrollbars_img1.png)' | markdownify }}
-{:.image }
+![][C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Show-Scrollbars_images/Show-Scrollbars_img1.png)
+
 
 

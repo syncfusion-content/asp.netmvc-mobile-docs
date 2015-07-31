@@ -18,6 +18,9 @@ OverlayLeftPane property is used to enable or disable the left pane in lower res
 
 EnableSwipe property is used to display the leftpane while swiping the screen. When this property is set to false, then you cannot swipe the left pane. 
 
+{% highlight html %}
+
+
 @Html.EJMobile().SplitPane("splitpane").OverlayLeftPane(true).OverlayDirection(OverlayDirection.Right).EnableSwipe(true).LeftPaneTemplate(@<div>
 
     @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
@@ -40,7 +43,7 @@ EnableSwipe property is used to display the leftpane while swiping the screen. W
 
     </div>)            
 
-
+{% endhighlight %}
 
 Refer to the script section and page content section to load the right pane content of appropriate page created.
 

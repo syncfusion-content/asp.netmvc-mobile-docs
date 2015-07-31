@@ -11,13 +11,15 @@ documentation: ug
 
 The MaximumValue property is used to denote the maximum value up to which the rating can be accepted. The MinimumValue property is used to denote the minimum rating value. The Value property specifies the current selection value. The IncrementStep property specifies the step value incrementation between each rating value (star) selection.
 
+{% highlight html %}
+
         @Html.EJMobile().Rating("rating_sample").MinimumValue(2).MaximumValue(6).Value(4).IncrementStep(1)
 
-
+{% endhighlight %}
 
 The following screenshot displays the output.
 
-{{ '![C:/Users/Vignesh Kumar/Desktop/2.png](Customize-Values_images/Customize-Values_img1.png)' | markdownify }}
-{:.image }
+![][C:/Users/Vignesh Kumar/Desktop/2.png](Customize-Values_images/Customize-Values_img1.png)
+
 
 

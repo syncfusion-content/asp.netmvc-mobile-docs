@@ -14,6 +14,7 @@ Refer to the following code example.
 
 
 
+   {% highlight html %}
 
 
 @{
@@ -80,7 +81,7 @@ Refer to the following code example.
 
 }
 
-
+ {% endhighlight %}
 
 Refer to the script section to update the page content while clicking the item in the drawer.
 

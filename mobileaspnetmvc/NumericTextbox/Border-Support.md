@@ -14,18 +14,14 @@ The ShowBorder property is used to specify whether Textbox border is visible
 {% highlight html %}
 
 
-
 @Html.EJMobile().NumericTextbox("textbox_sample").ShowBorder(false)
-
-
-
 
 
 {% endhighlight %}
 
 The following screenshot displays the output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_45.png](Border-Support_images/Border-Support_img1.png)' | markdownify }}
-{:.image }
+![][http://help.syncfusion.com/ug/js/ImagesExt/image20_45.png](Border-Support_images/Border-Support_img1.png)
+
 
 

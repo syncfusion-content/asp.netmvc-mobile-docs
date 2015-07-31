@@ -11,6 +11,7 @@ documentation: ug
 
 The “DisableTouch” is a Boolean property that is used to enable or disable touch events. By default, this property is set to false.
 
+{% highlight html %}
 
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
@@ -27,5 +28,5 @@ The “DisableTouch” is a Boolean property that is used to enable or disable t
 
     </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").DisableTouch(true).EnableNativeScrolling(false)
 
-
+{% endhighlight %}
 

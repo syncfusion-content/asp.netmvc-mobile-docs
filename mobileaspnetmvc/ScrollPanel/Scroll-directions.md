@@ -11,7 +11,7 @@ documentation: ug
 
 The “EnableHrScroll” and “EnableVrScroll” properties let you enable or disable the horizontal and vertical scrolling feature respectively. By default, “EnableHrScroll” property is set to false and “EnableVrScroll” is set to true. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -29,9 +29,12 @@ The “EnableHrScroll” and “EnableVrScroll” properties let you enable or d
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableHorizontalScroll(true).ScrollWidth(300).EnableNativeScrolling(false)
 
+
+{% endhighlight %}
+
 The following screenshot displays scroll directions:
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25ac5382.PNG](Scroll-directions_images/Scroll-directions_img1.png)' | markdownify }}
-{:.image }
+![][C:/Users/deepal/AppData/Local/Temp/SNAGHTML25ac5382.PNG](Scroll-directions_images/Scroll-directions_img1.png)
+
 
 

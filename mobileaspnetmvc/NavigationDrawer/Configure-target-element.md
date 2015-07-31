@@ -13,7 +13,7 @@ The TargetId property is used to define the target Id for Navigation Drawer. The
 
 Refer to the following code example. 
 
-
+{% highlight html %}
 
 <div id="target" class="targeticon"></div>      @Html.EJMobile().NavigationDrawer("navpane").TargetId("target").EnableListView(true).ListViewSettings(list =>
 
@@ -97,17 +97,17 @@ Refer to the following code example.
 
     </style>
 
-
+{% endhighlight %}
 
 Refer to the script section to update the page content while clicking the item in the drawer.
 
-{{ '![](Configure-target-element_images/Configure-target-element_img1.png)' | markdownify }}
-{:.image }
+![](Configure-target-element_images/Configure-target-element_img1.png)
+
 
 
 You can display the drawer either by clicking on the target icon or else by swiping from left. Refer to the following screenshot.
 
-{{ '![](Configure-target-element_images/Configure-target-element_img2.png)' | markdownify }}
-{:.image }
+![](Configure-target-element_images/Configure-target-element_img2.png)
+
 
 

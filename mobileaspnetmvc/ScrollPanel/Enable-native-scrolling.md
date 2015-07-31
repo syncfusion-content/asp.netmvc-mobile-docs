@@ -11,7 +11,7 @@ documentation: ug
 
 Native scrolling refers to the scrolling behavior specific to native devices and it is controlled by the core scrolling engine of native Operating System. By setting the “EnableNativeScrolling” property to true, you can use the default scrolling feature in your device. Disabling this property lets you to use custom scrolling feature. This property is enabled by default for android versions greater than 4.2 and WINRT devices. So, to use Essential MVCScrollPanel, you need to set this property to false.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -31,5 +31,5 @@ Native scrolling refers to the scrolling behavior specific to native devices and
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(true) 
 
-
+{% endhighlight %}
 

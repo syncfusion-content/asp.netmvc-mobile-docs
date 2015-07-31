@@ -15,21 +15,23 @@ This section enables you to create SplitPane using JavaScript in your mobile app
 
 The Essential Studio for ASP.NET MVC Mobile Splitpane divides a region on the web page.  It is configured to split up the horizontal view vertically. Right side panes can display the content from an external URL that is specific to the item selected in the left pane. In the following guidelines, you can learn the features in Splitpane widget by creating a Mail App.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create the Splitpane control
+
+## Create the Splitpane control
 
 The Essential Studio for ASP.NET MVC MobileSplitpane control is rendered by calling the Splitpane Helper. 
 
 Create a simple MVC application and add the following code example in the view page named as SplitPaneSample for Splitpane creation. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the MVC-Getting Started Documentation.
 
+{% highlight html %}
 
 
 @Html.EJMobile().SplitPane("splitview").LeftPaneTemplate(@<div></div>)
 
 
+{% endhighlight %}
 
 
 
@@ -37,13 +39,16 @@ Run this code example and the following output is displayed. For more details, t
 
 
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
-Add left Pane content
+
+## Add left Pane content
 
 In the Left Pane, you can add listbox for easy navigation. To provide data source for listbox template in the Left Pane content, you can create a ListTemplate.cs file in the model and add the following code example to the file.
+
+
+{% highlight cs %}
 
     public class ListTemplate
 
@@ -91,9 +96,11 @@ In the Left Pane, you can add listbox for easy navigation. To provide data sourc
 
     }
 
-
+{% endhighlight %}
 
 In the controller for the view page, add the following code example.
+
+{% highlight cs %}
 
         public ActionResult SplitPaneSample()
 
@@ -106,9 +113,14 @@ In the controller for the view page, add the following code example.
         }
 
 
+{% endhighlight %}
+
 Create a partial view page with the name “ListViewContent.cshtml” and add the following code example to the file.
 
+{% highlight html %}
+
 @model List<ListTemplate>
+
 
 @{
 
@@ -138,19 +150,21 @@ Create a partial view page with the name “ListViewContent.cshtml” and add th
 
 }
 
-
+{% endhighlight %}
 
 Title of the Left Pane is set using LeftHeaderSettings property. In this case, you can set the title as “Inbox”. In the same way, you can set the title for Right Pane by using RightHeaderSettings property. In android mode you don’t have header, instead toolbar is present. To set title for toolbar, use the ToolbarSettings property.
 
 Refer the following code example. The partial view (ListViewContent) is called to render the Left Pane content.
 
-
+{% highlight html %}
 
 @Html.EJMobile().SplitPane("splitview").LeftHeaderSettings(left => left.Title("Inbox")).RightHeaderSettings(right => right.Title("Message")).ToolbarSettings(tool => tool.Android(and => and.Title("Inbox"))).LeftPaneTemplate(@<div>@Html.Partial("ListViewContent")</div>)
 
-
+{% endhighlight %}
 
 Use the following styles to apply style for ListView template.
+
+{% highlight css %}
 
 <style type="text/css">
 
@@ -213,16 +227,19 @@ Use the following styles to apply style for ListView template.
 </style>
 
 
+{% endhighlight %}
 
 Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
-Add right Pane content
+
+## Add right Pane content
 
 Refer to the following code example.
+
+{% highlight js %}
 
 <script type="text/javascript">
 
@@ -310,7 +327,11 @@ Refer to the following code example.
 
 </script>
 
+{% endhighlight %}
+
 Create a view page with name load1.cshtml and add the following code example to the file.
+
+{% highlight html %}
 
 <h2>
 
@@ -436,11 +457,11 @@ calls, instant messaging, screen sharing and so much more - all with Skype.
 
 The people at Skype
 
-
+{% endhighlight %}
 
 Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img4.png)
+
 
 

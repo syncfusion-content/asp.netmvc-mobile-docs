@@ -11,6 +11,8 @@ documentation: ug
 
 The “CheckDOMChanges” property lets you specify whether or not to refresh the Scrollpanel automatically when elements are added to the DOM tree dynamically. By default, this property is set to false. 
 
+{% highlight html %}
+
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
     <div id="maincontent" style="padding:10px">
@@ -38,6 +40,6 @@ The “CheckDOMChanges” property lets you specify whether or not to refresh th
     </script>
 
 
-
+{% endhighlight %}
 
 

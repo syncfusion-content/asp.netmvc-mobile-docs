@@ -20,11 +20,6 @@ Refer to the following code example.
     @Html.EJMobile().PassWord("textbox_sample").WatermarkText("Password").ShowBorder(false)
 
 
-
-
-
-
-
 {% endhighlight %}
 
 

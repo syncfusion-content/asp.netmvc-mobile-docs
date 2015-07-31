@@ -15,6 +15,8 @@ The Radial Menu control is essentially a context menu presenting its items in a 
 
 Refer to the following code example.
 
+{% highlight html %}
+
 @Html.EJMobile().RadialMenu("radialmenu_sample").Position(RadialMenuPosition.LeftCenter).ImageClass("imageclass").BackImageClass("backimage").Items(item =>
 
 {
@@ -110,14 +112,14 @@ Refer to the following code example.
 </script>
 
 
-
+{% endhighlight %}
 
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png)' | markdownify }}
-{:.image }
-{{ '![](Customize-buttons_images/Customize-buttons_img2.png)' | markdownify }}
-{:.image }
+![][C:/Users/isuriyar/Desktop/ra.png](Customize-buttons_images/Customize-buttons_img1.png)
+
+![](Customize-buttons_images/Customize-buttons_img2.png)
+
 
 

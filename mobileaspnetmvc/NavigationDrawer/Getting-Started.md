@@ -13,20 +13,20 @@ documentation: ug
 
 The ASP.NET MVC Mobile Navigation Drawer is a sliding panel that displays the list of navigation options on demand. That is, by default, it is not visible but you can display it onto the left/right side of the screen by swiping or by clicking with desired target icon.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
+
 
 
 The following steps guide you in adding a Navigation Drawer control for a mobile application that displays a list of items such as home, profile, photos and location where you can navigate to desired page by clicking on the option available in the drawer. 
 
-Create basic mobile layout
+## Create basic mobile layout
 
 The following steps explain you on how to add a Navigation Drawer control.
 
 1. Creating a MVC Project and adding necessary Dll’s and Scripts using the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm).
 2. Add the following code example in layout page of the application.
 
-
+    ~~~html
 
     <!-- Adding Header Control Here -->
 
@@ -35,19 +35,29 @@ The following steps explain you on how to add a Navigation Drawer control.
            @RenderBody()
 
     </div>
+	
+	~~~
+	{:.pretty-print}
 
-Add Header control for Navigation Drawer
+## Add Header control for Navigation Drawer
 
 To render the Header control, add the following code example in the corresponding view page. To set header title, you can use the ‘Title’ property with desired title.
-
+   
+   {% highlight html %}
+   
    <!-- Adding Header Control Here -->
 
    Html.EJMobile().Header("header").Title("Navigation Drawer").Position(MobileHeaderPosition.Normal).ShowLeftButton(true).LeftButtonImageClass("icon-target")
 
-Add Navigation Drawer control
+   {% endhighlight %}
+   
+## Add Navigation Drawer control
 
 To add a Navigation Drawer control, call NavigationDrawer helper. You can display a navigable option as a list by using listview. To achieve this, set the EnableListView property as true in navigation drawer wrapper element. You can set thetext for list itemsby using Text property.
 
+
+    {% highlight html %}
+	
     <!-- Adding Navigation Drawer Control here -->
 
     @Html.EJMobile().NavigationDrawer("navpane").EnableListView(true).ListViewSettings(list => list.Items(item =>
@@ -63,11 +73,14 @@ To add a Navigation Drawer control, call NavigationDrawer helper. You can displa
             item.Add().Text("Location");
 
         }))
-
-Add target element to display drawer
+      
+	 {% endhighlight %}
+   
+## Add target element to display drawer
 
 You can display the drawer by clicking on target icon. To achieve this, set the target element’s id with ‘TargetId’ property of the navigation drawer wrapper element.
 
+   {% highlight html %}
         <!-- Adding Navigation Drawer Control here -->
 
             @Html.EJMobile().NavigationDrawer("navpane").TargetId("target_leftbutton").EnableListView(true).ListViewSettings(list => list.Items(item =>
@@ -84,9 +97,11 @@ You can display the drawer by clicking on target icon. To achieve this, set the 
 
         }))
 
-
+ {% endhighlight %}
 
 To set the target icon image from sprite and to position the target icon properly use the following styles.
+
+   {% highlight css %}
 
 <style>
 
@@ -118,24 +133,25 @@ To set the target icon image from sprite and to position the target icon properl
 
 </style>
 
-
+ {% endhighlight %}
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 You can display the drawer either by clicking on the target icon or by swiping from left. Refer to the following screenshot.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
-Add images for Navigation Drawer
+
+## Add images for Navigation Drawer
 
 You can set the images for Navigation Drawer by using ImageClass property in the inner list elements.
 
+   {% highlight html %}
 <!-- Adding Navigation Drawer Control here -->
 
 @Html.EJMobile().NavigationDrawer("navpane").TargetId("header_leftbutton").EnableListView(true).ListViewSettings(list => list.Items(item =>
@@ -152,9 +168,11 @@ You can set the images for Navigation Drawer by using ImageClass property in the
 
         }))
 
-
+ {% endhighlight %}
 
 You can define the image classes specified for the list items as follows.
+   
+  {% highlight css %}
 
 <style>
 
@@ -213,20 +231,23 @@ You can define the image classes specified for the list items as follows.
 
 </style>
 
-
+ {% endhighlight %}
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{{ '![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![][C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img4.png)
 
 
-Load appropriate content while selection
+
+## Load appropriate content while selection
 
 You can load the desired content for the navigation items by updating the content through touch end handler of listview. Also to know which item’s content is being loaded in the page, you can make a list selection to persist in the drawer by setting PersistSelection as true through ListViewSettings action.
 
 Refer to the following code example.
 
+
+   {% highlight html %}
+   
    <!-- Adding Navigation Drawer Control here -->
 
             @Html.EJMobile().NavigationDrawer("navpane").TargetId("header_leftbutton") .ContentId("content").EnableListView(true).ListViewSettings(list =>
@@ -250,9 +271,12 @@ Refer to the following code example.
 })
 
 
-
+ {% endhighlight %}
+ 
 While clicking the navigation options, it loads the appropriate content into the current page. To achieve this, set some sample content to load on selecting the items. Refer to the following code example.
 
+  {% highlight html %}
+  
 <!-- Adding the Navigation Drawer page content-->
 
       <!-- Home Page Content-->
@@ -293,10 +317,12 @@ While clicking the navigation options, it loads the appropriate content into the
 
 
 
-
+ {% endhighlight %}
 
 Add the following code example to display the first listitem content while rendering.
 
+  {% highlight js %}
+  
 <script>
 
         $(function () {
@@ -309,11 +335,11 @@ Add the following code example to display the first listitem content while rende
 
     </script>
 
-
+ {% endhighlight %}
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm).
 
-{{ '![](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img5.png)
+
 
 

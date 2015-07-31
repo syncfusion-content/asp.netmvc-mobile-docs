@@ -11,7 +11,7 @@ documentation: ug
 
 Styles and appearance of SplitPane works based on CSS class. You require one style sheet to apply styles to SplitPane control ej.mobile.all.min.css
 
-Customize styles
+## Customize styles
 
 In some scenarios, it is necessary to change color or design of SplitPane control’s appearance. In that case, you can override default styles of SplitPane control using its class names. The following are specific class names you can use to modify styles and appearance in SplitPane.
 

@@ -20,6 +20,7 @@ Alternatively you can use imageurl property to directly specify the url of the i
 > _Note: Imagepath and imagename properties can be used when you want to specify separate images for each render mode. Imageurl property is used when you want to provide common images for all render modes._
 
 Refer to the following code example.
+{% highlight html %}
 
     @Html.EJMobile().RadialMenu("radialmenu_sample").Items(item =>{
 
@@ -45,7 +46,7 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/lig
 
 </script>
 
-
+{% endhighlight %}
 
 
 

@@ -13,20 +13,14 @@ The ShowSpinButton property is used to specify whether the Spin Button is vis
 
 {% highlight html %}
 
-
-
 @Html.EJMobile().NumericTextbox("textbox_sample").ShowSpinButton(false)
-
-
-
-
 
 {% endhighlight %}
 
 The following screenshot displays the output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_46.png](Spin-Buttons_images/Spin-Buttons_img1.png)' | markdownify }}
-{:.image }
+![][http://help.syncfusion.com/ug/js/ImagesExt/image20_46.png](Spin-Buttons_images/Spin-Buttons_img1.png)
+
 
 
 

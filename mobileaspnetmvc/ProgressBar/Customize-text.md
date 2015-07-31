@@ -11,12 +11,17 @@ documentation: ug
 
 EnableCustomText property is used to specify the custom text for ProgressBar. The customized text is specified by using the “Text” property. You can refer to the following code examples.
 
+{% highlight html %}
+
 @Html.EJMobile().ProgressBar("progressbar_sample").EnableCustomText(true).Text("In-progress").Value(42)
+
+{% endhighlight %}
+
 
 Output of enable Customize text:
 
-{{ '![C:/Users/Dhinesh R/Desktop/progress.jpg](Customize-text_images/Customize-text_img1.jpeg)' | markdownify }}
-{:.image }
+![][C:/Users/Dhinesh R/Desktop/progress.jpg](Customize-text_images/Customize-text_img1.jpeg)
+
 
 
 

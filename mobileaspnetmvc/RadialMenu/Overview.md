@@ -25,28 +25,31 @@ EssentialStudio ASP.NET MVC,Mobile Radial Menu control is a context that represe
 
 
 
-{{ '![](Overview_images/Overview_img1.png)' | markdownify }}
-{:.image }
+![](Overview_images/Overview_img1.png)
+
 
 
 The following steps guide you to add a Radial Menu control for a mobile application. 
 
-Create basic mobile layout
+## Create basic mobile layout
 
 1. Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create a MVC Project, add necessary Dll’s and Scripts.
 2. Add the following code in layout.cshtml page to create a header element.
 
+   ~~~html
 
-
-@Html.EJMobile().Header("Header").Title("RadialMenu")
+   @Html.EJMobile().Header("Header").Title("RadialMenu")
+   
+   	~~~
+   {:.pretty-print}
 
 
 
 3. Create the page content as follows.
 
-
-
-<div style="padding: 66px 25px; text-align: justify ">
+    ~~~html
+   
+    <div style="padding: 66px 25px; text-align: justify ">
 
         <p>
 
@@ -55,12 +58,15 @@ Create basic mobile layout
         </p>
 
     </div>
+     
+     ~~~
+     {:.pretty-print}
 
-
-
-Add Radial Menu control
+## Add Radial Menu control
 
 Refer to the following code example to add a Radial Menu in the corresponding view page. You can specify images for each menu items by setting the ‘ImageURL’ property.
+
+{% highlight html %}
 
 @Html.EJMobile().RadialMenu("defaultradialmenu").Items(item =>
 
@@ -72,9 +78,11 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/music.png
 
 })
 
+{% endhighlight %}
+
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm).
 
-{{ '![](Overview_images/Overview_img2.png)' | markdownify }}
-{:.image }
+![](Overview_images/Overview_img2.png)
+
 
 

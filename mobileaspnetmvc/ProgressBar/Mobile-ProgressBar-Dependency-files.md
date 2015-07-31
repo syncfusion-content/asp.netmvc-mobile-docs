@@ -16,8 +16,8 @@ _Script files to render the ProgressBar control_
 <table>
 <tr>
 <td>
-File                          </td><td>
-Description/Usage</td></tr>
+{{ '*Files*' | markdownify }}</td><td>
+{{ '*Description/Usage*' | markdownify }}</td></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

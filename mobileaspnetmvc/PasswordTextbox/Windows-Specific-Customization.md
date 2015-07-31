@@ -25,7 +25,7 @@ Refer to the following code example.
 
 
 
-{{ '![C:/Users/labuser/AppData/Local/Temp/SNAGHTMLa514ae.PNG](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![][C:/Users/labuser/AppData/Local/Temp/SNAGHTMLa514ae.PNG](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)
+
 
 

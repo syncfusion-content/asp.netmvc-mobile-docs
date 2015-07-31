@@ -9,9 +9,10 @@ documentation: ug
 
 ## Customize dimensions
 
-Scroll height and width
+##Scroll height and width
 
 The “ScrollHeight” and “ScrollWidth” properties allow you to specify the height and width of the scrollable content respectively. In some cases, some part of the scrollable content may be hidden due to some fixed elements (other than ejm elements). To avoid this, manually set the scrollable content’s height or width. 
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -31,15 +32,19 @@ The “ScrollHeight” and “ScrollWidth” properties allow you to specify the
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").ScrollHeight(300).EnableNativeScrolling(false)
 
+{% endhighlight %}
+
 The following screenshot displays the scroll height:
 
-{{ '![](Customize-dimensions_images/Customize-dimensions_img1.png)' | markdownify }}
-{:.image }
+![](Customize-dimensions_images/Customize-dimensions_img1.png)
 
 
-Auto adjust scroll height
+
+##Auto adjust scroll height
 
 The “AdjustFixedPosition” is a Boolean property that lets you adjust the scrolling content’s height automatically in case there are "ejm" elements with fixed position in your application. By default, the property is set to true. 
+
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -54,16 +59,20 @@ The “AdjustFixedPosition” is a Boolean property that lets you adjust the scr
         </div>
 
     </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AdjustFixedPosition(true)
+	
+{% endhighlight %}
 
 The following screenshot displays the auto adjustscroll height:
 
-{{ '![C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Customize-dimensions_images/Customize-dimensions_img2.png)' | markdownify }}
-{:.image }
+![][C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Customize-dimensions_images/Customize-dimensions_img2.png)
 
 
-Auto height
+
+##Auto height
 
 When the “AutoAdjustHeight” property is set to true, it sets the height of the wrapper element automatically based on the window height. By default, this property is set to true. 
+
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -78,12 +87,14 @@ When the “AutoAdjustHeight” property is set to true, it sets the height of t
         </div>
 
     </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AutoAdjustHeight(true)
+	
+{% endhighlight %}
 
-Target height and width
+##Target height and width
 
 The TargetHeight and TargetWidth properties are used to manually set the height and width of the wrapper element respectively. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -104,4 +115,4 @@ The TargetHeight and TargetWidth properties are used to manually set the height 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").TargetHeight(300).EnableNativeScrolling(false) 
 
 
-
+{% endhighlight %}

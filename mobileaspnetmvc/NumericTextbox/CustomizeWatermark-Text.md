@@ -14,18 +14,14 @@ The WatermarkText property is used to define watermark text in the control, tha
 {% highlight html %}
 
 
-
 @Html.EJMobile().NumericTextbox("textbox_sample").WatermarkText("Enter the number")
-
-
-
 
 
 {% endhighlight %}
 
 The following screenshot displays the output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_44.png](CustomizeWatermark-Text_images/CustomizeWatermark-Text_img1.png)' | markdownify }}
-{:.image }
+![][http://help.syncfusion.com/ug/js/ImagesExt/image20_44.png](CustomizeWatermark-Text_images/CustomizeWatermark-Text_img1.png)
+
 
 

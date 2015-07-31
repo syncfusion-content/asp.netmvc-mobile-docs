@@ -12,14 +12,16 @@ documentation: ug
 The ReadOnly property is used to disable the interaction in the Rating control.  The default value is false.
 
 
+{% highlight html %}
+    
+	@Html.EJMobile().Rating("rating_sample").ReadOnly(true)
 
-    @Html.EJMobile().Rating("rating_sample").ReadOnly(true)
 
-
+{% endhighlight %}
 
 The following screenshot displays the output:                        
 
-{{ '![](Disable-Rating_images/Disable-Rating_img1.png)' | markdownify }}
-{:.image }
+![](Disable-Rating_images/Disable-Rating_img1.png)
+
 
 

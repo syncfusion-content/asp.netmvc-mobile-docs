@@ -13,7 +13,7 @@ The “EnableMouseWheel” is a Boolean property that lets you decide whether or
 
 You can adjust the scrolling speed with respect to Mouse wheel speed. This can be achieved by using “WheelSpeed” property. By default, this property is set to 16.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -34,4 +34,4 @@ You can adjust the scrolling speed with respect to Mouse wheel speed. This can b
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").WheelSpeed(20).EnableNativeScrolling(false).EnableMouseWheel(true)
 
 
-
+{% endhighlight %}

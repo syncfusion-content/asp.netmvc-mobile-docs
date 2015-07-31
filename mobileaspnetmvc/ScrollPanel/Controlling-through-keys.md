@@ -11,7 +11,7 @@ documentation: ug
 
 The “EnableKeys” property lets you decide whether the scrollpanel can be controlled by using Arrow keys or not. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -31,5 +31,5 @@ The “EnableKeys” property lets you decide whether the scrollpanel can be con
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableKeys(false).EnableNativeScrolling(false)
 
-
+{% endhighlight %}
 

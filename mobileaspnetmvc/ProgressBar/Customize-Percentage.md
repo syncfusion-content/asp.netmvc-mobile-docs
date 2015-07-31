@@ -11,11 +11,15 @@ documentation: ug
 
 Percentage property is used to specify the ProgressBar value in percentage that depends on maximum value. You can refer to the following code examples.  
 
+{% highlight html %}
+
 @Html.EJMobile().ProgressBar("progressbar_sample").MaximumValue(200).Percentage(35)
+
+{% endhighlight %}
 
 Output of Percentage:
 
-{{ '![F:/Progrimg/ios7_phone - Copy (4).png](Customize-Percentage_images/Customize-Percentage_img1.png)' | markdownify }}
-{:.image }
+![][F:/Progrimg/ios7_phone - Copy (4).png](Customize-Percentage_images/Customize-Percentage_img1.png)
+
 
 

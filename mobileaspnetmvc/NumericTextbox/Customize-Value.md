@@ -16,21 +16,17 @@ The current value of the Numeric Textbox can be specified by using the Value�
 @Html.EJMobile().NumericTextbox("textbox_sample").Value("30").IncrementStep(2).MaximumValue(100).MinimumValue(3)
 
 
-
-
-
 {% endhighlight %}
 
 The following screenshot displays the output.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image20_41.png](Customize-Value_images/Customize-Value_img1.png)' | markdownify }}
-{:.image }
+![][http://help.syncfusion.com/ug/js/ImagesExt/image20_41.png](Customize-Value_images/Customize-Value_img1.png)
 
 
 {% highlight html %}
 
-@Html.EJMobile().NumericTextbox("textbox_sample").DecimalPlaces(3)
 
+@Html.EJMobile().NumericTextbox("textbox_sample").DecimalPlaces(3)
 
 
 {% endhighlight %}

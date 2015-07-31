@@ -9,9 +9,11 @@ documentation: ug
 
 ## Scrolling Configuration
 
-RightPane Scroll Settings
+## RightPane Scroll Settings
 
 The AllowRightPaneScrolling property is used to enable/disable the right pane content scrolling. By default the property is set to true. You can customize the right pane scrolling behavior by using this RightPaneScrollSettings property. 
+
+{% highlight html %}
 
 @Html.EJMobile().SplitPane("splitpane").RightPaneScrollSettings(right=>right.TargetWidth(200)).LeftPaneTemplate(@<div>
 
@@ -37,15 +39,17 @@ The AllowRightPaneScrolling property is used to enable/disable the right pane co
 
 
 
-
+{% endhighlight %}
 
 Refer to the script section and page content section to load the right pane content of appropriate page created.
 
 Likewise, you can customize all other properties of scrollpanel using this property. Refer to the complete UG of scrollpanel to know its properties.
 
-LeftPane Scroll Settings
+## LeftPane Scroll Settings
 
 The AllowLeftPaneScrolling property is used to enable/disable the left pane content scrolling. By default the property is set to true. You can customize the left pane scrolling behavior by using this LeftPaneScrollSettings property. 
+
+{% highlight html %}
 
 @Html.EJMobile().SplitPane("splitpane").LeftPaneScrollSettings(left=>left.TargetWidth(320)).LeftPaneTemplate(@<div>
 
@@ -69,7 +73,7 @@ The AllowLeftPaneScrolling property is used to enable/disable the left pane cont
 
     </div>)
 
-
+{% endhighlight %}
 
 Refer to the script section and page content section to load the right pane content of appropriate page created. 
 

@@ -11,7 +11,7 @@ documentation: ug
 
 EnableZoom is a Boolean property that lets you specify whether the scrolling content can be zoomed or not. By default, this property is set to “false”. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -31,17 +31,19 @@ EnableZoom is a Boolean property that lets you specify whether the scrolling con
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableZoom(true).StartZoom(2).EnableNativeScrolling(false)
 
+{% endhighlight %}
+
 The following screenshot displays zooming:
 
-{{ '![](Zooming_images/Zooming_img1.png)' | markdownify }}
-{:.image }
+![](Zooming_images/Zooming_img1.png)
 
 
-ZoomMax
+
+## ZoomMax
 
 ZoomMax property lets you set the maximum limit to which the content can be zoomed. By default, this property is set to 6. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -61,11 +63,13 @@ ZoomMax property lets you set the maximum limit to which the content can be zoom
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableZoom(true).MaximumZoom(1).StartZoom(2).EnableNativeScrolling(false)
 
-ZoomMin
+{% endhighlight %}
+
+## ZoomMin
 
 This property lets you set the minimum limit to which the content can be zoomed. By default, this property is set to 1. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -85,13 +89,13 @@ This property lets you set the minimum limit to which the content can be zoomed.
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableZoom(true).MinimumZoom(2).StartZoom(1).EnableNativeScrolling(false)
 
+{% endhighlight %}
 
-
-StartZoom
+## StartZoom
 
 This property lets you specify the zooming value on initial rendering of the scrollable content.  By default this property is set to 1. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -111,10 +115,12 @@ This property lets you specify the zooming value on initial rendering of the scr
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableZoom(true).StartZoom(2).EnableNativeScrolling(false)
 
+{% endhighlight %}
+
 The following screenshot displays the startzoom:
 
-{{ '![](Zooming_images/Zooming_img2.png)' | markdownify }}
-{:.image }
+![](Zooming_images/Zooming_img2.png)
+
 
 
 

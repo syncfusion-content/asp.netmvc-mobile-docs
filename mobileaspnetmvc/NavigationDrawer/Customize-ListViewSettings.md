@@ -13,7 +13,7 @@ The navigation panel accommodates any template, but most of the use cases requir
 
 Refer to the following code example. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().NavigationDrawer("navpane").EnableListView(true).ListViewSettings(list => {
 
@@ -73,13 +73,13 @@ Refer to the following code example.
 
 
 
-
+{% endhighlight %}
 
 Refer to the script section to update the page content while clicking the item in the drawer.
 
 The following screenshot illustrates the output.
 
-{{ '![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png)' | markdownify }}
-{:.image }
+![](Customize-ListViewSettings_images/Customize-ListViewSettings_img1.png)
+
 
 

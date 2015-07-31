@@ -11,7 +11,7 @@ documentation: ug
 
 The “StartX” and “StartY” properties allow you to specify initial position of the scrolling content along x-axis and y-axis respectively. By default, these properties’ values are set to 0. Refer to the following code example.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -31,9 +31,11 @@ The “StartX” and “StartY” properties allow you to specify initial positi
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").StartY(50).EnableNativeScrolling(false)
 
+{% endhighlight %}
+
 The following screenshot displays the ScrollPanel:
 
-{{ '![](Customize-initial-scrolling-position_images/Customize-initial-scrolling-position_img1.png)' | markdownify }}
-{:.image }
+![](Customize-initial-scrolling-position_images/Customize-initial-scrolling-position_img1.png)
+
 
 

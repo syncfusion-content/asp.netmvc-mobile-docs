@@ -9,11 +9,13 @@ documentation: ug
 
 ## Effects
 
-Bouncing
+## Bouncing
 
 You can add bouncing effect to your application to indicate that you have reached the end of page while scrolling. The “EnableBounce” property allows you to enable or disable the bouncing effect by setting the values to true or false respectively. By default, this property is set to true.
 
 The “BounceTime” property specifies the reset timing of the content when it scrolls beyond the limit of x and y positions with respect to the wrapper element. By default, this property is set to 450.
+
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -28,10 +30,14 @@ The “BounceTime” property specifies the reset timing of the content when it 
         </div>
 
     </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).EnableBounce(true) .BounceTime(200)
+	
+{% endhighlight %}
 
-Fading
+## Fading
 
 The “EnableFade” is a Boolean property used to enable or disable the fade of scrollbars at the end of Scrolling. By default, this property is set to true. Refer to the following code example.
+
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -47,9 +53,14 @@ The “EnableFade” is a Boolean property used to enable or disable the fade of
 
     </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableFade(false).EnableNativeScrolling(false)
 
-Shrinking
+		
+{% endhighlight %}
+
+## Shrinking
 
 The “EnableShrink” is a Boolean property that lets you to specify whether the scrollbars can be shrunk or not (when it reaches the top or bottom of the page).
+
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -69,11 +80,13 @@ The “EnableShrink” is a Boolean property that lets you to specify whether th
 
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableShrink(true).EnableNativeScrolling(false)
 
-Transform and Transitions
+{% endhighlight %}
+
+## Transform and Transitions
 
 The “EnableTransform” property lets you specify whether to use transform method (animation) for scrolling or not. The “EnableTransition” property lets you specify whether to use transition method (animation) for scrolling or not. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
@@ -94,4 +107,4 @@ The “EnableTransform” property lets you specify whether to use transform met
 @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).EnableTransform(true).EnableTransition(true)
 
 
-
+{% endhighlight %}

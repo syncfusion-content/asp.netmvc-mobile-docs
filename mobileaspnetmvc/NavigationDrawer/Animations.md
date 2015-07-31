@@ -19,6 +19,8 @@ Overlay – Only navigation panel slides over the content page to view the navig
 
 Refer to the following code example.
 
+{% highlight html %}
+
 @Html.EJMobile().NavigationDrawer("navpane").Type(NavigationDrawerType.Slide).EnableListView(true).Position(NavigationDrawerPosition.Fixed).ListViewSettings(list =>
 
 {
@@ -76,7 +78,7 @@ Refer to the following code example.
         </div>
 
 
-
+{% endhighlight %}
 
 
 Refer to the script section to update the page content while clicking the item in the drawer.

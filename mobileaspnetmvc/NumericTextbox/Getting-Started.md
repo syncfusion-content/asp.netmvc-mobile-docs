@@ -22,12 +22,9 @@ You can render the Numeric Textbox control based on the default values for all
 You can create an MVC Project and add necessary assemblies, styles and scripts to it.  Refer [MVC-Getting Started.](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm)
 
 1. Create a View page and add the following template.
-{% highlight html %}
+    ~~~html
 
-
-
-
- <!--Page Header-->
+    <!--Page Header-->
 
     @Html.EJMobile().Header("page_header").Title("Rooms Availability").Position(MobileHeaderPosition.Fixed)
 
@@ -55,57 +52,43 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
         </div>
 
-</div>    
-
-
-
-
-
-{% endhighlight %}
+     </div>    
+     ~~~
+	{:.pretty-print}
 
 2. Add the following code example to render Numeric Textbox to input number of persons per room.
-{% highlight html %}
 
+   ~~~html
+   <!--Numeric TextBox 1 code-->
 
-
-
-<!--Numeric TextBox 1 code-->
-
-
-
-<div class="text_row">
+   <div class="text_row">
 
 
 
    <label>No of person per room :</label>
 
-  @Html.EJMobile().NumericTextbox("persontext").ShowSpinButton(true).MinimumValue(1).MaximumValue(6)
+   @Html.EJMobile().NumericTextbox("persontext").ShowSpinButton(true).MinimumValue(1).MaximumValue(6)
+
+   </div>
+
+    ~~~
+    {:.pretty-print}
 
 
 
-</div>
 
-
-
-
-
-{% endhighlight %}
 
 3. Add the following code example to render Numeric Textbox to input number of rooms needed.
-{% highlight html %}
+
+   ~~~html
+
+   <!--Numeric TextBox 2 code-->
+
+    <div class="text_row">
 
 
 
-
-<!--Numeric TextBox 2 code-->
-
-
-
-<div class="text_row">
-
-
-
-   <label>No of rooms :</label>
+    <label>No of rooms :</label>
 
 
 
@@ -113,21 +96,22 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
 
 
-</div>
+    </div>
+
+    ~~~
+	{:.pretty-print}
 
 
 
 
-
-{% endhighlight %}
 
 4. To improve the look and feel of Rooms Availability Check, you need to add the following styles in the application.
-{% highlight html %}
 
 
+     ~~~css
 
 
-<style>
+     <style>
 
         .content_area {
 
@@ -167,15 +151,14 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
         }
 
-</style>
+       </style>
+       ~~~
+	   {:.pretty-print}
 
 
 
 
+![][C:/Users/sridhar.SYNCLAPN3965/Downloads/mockup/IMG_0539_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)
 
-{% endhighlight %}
-
-{{ '![C:/Users/sridhar.SYNCLAPN3965/Downloads/mockup/IMG_0539_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
 
 

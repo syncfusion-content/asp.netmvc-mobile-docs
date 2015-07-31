@@ -11,7 +11,7 @@ documentation: ug
 
 Styles and appearance of ScrollPanel work based on CSS class. You need a style sheet to apply styles to ScrollPanel control, that is, ej.mobile.all.min.css
 
-Customize styles
+## Customize styles
 
 In some scenarios, you may want to change the Scrollbar appearance. Then, you can override default styles of Scrollbar control by using its class names. The following are specific class names you can use to modify styles and appearance of Scrollbar.
 
