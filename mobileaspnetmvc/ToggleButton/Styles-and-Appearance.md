@@ -7,15 +7,16 @@ control: Toggle Button
 documentation: ug
 ---
 
-## Styles and Appearance
+# Styles and Appearance
 
 Styles and appearance of GroupButton work based on the CSS class. You need a style sheet to apply styles to Toggle Button control ej.mobile.all.min.css
 
-Customize styles
+## Customize styles
 
 To change color or design of Toggle Button control appearance, you can override default styles of Toggle Button control by using its class names. The following are specific class names you can use to modify styles and appearance in Toggle Button.
 
 _Class names_
+{% highlight html %}
 
 <table>
 <tr>
@@ -52,4 +53,4 @@ e-m-state-disabled</td><td>
 This class is applied to disable Toggle Button control.</td></tr>
 </table>
 
-
+{% endhighlight %}

@@ -7,13 +7,13 @@ control: Group Button
 documentation: ug
 ---
 
-## Type
+# Type
 
 The Group Button is rendered via button and input tag elements. Group Button rendering is classified into three types: Button type, radio input type, and checkbox input type.
 
 Option 1: Button 
 
-
+{% highlight html %}
 
 <!-- Group Button : button type -->
 
@@ -28,10 +28,12 @@ Option 1: Button
            button.Add().Text("iphone");
 
        })
+	   
+{% endhighlight %}
 
 Option 2: Radio Button
 
-
+{% highlight html %}
 
 <!-- Group Button : radio type -->
 
@@ -48,10 +50,12 @@ radio).Name("options").Buttons(button =>
            button.Add().Text("iphone");
 
        })
+	   
+{% endhighlight %}
 
 Option 3: Checkbox
 
-
+{% highlight html %}
 
 <!-- Group Button : checkbox type -->
 
@@ -69,13 +73,12 @@ checkbox).Name("options").Buttons(button =>
 
        })
 
-
+{% endhighlight %}
 
 The following screenshot displays the Group Button:
 
+![](Type_images/Type_img1.png)
 
 
-{{ '![](Type_images/Type_img1.png)' | markdownify }}
-{:.image }
 
 

@@ -15,23 +15,17 @@ This section briefly describes how to create Essential MVC Mobile TextArea widge
 
 From the following guidelines, you can create basic Mail sending form by using the TextArea control.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
-
-
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 In the above image, message field is rendered by using the TextArea.
 
 
-
-Create the necessary layout 
+## Create the necessary layout 
 
 Create a simple MVC application and add the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. To create a MVC Project, add necessary Dll’s and Scripts with the help of [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile.
 
 Create an HTML file and add the following template to the HTML file.
-
-
 
 {% highlight html %}
 
@@ -65,13 +59,10 @@ Create an HTML file and add the following template to the HTML file.
 
 <div id="scrollPanel" data-role="ejmscrollpanel" data-ej-target="mailcontainer"></div>
 
-
-
 {% endhighlight %}
 
 
-
-Create textarea
+## Create textarea
 
 Add the following Layout code to the corresponding view page.                                     
 
@@ -80,16 +71,11 @@ Add the following Layout code to the corresponding view page.         �
     <!-- TextArea element -->
 @Html.EJMobile().TextArea("mailMessage")
 
-
-
-
 {% endhighlight %}
 
- Add the following styles to show the TextArea control in an order.
+Add the following styles to show the TextArea control in an order.
 
-{% highlight html %}
-
-
+{% highlight css %}
 
 <style>
 
@@ -101,18 +87,14 @@ Add the following Layout code to the corresponding view page.         �
 
 </style>
 
-
-
-
-
 {% endhighlight %}
 
 
 
 Run this code example and you can see the following output.
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
+
 
 
 

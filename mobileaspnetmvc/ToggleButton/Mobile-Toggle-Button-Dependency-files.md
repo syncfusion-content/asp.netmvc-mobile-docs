@@ -7,11 +7,12 @@ control: Toggle Button
 documentation: ug
 ---
 
-## Mobile Toggle Button Dependency files
+# Mobile Toggle Button Dependency files
 
 This section deals with the dependency files for Toggle Button control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not using, then you can refer the following mentioned script files to render the Toggle Button control.
 
 _Script Files_
+{% highlight html %}
 
 <table>
 <tr>
@@ -48,4 +49,4 @@ ej.mobile.togglebutton.min.js</td><td>
 It is referred to handle Toggle Button control and used while rendering Toggle Button control.</td></tr>
 </table>
 
-
+{% endhighlight %}

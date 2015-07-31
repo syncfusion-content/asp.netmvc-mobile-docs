@@ -7,13 +7,11 @@ control: ListView
 documentation: ug
 ---
 
-## Filtering
+# Filtering
 
 Filtering is one of the key features in the ListView control. Filtering option is added into the ListView control when the EnableFiltering property is set to true. This enables a simple interface to filter items from a large collection of ListView items.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").ShowHeader(true).HeaderTitle("Default").ShowHeaderBackButton(true).EnableFiltering(true).Items(items => {    
 
@@ -39,17 +37,10 @@ Filtering is one of the key features in the ListView control. Filtering option i
 
 })
 
-
+{% endhighlight %}
 
 The following screenshots display the Filtering:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_12.png](Filtering_images/Filtering_img1.png)' | markdownify }}
-{:.image }
-
-
-
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_12.png](Filtering_images/Filtering_img1.png)
 
 {{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_13.png](Filtering_images/Filtering_img2.png)' | markdownify }}
-{:.image }
-
-

@@ -11,11 +11,7 @@ documentation: ug
 
 By enabling “AllowColumnSelector”, you can hide the columns dynamically whenever needed. This feature is mostly useful when the available device width is not enough to display all the necessary columns. 
 
-
-
-[razor]
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -36,30 +32,20 @@ By enabling “AllowColumnSelector”, you can hide the columns dynamically when
 
         }))
 
-
+{% endhighlight %}
 
 
 Execute the above code to render the following output.
 
 
 
-{{ '![27](Column-Selection_images/Column-Selection_img1.png)' | markdownify }}
-{:.image }
+![27](Column-Selection_images/Column-Selection_img1.png)
 
 
+![28](Column-Selection_images/Column-Selection_img2.png)
 
 
-{{ '![28](Column-Selection_images/Column-Selection_img2.png)' | markdownify }}
-{:.image }
-
-
-
-
-
-
-{{ '![29](Column-Selection_images/Column-Selection_img3.png)' | markdownify }}
-{:.image }
-
+![29](Column-Selection_images/Column-Selection_img3.png)
 
 
 

@@ -7,19 +7,19 @@ control: Tab
 documentation: ug
 ---
 
-## Customize Badge
+# Customize Badge
 
 To know the number of updates available in the specific Tab item before viewing it, it is notified through the Badge support. 
 
-Enabled
+## Enabled
 
 The enabled property is used to enable or disable the badge in the Tab. Default value is set to false.
 
-Value
+## Value
 
 The value property is used to set the badge value to a Tab item. Default value is set to 0. You can refer the following code example. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).Items(item =>{
 
@@ -71,20 +71,21 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-
+{% endhighlight %}
 
 The following screenshot displays the Customization of Badge:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab4.png](Customize-Badge_images/Customize-Badge_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab4.png](Customize-Badge_images/Customize-Badge_img1.png)
 
 
-MaxValue
+
+## MaxValue
 
 The MaxValue property is used to set the maximum badge value to a Tab item. Default value is set to 100. 
 
  [MVC]
 
+{% highlight html %}
 
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).Items(item =>{
@@ -139,11 +140,11 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-
+{% endhighlight %}
 
 The following screenshot displays the MaxValue:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab3.png](Customize-Badge_images/Customize-Badge_img2.png)
+
 
 

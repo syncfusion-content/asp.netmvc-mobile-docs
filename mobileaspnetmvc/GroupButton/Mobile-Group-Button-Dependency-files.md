@@ -7,11 +7,12 @@ control: Group Button
 documentation: ug
 ---
 
-## Mobile Group Button Dependency files
+# Mobile Group Button Dependency files
 
 This section deals with the dependency files for Group Button control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not using, then you can refer to the following script files to render the Group Button control.
 
 _Script files_
+{% highlight html %}
 
 <table>
 <tr>
@@ -48,4 +49,4 @@ ej.mobile.groupbutton.min.js</td><td>
 It is referred to handle Group Button control and used while rendering Group Button control.</td></tr>
 </table>
 
-
+{% endhighlight %}

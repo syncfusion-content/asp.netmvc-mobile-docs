@@ -7,7 +7,7 @@ control: Tile
 documentation: ug
 ---
 
-## Text Configuration
+# Text Configuration
 
 ShowText property is used to show or hide the tile caption.Text property is used to set the caption of a tile. TextAlignment property is used to align the tile text based on the requirement. The possible position values for TextAlignment are as follows.
 
@@ -18,9 +18,9 @@ ShowText property is used to show or hide the tile caption.Text property is used
 
 TextPosition property wraps the text inside or outside of a tile. The possible position values of TextPosition are inner and outer.
 
-> _Note: TextPosition support is given only to iOS7 and android mode. Textposition is not supported in small tiles._
+Note: TextPosition support is given only to iOS7 and android mode. Textposition is not supported in small tiles.
 
-
+{% highlight html %}
 
 <div style="margin-top:45px;">
 
@@ -30,11 +30,11 @@ TextPosition property wraps the text inside or outside of a tile. The possible p
 
 </div>
 
-
+{% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/tiletextchanges.png](Text-Configuration_images/Text-Configuration_img1.png)
+
 
 

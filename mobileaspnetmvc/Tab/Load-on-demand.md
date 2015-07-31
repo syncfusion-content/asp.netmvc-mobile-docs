@@ -7,11 +7,11 @@ control: Tab
 documentation: ug
 ---
 
-## Load on demand
+# Load on demand
 
 In some applications, the content for the specific Tab item is loaded only when it is required. By specifying “EnableAjax” property to true and specifying the external URL (via href property), you can load individual items on demand in the Tab. Default value is set to false
 
-
+{% highlight html %}
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).Items(item =>{
 
@@ -23,9 +23,11 @@ In some applications, the content for the specific Tab item is loaded only when 
 
        })
 
-
+{% endhighlight %}
 
 Create an HTML file with title mymusic.html and add the following code example to it.
+
+{% highlight html %}
 
 <!DOCTYPE html>
 
@@ -59,9 +61,11 @@ Create an HTML file with title mymusic.html and add the following code example t
 
 </html>
 
-
+{% endhighlight %}
 
 Create a HTML file with the title favorites.html and add the following code example to it.
+
+{% highlight html %}
 
 <!DOCTYPE html>
 
@@ -91,9 +95,11 @@ Create a HTML file with the title favorites.html and add the following code exam
 
 </html>
 
-
+{% endhighlight %}
 
 Create a HTML file with the title updates.html and add the following code example to it.
+
+{% highlight html %}
 
 <!DOCTYPE html>
 
@@ -123,5 +129,5 @@ Create a HTML file with the title updates.html and add the following code exampl
 
 </html>
 
-
+{% endhighlight %}
 

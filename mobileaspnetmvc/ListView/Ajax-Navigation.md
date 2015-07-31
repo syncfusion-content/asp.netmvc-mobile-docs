@@ -7,15 +7,13 @@ control: ListView
 documentation: ug
 ---
 
-## Ajax Navigation
+# Ajax Navigation
 
-EnableAjax
+## EnableAjax
 
 In the ListView widget, when all the items have navigation page to be loaded through Ajax content, then EnableAjax property is set to true. 
 
-
-
-
+{% highlight html %}
 
 @*Sample.cshtml*@
 
@@ -41,9 +39,9 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
     </style>
 
+{% endhighlight %}
 
-
-
+{% highlight html %}
 
 @*Load1.html*@
 
@@ -59,7 +57,9 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
 </div>
 
+{% endhighlight %}
 
+{% highlight html %}
 
 @*Load2.html*@
 
@@ -75,7 +75,9 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
 </div>
 
+{% endhighlight %}
 
+{% highlight html %}
 
 @*Load3.html*@
 
@@ -91,19 +93,21 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
 </div>
 
+{% endhighlight %}
+
 The following screenshot displays the Enable Ajax:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img1.png)
 
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png)' | markdownify }}
-{:.image }
+
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img2.png)
 
 
-> _Note: When the Ajax navigation is only for a specific item, then use this property inside item specific configuration. (In JS, use this attribute “data-ej-enableajax” in specific “li” tag in html, while in MVC, set through EnableAjax)._
 
-AjaxSettings
+Note: When the Ajax navigation is only for a specific item, then use this property inside item specific configuration. (In JS, use this attribute “data-ej-enableajax” in specific “li” tag in html, while in MVC, set through EnableAjax).
+
+## AjaxSettings
 
 In Ajax method, the ListView widget loads the content with default jQuery settings. You can customize it as in normal Ajax method through AjaxSettings property. The following options are available.
 
@@ -115,9 +119,7 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 6. URL
 7. Data
 
-
-
-
+{% highlight html %}
 
 @*Sample.cshtml*@
 
@@ -131,9 +133,9 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 
    })
 
+{% endhighlight %}
 
-
-
+{% highlight html %}
 
 @*Load1.cshtml*@
 
@@ -149,7 +151,9 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 
 </div>
 
+{% endhighlight %}
 
+{% highlight html %}
 
 @*Load2.cshtml*@
 
@@ -165,7 +169,9 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 
 </div>
 
+{% endhighlight %}
 
+{% highlight html %}
 
 @*Load3.cshtml*@
 
@@ -181,27 +187,26 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 
 </div>
 
+{% endhighlight %}
+
 The following screenshots display the Ajax Settings:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_1e.png](Ajax-Navigation_images/Ajax-Navigation_img3.png)
 
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)' | markdownify }}
-{:.image }
+
+[C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)
 
 
-EnableCache
+
+## EnableCache
 
 EnableCache is used to prevent loading Ajax content every time. This is set to true only when the content is not updated for each request.
 
 
-
-
-
 // For MVC, please add 3 cshtml files to the controller and insert the following content to those cshtml files.
 
-
+{% highlight html %}
 
 @*Sample.cshtml*@
 
@@ -215,7 +220,9 @@ EnableCache is used to prevent loading Ajax content every time. This is set to t
 
    })
 
+{% endhighlight %}
 
+{% highlight html %}
 
 @*Load1.cshtml*@
 
@@ -231,7 +238,9 @@ EnableCache is used to prevent loading Ajax content every time. This is set to t
 
 </div>
 
+{% endhighlight %}
 
+{% highlight html %}
 
 @*Load2.cshtml*@
 
@@ -247,7 +256,9 @@ EnableCache is used to prevent loading Ajax content every time. This is set to t
 
 </div>
 
+{% endhighlight %}
 
+{% highlight html %}
 
 @*Load3.cshtml*@
 
@@ -263,5 +274,5 @@ EnableCache is used to prevent loading Ajax content every time. This is set to t
 
 </div>
 
-
+{% endhighlight %}
 

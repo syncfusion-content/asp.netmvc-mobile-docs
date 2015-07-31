@@ -7,18 +7,15 @@ control: Grid
 documentation: ug
 ---
 
-## Data binding
+# Data binding
 
-Local data
+## Local data
 
 Mobile Grid data source can be set in server-side through ASP.NET MVC by using ViewBag.
 
 To achieve this refer the following code example.
 
-
-
-[razor]
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -36,11 +33,9 @@ To achieve this refer the following code example.
 
         }))
 
+{% endhighlight %}
 
-
-
-[controller]
-
+{% highlight cs %}
 
 namespace MVCSampleBrowser.Controllers.Grid
 
@@ -88,27 +83,20 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 }
 
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
+![2](Data-binding_images/Data-binding_img1.png)
 
 
-{{ '![2](Data-binding_images/Data-binding_img1.png)' | markdownify }}
-{:.image }
+##Remotedata
 
-
-
-
-Remotedata
-
-oData binding
+### oData binding
 
 oData is standardized protocol for creating and consuming data. You can able to retrieve data from oData service using DataManager. Here is an example of remote Data binding using oData service.
 
-
-
-[razor]
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -126,35 +114,24 @@ oData is standardized protocol for creating and consuming data. You can able to 
 
         }))
 
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
 
-
-{{ '![3](Data-binding_images/Data-binding_img2.png)' | markdownify }}
-{:.image }
+![3](Data-binding_images/Data-binding_img2.png)
 
 
+![Note](Data-binding_images/Data-binding_img3.png)
+
+Note: For information about DataManager with Mobie Grid check DataAdaptors concept.
 
 
-{{ '![Note](Data-binding_images/Data-binding_img3.png)' | markdownify }}
-{:.image }
-_Note: For information about DataManager with Mobie Grid check DataAdaptors concept._
-
-
-
-Loadatonce
+## Loadatonce
 
 Through this load at once technique, you can able to load all remote data from server to grid and process records in client side. You can check load at once with grid.
 
-
-
-
-
-[razor]
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -176,25 +153,19 @@ Through this load at once technique, you can able to load all remote data from s
         }))
 
 
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
 
-
-{{ '![4](Data-binding_images/Data-binding_img4.png)' | markdownify }}
-{:.image }
+![4](Data-binding_images/Data-binding_img4.png)
 
 
-
-
-Cross domain
+## Cross domain
 
 ejmGrid can use CrossDomain data service with help of data manager. Following configuration is to configure in client side. You need to configure server to retrieve data from server code. For server configuration, you can refer this link ([https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)). Here you can learn how to use or retrieve cross domain data from Grid.
 
-
-
-[razor]
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -216,28 +187,19 @@ ejmGrid can use CrossDomain data service with help of data manager. Following co
         }))
 
 
-
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
 
+![6](Data-binding_images/Data-binding_img5.png)
 
 
-
-{{ '![6](Data-binding_images/Data-binding_img5.png)' | markdownify }}
-{:.image }
-
-
-__
-
-Load on Demand 
+## Load on Demand 
 
 Load on demand is a powerful technique that is used to reduce bandwidth size of consuming data. In ejGrid, you have support to use load on demand. In the following example, oDataservice is used. At load time, it retrieves required data from service, only for the visible page and not for all records. And when you move to another page, it loads for current page. You no need to configure Grid to enable load on demand, since load on demand is enabled by default in Grid. The following code example illustrates you on how load on demand works with MobileGrid.
 
-
-
-[razor]
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -257,31 +219,19 @@ Load on demand is a powerful technique that is used to reduce bandwidth size of 
 
         .AllowPaging(true)) 
 
-
-
+{% endhighlight %}
 
 
 Execute the above code to render the following output.
 
+![6](Data-binding_images/Data-binding_img6.png)
 
 
-{{ '![6](Data-binding_images/Data-binding_img6.png)' | markdownify }}
-{:.image }
-
-
-
-
-Refresh data source
+## Refresh data source
 
 ejmGrid contains a feature to refresh datasource dynamically after Grid initialization. It is useful to refresh grid data source.
 
-
-
-
-
-
-[razor]
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -301,9 +251,11 @@ ejmGrid contains a feature to refresh datasource dynamically after Grid initiali
 
 @Html.EJMobile().Button("Button").Text("Refresh").ClientSideEvents(c => c.TouchEnd("RefreshData")) ()
 
+{% endhighlight %}
+
+{% highlight js %}
 
 [Script]
-
 
 
 <script type="text/javascript">
@@ -328,12 +280,9 @@ ejmGrid contains a feature to refresh datasource dynamically after Grid initiali
 
 </script>
 
+{% endhighlight %}
 
-
-
-
-[controller]
-
+{% highlight c# %}
 
 namespace MVCSampleBrowser.Controllers.Grid
 
@@ -381,18 +330,17 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 }
 
+{% endhighlight %}
+
+![7](Data-binding_images/Data-binding_img7.png)
 
 
-{{ '![7](Data-binding_images/Data-binding_img7.png)' | markdownify }}
-{:.image }
 
-
-
-Supported DataTypes
+## Supported DataTypes
 
 ejmGrid supports data types in JavaScript such as string, number, datetime and Boolean. By default, ejmGrid reads datatypes from Mobile Grid Datasource. Grid uses these DataTypes for filtering and other operations. You can also customize these DataTypes through column property type. It overrides default data type reading. For example refer the following code.
 
-
+{% highlight js %}
 
 <script id="table1" type="text/template" >
 
@@ -518,7 +466,9 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
         </script>
 
+{% endhighlight %}
 
+{% highlight html %}
 
     @(Html.EJMobile().Grid<object>("Grid")
 
@@ -538,27 +488,22 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
           }))
 
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
 
-
-{{ '![8](Data-binding_images/Data-binding_img8.png)' | markdownify }}
-{:.image }
+![8](Data-binding_images/Data-binding_img8.png)
 
 
 _HTML binding_
 
 
-
-oData Adaptor
+## oData Adaptor
 
 Now a days oData is most useful technique in consuming data. You can use oData protocol through Data Manger’s OData adaptor. Refer the following code to use oData adaptor with Grid.
 
-
-
-[razor]
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -577,15 +522,12 @@ Now a days oData is most useful technique in consuming data. You can use oData p
         }))
 
 
-
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
+![11](Data-binding_images/Data-binding_img9.png)
 
-
-{{ '![11](Data-binding_images/Data-binding_img9.png)' | markdownify }}
-{:.image }
 
 
 

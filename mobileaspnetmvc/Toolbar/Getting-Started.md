@@ -15,13 +15,15 @@ The Essential Studio for ASP.NET MVC Mobile Toolbar provides a single interface 
 
 
 
-{{ '![1](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![1](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create the necessary layout
+
+### Create the necessary layout
 
 Create a simple MVC application and paste the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. Add other templates in the view page for Toolbar creation. To create a MVC Project, add necessary Dll’s and Scripts done with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile.
+
+{% highlight html %}
 
      @Html.EJMobile().Header("header").Position(MobileHeaderPosition.Normal).Title("inbox")
 
@@ -63,17 +65,19 @@ Create a simple MVC application and paste the following header and scrollpanel l
 
 @Html.EJMobile().Dialog("alertdlg").Title("Dialog").LeftButtonCaption("OK").ClientSideEvents(c => c.ButtonTap("alertClose"))
 
-
+{% endhighlight %}
 
 Execute this code to render the following output.
 
-{{ '![2](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![2](Getting-Started_images/Getting-Started_img2.png)
 
 
-Create Toolbar Control
+
+### Create Toolbar Control
 
 To render the Toolbar control, add the following code and include a list of Toolbar items to be added. There are 20 built-in icons for Toolbar items. This can be achieved by using the IconName property.
+
+{% highlight html %}
 
 @Html.EJMobile().Toolbar("toolbar") .Position(Position.Normal) .Android(android=>android.Position(AndroidToolbarPosition.Fixed) .Title("Inbox")).Windows(windows=>windows.Position(WindowsToolbarPosition.Fixed)).Items(item =>
 
@@ -105,15 +109,17 @@ To render the Toolbar control, add the following code and include a list of Tool
 
  Execute this code to render the following output.
 
+{% endhighlight %}
+
+![1](Getting-Started_images/Getting-Started_img3.png)
 
 
-{{ '![1](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
 
-
-Add Functionalities for toolbar items 
+### Add Functionalities for toolbar items 
 
 You can provide functionalities for each Toolbar items and this can be achieved by adding TouchEnd event. When you click the Toolbar item, its corresponding TouchEnd event triggers and it is handled using the performAction function as shown in the following code example. 
+
+{% highlight html %}
 
 @Html.EJMobile().Toolbar("toolbar").ClientSideEvents(c => c.TouchEnd("performAction")).Position(Position.Normal) .Android(android=>android.Position(Position.Fixed)).Windows(windows=>windows.Position(Position.Fixed)).Items(item =>
 
@@ -130,6 +136,10 @@ You can provide functionalities for each Toolbar items and this can be achieved 
                 item.Add().IconName(IconName.Close);
 
             })
+
+{% endhighlight %}
+
+{% highlight js %}
 
  <script>
 
@@ -163,9 +173,11 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
 </script>
 
+{% endhighlight %}
+
   Execute this code to render the following output.
 
-{{ '![3](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![3](Getting-Started_images/Getting-Started_img4.png)
+
 
 

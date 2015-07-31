@@ -7,15 +7,16 @@ control: Menu
 documentation: ug
 ---
 
-## Style and appearance
+# Style and appearance
 
 Styles and Appearance of Menu work based on CSS class. You need a style sheet to apply styles to Menu control, ej.mobile.all.min.css.
 
- Customize styles
+## Customize styles
 
 To change color or design of Menu control appearance, you can override default styles of Menu control by using its class names. The following are specific class names you can use to modify styles and appearance in Menu.
 
 _Class names_
+{% highlight html %}
 
 <table>
 <tr>
@@ -64,6 +65,6 @@ e-m-state-enabled</td><td>
 This class is applied to enable the Menu item.</td></tr>
 </table>
 
-
+{% endhighlight %}
 
 

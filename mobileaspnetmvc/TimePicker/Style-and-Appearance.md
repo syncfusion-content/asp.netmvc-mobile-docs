@@ -7,11 +7,11 @@ control: TimePicker
 documentation: ug
 ---
 
-## Style and Appearance
+# Style and Appearance
 
 The Style and Appearance of the Mobile TimePicker are based on CSS class. You require a style sheet to apply styles to Mobile TimePicker control that is, ej.mobile.all.min.css.
 
-Customize styles
+## Customize styles
 
 To change color or design of TimePicker control’s appearance, you can override default styles of the TimePicker control by using its class names. The following are class names you can use to modify styles and appearance of the TimePicker.
 

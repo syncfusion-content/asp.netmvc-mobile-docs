@@ -7,7 +7,7 @@ control: Tile
 documentation: ug
 ---
 
-## Image Configuration
+# Image Configuration
 
 ImagePosition property is used to adjust the position of tile image. It accepts the following values.
 
@@ -33,11 +33,11 @@ ImageUrl property is used to specify the file name for the background image of t
 
 
 
-> _Note: Both Imagepath and imageurl properties can be set when you want to specify separate images for each render mode and so it is necessary to specify separate path for iOS, android and windows rendermode. When Imageurl property is alone used, you can provide common images for all render modes. That is you should provide the whole image path for this property._
+Note: Both Imagepath and imageurl properties can be set when you want to specify separate images for each render mode and so it is necessary to specify separate path for iOS, android and windows rendermode. When Imageurl property is alone used, you can provide common images for all render modes. That is you should provide the whole image path for this property.
 
 
 
-
+{% highlight html %}
 
 <div style="margin-top:45px;">
 
@@ -46,20 +46,20 @@ ImageUrl property is used to specify the file name for the background image of t
 @Html.EJMobile().Tile("tile").ImagePosition(TileImagePosition.Fill).ImagePath("~/themes/sample/tileview").ImageUrl("Weather_1.png").BackgroundColor("#ae12ae").Text("Weather")</div>
 
 
-
+{% endhighlight %}
 
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png)
+
 
 
 Also you can give images for each tile through CSS classes by using ImageClass property. You can define your desired styles in the specified class.
 
 Refer to the following code example.
 
-
+{% highlight html %}
 
 <div style="margin-top:45px;">
 
@@ -69,7 +69,9 @@ Refer to the following code example.
 
 </div>
 
+{% endhighlight %}
 
+{% highlight css %}
 
     <style>
 
@@ -85,11 +87,11 @@ Refer to the following code example.
 
     </style>
 
-
+{% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png)
+
 
 

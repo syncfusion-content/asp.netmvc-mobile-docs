@@ -15,15 +15,16 @@ In this section you will learn how to create Header and Footer in your Mobile ap
 
 The ASP.NET MVC Mobile Header is placed at the top of the page. It usually contains page title and optional buttons positioned to the left and right for navigation or actions. The position of Header can be fixed according to your requirement. The ASP.NET MVC MobileFooter has the same structure as header but it is at the bottom of the page. You can use the following guidelines to learn about the features in Mobile Header and Footer controls and use it to create a webpage.
 
-{{ '![](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create the required layout
+## Create the required layout
 
 Header and Footer controls are rendered based on the default values of all the properties. You can customize the Header and Footer controls by changing their properties according to your requirement. You can use the following steps to create a webpage.
 
 Create a simple MVC application and paste the scrollpanel layout page content inside the body tag of layout.cshtml. You can create an MVC Project and add necessary Dlls and scripts with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm)for Mobile.
+
+{% highlight html %}
 
 <div id="page" data-role="appview">
 
@@ -69,7 +70,11 @@ Create a simple MVC application and paste the scrollpanel layout page content in
 
 </div>
 
+{% endhighlight %}
+
 Use the following styles to add webpage content element.
+
+{% highlight css %}
 
 <style type="text/css">
 
@@ -92,52 +97,55 @@ Use the following styles to add webpage content element.
         } 
 
  </style>
+ 
+{% endhighlight %}
 
 Run the above code and you can see the following output. 
 
-{{ '![](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 _Webpage without Header and Footer_
 
-Create the Header Control
+## Create the Header Control
 
 To set Header title, you can set the Title API with the desired heading; in this case, it is set as “Syncfusion”. Refer to the following code example to create the Header control.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("header").Title("Syncfusion")
 
-
+{% endhighlight %}
 
 Run the above code and you can see the following output. 
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 _Web page with Header_
 
-Add Header Buttons
+## Add Header Buttons
 
 To enable HeaderButtons, set the ShowLeftButton and ShowRightButtonAPI values as True. You can set the Button caption using LeftButtonCaption and RightButtonCaptionAPI with the desired caption. For this case, you can set it as Back and Next.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Header("header").Title("Syncfusion").ShowLeftButton(true).ShowRightButton(true).LeftButtonCaption("Back").RightButtonCaption("Next")
 
+{% endhighlight %}
+
 Run the above code and you can see the following output. 
 
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 _Header with Buttons_
 
-Handle Header Button events
+## Handle Header Button events
 
 You can add functionalities for the left and right Header Buttons by triggering its events using LeftButtonTap and RightButtonTap attributes as follows. When you click the Header Buttons, the respective Button-tap events are triggered. 
+
+{% highlight html %}
 
 <table>
 <tr>
@@ -147,33 +155,39 @@ You can add functionalities for the left and right Header Buttons by triggering 
 <td>
  <script>//Adding script for header buttons events    function buttonclicked(args) {        $("#dlgcontent").html(args.text + " was selected");        $("#dialog").ejmDialog("open");    }    function dlgclose() {        $("#dialog").ejmDialog("close");    }<br></script></td></tr>
 </table>
+
+{% endhighlight %}
+
 Run the above code and you can see the following output, when you click the Back and Next buttons respectively. 
+
+{% highlight html %}
 
 <table>
 <tr>
 <td>
 ![](Getting-Started_images/Getting-Started_img5.png)
-{:.image }
+
 {{ '_Header left button event_'| markdownify }}</td><td>
 ![](Getting-Started_images/Getting-Started_img6.png)
-{:.image }
+
 {{ '_Header right button event_'| markdownify }}</td></tr>
 </table>
-Create the Footer Control
+
+{% endhighlight %}
+
+## Create the Footer Control
 
 To set Footer title, set Title API with the desired title. In this case, you can set it as Copyrights 2001-2014. Refer the following code example to create the Footer control.
 
-
+{% highlight html %}
 
  @Html.EJMobile().Footer("footer").Title("Copyrights 2001-2014")
 
-
+{% endhighlight %}
 
 Run the above code and you can see the following output. 
 
-{{ '![](Getting-Started_images/Getting-Started_img7.png)' | markdownify }}
-{:.image }
-
+![](Getting-Started_images/Getting-Started_img7.png)
 
 _Web page with Header and Footer_
 

@@ -7,7 +7,7 @@ control: Rotator
 documentation: ug
 ---
 
-## Orientation
+# Orientation
 
 The Orientation property is used to swipe the Rotator in Horizontal and Vertical direction. By default value of Orientation is Horizontal.
 
@@ -29,7 +29,7 @@ For Horizontal Orientation
 
 Refer to the following code example.
 
-
+{% highlight html %}
 
 <!-- header control -->
 
@@ -80,9 +80,9 @@ Refer to the following code example.
     </div>
 
 </div>
+{% endhighlight %}
 
-
-
+{% highlight html %}
 <!-- Rotator control -->
 
 <div id="scrollparent">
@@ -95,14 +95,14 @@ Refer to the following code example.
 
 </div>
 
-
+{% endhighlight %}
 
 Add the following styles to the style section. 
 
-> _Note: You can use the following styles for all the other samples explained as follows._
+Note: You can use the following styles for all the other samples explained as follows.
 
 
-
+{% highlight css %}
 <style type="text/css">
 
    <style type="text/css">
@@ -163,9 +163,9 @@ Add the following styles to the style section.
 
     </style>
 
+{% endhighlight %}
 
+![F:/thangavel/dev/source/Trunk/JSDoc/rotator-4.png](Orientation_images/Orientation_img1.png)
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-4.png](Orientation_images/Orientation_img1.png)' | markdownify }}
-{:.image }
 
 

@@ -7,11 +7,13 @@ control: Tile
 documentation: ug
 ---
 
-## Configure Badge
+# Configure Badge
 
 The Badge property handles badge specific functionalities like enable or disable the badge and setting badge value for tile. The Text property isusedtoset the text instead of number for tile badge. The MaxValue and MinValue properties areusedto set the maximum and minimum badge value to a tile respectively. 
 
 Refer to the following code example.
+
+{% highlight html %}
 
 <div style="margin-top:45px;">
 
@@ -21,11 +23,11 @@ Refer to the following code example.
 
 </div>
 
-
+{% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/badgechanges.png](Configure-Badge_images/Configure-Badge_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/badgechanges.png](Configure-Badge_images/Configure-Badge_img1.png)
+
 
 

@@ -11,8 +11,9 @@ documentation: ug
 
 Template ID is used to define the ID of the template element where you can specify the content to render in the control.
 
-@Html.EJMobile().Header("header_sample").TemplateId("template")
+{% highlight html %}
 
+@Html.EJMobile().Header("header_sample").TemplateId("template")
 
 
  <div id="template" class="temp">
@@ -20,10 +21,12 @@ Template ID is used to define the ID of the template element where you can speci
 @Html.EJMobile().Rating("rating") 
 
  </div>
+ 
+{% endhighlight %}
 
 The following screenshot displays the Template ID:
 
-{{ '![F:/headertemplate.png](TemplateId_images/TemplateId_img1.png)' | markdownify }}
-{:.image }
+![F:/headertemplate.png](TemplateId_images/TemplateId_img1.png)
+
 
 

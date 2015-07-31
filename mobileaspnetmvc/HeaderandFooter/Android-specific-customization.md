@@ -11,9 +11,11 @@ documentation: ug
 
 You can set the Android Specific properties to the control by accessing Android property.
 
-BackButtonImageClass
+## BackButtonImageClass
 
 This feature specifies the class name in which an image for the back button is set.  Refer to the following code example.
+
+{% highlight html %}
 
 @Html.EJMobile().Header("header_sample").RenderMode(RenderMode.Android).ShowLeftButton(true).Android(p=>{p.BackButtonImageClass("img");})
 
@@ -26,10 +28,12 @@ This feature specifies the class name in which an image for the back button is s
         }
 
     </style> 
+	
+{% endhighlight %}
 
 The following screenshot displays the Android Specific customization:
 
-{{ '![F:/android_phone.png](Android-specific-customization_images/Android-specific-customization_img1.png)' | markdownify }}
-{:.image }
+![F:/android_phone.png](Android-specific-customization_images/Android-specific-customization_img1.png)
+
 
 

@@ -7,13 +7,11 @@ control: ListView
 documentation: ug
 ---
 
-## Scrolling
+# Scrolling
 
 The AllowScrolling property defines whether to allow the scrolling behavior of the content when it exceeds the target elements’ height.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").ShowHeader(true).HeaderTitle("ListView").AllowScrolling(true).Items(items =>
 
@@ -41,21 +39,18 @@ The AllowScrolling property defines whether to allow the scrolling behavior of t
 
 })
 
+{% endhighlight %}
+
+Note: Run this code example and you can see the following output. For more details, refer to the "Common Getting Started" section.
+
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_10.png](Scrolling_images/Scrolling_img1.png)
 
 
-> _Note: Run this code example and you can see the following output. For more details, refer to the "Common Getting Started" section._
-
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_10.png](Scrolling_images/Scrolling_img1.png)' | markdownify }}
-{:.image }
-
-
-EnableNativeScrolling
+## EnableNativeScrolling
 
 Even though there is inbuilt mobile JS scroll bar in the ListView, it is also possible to use the Native Scroll Bar based on the device it gets rendered. It is done by adding EnableNativeScrolling property to the ListView element. 
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").AllowScrolling(true).EnableNativeScrolling(true).Items(items =>
 
@@ -103,15 +98,15 @@ Even though there is inbuilt mobile JS scroll bar in the ListView, it is also po
 
 })
 
-AdjustFixedPosition
+{% endhighlight %}
+
+## AdjustFixedPosition
 
 AdjustFixedPosition is used to render fixed elements and ListView in the same page. When this property is set to true, it automatically calculates and places the ListView without overlaying any element.
 
 The following code example demonstrates how it looks when this property is disabled. Default header in the ListView is disabled and a new header is created with Fixed Position. Since the header is fixed, you have to set the AdjustFixedPosition value to true to adjust its content dynamically.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().Header("header").Position(MobileHeaderPosition.Fixed).Title("ListView")
 
@@ -143,27 +138,22 @@ The following code example demonstrates how it looks when this property is disab
 
 })
 
-
+{% endhighlight %}
 
 The following screenshots display the Adjust Fixed Position:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_15.png](Scrolling_images/Scrolling_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_15.png](Scrolling_images/Scrolling_img2.png)
+
+Note: You can see here that the first list item is hidden due to fixed header element.
+
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_16.png](Scrolling_images/Scrolling_img3.png)
 
 
-> _Note: You can see here that the first list item is hidden due to fixed header element._
-
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_16.png](Scrolling_images/Scrolling_img3.png)' | markdownify }}
-{:.image }
-
-
-CheckDomChanges
+## CheckDomChanges
 
 CheckDomChanges property specifies the regular updates for scroll bar in the ListView when new item is dynamically added. When this property is enabled, scroll height in the ListView is also adjusted as per the number of items.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").CheckDomChanges(true).ShowHeader(false).Items(items =>
 
@@ -193,5 +183,5 @@ CheckDomChanges property specifies the regular updates for scroll bar in the Lis
 
 })
 
-
+{% endhighlight %}
 

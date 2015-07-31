@@ -7,17 +7,16 @@ control: Grid
 documentation: ug
 ---
 
-## Filtering
+# Filtering
 
 Filtering behavior is used to filter particular or related records in Mobile Grid to review details of records. To enable filtering behavior in Mobile Grid you need to add AllowFiltering property at grid initialize. Filter Bar filtering feature is available in Mobile Grid. 
 
-Filter Bar
+## Filter Bar
 
 Filter bar is the filtering type available in Mobile Grid. It is otherwise called as text filtering because filter bar working is based on text boxes. Through this you can filter records. Filter bar contains expression to filter records. They are based on type of column. Refer the following table for expression usage
 
-
-
 _Filter Bar Record Table_
+{% highlight html %}
 
 <table>
 <tr>
@@ -57,24 +56,21 @@ Equal</td><td>
 Boolean filter bar works with either true or false.</td></tr>
 </table>
 
+{% endhighlight %}
 
  Refer the following code example for filter bar
 
-
-
-
-
-[razor]
-
+{% highlight html %}
+ 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
       .Datasource((IEnumerable<object>)ViewBag.datasource)
 
 .AllowFiltering())
 
+{% endhighlight %}
 
-
-[controller]
+{% highlight c# %}
 
 namespace MVCSampleBrowser.Controllers
 
@@ -102,29 +98,23 @@ namespace MVCSampleBrowser.Controllers
 
 }
 
-
-
-
-
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
 
-
-{{ '![18](Filtering_images/Filtering_img1.png)' | markdownify }}
-{:.image }
+![18](Filtering_images/Filtering_img1.png)
 
 
 _Default Filtering_
 
 
-
-Filter operators
+## Filter operators
 
 ejmGrid uses filter operators from DataManager that is used at the time of filtering. Here you can learn about filter operators and its usage categories. Filter operators denotes filtering type.
 
 _Filter Operators Table_
+{% highlight html %}
 
 <table>
 <tr>
@@ -149,4 +139,4 @@ Date</td><td>
 ej.FilterOperators.greaterThanej.FilterOperators.greaterThanOrEqualej.FilterOperators.lessThanej.FilterOperators.lessThanOrEqualej.FilterOperators.equal</td></tr>
 </table>
 
-
+{% endhighlight %}

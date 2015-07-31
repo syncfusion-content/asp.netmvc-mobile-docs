@@ -16,20 +16,18 @@ This section explains briefly on how to create a ListView control in your applic
 EssentialASP.NET MVC Mobile Listview widget is used to build an interactive list view interface. It allows you to select an item from a list-like interface and provides the infrastructure to display a set of data items in different layouts or views. Lists are used for displaying data, data navigation, result lists, and data entry.
 
 
-
-{{ '![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/Desktop/image122_4.jpg](Getting-Started_images/Getting-Started_img1.jpeg)
 
 
 The following steps help you add a ListView control.
 
-Create Basic Mobile Layout 
+## Create Basic Mobile Layout 
 
 Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create an MVC Project, add necessary Dll’s and Scripts.
 
 Add the following code inside the <body> tag in the Layout.cshtml page.
 
-
+{% highlight html %}
 
 < !---Add Header Here  ---> 
 
@@ -39,15 +37,15 @@ Add the following code inside the <body> tag in the Layout.cshtml page.
 
 </div>
 
-Create ListView for Mail App
+{% endhighlight %}
+
+## Create ListView for Mail App
 
 To add Listview control, you need to call ListView helper.                 
 
  Refer the following code example.
 
-
-
-
+{% highlight html %}
 
 <div id="content">
 
@@ -57,11 +55,13 @@ To add Listview control, you need to call ListView helper.
 
 </div>
 
-Create Grouped List
+{% endhighlight %}
+
+## Create Grouped List
 
 Set EnableGroupList property to “True”. You can provide individual header title for each group, by setting the Title property for every group item. Refer the following code example.
 
-
+{% highlight html %}
 
    @Html.EJMobile().ListView("grouplistsamp").ShowHeader(true).HeaderTitle("MailBoxes").EnableGroupList(true).Groups(gp =>
 
@@ -99,21 +99,19 @@ Set EnableGroupList property to “True”. You can provide individual header 
 
     });
 
-
+{% endhighlight %}
 
 Run the above code and you can see the following output. For queries on how to run, you refer this [link](http://help.syncfusion.com/ug/js/default.htm).
 
 
-
-{{ '![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)' | markdownify }}
-{:.image }
+![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)
 
 
-Add Images to ListView
+## Add Images to ListView
 
 Specify the image class name for individual items using the ImageClass propertyin every item as follows.
 
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("grouplistsamp").ShowHeader(true).HeaderTitle("MailBoxes").EnableGroupList(true).Groups(gp =>
 
@@ -159,13 +157,11 @@ Specify the image class name for individual items using the ImageClass propert
 
 </style>
 
-
+{% endhighlight %}
 
 You can define the image classes specified for the ListView items as follows.
 
-
-
-
+{% highlight css %}
 
 <style type="text/css">
 
@@ -249,19 +245,19 @@ You can define the image classes specified for the ListView items as follows.
 
 </style>
 
-
+{% endhighlight %}
 
 Run the above code and you can see the following output. For queries on how to run please refer this [link](http://help.syncfusion.com/ug/js/default.htm).
 
 
-
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)
 
 
-Create Child List with Template
+## Create Child List with Template
 
 To view the inbox messages, after creating the ListView, you can add its ChildList items. Since the ChildList contains the detailed mail information, you can add its content through Template Support, and by that you can customize the appearance of the list items. Specify the Rendertemplate property to achieve this.
+
+{% highlight html %}
 
 @Html.EJMobile().ListView("grouplistsamp").ShowHeader(true).HeaderTitle("MailBoxes").EnableGroupList(true).Groups(gp =>
 
@@ -310,11 +306,9 @@ To view the inbox messages, after creating the ListView, you can add its Child
             grplist2.Add().Text("Mail").ImageClass("icn-mail");
 
 
-
         });
 
     })
-
 
 
 <style>
@@ -323,9 +317,11 @@ To view the inbox messages, after creating the ListView, you can add its Child
 
 </style>
 
-
+{% endhighlight %}
 
 You can use the following code example to add a customized template within a list item.
+
+{% highlight html %}
 
   <div class="mailcontentdiv">
 
@@ -375,9 +371,11 @@ You can use the following code example to add a customized template within a lis
 
 </div>
 
-
+{% endhighlight %}
 
 You can use the following styles to add custom style to the template content.
+
+{% highlight css %}
 
 <!—Add Content Style Here-->
 
@@ -419,17 +417,15 @@ You can use the following styles to add custom style to the template content.
 
 </style>
 
-
+{% endhighlight %}
 
 In this example, you can move to the inbox page by tapping inbox list item to render the child items in inbox.            
 
 Run the above code and you can see the following output. For queries on how to run, refer this [link](http://help.syncfusion.com/ug/js/default.htm).
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)
 
 
 From the above steps, you have learnt how to create Essential MVC Mobile ListView widget with use case samples. There are more customization properties, other than the ones used here. To know more about the properties in Mobile ListView widget, you can refer the complete documentation page for Mobile ListView widget.
-
 
 

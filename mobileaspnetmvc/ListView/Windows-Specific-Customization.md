@@ -7,13 +7,11 @@ control: ListView
 documentation: ug
 ---
 
-## Windows Specific Customization
+# Windows Specific Customization
 
 You can set the Windows Specific properties to the control by accessing Windows property. PreventSkew property is used to disable the skewing effect while clicking on the list item. 
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").RenderMode(RenderMode.Windows).Windows(windows => { windows.PreventSkew(true); }).Items(items =>
 
@@ -41,9 +39,11 @@ You can set the Windows Specific properties to the control by accessing Windows 
 
 })
 
+{% endhighlight %}
+
 The following screenshot displays the Windows Specific Customization:
 
-{{ '![preventScew](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![preventScew](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)
+
 
 

@@ -7,15 +7,13 @@ control: ListView
 documentation: ug
 ---
 
-## Templating
+# Templating
 
-Internal Template
+## Internal Template
 
 By using template support, you can customize the appearance of the individual list item or render the whole ListView by using a single template. Setting the RenderTemplate to true and specifying the template inside the li item renders the ListView with template item.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("templatelist").AllowScrolling(false).DataBinding(true).DataSource("window.dbitem").RenderTemplate(true)
 
@@ -39,13 +37,13 @@ By using template support, you can customize the appearance of the individual li
 
 </div>
 
-External template
+{% endhighlight %}
+
+## External template
 
 The TemplateId property is used to define the template ID for the list item. Template is defined outside and is rendered by using its ID for list items. The Template ID is set to the TemplatId property for the ListView control so that the template renders along with the ListView. To use TemplateId property, enable the RenderTemplate property.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("ListView").HeaderTitle("Inbox").Items(items => {
 
@@ -150,8 +148,12 @@ The TemplateId property is used to define the template ID for the list item. Tem
         </div>
 
     </div>
+	
+{% endhighlight %}
 
 You can add the following styles for better appearance.
+
+{% highlight css %}
 
 <style>
 
@@ -227,11 +229,11 @@ You can add the following styles for better appearance.
 
     </style>
 
-
+{% endhighlight %}
 
 The following screenshot displays the Template:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_18.png](Templating_images/Templating_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_18.png](Templating_images/Templating_img1.png)
+
 
 

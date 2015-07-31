@@ -7,11 +7,11 @@ control: Menu
 documentation: ug
 ---
 
-## Scrolling 	
+# Scrolling 	
 
 The AllowScrolling property defines whether to allow the scrolling behavior or not when the number of Menu items exceed the specified Menu height. To display the scrollbars when Allowscrolling is enabled, set the ShowScrollbars property to true. You can customize the height and width of the Menu control by setting the desired value to Height and Width properties respectively. 
 
-
+{% highlight html %}
 
     <div style="text-align: center;">
 
@@ -42,10 +42,12 @@ The AllowScrolling property defines whether to allow the scrolling behavior or n
                 item.Add().Text("Delete");
 
             })
+			
+{% endhighlight %}
 
 The following screenshot displays Scrolling:
 
-{{ '![ShowScrollBars](Scrolling_images/Scrolling_img1.png)' | markdownify }}
-{:.image }
+![ShowScrollBars](Scrolling_images/Scrolling_img1.png)
+
 
 

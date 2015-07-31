@@ -13,17 +13,19 @@ documentation: ug
 
 The Essential Studio for ASP.NET MVC Mobile Tiles are simple, opaque rectangles or squares and that are arrayed on the Start screen in a grid-like pattern and it can be either static or live. Tapping or selecting a Tile launches the app or other experience that is represented by the Tile.
 
-{{ '![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img1.png)
+
 
 
 The following steps guide you in adding a Tile control.
 
-Creating basic mobile layout
+## Creating basic mobile layout
 
 Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create a MVC Project, add necessary Dll’s and Scripts.
 
 Add the following code example in layout page of the application.
+
+{% highlight html %}
 
     <!-- Add Header Control Here -->
 
@@ -32,16 +34,18 @@ Add the following code example in layout page of the application.
            @RenderBody()
 
     </div>
+	
+{% endhighlight %}
 
 Add Header control for Tile
 
 Add the following code in layout.cshtml page.
 
-
+{% highlight html %}
 
  @Html.EJMobile().Header("header").Title("Tile")
 
-
+{% endhighlight %}
 
 Add a Tile control
 
@@ -49,25 +53,29 @@ To add a Tile control, call Tile helper. You can set images for Tile by using Im
 
 Add the following code to the corresponding view page.
 
+{% highlight html %}
+
 <div id="tile" style="margin-top: 45px;"> 
 
 @Html.EJMobile().Tile("tile1").Width(50).Height(50).Theme(Theme.Dark).ImageUrl("setting.png").ImagePath("http://js.syncfusion.com/UG/Mobile/Content/tile").Text("Settings") 
 
     </div>
 
-
+{% endhighlight %}
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{{ '![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)
 
 
-Create Tile as grouped tile
+
+## Create Tile as grouped tile
 
 In this scenario, you require different sizes of tiles aligned in a grid-like manner. Here you can add tiles with desired size to make the exact output. The tile gets aligned automatically based on the size it gets rendered. You can define all tiles under the wrapper element with class named ‘group’ to make ‘n’ number of tiles as a grouped tile.
 
 Refer to the following code example.
+
+{% highlight html %}
 
      <!--Adding Multiple Tiles -->
 <div id="tiledefault" class="defaultsample">
@@ -108,9 +116,11 @@ Refer to the following code example.
 
 @Html.EJMobile().Scrollpanel("scroll").Target("scrollcontent")
 
-
+{% endhighlight %}
 
 Add the following style for setting the background image for all Tiles (page background).
+
+{% highlight css %}
 
 <style>
 
@@ -130,21 +140,21 @@ Add the following style for setting the background image for all Tiles (page bac
 
  </style>
 
-
+{% endhighlight %}
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-{{ '![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png)
 
 
-Create a grouped tile in Windows Mode
+
+## Create a grouped tile in Windows Mode
 
 In the windows mode scenario, you require different size of tiles and live tiles. To render the Grouped tile in windows mode, add the following script section, to render the tile with different size and as a live tiles also.
 
 Refer to the following code example.
 
-
+{% highlight js %}
 
 <script>
 
@@ -192,5 +202,5 @@ Refer to the following code example.
 
 </script>
 
-
+{% endhighlight %}
 

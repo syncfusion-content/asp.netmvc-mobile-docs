@@ -7,11 +7,13 @@ control: Tile
 documentation: ug
 ---
 
-## Template Support
+# Template Support
 
 ImageTemplateId and CaptionTemplateId properties are used to customize the image and caption/description of a tile by providing the specific template id respectively. 
 
 Refer to the following code example.
+
+{% highlight html %}
 
 <div style="margin-top:45px;"> 
 
@@ -41,13 +43,13 @@ Refer to the following code example.
 
 </div>
 
-
+{% endhighlight %}
 
 
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![](Template-Support_images/Template-Support_img1.png)' | markdownify }}
-{:.image }
+![](Template-Support_images/Template-Support_img1.png)
+
 
 

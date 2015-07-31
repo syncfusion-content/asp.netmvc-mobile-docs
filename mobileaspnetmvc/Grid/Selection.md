@@ -7,15 +7,11 @@ control: Grid
 documentation: ug
 ---
 
-## Selection
+# Selection
 
 The Selection Property is used to highlight a row that you select. By default, the Mobile Grid allows row selection. Refer the following code example.
 
-
-
-[razor]
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -38,27 +34,21 @@ The Selection Property is used to highlight a row that you select. By default, t
         .AllowSelection(true))
 
 
-
+{% endhighlight %}
 
 
 Execute the above code to render the following output.
 
 
-
-{{ '![24](Selection_images/Selection_img1.png)' | markdownify }}
-{:.image }
+![24](Selection_images/Selection_img1.png)
 
 
 
-
-Get selected record data
+## Get selected record data
 
 In this section, you can learn how to get selected records from one Grid and also how those records are used to update datasource of another Grid. Refer the following code example.
 
-
-
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -96,10 +86,11 @@ In this section, you can learn how to get selected records from one Grid and als
 
         }))
 
+{% endhighlight %}
+
+{% highlight js %}
 
 [Script]
-
-
 
 <script type="text/javascript">
 
@@ -111,10 +102,10 @@ In this section, you can learn how to get selected records from one Grid and als
 
 </script>
 
+{% endhighlight %}
 
 
-[controller]
-
+{% highlight c# %}
 
 namespace MVCSampleBrowser.Controllers.Grid
 
@@ -162,10 +153,10 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 }
 
+{% endhighlight %}
 
+![25](Selection_images/Selection_img2.png)
 
-{{ '![25](Selection_images/Selection_img2.png)' | markdownify }}
-{:.image }
 
 
 
