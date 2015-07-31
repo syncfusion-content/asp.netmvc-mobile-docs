@@ -7,7 +7,7 @@ control: Tile
 documentation: ug
 ---
 
-## Customize size
+# Customize size
 
 You can customize the size of tile by using TileSize property. The following built-in tile sizes are supported.
 
@@ -22,6 +22,8 @@ Default value: Small
 
 Refer to the following code example.
 
+{% highlight html %}
+
 <div style="margin-top:45px;">
 
 @Html.EJMobile().Header("head").Title("Tileview")
@@ -30,11 +32,11 @@ Refer to the following code example.
 
 </div>
 
-
+{% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![](Customize-size_images/Customize-size_img1.png)' | markdownify }}
-{:.image }
+![](Customize-size_images/Customize-size_img1.png)
+
 
 

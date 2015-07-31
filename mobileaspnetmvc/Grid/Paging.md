@@ -7,11 +7,11 @@ control: Grid
 documentation: ug
 ---
 
-## Paging
+# Paging
 
 Paging is a powerful technique in Mobile Grid that is used to Navigate from one page to another. Using this pager you can implement load on demand concept where it loads only required data to Grid. To enable paging in Grid set AllowPaging as true at Mobile Grid initialize.
 
-Default
+## Default
 
 When the AllowPaging is set as true, the properties in the PageSettings take the following default values.
 
@@ -20,13 +20,7 @@ When the AllowPaging is set as true, the properties in the PageSettings take the
 
 Refer the following code example for Grid with default options.
 
-
-
-
-
-[razor]
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("Grid")
 
@@ -34,11 +28,10 @@ Refer the following code example for Grid with default options.
 
 .AllowPaging(true))
 
+{% endhighlight %}
 
 
-
-
-[controller]
+{% highlight c# %}
 
 namespace MVCSampleBrowser.Controllers
 
@@ -65,20 +58,16 @@ namespace MVCSampleBrowser.Controllers
 }
 
 
-
+{% endhighlight %}
 
 
 Execute the above code to render the following output.
 
 
-
-{{ '![19](Paging_images/Paging_img1.png)' | markdownify }}
-{:.image }
+![19](Paging_images/Paging_img1.png)
 
 
-
-
-Pager Types
+## Pager Types
 
 There are two types of pagers available in Mobiel Grid. They are,
 
@@ -89,11 +78,7 @@ By specifying pager type as “Normal” you can use this type of pager. This pa
 
 In this section, you can learn how the pager types differ in Mobile Grid control. Refer the following code example for pager types.
 
-
-
-[razor]
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -118,15 +103,13 @@ In this section, you can learn how the pager types differ in Mobile Grid control
         .PageOption(p=>p.Type(PagerType.Scrollbale)))
 
 
-
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
 
+![20](Paging_images/Paging_img2.png)
 
-{{ '![20](Paging_images/Paging_img2.png)' | markdownify }}
-{:.image }
 
 
 

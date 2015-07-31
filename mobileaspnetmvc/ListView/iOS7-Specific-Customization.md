@@ -7,13 +7,11 @@ control: ListView
 documentation: ug
 ---
 
-## iOS7 Specific Customization
+# iOS7 Specific Customization
 
 You can set the iOS7 specific properties to the control by accessing iOS7 property. The Inline property provides inline appearance for the ListView control and displays the ListView with rounded corners.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").ShowHeader(true).HeaderTitle("Default").ShowHeaderBackButton(true).RenderMode(RenderMode.IOS7).IOS7(ios7 => { ios7.Inline(true); }).Items(items =>
 
@@ -41,9 +39,11 @@ You can set the iOS7 specific properties to the control by accessing iOS7 proper
 
 })
 
+{% endhighlight %}
+
 The following screenshot displays the iOS7 Specific Customization:
 
-{{ '![C:/Users/Thivya/AppData/Local/Temp/SNAGHTML23741ad9.PNG](iOS7-Specific-Customization_images/iOS7-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/Thivya/AppData/Local/Temp/SNAGHTML23741ad9.PNG](iOS7-Specific-Customization_images/iOS7-Specific-Customization_img1.png)
+
 
 

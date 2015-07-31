@@ -7,15 +7,15 @@ control: Tab
 documentation: ug
 ---
 
-## Android specific customization
+# Android specific customization
 
 You can set the Android specific properties to the control by accessing the Android property.
 
-ShowImage
+## ShowImage
 
 The ShowImage property is used to enable or disable the image to your Tab. Default value is set to false. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.Android).Android(android=>android.ShowImage(true)).Items(item =>{
 
@@ -26,6 +26,7 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
     item.Add().Text("Updates").Href("#updates").Android(android=>android.ImageClass("icn-Updates"));
 
        })
+
 
 <!-- Tab first item -->
 
@@ -42,6 +43,7 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
                 item.Add().Text("Till I Collapse");
 
             })
+			
 
 <!-- Tab second item -->
 
@@ -54,6 +56,7 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
                 item.Add().Text("Roar");
 
             })
+			
 
 <!-- Tab third item -->
 
@@ -67,19 +70,19 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
 
             })
 
-
+{% endhighlight %}	
 
 The following screenshot displays the Android ShowImage:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img1.png)
 
 
-ImageClass
+
+## ImageClass
 
 The ImageClass is used to add images to the Tab by specifying the ImageClass for individual items in the Tab. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.Android).Android(android=>android.
 
@@ -145,19 +148,19 @@ ShowHeader(false).Items(item =>
 
             })
 
-
+{% endhighlight %}	
 
 The following screenshot displays the Android ImageClass:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img2.png)
 
 
-Position
+
+## Position
 
 The Position property holds fixed and normal values. Normal position allows relative position of the element to the appview and fixed position allows fixed position of the element. Default position is set to fixed. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.Android).Android(android=>android.ShowImage(true).Position(ControlPosition.Normal)).Items(item =>{
 
@@ -209,11 +212,11 @@ The Position property holds fixed and normal values. Normal position allows rela
 
             })
 
-
+{% endhighlight %}	
 
 The following screenshot displays the AndroidPosition:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab8.png](Android-specific-customization_images/Android-specific-customization_img3.png)
+
 
 

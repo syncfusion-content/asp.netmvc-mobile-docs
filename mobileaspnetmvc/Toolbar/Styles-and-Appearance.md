@@ -7,11 +7,11 @@ control: Toolbar
 documentation: ug
 ---
 
-## Styles and Appearance
+# Styles and Appearance
 
 Styles and appearance of Toolbar, works based on CSS class. A style sheet is required to apply styles to Toolbar control ej.mobile.all.min.css
 
-Customization
+## Customization
 
 In certain scenarios, you can change the color or design of Toolbar control’s appearance. In that case, you can override default styles of Toolbar control using its CSS class names. The following are specific class names that you can use to modify styles and appearance in Toolbar.
 

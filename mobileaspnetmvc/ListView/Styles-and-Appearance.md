@@ -7,15 +7,16 @@ control: ListView
 documentation: ug
 ---
 
-## Styles and Appearance
+# Styles and Appearance
 
 Styles and Appearance of the ListView work based on CSS class. You need a style sheet to apply styles to the ListView control ej.mobile.all.min.css.
 
-Customize styles
+## Customize styles
 
 To change the color or design of the ListView control appearance, you can override default styles of the ListView control by using its class names. The following are specific class names you can use to modify styles and appearance in the ListView.
 
 _Class Names_
+{% highlight html %}
 
 <table>
 <tr>
@@ -108,4 +109,4 @@ e-m-list-text</td><td>
 This class is applied to span element inside the ListView items.</td></tr>
 </table>
 
-
+{% endhighlight %}

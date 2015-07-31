@@ -15,17 +15,18 @@ This section briefly describes how to create a Group Button and use it in your a
 
 The ASP.NET MVC Mobile Group Button allows you to display multiple buttons that is stacked together in a single line and appears like a navigation component. The following section explains you to create Group Button widgetusing a Mail App.
 
-{{ '![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create the required Layout
+## Create the required Layout
 
 The ASP.NET MVC Mobile Group Button widget is created with Radiobutton or Checkbox using the “GroupButtonType” property. In the Mail App, you can use the Radiobutton as input element to view the Mail content with three options “All”, “Read” and “Unread”. The respective content displays on clicking the specific button in the group. 
 
 Create a MVC application and add the following code example in the <body> tag of layout.cshtml file.
 
 You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](http://help.syncfusion.com/ug/js/default.htm)
+
+{% highlight html %}
 
   <div id="page">
 
@@ -47,11 +48,15 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
   </div>
 
-Create the Group Button
+{% endhighlight %}
+
+## Create the Group Button
 
 To create the Group Button control, add the following code example to the corresponding view page. Also you need to specify the “GroupButtonType” and the “Name” property. 
 
 Refer to the following code example.
+
+{% highlight html %}
 
 <!—Group Button Control-->
 
@@ -69,9 +74,11 @@ Refer to the following code example.
 
        })
 
-
+{% endhighlight %}
 
 Add the following styles for content.
+
+{% highlight css %}
 
 <style>
 
@@ -179,19 +186,21 @@ Add the following styles for content.
 
 </style>
 
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
-{{ '![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/ApoorvahR/Desktop/2.png](Getting-Started_images/Getting-Started_img2.png)
 
 
-Handle Events
+
+## Handle Events
 
 In the Mail App, when you navigate through different buttons the content view is changed using TouchEnd event. You can specify touchEnd property to handle the functionalities that are necessary to switch the view. 
 
 Refer the following code example.
+
+{% highlight html %}
 
 @Html.EJMobile().GroupButton("groupbutton").GroupButtonType(GroupButtonType.radio).SelectedItemIndex(0).Name("options").Buttons(button =>
 
@@ -205,7 +214,10 @@ Refer the following code example.
 
               }).ClientSideEvents(evt => evt.touchEnd("onselect"))
 
+{% endhighlight %}
 
+
+{% highlight js %}
 
 <script type="text/javascript">
 
@@ -229,13 +241,15 @@ Refer the following code example.
 
    </script>
 
-
+{% endhighlight %}
 
 In this application, you are using three options “All”, “Read” and “Unread” to view the mail contents. This is achieved using the ASP.NET MVC Mobile Listview control. 
 
 Refer the following code to create the Listview control.
 
 For MVC Wrapper sample, create a model file for Data Binding. Add the following model code to a CS file and save it as ListLocalData.cs.
+
+{% highlight c# %}
 
     public class ListTemplate
 
@@ -354,7 +368,6 @@ For MVC Wrapper sample, create a model file for Data Binding. Add the following
 Add the following code example to the corresponding controller page.
 
 
-
      public ActionResult sample()
 
        {
@@ -375,9 +388,11 @@ Add the following code example to the corresponding controller page.
 
        }
 
-
+{% endhighlight %}
 
 Add the following code to the corresponding view page.
+
+{% highlight html %}
 
 <!--Add the Mail Content-->
 
@@ -439,19 +454,15 @@ Add the following code to the corresponding view page.
 
        </div>
 
-
+{% endhighlight %}
 
 Execute the above code examples to render the following outputs.
 
-{{ '![](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
-{{ '![](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![](Getting-Started_images/Getting-Started_img3.png)
 
+![](Getting-Started_images/Getting-Started_img4.png)
 
+![C:/Users/ApoorvahR/Desktop/5.png](Getting-Started_images/Getting-Started_img5.png)
 
-
-{{ '![C:/Users/ApoorvahR/Desktop/5.png](Getting-Started_images/Getting-Started_img5.png)' | markdownify }}
-{:.image }
 
 

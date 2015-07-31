@@ -15,17 +15,19 @@ In this section, you can learn how to create Rotator for your mobile app.
 
 The Essential Studio for ASP.NET MVC Mobile Rotator widget is a container that helps you to navigate next and previous items through swipe gestures. Each item in Rotator can hold any html content. In the following guideline, you can learn the features in the MobileRotator widget by creating a Photo Gallery App.
 
-{{ '![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png)
 
 
-Create the required layout
+
+### Create the required layout
 
 Rotator control is rendered based on the default values of all the properties. You can customize Rotator control by changing its properties according to your requirement.  
 
 Create a simple MVC application and add the following header page content inside the <Body> tag of layout.cshtml. 
 
 You can create a MVC Project and add necessary Dll’s and Scripts with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm) for mobile.
+
+{% highlight html %}
 
 <!-- header control -->
 
@@ -40,16 +42,16 @@ You can create a MVC Project and add necessary Dll’s and Scripts with the help
     </div>
 
 </div>
+{% endhighlight %}
 
 
-
-Create the Rotator control
+## Create the Rotator control
 
 To render the Rotator control, set “TargetId” property with the id of the target element that contains the HTML template for each item. Every first level child <div> element of the target element acts as an item of the Rotator. 
 
 To render the Rotator control, add the following code example.
 
-
+{% highlight html %}
 
     <!-- View Page Content -->
 
@@ -89,18 +91,20 @@ To render the Rotator control, add the following code example.
 
 </div>
 
+{% endhighlight %}
 
+{% highlight html %}
 
 <!-- Rotator control -->
 
 @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault") 
 
-
+{% endhighlight %}
 
 Add the following styles to the Rotator items.
 
 
-
+{% highlight css %}
 <style type="text/css">
 
         .photo {
@@ -171,35 +175,38 @@ Add the following styles to the Rotator items.
 
 </style>
 
+{% endhighlight %}
 
 
 Execute the above code to render the following output. 
 
-{{ '![C:/Users/labuser/Desktop/ac.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/Desktop/ac.png](Getting-Started_images/Getting-Started_img2.png)
 
 
-Hide the Pager
+
+## Hide the Pager
 
 In the above image, Pager indicates the item that is currently displayed. If you do not want the pager to be displayed,  you can set the ShowPager property to “_false_”.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault").ShowPager(false)
+
+{% endhighlight %}
 
 Execute the above code to render the following output. 
 
 
 
-{{ '![C:/Users/labuser/Desktop/b.png](Getting-Started_images/Getting-Started_img3.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/Desktop/b.png](Getting-Started_images/Getting-Started_img3.png)
+
 
 
 
 
 By swiping left and right, you can move to the other images in the Photo Gallery.
 
-{{ '![C:/Users/labuser/Desktop/c.png](Getting-Started_images/Getting-Started_img4.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/Desktop/c.png](Getting-Started_images/Getting-Started_img4.png)
+
 
 

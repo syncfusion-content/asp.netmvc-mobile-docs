@@ -7,13 +7,15 @@ control: ListView
 documentation: ug
 ---
 
-## Data Binding
+# Data Binding
 
-Local Data Binding
+## Local Data Binding
 
 Essential Studio mobile JS ListView provides support for Data Binding. Data Binding provides a simple and consistent way for applications to present and interact with data. Elements can be bounded to data from a variety of data sources. In local Data Binding, the data source is written inside the program. Then it is handled by the ListView control. By using DataBinding property, you can enable Data Binding. DataSource is used to get the data source that holds the list items.
 
 For MVC Wrapper sample, create a model file for Data Binding. Add the following model code to a CS file and save it as ListLocalData.cs.
+
+{% highlight c# %}
 
     public class ListLocalData
 
@@ -97,13 +99,11 @@ You have to modify the controller as a model is added to the sample. Modify the 
 
         }
 
-
+{% endhighlight %}
 
 For example, use the following code example to give you the exact output.
 
-
-
-
+{% highlight html %}
 
 @model List<ListLocalData>
 
@@ -113,19 +113,17 @@ For example, use the following code example to give you the exact output.
 
 }
 
+{% endhighlight %}
+
 The following screenshot displays the Local Data Binding:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_11.png](Data-Binding_images/Data-Binding_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_11.png](Data-Binding_images/Data-Binding_img1.png)
 
-
-Remote Data Binding
+## Remote Data Binding
 
 In RemoteData Binding, the data is retrieved from a particular URL unlike the local Data Binding and then it is handled by the ListView control. By using DataBinding property, you can enable Data Binding. DataSource is used to get the data that holds the list items.
 
-
-
-
+{% highlight html %}
 
 @{
 
@@ -139,17 +137,19 @@ In RemoteData Binding, the data is retrieved from a particular URL unlike the lo
 
 }
 
-
+{% endhighlight %}
 
 The following screenshot displays the remote Data Binding:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_17.png](Data-Binding_images/Data-Binding_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_17.png](Data-Binding_images/Data-Binding_img2.png)
 
 
-FieldSettings
+
+## FieldSettings
 
 FieldSettings property is used to map the DataSource field with the list item fields. In addition to the list item specific properties, the following fields are available while mapping.
+
+{% highlight html %}
 
 <table>
 <tr>
@@ -166,9 +166,9 @@ Attributes</td><td>
 In DB, you can define the desired class name or styles for the list item through ‘Attributes’ field.</td></tr>
 </table>
 
+{% endhighlight %}
 
-
-
+{% highlight html %}
 
 @model List<FieldSettingsData>
 
@@ -184,25 +184,21 @@ In DB, you can define the desired class name or styles for the list item through
 
 }
 
-
+{% endhighlight %}
 
 The following screenshots display the Field Settings:
 
-{{ '![Field Setting z](Data-Binding_images/Data-Binding_img3.png)' | markdownify }}
-{:.image }
+![Field Setting z](Data-Binding_images/Data-Binding_img3.png)
 
 
-{{ '![Field Setting (2) z](Data-Binding_images/Data-Binding_img4.png)' | markdownify }}
-{:.image }
+![Field Setting (2) z](Data-Binding_images/Data-Binding_img4.png)
 
 
-Query
+## Query
 
 This feature in the ListView is used to fetch data from the DataSource before listing them. A Query is a constraint that is used to take only the data defined through Query.
 
-
-
-
+{% highlight html %}
 
 @{
 
@@ -216,5 +212,6 @@ This feature in the ListView is used to fetch data from the DataSource before li
 
 }
 
+{% endhighlight %}
 
 

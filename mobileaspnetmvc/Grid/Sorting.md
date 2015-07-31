@@ -7,22 +7,13 @@ control: Grid
 documentation: ug
 ---
 
-## Sorting
+# Sorting
 
-Default 
+## Default 
 
 Sorting is a basic technique in ejmGrid. It helps you in viewing grid records through ascending or descending based on particular column. If you want to enable sorting in Grid, use AllowSorting property at Grid initialize. By default, sorting operation can perform through user interaction (UI) on Grid header.
 
-
-
-
-
-
-
-
-
-[razor]
-
+{% highlight html %}
 
   @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -42,29 +33,19 @@ Sorting is a basic technique in ejmGrid. It helps you in viewing grid records th
 
 .AllowSorting(true))
 
-
+{% endhighlight %}
 
 Result of the above code snippet:
 
 
-
-{{ '![16](Sorting_images/Sorting_img1.png)' | markdownify }}
-{:.image }
+![16](Sorting_images/Sorting_img1.png)
 
 
-
-
-Multi sorting 
+## Multi sorting 
 
 ejmGrid also has support to sort more than one column known as Multisorting. To enable this behavior in Grid you can use AllowMultiSorting in Mobile Grid. 
 
-
-
-
-
-
-[razor]
-
+{% highlight html %}
 
   @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -85,16 +66,12 @@ ejmGrid also has support to sort more than one column known as Multisorting. To 
 .AllowSorting(true)
 .SortOption(s=>s.AllowMultiSorting (true)))
 
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
-
-
-{{ '![17](Sorting_images/Sorting_img2.png)' | markdownify }}
-{:.image }
+![17](Sorting_images/Sorting_img2.png)
 
 _Multi sorting_
-
 
 

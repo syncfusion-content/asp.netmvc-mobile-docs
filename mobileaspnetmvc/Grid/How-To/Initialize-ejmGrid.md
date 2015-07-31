@@ -36,7 +36,7 @@ Execute the above code to render the following output.
 
 
 {{ '![1](Initialize-ejmGrid_images/Initialize-ejmGrid_img1.png)' | markdownify }}
-{:.image }
+
 
 
 _Empty grid_

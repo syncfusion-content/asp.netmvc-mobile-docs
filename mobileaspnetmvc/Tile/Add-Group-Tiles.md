@@ -7,9 +7,11 @@ control: Tile
 documentation: ug
 ---
 
-## Add Group Tiles
+# Add Group Tiles
 
 You can use the following pre-defined classes to change a tile as grouped tile. Using this you can achieve the alignment of group tiles automatically instead of writing your own css classes.
+
+{% highlight html %}
 
 <table>
 <tr>
@@ -43,7 +45,7 @@ Default usage:
 
 </div>
 
-
+{% endhighlight %}
 
 
 
@@ -51,6 +53,7 @@ To render column grouped tile, render the number of tiles inside a div element w
 
  Refer to the following code example.
 
+{% highlight html %}
 
 
 <div class="defaultsample" style="margin-top: 45px;">
@@ -95,6 +98,10 @@ To render column grouped tile, render the number of tiles inside a div element w
 
 </div>
 
+{% endhighlight %}
+
+{% highlight css %}
+
     <style>
 
         .e-m-ios7 .defaultsample {
@@ -134,6 +141,10 @@ To render column grouped tile, render the number of tiles inside a div element w
 
 
     </style>
+	
+{% endhighlight %}
+
+{% highlight js %}
 
 <script>
 
@@ -149,25 +160,27 @@ To render column grouped tile, render the number of tiles inside a div element w
 
 </script>
 
-
+{% endhighlight %}
 
 The following screenshots illustrates the output of the above code.
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/ios7changes.png](Add-Group-Tiles_images/Add-Group-Tiles_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/ios7changes.png](Add-Group-Tiles_images/Add-Group-Tiles_img1.png)
 
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_img2.png)' | markdownify }}
-{:.image }
+
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_im.png)
 
 
-{{ '![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/windowschange.png](Add-Group-Tiles_images/Add-Group-Tiles_img3.png)' | markdownify }}
-{:.image }
+
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/windowschange.png](Add-Group-Tiles_images/Add-Group-Tiles_img3.png)
+
 
 
 To render small-col-2 grouped tile, render the number of tiles inside a div element with class ‘small-col-2’ and append that small-col-2 group element to a div with class ‘column’. Now, append those column inside the main group div element. It is used for windows mode only.
 
 Refer to the following code example.
+
+{% highlight html %}
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
@@ -207,11 +220,11 @@ Refer to the following code example.
 
             </div>
 
-
+{% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![](Add-Group-Tiles_images/Add-Group-Tiles_img4.png)' | markdownify }}
-{:.image }
+![](Add-Group-Tiles_images/Add-Group-Tiles_img4.png)
+
 
 

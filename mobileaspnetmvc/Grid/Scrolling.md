@@ -7,18 +7,13 @@ control: Grid
 documentation: ug
 ---
 
-## Scrolling
+# Scrolling
 
-Default
+## Default
 
 Scrolling is an important feature in Mobile Grid. It makes Grid more compatible with layout. You can enable scrolling in Grid by using AllowScrolling property in grid at grid initializes. In this following example, scrolling properties is used to adjust grid width and height of grid. Use the following code to enable scrolling feature in Mobile Grid. 
 
-
-
-
-
-[razor]
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -41,30 +36,19 @@ Scrolling is an important feature in Mobile Grid. It makes Grid more compatible 
         .ScrollOption(s=>s.Height(352)))
 
 
-
-
+{% endhighlight %}
 
 
 Result of above code snippet
 
-{{ '![22](Scrolling_images/Scrolling_img1.png)' | markdownify }}
-{:.image }
+![22](Scrolling_images/Scrolling_img1.png)
 
 
-
-
-Column scrolling 
+## Column scrolling 
 
 Column scrolling is powerful technique in ejmGrid. It makes Grid more compatible with layout. It is very useful feature for Mobile Grid with more columns. By enabling “EnableColumnScrolling” property you can achieve column scrolling. 
 
-
-
-
-
-
-
-[razor]
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -88,16 +72,13 @@ Column scrolling is powerful technique in ejmGrid. It makes Grid more compatible
 
         }))
 
-
-
+{% endhighlight %}
 
 
 Execute the above code to render the following output.
 
 
-
-{{ '![23](Scrolling_images/Scrolling_img2.png)' | markdownify }}
-{:.image }
+![23](Scrolling_images/Scrolling_img2.png)
 
 
 

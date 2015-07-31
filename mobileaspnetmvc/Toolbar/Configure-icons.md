@@ -7,7 +7,7 @@ control: Toolbar
 documentation: ug
 ---
 
-## Configure icons
+# Configure icons
 
 You can use different icons in your Toolbar and also you can customize these icons for each item by using the IconName property.
 
@@ -38,6 +38,8 @@ The following built-in icons can be used in Toolbar.
 
 Refer to the following code example.
 
+{% highlight html %}
+
 @Html.EJMobile().Toolbar("toolbar_sample").Items(items =>
 
    {
@@ -54,15 +56,17 @@ Refer to the following code example.
 
    })
 
-
+{% endhighlight %}
 
 The following screenshot illustrates the output of the above code.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_8.png](Configure-icons_images/Configure-icons_img1.png)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image124_8.png](Configure-icons_images/Configure-icons_img1.png)
+
 
 
 You can set the user defined icons using IconUrl property. This property overrides the IconName property when both properties are set at a time. 
+
+{% highlight html %}
 
     @Html.EJMobile().Toolbar("sample-toolbar").Items(items =>
 
@@ -80,9 +84,11 @@ You can set the user defined icons using IconUrl property. This property overrid
 
    })
 
+{% endhighlight %}
+
  The following screenshot illustrates the output of the above code.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_9.png](Configure-icons_images/Configure-icons_img2.png)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image124_9.png](Configure-icons_images/Configure-icons_img2.png)
+
 
 

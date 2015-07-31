@@ -7,12 +7,13 @@ control: Rotator
 documentation: ug
 ---
 
-## Dependency files
+# Dependency files
 
 This section deals with the dependency files for Rotator control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you use this file, skip this section else, refer to the following script files to render the Rotator control.
 
-_List of Script files_
 
+_List of Script files_
+{% highlight html %}
 <table>
 <tr>
 <td>
@@ -51,5 +52,5 @@ It is referred to handle header control and should be used while rendering Rotat
 ej.mobile.rotator.min.js</td><td>
 It is referred to handle rotator control and should be used while rendering Rotator control.</td></tr>
 </table>
-
+{% endhighlight %}
 

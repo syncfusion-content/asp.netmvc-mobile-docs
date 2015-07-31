@@ -7,11 +7,13 @@ control: Menu
 documentation: ug
 ---
 
-## Templating
+# Templating
 
-RenderTemplate
+## RenderTemplate
 
 By using template support, you can customize the appearance of an individual Menu item or the whole Menu is rendered with a single template. Setting the RenderTemplate to true and specifying the template inside the li item render Menu with template item. Refer to the following code example.
+
+{% highlight html %}
 
 <div style="text-align: center;">
 
@@ -30,16 +32,20 @@ By using template support, you can customize the appearance of an individual Men
            <div><img class="image" src="facebook.gif" /><span class="text">Facebook</span></div>
 
         </div>)
+		
+{% endhighlight %}
 
 The following screenshot displays the RenderTemplate of Menu:
 
-{{ '![C:/Users/dineshr/Desktop/1.png](Templating_images/Templating_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/dineshr/Desktop/1.png](Templating_images/Templating_img1.png)
 
 
-TemplateID
+
+## TemplateID
 
 This property is used to define the Template ID for the Menu item. Template is defined outside and can be rendered by using its ID for Menu items. The template’s ID is set to the TemplatId property for the Menu control so that the template renders along with the Menu. To use TemplateId property, enable the RenderTemplate property.
+
+{% highlight html %}
 
 <div style="text-align: center;">
 
@@ -79,5 +85,5 @@ This property is used to define the Template ID for the Menu item. Template is d
 
 </div>
 
-
+{% endhighlight %}
 

@@ -7,11 +7,12 @@ control: Toolbar
 documentation: ug
 ---
 
-## Dependency files
+# Dependency files
 
 This section deals with the dependency files for the Toolbar control. The file ej.mobile.all.min.js is a mass collection of Essential Mobile controls. When you use this file, you can skip this section else, refer to the following script files to render the Toolbar control.
 
 _Script Files_
+{% highlight html %}
 
 <table>
 <tr>
@@ -60,4 +61,4 @@ ej.mobile.menu.min.js</td><td>
 It is referred to handle menu related configuration while rendering toolbar control.</td></tr>
 </table>
 
-
+{% endhighlight %}

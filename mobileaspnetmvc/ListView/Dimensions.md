@@ -7,13 +7,11 @@ control: ListView
 documentation: ug
 ---
 
-## Dimensions
+# Dimensions
 
 To customize the ListView dimensions, Width and Height properties are used.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").Height(300).ShowHeader(false).Items(items =>
 
@@ -39,23 +37,20 @@ To customize the ListView dimensions, Width and Height properties are used.
 
     items.Add().Text("School-age Crafts");
 
-
-
 })
+
+{% endhighlight %}
 
 The following screenshot displays the Dimensions:
 
-{{ '![Height z](Dimensions_images/Dimensions_img1.png)' | markdownify }}
-{:.image }
+![Height z](Dimensions_images/Dimensions_img1.png)
 
 
-AutoAdjustScrollHeight
+## AutoAdjustScrollHeight
 
 The AutoAdjustScrollHeight is a Boolean property that lets you adjust the scrolling content height automatically in case you have “ejm” elements with fixed position in your application. Default value is set to true.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").AllowScrolling(true).AutoAdjustScrollHeight(true).ShowHeader(false).Items(items =>
 
@@ -81,17 +76,15 @@ The AutoAdjustScrollHeight is a Boolean property that lets you adjust the scroll
 
     items.Add().Text("School-age Crafts");
 
-
-
 })
 
-AutoAdjustHeight
+{% endhighlight %}
+
+## AutoAdjustHeight
 
 When the AutoAdjustHeight property is set to true, it sets the Height of the list element automatically based on the window height. Default value is set to false.
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").AutoAdjustHeight(true).ShowHeader(false).Items(items =>
 
@@ -117,9 +110,7 @@ When the AutoAdjustHeight property is set to true, it sets the Height of the lis
 
     items.Add().Text("School-age Crafts");
 
-
-
 })
 
-
+{% endhighlight %}
 

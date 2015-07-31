@@ -7,11 +7,11 @@ control: Menu
 documentation: ug
 ---
 
-## Windows Specific Customization
+# Windows Specific Customization
 
 You can set the windows specific properties to the control by accessing Windows property.
 
-Type
+## Type
 
 When you click a button or target element, the Menu appears in contextual or popup mode. The appearance of the Menu is defined by Type property. 
 
@@ -20,7 +20,7 @@ The possible values are,
 1. Contextual 
 2. Popup
 
-
+{% highlight html %}
 
     <div style="text-align: center;">
 
@@ -39,10 +39,12 @@ The possible values are,
                 item.Add().Text("Delete");
 
             })
+			
+{% endhighlight %}
 
 The following screenshot displays the Windows-specific Type:
 
-{{ '![Type-Windows](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![Type-Windows](Windows-Specific-Customization_images/Windows-Specific-Customization_img1.png)
+
 
 

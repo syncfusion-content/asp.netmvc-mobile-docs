@@ -7,23 +7,15 @@ control: Grid
 documentation: ug
 ---
 
-## Columns
+# Columns
 
 Colums is a key feature in Grid to define schema in control based on datasource. It is useful to map field to datasource values.
 
-Formatting
+## Formatting
 
 Formatting is used to convert data values to human readable formats using specific culture settings. In Mobil Grid, you can use format property to format particular columns, for more refrence about globalize.js you can refer the link ([https://github.com/jquery/globalize](https://github.com/jquery/globalize)). Refer the following code to use formatting in Grid.
 
-
-
-
-
-
-
-[razor]
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -47,9 +39,10 @@ Formatting is used to convert data values to human readable formats using specif
 
     )
 
+{% endhighlight %}
 
 
-[controller]
+{% highlight c# %}
 
 namespace MVCSampleBrowser.Controllers
 
@@ -100,29 +93,18 @@ public class ColumnFormattingData
         }
 }
 
-
+{% endhighlight %}
 
 Execute the above code to render the following output.
 
+![12](Columns_images/Columns_img1.png)
 
 
-{{ '![12](Columns_images/Columns_img1.png)' | markdownify }}
-{:.image }
-
-
-
-
-Controlling Mobile Grid actions
+## Controlling Mobile Grid actions
 
 In ejmGrid, you can use AllowSorting and AllowFiltering to control Mobile Grid actions. Refer the following code to disable particular column. In the following example, sorting action is controlled in”CustomerID” column and filtering in “Freight” column.
 
-
-
-
-
-[razor]
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -144,37 +126,29 @@ In ejmGrid, you can use AllowSorting and AllowFiltering to control Mobile Grid a
 
         .AllowFiltering(true))
 
-
+{% endhighlight %}
 
 
 Execute the above code to render the following output.
 
-
-
-{{ '![14](Columns_images/Columns_img2.png)' | markdownify }}
-{:.image }
+![14](Columns_images/Columns_img2.png)
 
 
 
-
-Auto-generate column
+## Auto-generate column
 
 The Columns are automatically generated from the datasource and you no need to specify column declarations. Refer the following code to auto generate column behavior with Grid.
 
-
-
-[razor]
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
         .Datasource((IEnumerable<object>)ViewBag.datasource))
+		
+{% endhighlight %}
 
 
-
-
-[controller]
-
+{% highlight c# %}
 
 namespace MVCSampleBrowser.Controllers.Grid
 
@@ -222,15 +196,14 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 }
 
-
+{% endhighlight %}
 
 
 Execute the above code to render Auto-generate columns.
 
 
+![15](Columns_images/Columns_img3.png)
 
-{{ '![15](Columns_images/Columns_img3.png)' | markdownify }}
-{:.image }
 
 
 

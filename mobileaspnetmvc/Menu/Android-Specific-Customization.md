@@ -7,11 +7,11 @@ control: Menu
 documentation: ug
 ---
 
-## Android Specific Customization
+#Android Specific Customization
 
 Set the Android Specific properties to the control by accessing “Android” property.
 
-Type
+## Type
 
 When you click a button or target element, the Menu appears in contextual or popup mode. The appearance of the Menu is defined by Type property. 
 
@@ -22,7 +22,7 @@ The possible values are,
 3. Optionmenu
 4. Optionslist
 
-
+{% highlight html %}
 
     <div style="text-align: center;">
 
@@ -41,10 +41,12 @@ The possible values are,
                 item.Add().Text("Delete");
 
             })
+			
+{% endhighlight %}
 
 The following screenshot displays the Android-specific Type:
 
-{{ '![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)' | markdownify }}
-{:.image }
+![Type-Android](Android-Specific-Customization_images/Android-Specific-Customization_img1.png)
+
 
 

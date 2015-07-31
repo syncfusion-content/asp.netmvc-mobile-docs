@@ -7,16 +7,16 @@ control: Tab
 documentation: ug
 ---
 
-## Styles and Appearance
+# Styles and Appearance
 
 Styles and Appearance of Tab control work based on CSS class. You need a style sheet to apply styles to Tab control that is, ej.mobile.all.min.css.
 
-Customize styles
+## Customize styles
 
 To change the color or design of Tab control appearance, you can override default styles of Tab control using its Css class names. The following are specific class names you can use to modify styles and appearance in Tab.
 
 _Class names_
-
+{% highlight html %}
 <table>
 <tr>
 <td>
@@ -99,7 +99,7 @@ This class is applied to <div> elements that holds content of all the Tab items 
 e-m-state-disabled</td><td>
 This class is applied to content <div> or the Tab item elements when content or Tab item is disabled.</td></tr>
 </table>
-
+{% endhighlight %}
 
 
 

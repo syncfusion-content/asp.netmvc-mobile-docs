@@ -7,9 +7,11 @@ control: Rotator
 documentation: ug
 ---
 
-## Select Item
+# Select Item
 
 Rotator control takes a numeric value given in CurrentItemIndex property and displays the corresponding item that matches the given index. Refer to the following code example.
+
+{% highlight html %}
 
 <!-- header control -->
 
@@ -71,11 +73,11 @@ Rotator control takes a numeric value given in CurrentItemIndex property and dis
 
 </div>
 
+{% endhighlight %}
 
 
 
+![F:/thangavel/dev/source/Trunk/JSDoc/rotator-2.png](Select-Item_images/Select-Item_img1.png)
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-2.png](Select-Item_images/Select-Item_img1.png)' | markdownify }}
-{:.image }
 
 

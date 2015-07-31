@@ -7,15 +7,11 @@ control: Grid
 documentation: ug
 ---
 
-## Persist 
+# Persist 
 
 This section explains you on how to maintain Grid state. Refer the following code example.
 
-
-
- [razor]
-
-
+{% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
@@ -35,15 +31,10 @@ This section explains you on how to maintain Grid state. Refer the following cod
 
 .EnablePersistence(true))
 
-
-
+{% endhighlight %}
 
 
 Execute the above code to render the following output.
 
-{{ '![26](Persist_images/Persist_img1.png)' | markdownify }}
-{:.image }
-
-
-__
+![26](Persist_images/Persist_img1.png)
 

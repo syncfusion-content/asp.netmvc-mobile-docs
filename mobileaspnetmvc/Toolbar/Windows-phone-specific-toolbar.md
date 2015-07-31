@@ -7,11 +7,13 @@ control: Toolbar
 documentation: ug
 ---
 
-## Windows phone specific toolbar
+# Windows phone specific toolbar
 
 In windows phone mode, when the number of toolbar items is more than 4, then the remaining items is rendered inside a menu container. And an overflow icon is added with toolbar to display the menu container.
 
 Refer to the following code example.
+
+{% highlight html %}
 
 @Html.EJMobile().Toolbar("toolbar_sample").RenderMode(RenderMode.Windows).Items(items =>
 
@@ -31,9 +33,11 @@ Refer to the following code example.
 
    })
 
+{% endhighlight %}
+
  The following screenshot illustrates the output of the above code.
 
-{{ '![http://help.syncfusion.com/ug/js/ImagesExt/image124_10.png](Windows-phone-specific-toolbar_images/Windows-phone-specific-toolbar_img1.png)' | markdownify }}
-{:.image }
+![http://help.syncfusion.com/ug/js/ImagesExt/image124_10.png](Windows-phone-specific-toolbar_images/Windows-phone-specific-toolbar_img1.png)
+
 
 

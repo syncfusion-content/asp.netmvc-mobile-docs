@@ -7,15 +7,15 @@ control: Tab
 documentation: ug
 ---
 
-## IOS7 specific customization
+# IOS7 specific customization
 
 You can set IOS7 specific properties to the control by accessing IOS7 property.
 
-ImageClass 
+## ImageClass 
 
 The ImageClass property is used to add images to the Tab by specifying the ImageClass for individual items in the Tab. 
 
-
+{% highlight html %}
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).Items(item =>{
 
@@ -67,9 +67,11 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             })
 
-
+{% endhighlight %}
 
 To add the images, use the following styles.
+
+{% highlight css %}
 
 <style>
 
@@ -153,27 +155,27 @@ To add the images, use the following styles.
 
 </style>
 
-
+{% endhighlight %}
 
 The following screenshot displays ImageClass:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/sources/Screen shots/tab2.png](IOS7-specific-customization_images/IOS7-specific-customization_img1.png)
 
 
-OverflowBadge
+
+## OverflowBadge
 
 In the iOS, when the number of Tab items do not fit the available screen width, it adds a “more” Tab that contains the list of overflowed Tab items as its content. Overflowbadge specifies badge representation for overflowed Tab items (number of updates available in all overflowed Tab items). Set the badge specific properties by means of accessing this property for overflowing Tab items.
 
-Enabled
+## Enabled
 
 The Enabled property is used to enable or disable the badge to your overflow Tab item. Default value is set to false.
 
-Value
+## Value
 
 The Value property is used to set the badge value for the overflow Tab item. Default value is set to 0.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).IOS7(ios7 => ios7.OverflowBadge(overflow => { 
 
@@ -269,19 +271,19 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
             })
 
-
+{% endhighlight %}
 
 The following screenshot displays the Overflow Badge:
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)' | markdownify }}
-{:.image }
+![F:/thangavel/dev/source/Trunk/JSDoc/rotator-5.png](IOS7-specific-customization_images/IOS7-specific-customization_img2.png)
 
 
-MaxValue
+
+## MaxValue
 
 The Value property is used to set the maximum badge value to the overflow Tab item. Default value is set to 100.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).IOS7(ios7 => ios7.OverflowBadge(overflow => { 
 
@@ -377,11 +379,11 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
             })
 
-
+{% endhighlight %}
 
 The following screenshot displays the MaxValue:
 
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png)' | markdownify }}
-{:.image }
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/images/ios7_10.png](IOS7-specific-customization_images/IOS7-specific-customization_img3.png)
+
 
 

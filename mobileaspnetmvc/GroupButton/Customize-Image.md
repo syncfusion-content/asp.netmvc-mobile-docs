@@ -7,13 +7,13 @@ control: Group Button
 documentation: ug
 ---
 
-## Customize Image
+# Customize Image
 
-ImageClass
+## ImageClass
 
 By using this property, you can add specific style to each Group Button item. When a string value is given to ‘ImageClass’ attribute, it adds as a class in the particular item. You can add an image or style by using that class. To achieve this, you can add ‘ImageClass’ attribute to every item.
 
-
+{% highlight html %}
 
 @Html.EJMobile().GroupButton("groupbutton_sample").GroupButtonType(GroupButtonType.radio).
 
@@ -49,21 +49,18 @@ Name("options").Buttons(button =>
 
     </style>
 
-
+{% endhighlight %}
 
 The following screenshot displays the Image Class:
 
-{{ '![](Customize-Image_images/Customize-Image_img1.png)' | markdownify }}
-{:.image }
+![](Customize-Image_images/Customize-Image_img1.png)
 
 
-
-
-ImageUrl
+## ImageUrl
 
 ImageUrl property takes the image given in ‘Imageurl’ attribute and displays the image before the text in Group Button item.
 
-
+{% highlight html %}
 
 @Html.EJMobile().GroupButton("groupbutton_sample").GroupButtonType(GroupButtonType.radio).
 
@@ -79,13 +76,11 @@ Name("options").Buttons(button =>
 
        })
 
-
+{% endhighlight %}
 
 The following screenshot displays the Image URL:
 
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/ios7_4.png](Customize-Image_images/Customize-Image_img2.png)
 
-
-{{ '![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Groupbtton/images/ios7_4.png](Customize-Image_images/Customize-Image_img2.png)' | markdownify }}
-{:.image }
 
 

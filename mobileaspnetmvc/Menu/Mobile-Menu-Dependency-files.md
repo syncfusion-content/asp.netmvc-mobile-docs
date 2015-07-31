@@ -7,11 +7,12 @@ control: Menu
 documentation: ug
 ---
 
-## Mobile Menu Dependency files
+# Mobile Menu Dependency files
 
 This section deals with the dependency files for Menu control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, you can refer the following script files to render the Menu control.
 
 _Script files_
+{% highlight html %}
 
 <table>
 <tr>
@@ -56,4 +57,4 @@ ej.mobile.scrollpanel.min.js<br>ej.mobile.scrollbar.min.js</td><td>
 It is referred to handle scrollpanel related configuration while rendering Menu.</td></tr>
 </table>
 
-
+{% endhighlight %}

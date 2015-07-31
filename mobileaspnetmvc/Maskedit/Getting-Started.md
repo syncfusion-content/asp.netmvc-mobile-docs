@@ -13,13 +13,9 @@ documentation: ug
 
 Essential JavaScript Mobile MaskEdit control allows you to enter input with standard format. From the following guidelines, you can learn how to create a MaskEdit control for adding a contact.
 
-{{ '![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img1.png)' | markdownify }}
-{:.image }
+![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img1.png)
 
-
-
-
-Create the layout
+## Create the layout
 
 Create a MVC application and add the following code example in the <body> tag of layout.cshtml file.
 
@@ -103,35 +99,19 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
 </div>
 
-
-
-
-
-
-
 {% endhighlight %}
 
-
-
-Add MaskEdit Control
+## Add MaskEdit Control
 
 {% highlight html %}
 
-
-
 @Html.EJMobile().MaskEdit("maskedit_sample").WatermarkText("Maskedit").Mask("+1 (999) 999-999")
-
-
-
-
 
 {% endhighlight %}
 
-
-
 Run the code and get the following output.
 
-{{ '![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
-{:.image }
+![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img2.png)
+
 
 

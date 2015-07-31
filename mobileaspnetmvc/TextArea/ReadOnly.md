@@ -7,7 +7,7 @@ control: TextArea
 documentation: ug
 ---
 
-## ReadOnly
+# ReadOnly
 
 When it is set to true, you cannot edit the value in the TextArea. The default value is false.
 
@@ -15,11 +15,7 @@ Refer to the following code example.
 
 {% highlight html %}
 
-
-
-    @Html.EJMobile().TextArea("mailMessage").WatermarkText ("TextArea").ReadOnly(true)
-
-
+@Html.EJMobile().TextArea("mailMessage").WatermarkText ("TextArea").ReadOnly(true)
 
 {% endhighlight %}
 

@@ -7,7 +7,7 @@ control: Rotator
 documentation: ug
 ---
 
-## Customize header
+# Customize header
 
 In Rotator you can enable the built-in header support.
 
@@ -17,7 +17,7 @@ To show or hide the header in Rotator, you can use ShowHeader property. You can 
 
 
 
-{{ '![F:/thangavel/dev/source/Trunk/JSDoc/rotator-3.png](Customize-header_images/Customize-header_img1.png)' | markdownify }}
-{:.image }
+![F:/thangavel/dev/source/Trunk/JSDoc/rotator-3.png](Customize-header_images/Customize-header_img1.png)
+
 
 

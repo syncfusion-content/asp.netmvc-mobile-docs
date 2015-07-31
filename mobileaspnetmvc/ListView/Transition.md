@@ -7,7 +7,7 @@ control: ListView
 documentation: ug
 ---
 
-## Transition
+# Transition
 
 The Transition property is mainly used for the ListView transition effects when navigated from the parent list to the child list and vice-versa. The available transition types are,
 
@@ -15,9 +15,7 @@ The Transition property is mainly used for the ListView transition effects when 
 2. Pop
 3. Turn
 
-
-
-
+{% highlight html %}
 
 @Html.EJMobile().ListView("lb").Transition("slide").Items(items => {    
 
@@ -43,5 +41,5 @@ The Transition property is mainly used for the ListView transition effects when 
 
 })
 
-
+{% endhighlight %}
 

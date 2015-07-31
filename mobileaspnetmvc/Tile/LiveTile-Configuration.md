@@ -7,7 +7,7 @@ control: Tile
 documentation: ug
 ---
 
-## LiveTile Configuration
+# LiveTile Configuration
 
 Live tiles are used to display the current or up to date information like scores, stocks, weather, etc. This functionality is supported only in windows rendermode. 
 
@@ -19,7 +19,7 @@ You can specify time interval for each tile update/animation using UpdateInterva
 
 Refer to the following code example.
 
-
+{% highlight html %}
 
 <div style="margin-top:45px;">
 
@@ -29,9 +29,11 @@ Refer to the following code example.
 
 </div>
 
-
+{% endhighlight %}
 
 Using ImageTemplateId property, you can specify live tile images outside the tile rendering. To achieve this, you have to provide image content inside the element where the path is specified by using templateid. You can update the ImageTemplateId dynamically through updateTemplateID public method.
+
+{% highlight html %}
 
 <div style="margin-top:45px;">
 
@@ -59,11 +61,11 @@ Using ImageTemplateId property, you can specify live tile images outside the til
 
      </div>
 
-
-
-
+{% endhighlight %}
 
 You can specify the array of images for live tile through CSS classes by using ImageClass property and you can define the desired styles in the specified class.
+
+{% highlight html %}
 
 <div style="margin-top:45px;">
 
@@ -72,6 +74,11 @@ You can specify the array of images for live tile through CSS classes by using I
 @Html.EJMobile().Tile("tile").RenderMode(RenderMode.Windows).LiveTile(live => { live.Enabled(true).ImageClass(new string[] { "calendar", "setting" }); })
 
 </div>
+
+{% endhighlight %}
+
+
+{% highlight css %}
 
    <style>
 
@@ -89,5 +96,5 @@ You can specify the array of images for live tile through CSS classes by using I
 
     </style>
 
-
+{% endhighlight %}
 
