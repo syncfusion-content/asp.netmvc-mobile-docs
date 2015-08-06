@@ -22,57 +22,32 @@ You can render the Numeric Textbox control based on the default values for all
 You can create an MVC Project and add necessary assemblies, styles and scripts to it.  Refer [MVC-Getting Started.](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm)
 
 1. Create a View page and add the following template.
-    ~~~html
-
-    <!--Page Header-->
-
-    @Html.EJMobile().Header("page_header").Title("Rooms Availability").Position(MobileHeaderPosition.Fixed)
-
-
-
-    <div id="content" class="content">
-
-        <div class="content_area">
-
-
-
-                <!--Numeric TextBox 1 code here-->
-
-
-
-                <!--Numeric TextBox 2 code here-->
-
-
-
-            <div class="text_row button_cnt">
-
-                @Html.EJMobile().Button("but_submit").Text("Check Availability")                        
-
-            </div>
-
-        </div>
-
-     </div>    
-     ~~~
-	{:.pretty-print}
+   
+   ~~~html
+   <!--Page Header-->
+   @Html.EJMobile().Header("page_header").Title("Rooms Availability").Position(MobileHeaderPosition.Fixed)
+   <div id="content" class="content">
+   <div class="content_area">
+   <!--Numeric TextBox 1 code here-->
+   <!--Numeric TextBox 2 code here-->
+   <div class="text_row button_cnt">
+   @Html.EJMobile().Button("but_submit").Text("Check Availability")                        
+   </div>
+   </div>
+   </div>    
+   ~~~
+   {:.prettyprint}
 
 2. Add the following code example to render Numeric Textbox to input number of persons per room.
 
    ~~~html
    <!--Numeric TextBox 1 code-->
-
    <div class="text_row">
-
-
-
    <label>No of person per room :</label>
-
    @Html.EJMobile().NumericTextbox("persontext").ShowSpinButton(true).MinimumValue(1).MaximumValue(6)
-
    </div>
-
-    ~~~
-    {:.pretty-print}
+   ~~~
+   {:.prettyprint}
 
 
 
@@ -81,84 +56,46 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 3. Add the following code example to render Numeric Textbox to input number of rooms needed.
 
    ~~~html
-
    <!--Numeric TextBox 2 code-->
-
-    <div class="text_row">
-
-
-
-    <label>No of rooms :</label>
-
-
-
+   <div class="text_row">
+   <label>No of rooms :</label>
    @Html.EJMobile().NumericTextbox("roomstxt").ShowSpinButton(true).MinimumValue(1).MaximumValue(5)
-
-
-
-    </div>
-
-    ~~~
-	{:.pretty-print}
+   </div>
+   ~~~
+   {:.prettyprint}
 
 
 
 
 
 4. To improve the look and feel of Rooms Availability Check, you need to add the following styles in the application.
-
-
-     ~~~css
-
-
-     <style>
-
-        .content_area {
-
-            margin-top: 45px;
-
-            padding: 20px;
-
-        }
-
-
-
-        .content {
-
-            max-width: 480px;
-
-            margin: 0 auto;
-
-        }
-
-
-
-        .text_row {
-
-            margin-top: 25px;
-
-        }
-
-
-
-        .button_cnt {
-
-            width: 160px;
-
-            margin-left: auto;
-
-            margin-right: auto;
-
-        }
-
-       </style>
-       ~~~
-	   {:.pretty-print}
+   
+   ~~~cs
+   <style>
+  .content_area {
+   margin-top: 45px;
+   padding: 20px;
+   }
+  .content {
+   max-width: 480px;
+   margin: 0 auto;
+   }
+  .text_row {
+   margin-top: 25px;
+   }
+  .button_cnt {
+   width: 160px;
+   margin-left: auto;
+   margin-right: auto;
+   }
+   </style>
+   ~~~
+   {:.prettyprint}
 
 
 
 
-![][C:/Users/sridhar.SYNCLAPN3965/Downloads/mockup/IMG_0539_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
