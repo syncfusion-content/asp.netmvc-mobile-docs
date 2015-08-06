@@ -15,7 +15,7 @@ EssentialStudio ASP.NET MVC,Mobile Radial Menu control is a context that represe
 
 
 
-Key Features
+### Key Features
 
 * Nested Menu: Support to render child menu item.
 ## Create your first Radial Menu control in MVC
@@ -35,32 +35,24 @@ The following steps guide you to add a Radial Menu control for a mobile applicat
 
 1. Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create a MVC Project, add necessary Dll’s and Scripts.
 2. Add the following code in layout.cshtml page to create a header element.
-
-   ~~~html
-
-   @Html.EJMobile().Header("Header").Title("RadialMenu")
    
-   	~~~
-   {:.pretty-print}
+   ~~~html
+   @Html.EJMobile().Header("Header").Title("RadialMenu")
+   ~~~
+   {:.prettyprint}
 
 
 
 3. Create the page content as follows.
-
-    ~~~html
    
-    <div style="padding: 66px 25px; text-align: justify ">
-
-        <p>
-
-            Syncfusion is the enterprise technology partner of choice for Windows development, delivering a broad range of software frameworks and tools. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications.
-
-        </p>
-
-    </div>
-     
-     ~~~
-     {:.pretty-print}
+   ~~~html
+   <div style="padding: 66px 25px; text-align: justify ">
+   <p>
+   Syncfusion is the enterprise technology partner of choice for Windows development, delivering a broad range of software frameworks and tools. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications.
+   </p>
+   </div>
+   ~~~
+   {:.prettyprint}
 
 ## Add Radial Menu control
 
