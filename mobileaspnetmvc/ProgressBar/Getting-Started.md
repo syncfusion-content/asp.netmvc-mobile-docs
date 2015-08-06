@@ -15,7 +15,7 @@ In this section, you can learn how to create ProgressBar and how to use it in yo
 
 ASP.NET MVC, Mobile ProgressBar is a simple interface that indicates the current progress of an operation, such as uploading a document. In the following guidelines, you will learn about the features in ProgressBar widget and create an App Installer.
 
-![][1](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -92,7 +92,7 @@ You can create an MVC Project and add necessary Dlls and script, with the help o
 
 Run the above code example and you can see the following output.
 
-![][2](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
@@ -140,7 +140,7 @@ You can hide ProgressBar, with desired action on its hide API and you can show i
 
 Run the above code example and you can see the following output.
 
-![][3](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 
@@ -162,7 +162,7 @@ The default text of ProgressBar is downloading. In this scenario you are install
 
 Run the above code example and you can see the following output.
 
-![][1](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 
@@ -236,7 +236,7 @@ Run the above code example and you can see the following output, after you click
 
 
 
-![][4](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img5.png)
 
 
 

@@ -19,7 +19,7 @@ By setting an integer value to Height property, you can change the height of the
 
 Output of Customize dimensions:
 
-![][F:/Progrimg/ios7_phone - Copy (6).png](Customize-dimensions_images/Customize-dimensions_img1.png)
+![](Customize-dimensions_images/Customize-dimensions_img1.png)
 
 
 

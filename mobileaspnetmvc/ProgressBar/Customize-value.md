@@ -19,7 +19,7 @@ The current value of the ProgressBar is specified by using Value property. MaxVa
 
 Output of Customize value:
 
-![][F:/Progrimg/ios7_phone - Copy (2).png](Customize-value_images/Customize-value_img1.png)
+![](Customize-value_images/Customize-value_img1.png)
 
 
 

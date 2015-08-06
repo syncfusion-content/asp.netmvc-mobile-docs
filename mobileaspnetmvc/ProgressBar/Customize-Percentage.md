@@ -19,7 +19,7 @@ Percentage property is used to specify the ProgressBar value in percentage that 
 
 Output of Percentage:
 
-![][F:/Progrimg/ios7_phone - Copy (4).png](Customize-Percentage_images/Customize-Percentage_img1.png)
+![](Customize-Percentage_images/Customize-Percentage_img1.png)
 
 
 
