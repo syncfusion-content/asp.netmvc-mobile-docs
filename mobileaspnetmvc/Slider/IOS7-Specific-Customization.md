@@ -28,7 +28,7 @@ The possible values are,
 
 The following screenshot displays the Slider iOS7:
 
-![][C:/Users/dineshr/Desktop/thumb.png](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)
+![](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img1.png)
 
 
 
@@ -49,7 +49,7 @@ The possible values are,
 
 The following screenshot displays the Slider Orientation:
 
-![][C:/Users/dineshr/Desktop/orient.png](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)
+![](IOS7-Specific-Customization_images/IOS7-Specific-Customization_img2.png)
 
 
 

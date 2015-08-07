@@ -20,8 +20,8 @@ _Class names_
 <table>
 <tr>
 <td>
-{{ '*Files*' | markdownify }}</td><td>
-{{ '*Description/Usage*' | markdownify }}</td></tr>
+{{ '**Files**' | markdownify }}</td><td>
+{{ '**Description/Usage**' | markdownify }}</td></tr>
 <tr>
 <td>
 e-m-slider</td><td>

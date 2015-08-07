@@ -17,7 +17,7 @@ The ASP.NET MVC Mobile Slider allows you to select a single value or a range of 
 
 
 
-![][1](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -135,7 +135,7 @@ Add the following code example to the corresponding view page.
 {% endhighlight %}
 
 Execute the above code to render the following output. 
-![][2](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
@@ -149,7 +149,7 @@ To create the Slider control with a predefined range, add the following code to 
 
 {% endhighlight %}
 
-![][3](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 
@@ -167,7 +167,7 @@ Add the following code to the Slider<div> tag.
 
 Execute the above code to render the following output. 
 
-![][4](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 
@@ -231,7 +231,7 @@ You can get the present value of both the Slider handles at any time using its g
 
 Execute the above code to render the following output. 
 
-![][5](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img5.png)
 
 
 
@@ -276,7 +276,7 @@ Execute the above code to render the following output, when you click submit.
 
 
 
-![][6](Getting-Started_images/Getting-Started_img6.png)
+![](Getting-Started_images/Getting-Started_img6.png)
 
 
 

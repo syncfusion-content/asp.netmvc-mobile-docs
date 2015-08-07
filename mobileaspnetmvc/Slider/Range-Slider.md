@@ -19,7 +19,7 @@ The “EnableRange” property is used to select the range of values that is fro
 
 The following screenshot displays the Range of the Slider:
 
-![][C:/Users/dineshr/Desktop/values.png](Range-Slider_images/Range-Slider_img1.png)
+![](Range-Slider_images/Range-Slider_img1.png)
 
 
 
