@@ -48,7 +48,7 @@ Run this code example and the following output is displayed. For more details, t
 In the Left Pane, you can add listbox for easy navigation. To provide data source for listbox template in the Left Pane content, you can create a ListTemplate.cs file in the model and add the following code example to the file.
 
 
-{% highlight cs %}
+{% highlight c# %}
 
     public class ListTemplate
 
@@ -100,7 +100,7 @@ In the Left Pane, you can add listbox for easy navigation. To provide data sourc
 
 In the controller for the view page, add the following code example.
 
-{% highlight cs %}
+{% highlight c# %}
 
         public ActionResult SplitPaneSample()
 

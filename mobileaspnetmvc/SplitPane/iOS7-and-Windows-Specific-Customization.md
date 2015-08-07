@@ -122,7 +122,7 @@ iOS7
 
 Windows
 
-![][C:/Users/isuriyar/AppData/Local/Temp/SNAGHTML636b64a.PNG](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)
+![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)
 
 
 

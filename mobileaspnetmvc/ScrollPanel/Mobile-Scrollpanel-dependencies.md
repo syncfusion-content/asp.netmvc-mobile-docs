@@ -16,8 +16,8 @@ _Script files_
 <table>
 <tr>
 <td>
-{{ '*File*' | markdownify }}</td><td>
-{{ '*Description/Usage*' | markdownify }}</td></tr>
+{{ '**File**' | markdownify }}</td><td>
+{{ '**Description/Usage**' | markdownify }}</td></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

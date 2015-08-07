@@ -34,7 +34,7 @@ The “EnableHrScroll” and “EnableVrScroll” properties let you enable or d
 
 The following screenshot displays scroll directions:
 
-![][C:/Users/deepal/AppData/Local/Temp/SNAGHTML25ac5382.PNG](Scroll-directions_images/Scroll-directions_img1.png)
+![](Scroll-directions_images/Scroll-directions_img1.png)
 
 
 

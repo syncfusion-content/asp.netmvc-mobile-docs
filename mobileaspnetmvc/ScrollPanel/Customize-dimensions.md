@@ -64,7 +64,7 @@ The “AdjustFixedPosition” is a Boolean property that lets you adjust the scr
 
 The following screenshot displays the auto adjustscroll height:
 
-![][C:/Users/deepal/AppData/Local/Temp/SNAGHTML25abe046.PNG](Customize-dimensions_images/Customize-dimensions_img2.png)
+![](Customize-dimensions_images/Customize-dimensions_img2.png)
 
 
 
