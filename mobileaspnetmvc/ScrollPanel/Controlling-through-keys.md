@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Controlling through keys
+# Controlling through keys
 
 The “EnableKeys” property lets you decide whether the scrollpanel can be controlled by using Arrow keys or not. 
 

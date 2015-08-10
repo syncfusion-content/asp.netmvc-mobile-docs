@@ -261,7 +261,6 @@ Click the Filter icon in column header to make the Filtering textbox visible. Th
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img5.jpeg)
 
 Note: The Filter query is a combination of value and symbols (“<, >, =, etc). For example, you can provide “<10255” in Order ID column. The numeric columns are filtered by using the symbols ‘<’, ‘>’, ‘=’, ‘<=’, ‘>=’, ‘!’ and the string columns are filtered by using the symbols “%” (for startswith and endswith) and “*” (contains). Also, you can use “&&” and “||” operator to provide multiple conditions in single column.
 

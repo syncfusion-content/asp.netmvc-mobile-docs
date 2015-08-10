@@ -7,7 +7,7 @@ control: Password
 documentation: ug
 ---
 
-## Windows Specific Customization
+# Windows Specific Customization
 
 The AllowReset property is used to reset the password value in Windows render mode. The default value is “True”.
 

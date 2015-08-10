@@ -23,7 +23,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
 1. Create a View page and add the following template.
    
-   ~~~html
+   {% highlight html %}
    <!--Page Header-->
    @Html.EJMobile().Header("page_header").Title("Rooms Availability").Position(MobileHeaderPosition.Fixed)
    <div id="content" class="content">
@@ -35,19 +35,17 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
    </div>
    </div>
    </div>    
-   ~~~
-   {:.prettyprint}
+  {% endhighlight %}
 
 2. Add the following code example to render Numeric Textbox to input number of persons per room.
 
-   ~~~html
+   {% highlight html %}
    <!--Numeric TextBox 1 code-->
    <div class="text_row">
    <label>No of person per room :</label>
    @Html.EJMobile().NumericTextbox("persontext").ShowSpinButton(true).MinimumValue(1).MaximumValue(6)
    </div>
-   ~~~
-   {:.prettyprint}
+   {% endhighlight %}
 
 
 
@@ -55,14 +53,13 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
 3. Add the following code example to render Numeric Textbox to input number of rooms needed.
 
-   ~~~html
+   {% highlight html %}
    <!--Numeric TextBox 2 code-->
    <div class="text_row">
    <label>No of rooms :</label>
    @Html.EJMobile().NumericTextbox("roomstxt").ShowSpinButton(true).MinimumValue(1).MaximumValue(5)
    </div>
-   ~~~
-   {:.prettyprint}
+   {% endhighlight %}
 
 
 
@@ -70,7 +67,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
 4. To improve the look and feel of Rooms Availability Check, you need to add the following styles in the application.
    
-   ~~~cs
+   {% highlight css %}
    <style>
   .content_area {
    margin-top: 45px;
@@ -89,8 +86,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
    margin-right: auto;
    }
    </style>
-   ~~~
-   {:.prettyprint}
+  {% endhighlight %}
 
 
 

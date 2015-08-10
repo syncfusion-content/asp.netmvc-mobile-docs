@@ -13,11 +13,11 @@ Essential Studio for ASP.NET MVC Mobile Rotator provides support for data bindin
 
 Using DataBinding property you can enable the databinding and DataSource is used to get the datasource that holds the Rotator items. Refer to the following code example.
 
-
+{% highlight html %}
 
 @model List<Images>
 
-{% highlight html %}
+
 
 <!-- header control -->
 

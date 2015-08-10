@@ -16,10 +16,10 @@ In your application, you can include **image** inside the **Button**. In that ca
 You can refer the following code examples.
 
 
+{% highlight css %}
+    !--In head section--
 
-    &lt;!--In head section--&gt;
-
-&lt;style&gt;
+<style>
 
      .image {
 
@@ -27,16 +27,15 @@ You can refer the following code examples.
 
         }
 
-&lt;/style&gt;
 
 
 
-    &lt;!--In body section--&gt;
+    !--In body section--
 
 @Html.EJMobile().Button("sample_button").ContentType(ButtonContentType.Image).ImageClass("image")
 
 
-
+{% endhighlight %}
 
 
 {% include image.html url="image-support_images/image-support_img1.png" Caption="Button - ImageClass"%}
@@ -50,10 +49,10 @@ By default this property is set to ‘**Left**’.
 You can refer to the following code examples.
 
 ****
-
+{% highlight html %}
 @Html.EJMobile().Button("sample_button").ContentType(ButtonContentType.Both).ImageClass("image").Text("button").ImagePosition(ButtonImagePosition.Left)
 
-
+{% endhighlight %}
 
 
 

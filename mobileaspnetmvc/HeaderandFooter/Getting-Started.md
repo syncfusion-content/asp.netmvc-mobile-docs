@@ -145,35 +145,30 @@ _Header with Buttons_
 
 You can add functionalities for the left and right Header Buttons by triggering its events using LeftButtonTap and RightButtonTap attributes as follows. When you click the Header Buttons, the respective Button-tap events are triggered. 
 
-{% highlight html %}
 
 <table>
 <tr>
 <td>
-@Html.EJMobile().Header("header").Title("Syncfusion").ShowLeftButton(true).ShowRightButton(true).LeftButtonCaption("Back").RightButtonCaption("Next").ClientSideEvents(evt=>{ evt.LeftButtonTap("buttonclicked");evt.RightButtonTap("buttonclicked"); })</td></tr>
+{% highlight html %} @Html.EJMobile().Header("header").Title("Syncfusion").ShowLeftButton(true).ShowRightButton(true).LeftButtonCaption("Back").RightButtonCaption("Next").ClientSideEvents(evt=>{ evt.LeftButtonTap("buttonclicked");evt.RightButtonTap("buttonclicked"); }){% endhighlight %}</td></tr>
 <tr>
 <td>
- <script>//Adding script for header buttons events    function buttonclicked(args) {        $("#dlgcontent").html(args.text + " was selected");        $("#dialog").ejmDialog("open");    }    function dlgclose() {        $("#dialog").ejmDialog("close");    }<br></script></td></tr>
+ {% highlight js %}<script>//Adding script for header buttons events    function buttonclicked(args) {        $("#dlgcontent").html(args.text + " was selected");        $("#dialog").ejmDialog("open");    }    function dlgclose() {        $("#dialog").ejmDialog("close");    }<br></script>{% endhighlight %}</td></tr>
 </table>
 
-{% endhighlight %}
 
 Run the above code and you can see the following output, when you click the Back and Next buttons respectively. 
 
-{% highlight html %}
-
 <table>
 <tr>
 <td>
-![](Getting-Started_images/Getting-Started_img5.png)
+{{ '![](Getting-Started_images/Getting-Started_img5.png)'| markdownify }}
 
 {{ '_Header left button event_'| markdownify }}</td><td>
-![](Getting-Started_images/Getting-Started_img6.png)
+{{ '![](Getting-Started_images/Getting-Started_img6.png)'| markdownify }}
 
 {{ '_Header right button event_'| markdownify }}</td></tr>
 </table>
 
-{% endhighlight %}
 
 ## Create the Footer Control
 

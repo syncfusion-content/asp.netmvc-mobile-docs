@@ -7,7 +7,7 @@ control: Numeric Textbox
 documentation: ug
 ---
 
-## ReadOnly support
+# ReadOnly support
 
 The ReadOnly property is used to enable or disable value changes in the Textbox.
 

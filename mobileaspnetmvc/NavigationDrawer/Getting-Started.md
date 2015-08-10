@@ -26,7 +26,7 @@ The following steps explain you on how to add a Navigation Drawer control.
 1. Creating a MVC Project and adding necessary Dll’s and Scripts using the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm).
 2. Add the following code example in layout page of the application.
 
-    ~~~html
+    {% highlight html %}
 
     <!-- Adding Header Control Here -->
 
@@ -36,8 +36,7 @@ The following steps explain you on how to add a Navigation Drawer control.
 
     </div>
 	
-	~~~
-	{:.pretty-print}
+{% endhighlight %}
 
 ## Add Header control for Navigation Drawer
 

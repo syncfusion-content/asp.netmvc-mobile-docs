@@ -61,7 +61,7 @@ Add the following code example to render the AutoComplete control in the corresp
 @Html.EJMobile().AutoComplete("contacts")   
 {% endhighlight html %}
 
-![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)' | markdownify }}
+![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)
 
 
 

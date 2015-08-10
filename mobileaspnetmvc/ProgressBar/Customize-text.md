@@ -7,7 +7,7 @@ control: ProgressBar
 documentation: ug
 ---
 
-## Customize text
+# Customize text
 
 EnableCustomText property is used to specify the custom text for ProgressBar. The customized text is specified by using the “Text” property. You can refer to the following code examples.
 

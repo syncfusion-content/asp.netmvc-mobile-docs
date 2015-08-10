@@ -23,19 +23,19 @@ The possible values are
 
 You can refer to the following code examples.
 
+{% highlight html %}
 
+<div align="center" style="margin:10px">
 
-&lt;div align="center" style="margin:10px"&gt;
-
-            @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.Windows).Windows(e=>e.Style(WindowsButtonStyle.Normal)) &lt;br /&gt;&lt;br /&gt;
+            @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.Windows).Windows(e=>e.Style(WindowsButtonStyle.Normal)) <br /><br />
 
 
 
             @Html.EJMobile().ActionLink("sample_button2", "").RenderMode(RenderMode.Windows).Windows(e=>e.Style(WindowsButtonStyle.Back))
 
-&lt;/div&gt;
+</div>
 
-
+{% endhighlight %}
 
 
 

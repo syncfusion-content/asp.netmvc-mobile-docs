@@ -7,7 +7,7 @@ control: Navigation Drawer
 documentation: ug
 ---
 
-## Customize ListViewSettings
+# Customize ListViewSettings
 
 The navigation panel accommodates any template, but most of the use cases requires list view control. So built-in support is provided in Navigation Drawer to render ListView control by setting EnableListView property as true. You can customize all the features available in ListView. For example you can customize the width of the list view.
 

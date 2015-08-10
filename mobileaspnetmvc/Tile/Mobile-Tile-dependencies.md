@@ -12,13 +12,12 @@ documentation: ug
 This section deals with the dependency files for Tile control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are use this file, skip this section, else refer to the following script files to render the Tile control.
 
 _Script Files_
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-File</td><td>
-Description/Usage</td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -49,4 +48,3 @@ ej.mobile.tile.min.js</td><td>
 It is referred to render tile control and to handle tile specific operations.</td></tr>
 </table>
 
-{% endhighlight %}

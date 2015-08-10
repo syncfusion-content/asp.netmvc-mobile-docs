@@ -7,7 +7,7 @@ control: Numeric Textbox
 documentation: ug
 ---
 
-## Customize Watermark Text
+# Customize Watermark Text
 
 The WatermarkText property is used to define watermark text in the control, that is, it acts like a label for the Textbox. This text appears in the background of the Numeric Textbox.
 

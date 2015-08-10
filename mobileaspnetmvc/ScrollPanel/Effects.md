@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Effects
+# Effects
 
 ## Bouncing
 

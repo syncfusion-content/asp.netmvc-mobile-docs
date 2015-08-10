@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Show Scrollbars
+# Show Scrollbars
 
 The “ShowScrollbars” property is to control the visibility of the Scrollbars in your application. By default, this property is set to true. 
 

@@ -7,7 +7,7 @@ control: Radial Menu
 documentation: ug
 ---
 
-## Customize buttons
+# Customize buttons
 
 You can simply customize the Radial Menu Center and Back buttons (images) by using ImageClass and BackImagecCass properties respectively. 
 

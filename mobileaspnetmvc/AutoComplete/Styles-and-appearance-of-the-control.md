@@ -19,9 +19,9 @@ _Class names_
 
 <table>
 <tr>
-<td>
-e-m-acc-wrapper</td><td>
-This class name is applied at the root of the AutoComplete control.</td></tr>
+<th>
+e-m-acc-wrapper</th><th>
+This class name is applied at the root of the AutoComplete control.</th></tr>
 <tr>
 <td>
 e-m-acc-input</td><td>

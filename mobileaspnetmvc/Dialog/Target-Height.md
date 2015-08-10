@@ -12,26 +12,26 @@ documentation: ug
 The TargetHeight property specifies the target height of the Dialog.
 
 
-{% highlight html %}
-@{
+            {% highlight html %}
+            @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").TargetHeight(500).Content(
+            @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").TargetHeight(500).Content(
 
-@<div>
+            @<div>
 
-Syncfusion provides software components and tools for the Microsoft .NET platform
+            Syncfusion provides software components and tools for the Microsoft .NET platform
 
-</div>)
+            </div>)
 
-}
+              }
 
 
 
-<div style="text-align: center">
+            <div style="text-align: center">
 
-@Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
+            @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-</div>
+           </div>
 {% endhighlight %}
 
 {% highlight js %}

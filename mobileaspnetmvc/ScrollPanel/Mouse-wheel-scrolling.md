@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Mouse wheel scrolling
+# Mouse wheel scrolling
 
 The “EnableMouseWheel” is a Boolean property that lets you decide whether or not the ScrollPanel can be controlled by using mouse wheel. By default, this property is set to true.
 

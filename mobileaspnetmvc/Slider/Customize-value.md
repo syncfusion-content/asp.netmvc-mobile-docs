@@ -7,7 +7,7 @@ control: Slider
 documentation: ug
 ---
 
-## Customize value
+# Customize value
 
 Value property is used to set the value for the Slider on initialization. MaximumValue sets the maximum value the Slider can hold and MinimumValue sets the minimum value the Slider can hold. IncrementStep property specifies the step-by-step increment value of the Slider when the Slider knob is dragged. You can refer the following code example.
 

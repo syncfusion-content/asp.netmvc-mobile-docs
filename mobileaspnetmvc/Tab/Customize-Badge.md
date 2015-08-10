@@ -83,9 +83,12 @@ The following screenshot displays the Customization of Badge:
 
 The MaxValue property is used to set the maximum badge value to a Tab item. Default value is set to 100. 
 
+{% highlight html %}
+ 
+ 
  [MVC]
 
-{% highlight html %}
+
 
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).Items(item =>{

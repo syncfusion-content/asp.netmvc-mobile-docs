@@ -7,7 +7,7 @@ control: Radial Menu
 documentation: ug
 ---
 
-## Dimensions
+# Dimensions
 
 You can customize Radial Menu width (radius) by using Radius property and its position by using Position property.
 

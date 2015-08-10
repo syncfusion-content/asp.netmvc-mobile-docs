@@ -14,12 +14,12 @@ documentation: ug
 The AllowScrolling property is used to enable scrollingbehavior for the Dialog content. The default value is true.
 
 
-{% highlight html %}
-@{
+        {% highlight html %}
+        @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").AllowScrolling(false).Content(
+        @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").AllowScrolling(false).Content(
 
-@<div>
+         @<div>
 
          Syncfusion provides software components and tools for the Microsoft .NET    
 
@@ -34,20 +34,20 @@ The AllowScrolling property is used to enable scrollingbehavior for the Dialog c
          and numerous updates to its current lineup.At the forefront of Volume 1 are 27 
 
          new JavaScript libraries designed specifically for mobile development.
-
-</div>)
+ 
+         </div>)
 
 }
 
-<div style="text-align: center">
+         <div style="text-align: center">
 
-@Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
+         @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-</div>
-{% endhighlight %}
+         </div>
+         {% endhighlight %}
 
-{% highlight js %}
-[Script]
+         {% highlight js %}
+         [Script]
 
 
 

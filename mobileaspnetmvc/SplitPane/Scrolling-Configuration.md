@@ -7,7 +7,7 @@ control: SplitPane
 documentation: ug
 ---
 
-## Scrolling Configuration
+# Scrolling Configuration
 
 ## RightPane Scroll Settings
 

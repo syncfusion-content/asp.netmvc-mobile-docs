@@ -7,7 +7,7 @@ control: Rating
 documentation: ug
 ---
 
-## Customize Orientation        
+# Customize Orientation        
 
 Customize Orientation specifies the display orientation. It can be,
 

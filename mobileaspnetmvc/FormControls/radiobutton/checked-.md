@@ -11,73 +11,73 @@ documentation: ug
 
 This is a **Boolean** property that lets you choose whether **RadioButton** needs to be selected by default or not. By default, this property is set to **false**.
 
+{% highlight html %}
 
+<div align="center">
 
-&lt;div align="center"&gt;
+    <br />
 
-    &lt;br /&gt;
+    <div>
 
-    &lt;div&gt;
+        <div>
 
-        &lt;div&gt;
-
-            &lt;div&gt;
+            <div>
 
                 <b>Marital Status</b>
 
-            &lt;/div&gt;
+            </div>
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;br /&gt;
+        <br />
 
-        &lt;table&gt;
+        <table>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single").**Checked(true)**
+                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single").Checked(true)
 
 
 
-                &lt;/td&gt;
+                </td>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married ")
 
-                &lt;/td&gt;
+                </td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
 
-                &lt;/td&gt;
+                </td>
 
 
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
 
-                &lt;/td&gt;
+                </td>
 
 
 
-            &lt;/tr&gt;
+            </tr>
 
-        &lt;/table&gt;
+        </table>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
-
+{% endhighlight %}
 
 The following screenshot displays **checked** status:
 

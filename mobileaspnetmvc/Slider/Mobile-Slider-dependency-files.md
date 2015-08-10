@@ -7,7 +7,7 @@ control: Slider
 documentation: ug
 ---
 
-## Mobile Slider dependency files
+# Mobile Slider dependency files
 
 This section deals with the dependency files for Slider control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, then you can refer the following script files to render the Slider control.
 
@@ -15,9 +15,9 @@ _Script files_
 
 <table>
 <tr>
-<td>
-{{ '**Files**' | markdownify }}</td><td>
-{{ '**Description/Usage**' | markdownify }}</td></tr>
+<th>
+{{ '**Files**' | markdownify }}</th><th>
+{{ '**Description/Usage**' | markdownify }}</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

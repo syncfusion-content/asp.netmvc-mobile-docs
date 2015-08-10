@@ -7,7 +7,7 @@ control: ProgressBar
 documentation: ug
 ---
 
-## Customize Percentage
+# Customize Percentage
 
 Percentage property is used to specify the ProgressBar value in percentage that depends on maximum value. You can refer to the following code examples.  
 

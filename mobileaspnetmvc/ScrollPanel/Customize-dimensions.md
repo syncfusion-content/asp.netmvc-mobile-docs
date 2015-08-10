@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Customize dimensions
+# Customize dimensions
 
 ##Scroll height and width
 

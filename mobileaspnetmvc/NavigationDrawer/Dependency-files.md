@@ -7,7 +7,7 @@ control: Navigation Drawer
 documentation: ug
 ---
 
-## Dependency files
+# Dependency files
 
 This section deals with the dependency files for NavigationDrawer control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you use this file, you can skip this section. Else, refer to the following script files to render the Navigationdrawer control.
 
@@ -15,9 +15,9 @@ _List of Script files_
 
 <table>
 <tr>
-<td>
-{{ '**Files**' | markdownify }}</td><td>
-{{ '**Description/Usage**' | markdownify }}</td></tr>
+<th>
+{{ '**Files**' | markdownify }}</th><th>
+{{ '**Description/Usage**' | markdownify }}</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

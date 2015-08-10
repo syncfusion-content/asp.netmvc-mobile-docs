@@ -9,13 +9,13 @@ documentation: ug
 
 # Customize Watermark Text
 
-**WatermarkText** property is used to define mark text in the control, that is, it acts like a label for the **Textbox**. This text appears in the background of the **Numeric****Textbox**.
+WatermarkText property is used to define mark text in the control, that is, it acts like a label for the Textbox. This text appears in the background of the Numeric Textbox.
 
+{% highlight html %}
 
+@Html.EJMobile().NumericTextbox("textbox_sample").WatermarkText("Enter the number")
 
-@Html.EJMobile().NumericTextbox("textbox_sample").**WatermarkText("Enter the number")**
-
-
+{% endhighlight %}
 
 The following screenshot displays the output.
 

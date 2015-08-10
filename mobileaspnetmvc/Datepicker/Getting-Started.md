@@ -27,7 +27,8 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 
 1. Add the following code example to the corresponding view page.
 
-~~~ html
+{% highlight html %}
+
 @Html.EJMobile().Header("header").Title("Ticket Booking")
 
 <div id="content_container">
@@ -39,16 +40,17 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
     </div>
 
 </div>
-~~~
-{:.pretty-print}
+
+{% endhighlight %}
 
 
 
 
 2. To render the DatePicker control, you can add the following code example, where two DatePickers are added, to specify start and end date.
 
-~~~ html
-    <table>
+{% highlight html %}
+    
+<table>
 
             <tr>
 
@@ -95,16 +97,17 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
             </tr>
 
         </table>
-~~~
-{:.pretty-print}
+
+{% endhighlight %}
 
 3. Apply the following styles to align the DatePickers.
 
 
 
 
-~~~ css
-    <style type="text/css" class="cssStyles">
+{% highlight css %}
+    
+<style type="text/css" class="cssStyles">
 
         .tdclass
 
@@ -129,8 +132,8 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
         }
 
     </style>
-~~~
-{:.pretty-print}
+
+{% endhighlight %}
 
 
 4. Run the above code example and you can see the following output.
@@ -149,7 +152,8 @@ In a real-time ticket booking scenario, the booking is open only for a limited n
 
 
 {% highlight js %}
-    <script type="text/javascript">
+    
+	<script type="text/javascript">
 
         var curDate = new Date();// mentions the current date.
 
@@ -175,7 +179,9 @@ In a real-time ticket booking scenario, the booking is open only for a limited n
 
         });
 
-    </script>
+    
+</script>
+
 {% endhighlight %}
 
 

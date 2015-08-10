@@ -7,7 +7,7 @@ control: Numeric Textbox
 documentation: ug
 ---
 
-## Border Support
+# Border Support
 
 The ShowBorder property is used to specify whether Textbox border is visible or hidden.
 

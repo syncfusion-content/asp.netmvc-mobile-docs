@@ -25,22 +25,22 @@ The possible values are
 
 You can refer to the following code examples.
 
+{% highlight html %}
+
+<div align="center" style="margin:10px">
+
+            @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.Flat).Flat(e => e.Style(FlatButtonStyle.Normal)) 
 
 
-&lt;div align="center" style="margin:10px"&gt;
 
-            @Html.EJMobile().Button("sample_button1").Text("Normal").RenderMode(RenderMode.Flat).Flat(e => e.Style(FlatButtonStyle.Normal)) &lt;br /&gt;&lt;br /&gt;
-
-
-
-@Html.EJMobile().ActionLink("sample_button1", "").Text("Back").RenderMode(RenderMode.Flat).Flat(e => e.Style(FlatButtonStyle.Back)) &lt;br /&gt;&lt;br /&gt;
+@Html.EJMobile().ActionLink("sample_button1", "").Text("Back").RenderMode(RenderMode.Flat).Flat(e => e.Style(FlatButtonStyle.Back))
 
       @Html.EJMobile().Button("sample_button1").Text("Header").RenderMode(RenderMode.Flat).Flat(e => e.Style(FlatButtonStyle.Header))
 
-&lt;/div&gt;
+<div>
 
 
-
+{% endhighlight %}
 
 
 {% include image.html url="flat-specific-customization_images/flat-specific-customization_img1.png" Caption="Button - Flat Style"%}

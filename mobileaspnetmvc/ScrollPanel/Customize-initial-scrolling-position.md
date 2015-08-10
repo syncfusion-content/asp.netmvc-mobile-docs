@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Customize initial scrolling position	
+# Customize initial scrolling position	
 
 The “StartX” and “StartY” properties allow you to specify initial position of the scrolling content along x-axis and y-axis respectively. By default, these properties’ values are set to 0. Refer to the following code example.
 

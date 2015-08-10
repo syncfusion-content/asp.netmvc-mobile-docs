@@ -11,73 +11,73 @@ documentation: ug
 
 The **Enabled** property that lets you enable or disable the options. When set to **false**, this prevents you from selecting that particular choice. By default, this property is set to **true**.
 
+{% highlight html %}
 
+<div align="center">
 
-&lt;div align="center"&gt;
+    <br />
 
-    &lt;br /&gt;
+    <div>
 
-    &lt;div&gt;
+        <div>
 
-        &lt;div&gt;
-
-            &lt;div&gt;
+            <div>
 
                 <b>Marital Status</b>
 
-            &lt;/div&gt;
+            </div>
 
-        &lt;/div&gt;
+        </div>
 
-        &lt;br /&gt;
+        <br />
 
-        &lt;table&gt;
+        <table>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single")
 
 
 
-                &lt;/td&gt;
+                </td>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married").**Enabled(false)**
+                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married").Enabled(false)
 
-                &lt;/td&gt;
+                </td>
 
-            &lt;/tr&gt;
+            </tr>
 
-            &lt;tr&gt;
+            <tr>
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
 
-                &lt;/td&gt;
+                </td>
 
 
 
-                &lt;td width="100px"&gt;
+                <td width="100px">
 
                     @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
 
-                &lt;/td&gt;	
+                </td>	
 
 
 
-            &lt;/tr&gt;
+            </tr>
 
-        &lt;/table&gt;
+        </table>
 
-    &lt;/div&gt;
+    </div>
 
-&lt;/div&gt;
+</div>
 
-
+{% endhighlight %}
 
 The following screenshot displays **enabled** option:
 

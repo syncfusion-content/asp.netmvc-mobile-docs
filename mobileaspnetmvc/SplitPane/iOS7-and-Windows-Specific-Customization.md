@@ -7,7 +7,7 @@ control: SplitPane
 documentation: ug
 ---
 
-## iOS7 and Windows Specific Customization
+# iOS7 and Windows Specific Customization
 
 You can set the android and windows specific properties to the control by using the following settings.
 

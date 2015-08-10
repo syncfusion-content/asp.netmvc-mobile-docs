@@ -22,12 +22,14 @@ The possible values are
 * Both
 
 You can refer to the following code examples.
-
+{% highlight html %}
 @Html.EJMobile().Button("sample_button").Text("button").ContentType(ButtonContentType.Text)
-
+{% endhighlight %}
 
 
 {% include image.html url="customize-contenttype-and-text_images/customize-contenttype-and-text_img1.png" Caption="Button – ContentType"%}
+
+
 
 **Text**
 
@@ -35,13 +37,13 @@ This property allows you to specify the text to be appeared inside the **Button*
 
 You can refer to the following code examples.
 
-
+{% highlight html %}
 
            @Html.EJMobile().Button("sample_button").Text("button")
 
 
 
-
+{% endhighlight %}
 
 {% include image.html url="customize-contenttype-and-text_images/customize-contenttype-and-text_img2.png" Caption="Button – Text"%}
 

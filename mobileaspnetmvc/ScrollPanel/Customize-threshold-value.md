@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Customize threshold value
+# Customize threshold value
 
 The thresholdvalue is used to initiate scrolling function, that is, the direction of scrolling based on the touch movement and at what distance (movement) the scrolling should be initiated. The “DirectionLockThreshold” property specifies the thresholdvalue where the x/y positions are to be controlled with the respect to z axis. By default, this property is set to 5.
 

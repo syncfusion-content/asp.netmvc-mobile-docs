@@ -7,7 +7,7 @@ control: Rating
 documentation: ug
 ---
 
-## Customize shape
+# Customize shape
 
 The Shape property is used to specify the shape of the Rating. The possible values are,
 

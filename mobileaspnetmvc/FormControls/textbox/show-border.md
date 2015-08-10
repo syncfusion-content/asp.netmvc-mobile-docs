@@ -13,23 +13,23 @@ documentation: ug
 
 Refer to the following code example.
 
+{% highlight html %}
 
-
-@Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox").**ShowBorder(false)**
-
-
-
-    @Html.EJMobile().PassWord("textbox_sample").WatermarkText("Password").**ShowBorder(false**)
+@Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox").ShowBorder(false)
 
 
 
-    @Html.EJMobile().TextArea("textbox_sample").WatermarkText("Textarea").**ShowBorder(false)**
+    @Html.EJMobile().PassWord("textbox_sample").WatermarkText("Password").ShowBorder(false)
 
 
 
-    @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("Maskedit").**ShowBorder(false).**Mask("+1 (999) 999-999")  
+    @Html.EJMobile().TextArea("textbox_sample").WatermarkText("Textarea").ShowBorder(false)
 
 
+
+    @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("Maskedit").ShowBorder(false).Mask("+1 (999) 999-999")  
+
+{% endhighlight %}
 
 {% include image.html url="show-border_images/show-border_img1.png" Caption="Figure 33: Textbox -Show Border"%}
 

@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Monitor DOM Changes
+# Monitor DOM Changes
 
 The “CheckDOMChanges” property lets you specify whether or not to refresh the Scrollpanel automatically when elements are added to the DOM tree dynamically. By default, this property is set to false. 
 

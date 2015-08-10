@@ -16,14 +16,13 @@ Filtering behavior is used to filter particular or related records in Mobile Gri
 Filter bar is the filtering type available in Mobile Grid. It is otherwise called as text filtering because filter bar working is based on text boxes. Through this you can filter records. Filter bar contains expression to filter records. They are based on type of column. Refer the following table for expression usage
 
 _Filter Bar Record Table_
-{% highlight html %}
 
 <table>
 <tr>
-<td rowspan = "4">
-Numeric column</td><td>
-> value</td><td rowspan = "4">
-To filter numeric column. You can use these expressions.</td></tr>
+<th rowspan = "4">
+Numeric column</th><th>
+> value</th><th rowspan = "4">
+To filter numeric column. You can use these expressions.</th></tr>
 <tr>
 <td>
 < value</td></tr>
@@ -56,7 +55,6 @@ Equal</td><td>
 Boolean filter bar works with either true or false.</td></tr>
 </table>
 
-{% endhighlight %}
 
  Refer the following code example for filter bar
 
@@ -114,13 +112,12 @@ _Default Filtering_
 ejmGrid uses filter operators from DataManager that is used at the time of filtering. Here you can learn about filter operators and its usage categories. Filter operators denotes filtering type.
 
 _Filter Operators Table_
-{% highlight html %}
 
 <table>
 <tr>
 <td>
-Column type</td><td>
-Filter operators</td></tr>
+Column type</th><th>
+Filter operators</th></tr>
 <tr>
 <td>
 Number</td><td>
@@ -139,4 +136,3 @@ Date</td><td>
 ej.FilterOperators.greaterThanej.FilterOperators.greaterThanOrEqualej.FilterOperators.lessThanej.FilterOperators.lessThanOrEqualej.FilterOperators.equal</td></tr>
 </table>
 
-{% endhighlight %}

@@ -7,7 +7,7 @@ control: Navigation Drawer
 documentation: ug
 ---
 
-## Styles and Appearance
+# Styles and Appearance
 
 Styles and appearance of Navigation Drawer works based on CSS class. You require one style sheet to apply styles to Navigation drawer control ej.mobile.all.min.css
 
@@ -19,9 +19,9 @@ _List of Class names_
 
 <table>
 <tr>
-<td>
-{{ '**Files**' | markdownify }}</td><td>
-{{ '**Description/Usage**' | markdownify }}</td></tr>
+<th>
+{{ '**Files**' | markdownify }}</th><th>
+{{ '**Description/Usage**' | markdownify }}</th></tr>
 <tr>
 <td>
 e-m-nb</td><td>

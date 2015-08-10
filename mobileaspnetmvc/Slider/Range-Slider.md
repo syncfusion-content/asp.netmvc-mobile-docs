@@ -7,7 +7,7 @@ control: Slider
 documentation: ug
 ---
 
-## Range Slider
+# Range Slider
 
 The “EnableRange” property is used to select the range of values that is from and to values. The “Values” property specifies the “from” and “to” values for the RangeSlider on initialization. Default value of the “EnableRange” property is set to “false”.
 

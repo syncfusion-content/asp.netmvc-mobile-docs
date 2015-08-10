@@ -19,9 +19,9 @@ _Class names_
 
 <table>
 <tr>
-<td>
-{{ '*Class*' | markdownify }}</td><td>
-{{ '*Description*' | markdownify }} </td></tr>
+<th>
+{{ '*Class*' | markdownify }}</th><th>
+{{ '*Description*' | markdownify }} </th></tr>
 <tr>
 <td>
 e-m-acc                                           </td><td>

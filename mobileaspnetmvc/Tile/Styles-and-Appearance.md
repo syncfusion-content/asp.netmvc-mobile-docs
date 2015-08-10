@@ -16,13 +16,12 @@ Styles and appearance of Tile, works based on CSS class. A style sheet is requir
 To change the color or design of the Tile control appearance, you can override default styles of the Tile control by using its class names. The following are specific class names that you can use to modify styles and appearance in the Tile.
 
 _List of classes_
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-File</td><td>
-Description/Usage</td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 e-m-tile</td><td>
@@ -57,6 +56,5 @@ e-m-template-caption</td><td>
 This class is applied to tile caption when tile has captiontemplateid property.</td></tr>
 </table>
 
-{% endhighlight %}
 
 

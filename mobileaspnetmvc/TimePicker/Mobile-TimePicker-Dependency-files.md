@@ -12,13 +12,12 @@ documentation: ug
 This section deals with the dependency files for the TimePicker control. The file, ej.mobile.all.min.js, is a mass collection of Mobile controls. When you are using this file, then you can skip this section. When you are not, then you can refer to the following script files to render the TimePicker control.
 
 _Script Files_
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-Files</td><td>
-Description/Usage</td></tr>
+<th>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -73,4 +72,3 @@ ej.mobile.toolbar.min.js</td><td>
 It is referred to handle toolbar related configuration while rendering the TimePicker.</td></tr>
 </table>
 
-{% endhighlight %}

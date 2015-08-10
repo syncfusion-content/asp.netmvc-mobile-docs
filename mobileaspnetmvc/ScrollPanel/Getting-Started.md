@@ -27,16 +27,15 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
 
 1. Add the following header control code in layout.cshtml page.
    
-   ~~~html
+   {% highlight html %}
    <!-- Header control -->
    @Html.EJMobile().Header("header").Title("Syncfusion")
-   ~~~
-   {:.prettyprint}
+   {% endhighlight %}
 
 
 2. Add the following code example to the corresponding view page.
    
-   ~~~html
+  {% highlight html %}
    <!-- Content that needs to be scrolled-->
    <div id="content" style="text-align:justify;">
    <div>
@@ -46,12 +45,11 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
    </div>
    </div>
    <!— Add scroll panel helper here-->
-   ~~~
-   {:.prettyprint}
+  {% endhighlight %}
 
 3. Add the following styles to display image and align the content.
    
-   ~~~css
+   {% highlight css %}
    <style>
    #image
    {
@@ -67,8 +65,7 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
    text-indent: 2em;
    }
    </style>
-   ~~~
-   {:.prettyprint}
+   {% endhighlight %}
 
 Run the above code example to render the following output.
 

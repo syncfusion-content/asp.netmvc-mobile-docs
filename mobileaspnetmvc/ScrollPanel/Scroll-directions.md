@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Scroll directions
+# Scroll directions
 
 The “EnableHrScroll” and “EnableVrScroll” properties let you enable or disable the horizontal and vertical scrolling feature respectively. By default, “EnableHrScroll” property is set to false and “EnableVrScroll” is set to true. 
 

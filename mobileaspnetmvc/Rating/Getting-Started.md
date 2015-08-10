@@ -25,7 +25,7 @@ The following steps guide you to add a Rating control for a mobile application. 
 1. Create a simple MVC application and add the following header page content inside the body tag of layout.cshtml. 
 2. Creating a MVC Project and adding necessary Dll’s and Scripts is done with the help of the [MVC-Getting Started](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm) Documentation.
    
-   ~~~html
+   {% highlight html %}
    @Html.EJMobile().Header("header").Title(" Google Search") .Position(MobileHeaderPosition.Normal)
    <br />
    <style>
@@ -42,15 +42,14 @@ The following steps guide you to add a Rating control for a mobile application. 
    <div>
    @RenderBody()
    </div>   
-   ~~~
-   {:.prettyprint}
+   {% endhighlight %}
      
 
 
 
 3. Add the following template to the corresponding view page to create Rating control for this scenario.
    
-   ~~~html
+   {% highlight html %}
    <div id="content">
    <div align="center" id="form" style="padding: 10px;">
    <div id="image">
@@ -71,18 +70,16 @@ The following steps guide you to add a Rating control for a mobile application. 
    <!-- Scroll panel -->
    <div data-role="ejmscrollpanel" data-ej-target="content">
    </div>
-   ~~~
-   {:.prettyprint}
+   {% endhighlight %}
 
 
 ## Adding Rating control
 
 1. To add a Rating control you need to call “Rating” helper. Initially MobileRating control is rendered with default values of all the properties and you can easily customize MobileRating control by changing their properties according to your requirement.  
    
-   ~~~html
+   {% highlight html %}
    @Html.EJMobile().Rating("rating")
-   ~~~
-   {:.prettyprint}
+   {% endhighlight %}
 
 
 2. Execute this code to render a Rating control to rate the application by selecting the stars. For more details, to run the samples refer "Common Getting Started" section.

@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Mobile Scrollpanel dependencies
+# Mobile Scrollpanel dependencies
 
 This section deals with dependency files for ScrollPanel control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When not, then you need to refer to the following script files to render the ScrollPanel control.
 
@@ -15,9 +15,9 @@ _Script files_
 
 <table>
 <tr>
-<td>
-{{ '**File**' | markdownify }}</td><td>
-{{ '**Description/Usage**' | markdownify }}</td></tr>
+<th>
+{{ '**File**' | markdownify }}</th><th>
+{{ '**Description/Usage**' | markdownify }}</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

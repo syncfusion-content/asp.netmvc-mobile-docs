@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Prevent default action
+# Prevent default action
 
 The default action of mouse while dragging over the page is text selection. While using ScrollPanel, you can prevent the default action by using PreventDefault property.  By default, this property is set to true. 
 

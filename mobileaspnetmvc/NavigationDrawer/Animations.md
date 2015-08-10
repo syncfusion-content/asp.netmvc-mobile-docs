@@ -7,7 +7,7 @@ control: Navigation Drawer
 documentation: ug
 ---
 
-## Animations
+# Animations
 
 You can set the transition type of the Navigation Drawer by using Type property. The possible transition types are slide and overlay. 
 
@@ -15,7 +15,7 @@ Slide – Both navigation panel and content page slides towards left/right direc
 
 Overlay – Only navigation panel slides over the content page to view the navigation panel items that is, part of the content page is hidden under navigation panel.
 
-> _Note: Transition slide type only working with position fixed._
+ _Note: Transition slide type only working with position fixed._
 
 Refer to the following code example.
 

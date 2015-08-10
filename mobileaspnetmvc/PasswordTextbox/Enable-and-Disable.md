@@ -7,7 +7,7 @@ control: Password
 documentation: ug
 ---
 
-## Enable and Disable
+# Enable and Disable
 
 The Enabled property is used to enable or disable your Textbox control. The default value is “True”.
 

@@ -16,12 +16,11 @@ Styles and Appearance of the ListView work based on CSS class. You need a style 
 To change the color or design of the ListView control appearance, you can override default styles of the ListView control by using its class names. The following are specific class names you can use to modify styles and appearance in the ListView.
 
 _Class Names_
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-File</td><td>
+<th>
+File</th><th>
 Description/Usage</td></tr>
 <tr>
 <td>
@@ -109,4 +108,3 @@ e-m-list-text</td><td>
 This class is applied to span element inside the ListView items.</td></tr>
 </table>
 
-{% endhighlight %}

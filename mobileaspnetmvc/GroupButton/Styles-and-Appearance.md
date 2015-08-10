@@ -16,13 +16,12 @@ Styles and Appearance of Group Button work based on CSS class. You need a style 
 To change the color or design of Group Button control’s appearance, you can override default styles of Group Button control by using its class names. The following are specific class names you can use to modify styles and appearance in Group Button.
 
 _Class names_
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-e-m-grpbtn</td><td>
-This is the root class of the Group Button.</td></tr>
+<th>
+e-m-grpbtn</th><th>
+This is the root class of the Group Button.</th></tr>
 <tr>
 <td>
 e-m-btn</td><td>
@@ -45,7 +44,6 @@ e-m-corner-right</td><td>
 This class is applied to label element of rightmost Group Button item.</td></tr>
 </table>
 
-{% endhighlight %}
 
 
 

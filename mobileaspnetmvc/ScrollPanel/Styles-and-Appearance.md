@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Styles and Appearance
+# Styles and Appearance
 
 Styles and appearance of ScrollPanel work based on CSS class. You need a style sheet to apply styles to ScrollPanel control, that is, ej.mobile.all.min.css
 
@@ -19,9 +19,9 @@ _Class names_
 
 <table>
 <tr>
-<td>
-e-js </td><td>
-This is the root class that is present at the container element of ScrollPanel control.</td></tr>
+<th>
+e-js </th><th>
+This is the root class that is present at the container element of ScrollPanel control.</th></tr>
 <tr>
 <td>
 e-m-scrollpanel</td><td>

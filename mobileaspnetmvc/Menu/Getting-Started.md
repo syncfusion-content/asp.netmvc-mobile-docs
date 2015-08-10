@@ -183,18 +183,16 @@ TouchEnd event is handled to add functionalities to each Menu item. This is achi
 
 Add the following code example to the Menu control and the script code to the view page.
 
-{% highlight html %}
 
 <table>
 <tr>
 <td>
- <!-- Menu helper -->        @Html.EJMobile().Menu("menuitem").TargetId("menuitems_rightbutton").IOS7(ios7 => ios7.ShowTitle(false)).ClientSideEvents(events => { events.TouchEnd("showDialog"); }).Items(items =>       {           items.Add().Text("Twitter");           items.Add().Text("Whatsapp");           items.Add().Text("Facebook");       })  </td></tr>
+{% highlight html %}<!-- Menu helper -->        @Html.EJMobile().Menu("menuitem").TargetId("menuitems_rightbutton").IOS7(ios7 => ios7.ShowTitle(false)).ClientSideEvents(events => { events.TouchEnd("showDialog"); }).Items(items =>       {           items.Add().Text("Twitter");           items.Add().Text("Whatsapp");           items.Add().Text("Facebook");       }) {% endhighlight %} </td></tr>
 <tr>
 <td>
-<script>      //object declaration        $(document).ready(function () {            window.menuObject = $("#menuitem").data("ejmMenu"); // create object for menu.            window.dialogObject = $("#alertdlg").data("ejmDialog"); // create object for dialog.            if (ej.isWindows() && ej.isMobile())                $("#menuitem").ejmMenu("model.theme", "light");        });//handling menu action <br>        //to show Dialog        function showDialog(args) {            var text = args.text; //to get menu item text            $("#dialogContent").append("Content shared in " + text + " successfully"); // add content to dialog            window.menuObject.hide(); // to hide menu            window.dialogObject.open(); //to open dialog        }        //to close dialog        function alertClose(args) {            $("#dialogContent").empty(); //to empty the dialog content            window.dialogObject.close(); //to close dialog        } </script>      </td></tr>
+{% highlight js %} <script>      //object declaration        $(document).ready(function () {            window.menuObject = $("#menuitem").data("ejmMenu"); // create object for menu.            window.dialogObject = $("#alertdlg").data("ejmDialog"); // create object for dialog.            if (ej.isWindows() && ej.isMobile())                $("#menuitem").ejmMenu("model.theme", "light");        });//handling menu action <br>        //to show Dialog        function showDialog(args) {            var text = args.text; //to get menu item text            $("#dialogContent").append("Content shared in " + text + " successfully"); // add content to dialog            window.menuObject.hide(); // to hide menu            window.dialogObject.open(); //to open dialog        }        //to close dialog        function alertClose(args) {            $("#dialogContent").empty(); //to empty the dialog content            window.dialogObject.close(); //to close dialog        } </script>  {% endhighlight %}    </td></tr>
 </table>
 
-{% endhighlight %}
 
 Execute the above code and the following output displays when you click the particular Menu item present in the Menu control.
 

@@ -7,7 +7,7 @@ control: Numeric Textbox
 documentation: ug
 ---
 
-## Spin Buttons
+# Spin Buttons
 
 The ShowSpinButton property is used to specify whether the Spin Button is visible or hidden. By clicking these buttons, you can increment or decrement the Numeric value.
 

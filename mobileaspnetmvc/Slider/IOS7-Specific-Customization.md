@@ -7,11 +7,11 @@ control: Slider
 documentation: ug
 ---
 
-## IOS7 Specific Customization
+# IOS7 Specific Customization
 
 You can set the IOS7 specific properties to the control by accessing IOS7 property.
 
-### ThumbStyle
+## ThumbStyle
 
 ThumbStyle property is used to render the Slider knob in two different styles.  Default value for the property is set to “Normal”.
 
@@ -32,7 +32,7 @@ The following screenshot displays the Slider iOS7:
 
 
 
-### Orientation
+## Orientation
 
 It specifies the Orientation in which the Slider is rendered. By default, the value is set to “horizontal”.
 
@@ -53,7 +53,7 @@ The following screenshot displays the Slider Orientation:
 
 
 
-### ReadOnly
+## ReadOnly
 
 ReadOnly property makes the Slider control to be fixed. When this property is set to true, the Slider knob cannot be dragged from its current position that is the Slider value cannot be changed.
 

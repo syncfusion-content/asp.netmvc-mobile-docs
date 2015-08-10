@@ -35,7 +35,7 @@ To achieve this refer the following code example.
 
 {% endhighlight %}
 
-{% highlight cs %}
+{% highlight c# %}
 
 namespace MVCSampleBrowser.Controllers.Grid
 
@@ -122,7 +122,6 @@ Execute the above code to render the following output.
 ![3](Data-binding_images/Data-binding_img2.png)
 
 
-![Note](Data-binding_images/Data-binding_img3.png)
 
 Note: For information about DataManager with Mobie Grid check DataAdaptors concept.
 

@@ -15,9 +15,7 @@ This section briefly describes about how to create and customize Accordion widge
 
 The ASP.NET MVC Mobile Accordion Control provides a way to display collapsible content panels to present information in a limited amount of space. In the following guidelines, you can learn to create a Live Soccer App and through that you can learn the features in ASP.NET MVC Accordion widget.
 
-
-
-[](Getting-Started_images/Getting-Started_img1.png)
+                                      [](Getting-Started_images/Getting-Started_img1.png)
 
 
 

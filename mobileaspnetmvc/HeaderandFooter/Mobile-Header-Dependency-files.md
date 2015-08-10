@@ -12,13 +12,12 @@ documentation: ug
 This section deals with the dependency files for the Header control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, you can refer to the following script files to render the Header control.
 
 _Script Files_
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-File                          </td><td>
-Description/Usage</td></tr>
+<th>
+File                          </th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -52,5 +51,3 @@ It is used to render the Header control that holds all the properties, events, a
 ej.mobile.button.min.js</td><td>
 This file should be used while enabling buttons on the Header.</td></tr>
 </table>
-
-{% endhighlight %}

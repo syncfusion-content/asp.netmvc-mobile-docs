@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Disabling touch events
+# Disabling touch events
 
 The “DisableTouch” is a Boolean property that is used to enable or disable touch events. By default, this property is set to false.
 

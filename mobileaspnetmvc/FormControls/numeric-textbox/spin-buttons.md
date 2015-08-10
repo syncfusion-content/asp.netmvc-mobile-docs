@@ -9,13 +9,13 @@ documentation: ug
 
 # Spin buttons
 
-**ShowSpinButton** property is used to specify whether the **Spin Button** is visible or hidden. By clicking these buttons, you can increment or decrement the **Numeric** value.
+ShowSpinButton property is used to specify whether the Spin Button is visible or hidden. By clicking these buttons, you can increment or decrement the Numeric value.
 
+{% highlight html %}
 
+@Html.EJMobile().NumericTextbox("textbox_sample").ShowSpinButton(false)
 
-@Html.EJMobile().NumericTextbox("textbox_sample").**ShowSpinButton(false)**
-
-
+{% endhighlight %}
 
 The following screenshot displays the output.
 

@@ -7,7 +7,7 @@ control: Rating
 documentation: ug
 ---
 
-## Disable Rating
+# Disable Rating
 
 The ReadOnly property is used to disable the interaction in the Rating control.  The default value is false.
 

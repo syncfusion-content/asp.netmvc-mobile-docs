@@ -19,13 +19,13 @@ _Class names_
 
 <table>
 <tr>
-<td>
-e-js –e-m-innerel</td><td>
-This class is applied to the inner element of the RadioButton.</td></tr>
+<th>
+e-js –e-m-innerel</th><th>
+This class is applied to the inner element of the RadioButton.</th></tr>
 <tr>
 <td>
 e-m-radtext</td><td>
-This class is applied to the container &lt;div&gt; to wrap the RadioButton text.</td></tr>
+This class is applied to the container <div> to wrap the RadioButton text.</td></tr>
 <tr>
 <td>
 e-m-state-active</td><td>

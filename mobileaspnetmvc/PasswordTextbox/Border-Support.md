@@ -7,7 +7,7 @@ control: Password
 documentation: ug
 ---
 
-## Border Support
+# Border Support
 
 The ShowBorder property is used to decide whether the Password border can be visible or hidden. The default value is “True”.
 

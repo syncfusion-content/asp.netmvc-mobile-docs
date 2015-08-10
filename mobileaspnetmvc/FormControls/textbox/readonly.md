@@ -13,17 +13,17 @@ When it is set to true, you cannot edit the value in the **Textbox**. The defaul
 
 Refer to the following code example.
 
+{% highlight html %}
 
+    @Html.EJMobile().TextBox("textbox_sample"). WatermarkText("Textbox").ReadOnly(true)
 
-    @Html.EJMobile().TextBox("textbox_sample"). WatermarkText("Textbox**").ReadOnly(true**)
+    @Html.EJMobile().PassWord("textbox_sample"). WatermarkText ("password").ReadOnly(true)
 
-    @Html.EJMobile().PassWord("textbox_sample"). WatermarkText ("password").**ReadOnly(true)**
+    @Html.EJMobile().TextArea("textbox_sample").WatermarkText ("Textarea").ReadOnly(true)
 
-    @Html.EJMobile().TextArea("textbox_sample").WatermarkText ("Textarea").**ReadOnly(true)**
+    @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("maskedit").Mask("+1 (999) 999-9999").ReadOnly(true)
 
-    @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("maskedit").Mask("+1 (999) 999-9999").**ReadOnly(true)**
-
-
+{% endhighlight %}
 
 {% include image.html url="readonly_images/readonly_img1.png" Caption="Textbox -Read Only"%}
 

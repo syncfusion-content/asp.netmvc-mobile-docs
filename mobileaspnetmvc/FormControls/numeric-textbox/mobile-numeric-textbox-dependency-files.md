@@ -9,15 +9,15 @@ documentation: ug
 
 # Mobile Numeric Textbox dependency files
 
-This section deals with the dependency files for the **Numeric Textbox** control. The file, **ej.mobile.all.min.js,** is a mass collection of **Mobile** Controls. When you are using this file, you can skip this section. When you are not, you can refer to the following script files to render the **Numeric****Textbox** control.
+This section deals with the dependency files for the Numeric Textbox control. The file, ej.mobile.all.min.js, is a mass collection of Mobile Controls. When you are using this file, you can skip this section. When you are not, you can refer to the following script files to render the Numeric Textbox control.
 
 _Script Files_
 
 <table>
 <tr>
-<td>
-<b>Files</b></td><td>
-<b>Description/Usage</b></td></tr>
+<th>
+<b>Files</b></th><th>
+<b>Description/Usage</b></th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

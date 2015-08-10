@@ -7,7 +7,7 @@ control: ScrollPanel
 documentation: ug
 ---
 
-## Zooming
+# Zooming
 
 EnableZoom is a Boolean property that lets you specify whether the scrolling content can be zoomed or not. By default, this property is set to “false”. 
 

@@ -7,7 +7,7 @@ control: Navigation Drawer
 documentation: ug
 ---
 
-## Customize Scrollsettings 
+# Customize Scrollsettings 
 
 Built-in scrolling support is provided to enable scrolling, when the number of items in the navigation panel exceeds the device height. It can be enabled by setting AllowScrolling property as true. You can customize all the properties of scroll panel control to render in Navigation Drawer. For example by setting ShowScrollbars property as false, you can hide the scrollbar in Navigation Drawer.
 

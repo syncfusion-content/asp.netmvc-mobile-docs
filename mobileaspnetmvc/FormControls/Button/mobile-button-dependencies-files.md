@@ -15,9 +15,9 @@ _List of Script Files_
 
 <table>
 <tr>
-<td>
-<b>File</b></td><td>
-<b>Description/Usage</b></td></tr>
+<th>
+<b>File</b></th><th>
+<b>Description/Usage</b></th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

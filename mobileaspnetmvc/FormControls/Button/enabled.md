@@ -11,12 +11,12 @@ documentation: ug
 
 In certain cases, you can **disable** the **Button** in your application depending on some conditions by default. This **Enabled** property allows you to **enable** or **disable** the **Button** by setting to ‘**true**’ or ‘**false**’ respectively.
 
-
+{% highlight html %}
 
 @Html.EJMobile().Button("sample_button").Text("button").Enabled(true)
 
 
-
+{% endhighlight %}
 
 
 {% include image.html url="enabled_images/enabled_img1.png" Caption="Button – Enabled"%}

@@ -11,13 +11,12 @@ documentation: ug
 
 You can use the following pre-defined classes to change a tile as grouped tile. Using this you can achieve the alignment of group tiles automatically instead of writing your own css classes.
 
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-Class Name</td><td>
-Explanation</td></tr>
+<th>
+Class Name</th><th>
+Explanation</th></tr>
 <tr>
 <td>
 group</td><td>
@@ -45,7 +44,6 @@ Default usage:
 
 </div>
 
-{% endhighlight %}
 
 
 

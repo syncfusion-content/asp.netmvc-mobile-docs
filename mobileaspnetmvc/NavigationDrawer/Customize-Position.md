@@ -7,7 +7,7 @@ control: Navigation Drawer
 documentation: ug
 ---
 
-## Customize Position
+# Customize Position
 
 Position property is used to specify the position whether it is fixed or relative to the container. When you specify its position as normal, it appends within the container otherwise it appends to the appview.
 

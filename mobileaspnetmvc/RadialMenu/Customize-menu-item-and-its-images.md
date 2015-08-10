@@ -7,7 +7,7 @@ control: Radial Menu
 documentation: ug
 ---
 
-## Customize menu item and its images
+# Customize menu item and its images
 
 You can customize Radial Menu items by using imagepath, imageurl and text properties. The imagepath property is used to define the path corresponding to the rendermode it get renders. Imagename can be used to define the name of image. Refer to the folder name that is required to keep the images for the corresponding render modes.
 
@@ -17,7 +17,7 @@ You can customize Radial Menu items by using imagepath, imageurl and text proper
 
 Alternatively you can use imageurl property to directly specify the url of the image for the items. Text property is used to specify the item text in windows mode.
 
-> _Note: Imagepath and imagename properties can be used when you want to specify separate images for each render mode. Imageurl property is used when you want to provide common images for all render modes._
+ _Note: Imagepath and imagename properties can be used when you want to specify separate images for each render mode. Imageurl property is used when you want to provide common images for all render modes._
 
 Refer to the following code example.
 {% highlight html %}

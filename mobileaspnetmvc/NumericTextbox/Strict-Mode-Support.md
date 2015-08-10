@@ -7,7 +7,7 @@ control: Numeric Textbox
 documentation: ug
 ---
 
-## Strict Mode Support
+# Strict Mode Support
 
 The EnableStrictMode property makes Textbox accept only a value between the defined maximum and minimum values when it is set to “True”.
 

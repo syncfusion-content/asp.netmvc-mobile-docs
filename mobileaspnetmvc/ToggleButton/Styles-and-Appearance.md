@@ -16,13 +16,12 @@ Styles and appearance of GroupButton work based on the CSS class. You need a sty
 To change color or design of Toggle Button control appearance, you can override default styles of Toggle Button control by using its class names. The following are specific class names you can use to modify styles and appearance in Toggle Button.
 
 _Class names_
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-File</td><td>
-Description/Usage</td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 e-m-tbutton</td><td>
@@ -53,4 +52,3 @@ e-m-state-disabled</td><td>
 This class is applied to disable Toggle Button control.</td></tr>
 </table>
 
-{% endhighlight %}

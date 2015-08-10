@@ -12,13 +12,12 @@ documentation: ug
 In Menu widget, the following settings are available for easy customization of each Menu item as per user demand. In MVC, these properties can be accessed with the property named ‘Items’. Following are the detailed explanations.
 
 _Settings for easy customization_
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-Settings</td><td>
-Properties</td></tr>
+<th>
+Settings</th><th>
+Properties</th></tr>
 <tr>
 <td>
 Item Customization</td><td>
@@ -45,5 +44,4 @@ Events</td><td>
 1. TouchStart-This property is used to define the handler when touch start happens on a particular Menu item.2. TouchEnd-This property is used to define the handler when touch end happens on a particular Menu item.</td></tr>
 </table>
 
-{% endhighlight %}
 

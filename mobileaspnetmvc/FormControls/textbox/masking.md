@@ -13,11 +13,11 @@ It can be done using **Mask Edit****Textbox** control. When you define an input 
 
 Refer to the following code example.
 
-
+{% highlight html %}
 
 @Html.EJMobile().MaskEdit("textbox_sample").WatermarkText("Maskedit").Mask("+1 (999) 999-999")  
 
-
+{% endhighlight %}
 
 
 

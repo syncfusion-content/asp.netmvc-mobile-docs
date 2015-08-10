@@ -149,13 +149,12 @@ The following screenshot displays the remote Data Binding:
 
 FieldSettings property is used to map the DataSource field with the list item fields. In addition to the list item specific properties, the following fields are available while mapping.
 
-{% highlight html %}
 
 <table>
 <tr>
-<td>
-Properties</td><td>
-Definition</td></tr>
+<th>
+Properties</th><th>
+Definition</th></tr>
 <tr>
 <td>
 ParentPrimaryKey</td><td>
@@ -165,8 +164,6 @@ In DB, you can relate any child item to some other item. ‘PrimaryKey’ is use
 Attributes</td><td>
 In DB, you can define the desired class name or styles for the list item through ‘Attributes’ field.</td></tr>
 </table>
-
-{% endhighlight %}
 
 {% highlight html %}
 

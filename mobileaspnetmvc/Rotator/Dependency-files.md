@@ -13,12 +13,11 @@ This section deals with the dependency files for Rotator control. The file ej.mo
 
 
 _List of Script files_
-{% highlight html %}
 <table>
 <tr>
-<td>
-File</td><td>
-Description/Usage</td></tr>
+<th>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>
@@ -52,5 +51,4 @@ It is referred to handle header control and should be used while rendering Rotat
 ej.mobile.rotator.min.js</td><td>
 It is referred to handle rotator control and should be used while rendering Rotator control.</td></tr>
 </table>
-{% endhighlight %}
 
