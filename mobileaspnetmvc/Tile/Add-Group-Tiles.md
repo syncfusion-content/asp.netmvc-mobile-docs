@@ -30,9 +30,10 @@ To align the tile in column manner</td></tr>
 small-col-2</td><td>
 To align the small size tiles in windows mode</td></tr>
 </table>
+
 Default usage:
 
-
+{% highlight html %}
 
 <div class="group">
 
@@ -44,7 +45,7 @@ Default usage:
 
 </div>
 
-
+{% endhighlight %}
 
 
 To render column grouped tile, render the number of tiles inside a div element with class ‘column’. Then append that column group element to a div with class ‘group’.                                                            
@@ -166,7 +167,7 @@ The following screenshots illustrates the output of the above code.
 
 
 
-![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_im.png)
+![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/androidchanges.png](Add-Group-Tiles_images/Add-Group-Tiles_img2.png)
 
 
 

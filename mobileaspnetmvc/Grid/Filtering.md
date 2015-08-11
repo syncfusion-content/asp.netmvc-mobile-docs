@@ -20,8 +20,8 @@ _Filter Bar Record Table_
 <table>
 <tr>
 <th rowspan = "4">
-Numeric column</th><th>
-> value</th><th rowspan = "4">
+Numeric column</th><td>
+> value</td><th rowspan = "4">
 To filter numeric column. You can use these expressions.</th></tr>
 <tr>
 <td>
@@ -115,7 +115,7 @@ _Filter Operators Table_
 
 <table>
 <tr>
-<td>
+<th>
 Column type</th><th>
 Filter operators</th></tr>
 <tr>

@@ -7,24 +7,25 @@ control: Grid
 documentation: ug
 ---
 
-### Get Mobile Grid object	
+# Get Mobile Grid object	
 
 After you initialize Mobile Grid, Grid object is stored in container element of Grid. To access Mobile Grid object refer the following code sample.
 
-
+{% highlight js %}
 
 var gridObject = $("#MobileGrid").ejmGrid("instance");
 
-
+{% endhighlight %}
 
                 [or]
 
 
+{% highlight js %}
 
 var gridObject = $("#MobileGrid ").data("ejmGrid");
 
 
-
+{% endhighlight %}
 
 
 
