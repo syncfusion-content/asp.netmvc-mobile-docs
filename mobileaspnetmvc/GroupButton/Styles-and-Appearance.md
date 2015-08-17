@@ -19,9 +19,9 @@ _Class names_
 
 <table>
 <tr>
-<th>
-e-m-grpbtn</th><th>
-This is the root class of the Group Button.</th></tr>
+<td>
+e-m-grpbtn</td><td>
+This is the root class of the Group Button.</td></tr>
 <tr>
 <td>
 e-m-btn</td><td>

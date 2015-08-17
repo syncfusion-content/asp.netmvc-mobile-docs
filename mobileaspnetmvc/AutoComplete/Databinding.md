@@ -166,7 +166,7 @@ ImageClass property is used to map the specific field name of the given DataSour
 {% endhighlight %}
 
 {% highlight css %}
-[Style]
+
 
 
 

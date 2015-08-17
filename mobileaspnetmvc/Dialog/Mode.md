@@ -92,7 +92,7 @@ Turn on cellular data or use Wi-Fi to access data
 {% endhighlight %}
 
 {% highlight js %}
-[Script]
+
 
 
 
@@ -139,7 +139,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 {% endhighlight %}
 
 {% highlight js %}
-[Script]
+
 
 
 
@@ -184,7 +184,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 {% endhighlight %}
 
 {% highlight js %}
-[Script]
+
 
 
 

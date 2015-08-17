@@ -90,7 +90,7 @@ In this section, you can learn how to get selected records from one Grid and als
 
 {% highlight js %}
 
-[Script]
+
 
 <script type="text/javascript">
 

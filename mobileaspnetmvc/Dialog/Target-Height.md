@@ -35,7 +35,7 @@ The TargetHeight property specifies the target height of the Dialog.
 {% endhighlight %}
 
 {% highlight js %}
-[Script]
+
 
 
 

@@ -21,7 +21,7 @@ EssentialASP.NET MVC Mobile Listview widget is used to build an interactive list
 
 The following steps help you add a ListView control.
 
-## Create Basic Mobile Layout 
+### Create Basic Mobile Layout 
 
 Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create an MVC Project, add necessary Dll’s and Scripts.
 
@@ -39,7 +39,7 @@ Add the following code inside the <body> tag in the Layout.cshtml page.
 
 {% endhighlight %}
 
-## Create ListView for Mail App
+### Create ListView for Mail App
 
 To add Listview control, you need to call ListView helper.                 
 
@@ -57,7 +57,7 @@ To add Listview control, you need to call ListView helper.
 
 {% endhighlight %}
 
-## Create Grouped List
+### Create Grouped List
 
 Set EnableGroupList property to “True”. You can provide individual header title for each group, by setting the Title property for every group item. Refer the following code example.
 
@@ -107,7 +107,7 @@ Run the above code and you can see the following output. For queries on how to r
 ![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)
 
 
-## Add Images to ListView
+### Add Images to ListView
 
 Specify the image class name for individual items using the ImageClass propertyin every item as follows.
 
@@ -253,7 +253,7 @@ Run the above code and you can see the following output. For queries on how to r
 ![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)
 
 
-## Create Child List with Template
+### Create Child List with Template
 
 To view the inbox messages, after creating the ListView, you can add its ChildList items. Since the ChildList contains the detailed mail information, you can add its content through Template Support, and by that you can customize the appearance of the list items. Specify the Rendertemplate property to achieve this.
 

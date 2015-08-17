@@ -35,7 +35,7 @@ Create an HTML file with the name text1.html.
 
 
 {% highlight html %}
-[HTML]
+
 
 <body>
 
@@ -53,7 +53,7 @@ Create an HTML file with the name text2.html.
 
 
 {% highlight html %}
-[HTML]
+
 
 
 
@@ -73,7 +73,7 @@ Create an HTML file with the name text3.html.
 
 
 {% highlight html %}
-[HTML]
+
 
 
 

@@ -19,10 +19,10 @@ _Filter Bar Record Table_
 
 <table>
 <tr>
-<th rowspan = "4">
-Numeric column</th><td>
+<td rowspan = "4">
+Numeric column</td><td>
 > value</td><th rowspan = "4">
-To filter numeric column. You can use these expressions.</th></tr>
+To filter numeric column. You can use these expressions.</td></tr>
 <tr>
 <td>
 < value</td></tr>

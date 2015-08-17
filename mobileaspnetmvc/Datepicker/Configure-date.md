@@ -13,7 +13,7 @@ The maxdate and mindate properties are used to denote the maximum and minimum se
 
 
 {% highlight html %}
-[MVC]
+
 
 
 

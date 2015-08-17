@@ -35,7 +35,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 {% endhighlight %}
 
 {% highlight js %}
-[Script]
+
 
 
 

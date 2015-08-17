@@ -74,7 +74,7 @@ Refer to the following code example.
 {% endhighlight %}
 
 
-### Script Section
+## Script Section
 
 You can update the content and close the Navigation Drawer, once the item is selected from the list.
 

@@ -254,7 +254,7 @@ ejmGrid contains a feature to refresh datasource dynamically after Grid initiali
 
 {% highlight js %}
 
-[Script]
+
 
 
 <script type="text/javascript">

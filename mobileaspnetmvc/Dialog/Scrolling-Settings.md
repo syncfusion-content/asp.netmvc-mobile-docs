@@ -47,7 +47,7 @@ The AllowScrolling property is used to enable scrollingbehavior for the Dialog c
          {% endhighlight %}
 
          {% highlight js %}
-         [Script]
+        
 
 
 

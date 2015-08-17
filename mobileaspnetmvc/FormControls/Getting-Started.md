@@ -9,11 +9,11 @@ documentation: ug
 
 # Getting Started
 
-In this section you can learn how to create **Form****Controls** in mobile app.
+In this section you can learn how to create Form Controls in mobile app.
 
 ## Create your first Form in MVC
 
-The **ASP.NET MVC** provides a way to create a **Form** with the following mobile widgets.
+The ASP.NET MVC provides a way to create a Form with the following mobile widgets.
 
 1. Textbox 
 
@@ -29,7 +29,7 @@ From the following guidelines, you can create a Bill Payment App  where you can 
 
 {% include image.html url="getting-started_images/getting-started_img1.png" Caption="Mobile Payment App"%}{% include image.html url="getting-started_images/getting-started_img2.png" Caption="Mobile Payment App"%}
 
-**Create the necessary layout** 
+### Create the necessary layout 
 
 In the  Bill Payment App , you can use the  Textbox control to get the Name of the Person, Email, and Remarks, Numeric Textbox control for the Amount field, Radio button for the Payment options, Check box for the terms and conditions, and **Button** control to submit the form.
 
@@ -38,24 +38,28 @@ Create a simple MVC  application and add the following header and scrollpanel la
 1. Create an MVC Project and add necessary Dll’s and Scripts with help of the [MVC-Getting Started Documentation](http:/help.syncfusion.com/ug/js/default.htm) for mobile.
 
 
-{% highlight html %}
-     <!--Header Control-->
+   ~~~ html
 
-     @Html.EJMobile().Header("header").Title("Bill Payment")
+		<!--Header Control-->
 
-   <div id="form_sample" class="sample">
+		@Html.EJMobile().Header("header").Title("Bill Payment")
+
+		<div id="form_sample" class="sample">
 
                 @RenderBody()
 
-      <!--Scroll Panel-->
+		<!--Scroll Panel-->
 
-      @Html.EJMobile().Scrollpanel("form_controls").Target("form_sample")
+		@Html.EJMobile().Scrollpanel("form_controls").Target("form_sample")
 
-</div>
-{% endhighlight %}
+		</div>
+
+    ~~~
+   {:.prettyprint }
 
 2. Add the following Layout code to the corresponding view page.
-{% highlight html %}
+
+   ~~~ html
        <!--Add the Form Elements-->
 
                 <form id="form1">;
@@ -201,107 +205,115 @@ Create a simple MVC  application and add the following header and scrollpanel la
 
                 </form>
 
- <!--Add Dialog Control for Payment Status-->
+ 				<!--Add Dialog Control for Payment Status-->
 
- @Html.EJMobile().Dialog("info_msg").Title("Alert").LeftButtonCaption("ok").EnableModal(true).EnableAutoOpen(false).Content(@<div id="dlgcontent"></div>).ClientSideEvents(evt => evt.ButtonTap("exit"))
-{% endhighlight %}
+ 					@Html.EJMobile().Dialog("info_msg").Title("Alert").LeftButtonCaption("ok").EnableModal(true).EnableAutoOpen(false).Content(@<div id="dlgcontent"></div>).ClientSideEvents(evt => evt.ButtonTap("exit"))
 
+   ~~~
+   {:.prettyprint}
 
 3. Add the following styles.
-{% highlight css %}
-     <style>
 
-        .appview .submitbutton {
+   ~~~ css
 
-        text-align: center;
+    		<style>
 
-    }
+			.appview .submitbutton {
 
+			text-align: center;
 
-
-    .appview .chksample {
-
-        display: inline-block;
-
-    }
+			}
 
 
 
-    .appview #form_sample label.error {
+			.appview .chksample {
 
-        color: #FF0000;
+			display: inline-block;
 
-    }
-
-
-
-    .check td, .radio td {
-
-        min-width: 150px;
-
-    }
+			}
 
 
 
-    .e-m-ios7 label, .e-m-ios7 .check, .e-m-ios7 .radio {
+			.appview #form_sample label.error {
 
-        padding-left: 10px;
+			color: #FF0000;
 
-    }
-
-
-
-    .e-m-windows label, .e-m-windows .check {
-
-        padding-left: 20px;
-
-    }
+			}
 
 
 
-    .e-m-windows .radio {
+			.check td, .radio td {
 
-        padding-left: 20px;
+			min-width: 150px;
 
-    }
-
-
-
-    .radio {
-
-        padding-top: 5px;
-
-    }
+			}
 
 
 
-    .e-m-android #form_sample, .e-m-ios7 #form_sample {
+			.e-m-ios7 label, .e-m-ios7 .check, .e-m-ios7 .radio {
 
-        padding: 10px;
+			padding-left: 10px;
 
-    }
-
-
-
-    .e-m-android #form1 {
-
-        padding: 0px 10px;
-
-    }
+			}
 
 
 
-    .e-m-windows #form_sample {
+			.e-m-windows label, .e-m-windows .check {
 
-        padding: 3px;
+			padding-left: 20px;
 
-    }      
+			}
 
-</style>
-{% endhighlight %}
-Add Textbox Control
+
+
+			.e-m-windows .radio {
+
+			padding-left: 20px;
+
+			}
+
+
+
+			.radio {
+
+			padding-top: 5px;
+
+			}
+
+
+
+			.e-m-android #form_sample, .e-m-ios7 #form_sample {
+
+			padding: 10px;
+
+				}
+
+
+
+			.e-m-android #form1 {
+
+				padding: 0px 10px;
+
+			}
+
+
+
+			.e-m-windows #form_sample {
+
+			padding: 3px;
+
+			}      
+
+			</style>
+
+   ~~~
+   {:.prettyprint}
+			
+###  Add Textbox Control
 
 TextboxControl is required to get the Name of the Person. To render this control, you can add the following Layout code to the corresponding view page.
+
+
 {% highlight html %}
  <!—Textbox for Name of the Person-->
 
@@ -315,7 +327,7 @@ Run the above code to render the following output.
 
 {% include image.html url="getting-started_images/getting-started_img3.png" Caption="Form with ASP.NET MVC Mobile Textbox"%}
 
-Set Watermark text
+### Set Watermark text
 
 The WatermarkText specifies a short hint that describes the expected value of the input field. This is achieved using the WatermarkText property. The following code example shows you how to set Watermarktext.
 {% highlight html %}
@@ -327,7 +339,7 @@ The WatermarkText specifies a short hint that describes the expected value of th
 
 {% include image.html url="getting-started_images/getting-started_img4.png" Caption="Form with ASP.NET MVC Textbox control"%}
 
-Add Numeric Textbox Control
+### Add Numeric Textbox Control
 
 To render the Numeric Textbox control, you can refer the following code example. 
 {% highlight html %}
@@ -341,7 +353,7 @@ To render the Numeric Textbox control, you can refer the following code example.
 
 {% include image.html url="getting-started_images/getting-started_img5.png" Caption="Form with ASP.NET MVC Mobile Numeric Textbox control"%}
 
-Disable Spin Button
+### Disable Spin Button
 
 By default, the SpinButton is visible. Using this, you can increment or decrement the values. In the Bill Payment App, SpinButton is not required. To hide this, you can set ShowSpinButton property to false.
 {% highlight html %}
@@ -355,7 +367,7 @@ By default, the SpinButton is visible. Using this, you can increment or decremen
 
 {% include image.html url="getting-started_images/getting-started_img6.png" Caption="Form with ASP.NET MVC Mobile Numeric Textbox control without spin button"%}
 
-Set Decimal Point 
+### Set Decimal Point 
 
 By default, decimal numbers (floating point) are not allowed. In this case, you need to allow the decimal values since it is an amount field. To achieve this, you can set DecimalPlaces property with a numeric value that specifies the number of decimals allowed.
 {% highlight html %}
@@ -365,9 +377,11 @@ By default, decimal numbers (floating point) are not allowed. In this case, you 
 
          .ShowSpinButton(false).DecimalPlaces(2)
 {% endhighlight %}
-Add Radio Button Control
+
+###  Add Radio Button Control
 
 A Radio Button control is required for the payment option (credit or debit). By using Text property you can add the text for radio button. To render this control, add the following code example.
+
 {% highlight html %}
        <!--Radio Button for Credit-->
 
@@ -379,7 +393,7 @@ A Radio Button control is required for the payment option (credit or debit). By 
 
 {% endhighlight %}
 
-Add Textbox for E-Mail
+### Add Textbox for E-Mail
 
 You can add Textbox for E-mail.
 {% highlight html %}
@@ -393,7 +407,7 @@ label for="mail" class="error" generated="true"
 
 {% include image.html url="getting-started_images/getting-started_img7.png" Caption="Form with ASP.NET MVC Mobile Button Radio control"%}
 
-Add Textbox for Remarks
+### Add Textbox for Remarks
 
 You can add Textbox for Remarks.
 {% highlight html %}
@@ -405,7 +419,7 @@ You can add Textbox for Remarks.
 
 {% include image.html url="getting-started_images/getting-started_img8.png" Caption="Form with ASP.NET Mobile "%}
 
-Add Checkbox Control
+### Add Checkbox Control
 
 You can use Checkbox Control for “agree the terms and conditions” option. By using **Text** property, you can add the text to the checkbox control. To render this, add the following code example.
 {% highlight html %}
@@ -417,7 +431,7 @@ You can use Checkbox Control for “agree the terms and conditions” option. By
 
 {% include image.html url="getting-started_images/getting-started_img9.png" Caption="Form with ASP.NET Mobile Checkbox"%}
 
-Add Button Control
+### Add Button Control
 
 Button Control is required to submit the Form. By using client side events, you can perform form validation. Here TouchEnd event is used to perform the validation. To render this control, you need to add the following code example and also add the Text property to specify the Button text. 
 {% highlight html %}
@@ -429,7 +443,7 @@ Button Control is required to submit the Form. By using client side events, you 
 
 {% include image.html url="getting-started_images/getting-started_img10.png" Caption="Form with ASP.NET MVC Mobile Button"%}
 
-Form Validation
+### Form Validation
 
 You have created the Bill payment with required controls and for Validation you can use ASP.NET MVC Mobile Dialog control to show the Status of your payment.
 {% highlight js %}

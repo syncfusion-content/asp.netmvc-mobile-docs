@@ -19,7 +19,7 @@ The ASP.NET MVC Mobile Navigation Drawer is a sliding panel that displays the li
 
 The following steps guide you in adding a Navigation Drawer control for a mobile application that displays a list of items such as home, profile, photos and location where you can navigate to desired page by clicking on the option available in the drawer. 
 
-## Create basic mobile layout
+### Create basic mobile layout
 
 The following steps explain you on how to add a Navigation Drawer control.
 
@@ -38,7 +38,7 @@ The following steps explain you on how to add a Navigation Drawer control.
 	
 {% endhighlight %}
 
-## Add Header control for Navigation Drawer
+### Add Header control for Navigation Drawer
 
 To render the Header control, add the following code example in the corresponding view page. To set header title, you can use the ‘Title’ property with desired title.
    
@@ -50,7 +50,7 @@ To render the Header control, add the following code example in the correspondin
 
    {% endhighlight %}
    
-## Add Navigation Drawer control
+### Add Navigation Drawer control
 
 To add a Navigation Drawer control, call NavigationDrawer helper. You can display a navigable option as a list by using listview. To achieve this, set the EnableListView property as true in navigation drawer wrapper element. You can set thetext for list itemsby using Text property.
 
@@ -75,7 +75,7 @@ To add a Navigation Drawer control, call NavigationDrawer helper. You can displa
       
 	 {% endhighlight %}
    
-## Add target element to display drawer
+### Add target element to display drawer
 
 You can display the drawer by clicking on target icon. To achieve this, set the target element’s id with ‘TargetId’ property of the navigation drawer wrapper element.
 
@@ -146,7 +146,7 @@ You can display the drawer either by clicking on the target icon or by swiping f
 
 
 
-## Add images for Navigation Drawer
+### Add images for Navigation Drawer
 
 You can set the images for Navigation Drawer by using ImageClass property in the inner list elements.
 
@@ -234,11 +234,11 @@ You can define the image classes specified for the list items as follows.
 
 Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm)
 
-![][C:/Users/ApoorvahR/Desktop/1.png](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 
-## Load appropriate content while selection
+### Load appropriate content while selection
 
 You can load the desired content for the navigation items by updating the content through touch end handler of listview. Also to know which item’s content is being loaded in the page, you can make a list selection to persist in the drawer by setting PersistSelection as true through ListViewSettings action.
 

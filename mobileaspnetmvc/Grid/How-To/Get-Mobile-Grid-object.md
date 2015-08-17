@@ -15,12 +15,12 @@ After you initialize Mobile Grid, Grid object is stored in container element of 
 
 var gridObject = $("#MobileGrid").ejmGrid("instance");
 
-{% endhighlight %}
+
 
                 [or]
 
 
-{% highlight js %}
+
 
 var gridObject = $("#MobileGrid ").data("ejmGrid");
 

@@ -27,30 +27,30 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 
 1. Add the following code example to the corresponding view page.
 
-{% highlight html %}
+   ~~~ html
 
-@Html.EJMobile().Header("header").Title("Ticket Booking")
+			@Html.EJMobile().Header("header").Title("Ticket Booking")
 
-<div id="content_container">
+			<div id="content_container">
 
-    <div>
+    		<div>
 
-       <!-- Add DatePicker Elements here -->
+       		<!-- Add DatePicker Elements here -->
 
-    </div>
+   		 	</div>
 
-</div>
-
-{% endhighlight %}
+			</div>
 
 
 
+   ~~~
+   {:.prettyprint }
 
 2. To render the DatePicker control, you can add the following code example, where two DatePickers are added, to specify start and end date.
 
-{% highlight html %}
+   ~~~ html
     
-<table>
+			<table>
 
             <tr>
 
@@ -72,75 +72,75 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 
                 </td>
 
-            </tr>
+            	</tr>
 
-            <tr>
+            	<tr>
 
                 <td class="tdclass">Return date</td>
 
-            </tr>
+            	</tr>
 
-            <tr>
+            	<tr>
 
                 <td class="tdclass">
 
                     <span class="innerdp">
 
-              <!-- DatePicker control -->
+              	<!-- DatePicker control -->
 
-              @Html.EJMobile().DatePicker("endDate")
+              	@Html.EJMobile().DatePicker("endDate")
 
                     </span>
 
                 </td>
 
-            </tr>
+            	</tr>
 
-        </table>
+       			 </table>
 
-{% endhighlight %}
+   ~~~
+   {:.prettyprint }
 
 3. Apply the following styles to align the DatePickers.
 
 
-
-
-{% highlight css %}
+   ~~~ css
     
-<style type="text/css" class="cssStyles">
+			<style type="text/css" class="cssStyles">
 
-        .tdclass
+        	.tdclass
 
-        {
+        	{
 
-            width: 300px;
+            	width: 300px;
 
-            font-weight: bold;
+            	font-weight: bold;
 
-            padding-bottom: 10px;
+           	 	padding-bottom: 10px;
 
-        }
+        		}
 
 
 
-        table
+        		table
 
-        {
+        		{
 
-            margin: 30px auto;
+            		margin: 30px auto;
 
-        }
+        		}
 
-    </style>
+    			</style>
 
-{% endhighlight %}
+   ~~~
+   {:.prettyprint }
 
 
 4. Run the above code example and you can see the following output.
 
 
 
-![](Getting-Started_images/Getting-Started_img2.png)
+   ![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
