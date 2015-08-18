@@ -23,7 +23,7 @@ The ASP.NET MVC Mobile Toggle Button functions, to switch On/Off functions such 
 
 The Toggle Button widget is rendered based on the default values for all the properties. You can easily customize Toggle Button control by changing its properties. The following steps explain you to add a Toggle button for the Settings scenario where you can enable or disable Wi-Fi connectivity.
 
-1. Add the following code to the corresponding Layout.cshtml page.
+Add the following code to the corresponding Layout.cshtml page.
 
 {% highlight html %}
 
@@ -43,7 +43,7 @@ The Toggle Button widget is rendered based on the default values for all the pro
 
 {% endhighlight %}
 
-2. To render Toggle Button control, add the following code to the corresponding view page. 
+To render Toggle Button control, add the following code to the corresponding view page. 
 
 {% highlight html %}
 
@@ -71,7 +71,7 @@ The Toggle Button widget is rendered based on the default values for all the pro
 
 
 
-3. Execute the above code to render the following output.
+Execute the above code to render the following output.
 
 
 

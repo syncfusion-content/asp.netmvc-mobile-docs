@@ -45,7 +45,7 @@ You can create a MVC Project and add necessary Dll’s and Scripts with the help
 {% endhighlight %}
 
 
-## Create the Rotator control
+### Create the Rotator control
 
 To render the Rotator control, set “TargetId” property with the id of the target element that contains the HTML template for each item. Every first level child <div> element of the target element acts as an item of the Rotator. 
 
@@ -184,7 +184,7 @@ Execute the above code to render the following output.
 
 
 
-## Hide the Pager
+### Hide the Pager
 
 In the above image, Pager indicates the item that is currently displayed. If you do not want the pager to be displayed,  you can set the ShowPager property to “_false_”.
 

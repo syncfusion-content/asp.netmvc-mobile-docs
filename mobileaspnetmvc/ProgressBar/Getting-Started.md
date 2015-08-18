@@ -11,7 +11,7 @@ documentation: ug
 
 In this section, you can learn how to create ProgressBar and how to use it in your application.
 
-### Create your first ProgressBar in MVC
+## Create your first ProgressBar in MVC
 
 ASP.NET MVC, Mobile ProgressBar is a simple interface that indicates the current progress of an operation, such as uploading a document. In the following guidelines, you will learn about the features in ProgressBar widget and create an App Installer.
 

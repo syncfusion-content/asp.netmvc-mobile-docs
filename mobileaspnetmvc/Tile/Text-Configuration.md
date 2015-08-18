@@ -18,7 +18,7 @@ ShowText property is used to show or hide the tile caption.Text property is used
 
 TextPosition property wraps the text inside or outside of a tile. The possible position values of TextPosition are inner and outer.
 
-Note: TextPosition support is given only to iOS7 and android mode. Textposition is not supported in small tiles.
+> Note: TextPosition support is given only to iOS7 and android mode. Textposition is not supported in small tiles.
 
 {% highlight html %}
 

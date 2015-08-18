@@ -11,7 +11,7 @@ documentation: ug
 
 The Essential Studio for ASP.NET MVC Mobile Rotator widget is a container that holds many items. By swiping left and right you can see the next and previous items respectively. Each item in Rotator contains HTML template content.
 
-Key Features
+## Key Features
 
 * Data Binding: Supports Data binding with JSON data.
 * Pager: Supports for displaying pager.

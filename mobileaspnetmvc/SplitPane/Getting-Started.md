@@ -19,7 +19,7 @@ The Essential Studio for ASP.NET MVC Mobile Splitpane divides a region on the we
 
 
 
-## Create the Splitpane control
+### Create the Splitpane control
 
 The Essential Studio for ASP.NET MVC MobileSplitpane control is rendered by calling the Splitpane Helper. 
 
@@ -43,7 +43,7 @@ Run this code example and the following output is displayed. For more details, t
 
 
 
-## Add left Pane content
+### Add left Pane content
 
 In the Left Pane, you can add listbox for easy navigation. To provide data source for listbox template in the Left Pane content, you can create a ListTemplate.cs file in the model and add the following code example to the file.
 
@@ -235,7 +235,7 @@ Run this code example and the following output is displayed. For more details, t
 
 
 
-## Add right Pane content
+### Add right Pane content
 
 Refer to the following code example.
 

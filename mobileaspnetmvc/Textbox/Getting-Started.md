@@ -21,7 +21,7 @@ To create a textbox for the login page in the mobile application, follow the gui
 
 
 
-## Create the layout
+### Create the layout
 
 Create an MVC application and add the following code example in the <body> tag of layout.cshtml file.
 
@@ -113,7 +113,7 @@ You can create a MVC project and add the necessary DLLs and scripts with the hel
 
 
 
-Add Textbox Control
+### Add Textbox Control
 
 To create the Textbox control, add the following code.
 

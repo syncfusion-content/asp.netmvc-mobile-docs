@@ -13,7 +13,7 @@ The Essential JavaScript Mobile widget for TextArea allows the input of multiple
 
 
 
-Key Features
+## Key Features
 
 * Theme: The Essential ASP.NET MVC Mobile controls support dark and light themes for iOS, Android and Windows modes.
 

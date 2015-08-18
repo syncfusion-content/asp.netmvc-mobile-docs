@@ -11,11 +11,11 @@ documentation: ug
 
 EssentialStudio ASP.NET MVC,Mobile Radial Menu control is a context that represent the menu items in a circular order with a center button element in it. By default, only the center button is visible. The Radial Menu displays the root level menu item with rotational animation effects on clicking the center menu button. You can close it either by clicking on document or by clicking on the center button when the root level items are displayed.
 
- _Note: As per guidelines, the radial menu is displayed partially for an elegant look and feel but the control renders as a circular element only. Hence for Mobile (both phone and tablet mode) your Radial Menu control appears as semi-circular element, except in Windows mode where it is displayed as a circular element._
+> Note: As per guidelines, the radial menu is displayed partially for an elegant look and feel but the control renders as a circular element only. Hence for Mobile (both phone and tablet mode) your Radial Menu control appears as semi-circular element, except in Windows mode where it is displayed as a circular element.
 
 
 
-### Key Features
+## Key Features
 
 * Nested Menu: Support to render child menu item.
 
@@ -37,21 +37,23 @@ The following steps guide you to add a Radial Menu control for a mobile applicat
 1. Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create a MVC Project, add necessary Dll’s and Scripts.
 2. Add the following code in layout.cshtml page to create a header element.
    
-  {% highlight html %}
-   @Html.EJMobile().Header("Header").Title("RadialMenu")
-   {% endhighlight %}
+   ~~~ html
+		@Html.EJMobile().Header("Header").Title("RadialMenu")
+   
 
-
+   ~~~
+   {:.prettyprint}
 
 3. Create the page content as follows.
    
-   {% highlight html %}
-   <div style="padding: 66px 25px; text-align: justify ">
-   <p>
-   Syncfusion is the enterprise technology partner of choice for Windows development, delivering a broad range of software frameworks and tools. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications.
-   </p>
-   </div>
-   {% endhighlight %}
+   ~~~ html
+		<div style="padding: 66px 25px; text-align: justify ">
+		<p>
+		Syncfusion is the enterprise technology partner of choice for Windows development, delivering a broad range of software frameworks and tools. Syncfusion has established itself as the trusted partner worldwide for use in mission-critical applications.
+		</p>
+		</div>
+   ~~~
+   {:.prettyprint}
 
 ## Add Radial Menu control
 

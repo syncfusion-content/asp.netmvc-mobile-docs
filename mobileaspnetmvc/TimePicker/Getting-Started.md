@@ -21,7 +21,7 @@ The ASP.NET MVC TimePicker provides support to display the TimePicker element wi
 
 
 
-## Create the necessary layout
+### Create the necessary layout
 
 You can create ASP.NET MVCTimePicker widget easily by using MobileTimepickerHTML helper.
 
@@ -121,7 +121,7 @@ Run the above code to render the following output.
 
 
 
-## Create a TimePicker
+### Create a TimePicker
 
 To render the TimePicker control, you can add the following code example. Here two TimePickers are added to specify InTime and OutTime.
 
@@ -160,7 +160,7 @@ Run the above code and focus on InTime or OutTimeTimePicker element (here OutTim
 
 
 
-## Set the Hour Format
+### Set the Hour Format
 
 The TimePicker widget supports both 12 hour and 24 hour time format. The default value is 24 hour format. In this case, the booking table opens for all time throughout the day. You can refer the following code example to set 24 hour format using “HourFormat” property and add it to corresponding view page.
 

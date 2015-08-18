@@ -19,7 +19,7 @@ The Essential Studio for ASP.NET MVC Mobile Tiles are simple, opaque rectangles 
 
 The following steps guide you in adding a Tile control.
 
-## Creating basic mobile layout
+### Creating basic mobile layout
 
 Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create a MVC Project, add necessary Dll’s and Scripts.
 
@@ -69,7 +69,7 @@ Run the above code to render the following output. To know how to run the code, 
 
 
 
-## Create Tile as grouped tile
+### Create Tile as grouped tile
 
 In this scenario, you require different sizes of tiles aligned in a grid-like manner. Here you can add tiles with desired size to make the exact output. The tile gets aligned automatically based on the size it gets rendered. You can define all tiles under the wrapper element with class named ‘group’ to make ‘n’ number of tiles as a grouped tile.
 
@@ -148,7 +148,7 @@ Run the above code to render the following output. To know how to run the code, 
 
 
 
-## Create a grouped tile in Windows Mode
+### Create a grouped tile in Windows Mode
 
 In the windows mode scenario, you require different size of tiles and live tiles. To render the Grouped tile in windows mode, add the following script section, to render the tile with different size and as a live tiles also.
 

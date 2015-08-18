@@ -177,7 +177,7 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
   Execute this code to render the following output.
 
-![3](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 

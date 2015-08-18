@@ -66,13 +66,13 @@ While selecting an item from the left pane, the corresponding content in right p
 Add the following code in “page.html” HTML file for right pane. 
 The following screenshot illustrates the output for iOS7 and Windows.
 
-iOS7
+### iOS7
 
 ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img1.png)
 
 
 
-Windows
+### Windows
 
 ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img2.png)
 
@@ -114,13 +114,13 @@ You can customize the header related features by using RightHeaderSettings prope
 
 Refer to the script section and page content section to load the right pane content of appropriate page created. The following screenshot illustrates the output for iOS7 and Windows.
 
-iOS7
+### iOS7
 
 ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img3.png)
 
 
 
-Windows
+### Windows
 
 ![](iOS7-and-Windows-Specific-Customization_images/iOS7-and-Windows-Specific-Customization_img4.png)
 

@@ -21,7 +21,7 @@ The Essential Studio for ASP.NET MVC Mobile Tab provides a way to switch views w
 
 In the above screenshot , you can switch between different view from single webpage. You can also load Tabs on demand by specifing the url to be loaded.
 
-## Create Tabs for Music app
+### Create Tabs for Music app
 
 The Essential Studio for ASP.NET MVC Mobile Tab widget is rendered either by specifying static content or by using on demand contents by specifying the respective url. On either case Tab control is rendered based on the default values for all the properties. You can easily customize Tab control by changing its properties according to your requirement. 
 
@@ -66,7 +66,7 @@ To render the Tab control, you add the following code example in the correspondi
 
 You can specify the “Href” property for specifying the content to be loaded on each Tab. This property should match with the “id” of the element where you have specified the Tab content. In this case, The Essential Studio for ASP.NET MVC Mobile ListView controls with ids “mymusic” and “favorites” that is given in the “Href” attribute for the respective items are used and the third Tab that loads the content dynamically from a given url.
 
-Note: Regarding the third Tab in the “loading on demand content section” is discussed later.
+> Note: Regarding the third Tab in the “loading on demand content section” is discussed later.
 
 {% highlight html %}
 
@@ -118,7 +118,7 @@ Run this code and the following output is achieved. For more details, to run the
 
 
 
-## Add Images to the Tabs
+### Add Images to the Tabs
 
 To provide images for your mobileTab widget, you can specify the image class for individual items in the Tab. 
 
@@ -244,7 +244,7 @@ Run this code and the following output is achieved. For more details, to run the
 
 
 
-## Add on Demand content for updates Tab
+### Add on Demand content for updates Tab
 
 On some scenarios you may have to load the content of the Tab only when they are required. In this case, the updates Tab needs to be loaded only when you want to check for updates. For loading content on demand you can specify “EnableAjax” property to ‘true’ and specify the url to load on demand for individual items in the Tab by using the “Href” property.
 
@@ -296,7 +296,7 @@ Run this code and the following output is achieved. For more details, to run the
 
 
 
-## Set Badge value for updates Tab
+### Set Badge value for updates Tab
 
 In a real-time Music App use case, to display the number of available updates before the user decides to view the Tab, you can set Enabled to ‘true’ and set the desired Badge value in the Value property. 
 

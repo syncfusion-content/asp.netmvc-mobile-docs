@@ -27,53 +27,60 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
 
 1. Add the following header control code in layout.cshtml page.
    
-   {% highlight html %}
-   <!-- Header control -->
-   @Html.EJMobile().Header("header").Title("Syncfusion")
-   {% endhighlight %}
+   ~~~ html
+   
+		<!-- Header control -->
+		@Html.EJMobile().Header("header").Title("Syncfusion")
+   
+   ~~~
+   {:.prettyprint}
 
 
 2. Add the following code example to the corresponding view page.
    
-  {% highlight html %}
-   <!-- Content that needs to be scrolled-->
-   <div id="content" style="text-align:justify;">
-   <div>
-   <div id="image">
-   </div>
-   Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio. For more details about Essential Studio please click the below.
-   </div>
-   </div>
-   <!— Add scroll panel helper here-->
-  {% endhighlight %}
+   ~~~ html
+   
+		<!-- Content that needs to be scrolled-->
+		<div id="content" style="text-align:justify;">
+		<div>
+		<div id="image">
+		</div>
+		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio. For more details about Essential Studio please click the below.
+		</div>
+		</div>
+		<!— Add scroll panel helper here-->
+  
+   ~~~
+   {:.prettyprint}
 
 3. Add the following styles to display image and align the content.
    
-   {% highlight css %}
-   <style>
-   #image
-   {
-   margin: auto;
-   width: 150px;
-   height: 150px;
-   background: url(http://js.syncfusion.com/UG/Mobile/Content/syncfusion.png) center / 150px 150px;
-   }
-   #content
-   {
-   margin: 0  auto;
-   font-size: 18px;
-   text-indent: 2em;
-   }
-   </style>
-   {% endhighlight %}
-
+   ~~~ css
+   
+		<style>
+		#image
+		{
+		margin: auto;
+		width: 150px;
+		height: 150px;
+		background: url(http://js.syncfusion.com/UG/Mobile/Content/syncfusion.png) center / 150px 150px;
+		}
+		#content
+		{
+		margin: 0  auto;
+		font-size: 18px;
+		text-indent: 2em;
+		}
+		</style>
+   ~~~
+   {:.prettyprint}
 Run the above code example to render the following output.
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
-## Create ScrollPanel
+### Create ScrollPanel
 
 To render the ScrollPanel control, set the Target property with a value that matches the id of the target element and you can add the ScrollPanel to it. 
 
@@ -87,7 +94,7 @@ Add the following code example to the corresponding view page.
 
 {% endhighlight %}
 
-## Set Panel Height and Width
+### Set Panel Height and Width
 
 
 
@@ -108,7 +115,7 @@ Run the above code example and you will see the following output.
 
 
 
-## Enable Horizontal and Vertical Scrolling
+### Enable Horizontal and Vertical Scrolling
 
 The Target content can be scrolled vertically or horizontally or in both ways. The property EnableVerticalScroll enables vertical scrolling and the property EnableHorizontalScroll enables horizontal scrolling.
 
