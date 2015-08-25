@@ -52,7 +52,7 @@ The following screenshot displays Multiselection:
 
 When a specific list item is selected, it is highlighted with an active color. PreventSelection property prevents this behavior when set to true. 
 
-> Note: When the click (select) action is completed, the highlight is undone automatically even if this property is set to false.
+N> When the click (select) action is completed, the highlight is undone automatically even if this property is set to false.
 
 {% highlight html %}
 

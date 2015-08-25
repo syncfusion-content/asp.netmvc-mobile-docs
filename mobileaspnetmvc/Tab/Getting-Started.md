@@ -66,7 +66,7 @@ To render the Tab control, you add the following code example in the correspondi
 
 You can specify the “Href” property for specifying the content to be loaded on each Tab. This property should match with the “id” of the element where you have specified the Tab content. In this case, The Essential Studio for ASP.NET MVC Mobile ListView controls with ids “mymusic” and “favorites” that is given in the “Href” attribute for the respective items are used and the third Tab that loads the content dynamically from a given url.
 
-> Note: Regarding the third Tab in the “loading on demand content section” is discussed later.
+N> Regarding the third Tab in the “loading on demand content section” is discussed later.
 
 {% highlight html %}
 

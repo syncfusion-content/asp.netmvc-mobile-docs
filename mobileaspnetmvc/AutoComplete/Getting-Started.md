@@ -109,7 +109,7 @@ public ActionResult Contacts()
 
 {% endhighlight %}
 
-> _Note: Here “MVCSample” is your project name._
+N> Here “MVCSample” is your project name.
 
 
 {% highlight html %}

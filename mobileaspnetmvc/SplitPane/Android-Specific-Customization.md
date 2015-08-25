@@ -11,7 +11,7 @@ documentation: ug
 
 You can set the android specific properties to the control by using the following settings.
 
-> Note: In iOS and windows, header control is used to set the title for both left pane and right panel. But in android, toolbar control is used as per the native user interface guideline.
+N> In iOS and windows, header control is used to set the title for both left pane and right panel. But in android, toolbar control is used as per the native user interface guideline.
 
 ## Customize Toolbar
 

@@ -15,7 +15,7 @@ Slide – Both navigation panel and content page slides towards left/right direc
 
 Overlay – Only navigation panel slides over the content page to view the navigation panel items that is, part of the content page is hidden under navigation panel.
 
-> Note: Transition slide type only working with position fixed.
+N> Transition slide type only working with position fixed.
 
 Refer to the following code example.
 
