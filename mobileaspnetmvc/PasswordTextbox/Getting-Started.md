@@ -21,7 +21,7 @@ Using the following guidelines, you can create a basic login form using the Pass
 
 ### Create Password Textbox
 
-Create a simple MVC application and add the following header and Scroll panel layout page content inside the <body> tag of layout.cshtml. To create an MVC Project, and add necessary Dll’s and Scripts you can refer to [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/index.html) for Mobile.  
+Create a simple MVC application and add the following header and Scroll panel layout page content inside the <body> tag of layout.cshtml. To create an MVC Project, and add necessary Dll’s and Scripts you can refer to [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) for Mobile.  
 
 {% highlight html %}
 

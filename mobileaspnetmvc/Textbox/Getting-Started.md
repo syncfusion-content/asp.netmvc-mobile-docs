@@ -25,7 +25,7 @@ To create a textbox for the login page in the mobile application, follow the gui
 
 Create an MVC application and add the following code example in the <body> tag of layout.cshtml file.
 
-You can create a MVC project and add the necessary DLLs and scripts with the help of the [MVC Getting Started Documentation.](http://help.syncfusion.com/ug/js/default.htm)
+You can create a MVC project and add the necessary DLLs and scripts with the help of the [MVC Getting Started Documentation.](http://docs.syncfusion.com/js/)
 
 {% highlight html %}
 

@@ -20,7 +20,7 @@ ASP.NET MVC Mobile Grid is a feature-rich Grid component that can handle a large
 
 ## Create the necessary layout 
 
-ASP.NET MVC Mobile Grid is rendered only by specifying the data source based on the default values of all the properties. You can easily customize Mobile Grid control by changing its properties according to your requirements. Create a simple MVC application and add the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. Create an MVC Project and add necessary Dlls and scripts with help of the [MVC-Getting Started Documentation.](http://help.syncfusion.com/ug/js/default.htm)
+ASP.NET MVC Mobile Grid is rendered only by specifying the data source based on the default values of all the properties. You can easily customize Mobile Grid control by changing its properties according to your requirements. Create a simple MVC application and add the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. Create an MVC Project and add necessary Dlls and scripts with help of the [MVC-Getting Started Documentation.](http://docs.syncfusion.com/js/)
 
 {% highlight html %}
 

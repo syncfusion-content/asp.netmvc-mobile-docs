@@ -34,7 +34,7 @@ The following steps guide you to add a Radial Menu control for a mobile applicat
 
 ## Create basic mobile layout
 
-1. Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) to create a MVC Project, add necessary Dll’s and Scripts.
+1. Refer [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) to create a MVC Project, add necessary Dll’s and Scripts.
 2. Add the following code in layout.cshtml page to create a header element.
    
    ~~~ html
@@ -73,7 +73,7 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/music.png
 
 {% endhighlight %}
 
-Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/ug/js/default.htm).
+Run the above code to render the following output. To know how to run the code, refer to this [section](http://docs.syncfusion.com/js/).
 
 ![](Overview_images/Overview_img2.png)
 

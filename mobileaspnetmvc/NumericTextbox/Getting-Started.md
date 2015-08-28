@@ -19,7 +19,7 @@ The following is an example for Rooms Availability Check and it describes how s
 
 You can render the Numeric Textbox control based on the default values for all the properties. You can easily customize Numeric Textbox control by changing their properties according to your requirements.
 
-You can create an MVC Project and add necessary assemblies, styles and scripts to it.  Refer [MVC-Getting Started.](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm)
+You can create an MVC Project and add necessary assemblies, styles and scripts to it.  Refer [MVC-Getting Started.](http://docs.syncfusion.com/aspnetmvc/captcha/getting-started#create-your-first-captcha-in-aspnet-mvc )
 
 1. Create a View page and add the following template.
    

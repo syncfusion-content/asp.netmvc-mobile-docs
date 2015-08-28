@@ -24,7 +24,7 @@ The following guidelines show you how to use the RadioButton to select the answe
 
 Create a simple MVC application and paste the following header and add the following template inside the <body> tag of the layout.cshtml and paste other templates in the view page for the RadioButton creation.
 
-You can create an MVCProject and add necessary Dlls and script with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for Mobile.
+You can create an MVCProject and add necessary Dlls and script with the help of the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) for Mobile.
 
 Add the following code layout to the corresponding master page.
 

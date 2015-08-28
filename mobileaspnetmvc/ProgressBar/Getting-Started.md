@@ -25,7 +25,7 @@ The ASP.NET MVC Mobile ProgressBar widget is rendered by calling ProgressBar hel
 
 Create a simple MVC application and paste the following header and scrollpanel layout page content inside the body tag of layout.cshtml. Paste other templates in the view page for ProgressBar creation. 
 
-You can create an MVC Project and add necessary Dlls and script, with the help of the [MVC-Getting Started Documentation.](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm)
+You can create an MVC Project and add necessary Dlls and script, with the help of the [MVC-Getting Started Documentation.](http://docs.syncfusion.com/aspnetmvc/captcha/getting-started#create-your-first-captcha-in-aspnet-mvc )
 
 
 {% highlight html %}

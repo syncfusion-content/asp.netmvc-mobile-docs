@@ -19,7 +19,7 @@ Essential JavaScript Mobile MaskEdit control allows you to enter input with s
 
 Create a MVC application and add the following code example in the <body> tag of layout.cshtml file.
 
-You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](http://help.syncfusion.com/ug/js/default.htm)
+You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](http://docs.syncfusion.com/js/)
 
 {% highlight html %}
 

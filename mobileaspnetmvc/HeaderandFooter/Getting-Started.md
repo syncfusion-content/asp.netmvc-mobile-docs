@@ -22,7 +22,7 @@ The ASP.NET MVC Mobile Header is placed at the top of the page. It usually conta
 
 Header and Footer controls are rendered based on the default values of all the properties. You can customize the Header and Footer controls by changing their properties according to your requirement. You can use the following steps to create a webpage.
 
-Create a simple MVC application and paste the scrollpanel layout page content inside the body tag of layout.cshtml. You can create an MVC Project and add necessary Dlls and scripts with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm)for Mobile.
+Create a simple MVC application and paste the scrollpanel layout page content inside the body tag of layout.cshtml. You can create an MVC Project and add necessary Dlls and scripts with help of the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/)for Mobile.
 
 {% highlight html %}
 

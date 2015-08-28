@@ -23,7 +23,7 @@ The ASP.NET MVC DatePicker allows you to display the picker element in your webp
 
 ### Create a DatePicker 
 
-ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDatePicker Helper. To create an MVC Project and to add necessary Dlls and script, use the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm).
+ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDatePicker Helper. To create an MVC Project and to add necessary Dlls and script, use the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/).
 
 1. Add the following code example to the corresponding view page.
 
@@ -32,16 +32,14 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
 			@Html.EJMobile().Header("header").Title("Ticket Booking")
 
 			<div id="content_container">
-
-    		<div>
-
-       		<!-- Add DatePicker Elements here -->
-
-   		 	</div>
+			
+			    		<div>
+			
+			       		<!-- Add DatePicker Elements here -->
+			
+			   		 	</div>
 
 			</div>
-
-
 
    ~~~
    {:.prettyprint }
@@ -51,52 +49,52 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
    ~~~ html
     
 			<table>
-
-            <tr>
-
-                <td class="tdclass">Onward Date</td>
-
-            </tr>
-
-            <tr>
-
-                <td class="tdclass">
-
-                    <span class="innerdp">
-
-              <!-- DatePicker control -->
-
-              @Html.EJMobile().DatePicker("startDate")
-
-                    </span>
-
-                </td>
-
-            	</tr>
-
-            	<tr>
-
-                <td class="tdclass">Return date</td>
-
-            	</tr>
-
-            	<tr>
-
-                <td class="tdclass">
-
-                    <span class="innerdp">
-
-              	<!-- DatePicker control -->
-
-              	@Html.EJMobile().DatePicker("endDate")
-
-                    </span>
-
-                </td>
-
-            	</tr>
-
-       			 </table>
+			
+			            <tr>
+			
+			                <td class="tdclass">Onward Date</td>
+			
+			            </tr>
+			
+			            <tr>
+			
+			                <td class="tdclass">
+			
+			                    <span class="innerdp">
+			
+			              <!-- DatePicker control -->
+			
+			              @Html.EJMobile().DatePicker("startDate")
+			
+			                    </span>
+			
+			                </td>
+			
+			            	</tr>
+			
+			            	<tr>
+			
+			                <td class="tdclass">Return date</td>
+			
+			            	</tr>
+			
+			            	<tr>
+			
+			                <td class="tdclass">
+			
+			                    <span class="innerdp">
+			
+			              	<!-- DatePicker control -->
+			
+			              	@Html.EJMobile().DatePicker("endDate")
+			
+			                    </span>
+			
+			                </td>
+			
+			            	</tr>
+			
+			</table>
 
    ~~~
    {:.prettyprint }
@@ -107,30 +105,28 @@ ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDa
    ~~~ css
     
 			<style type="text/css" class="cssStyles">
+			
+			        	.tdclass
+			
+			        	{
+			
+			            	width: 300px;
+			
+			            	font-weight: bold;
+			
+			           	 	padding-bottom: 10px;
+			
+			        		}
+			
+			        		table
+			
+			        		{
+			
+			            		margin: 30px auto;
 
-        	.tdclass
-
-        	{
-
-            	width: 300px;
-
-            	font-weight: bold;
-
-           	 	padding-bottom: 10px;
-
-        		}
-
-
-
-        		table
-
-        		{
-
-            		margin: 30px auto;
-
-        		}
-
-    			</style>
+			        		}
+			
+			</style>
 
    ~~~
    {:.prettyprint }

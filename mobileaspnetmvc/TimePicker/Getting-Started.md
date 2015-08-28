@@ -25,7 +25,7 @@ The ASP.NET MVC TimePicker provides support to display the TimePicker element wi
 
 You can create ASP.NET MVCTimePicker widget easily by using MobileTimepickerHTML helper.
 
-Create a simple MVC application and add the following header content inside the <Body>tag of layout.cshtml. You can create a MVC Project and add necessary Dlls and scripts using [MVC-Getting Started Documentation.](http://help.syncfusion.com/ug/js/Documents/gettingstartedwithmv.htm)
+Create a simple MVC application and add the following header content inside the <Body>tag of layout.cshtml. You can create a MVC Project and add necessary Dlls and scripts using [MVC-Getting Started Documentation.](http://docs.syncfusion.com/aspnetmvc/captcha/getting-started#create-your-first-captcha-in-aspnet-mvc )
 
 {% highlight html %}
 

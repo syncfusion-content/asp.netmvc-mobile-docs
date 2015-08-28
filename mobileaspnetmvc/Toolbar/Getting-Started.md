@@ -21,7 +21,7 @@ The Essential Studio for ASP.NET MVC Mobile Toolbar provides a single interface 
 
 ### Create the necessary layout
 
-Create a simple MVC application and paste the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. Add other templates in the view page for Toolbar creation. To create a MVC Project, add necessary Dll’s and Scripts done with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/ug/js/default.htm) for mobile.
+Create a simple MVC application and paste the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. Add other templates in the view page for Toolbar creation. To create a MVC Project, add necessary Dll’s and Scripts done with the help of the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) for mobile.
 
 {% highlight html %}
 
