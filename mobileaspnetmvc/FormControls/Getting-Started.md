@@ -35,7 +35,7 @@ In the  Bill Payment App , you can use the  Textbox control to get the Name of t
 
 Create a simple MVC  application and add the following header and scrollpanel layout page content inside the &lt;body&gt; tag of layout.cshtml. 
 
-1. Create an MVC Project and add necessary Dll’s and Scripts with help of the [MVC-Getting Started Documentation](http:/help.syncfusion.com/ug/js/default.htm) for mobile.
+1. Create an MVC Project and add necessary Dll’s and Scripts with help of the [MVC-Getting Started Documentation](http:/docs.syncfusion.com/js/) for mobile.
 
 
    ~~~ html

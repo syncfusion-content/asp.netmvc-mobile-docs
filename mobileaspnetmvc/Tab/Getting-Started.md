@@ -15,7 +15,7 @@ In this section you will learn how to create the Essential JavaScript Mobile Tab
 
 The Essential Studio for ASP.NET MVC Mobile Tab provides a way to switch views within a web page. In the following guidelines, you can create Music App (simulator) through that you can learn the features of mobileTab widget.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image34_7.png](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -114,7 +114,7 @@ N> Regarding the third Tab in the “loading on demand content section” is dis
 
 Run this code and the following output is achieved. For more details, to run the samples refer "Common Getting Started" section.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image34_9.png](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
@@ -240,7 +240,7 @@ left: 20px;
 
 Run this code and the following output is achieved. For more details, to run the samples refer to "Common Getting Started" section.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image34_10.png](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 
@@ -292,7 +292,7 @@ Create a view page with the following code example.
 
 Run this code and the following output is achieved. For more details, to run the samples refer to "Common Getting Started" section.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image34_11.png](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 
@@ -326,7 +326,7 @@ item.Add().Text("Favorites").Href("#favorites").IOS7(ios7 => ios7.ImageClass("ic
 
 Run this code and the following output is achieved. For more details, to run the samples refer "Common Getting Started" section.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image34_12.png](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img5.png)
 
 
 
@@ -348,7 +348,7 @@ To update the Badge value dynamically whenever a new update is added, use the fo
 
 After calling the above script you can get the updated Badge as shown in the following screenshot.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image34_13.png](Getting-Started_images/Getting-Started_img6.png)
+![](Getting-Started_images/Getting-Started_img6.png)
 
 
 

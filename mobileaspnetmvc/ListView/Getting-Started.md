@@ -250,7 +250,7 @@ You can define the image classes specified for the ListView items as follows.
 Run the above code and you can see the following output. For queries on how to run please refer this [link](http://docs.syncfusion.com/js/).
 
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image122_2.jpg](Getting-Started_images/Getting-Started_img3.jpeg)
+![](Getting-Started_images/Getting-Started_img3.jpeg)
 
 
 ### Create Child List with Template
@@ -423,7 +423,7 @@ In this example, you can move to the inbox page by tapping inbox list item to re
 
 Run the above code and you can see the following output. For queries on how to run, refer this [link](http://docs.syncfusion.com/js/).
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image122_3.jpg](Getting-Started_images/Getting-Started_img4.jpeg)
+![](Getting-Started_images/Getting-Started_img4.jpeg)
 
 
 From the above steps, you have learnt how to create Essential MVC Mobile ListView widget with use case samples. There are more customization properties, other than the ones used here. To know more about the properties in Mobile ListView widget, you can refer the complete documentation page for Mobile ListView widget.

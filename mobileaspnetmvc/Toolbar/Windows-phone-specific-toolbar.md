@@ -37,7 +37,7 @@ Refer to the following code example.
 
  The following screenshot illustrates the output of the above code.
 
-![http://help.syncfusion.com/ug/js/ImagesExt/image124_10.png](Windows-phone-specific-toolbar_images/Windows-phone-specific-toolbar_img1.png)
+![](Windows-phone-specific-toolbar_images/Windows-phone-specific-toolbar_img1.png)
 
 
 
