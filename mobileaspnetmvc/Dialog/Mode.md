@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mode
+title: Mode| Dialog | MobileAspNetMVC | Syncfusion
 description: mode
 platform: mobileaspnetmvc
 control: Dialog
@@ -21,7 +21,7 @@ The Mode property specifies the different types of dialog modes. The possible va
 
 The AlertDialog box property is used to communicate an Alert message.
 
-
+{% tabs %}
 {% highlight html %}
 @{
 
@@ -45,7 +45,7 @@ The AlertDialog box property is used to communicate an Alert message.
 {% endhighlight %}
 
 {% highlight js %}
-[Script]
+
 
 
 
@@ -57,7 +57,7 @@ The AlertDialog box property is used to communicate an Alert message.
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 
@@ -68,7 +68,7 @@ The following screenshot displays the output.
 
 The ConfirmDialog box property is mostly used to take the user's consent on any option. It displays a Dialog box with two buttons, Ok and Cancel. Ok button returns true and Cancel button returns false.
 
-
+{% tabs %}
 {% highlight html %}
 @{
 
@@ -104,7 +104,7 @@ Turn on cellular data or use Wi-Fi to access data
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 
@@ -115,7 +115,7 @@ The following screenshot displays the output.
 
 The Normal Mode Dialog box property is used to display the message in sub screen area on a whole screen. It displays a Dialog box with two buttons, Continue and Cancel. Continue button returns true and Cancel button returns false. It is suitable for tablet devices.
 
-
+{% tabs %}
 {% highlight html %}
 @{
 
@@ -151,7 +151,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 
@@ -162,7 +162,7 @@ The following screenshot displays the output.
 
 The FullViewDialog box property is used to display messages on full screen and it is suitable for mobile devices.
 
-
+{% tabs %}
 {% highlight html %}
 @{
 
@@ -196,7 +196,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 

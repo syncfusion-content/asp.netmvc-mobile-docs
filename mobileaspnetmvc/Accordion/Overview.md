@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Accordion | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Accordion
 documentation: ug
 ---
 
-# Overview
+# Accordion
 
 The EssentialJavaScriptMobileAccordion widget is an interface where lists of items are collapsed or expanded. Accordion control has several collapsible panels, where only one can be expanded at a time. It has a template for its header and its content.
 

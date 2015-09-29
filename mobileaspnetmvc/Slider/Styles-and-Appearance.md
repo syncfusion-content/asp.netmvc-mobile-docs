@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance| Slider | MobileAspNetMVC | Syncfusion
 description: styles and appearance
 platform: mobileaspnetmvc
 control: Slider
@@ -20,8 +20,8 @@ _Class names_
 <table>
 <tr>
 <th>
-{{ '**Files**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 e-m-slider</td><td>

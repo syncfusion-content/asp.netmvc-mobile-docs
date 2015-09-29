@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IOS7-Specific-Customization
+title: IOS7 Specific Customization| Menu | MobileAspNetMVC | Syncfusion
 description: ios7 specific customization
 platform: mobileaspnetmvc
 control: Menu
@@ -11,32 +11,32 @@ documentation: ug
 
 You can set the iOS7 specific properties to the control by accessing iOS7 property.
 
-Cancel Button Customization
+## Cancel Button Customization
 
-Text and Color
+## Text and Color
 
 The iOS7 Animate Type Menu comes with CancelButton at the bottom. The Cancel Button color can be customized by CancelButtonColor property. The Cancel Button text is changed by using CancelButtonText property. Set the desired text by using this property.
 
 {% highlight html %}
 
-    <div style="text-align: center;">
+<div style="text-align: center;">
 
-        @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
+@Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
 
-    </div>
+</div>
 
-    @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.CancelButtonColor(IOS7ButtonColor.Red).CancelButtonText("Cancel")).Items(item =>
+@Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.CancelButtonColor(IOS7ButtonColor.Red).CancelButtonText("Cancel")).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Get info");
+item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+item.Add().Text("Delete");
 
-            })
-			
+})
+
 {% endhighlight %}
 
 The following screenshot displays the Button Customization:
@@ -51,23 +51,23 @@ You can hide or show the Cancel Button by setting false or true to the ShowCance
 
 {% highlight html %}
 
-    <div style="text-align: center;">
+<div style="text-align: center;">
 
-        @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
+@Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
 
-    </div>
+</div>
 
-    @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.ShowCancelButton(false)).Items(item =>
+@Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.ShowCancelButton(false)).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Get info");
+item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+item.Add().Text("Delete");
 
-            })
+})
 			
 {% endhighlight %}
 
@@ -83,23 +83,23 @@ When iOS7 Menu is used, it comes up with a Title on the top of the Menu containe
 
 {% highlight html %}
 
-    <div style="text-align: center;">
+<div style="text-align: center;">
 
-        @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
+@Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
 
-    </div>
+</div>
 
-    @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.ShowTitle(false)).Items(item =>
+@Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.ShowTitle(false)).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Get info");
+item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+item.Add().Text("Delete");
 
-            })
+})
 
 {% endhighlight %}
 
@@ -119,24 +119,24 @@ When you click a button or a target element, the Menu is shown. The appearance o
 
 {% highlight html %}
 
-    <div style="text-align: center;">
+<div style="text-align: center;">
 
-        @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
+@Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.IOS7)
 
-    </div>
+</div>
 
-    @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.Type(IOS7MenuType.Normal)).Items(item =>
+@Html.EJMobile().Menu("menu_sample").TargetId("menuitem").IOS7(ios7=>ios7.Type(IOS7MenuType.Normal)).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Get info");
+item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+item.Add().Text("Delete");
 
-            })
-			
+})
+
 {% endhighlight %}
 
 The following screenshot displays the Type:

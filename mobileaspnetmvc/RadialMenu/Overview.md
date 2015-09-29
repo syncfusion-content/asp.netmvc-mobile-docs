@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Radial Menu | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Radial Menu
 documentation: ug
 ---
 
-# Overview
+# Radial Menu
 
 EssentialStudio ASP.NET MVC,Mobile Radial Menu control is a context that represent the menu items in a circular order with a center button element in it. By default, only the center button is visible. The Radial Menu displays the root level menu item with rotational animation effects on clicking the center menu button. You can close it either by clicking on document or by clicking on the center button when the root level items are displayed.
 
@@ -42,7 +42,7 @@ The following steps guide you to add a Radial Menu control for a mobile applicat
    
 
    ~~~
-   {:.prettyprint}
+   
 
 3. Create the page content as follows.
    
@@ -53,7 +53,7 @@ The following steps guide you to add a Radial Menu control for a mobile applicat
 		</p>
 		</div>
    ~~~
-   {:.prettyprint}
+   
 
 ## Add Radial Menu control
 

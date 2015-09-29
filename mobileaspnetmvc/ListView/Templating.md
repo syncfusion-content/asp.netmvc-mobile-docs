@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Templating
+title: Templating| ListView | MobileAspNetMVC | Syncfusion
 description: templating
 platform: mobileaspnetmvc
 control: ListView

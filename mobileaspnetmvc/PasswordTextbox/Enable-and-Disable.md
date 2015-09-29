@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable-and-Disable
+title: Enable and Disable| Password | MobileAspNetMVC | Syncfusion
 description: enable and disable
 platform: mobileaspnetmvc
 control: Password
@@ -15,7 +15,7 @@ Refer to the following code example.
 
 {% highlight html %}
 
-    @Html.EJMobile().PassWord("textbox_sample").WatermarkText("password").Enabled(false)
+@Html.EJMobile().PassWord("textbox_sample").WatermarkText("password").Enabled(false)
 
 
 {% endhighlight %}

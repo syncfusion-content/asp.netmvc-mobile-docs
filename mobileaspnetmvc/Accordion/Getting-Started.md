@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Accordion | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Accordion
@@ -159,6 +159,7 @@ By default Header icons are not visible. To make the icons visible, set ShowHead
 
 {% endhighlight %}
 
+
 ![](Getting-Started_images/Getting-Started_img4.png)
 
 
@@ -195,6 +196,8 @@ By default, all the content sections are not collapsible. To make all its conten
 
             })
 {% endhighlight %}
+
+
 ## Add content
 
 In this use case example given, the contents of the Recent Matches and Upcoming Matches panels are given as static. In these content panels, the team results and match schedules are listed.
@@ -350,6 +353,7 @@ Use the following styles for the content style.
       </style>
 {% endhighlight %}
 
+
 ![](Getting-Started_images/Getting-Started_img5.png)
 
 ![](Getting-Started_images/Getting-Started_img6.png)
@@ -359,6 +363,7 @@ Use the following styles for the content style.
 ## Load content on-demand
 
 In some cases, you can load content only when it is required. In this case, the OngoingMatches panel needs to be loaded only when you want to check for updates, since it refers a live content. To achieve this, specify AjaxUrl property with the respective URL of the view page file that contains the dynamic content.
+
 
 {% highlight html%}
 
@@ -448,7 +453,9 @@ In some cases, you can load content only when it is required. In this case, the 
 
 {% endhighlight %}
 
+
 Create a new view page with the name load.cshtml and assign its URL to AjaxUrl property.
+
 
 {% highlight html%}
       <div>
@@ -505,6 +512,7 @@ Create a new view page with the name load.cshtml and assign its URL to AjaxUrl p
 
       </div>
 {% endhighlight %}
+
 
 
 ![](Getting-Started_images/Getting-Started_img7.png)
@@ -602,6 +610,7 @@ By default, Cache is enabled. So when you load the Ongoing Matches content, it l
             })
 
 {% endhighlight %}
+
 
 From the above steps, you have learnt how to create and customize ASP.NET MVC Mobile Accordion widget with case examples. There are more customization properties other than the one used here. To know more about the properties, you can refer the complete documentation page of Mobile Accordion widget.
 

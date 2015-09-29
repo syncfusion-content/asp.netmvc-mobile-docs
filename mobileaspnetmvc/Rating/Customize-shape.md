@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-shape
+title: Customize shape| Rating | MobileAspNetMVC | Syncfusion
 description: customize shape
 platform: mobileaspnetmvc
 control: Rating
@@ -26,9 +26,9 @@ The ShapeHeight property specifies the height for the Rating shape. The ShapeWid
 
 {% highlight html %}
 
-    @Html.EJMobile().Rating("rating_sample").Shape(Shape.Diamond).ShapeHeight(40).   
+@Html.EJMobile().Rating("rating_sample").Shape(Shape.Diamond).ShapeHeight(40).   
 
-     ShapeWidth(45).SpaceBetweenShapes(20)
+ShapeWidth(45).SpaceBetweenShapes(20)
 
 {% endhighlight %}
 

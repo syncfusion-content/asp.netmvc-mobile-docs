@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| ScrollPanel | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: ScrollPanel
@@ -33,7 +33,7 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
 		@Html.EJMobile().Header("header").Title("Syncfusion")
    
    ~~~
-   {:.prettyprint}
+   
 
 
 2. Add the following code example to the corresponding view page.
@@ -51,7 +51,7 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
 		<!— Add scroll panel helper here-->
   
    ~~~
-   {:.prettyprint}
+   
 
 3. Add the following styles to display image and align the content.
    
@@ -73,7 +73,7 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based
 		}
 		</style>
    ~~~
-   {:.prettyprint}
+   
 Run the above code example to render the following output.
 
 ![](Getting-Started_images/Getting-Started_img2.png)

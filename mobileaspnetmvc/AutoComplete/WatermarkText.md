@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WatermarkText
+title: WatermarkText| AutoComplete  | MobileAspNetMVC | Syncfusion
 description: watermarktext
 platform: mobileaspnetmvc
 control: AutoComplete 
@@ -17,6 +17,7 @@ WatermarkText property displays text in the AutoComplete textbox when it is empt
 
 @Html.EJMobile().AutoComplete("autocomplete_sample").WatermarkText("Select a car").DataSource(Model).Field("name").WatermarkText("Search a Car")
 {% endhighlight %}
+
 
 
 The following screenshot displays Watermark text:

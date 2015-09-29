@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| RadioButton | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: RadioButton
@@ -38,15 +38,15 @@ Add the following code layout to the corresponding master page.
 
 
 
-    <div>
+<div>
 
 
 
-        @RenderBody()
+@RenderBody()
 
 
 
-    </div>
+</div>
 
 
 
@@ -72,103 +72,103 @@ Add the following code example to render the RadioButton in the quiz application
 
 <div id="content">
 
-        <div>
+<div>
 
 
 
-  <table border="0" cellpadding="5">
+<table border="0" cellpadding="5">
 
-                <tr>
+<tr>
 
-                    <td>1. What is the Expansion for MVC?
+<td>1. What is the Expansion for MVC?
 
-                    </td>
+</td>
 
-                </tr>
+</tr>
 
-                <tr>
+<tr>
 
-                    <td class="align">
+<td class="align">
 
-                        @Html.EJMobile().RadioButton("radbtn", "view", new { id = "radio1" }).Text("Model View Controller")
+@Html.EJMobile().RadioButton("radbtn", "view", new { id = "radio1" }).Text("Model View Controller")
 
-                    </td>
+</td>
 
-                </tr>
+</tr>
 
-                <tr>
+<tr>
 
-                    <td class="align">
+<td class="align">
 
-                        @Html.EJMobile().RadioButton("radbtn", "virtual", new { id = "radio2" }).Text("Model Virtual Container")
+@Html.EJMobile().RadioButton("radbtn", "virtual", new { id = "radio2" }).Text("Model Virtual Container")
 
-                    </td>
+</td>
 
-                </tr>
+</tr>
 
-                <tr>
+<tr>
 
-                    <td class="align">
+<td class="align">
 
-                    @Html.EJMobile().RadioButton("radbtn", "Visual", new { id = "radio3" }).Text("Model Visual Controller")
+@Html.EJMobile().RadioButton("radbtn", "Visual", new { id = "radio3" }).Text("Model Visual Controller")
 
-                </tr>
-
-
-
-
-
-                <tr>
-
-                    <td>2. What is the Expansion for USB?
-
-                    </td>
-
-                </tr>
+</tr>
 
 
 
 
 
-                <tr>
+<tr>
 
-                    <td class="align">
+<td>2. What is the Expansion for USB?
 
-                        @Html.EJMobile().RadioButton("USB", "serialized", new { id = "radio4" }).Text("Universal serialized Buffer")
+</td>
 
-                    </td>
-
-                </tr>
-
-                <tr>
-
-                    <td class="align">
-
-                        @Html.EJMobile().RadioButton("USB", "Serial", new { id = "radio5" }).Text("Universal Serial Buffer")
-
-                    </td>
-
-                </tr>
-
-                <tr>
-
-                    <td class="align">
-
-                        @Html.EJMobile().RadioButton("USB", "Universal", new { id = "radio6" }).Text("Universal Serial Bus")
-
-                    </td>
-
-                </tr>
+</tr>
 
 
 
 
 
-            </table>
+<tr>
 
-   </div>
+<td class="align">
 
-    </div>
+@Html.EJMobile().RadioButton("USB", "serialized", new { id = "radio4" }).Text("Universal serialized Buffer")
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="align">
+
+@Html.EJMobile().RadioButton("USB", "Serial", new { id = "radio5" }).Text("Universal Serial Buffer")
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="align">
+
+@Html.EJMobile().RadioButton("USB", "Universal", new { id = "radio6" }).Text("Universal Serial Bus")
+
+</td>
+
+</tr>
+
+
+
+
+
+</table>
+
+</div>
+
+</div>
 
 
 
@@ -178,25 +178,25 @@ Add the following code example to render the RadioButton in the quiz application
 
 Now, add the following style to align the RadioButton and contents properly in the quiz application.
 
-{% highlight html  %}
+{% highlight css  %}
 
 <style>
 
-        td {
+td {
 
-            padding: 5px;
+padding: 5px;
 
-        }
+}
 
 
 
-            td.align {
+td.align {
 
-                padding-left: 20px;
+padding-left: 20px;
 
-            }
+}
 
-    </style>
+</style>
 
 
 

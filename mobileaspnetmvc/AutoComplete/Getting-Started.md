@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| AutoComplete  | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: AutoComplete 
@@ -50,6 +50,7 @@ Add the following code layout to the corresponding master page.
 
 Add the following code example to render the AutoComplete control in the corresponding view page.
 
+
 {% highlight html %}
 <div style="padding: 5px 0; text-indent: 5px;">
 
@@ -60,6 +61,7 @@ Add the following code example to render the AutoComplete control in the corresp
 
 @Html.EJMobile().AutoComplete("contacts")   
 {% endhighlight html %}
+
 
 ![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)
 
@@ -92,6 +94,7 @@ Zip file link: [http://js.syncfusion.com/UG/Mobile/Content/Contacts.zip](http://
 
 Add the corresponding namespace for model in controller and modify the existing controller as follows. 
 
+
 {% highlight html %}
 using MVCSample.Models;
 
@@ -108,6 +111,7 @@ public ActionResult Contacts()
         }
 
 {% endhighlight %}
+
 
 N> Here “MVCSample” is your project name.
 
@@ -134,6 +138,7 @@ Run the above code and type the contact details to search for (In this example, 
 
 AutoComplete textbox enables you to select multiple items from the suggestions list. To achieve this, set the EnableMultiSelect property to true. The DelimiterChar property holds a string value that specifies the separator between two selected items.  You can customize the delimiter string. In this example “;” is used as delimiter.
 
+
 {% highlight html %}
      <label>Select Contacts</label>
      <!-- Autocomplete control -->
@@ -143,6 +148,7 @@ AutoComplete textbox enables you to select multiple items from the suggestions l
             @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource(Model).Field("name").FilterType(AutoCompleteFilterType.Contains). EnableMultiSelect(true).DelimiterChar(";")    
 {% endhighlight %}
 
+
 Run the above code and type the necessary query in the textbox. The contact is displayed as shown in the following screenshot.
 
 ![](Getting-Started_images/Getting-Started_img5.png)
@@ -151,6 +157,7 @@ Run the above code and type the necessary query in the textbox. The contact is d
 ### Event handling
 
 The Select eventenables you to handle AutoComplete selection. By assigning a function name to the event, you can handle the selection. Here you can set Select event with the function name OnSelect.  By processing the onSelect( ) function, you can implement the necessary actions. In this example, the full Contact detail of the selected contact name is displayed. 
+
 
 {% highlight html %}
           <!-- Autocomplete control -->

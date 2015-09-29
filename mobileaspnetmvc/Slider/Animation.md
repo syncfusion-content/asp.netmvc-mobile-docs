@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Animation
+title: Animation| Slider | MobileAspNetMVC | Syncfusion
 description: animation
 platform: mobileaspnetmvc
 control: Slider

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance| Toggle Button | MobileAspNetMVC | Syncfusion
 description: styles and appearance
 platform: mobileaspnetmvc
 control: Toggle Button

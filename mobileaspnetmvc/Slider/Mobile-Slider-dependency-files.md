@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Slider-dependency-files
+title: Mobile Slider dependency files| Slider | MobileAspNetMVC | Syncfusion
 description: mobile slider dependency files
 platform: mobileaspnetmvc
 control: Slider
@@ -16,8 +16,8 @@ _Script files_
 <table>
 <tr>
 <th>
-{{ '**Files**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

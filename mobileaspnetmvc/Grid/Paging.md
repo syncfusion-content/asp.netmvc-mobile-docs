@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paging
+title: Paging| Grid | MobileAspNetMVC | Syncfusion
 description: paging
 platform: mobileaspnetmvc
 control: Grid
@@ -37,23 +37,23 @@ namespace MVCSampleBrowser.Controllers
 
 {
 
-    public partial class GridController : Controller
+public partial class GridController : Controller
 
-    {
+{
 
-        public ActionResult Paging()
+public ActionResult Paging()
 
-        {
+{
 
-            var DataSource = new NorthwindDataContext().OrdersViews.ToList();
+var DataSource = new NorthwindDataContext().OrdersViews.ToList();
 
-            ViewBag.datasource = DataSource;
+ViewBag.datasource = DataSource;
 
-            return View();
+return View();
 
-        }
+}
 
-     }
+}
 
 }
 
@@ -82,25 +82,25 @@ In this section, you can learn how the pager types differ in Mobile Grid control
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/").Offline(true))
+.Datasource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/").Offline(true))
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("EmployeeID").HeaderText("Employee ID").Add();
+col.Field("EmployeeID").HeaderText("Employee ID").Add();
 
-            col.Field("Freight").HeaderText("Freight").Add();
+col.Field("Freight").HeaderText("Freight").Add();
 
-        })
+})
 
-        .AllowPaging(true)
+.AllowPaging(true)
 
-        .PageOption(p=>p.Type(PagerType.Scrollbale)))
+.PageOption(p=>p.Type(PagerType.Scrollbale)))
 
 
 {% endhighlight %}

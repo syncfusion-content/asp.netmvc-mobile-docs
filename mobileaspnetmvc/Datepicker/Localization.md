@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Localization
+title: Localization| DatePicker | MobileAspNetMVC | Syncfusion
 description: localization                         
 platform: mobileaspnetmvc
 control: DatePicker

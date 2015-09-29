@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MinimumCharacter
+title: MinimumCharacter| AutoComplete  | MobileAspNetMVC | Syncfusion
 description: minimumcharacter
 platform: mobileaspnetmvc
 control: AutoComplete 

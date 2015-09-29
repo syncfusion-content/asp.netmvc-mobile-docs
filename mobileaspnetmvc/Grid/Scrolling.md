@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling
+title: Scrolling| Grid | MobileAspNetMVC | Syncfusion
 description: scrolling
 platform: mobileaspnetmvc
 control: Grid
@@ -17,23 +17,23 @@ Scrolling is an important feature in Mobile Grid. It makes Grid more compatible 
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/").Offline(true))
+.Datasource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/").Offline(true))
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("Freight").HeaderText("Freight").Add();
+col.Field("Freight").HeaderText("Freight").Add();
 
-        })
+})
 
 .AllowScrolling(true)
 
-        .ScrollOption(s=>s.Height(352)))
+.ScrollOption(s=>s.Height(352)))
 
 
 {% endhighlight %}
@@ -52,25 +52,25 @@ Column scrolling is powerful technique in ejmGrid. It makes Grid more compatible
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/").Offline(true))
+.Datasource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/").Offline(true))
 
 .AllowScrolling(true)
 
-        .ScrollOption(s => s.EnableColumnScrolling(true).Height(352))
+.ScrollOption(s => s.EnableColumnScrolling(true).Height(352))
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Width(100).Add();
+col.Field("OrderID").HeaderText("Order ID").Width(100).Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Width(140).Add();
+col.Field("CustomerID").HeaderText("Customer ID").Width(140).Add();
 
-            col.Field("EmployeeID").HeaderText("Employee ID").Width(140).Add();
+col.Field("EmployeeID").HeaderText("Employee ID").Width(140).Add();
 
-            col.Field("Freight").HeaderText("Freight").Width(100).Add();
+col.Field("Freight").HeaderText("Freight").Width(100).Add();
 
-        }))
+}))
 
 {% endhighlight %}
 

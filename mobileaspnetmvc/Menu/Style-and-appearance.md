@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style-and-appearance
+title: Style and appearance| Menu | MobileAspNetMVC | Syncfusion
 description: style and appearance
 platform: mobileaspnetmvc
 control: Menu

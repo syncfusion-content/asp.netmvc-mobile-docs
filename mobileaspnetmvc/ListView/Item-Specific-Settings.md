@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Item-Specific-Settings
+title: Item Specific Settings| ListView | MobileAspNetMVC | Syncfusion
 description: item specific settings
 platform: mobileaspnetmvc
 control: ListView

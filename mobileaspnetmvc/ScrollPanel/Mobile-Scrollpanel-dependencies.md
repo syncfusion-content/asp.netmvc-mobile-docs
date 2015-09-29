@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Scrollpanel-dependencies
+title: Mobile Scrollpanel dependencies| ScrollPanel | MobileAspNetMVC | Syncfusion
 description: mobile scrollpanel dependencies
 platform: mobileaspnetmvc
 control: ScrollPanel
@@ -16,8 +16,8 @@ _Script files_
 <table>
 <tr>
 <th>
-{{ '**File**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dependencies
+title: Dependencies| SplitPane | MobileAspNetMVC | Syncfusion
 description: dependencies
 platform: mobileaspnetmvc
 control: SplitPane
@@ -16,8 +16,8 @@ _List of Script files_
 <table>
 <tr>
 <th>
-{{ '**Files**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

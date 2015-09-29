@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Native-TimePicker
+title: Native TimePicker| TimePicker | MobileAspNetMVC | Syncfusion
 description: native timepicker
 platform: mobileaspnetmvc
 control: TimePicker

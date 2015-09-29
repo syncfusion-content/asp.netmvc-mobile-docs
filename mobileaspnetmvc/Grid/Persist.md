@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Persist
+title: Persist| Grid | MobileAspNetMVC | Syncfusion
 description: persist 
 platform: mobileaspnetmvc
 control: Grid
@@ -17,17 +17,17 @@ This section explains you on how to maintain Grid state. Refer the following cod
 
 .Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders")
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("Freight").HeaderText("Freight").Add();
+col.Field("Freight").HeaderText("Freight").Add();
 
-        })
+})
 
 .EnablePersistence(true))
 

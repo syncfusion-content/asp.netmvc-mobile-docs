@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Template-Support
+title: Template Support| Tile | MobileAspNetMVC | Syncfusion
 description: template support
 platform: mobileaspnetmvc
 control: Tile
@@ -23,19 +23,19 @@ Refer to the following code example.
 
 <div id="imageTemplate">
 
-   <div id="appimage">
+<div id="appimage">
 
-     <div class="tileMargin">
+<div class="tileMargin">
 
-      <span class="caption">Google Search</span><br />
+<span class="caption">Google Search</span><br />
 
-      <span class="description">The world’s information</span><br />
+<span class="description">The world’s information</span><br />
 
-      <span class="sub">Free</span>
+<span class="sub">Free</span>
 
-     </div>
+</div>
 
-   </div>
+</div>
 
 </div>
 

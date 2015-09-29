@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Dialog-Dependency-files
+title: Mobile Dialog Dependency files| Dialog | MobileAspNetMVC | Syncfusion
 description: mobile dialog dependency files
 platform: mobileaspnetmvc
 control: Dialog
@@ -16,8 +16,8 @@ _Script files to render the Dialog control_
 <table>
 <tr>
 <th>
-{{ '*Files*' | markdownify }}</th><th>
-{{ '*Description/Usage*' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

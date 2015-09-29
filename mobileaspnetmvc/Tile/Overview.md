@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Tile | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Tile
 documentation: ug
 ---
 
-# Overview
+# Tile
 
 The Essential Studio for ASP.NET MVC Mobile Tile widget is a simple, opaque display of colored rectangles or squares that are arranged on the Start screen in a grid-like pattern. Tapping (or otherwise selecting) a tile launches the app or other functionality that is represented by the tile.
 

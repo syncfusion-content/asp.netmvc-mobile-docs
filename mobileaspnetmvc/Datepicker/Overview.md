@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| DatePicker | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: DatePicker
 documentation: ug
 ---
 
-# Overview
+# DatePicker
 
 The EssentialStudio for ASP.NET MVC,MobileDatePicker widget provides support to display the picker element within your web page and allows you to pick the date. The DatePicker displays the dates of the current month with the current date highlighted and you can customize the date format, restrict the selectable date ranges, and localize the culture to change the language of the DatePicker.
 

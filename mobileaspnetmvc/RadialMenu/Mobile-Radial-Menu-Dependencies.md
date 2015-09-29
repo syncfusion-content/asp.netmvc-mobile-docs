@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Radial-Menu-Dependencies
+title: Mobile Radial Menu Dependencies| Radial Menu | MobileAspNetMVC | Syncfusion
 description: mobile radial menu dependencies
 platform: mobileaspnetmvc
 control: Radial Menu
@@ -16,8 +16,8 @@ _Script files_
 <table>
 <tr>
 <th>
-{{ '**Files**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

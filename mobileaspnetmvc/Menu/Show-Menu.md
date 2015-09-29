@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Show-Menu
+title: Show Menu| Menu | MobileAspNetMVC | Syncfusion
 description: show menu 
 platform: mobileaspnetmvc
 control: Menu
@@ -13,23 +13,23 @@ The Menu is shown by tap or taphold action on the target element and by setting 
 
 {% highlight html %}
 
-    <div style="text-align: center;">
+<div style="text-align: center;">
 
-        @Html.EJMobile().Button("menutarget").Text("Menu")
+@Html.EJMobile().Button("menutarget").Text("Menu")
 
-    </div>
+</div>
 
-    @Html.EJMobile().Menu("menu_sample").TargetId("menutarget").ShowOn(ShowOn.Tap).Items(item =>
+@Html.EJMobile().Menu("menu_sample").TargetId("menutarget").ShowOn(ShowOn.Tap).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Get info");
+item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+item.Add().Text("Delete");
 
-            })
+})
 			
 {% endhighlight %}
 

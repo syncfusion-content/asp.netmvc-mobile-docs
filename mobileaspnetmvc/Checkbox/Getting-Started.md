@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Checkbox | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Checkbox
@@ -28,6 +28,7 @@ Essential ASP.NET MVC Mobile Checkbox widget has built-in features like indeterm
 Create a simple MVC application and add the following header and scrollpanel controls inside the <body> tag of layout.cshtml. 
 
 For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) for mobile. 
+
 
 {% highlight html %}
 
@@ -142,6 +143,7 @@ Add the following Layout code to the corresponding view page.
 
 
 Add the following styles to show the Checkbox control in an order. 
+
 
 {% highlight css %}
 

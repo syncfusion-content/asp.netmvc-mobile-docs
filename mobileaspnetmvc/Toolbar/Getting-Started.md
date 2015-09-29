@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Toolbar | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Toolbar
@@ -25,13 +25,13 @@ Create a simple MVC application and paste the following header and scrollpanel l
 
 {% highlight html %}
 
-     @Html.EJMobile().Header("header").Position(MobileHeaderPosition.Normal).Title("inbox")
+@Html.EJMobile().Header("header").Position(MobileHeaderPosition.Normal).Title("inbox")
 
-    <div id="content">
+<div id="content">
 
-        @RenderBody()
+@RenderBody()
 
-    </div>
+</div>
 
 @Html.EJMobile().Scrollpanel("scroll").Target("content")
 
@@ -119,6 +119,7 @@ To render the Toolbar control, add the following code and include a list of Tool
 
 You can provide functionalities for each Toolbar items and this can be achieved by adding TouchEnd event. When you click the Toolbar item, its corresponding TouchEnd event triggers and it is handled using the performAction function as shown in the following code example. 
 
+{% tabs %}
 {% highlight html %}
 
 @Html.EJMobile().Toolbar("toolbar").ClientSideEvents(c => c.TouchEnd("performAction")).Position(Position.Normal) .Android(android=>android.Position(Position.Fixed)).Windows(windows=>windows.Position(Position.Fixed)).Items(item =>
@@ -174,6 +175,7 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 </script>
 
 {% endhighlight %}
+{% endtabs %}
 
   Execute this code to render the following output.
 

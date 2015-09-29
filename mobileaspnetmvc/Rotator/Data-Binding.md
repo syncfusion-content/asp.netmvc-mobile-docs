@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data-Binding
+title: Data Binding| Rotator | MobileAspNetMVC | Syncfusion
 description: data binding
 platform: mobileaspnetmvc
 control: Rotator

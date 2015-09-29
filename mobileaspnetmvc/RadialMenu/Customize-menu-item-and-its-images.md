@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-menu-item-and-its-images
+title: Customize menu item and its images| Radial Menu | MobileAspNetMVC | Syncfusion
 description: customize menu item and its images
 platform: mobileaspnetmvc
 control: Radial Menu
@@ -20,9 +20,10 @@ Alternatively you can use imageurl property to directly specify the url of the i
 N> Imagepath and imagename properties can be used when you want to specify separate images for each render mode. Imageurl property is used when you want to provide common images for all render modes.
 
 Refer to the following code example.
+{% tabs %}
 {% highlight html %}
 
-    @Html.EJMobile().RadialMenu("radialmenu_sample").Items(item =>{
+ @Html.EJMobile().RadialMenu("radialmenu_sample").Items(item =>{
 
 item.Add().ImagePath(Url.Content("http://js.syncfusion.com/UG/Mobile/Content/radial")).ImageName("social.png"));    
 
@@ -35,7 +36,8 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/lig
 item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/browser.png"));
 
 })
-
+{% endhighlight %}
+{% highlight js %}
 <script>
 
     function click(e) {
@@ -47,6 +49,7 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/lig
 </script>
 
 {% endhighlight %}
+{% endtabs %}
 
 
 

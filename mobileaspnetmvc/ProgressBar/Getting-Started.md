@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| ProgressBar | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: ProgressBar
@@ -118,21 +118,21 @@ You can hide ProgressBar, with desired action on its hide API and you can show i
 
 <script>
 
-        $(function () {
+$(function () {
 
-            window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
+window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
 
-            $("#progress").hide();//to hide progressbar at initialize
+$("#progress").hide();//to hide progressbar at initialize
 
-        });
+});
 
-        function startProgress(args) {
+function startProgress(args) {
 
-            $(".e-m-btnwrapper").hide();//to hide button
+$(".e-m-btnwrapper").hide();//to hide button
 
-            $("#progress").show();// to show progressbar
+$("#progress").show();// to show progressbar
 
-            }
+}
 
 </script>
 
@@ -150,11 +150,11 @@ The default text of ProgressBar is downloading. In this scenario you are install
 
 {% highlight html %}
 
-  <!-- Progressbar control -->
+<!-- Progressbar control -->
 
- <div style="width: 75%; margin:auto;">
+<div style="width: 75%; margin:auto;">
 
-      @Html.EJMobile().ProgressBar("progress").Value(73) .EnableCustomText(true).Text("Installing..")
+@Html.EJMobile().ProgressBar("progress").Value(73) .EnableCustomText(true).Text("Installing..")
 
  </div>
 
@@ -174,11 +174,11 @@ The ProgressBar text and its value can be changed dynamically. In this scenario,
 
 <!-- Progressbar control -->
 
- <div style="width: 75%; margin:auto;">
+<div style="width: 75%; margin:auto;">
 
-      @Html.EJMobile().ProgressBar("progress").EnableCustomText(true).Text("Installing..")
+@Html.EJMobile().ProgressBar("progress").EnableCustomText(true).Text("Installing..")
 
-                 @* Value(73) is removed here *@
+@* Value(73) is removed here *@
 
  </div>
 
@@ -190,41 +190,41 @@ You can use setInterval function in JavaScript to change its value and text dyna
 
 <script>
 
-        window.currValue = 0;
+window.currValue = 0;
 
-        $(function () {
+$(function () {
 
-            window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
+window.progressObject = $("#progress").data("ejmProgress"); // create object for progressbar
 
-            $("#progress").hide(); //to hide progressbar at starting
+$("#progress").hide(); //to hide progressbar at starting
 
-        });
+});
 
-        function startProgress(args) {
+function startProgress(args) {
 
-            $(".e-m-btnwrapper").hide(); //to hide button
+$(".e-m-btnwrapper").hide(); //to hide button
 
-            $("#progress").show(); // to show progressbar
+$("#progress").show(); // to show progressbar
 
-            window.timeInterval = setInterval(runProgress, 100); //set time intervel to repeat the process
+window.timeInterval = setInterval(runProgress, 100); //set time intervel to repeat the process
 
-        }
+}
 
-        function runProgress() {
+function runProgress() {
 
-            progressObject.option("value", window.currValue); //set value for progress
+progressObject.option("value", window.currValue); //set value for progress
 
-            var value = currValue++;
+var value = currValue++;
 
-            if (value == 100) {
+if (value == 100) {
 
-                progressObject.option("text", "Completed..."); // change the text when it reaches 100%
+progressObject.option("text", "Completed..."); // change the text when it reaches 100%
 
-                clearInterval(window.timeInterval); //to clear time interval
+clearInterval(window.timeInterval); //to clear time interval
 
-            }
+}
 
-        }
+}
 
     </script>
 

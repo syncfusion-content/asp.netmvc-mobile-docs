@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReadOnly-support
+title: ReadOnly support| Numeric Textbox | MobileAspNetMVC | Syncfusion
 description: readonly support
 platform: mobileaspnetmvc
 control: Numeric Textbox

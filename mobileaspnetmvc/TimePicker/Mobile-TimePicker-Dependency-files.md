@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-TimePicker-Dependency-files
+title: Mobile TimePicker Dependency files| TimePicker | MobileAspNetMVC | Syncfusion
 description: mobile timepicker dependency files
 platform: mobileaspnetmvc
 control: TimePicker

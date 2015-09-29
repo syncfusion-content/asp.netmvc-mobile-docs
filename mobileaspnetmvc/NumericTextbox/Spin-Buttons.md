@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spin-Buttons
+title: Spin Buttons| Numeric Textbox | MobileAspNetMVC | Syncfusion
 description: spin buttons
 platform: mobileaspnetmvc
 control: Numeric Textbox

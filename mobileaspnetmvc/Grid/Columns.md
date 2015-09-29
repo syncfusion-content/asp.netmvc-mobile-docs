@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Columns
+title: Columns| Grid | MobileAspNetMVC | Syncfusion
 description: columns
 platform: mobileaspnetmvc
 control: Grid
@@ -15,29 +15,30 @@ Colums is a key feature in Grid to define schema in control based on datasource.
 
 Formatting is used to convert data values to human readable formats using specific culture settings. In Mobil Grid, you can use format property to format particular columns, for more refrence about globalize.js you can refer the link ([https://github.com/jquery/globalize](https://github.com/jquery/globalize)). Refer the following code to use formatting in Grid.
 
+{% tabs %}
 {% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        // the datasource gets data
+// the datasource gets data
 
 .Datasource((IEnumerable<object>)ViewBag.dataSource)
 
 .Columns(col =>
 
-    {
+{
 
-        // the formatting columns
+// the formatting columns
 
-        col.Field("Number").HeaderText("Number").Format("{0:n2}").Add();
+col.Field("Number").HeaderText("Number").Format("{0:n2}").Add();
 
-        col.Field("Currency").HeaderText("currency").Format("{0:C2}").Add();
+col.Field("Currency").HeaderText("currency").Format("{0:C2}").Add();
 
-        col.Field("Date").HeaderText("Date").Format("{0:MM/dd/yyyy}").Add();
+col.Field("Date").HeaderText("Date").Format("{0:MM/dd/yyyy}").Add();
 
-    })
+})
 
-    )
+)
 
 {% endhighlight %}
 
@@ -50,50 +51,51 @@ namespace MVCSampleBrowser.Controllers
 
 public class ColumnFormattingData
 
-        {
+{
 
-            public Int32 Number { get; set; }
+public Int32 Number { get; set; }
 
-            public Int32 Currency { get; set; }
+public Int32 Currency { get; set; }
 
-            public DateTime Date { get; set; }
+public DateTime Date { get; set; }
 
-        }
+}
 
 
 
-        public ActionResult GridView()
+public ActionResult GridView()
 
-        {
+{
 
-            List<ColumnFormattingData> data = new List<ColumnFormattingData>();
+List<ColumnFormattingData> data = new List<ColumnFormattingData>();
 
-            for (var i = 1; i < 6; i++)
+for (var i = 1; i < 6; i++)
 
-            {
+{
 
-                data.Add(new ColumnFormattingData()
+data.Add(new ColumnFormattingData()
 
-                {
+{
 
-                    Number = 100 / i,
+Number = 100 / i,
 
-                    Currency = 100 / i,
+Currency = 100 / i,
 
-                    Date = DateTime.Now
+Date = DateTime.Now
 
-                });
+});
 
-            }
+}
 
-            ViewBag.dataSource = data;
+ViewBag.dataSource = data;
 
-            return View();
+return View();
 
-        }
+}
 }
 
 {% endhighlight %}
+{% endtabs %}
 
 Execute the above code to render the following output.
 
@@ -104,27 +106,28 @@ Execute the above code to render the following output.
 
 In ejmGrid, you can use AllowSorting and AllowFiltering to control Mobile Grid actions. Refer the following code to disable particular column. In the following example, sorting action is controlled in”CustomerID” column and filtering in “Freight” column.
 
+
 {% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/").Offline(true))
+.Datasource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/").Offline(true))
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").AllowSorting(false).Add();
+col.Field("CustomerID").HeaderText("Customer ID").AllowSorting(false).Add();
 
-            col.Field("Freight").HeaderText("Freight").AllowFiltering(false).Add();
+col.Field("Freight").HeaderText("Freight").AllowFiltering(false).Add();
 
-        })
+})
 
-        .AllowSorting(true)
+.AllowSorting(true)
 
-        .AllowFiltering(true))
+.AllowFiltering(true))
 
 {% endhighlight %}
 
@@ -139,11 +142,12 @@ Execute the above code to render the following output.
 
 The Columns are automatically generated from the datasource and you no need to specify column declarations. Refer the following code to auto generate column behavior with Grid.
 
+{% tabs %}
 {% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource((IEnumerable<object>)ViewBag.datasource))
+.Datasource((IEnumerable<object>)ViewBag.datasource))
 		
 {% endhighlight %}
 
@@ -154,50 +158,50 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 {
 
-    public class GridController : ApplicationController
+public class GridController : ApplicationController
 
-    {
-
-
-
-        public class Person
-
-        {
-
-            public string FirstName { get; set; }
-
-            public string LastName { get; set; }
-
-            public string Email { get; set; }
-
-        }
+{
 
 
 
-        public ActionResult Default()
+public class Person
 
-        {
+{
 
-            List<Person> Persons = new List<Person>();
+public string FirstName { get; set; }
 
-            Persons.Add(new Person() { FirstName = "John", LastName = "Beckett", Email = "john@syncfusion.com" });
+public string LastName { get; set; }
 
-            Persons.Add(new Person() { FirstName = "Ben", LastName = "Beckett", Email = "ben@syncfusion.com" });
+public string Email { get; set; }
 
-            Persons.Add(new Person() { FirstName = "Andrew", LastName = "Beckett", Email = "andrew@syncfusion.com" });
+}
 
-            ViewBag.datasource = Persons;
 
-            return View();
 
-        }
+public ActionResult Default()
 
-    }
+{
+
+List<Person> Persons = new List<Person>();
+
+Persons.Add(new Person() { FirstName = "John", LastName = "Beckett", Email = "john@syncfusion.com" });
+
+Persons.Add(new Person() { FirstName = "Ben", LastName = "Beckett", Email = "ben@syncfusion.com" });
+
+Persons.Add(new Person() { FirstName = "Andrew", LastName = "Beckett", Email = "andrew@syncfusion.com" });
+
+ViewBag.datasource = Persons;
+
+return View();
+
+}
+
+}
 
 }
 
 {% endhighlight %}
-
+{% endtabs %}
 
 Execute the above code to render Auto-generate columns.
 

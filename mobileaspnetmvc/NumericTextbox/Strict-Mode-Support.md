@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Strict-Mode-Support
+title: Strict Mode Support| Numeric Textbox | MobileAspNetMVC | Syncfusion
 description: strict mode support
 platform: mobileaspnetmvc
 control: Numeric Textbox

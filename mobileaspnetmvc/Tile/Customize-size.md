@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-size
+title: Customize size| Tile | MobileAspNetMVC | Syncfusion
 description: customize size
 platform: mobileaspnetmvc
 control: Tile

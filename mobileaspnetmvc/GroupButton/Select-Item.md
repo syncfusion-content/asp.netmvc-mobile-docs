@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Select-Item
+title: Select Item| Group Button | MobileAspNetMVC | Syncfusion
 description: select item
 platform: mobileaspnetmvc
 control: Group Button
@@ -17,15 +17,15 @@ Group Button takes a numeric value given in the selectedItemIndex property and s
 
 SelectedItemIndex(1).Name("options").Buttons(button =>
 
-       {
+{
 
-           button.Add().Text("ipad");
+button.Add().Text("ipad");
 
-           button.Add().Text("ipod");
+button.Add().Text("ipod");
 
-           button.Add().Text("iphone");
+button.Add().Text("iphone");
 
-       })
+})
 
 {% endhighlight %}
 

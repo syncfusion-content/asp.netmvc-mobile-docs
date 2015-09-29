@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Dialog | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Dialog
 documentation: ug
 ---
 
-# Overview
+# Dialog
 
 The EssentialJavaScriptMobileDialog widget is an overlay positioned within the appview and it displays a message such as supplementary content like images or text, and interactive content like forms.  It contains a title and a content area.
 

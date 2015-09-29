@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Load-on-demand
+title: Load On Demand| Accordion | MobileAspNetMVC | Syncfusion
 description: load on demand
 platform: mobileaspnetmvc
 control: Accordion
@@ -48,6 +48,7 @@ Create an HTML file with the name text1.html.
 </body>
 
 {% endhighlight %}
+
 
 Create an HTML file with the name text2.html.
 

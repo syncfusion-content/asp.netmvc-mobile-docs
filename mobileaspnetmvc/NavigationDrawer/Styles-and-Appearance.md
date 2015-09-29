@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance| Navigation Drawer | MobileAspNetMVC | Syncfusion
 description: styles and appearance
 platform: mobileaspnetmvc
 control: Navigation Drawer
@@ -11,7 +11,7 @@ documentation: ug
 
 Styles and appearance of Navigation Drawer works based on CSS class. You require one style sheet to apply styles to Navigation drawer control ej.mobile.all.min.css
 
-Customize styles
+## Customize styles
 
 To change the color or design of the Navigation drawer control appearance, you can override default styles of the Navigation drawer control by using its class names. The following are specific class names you can use to modify styles and appearance in the Navigation drawer.
 
@@ -20,8 +20,8 @@ _List of Class names_
 <table>
 <tr>
 <th>
-{{ '**Files**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 e-m-nb</td><td>

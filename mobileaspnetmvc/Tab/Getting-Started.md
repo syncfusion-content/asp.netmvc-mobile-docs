@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Tab | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Tab
@@ -272,7 +272,7 @@ item.Add().Text("Favorites").Href("#favorites").IOS7(ios7 => ios7.ImageClass("ic
 
 Create a view page with the following code example.
 
-[Updates.cshtml]
+
 
 {% highlight html %}
 

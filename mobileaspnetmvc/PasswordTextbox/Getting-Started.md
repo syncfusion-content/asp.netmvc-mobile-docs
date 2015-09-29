@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Password | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Password
@@ -31,43 +31,43 @@ Create a simple MVC application and add the following header and Scroll panel la
 
 <div id="sample" class="sample">
 
-    <div class="container">
+<div class="container">
 
-        <form id="loginForm">
+<form id="loginForm">
 
-            <label>
+<label>
 
-                User Name
+User Name
 
-            </label>
+</label>
 
-            <div>
+<div>
 
-                @Html.EJMobile().TextBox("userName").WatermarkText("User Name")                
+@Html.EJMobile().TextBox("userName").WatermarkText("User Name")                
 
-            </div>
+</div>
 
-            <label>
+<label>
 
-                Password
+Password
 
-            </label>
-
-
-
-                <!-- Add Password textbox here -->
+</label>
 
 
 
-            <div class="submit">
+<!-- Add Password textbox here -->
 
-                @Html.EJMobile().Button("submit").Text("Login")
 
-            </div>
 
-        </form>
+<div class="submit">
 
-    </div>
+@Html.EJMobile().Button("submit").Text("Login")
+
+</div>
+
+</form>
+
+</div>
 
 </div>
 
@@ -97,53 +97,53 @@ Add the following code in the corresponding view page to render the Password Tex
 
 Add the following styles to show the Password control in an order. 
 
-{% highlight html %}
+{% highlight css %}
 
 <style>
 
-        .error {
+.error {
 
-            color: red;
+color: red;
 
-        }
-
-
-
-        .sample {
-
-            display: table;
-
-            width: 100%;
-
-        }
+}
 
 
 
-        .submit {
+.sample {
 
-            text-align: center;
+display: table;
 
-        }
+width: 100%;
 
-
-
-        form {
-
-            padding: 15px;
-
-        }
+}
 
 
 
-        .container {
+.submit {
 
-            display: table-cell;
+text-align: center;
 
-            vertical-align: middle;
+}
 
-        }
 
-    </style>
+
+form {
+
+padding: 15px;
+
+}
+
+
+
+.container {
+
+display: table-cell;
+
+vertical-align: middle;
+
+}
+
+</style>
 
 
 

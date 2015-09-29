@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| TimePicker | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: TimePicker
@@ -45,7 +45,7 @@ Add the following code example to the corresponding view page. Here you can add 
 
        <div align="center">
 
- <table>
+<table>
 
              <tr>
 
@@ -186,6 +186,7 @@ Run this code and focus on InTime or OutTimeTimePicker element (here OutTime ele
 
 Refer the following code example to display a confirmation message by clicking the Book button handled by the button touch and event. 
 
+{% tabs %}
 {% highlight html %}
 
 @Html.EJMobile().Dialog("alertdlg").Title("Booking Confirmation").Mode(DialogMode.Alert).LeftButtonCaption("OK").EnableModal(true).EnableAutoOpen(false).Content(@<div>Hotel reserved for specified time</div>).ClientSideEvents(evt => { evt.ButtonTap("alertClose"); })
@@ -213,6 +214,7 @@ Refer the following code example to display a confirmation message by clicking t
 </script>
 
 {% endhighlight %}
+{% endtabs %}
 
 Run the above code and click Book Now button to render the confirmation message as displayed in the following screenshot.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Image
+title: Customize Image| Group Button | MobileAspNetMVC | Syncfusion
 description: customize image
 platform: mobileaspnetmvc
 control: Group Button
@@ -19,35 +19,35 @@ By using this property, you can add specific style to each Group Button item. Wh
 
 Name("options").Buttons(button =>
 
-       {
+{
 
-           button.Add().Text("ipad").ImageClass("apple");
+button.Add().Text("ipad").ImageClass("apple");
 
-           button.Add().Text("ipod").ImageClass("apple");
+button.Add().Text("ipod").ImageClass("apple");
 
-           button.Add().Text("iphone").ImageClass("apple");
+button.Add().Text("iphone").ImageClass("apple");
 
-       })
+})
 
-    <style>
+<style>
 
-        .apple {
+.apple {
 
-            background: url("apple.png") no-repeat;
+background: url("apple.png") no-repeat;
 
-            background-position: 6px 50%;
+background-position: 6px 50%;
 
-            background-repeat: no-repeat;
+background-repeat: no-repeat;
 
-            background-size: 20px 20px;
+background-size: 20px 20px;
 
-            position: relative;
+position: relative;
 
-            text-indent: 20px;
+text-indent: 20px;
 
-        }
+}
 
-    </style>
+</style>
 
 {% endhighlight %}
 
@@ -66,15 +66,15 @@ ImageUrl property takes the image given in ‘Imageurl’ attribute and displays
 
 Name("options").Buttons(button =>
 
-       {
+{
 
-           button.Add().Text("ipad").ImageUrl("ipad.png");
+button.Add().Text("ipad").ImageUrl("ipad.png");
 
-           button.Add().Text("ipod").ImageUrl("ipod.png");
+button.Add().Text("ipod").ImageUrl("ipod.png");
 
-           button.Add().Text("iphone").ImageUrl("iphone.png");
+button.Add().Text("iphone").ImageUrl("iphone.png");
 
-       })
+})
 
 {% endhighlight %}
 

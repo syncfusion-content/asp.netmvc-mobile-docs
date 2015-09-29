@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Overview
+title: Overview| Menu | MobileAspNetMVC | Syncfusion
 description: overview 
 platform: mobileaspnetmvc
 control: Menu
 documentation: ug
 ---
 
-# Overview 
+# Menu 
 
 The Essential Studio for ASP.NET MVC, Mobile Menu widget provides an interface to easily navigate hirarchical data.
 
-Key Features
+## Key Features
 
 * Template support: Menu supports template content.

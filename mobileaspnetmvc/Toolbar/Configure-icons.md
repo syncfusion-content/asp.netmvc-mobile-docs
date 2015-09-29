@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configure-icons
+title: Configure icons| Toolbar | MobileAspNetMVC | Syncfusion
 description: configure icons
 platform: mobileaspnetmvc
 control: Toolbar

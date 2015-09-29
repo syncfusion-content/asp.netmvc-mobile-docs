@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Grid-Dependencies
+title: Mobile Grid Dependencies| Grid | MobileAspNetMVC | Syncfusion
 description: mobile grid dependencies
 platform: mobileaspnetmvc
 control: Grid

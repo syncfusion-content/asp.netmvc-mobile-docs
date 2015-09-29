@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling
+title: Scrolling| Menu | MobileAspNetMVC | Syncfusion
 description: scrolling 	
 platform: mobileaspnetmvc
 control: Menu
@@ -13,36 +13,36 @@ The AllowScrolling property defines whether to allow the scrolling behavior or n
 
 {% highlight html %}
 
-    <div style="text-align: center;">
+	<div style="text-align: center;">
 
-        @Html.EJMobile().Button("menuitem").Text("Menu")
+	@Html.EJMobile().Button("menuitem").Text("Menu")
 
-    </div>
+	</div>
 
-    @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").AllowScrolling(true).ShowScrollbars(true).Height(200).Items(item =>
+	@Html.EJMobile().Menu("menu_sample").TargetId("menuitem").AllowScrolling(true).ShowScrollbars(true).Height(200).Items(item =>
 
-            {
+	{
 
-                item.Add().Text("Get info");
+	item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+	item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+	item.Add().Text("Delete");
 
-                item.Add().Text("Get info");
+	item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+	item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+	item.Add().Text("Delete");
 
-                item.Add().Text("Get info");
+	item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+	item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+	item.Add().Text("Delete");
 
-            })
-			
+	})
+
 {% endhighlight %}
 
 The following screenshot displays Scrolling:

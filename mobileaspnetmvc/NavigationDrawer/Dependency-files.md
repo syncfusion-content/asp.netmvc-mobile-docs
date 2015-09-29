@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dependency-files
+title: Dependency files| Navigation Drawer | MobileAspNetMVC | Syncfusion
 description: dependency files
 platform: mobileaspnetmvc
 control: Navigation Drawer
@@ -16,8 +16,8 @@ _List of Script files_
 <table>
 <tr>
 <th>
-{{ '**Files**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage/th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

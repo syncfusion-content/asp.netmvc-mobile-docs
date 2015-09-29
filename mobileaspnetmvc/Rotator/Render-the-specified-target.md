@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Render-the-specified-target
+title: Render the specified target| Rotator | MobileAspNetMVC | Syncfusion
 description: render the specified target
 platform: mobileaspnetmvc
 control: Rotator

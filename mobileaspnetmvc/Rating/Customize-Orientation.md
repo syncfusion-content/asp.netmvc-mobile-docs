@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Orientation
+title: Customize Orientation| Rating | MobileAspNetMVC | Syncfusion
 description: customize orientation        
 platform: mobileaspnetmvc
 control: Rating

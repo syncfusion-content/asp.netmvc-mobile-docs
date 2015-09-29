@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-Specific-Customization
+title: Windows Specific Customization| ListView | MobileAspNetMVC | Syncfusion
 description: windows specific customization
 platform: mobileaspnetmvc
 control: ListView

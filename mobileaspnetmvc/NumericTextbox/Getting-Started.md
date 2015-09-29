@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Numeric Textbox | MobileAspNetMVC | Syncfusion
 description: getting started 
 platform: mobileaspnetmvc
 control: Numeric Textbox
@@ -36,7 +36,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 		</div>
 		</div>    
    ~~~
-   {:.prettyprint}
+   
 
 2. Add the following code example to render Numeric Textbox to input number of persons per room.
 
@@ -68,7 +68,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
 
    ~~~
-   {:.prettyprint}
+   
 
 
 4. To improve the look and feel of Rooms Availability Check, you need to add the following styles in the application.
@@ -94,12 +94,6 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 		}
 		</style>
 
-
-
-
-
-         ![](Getting-Started_images/Getting-Started_img1.png)
-
-
    ~~~
-   {:.prettyprint}
+   
+![](Getting-Started_images/Getting-Started_img1.png)

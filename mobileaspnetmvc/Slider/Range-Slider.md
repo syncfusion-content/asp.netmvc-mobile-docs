@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Range-Slider
+title: Range Slider| Slider | MobileAspNetMVC | Syncfusion
 description: range slider
 platform: mobileaspnetmvc
 control: Slider

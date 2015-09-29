@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Accordion-dependency-files
+title: Mobile Accordion Dependency Files| Accordion | MobileAspNetMVC | Syncfusion
 description: mobile accordion dependency files
 platform: mobileaspnetmvc
 control: Accordion
@@ -16,8 +16,8 @@ _Script files_
 <table>
 <tr>
 <th>
-{{ '*File*' | markdownify }}</th><th>
-{{ '*Description/Usage*' | markdownify }}</th></tr>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

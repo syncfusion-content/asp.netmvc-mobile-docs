@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Enable
+title: Enable| Toggle Button | MobileAspNetMVC | Syncfusion
 description: enable
 platform: mobileaspnetmvc
 control: Toggle Button

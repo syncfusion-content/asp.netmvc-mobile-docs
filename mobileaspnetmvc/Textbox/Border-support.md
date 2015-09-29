@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Border-support
+title: Border support| Textbox | MobileAspNetMVC | Syncfusion
 description: border support
 platform: mobileaspnetmvc
 control: Textbox

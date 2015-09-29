@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Type
+title: Type| Group Button | MobileAspNetMVC | Syncfusion
 description: type
 platform: mobileaspnetmvc
 control: Group Button
@@ -17,17 +17,17 @@ Option 1: Button
 
 <!-- Group Button : button type -->
 
-    @Html.EJMobile().GroupButton("groupbutton_sample").Buttons(button =>
+@Html.EJMobile().GroupButton("groupbutton_sample").Buttons(button =>
 
-       {
+{
 
-           button.Add().Text("ipad");
+button.Add().Text("ipad");
 
-           button.Add().Text("ipod");
+button.Add().Text("ipod");
 
-           button.Add().Text("iphone");
+button.Add().Text("iphone");
 
-       })
+})
 	   
 {% endhighlight %}
 
@@ -41,15 +41,15 @@ Option 2: Radio Button
 
 radio).Name("options").Buttons(button =>
 
-       {
+{
 
-           button.Add().Text("ipad");
+button.Add().Text("ipad");
 
-           button.Add().Text("ipod");
+button.Add().Text("ipod");
 
-           button.Add().Text("iphone");
+button.Add().Text("iphone");
 
-       })
+})
 	   
 {% endhighlight %}
 
@@ -63,15 +63,15 @@ Option 3: Checkbox
 
 checkbox).Name("options").Buttons(button =>
 
-       {
+{
 
-           button.Add().Text("ipad");
+button.Add().Text("ipad");
 
-           button.Add().Text("ipod");
+button.Add().Text("ipod");
 
-           button.Add().Text("iphone");
+button.Add().Text("iphone");
 
-       })
+})
 
 {% endhighlight %}
 

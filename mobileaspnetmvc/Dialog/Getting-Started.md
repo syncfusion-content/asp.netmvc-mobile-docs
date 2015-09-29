@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Dialog | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Dialog
@@ -19,7 +19,8 @@ The ASP.NET MVCDialog window is an overlay positioned within the AppView and dis
 
 
 
-_Alert Dialog_  
+Alert Dialog
+{:.caption}  
 
 ### Create the required layout
 
@@ -236,7 +237,8 @@ Execute this code to render the following output. For more details, to run the s
 
 
 
-_Mail Sign in Form_
+Mail Sign in Form
+{:.caption}
 
 ### Create the Dialog control
 
@@ -252,6 +254,7 @@ To render the Dialog control, you can add the following code example and specify
 </div>
 
 {% endhighlight %}
+
 ### Display the Dialog
 
 To display the Dialog, you can click the next button present in the header. The click event is handled by “formsubmit” function as mentioned as follows. Create an object for Dialog control and then using the dialog’s “open” function you can display the Dialog. 
@@ -331,6 +334,7 @@ Execute this code to render the following output. For more details, to run the s
 To close the alert Dialog, click OK. This is achieved by triggering the ButtonTap event of Dialog. The ButtonTap event is handled by alertClose function. Create an object for Dialog control and using close function you can close the Dialog.
 
 Refer to the following code example. 
+{% tabs %}
 {% highlight html%}
         @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>).EnableModal(true).ClientSideEvents(evt => { evt.ButtonTap("alertClose"); })
 
@@ -356,5 +360,5 @@ Refer to the following code example.
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 

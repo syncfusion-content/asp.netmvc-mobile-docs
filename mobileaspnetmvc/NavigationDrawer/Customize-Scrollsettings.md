@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Scrollsettings
+title: Customize Scrollsettings| Navigation Drawer | MobileAspNetMVC | Syncfusion
 description: customize scrollsettings 
 platform: mobileaspnetmvc
 control: Navigation Drawer
@@ -18,57 +18,57 @@ Refer to the following code example.
 
 @Html.EJMobile().NavigationDrawer("navpane").ScrollSettings(scrol => { scrol.ShowScrollbars(false); }).AllowScrolling(true).EnableListView(true).ListViewSettings(list =>{
 
-    list.ClientSideEvents(i => i.TouchEnd("navListClick")).Items(item =>
+list.ClientSideEvents(i => i.TouchEnd("navListClick")).Items(item =>
 
-        {
+{
 
-            item.Add().Text("Home");
+item.Add().Text("Home");
 
-            item.Add().Text("Profile");
+item.Add().Text("Profile");
 
-            item.Add().Text("Photos");
+item.Add().Text("Photos");
 
-            item.Add().Text("Location");
+item.Add().Text("Location");
 
-        });
+});
 
 })
 
-    @Html.EJMobile().Header("head").Title("NavigationDrawer").Position(MobileHeaderPosition.Normal)
+@Html.EJMobile().Header("head").Title("NavigationDrawer").Position(MobileHeaderPosition.Normal)
 
-    <div id="content" style="margin-top: 45px;">
+<div id="content" style="margin-top: 45px;">
 
-        <div id="Home">
+<div id="Home">
 
-            The Home screen allows you to choose the specific content type displayed.
-
-
-
-        </div>
-
-        <div id="Profile" style="display: none">
-
-            The Profile page content is displayed.
-
-        </div>
+The Home screen allows you to choose the specific content type displayed.
 
 
 
-        <div id="Photos" style="display: none">
+</div>
 
-            The Photos page content is displayed.
+<div id="Profile" style="display: none">
 
-        </div>
+The Profile page content is displayed.
+
+</div>
 
 
 
-        <div id="Location" style="display: none">
+<div id="Photos" style="display: none">
 
-            The Location page content is displayed.
+The Photos page content is displayed.
 
-        </div>
+</div>
 
-    </div>
+
+
+<div id="Location" style="display: none">
+
+The Location page content is displayed.
+
+</div>
+
+</div>
 
 
 {% endhighlight %}
@@ -82,25 +82,25 @@ Refer to the following code example.
 
 {% highlight js %}
 
-    <script>
+<script>
 
-    function navListClick(args) //To Handle the touch end event
+function navListClick(args) //To Handle the touch end event
 
-    {
+{
 
-        $('#Home, #Profile, #Photos, #Location').hide(); 
+$('#Home, #Profile, #Photos, #Location').hide(); 
 
-        //Hiding all other contents
+//Hiding all other contents
 
-        $('#' + args.text).show(); 
+$('#' + args.text).show(); 
 
-        //Displaying the content based on the text of item selected
+//Displaying the content based on the text of item selected
 
-        $('#navpane').ejmNavigationDrawer('close');
+$('#navpane').ejmNavigationDrawer('close');
 
-    }
+}
 
-    </script>
+</script>
 
 {% endhighlight %}
 

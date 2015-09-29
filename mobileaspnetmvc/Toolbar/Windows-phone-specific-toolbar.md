@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-phone-specific-toolbar
+title: Windows phone specific toolbar| Toolbar | MobileAspNetMVC | Syncfusion
 description: windows phone specific toolbar
 platform: mobileaspnetmvc
 control: Toolbar

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add-Group-Tiles
+title: Add Group Tiles| Tile | MobileAspNetMVC | Syncfusion
 description: add group tiles
 platform: mobileaspnetmvc
 control: Tile
@@ -52,6 +52,7 @@ To render column grouped tile, render the number of tiles inside a div element w
 
  Refer to the following code example.
 
+{% tabs %}
 {% highlight html %}
 
 
@@ -59,41 +60,41 @@ To render column grouped tile, render the number of tiles inside a div element w
 
 @Html.EJMobile().Header("head").Title("Tileview")
 
-       <div class="group">
+<div class="group">
 
-            <div class="column">
+<div class="column">
 
-                @Html.EJMobile().Tile("tile1").Theme(Theme.Dark).ImageUrl("setting.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Settings")
+@Html.EJMobile().Tile("tile1").Theme(Theme.Dark).ImageUrl("setting.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Settings")
 
-                @Html.EJMobile().Tile("tile2").Theme(Theme.Dark).ImageUrl("notes.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Notes")
+@Html.EJMobile().Tile("tile2").Theme(Theme.Dark).ImageUrl("notes.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Notes")
 
-                @Html.EJMobile().Tile("tile3").Theme(Theme.Dark).ImageUrl("clock.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Clock")
+@Html.EJMobile().Tile("tile3").Theme(Theme.Dark).ImageUrl("clock.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Clock")
 
-                @Html.EJMobile().Tile("tile4").Theme(Theme.Dark).ImageUrl("camera.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Camera")
+@Html.EJMobile().Tile("tile4").Theme(Theme.Dark).ImageUrl("camera.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Camera")
 
-                @Html.EJMobile().Tile("tile5").Theme(Theme.Dark).ImageUrl("messaging.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Messages")
+@Html.EJMobile().Tile("tile5").Theme(Theme.Dark).ImageUrl("messaging.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Messages")
 
-                @Html.EJMobile().Tile("tile6").Theme(Theme.Dark).ImageUrl("contact.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Contacts")
+@Html.EJMobile().Tile("tile6").Theme(Theme.Dark).ImageUrl("contact.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Contacts")
 
-                @Html.EJMobile().Tile("tile7").Theme(Theme.Dark).ImageUrl("map.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Map")
+@Html.EJMobile().Tile("tile7").Theme(Theme.Dark).ImageUrl("map.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Map")
 
-                @Html.EJMobile().Tile("tile8").Theme(Theme.Dark).ImageUrl("phone.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Phone")
+@Html.EJMobile().Tile("tile8").Theme(Theme.Dark).ImageUrl("phone.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Phone")
 
-            </div>
+</div>
 
-            <div class="column">
+<div class="column">
 
-                @Html.EJMobile().Tile("tile9").Theme(Theme.Dark).ImageUrl("calendar.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Calender")
+@Html.EJMobile().Tile("tile9").Theme(Theme.Dark).ImageUrl("calendar.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Calender")
 
-                @Html.EJMobile().Tile("tile10").Theme(Theme.Dark).ImageUrl("calculator.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Calculator")
+@Html.EJMobile().Tile("tile10").Theme(Theme.Dark).ImageUrl("calculator.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Calculator")
 
-                @Html.EJMobile().Tile("tile11").Theme(Theme.Dark).ImageUrl("weather.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Weather")
+@Html.EJMobile().Tile("tile11").Theme(Theme.Dark).ImageUrl("weather.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Weather")
 
-                @Html.EJMobile().Tile("tile12").Theme(Theme.Dark).ImageUrl("music.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Music")
+@Html.EJMobile().Tile("tile12").Theme(Theme.Dark).ImageUrl("music.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Music")
 
-            </div>
+</div>
 
-        </div>
+</div>
 
 </div>
 
@@ -160,6 +161,7 @@ To render column grouped tile, render the number of tiles inside a div element w
 </script>
 
 {% endhighlight %}
+{% endtabs %}
 
 The following screenshots illustrates the output of the above code.
 
@@ -187,37 +189,37 @@ Refer to the following code example.
 
 <div class="group">
 
-                <div class="column">
+<div class="column">
 
-                    @Html.EJMobile().Tile("tile1").ImageUrl("setting.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("people").TileSize(TileSize.Medium).BackgroundColor("green")
-
-
-
-                    <div class="small-col-2">
-
-                        @Html.EJMobile().Tile("tile2").ImageUrl("notes.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Notes").BackgroundColor("rgb(208, 75, 43)")
+@Html.EJMobile().Tile("tile1").ImageUrl("setting.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("people").TileSize(TileSize.Medium).BackgroundColor("green")
 
 
 
-                        @Html.EJMobile().Tile("tile3").ImageUrl("clock.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Clock").BackgroundColor("rgb(215, 147, 23)")
+<div class="small-col-2">
+
+@Html.EJMobile().Tile("tile2").ImageUrl("notes.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Notes").BackgroundColor("rgb(208, 75, 43)")
 
 
 
-                        @Html.EJMobile().Tile("tile4").ImageUrl("camera.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Camera").BackgroundColor("rgb(43, 128, 234)")
+@Html.EJMobile().Tile("tile3").ImageUrl("clock.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Clock").BackgroundColor("rgb(215, 147, 23)")
 
 
 
-                        @Html.EJMobile().Tile("tile5").ImageUrl("messaging.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Messages").BackgroundColor("rgb(94, 58, 179)")
+@Html.EJMobile().Tile("tile4").ImageUrl("camera.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Camera").BackgroundColor("rgb(43, 128, 234)")
 
 
 
-                    </div>
+@Html.EJMobile().Tile("tile5").ImageUrl("messaging.png").ImagePath(Url.Content("~/themes/sample/tileview")).Text("Messages").BackgroundColor("rgb(94, 58, 179)")
 
-                </div>
 
-              </div>  
 
-            </div>
+</div>
+
+</div>
+
+</div>  
+
+</div>
 
 {% endhighlight %}
 

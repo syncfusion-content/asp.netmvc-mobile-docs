@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| MaskEdit | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: MaskEdit
@@ -27,75 +27,75 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
 <div class="sample" style="padding:10px">
 
-    <div class="frame">
+<div class="frame">
 
-        <div class="control">
+<div class="control">
 
-            <table class="editors">
+<table class="editors">
 
-                <tbody>
+<tbody>
 
-                    <tr>
+<tr>
 
-                        <td>
+<td>
 
-                            <label>
+<label>
 
-                                Name
+Name
 
-                            </label>
+</label>
 
-                        </td>
+</td>
 
-                        <td>
+<td>
 
-                            <!--Textbox control-->
+<!--Textbox control-->
 
-                            @Html.EJMobile().TextBox("textbox_sample").WatermarkText("Name")                            
+@Html.EJMobile().TextBox("textbox_sample").WatermarkText("Name")                            
 
-                        </td>
+</td>
 
-                    </tr>
+</tr>
 
-                    <tr>
+<tr>
 
-                        <td>
+<td>
 
-                            <label>
+<label>
 
-                                Phone No
+Phone No
 
-                            </label>
+</label>
 
-                        </td>
+</td>
 
-                        <td>
+<td>
 
-                            <!--Add Maskedit Control-->
+<!--Add Maskedit Control-->
 
-                        </td>
+</td>
 
-                    </tr>
+</tr>
 
-                </tbody>
+</tbody>
 
-            </table>
+</table>
 
-            <center>
+<center>
 
-                <div class="button">
+<div class="button">
 
-                    <!--Button Control-->
+<!--Button Control-->
 
-                    @Html.EJMobile().Button("button").Text("Save")                    
+@Html.EJMobile().Button("button").Text("Save")                    
 
-                </div>
+</div>
 
-            </center>
+</center>
 
-        </div>
+</div>
 
-    </div>
+</div>
 
 </div>
 

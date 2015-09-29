@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Mobile-Rating-Dependencies
+title: Mobile Rating Dependencies| Rating | MobileAspNetMVC | Syncfusion
 description: mobile rating dependencies
 platform: mobileaspnetmvc
 control: Rating
 documentation: ug
 ---
 
-## Mobile Rating Dependencies
+# Mobile Rating Dependencies
 
 This section deals with the dependency files for the Rating control. The file, ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, you can skip this section. When you are not, then you can refer to the following script files to render the Rating control.
 
@@ -16,8 +16,8 @@ _Script Files_
 <table>
 <tr>
 <th>
-{{ '**Files**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

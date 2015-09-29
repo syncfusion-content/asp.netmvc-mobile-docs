@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Column-Selection
+title: Column Selection| Grid | MobileAspNetMVC | Syncfusion
 description: column selection
 platform: mobileaspnetmvc
 control: Grid
 documentation: ug
 ---
 
-## Column Selection
+# Column Selection
 
 By enabling “AllowColumnSelector”, you can hide the columns dynamically whenever needed. This feature is mostly useful when the available device width is not enough to display all the necessary columns. 
 
@@ -15,22 +15,22 @@ By enabling “AllowColumnSelector”, you can hide the columns dynamically when
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource(d=>d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/"))
+.Datasource(d=>d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/"))
 
-        .AllowPaging(true)
+.AllowPaging(true)
 .AllowColumnSelector(true)
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("ShipCity").HeaderText("Ship City").Add();
+col.Field("ShipCity").HeaderText("Ship City").Add();
 
-        }))
+}))
 
 {% endhighlight %}
 

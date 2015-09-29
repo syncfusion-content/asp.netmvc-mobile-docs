@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Value
+title: Customize Value| Numeric Textbox | MobileAspNetMVC | Syncfusion
 description: customize value
 platform: mobileaspnetmvc
 control: Numeric Textbox

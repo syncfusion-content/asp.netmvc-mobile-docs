@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configure-Badge
+title: Configure Badge| Tile | MobileAspNetMVC | Syncfusion
 description: configure badge
 platform: mobileaspnetmvc
 control: Tile

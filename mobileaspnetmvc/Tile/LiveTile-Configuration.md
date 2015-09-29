@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LiveTile-Configuration
+title: LiveTile Configuration| Tile | MobileAspNetMVC | Syncfusion
 description: livetile configuration
 platform: mobileaspnetmvc
 control: Tile
@@ -65,6 +65,7 @@ Using ImageTemplateId property, you can specify live tile images outside the til
 
 You can specify the array of images for live tile through CSS classes by using ImageClass property and you can define the desired styles in the specified class.
 
+{% tabs %}
 {% highlight html %}
 
 <div style="margin-top:45px;">
@@ -97,4 +98,4 @@ You can specify the array of images for live tile through CSS classes by using I
     </style>
 
 {% endhighlight %}
-
+{% endtabs %}

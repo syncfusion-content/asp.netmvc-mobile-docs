@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Border-Support
+title: Border Support| Password | MobileAspNetMVC | Syncfusion
 description: border support
 platform: mobileaspnetmvc
 control: Password
@@ -17,7 +17,7 @@ Refer to the following code example.
 
 
 
-    @Html.EJMobile().PassWord("textbox_sample").WatermarkText("Password").ShowBorder(false)
+@Html.EJMobile().PassWord("textbox_sample").WatermarkText("Password").ShowBorder(false)
 
 
 {% endhighlight %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-suggestion-list
+title: Customize Suggestion List| AutoComplete  | MobileAspNetMVC | Syncfusion
 description: customize suggestion list
 platform: mobileaspnetmvc
 control: AutoComplete 
@@ -42,6 +42,7 @@ By default, the value for the property is “contains”.
 @Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").FilterType(AutoCompleteFilterType.StartsWith)
 {% endhighlight %}
 
+
 ## EnableDistinct
 
 EnableDistinct property is used to hide or show the duplicate items from the suggestion list. By default, the value for the property is “false”.
@@ -52,6 +53,7 @@ EnableDistinct property is used to hide or show the duplicate items from the sug
 
 @Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").EnableDistinct(true)
 {% endhighlight %}
+
 
 ## Scrolling
 

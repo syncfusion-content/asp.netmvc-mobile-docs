@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Animate
+title: Animate| Toggle Button | MobileAspNetMVC | Syncfusion
 description: animate
 platform: mobileaspnetmvc
 control: Toggle Button

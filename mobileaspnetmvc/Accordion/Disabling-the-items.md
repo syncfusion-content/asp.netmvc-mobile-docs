@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disabling-the-items
+title: Disabling The Items| Accordion | MobileAspNetMVC | Syncfusion
 description: disabling the items
 platform: mobileaspnetmvc
 control: Accordion

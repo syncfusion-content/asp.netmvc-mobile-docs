@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time-Settings
+title: Time Settings| TimePicker | MobileAspNetMVC | Syncfusion
 description: time settings                                               
 platform: mobileaspnetmvc
 control: TimePicker

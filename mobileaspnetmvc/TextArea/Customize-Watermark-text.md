@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Watermark-text
+title: Customize Watermark text| TextArea | MobileAspNetMVC | Syncfusion
 description: customize watermark text
 platform: mobileaspnetmvc
 control: TextArea

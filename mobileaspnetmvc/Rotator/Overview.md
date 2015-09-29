@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Rotator | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Rotator
 documentation: ug
 ---
 
-# Overview
+# Rotator
 
 The Essential Studio for ASP.NET MVC Mobile Rotator widget is a container that holds many items. By swiping left and right you can see the next and previous items respectively. Each item in Rotator contains HTML template content.
 

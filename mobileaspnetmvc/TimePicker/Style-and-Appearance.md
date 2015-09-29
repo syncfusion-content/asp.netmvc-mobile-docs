@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Style-and-Appearance
+title: Style and Appearance| TimePicker | MobileAspNetMVC | Syncfusion
 description: style and appearance
 platform: mobileaspnetmvc
 control: TimePicker

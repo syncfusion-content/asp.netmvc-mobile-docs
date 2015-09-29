@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data-Binding
+title: Data Binding| ListView | MobileAspNetMVC | Syncfusion
 description: data binding
 platform: mobileaspnetmvc
 control: ListView
@@ -17,87 +17,87 @@ For MVC Wrapper sample, create a model file for Data Binding. Add the following 
 
 {% highlight c# %}
 
-    public class ListLocalData
+public class ListLocalData
 
-    {
+{
 
-        public string texts { get; set; }
+public string texts { get; set; }
 
-    }  
+}  
 
-    public static class ListLocalDataModal
+public static class ListLocalDataModal
 
-    {
+{
 
-        public static List<ListLocalData> listSource = new List<ListLocalData>();      
+public static List<ListLocalData> listSource = new List<ListLocalData>();      
 
-        public static List<ListLocalData> setListSource()
+public static List<ListLocalData> setListSource()
 
-        {
+{
 
-            listSource.Add(new ListLocalData { texts = "Hot Singles"});
+listSource.Add(new ListLocalData { texts = "Hot Singles"});
 
-            listSource.Add(new ListLocalData { texts = "Rising Artists"});
+listSource.Add(new ListLocalData { texts = "Rising Artists"});
 
-            listSource.Add(new ListLocalData { texts = "Live Music"});
+listSource.Add(new ListLocalData { texts = "Live Music"});
 
-            listSource.Add(new ListLocalData { texts = "Best of 2013 So Far"});
+listSource.Add(new ListLocalData { texts = "Best of 2013 So Far"});
 
-            listSource.Add(new ListLocalData { texts = "100 Albums - $5 Each"});
+listSource.Add(new ListLocalData { texts = "100 Albums - $5 Each"});
 
-            listSource.Add(new ListLocalData { texts = "Hip-Hop and R&B Sale"});
+listSource.Add(new ListLocalData { texts = "Hip-Hop and R&B Sale"});
 
-            listSource.Add(new ListLocalData { texts = "CD Deals"});
+listSource.Add(new ListLocalData { texts = "CD Deals"});
 
-            listSource.Add(new ListLocalData { texts = "Songs"});
+listSource.Add(new ListLocalData { texts = "Songs"});
 
-            listSource.Add(new ListLocalData { texts = "Bestselling Albums"});
+listSource.Add(new ListLocalData { texts = "Bestselling Albums"});
 
-            listSource.Add(new ListLocalData { texts = "New Releases"});
+listSource.Add(new ListLocalData { texts = "New Releases"});
 
-            listSource.Add(new ListLocalData { texts = "Bestselling Songs"});
+listSource.Add(new ListLocalData { texts = "Bestselling Songs"});
 
-            listSource.Add(new ListLocalData { texts = "Rock"});
+listSource.Add(new ListLocalData { texts = "Rock"});
 
-            listSource.Add(new ListLocalData { texts = "Gospel" });
+listSource.Add(new ListLocalData { texts = "Gospel" });
 
-            listSource.Add(new ListLocalData { texts = "Jazz"});
+listSource.Add(new ListLocalData { texts = "Jazz"});
 
-            listSource.Add(new ListLocalData { texts = "Music Trade-In"});
+listSource.Add(new ListLocalData { texts = "Music Trade-In"});
 
-            listSource.Add(new ListLocalData { texts = "Redeem a Gift Card"});
+listSource.Add(new ListLocalData { texts = "Redeem a Gift Card"});
 
-            listSource.Add(new ListLocalData { texts = "Band T-Shirts"});
+listSource.Add(new ListLocalData { texts = "Band T-Shirts"});
 
-            listSource.Add(new ListLocalData { texts = "Mobile MVC"});
+listSource.Add(new ListLocalData { texts = "Mobile MVC"});
 
-            return listSource;
+return listSource;
 
-        }
+}
 
-        public static void clearSource()
+public static void clearSource()
 
-        {
+{
 
-            listSource.Clear();
+listSource.Clear();
 
-        }       
+}       
 
-    }
+}
 
 You have to modify the controller as a model is added to the sample. Modify the controller as follows.
 
 
 
-        public ActionResult LocalDataBinding()
+public ActionResult LocalDataBinding()
 
-        {
+{
 
-            ListLocalDataModal.clearSource();
+ListLocalDataModal.clearSource();
 
-            return View(ListLocalDataModal.setListSource());
+return View(ListLocalDataModal.setListSource());
 
-        }
+}
 
 {% endhighlight %}
 
@@ -199,11 +199,11 @@ This feature in the ListView is used to fetch data from the DataSource before li
 
 @{
 
-    @Html.EJMobile().ListView("remoteListBox").DataBinding(true).DataSource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/")).Query("ej.Query().from('Orders').select('ShipCity').take(5)").FieldSettings(f =>
+@Html.EJMobile().ListView("remoteListBox").DataBinding(true).DataSource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/")).Query("ej.Query().from('Orders').select('ShipCity').take(5)").FieldSettings(f =>
 
 {
 
-    f.Text("ShipCity");
+f.Text("ShipCity");
 
 });
 
