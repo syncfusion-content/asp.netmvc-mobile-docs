@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-appearance-of-the-control
+title: Styles and Appearance of the Control| AutoComplete  | MobileAspNetMVC | Syncfusion
 description: styles and appearance of the control
 platform: mobileaspnetmvc
 control: AutoComplete 

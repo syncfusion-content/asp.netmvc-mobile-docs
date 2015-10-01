@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles And Appearance| Accordion | MobileAspNetMVC | Syncfusion
 description: styles and appearance
 platform: mobileaspnetmvc
 control: Accordion
@@ -20,8 +20,8 @@ _Class names_
 <table>
 <tr>
 <th>
-{{ '*Class*' | markdownify }}</th><th>
-{{ '*Description*' | markdownify }} </th></tr>
+Class</th><th>
+Description </th></tr>
 <tr>
 <td>
 e-m-acc                                           </td><td>

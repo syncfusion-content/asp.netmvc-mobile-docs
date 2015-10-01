@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-buttons
+title: Customize buttons| Radial Menu | MobileAspNetMVC | Syncfusion
 description: customize buttons
 platform: mobileaspnetmvc
 control: Radial Menu
@@ -15,6 +15,7 @@ The Radial Menu control is essentially a context menu presenting its items in a 
 
 Refer to the following code example.
 
+{% tabs %}
 {% highlight html %}
 
 @Html.EJMobile().RadialMenu("radialmenu_sample").Position(RadialMenuPosition.LeftCenter).ImageClass("imageclass").BackImageClass("backimage").Items(item =>
@@ -61,7 +62,8 @@ Refer to the following code example.
 
 })
 
-
+{% endhighlight  %}
+{% highlight css %}
 
 <style>
 
@@ -98,7 +100,8 @@ Refer to the following code example.
     }
 
 </style>
-
+{% endhighlight  %}
+{% highlight js %}
 
 
 <script>
@@ -113,6 +116,7 @@ Refer to the following code example.
 
 
 {% endhighlight %}
+{% endtabs %}
 
 
 The following screenshot illustrates the output of the above code.

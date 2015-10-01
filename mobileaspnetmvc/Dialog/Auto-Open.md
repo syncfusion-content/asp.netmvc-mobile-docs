@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Auto-Open
+title: Auto Open| Dialog | MobileAspNetMVC | Syncfusion
 description: auto open
 platform: mobileaspnetmvc
 control: Dialog

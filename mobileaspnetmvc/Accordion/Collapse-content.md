@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Collapse-content
+title: Collapse Content| Accordion | MobileAspNetMVC | Syncfusion
 description: collapse content
 platform: mobileaspnetmvc
 control: Accordion
@@ -37,6 +37,13 @@ In some cases, you may want to collapse the Accordion content dynamically due to
 
  }).Render();}
 {% endhighlight %}
+
+{% highlight html %}
+
+
+{% endhighlight %}
+
+
 
 
 The following screenshot displays the collapse content:

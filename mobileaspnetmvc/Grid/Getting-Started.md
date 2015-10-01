@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Grid | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Grid
@@ -262,7 +262,7 @@ Click the Filter icon in column header to make the Filtering textbox visible. Th
 {% endhighlight %}
 
 
-Note: The Filter query is a combination of value and symbols (“<, >, =, etc). For example, you can provide “<10255” in Order ID column. The numeric columns are filtered by using the symbols ‘<’, ‘>’, ‘=’, ‘<=’, ‘>=’, ‘!’ and the string columns are filtered by using the symbols “%” (for startswith and endswith) and “*” (contains). Also, you can use “&&” and OR operator to provide multiple conditions in single column.
+N> The Filter query is a combination of value and symbols (“<, >, =, etc). For example, you can provide “<10255” in Order ID column. The numeric columns are filtered by using the symbols ‘<’, ‘>’, ‘=’, ‘<=’, ‘>=’, ‘!’ and the string columns are filtered by using the symbols “%” (for startswith and endswith) and “*” (contains). Also, you can use “&&” and OR operator to provide multiple conditions in single column.
 
 Execute the above code, and then click the OrderID column header to render the following output.
 

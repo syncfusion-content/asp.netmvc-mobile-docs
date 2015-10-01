@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-ProgressBar-Dependency-files
+title: Mobile ProgressBar Dependency files| ProgressBar | MobileAspNetMVC | Syncfusion
 description: mobile progressbar dependency files
 platform: mobileaspnetmvc
 control: ProgressBar
@@ -16,8 +16,8 @@ _Script files to render the ProgressBar control_
 <table>
 <tr>
 <th>
-{{ '**Files**' | markdownify }}</th><th>
-{{ '**Description/Usage**' | markdownify }}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

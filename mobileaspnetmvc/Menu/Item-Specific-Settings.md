@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Item-Specific-Settings
+title: Item Specific Settings| Menu | MobileAspNetMVC | Syncfusion
 description: item specific settings
 platform: mobileaspnetmvc
 control: Menu

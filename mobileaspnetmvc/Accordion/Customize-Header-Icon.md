@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Header-Icon
+title: Customize Header Icon| Accordion | MobileAspNetMVC | Syncfusion
 description: customize header icon
 platform: mobileaspnetmvc
 control: Accordion

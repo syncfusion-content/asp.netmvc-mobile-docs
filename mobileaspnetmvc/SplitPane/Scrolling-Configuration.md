@@ -17,25 +17,25 @@ The AllowRightPaneScrolling property is used to enable/disable the right pane co
 
 @Html.EJMobile().SplitPane("splitpane").RightPaneScrollSettings(right=>right.TargetWidth(200)).LeftPaneTemplate(@<div>
 
-    @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
+@Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
 
-   {
+{
 
-       items.Add().Text("Item1");
+items.Add().Text("Item1");
 
-       items.Add().Text("Item2");
+items.Add().Text("Item2");
 
-       items.Add().Text("Item3");
+items.Add().Text("Item3");
 
-       items.Add().Text("Item4");
+items.Add().Text("Item4");
 
-       items.Add().Text("Item5");
+items.Add().Text("Item5");
 
-       items.Add().Text("Item6");
+items.Add().Text("Item6");
 
-   })
+})
 
-    </div>)            
+</div>)            
 
 
 
@@ -53,23 +53,23 @@ The AllowLeftPaneScrolling property is used to enable/disable the left pane cont
 
 @Html.EJMobile().SplitPane("splitpane").LeftPaneScrollSettings(left=>left.TargetWidth(320)).LeftPaneTemplate(@<div>
 
-    @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
+@Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
 
-   {
+{
 
-       items.Add().Text("Item1");
+items.Add().Text("Item1");
 
-       items.Add().Text("Item2");
+items.Add().Text("Item2");
 
-       items.Add().Text("Item3");
+items.Add().Text("Item3");
 
-       items.Add().Text("Item4");
+items.Add().Text("Item4");
 
-       items.Add().Text("Item5");
+items.Add().Text("Item5");
 
-       items.Add().Text("Item6");
+items.Add().Text("Item6");
 
-   })
+})
 
     </div>)
 

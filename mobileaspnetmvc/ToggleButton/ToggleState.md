@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ToggleState
+title: ToggleState| Toggle Button | MobileAspNetMVC | Syncfusion
 description: togglestate
 platform: mobileaspnetmvc
 control: Toggle Button

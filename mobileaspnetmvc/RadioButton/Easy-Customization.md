@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Easy-Customization
+title: Easy Customization| RadioButton | MobileAspNetMVC | Syncfusion
 description: easy customization
 platform: mobileaspnetmvc
 control: RadioButton
@@ -21,51 +21,51 @@ You have options to set the state of the RadioButton either as checked or unchec
 
 
 
-    <br />
+<br />
 
 
 
-    <div>
+<div>
 
 
 
-        <div>
+<div>
 
 
 
-            <div>
+<div>
 
 
 
-                <b>Marital Status</b>
+<b>Marital Status</b>
 
 
 
-            </div>
+</div>
 
 
 
-        </div>
+</div>
 
 
 
-        <br />
+<br />
 
 
 
-        <table>
+<table>
 
 
 
-            <tr>
+<tr>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single").Checked(true)
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single").Checked(true)
 
 
 
@@ -73,39 +73,39 @@ You have options to set the state of the RadioButton either as checked or unchec
 
 
 
-                </td>
+</td>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married ")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married ")
 
 
 
-                </td>
+</td>
 
 
 
-            </tr>
+</tr>
 
 
 
-            <tr>
+<tr>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
 
 
 
-                </td>
+</td>
 
 
 
@@ -113,15 +113,15 @@ You have options to set the state of the RadioButton either as checked or unchec
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
 
 
 
-                </td>
+</td>
 
 
 
@@ -129,15 +129,15 @@ You have options to set the state of the RadioButton either as checked or unchec
 
 
 
-            </tr>
+</tr>
 
 
 
-        </table>
+</table>
 
 
 
-    </div>
+</div>
 
 
 
@@ -163,51 +163,51 @@ This is a Boolean property that lets you enable or disable the options. When set
 
 
 
-    <br />
+<br />
 
 
 
-    <div>
+<div>
 
 
 
-        <div>
+<div>
 
 
 
-            <div>
+<div>
 
 
 
-                <b>Marital Status</b>
+<b>Marital Status</b>
 
 
 
-            </div>
+</div>
 
 
 
-        </div>
+</div>
 
 
 
-        <br />
+<br />
 
 
 
-        <table>
+<table>
 
 
 
-            <tr>
+<tr>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single")
 
 
 
@@ -215,39 +215,39 @@ This is a Boolean property that lets you enable or disable the options. When set
 
 
 
-                </td>
+</td>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married").Enabled(false)
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married").Enabled(false)
 
 
 
-                </td>
+</td>
 
 
 
-            </tr>
+</tr>
 
 
 
-            <tr>
+<tr>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
 
 
 
-                </td>
+</td>
 
 
 
@@ -255,15 +255,15 @@ This is a Boolean property that lets you enable or disable the options. When set
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
 
 
 
-                </td>
+</td>
 
 
 
@@ -271,15 +271,15 @@ This is a Boolean property that lets you enable or disable the options. When set
 
 
 
-            </tr>
+</tr>
 
 
 
-        </table>
+</table>
 
 
 
-    </div>
+</div>
 
 
 
@@ -305,95 +305,95 @@ Specifies the text content for the RadioButton. In previous programs, separate l
 
 
 
-    <br />
+<br />
 
 
 
-    <div>
+<div>
 
 
 
-        <div>
+<div>
 
 
 
-            <div>
+<div>
 
 
 
-                <b>Marital Status</b>
+<b>Marital Status</b>
 
 
 
-            </div>
+</div>
 
 
 
-        </div>
+</div>
 
 
 
-        <br />
+<br />
 
 
 
-        <table>
+<table>
 
 
 
-            <tr>
+<tr>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single")                </td>
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Single")                </td>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Married")
 
 
 
-                </td>
+</td>
 
 
 
-            </tr>
+</tr>
 
 
 
-            <tr>
+<tr>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Divorced")
 
 
 
-                </td>
+</td>
 
 
 
-                <td width="100px">
+<td width="100px">
 
 
 
-                    @Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
+@Html.EJMobile().RadioButton("sample_radiobutton", "").Text("Widowed")
 
 
 
-                </td>
+</td>
 
 
 
@@ -401,15 +401,15 @@ Specifies the text content for the RadioButton. In previous programs, separate l
 
 
 
-            </tr>
+</tr>
 
 
 
-        </table>
+</table>
 
 
 
-    </div>
+</div>
 
 
 

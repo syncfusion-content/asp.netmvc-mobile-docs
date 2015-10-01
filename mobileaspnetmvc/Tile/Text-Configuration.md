@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Text-Configuration
+title: Text Configuration| Tile | MobileAspNetMVC | Syncfusion
 description: text configuration
 platform: mobileaspnetmvc
 control: Tile

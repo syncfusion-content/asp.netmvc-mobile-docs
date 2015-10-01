@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Toggle Button | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Toggle Button
@@ -33,7 +33,7 @@ Add the following code to the corresponding Layout.cshtml page.
 
 <div>
 
-          @RenderBody()  
+  @RenderBody()  
 
 </div>
 
@@ -49,7 +49,7 @@ To render Toggle Button control, add the following code to the corresponding vie
 
 <!-- Toggle Button control -->
 
-        <div id="content" style="margin: 25px 30px;">
+<div id="content" style="margin: 25px 30px;">
 
         <div class="togglesamtext">
 
@@ -110,6 +110,7 @@ In this application, when the Toggle Button state is changed, a dialog appears t
 
 Add the following code to render the dialog when the toggle state is changed.
 
+{% tabs %}
 {% highlight html %}
 
 <!-- Toggle Button control -->
@@ -159,6 +160,7 @@ Add the following code to render the dialog when the toggle state is changed.
 </script>
 
 {% endhighlight %}
+{% endtabs %}
 
 Execute the above code to render the following output.
 

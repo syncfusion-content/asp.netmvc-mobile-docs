@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dimensions
+title: Dimensions| Radial Menu | MobileAspNetMVC | Syncfusion
 description: dimensions
 platform: mobileaspnetmvc
 control: Radial Menu
@@ -20,7 +20,7 @@ The Possible values for Position property are
 * Righttop
 * Rightbottom
 
-
+{% tabs %}
 {% highlight html %}
 
 
@@ -39,7 +39,8 @@ The Possible values for Position property are
     item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png");
 
 })
-
+{% endhighlight  %}
+{% highlight css %}
 <style>
 
     .imageclass {
@@ -53,7 +54,8 @@ The Possible values for Position property are
         }
 
 </style>
-
+{% endhighlight %}
+{% highlight js %}
 <script>
 
     function click(e) {
@@ -65,6 +67,7 @@ The Possible values for Position property are
 </script>
 
 {% endhighlight %}
+{% endtabs %}
 
 
 The following screenshot illustrates the output of the above code.

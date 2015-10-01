@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Button-Customization
+title: Button Customization| Dialog | MobileAspNetMVC | Syncfusion
 description: button customization
 platform: mobileaspnetmvc
 control: Dialog

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-ListView-Dependencies
+title: Mobile ListView Dependencies| ListView | MobileAspNetMVC | Syncfusion
 description: mobile listview dependencies
 platform: mobileaspnetmvc
 control: ListView
@@ -12,13 +12,14 @@ documentation: ug
 This section deals with the dependency files for ListView control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, you can skip this section. When you are not, refer to the following script files to render the ListView control.
 
 _Script files_
-{% highlight html %}
+
+
 
 <table>
 <tr>
-<td>
-File                          </td><td>
-Description/Usage</td></tr>
+<th>
+File                          </th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 jsrender.min.js</td><td>
@@ -69,4 +70,4 @@ ej.mobile.scrollpanel.min.js ej.mobile.scrollbar.min.js</td><td>
 It is referred to handle scrollpanel related configuration while rendering the ListView.</td></tr>
 </table>
 
-{% endhighlight %}
+

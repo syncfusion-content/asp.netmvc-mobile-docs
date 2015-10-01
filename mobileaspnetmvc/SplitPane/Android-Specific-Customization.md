@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android-Specific-Customization
+title: Android Specific Customization| SplitPane | MobileAspNetMVC | Syncfusion
 description: android specific customization
 platform: mobileaspnetmvc
 control: SplitPane
@@ -21,23 +21,23 @@ ShowToolbar property is used to show/hide the toolbar when the control is render
 
 @Html.EJMobile().SplitPane("splitpane").RenderMode(RenderMode.Android).ToolbarSettings(tool=>tool.Android(toolbar=>toolbar.Title("ToolbarHeader"))).LeftPaneTemplate(@<div>
 
-    @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
+@Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>
 
-   {
+{
 
-       items.Add().Text("Item1");
+items.Add().Text("Item1");
 
-       items.Add().Text("Item2");
+items.Add().Text("Item2");
 
-       items.Add().Text("Item3");
+items.Add().Text("Item3");
 
-       items.Add().Text("Item4");
+items.Add().Text("Item4");
 
-       items.Add().Text("Item5");
+items.Add().Text("Item5");
 
-       items.Add().Text("Item6");
+items.Add().Text("Item6");
 
-   })
+})
 
     </div>)   
 

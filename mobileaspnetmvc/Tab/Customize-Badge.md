@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Badge
+title: Customize Badge| Tab | MobileAspNetMVC | Syncfusion
 description: customize badge
 platform: mobileaspnetmvc
 control: Tab
@@ -35,41 +35,41 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
 @Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+item.Add().Text("Till I Collapse");
 
-            })
+})
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 {% endhighlight %}
 
@@ -85,10 +85,6 @@ The MaxValue property is used to set the maximum badge value to a Tab item. Defa
 
 {% highlight html %}
  
- 
- [MVC]
-
-
 
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).Items(item =>{
@@ -105,43 +101,43 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
 @Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+item.Add().Text("Till I Collapse");
 
-            })
+})
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-                item.Add().Text("1.2.2 update available");
+item.Add().Text("1.2.2 update available");
 
-            })
+})
 
 {% endhighlight %}
 

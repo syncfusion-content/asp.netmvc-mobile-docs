@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Toggle-Button-Dependency-files
+title: Mobile Toggle Button Dependency files| Toggle Button | MobileAspNetMVC | Syncfusion
 description: mobile toggle button dependency files
 platform: mobileaspnetmvc
 control: Toggle Button

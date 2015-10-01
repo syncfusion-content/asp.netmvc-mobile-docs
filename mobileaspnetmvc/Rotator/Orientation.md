@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Orientation
+title: Orientation| Rotator | MobileAspNetMVC | Syncfusion
 description: orientation
 platform: mobileaspnetmvc
 control: Rotator

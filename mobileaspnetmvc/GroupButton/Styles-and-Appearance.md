@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Styles-and-Appearance
+title: Styles and Appearance| Group Button | MobileAspNetMVC | Syncfusion
 description: styles and appearance
 platform: mobileaspnetmvc
 control: Group Button

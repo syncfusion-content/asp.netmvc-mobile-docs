@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multi-Selection
+title: Multi Selection| AutoComplete  | MobileAspNetMVC | Syncfusion
 description: multi selection
 platform: mobileaspnetmvc
 control: AutoComplete 
@@ -41,6 +41,7 @@ EnableCheckBox property is used to display the checkbox for the suggestion list.
 
 @Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").EnableMultiSelect(true).EnableCheckbox(true)
 {% endhighlight %}
+
 
 The following screenshot displays EnableCheckBox:
 

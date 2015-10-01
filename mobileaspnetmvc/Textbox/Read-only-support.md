@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Read-only-support
+title: Read only support| Textbox | MobileAspNetMVC | Syncfusion
 description: read only support
 platform: mobileaspnetmvc
 control: Textbox

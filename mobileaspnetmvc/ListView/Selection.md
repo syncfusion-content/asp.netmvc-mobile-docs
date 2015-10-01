@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selection
+title: Selection| ListView | MobileAspNetMVC | Syncfusion
 description: selection
 platform: mobileaspnetmvc
 control: ListView

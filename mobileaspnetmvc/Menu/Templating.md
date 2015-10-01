@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Templating
+title: Templating| Menu | MobileAspNetMVC | Syncfusion
 description: templating
 platform: mobileaspnetmvc
 control: Menu
@@ -17,21 +17,21 @@ By using template support, you can customize the appearance of an individual Men
 
 <div style="text-align: center;">
 
-    @Html.EJMobile().Button("menuitem").Text("Menu")
+@Html.EJMobile().Button("menuitem").Text("Menu")
 
 </div>
 
-    @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").RenderTemplate(true).ContentTemplate(@<div style="text-align:center;">
+@Html.EJMobile().Menu("menu_sample").TargetId("menuitem").RenderTemplate(true).ContentTemplate(@<div style="text-align:center;">
 
-           <div><img class="image" src="message.gif" /><span class="text">Message</span></div>
+<div><img class="image" src="message.gif" /><span class="text">Message</span></div>
 
-           <div><img class="image" src="mail.gif" /><span class="text">Mail</span></div>
+<div><img class="image" src="mail.gif" /><span class="text">Mail</span></div>
 
-           <div><img class="image" src="twitter.gif" /><span class="text">Twitter</span></div>
+<div><img class="image" src="twitter.gif" /><span class="text">Twitter</span></div>
 
-           <div><img class="image" src="facebook.gif" /><span class="text">Facebook</span></div>
+<div><img class="image" src="facebook.gif" /><span class="text">Facebook</span></div>
 
-        </div>)
+</div>)
 		
 {% endhighlight %}
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-DatePicker-Dependency-files
+title: Mobile DatePicker Dependency Files| DatePicker | MobileAspNetMVC | Syncfusion
 description: mobile datepicker dependency files
 platform: mobileaspnetmvc
 control: DatePicker
@@ -16,8 +16,8 @@ _Script Files_
 <table>
 <tr>
 <th>
-{{ '*Files*' | markdownify }}</th><th>
-{{ '*Description/Usage*' |markdownify}}</th></tr>
+Files</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

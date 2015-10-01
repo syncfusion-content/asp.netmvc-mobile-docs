@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dependency-files
+title: Dependency files| Rotator | MobileAspNetMVC | Syncfusion
 description: dependency files
 platform: mobileaspnetmvc
 control: Rotator

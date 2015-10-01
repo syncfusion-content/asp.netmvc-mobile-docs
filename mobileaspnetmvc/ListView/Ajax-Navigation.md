@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ajax-Navigation
+title: Ajax Navigation| ListView | MobileAspNetMVC | Syncfusion
 description: ajax navigation
 platform: mobileaspnetmvc
 control: ListView
@@ -13,35 +13,34 @@ documentation: ug
 
 In the ListView widget, when all the items have navigation page to be loaded through Ajax content, then EnableAjax property is set to true. 
 
+
 {% highlight html %}
 
 @*Sample.cshtml*@
 
 @Html.EJMobile().ListView("ajaxListBox").EnableAjax(true).ShowHeader(true).HeaderTitle("ListView").Items(items => {
 
-       items.Add().Text("Man of Steel").Href("Home/Load1");
+items.Add().Text("Man of Steel").Href("Home/Load1");
 
-       items.Add().Text("World War Z").Href("Home/Load2");
+items.Add().Text("World War Z").Href("Home/Load2");
 
-       items.Add().Text("Monsters University").Href("Home/Load3");
+items.Add().Text("Monsters University").Href("Home/Load3");
 
-   })
+})
 
-    <style>
+<style>
 
-        .listrightdiv
+.listrightdiv
 
-        {
+{
 
-            padding:20px;
+padding:20px;
 
-        }
+}
 
-    </style>
+</style>
 
-{% endhighlight %}
 
-{% highlight html %}
 
 @*Load1.html*@
 
@@ -49,17 +48,15 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
 <span class="subtitlestyle"><b>Movie Info:</b></span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      A young boy learns that he has extraordinary powers and is not of this Earth.
-
-      </div>
+A young boy learns that he has extraordinary powers and is not of this Earth.
 
 </div>
 
-{% endhighlight %}
+</div>
 
-{% highlight html %}
+
 
 @*Load2.html*@
 
@@ -67,17 +64,15 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
 <span class="subtitlestyle"><b>Movie Info:</b></span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      The story revolves around United Nations employee Gerry Lane (Pitt).
-
-      </div>
+The story revolves around United Nations employee Gerry Lane (Pitt).
 
 </div>
 
-{% endhighlight %}
+</div>
 
-{% highlight html %}
+
 
 @*Load3.html*@
 
@@ -85,15 +80,16 @@ In the ListView widget, when all the items have navigation page to be loaded thr
 
 <span class="subtitlestyle"><b>Movie Info:</b></span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
+Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
 
-      </div>
+</div>
 
 </div>
 
 {% endhighlight %}
+
 
 The following screenshot displays the Enable Ajax:
 
@@ -119,75 +115,71 @@ In Ajax method, the ListView widget loads the content with default jQuery settin
 6. URL
 7. Data
 
+
 {% highlight html %}
 
 @*Sample.cshtml*@
 
 @Html.EJMobile().ListView("ajaxListBox").EnableAjax(true).ShowHeader(true).HeaderTitle("ListView").AjaxSettings(ajax => { ajax.Cache(true); }).Items(items => {
 
-       items.Add().Text("Man of Steel").Href("Home/Load1");
+items.Add().Text("Man of Steel").Href("Home/Load1");
 
-       items.Add().Text("World War Z").Href("Home/Load2");
+items.Add().Text("World War Z").Href("Home/Load2");
 
-       items.Add().Text("Monsters University").Href("Home/Load3");
+items.Add().Text("Monsters University").Href("Home/Load3");
 
-   })
+})
 
-{% endhighlight %}
 
-{% highlight html %}
 
 @*Load1.cshtml*@
 
 <div class="listrightdiv">
 
-      <span class="templatetext">Man of Steel</span> <span class="subtitlestyle">Movie Info:</span>
+<span class="templatetext">Man of Steel</span> <span class="subtitlestyle">Movie Info:</span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      A young boy learns that he has extraordinary powers and is not of this Earth.
-
-      </div>
+A young boy learns that he has extraordinary powers and is not of this Earth.
 
 </div>
 
-{% endhighlight %}
+</div>
 
-{% highlight html %}
+
 
 @*Load2.cshtml*@
 
 <div class="listrightdiv">
 
-      <span class="templatetext">World War Z</span> <span class="subtitlestyle">Movie Info:</span>
+<span class="templatetext">World War Z</span> <span class="subtitlestyle">Movie Info:</span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      The story revolves around United Nations employee Gerry Lane (Pitt).
-
-      </div>
+The story revolves around United Nations employee Gerry Lane (Pitt).
 
 </div>
 
-{% endhighlight %}
+</div>
 
-{% highlight html %}
+
 
 @*Load3.cshtml*@
 
 <div class="listrightdiv">
 
-      <span class="templatetext">Monsters University</span> <span class="subtitlestyle">Movie Info:</span>
+<span class="templatetext">Monsters University</span> <span class="subtitlestyle">Movie Info:</span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
+Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
 
-      </div>
+</div>
 
 </div>
 
 {% endhighlight %}
+
 
 The following screenshots display the Ajax Settings:
 
@@ -195,7 +187,7 @@ The following screenshots display the Ajax Settings:
 
 
 
-[C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)
+![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/ListBox/images/ios7_2.png](Ajax-Navigation_images/Ajax-Navigation_img4.png)
 
 
 
@@ -206,71 +198,64 @@ EnableCache is used to prevent loading Ajax content every time. This is set to t
 
 // For MVC, please add 3 cshtml files to the controller and insert the following content to those cshtml files.
 
+
 {% highlight html %}
 
 @*Sample.cshtml*@
 
 @Html.EJMobile().ListView("ajaxListBox").ShowHeader(false).EnableCache(true).Items(items => {
 
-       items.Add().Text("Man of Steel").Href("Home/Load1");
+items.Add().Text("Man of Steel").Href("Home/Load1");
 
-       items.Add().Text("World War Z").Href("Home/Load2");
+items.Add().Text("World War Z").Href("Home/Load2");
 
-       items.Add().Text("Monsters University").Href("Home/Load3");
+items.Add().Text("Monsters University").Href("Home/Load3");
 
-   })
+})
 
-{% endhighlight %}
-
-{% highlight html %}
 
 @*Load1.cshtml*@
 
 <div class="listrightdiv">
 
-      <span class="templatetext">Man of Steel</span> <span class="subtitlestyle">Movie Info:</span>
+<span class="templatetext">Man of Steel</span> <span class="subtitlestyle">Movie Info:</span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      A young boy learns that he has extraordinary powers and is not of this Earth.
-
-      </div>
+A young boy learns that he has extraordinary powers and is not of this Earth.
 
 </div>
 
-{% endhighlight %}
+</div>
 
-{% highlight html %}
+
 
 @*Load2.cshtml*@
 
 <div class="listrightdiv">
 
-      <span class="templatetext">World War Z</span> <span class="subtitlestyle">Movie Info:</span>
+<span class="templatetext">World War Z</span> <span class="subtitlestyle">Movie Info:</span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      The story revolves around United Nations employee Gerry Lane (Pitt).
-
-      </div>
+The story revolves around United Nations employee Gerry Lane (Pitt).
 
 </div>
 
-{% endhighlight %}
+</div>
 
-{% highlight html %}
 
 @*Load3.cshtml*@
 
 <div class="listrightdiv">
 
-      <span class="templatetext">Monsters University</span> <span class="subtitlestyle">Movie Info:</span>
+<span class="templatetext">Monsters University</span> <span class="subtitlestyle">Movie Info:</span>
 
-      <div class="subtitlestyle">
+<div class="subtitlestyle">
 
-      Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
+Mike Wazowski and James P. Sullivan are an inseparable pair, but that wasn't always the case.
 
-      </div>
+</div>
 
 </div>
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Target-Height
+title: Target Height| Dialog | MobileAspNetMVC | Syncfusion
 description: target height
 platform: mobileaspnetmvc
 control: Dialog
@@ -11,7 +11,7 @@ documentation: ug
 
 The TargetHeight property specifies the target height of the Dialog.
 
-
+{% tabs %}
             {% highlight html %}
             @{
 
@@ -47,7 +47,7 @@ The TargetHeight property specifies the target height of the Dialog.
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 

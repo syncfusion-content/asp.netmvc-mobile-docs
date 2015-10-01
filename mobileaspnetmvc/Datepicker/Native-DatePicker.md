@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Native-DatePicker
+title: Native DatePicker| DatePicker | MobileAspNetMVC | Syncfusion
 description: native datepicker
 platform: mobileaspnetmvc
 control: DatePicker

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Rotator | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Rotator

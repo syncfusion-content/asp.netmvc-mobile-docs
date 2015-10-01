@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Select-Item
+title: Select Item| Rotator | MobileAspNetMVC | Syncfusion
 description: select item
 platform: mobileaspnetmvc
 control: Rotator

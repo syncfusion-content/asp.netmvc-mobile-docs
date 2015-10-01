@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Templating
+title: Templating| Dialog | MobileAspNetMVC | Syncfusion
 description: templating                                  
 platform: mobileaspnetmvc
 control: Dialog
@@ -11,7 +11,7 @@ documentation: ug
 
 The TemplateId property is used to define the ID of the template element where you can specify the content to render in the Dialog.
 
-
+{% tabs %}
 {% highlight html %}
 @{
 
@@ -46,7 +46,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 

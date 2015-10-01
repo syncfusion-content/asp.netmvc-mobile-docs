@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Group-Button-Dependency-files
+title: Mobile Group Button Dependency files| Group Button | MobileAspNetMVC | Syncfusion
 description: mobile group button dependency files
 platform: mobileaspnetmvc
 control: Group Button

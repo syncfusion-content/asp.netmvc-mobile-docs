@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-dimensions
+title: Customize dimensions| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize dimensions
 platform: mobileaspnetmvc
 control: ProgressBar

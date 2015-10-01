@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Show-Border
+title: Show Border| TextArea | MobileAspNetMVC | Syncfusion
 description: show border
 platform: mobileaspnetmvc
 control: TextArea

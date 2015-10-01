@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Databinding
+title: Databinding| AutoComplete  | MobileAspNetMVC | Syncfusion
 description: databinding
 platform: mobileaspnetmvc
 control: AutoComplete 
@@ -22,6 +22,7 @@ DataSource property is used to provide the suggestion list to the AutoComplete t
 
 
 For MVC, you need to pass the data through model. The code example defines the model with user-defined class.
+
 
 {% highlight c# %}
   public class Cars
@@ -62,6 +63,7 @@ For MVC, you need to pass the data through model. The code example defines the m
 
 After creating the model, pass the data to the View through Controller.
 
+
 {% highlight c# %}
 public class AutoCompleteController : ApplicationController
 
@@ -77,6 +79,7 @@ public class AutoCompleteController : ApplicationController
 
      }
 {% endhighlight %}
+
 
 
 The following screenshot displays the DataSource:
@@ -116,6 +119,7 @@ ImageField property is used to map the specific field name of the given DataSour
 
 
 For MVC, pass the DataSource through model. You can refer to the code example for defining the DataSource in the model.
+
 {% highlight c# %}
 public class Countries
 
@@ -165,6 +169,8 @@ ImageClass property is used to map the specific field name of the given DataSour
 @Html.EJMobile().AutoComplete("accmultivalue").DataSource(Model).Field("country").ImageClass("flag")
 {% endhighlight %}
 
+
+
 {% highlight css %}
 
 
@@ -206,7 +212,9 @@ ImageClass property is used to map the specific field name of the given DataSour
 {% endhighlight %}
 
 
+
 For MVC, the class has to be referred in the model list.
+
 
 {% highlight c# %}
     public class Countries

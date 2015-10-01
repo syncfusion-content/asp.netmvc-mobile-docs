@@ -21,21 +21,21 @@ You can customize the left pane header by using LeftHeaderSettings property. The
 {% highlight html %}
 
 
-    @Html.EJMobile().SplitPane("splitpane").LeftHeaderSettings(left=>left.Title("Sample Header")).LeftPaneTemplate(@<div>    @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>   {
+@Html.EJMobile().SplitPane("splitpane").LeftHeaderSettings(left=>left.Title("Sample Header")).LeftPaneTemplate(@<div>    @Html.EJMobile().ListView("listview").ClientSideEvents(c=>c.TouchEnd("loadContent")).ShowHeader(false).Items(items =>   {
 
-       items.Add().Text("Item1");
+items.Add().Text("Item1");
 
-       items.Add().Text("Item2");
+items.Add().Text("Item2");
 
-       items.Add().Text("Item3");
+items.Add().Text("Item3");
 
-       items.Add().Text("Item4");
+items.Add().Text("Item4");
 
-       items.Add().Text("Item5");
+items.Add().Text("Item5");
 
-       items.Add().Text("Item6");
+items.Add().Text("Item6");
 
-   })
+})
 
     </div>)          
 

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Tab | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Tab
 documentation: ug
 ---
 
-# Overview
+# Tab
 
 The Essential Studio for ASP.NET MVC Mobile Tab widget is an interface where lists of items are expanded from a single item. Tabs are loaded through AJAX content.
 

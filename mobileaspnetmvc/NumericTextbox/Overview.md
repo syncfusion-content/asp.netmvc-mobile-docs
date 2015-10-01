@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Numeric Textbox | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Numeric Textbox
 documentation: ug
 ---
 
-# Overview
+# Numeric Textbox
 
 The EssentialMVCMobile widget for NumericTextbox is used to customize the textbox and used to display or get only the number values. You can customize the various features. 
 

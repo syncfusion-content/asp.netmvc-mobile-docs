@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Grid | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Grid
 documentation: ug
 ---
 
-# Overview
+# Grid
 
 The Mobile Grid control for Essential Studio ASP.NET MVC is an efficient display engine for tabular data in mobile devices. It renders from a datasource, such as array of JSON objects, OData web services, or ej.DataManager, binding data fields to columns and displaying a column header to identify the field. This grid is very useful for generating complex grid-based report. The most important features available in the Mobile Grid control for ASP.NET MVC are paging, sorting, scrolling and filtering.
 

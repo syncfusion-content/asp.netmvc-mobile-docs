@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| ProgressBar | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: ProgressBar
 documentation: ug
 ---
 
-# Overview
+# ProgressBar
 
 EssentialStudio for ASP.NET MVC, Mobile ProgressBar widget shows the progress of a lengthy operation by filling a rectangle with chunks from left to right.
 

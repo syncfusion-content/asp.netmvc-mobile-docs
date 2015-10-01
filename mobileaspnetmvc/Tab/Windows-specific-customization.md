@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows-specific-customization
+title: Windows specific customization| Tab | MobileAspNetMVC | Syncfusion
 description: windows specific customization
 platform: mobileaspnetmvc
 control: Tab
@@ -19,55 +19,55 @@ In the Windows phone, by default the Tab title's text is in the lower case irres
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.Windows).Windows(windows=>windows.EnableCustomText(true))
 
-   .Items(item =>{
+.Items(item =>{
 
-    item.Add().Text("My Music").Href("#mymusic");
+item.Add().Text("My Music").Href("#mymusic");
 
-    item.Add().Text("Favorites").Href("#favorites");
+item.Add().Text("Favorites").Href("#favorites");
 
-    item.Add().Text("Updates").Href("#updates");
+item.Add().Text("Updates").Href("#updates");
 
-       })
+})
 
 <!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+item.Add().Text("Till I Collapse");
 
-            })
+})
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 {% endhighlight %}
 
@@ -85,55 +85,55 @@ The Position property holds fixed and normal values. Normal position allows rela
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.Windows).Windows(windows=>windows.Position(ControlPosition.Normal))
 
-    .Items(item =>{
+	.Items(item =>{
 
-    item.Add().Text("My Music").Href("#mymusic");
+	item.Add().Text("My Music").Href("#mymusic");
 
-    item.Add().Text("Favorites").Href("#favorites");
+	item.Add().Text("Favorites").Href("#favorites");
 
-    item.Add().Text("Updates").Href("#updates");
+	item.Add().Text("Updates").Href("#updates");
 
-       })
+	})
 
-<!-- Tab first item -->
+	<!-- Tab first item -->
 
-@Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
+	@Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
-            {
+	{
 
-                item.Add().Text("Not Afraid");
+	item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+	item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+	item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+	item.Add().Text("Till I Collapse");
 
-            })
+	})
 
-<!-- Tab second item -->
+	<!-- Tab second item -->
 
-@Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
+	@Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
-            {
+	{
 
-                item.Add().Text("Dark Horse");
+	item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+	item.Add().Text("Roar");
 
-            })
+	})
 
-<!-- Tab third item -->
+	<!-- Tab third item -->
 
-@Html.EJMobile().ListView("updates").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
+	@Html.EJMobile().ListView("updates").RenderMode(RenderMode.Windows).ShowHeader(false).Items(item =>
 
-            {
+	{
 
-                item.Add().Text("New songs available for download");
+	item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+	item.Add().Text("1.2.1 update available");
 
-            })
+	})
 
 {% endhighlight %}
 

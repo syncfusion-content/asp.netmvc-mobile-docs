@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Percentage
+title: Customize Percentage| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize percentage
 platform: mobileaspnetmvc
 control: ProgressBar

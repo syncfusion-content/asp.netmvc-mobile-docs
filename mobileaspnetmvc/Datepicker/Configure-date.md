@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configure-date
+title: Configure Date| DatePicker | MobileAspNetMVC | Syncfusion
 description: configure date                                        
 platform: mobileaspnetmvc
 control: DatePicker

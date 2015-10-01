@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Group Button | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Group Button
@@ -200,6 +200,7 @@ In the Mail App, when you navigate through different buttons the content view is
 
 Refer the following code example.
 
+{% tabs %}
 {% highlight html %}
 
 @Html.EJMobile().GroupButton("groupbutton").GroupButtonType(GroupButtonType.radio).SelectedItemIndex(0).Name("options").Buttons(button =>
@@ -231,17 +232,18 @@ Refer the following code example.
 
     //Touch End Event Handling
 
-        function onselect(args) {
+function onselect(args) {
 
-            $("#all,#read,#unread").hide();
+$("#all,#read,#unread").hide();
 
-            $("#" + args.text.toLowerCase()).show();
+$("#" + args.text.toLowerCase()).show();
 
-        }
+}
 
    </script>
 
 {% endhighlight %}
+{% endtabs %}
 
 In this application, you are using three options “All”, “Read” and “Unread” to view the mail contents. This is achieved using the ASP.NET MVC Mobile Listview control. 
 

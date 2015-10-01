@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dependency-files
+title: Dependency files| Toolbar | MobileAspNetMVC | Syncfusion
 description: dependency files
 platform: mobileaspnetmvc
 control: Toolbar

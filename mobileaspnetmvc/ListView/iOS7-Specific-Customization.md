@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS7-Specific-Customization
+title: iOS7 Specific Customization| ListView | MobileAspNetMVC | Syncfusion
 description: ios7 specific customization
 platform: mobileaspnetmvc
 control: ListView
@@ -17,25 +17,25 @@ You can set the iOS7 specific properties to the control by accessing iOS7 proper
 
 {    
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 })
 

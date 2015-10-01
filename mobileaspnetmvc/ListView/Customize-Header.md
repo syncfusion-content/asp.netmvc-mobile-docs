@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Header
+title: Customize Header| ListView | MobileAspNetMVC | Syncfusion
 description: customize header
 platform: mobileaspnetmvc
 control: ListView
@@ -15,25 +15,25 @@ In the ListView, you can enable the built-in Header support. To show or hide the
 
 @Html.EJMobile().ListView("lb").ShowHeader(true).HeaderTitle("ListView").Items(items => {    
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 })
 
@@ -45,25 +45,25 @@ In some cases, for navigation purposes you may want to show Back button in the L
 
 @Html.EJMobile().ListView("lb").ShowHeader(true).HeaderTitle("ListView").ShowHeaderBackButton(true).HeaderBackButtonText("Home").Items(items => {    
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 })
 

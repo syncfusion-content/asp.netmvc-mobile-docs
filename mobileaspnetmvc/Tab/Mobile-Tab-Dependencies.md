@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Tab-Dependencies
+title: Mobile Tab Dependencies| Tab | MobileAspNetMVC | Syncfusion
 description: mobile tab dependencies
 platform: mobileaspnetmvc
 control: Tab

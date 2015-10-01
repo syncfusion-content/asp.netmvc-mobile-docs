@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-value
+title: Customize value| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize value
 platform: mobileaspnetmvc
 control: ProgressBar

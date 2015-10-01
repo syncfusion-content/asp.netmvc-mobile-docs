@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Easy-customization
+title: Easy Customization| Checkbox | MobileAspNetMVC | Syncfusion
 description: easy customization
 platform: mobileaspnetmvc
 control: Checkbox
@@ -16,6 +16,7 @@ By using checked property, you can set the state of Checkbox. When checkedproper
 The following code explains you the details about rendering the Checkbox with above mentioned checked options, when the checkbox is in non tri-state.
 
 In the CSHTML page, add the following input elements to configure Checkbox widget.
+
 
 {% highlight html %}
 
@@ -109,6 +110,7 @@ When you enable Tri-state, then the Checkbox includes the indeterminate state. T
 
 In theCSHTML page, add the following input elements to render the Checkbox with Tri-state options.
 
+
 {% highlight html %}
 
 
@@ -185,6 +187,7 @@ You can render Checkbox with disabled state by setting data-ej-enabled to false.
 
 Refer to the following code example.
 
+
 {% highlight html %}
 
 
@@ -250,6 +253,7 @@ Refer to the following code example.
 
 
 {% endhighlight %}
+
 
  Execute the above code example to render the following output.
 

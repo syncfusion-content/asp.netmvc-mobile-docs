@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Watermark-text
+title: Customize Watermark text| Textbox | MobileAspNetMVC | Syncfusion
 description: customize watermark text
 platform: mobileaspnetmvc
 control: Textbox

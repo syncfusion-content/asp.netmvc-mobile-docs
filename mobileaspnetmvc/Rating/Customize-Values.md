@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Values
+title: Customize Values| Rating | MobileAspNetMVC | Syncfusion
 description: customize values                           
 platform: mobileaspnetmvc
 control: Rating
@@ -13,7 +13,7 @@ The MaximumValue property is used to denote the maximum value up to which the ra
 
 {% highlight html %}
 
-        @Html.EJMobile().Rating("rating_sample").MinimumValue(2).MaximumValue(6).Value(4).IncrementStep(1)
+@Html.EJMobile().Rating("rating_sample").MinimumValue(2).MaximumValue(6).Value(4).IncrementStep(1)
 
 {% endhighlight %}
 

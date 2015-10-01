@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android-specific-customization
+title: Android specific customization| Toolbar | MobileAspNetMVC | Syncfusion
 description: android specific customization
 platform: mobileaspnetmvc
 control: Toolbar

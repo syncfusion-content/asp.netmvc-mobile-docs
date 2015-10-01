@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Disable-Rating
+title: Disable Rating| Rating | MobileAspNetMVC | Syncfusion
 description: disable rating
 platform: mobileaspnetmvc
 control: Rating

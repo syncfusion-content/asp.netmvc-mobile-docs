@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Animations
+title: Animations| Navigation Drawer | MobileAspNetMVC | Syncfusion
 description: animations
 platform: mobileaspnetmvc
 control: Navigation Drawer
@@ -25,19 +25,19 @@ Refer to the following code example.
 
 {
 
-    list.ClientSideEvents(i => i.TouchEnd("navListClick")).Items(item =>
+list.ClientSideEvents(i => i.TouchEnd("navListClick")).Items(item =>
 
-        {
+{
 
-            item.Add().Text("Home").ImageUrl("http://js.syncfusion.com/UG/Mobile/Content/drawer/home.png");
+item.Add().Text("Home").ImageUrl("http://js.syncfusion.com/UG/Mobile/Content/drawer/home.png");
 
-            item.Add().Text("Profile").ImageUrl("http://js.syncfusion.com/UG/Mobile/Content/drawer/profile.png");
+item.Add().Text("Profile").ImageUrl("http://js.syncfusion.com/UG/Mobile/Content/drawer/profile.png");
 
-            item.Add().Text("Photos").ImageUrl("http://js.syncfusion.com/UG/Mobile/Content/drawer/photo.png");
+item.Add().Text("Photos").ImageUrl("http://js.syncfusion.com/UG/Mobile/Content/drawer/photo.png");
 
-            item.Add().Text("Location").ImageUrl("http://js.syncfusion.com/UG/Mobile/Content/drawer/locations.png");
+item.Add().Text("Location").ImageUrl("http://js.syncfusion.com/UG/Mobile/Content/drawer/locations.png");
 
-        });
+});
 
 })
 
@@ -45,37 +45,37 @@ Refer to the following code example.
 
 
 
-        <div id="content" style="margin-top: 45px; margin-left: 20px;">
+<div id="content" style="margin-top: 45px; margin-left: 20px;">
 
-            <div id="Home">
+<div id="Home">
 
-                    The Home screen allows you to choose the specific content type displayed.
+The Home screen allows you to choose the specific content type displayed.
 
-            </div>
+</div>
 
-            <div id="Profile" style="display: none">
+<div id="Profile" style="display: none">
 
-                The Profile page content is displayed.
+The Profile page content is displayed.
 
-            </div>
-
-
-
-            <div id="Photos" style="display: none">
-
-                The Photos page content is displayed.
-
-            </div>
+</div>
 
 
 
-            <div id="Location" style="display: none">
+<div id="Photos" style="display: none">
 
-                The Location page content is displayed.
+The Photos page content is displayed.
 
-            </div>
+</div>
 
-        </div>
+
+
+<div id="Location" style="display: none">
+
+The Location page content is displayed.
+
+</div>
+
+</div>
 
 
 {% endhighlight %}

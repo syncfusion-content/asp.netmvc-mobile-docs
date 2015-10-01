@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sorting
+title: Sorting| Grid | MobileAspNetMVC | Syncfusion
 description: sorting
 platform: mobileaspnetmvc
 control: Grid
@@ -15,21 +15,21 @@ Sorting is a basic technique in ejmGrid. It helps you in viewing grid records th
 
 {% highlight html %}
 
-  @(Html.EJMobile().Grid<object>("MobileGrid")
+@(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
+.Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("ShipCity").HeaderText("Ship City").Add();
+col.Field("ShipCity").HeaderText("Ship City").Add();
 
-        })
+})
 
 .AllowSorting(true))
 
@@ -47,21 +47,21 @@ ejmGrid also has support to sort more than one column known as Multisorting. To 
 
 {% highlight html %}
 
-  @(Html.EJMobile().Grid<object>("MobileGrid")
+@(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
+.Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("ShipCity").HeaderText("Ship City").Add();
+col.Field("ShipCity").HeaderText("Ship City").Add();
 
-        })
+})
 
 .AllowSorting(true)
 .SortOption(s=>s.AllowMultiSorting (true)))

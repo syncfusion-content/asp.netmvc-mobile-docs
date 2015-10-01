@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prevent-default-action
+title: Prevent default action| ScrollPanel | MobileAspNetMVC | Syncfusion
 description: prevent default action
 platform: mobileaspnetmvc
 control: ScrollPanel

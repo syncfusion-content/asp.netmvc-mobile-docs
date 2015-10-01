@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Textbox | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Textbox
@@ -33,75 +33,75 @@ You can create a MVC project and add the necessary DLLs and scripts with the hel
 
 <div class="sample" style="padding:10px">
 
-    <div class="frame">
+<div class="frame">
 
-        <div class="control">
+<div class="control">
 
-            <table class="editors">
+<table class="editors">
 
-                <tbody>
+<tbody>
 
-                    <tr>
+<tr>
 
-                        <td>
+<td>
 
-                            <label>
+	<label>
 
-                                Name
+		Name
 
-                            </label>
+	</label>
 
-                        </td>
+</td>
 
-                        <td>
+<td>
 
-                            <!--Add Textbox control-->
+	<!--Add Textbox control-->
 
-                        </td>
+</td>
 
-                    </tr>
+</tr>
 
-                    <tr>
+<tr>
 
-                        <td>
+<td>
 
-                            <label>
+	<label>
 
-                                Password
+		Password
 
-                            </label>
+	</label>
 
-                        </td>
+</td>
 
-                        <td>
+<td>
 
-                            <!--Password Control-->
+	<!--Password Control-->
 
-                            @Html.EJMobile().PassWord("password").WatermarkText("Password")                           
+	@Html.EJMobile().PassWord("password").WatermarkText("Password")                           
 
-                        </td>
+</td>
 
-                    </tr>
+</tr>
 
-                </tbody>
+</tbody>
 
-            </table>
+</table>
 
-            <center>
+<center>
 
-                <div class="button">
+<div class="button">
 
-                    <!--Button Control-->                    
+<!--Button Control-->                    
 
-                    @Html.EJMobile().Button("button").Text("Login")
+@Html.EJMobile().Button("button").Text("Login")
 
-                </div>
+</div>
 
-            </center>
+</center>
 
-        </div>
+</div>
 
-    </div>
+</div>
 
 </div>
 

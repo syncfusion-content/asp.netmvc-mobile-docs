@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data-binding
+title: Data binding| Grid | MobileAspNetMVC | Syncfusion
 description: data binding
 platform: mobileaspnetmvc
 control: Grid
@@ -14,24 +14,24 @@ documentation: ug
 Mobile Grid data source can be set in server-side through ASP.NET MVC by using ViewBag.
 
 To achieve this refer the following code example.
-
+{% tabs %}
 {% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource((IEnumerable<object>)ViewBag.datasource)
+.Datasource((IEnumerable<object>)ViewBag.datasource)
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("FirstName").HeaderText("First Name").Add();
+col.Field("FirstName").HeaderText("First Name").Add();
 
-            col.Field("LastName").HeaderText("Last Name").Add();
+col.Field("LastName").HeaderText("Last Name").Add();
 
-            col.Field("Email").HeaderText("Email").Add();
+col.Field("Email").HeaderText("Email").Add();
 
-        }))
+}))
 
 {% endhighlight %}
 
@@ -41,56 +41,57 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 {
 
-    public class GridController : ApplicationController
+public class GridController : ApplicationController
 
-    {
-
-
-
-        public class Person
-
-        {
-
-            public string FirstName { get; set; }
-
-            public string LastName { get; set; }
-
-            public string Email { get; set; }
-
-        }
+{
 
 
 
-        public ActionResult Default()
+public class Person
 
-        {
+{
 
-            List<Person> Persons = new List<Person>();
+public string FirstName { get; set; }
 
-            Persons.Add(new Person() { FirstName = "John", LastName = "Beckett", Email = "john@syncfusion.com" });
+public string LastName { get; set; }
 
-            Persons.Add(new Person() { FirstName = "Ben", LastName = "Beckett", Email = "ben@syncfusion.com" });
+public string Email { get; set; }
 
-            Persons.Add(new Person() { FirstName = "Andrew", LastName = "Beckett", Email = "andrew@syncfusion.com" });
+}
 
-            ViewBag.datasource = Persons;
 
-            return View();
 
-        }
+public ActionResult Default()
 
-    }
+{
+
+List<Person> Persons = new List<Person>();
+
+Persons.Add(new Person() { FirstName = "John", LastName = "Beckett", Email = "john@syncfusion.com" });
+
+Persons.Add(new Person() { FirstName = "Ben", LastName = "Beckett", Email = "ben@syncfusion.com" });
+
+Persons.Add(new Person() { FirstName = "Andrew", LastName = "Beckett", Email = "andrew@syncfusion.com" });
+
+ViewBag.datasource = Persons;
+
+return View();
+
+}
+
+}
 
 }
 
 {% endhighlight %}
+{% endtabs %}
 
 Execute the above code to render the following output.
 
 ![2](Data-binding_images/Data-binding_img1.png)
 
 
-##Remotedata
+## Remotedata
 
 ### oData binding
 
@@ -102,17 +103,17 @@ oData is standardized protocol for creating and consuming data. You can able to 
 
 .Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders")
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("Freight").HeaderText("Freight").Add();
+col.Field("Freight").HeaderText("Freight").Add();
 
-        }))
+}))
 
 {% endhighlight %}
 
@@ -134,22 +135,22 @@ Through this load at once technique, you can able to load all remote data from s
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource(d=>d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
-   .Offline(true))
+.Datasource(d=>d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
+.Offline(true))
 
-        .AllowPaging(true)
+.AllowPaging(true)
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("ShipCity").HeaderText("Ship City").Add();
+col.Field("ShipCity").HeaderText("Ship City").Add();
 
-        }))
+}))
 
 
 {% endhighlight %}
@@ -168,22 +169,22 @@ ejmGrid can use CrossDomain data service with help of data manager. Following co
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-       .Datasource(d => d.URL("http://mvc.syncfusion.com/UGService/api/Orders")
-            .CrossDomain(true).Offline(true))
+.Datasource(d => d.URL("http://mvc.syncfusion.com/UGService/api/Orders")
+.CrossDomain(true).Offline(true))
 
-        .AllowPaging(true)
+.AllowPaging(true)
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("ShipCity").HeaderText("Ship City").Add();
+col.Field("ShipCity").HeaderText("Ship City").Add();
 
-        }))
+}))
 
 
 {% endhighlight %}
@@ -202,21 +203,21 @@ Load on demand is a powerful technique that is used to reduce bandwidth size of 
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
+.Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Orders/")
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("OrderID").HeaderText("Order ID").Add();
+col.Field("OrderID").HeaderText("Order ID").Add();
 
-            col.Field("CustomerID").HeaderText("Customer ID").Add();
+col.Field("CustomerID").HeaderText("Customer ID").Add();
 
-            col.Field("Freight").HeaderText("Freight").Add();
+col.Field("Freight").HeaderText("Freight").Add();
 
-        })
+})
 
-        .AllowPaging(true)) 
+.AllowPaging(true)) 
 
 {% endhighlight %}
 
@@ -230,23 +231,24 @@ Execute the above code to render the following output.
 
 ejmGrid contains a feature to refresh datasource dynamically after Grid initialization. It is useful to refresh grid data source.
 
+{% tabs %}
 {% highlight html %}
 
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-        .Datasource((IEnumerable<object>)ViewBag.datasource)
+.Datasource((IEnumerable<object>)ViewBag.datasource)
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("FirstName").HeaderText("First Name").Add();
+col.Field("FirstName").HeaderText("First Name").Add();
 
-            col.Field("LastName").HeaderText("Last Name").Add();
+col.Field("LastName").HeaderText("Last Name").Add();
 
-            col.Field("Email").HeaderText("Email").Add();
+col.Field("Email").HeaderText("Email").Add();
 
-        }))
+}))
 
 @Html.EJMobile().Button("Button").Text("Refresh").ClientSideEvents(c => c.TouchEnd("RefreshData")) ()
 
@@ -259,23 +261,23 @@ ejmGrid contains a feature to refresh datasource dynamically after Grid initiali
 
 <script type="text/javascript">
 
-    window.newData = [
+window.newData = [
 
-      { FirstName: "Mike", LastName: "Tiko", Email: "mike@syncfusion.com" },
+{ FirstName: "Mike", LastName: "Tiko", Email: "mike@syncfusion.com" },
 
-      { FirstName: "Robin", LastName: "Kole", Email: "robin@syncfusion.com" },
+{ FirstName: "Robin", LastName: "Kole", Email: "robin@syncfusion.com" },
 
-      { FirstName: "Keth", LastName: "Rover", Email: "keth@syncfusion.com" }
+{ FirstName: "Keth", LastName: "Rover", Email: "keth@syncfusion.com" }
 
-    ];
+];
 
 
 
-    function RefreshData() {
+function RefreshData() {
 
-        $("#MobileGrid").ejmGrid({ dataSource: newData });
+$("#MobileGrid").ejmGrid({ dataSource: newData });
 
-    }
+}
 
 </script>
 
@@ -287,49 +289,50 @@ namespace MVCSampleBrowser.Controllers.Grid
 
 {
 
-   public class GridController : Controller
+public class GridController : Controller
 
-    {
+{
 
-        public class Person
+public class Person
 
-        {
+{
 
-            public string FirstName { get; set; }
+public string FirstName { get; set; }
 
-            public string LastName { get; set; }
+public string LastName { get; set; }
 
-            public string Email { get; set; }
+public string Email { get; set; }
 
-        }
-
-
-
-        public ActionResult GridView()
-
-        {
-
-            List<Person> Persons = new List<Person>();
-
-            Persons.Add(new Person() { FirstName = "John", LastName = "Beckett", Email = "john@syncfusion.com" });
-
-            Persons.Add(new Person() { FirstName = "Ben", LastName = "Beckett", Email = "ben@syncfusion.com" });
-
-            Persons.Add(new Person() { FirstName = "Andrew", LastName = "Beckett", Email = "andrew@syncfusion.com" });
-
-            ViewBag.datasource = Persons;
-
-            return View();
-
-        }
+}
 
 
 
-    }
+public ActionResult GridView()
+
+{
+
+List<Person> Persons = new List<Person>();
+
+Persons.Add(new Person() { FirstName = "John", LastName = "Beckett", Email = "john@syncfusion.com" });
+
+Persons.Add(new Person() { FirstName = "Ben", LastName = "Beckett", Email = "ben@syncfusion.com" });
+
+Persons.Add(new Person() { FirstName = "Andrew", LastName = "Beckett", Email = "andrew@syncfusion.com" });
+
+ViewBag.datasource = Persons;
+
+return View();
+
+}
+
+
+
+}
 
 }
 
 {% endhighlight %}
+{% endtabs %}
 
 ![7](Data-binding_images/Data-binding_img7.png)
 
@@ -343,149 +346,149 @@ ejmGrid supports data types in JavaScript such as string, number, datetime and B
 
 <script id="table1" type="text/template" >
 
-        <table>
+<table>
 
-            <thead>
+<thead>
 
-                <tr>
+<tr>
 
-                    <th>Laptop
+<th>Laptop
 
-                    </th>
+</th>
 
-                    <th>Model
+<th>Model
 
-                    </th>
+</th>
 
-                    <th>Price
+<th>Price
 
-                    </th>
+</th>
 
-                    <th>OS
+<th>OS
 
-                    </th>
+</th>
 
-                    <th>RAM
+<th>RAM
 
-                    </th>
+</th>
 
-                    <th>ScreenSize
+<th>ScreenSize
 
-                    </th>
+</th>
 
-                </tr>
+</tr>
 
-            </thead>
+</thead>
 
-            <tbody>
+<tbody>
 
-                <tr>
+<tr>
 
-                    <td>Dell Vostro</td>
+<td>Dell Vostro</td>
 
-                    <td>2520</td>
+<td>2520</td>
 
-                    <td>39990</td>
+<td>39990</td>
 
-                    <td>Windows 8</td>
+<td>Windows 8</td>
 
-                    <td>4GB</td>
+<td>4GB</td>
 
-                    <td>15.6</td>
+<td>15.6</td>
 
-                </tr>
+</tr>
 
-                <tr>
+<tr>
 
-                    <td>HP Pavilion Sleekbook</td>
+<td>HP Pavilion Sleekbook</td>
 
-                    <td>14-B104AU</td>
+<td>14-B104AU</td>
 
-                    <td>22800</td>
+<td>22800</td>
 
-                    <td>Windows 8</td>
+<td>Windows 8</td>
 
-                    <td>2GB</td>
+<td>2GB</td>
 
-                    <td>14</td>
+<td>14</td>
 
-                </tr>
+</tr>
 
-                <tr>
+<tr>
 
-                    <td>Sony Vaio</td>
+<td>Sony Vaio</td>
 
-                    <td>E14A15</td>
+<td>E14A15</td>
 
-                    <td>42500</td>
+<td>42500</td>
 
-                    <td>Windows 7 Home Premium</td>
+<td>Windows 7 Home Premium</td>
 
-                    <td>4GB DDR3 RAM</td>
+<td>4GB DDR3 RAM</td>
 
-                    <td>14</td>
+<td>14</td>
 
-                </tr>
+</tr>
 
-                <tr>
+<tr>
 
-                    <td>Lenovo</td>
+<td>Lenovo</td>
 
-                    <td>Yoga 13</td>
+<td>Yoga 13</td>
 
-                    <td>57000</td>
+<td>57000</td>
 
-                    <td>Windows 8 RT</td>
+<td>Windows 8 RT</td>
 
-                    <td>2GB DDR3 RAM</td>
+<td>2GB DDR3 RAM</td>
 
-                    <td>11.6</td>
+<td>11.6</td>
 
-                </tr>
+</tr>
 
-                <tr>
+<tr>
 
-                    <td>Toshiba</td>
+<td>Toshiba</td>
 
-                    <td>L850-Y3110</td>
+<td>L850-Y3110</td>
 
-                    <td>57700</td>
+<td>57700</td>
 
-                    <td>Windows 8 SL</td>
+<td>Windows 8 SL</td>
 
-                    <td>8GB DDR3 RAM</td>
+<td>8GB DDR3 RAM</td>
 
-                    <td>15.6</td>
+<td>15.6</td>
 
-                </tr>
+</tr>
 
-            </tbody>
+</tbody>
 
-        </table>
+</table>
 
-        </script>
+</script>
 
 {% endhighlight %}
 
 {% highlight html %}
 
-    @(Html.EJMobile().Grid<object>("Grid")
+@(Html.EJMobile().Grid<object>("Grid")
 
 .Datasource(ds => { ds.Table("#table1"); })
 
-          .Columns(col =>
+.Columns(col =>
 
-          {
+{
 
-              col.Field("Laptop").HeaderText("Laptop Brands").Add();
+col.Field("Laptop").HeaderText("Laptop Brands").Add();
 
-              col.Field("Model").HeaderText("Model").Add();
+col.Field("Model").HeaderText("Model").Add();
 
-              col.Field("Price").HeaderText("Price").TextAlign(TextAlign.Right).Width(90).Add();
+col.Field("Price").HeaderText("Price").TextAlign(TextAlign.Right).Width(90).Add();
 
 
 
-          }))
+}))
 
 {% endhighlight %}
 
@@ -508,17 +511,17 @@ Now a days oData is most useful technique in consuming data. You can use oData p
 
 .Datasource("http://mvc.syncfusion.com/Services/Northwnd.svc/Products/")
 
-        .Columns(col =>
+.Columns(col =>
 
-        {
+{
 
-            col.Field("ProductID").HeaderText("Product ID").Add();
+col.Field("ProductID").HeaderText("Product ID").Add();
 
-            col.Field("ProductName").HeaderText("Product Name").Add();
+col.Field("ProductName").HeaderText("Product Name").Add();
 
-            col.Field("UnitPrice").HeaderText("Unit Price").Add();
+col.Field("UnitPrice").HeaderText("Unit Price").Add();
 
-        }))
+}))
 
 
 {% endhighlight %}

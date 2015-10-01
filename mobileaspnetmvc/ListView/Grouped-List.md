@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Grouped-List
+title: Grouped List| ListView | MobileAspNetMVC | Syncfusion
 description: grouped list
 platform: mobileaspnetmvc
 control: ListView
@@ -17,55 +17,55 @@ The ListView widget makes a grouped list when ‘EnableGroupList’ property is 
 
 @Html.EJMobile().ListView("firstlevelgrouplist").ShowHeader(true).HeaderTitle("First Level Group List").EnableGroupList(true).Groups(gp =>
 
-    {
+{
 
-        gp.Add().Title("Network").Items(items =>
+gp.Add().Title("Network").Items(items =>
 
-    {
+{
 
-        items.Add().Text("Airplane_Mode");
+items.Add().Text("Airplane_Mode");
 
-        items.Add().Text("Wi-Fi");
+items.Add().Text("Wi-Fi");
 
-        items.Add().Text("Notifications");
+items.Add().Text("Notifications");
 
-        items.Add().Text("Location_Services");
-
-
-
-    });
-
-        gp.Add().Title("Apps").Items(items =>
-
-    {
-
-        items.Add().Text("Sound");
-
-        items.Add().Text("Brightness");
-
-        items.Add().Text("Wallpaper");
+items.Add().Text("Location_Services");
 
 
 
-    });
+});
 
-        gp.Add().Title("Settings").Items(items =>
+gp.Add().Title("Apps").Items(items =>
 
-    {
+{
 
-        items.Add().Text("General");
+items.Add().Text("Sound");
 
-        items.Add().Text("Brightness");
+items.Add().Text("Brightness");
 
-        items.Add().Text("Wallpaper");
-
-
-
-    });
+items.Add().Text("Wallpaper");
 
 
 
-    })
+});
+
+gp.Add().Title("Settings").Items(items =>
+
+{
+
+items.Add().Text("General");
+
+items.Add().Text("Brightness");
+
+items.Add().Text("Wallpaper");
+
+
+
+});
+
+
+
+})
 
 {% endhighlight %}
 
@@ -82,65 +82,65 @@ While selecting a list item that is grouped, you can render another set of list 
 
 @Html.EJMobile().ListView("grouplistsamp").ShowHeader(true).HeaderTitle("Nested Level Group List").EnableGroupList(true).Groups(gp =>
 
-    {
+{
 
-        gp.Add().Title("Network").Items(items =>
+gp.Add().Title("Network").Items(items =>
 
-    {
+{
 
-        items.Add().Text("Airplane_Mode");
+items.Add().Text("Airplane_Mode");
 
-        items.Add().Text("Wi-Fi");
+items.Add().Text("Wi-Fi");
 
-        items.Add().Text("Notifications");
+items.Add().Text("Notifications");
 
-        items.Add().Text("Location_Services");
-
-
-
-    });
-
-        gp.Add().Title("Apps").Items(items =>
-
-    {
-
-        items.Add().Text("Sound").PrimaryKey(1).Children(child =>
-
-            {
-
-                child.Add().Text("Ring Tone");
-
-                child.Add().Text("Message Tone");
-
-                child.Add().Text("Notification Tone");
-
-            });
-
-        items.Add().Text("Brightness");
-
-        items.Add().Text("Wallpaper");
+items.Add().Text("Location_Services");
 
 
 
-    });
+});
 
-        gp.Add().Title("Settings").Items(items =>
+gp.Add().Title("Apps").Items(items =>
 
-    {
+{
 
-        items.Add().Text("General");
+items.Add().Text("Sound").PrimaryKey(1).Children(child =>
 
-        items.Add().Text("Brightness");
+{
 
-        items.Add().Text("Wallpaper");
+child.Add().Text("Ring Tone");
+
+child.Add().Text("Message Tone");
+
+child.Add().Text("Notification Tone");
+
+});
+
+items.Add().Text("Brightness");
+
+items.Add().Text("Wallpaper");
 
 
 
-    });
+});
+
+gp.Add().Title("Settings").Items(items =>
+
+{
+
+items.Add().Text("General");
+
+items.Add().Text("Brightness");
+
+items.Add().Text("Wallpaper");
 
 
 
-    })
+});
+
+
+
+})
 
 {% endhighlight %}
 

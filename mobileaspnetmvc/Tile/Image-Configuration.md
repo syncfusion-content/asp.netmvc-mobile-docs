@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Image-Configuration
+title: Image Configuration| Tile | MobileAspNetMVC | Syncfusion
 description: image configuration
 platform: mobileaspnetmvc
 control: Tile
@@ -59,6 +59,7 @@ Also you can give images for each tile through CSS classes by using ImageClass p
 
 Refer to the following code example.
 
+{% tabs %}
 {% highlight html %}
 
 <div style="margin-top:45px;">
@@ -73,21 +74,22 @@ Refer to the following code example.
 
 {% highlight css %}
 
-    <style>
+<style>
 
-        .picture {
+.picture {
 
-            background-image: url("../themes/sample/tileview/windows/calculator.png");
+background-image: url("../themes/sample/tileview/windows/calculator.png");
 
-            background-color: #ae12ae;
+background-color: #ae12ae;
 
-            background-size: 40px 40px;
+background-size: 40px 40px;
 
-        }
+}
 
     </style>
 
 {% endhighlight %}
+{% endtabs %}
 
 The following screenshot illustrates the output of the above code.
 

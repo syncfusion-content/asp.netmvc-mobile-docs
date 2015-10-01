@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling
+title: Scrolling| ListView | MobileAspNetMVC | Syncfusion
 description: scrolling
 platform: mobileaspnetmvc
 control: ListView
@@ -17,25 +17,25 @@ The AllowScrolling property defines whether to allow the scrolling behavior of t
 
 {
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 })
 
@@ -56,45 +56,45 @@ Even though there is inbuilt mobile JS scroll bar in the ListView, it is also po
 
 {
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 })
 
@@ -114,25 +114,25 @@ The following code example demonstrates how it looks when this property is disab
 
 {
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 
 
@@ -159,25 +159,25 @@ CheckDomChanges property specifies the regular updates for scroll bar in the Lis
 
 {
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 
 

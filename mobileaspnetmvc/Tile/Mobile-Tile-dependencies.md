@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Tile-dependencies
+title: Mobile Tile dependencies| Tile | MobileAspNetMVC | Syncfusion
 description: mobile tile dependencies
 platform: mobileaspnetmvc
 control: Tile

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReadOnly
+title: ReadOnly| TextArea | MobileAspNetMVC | Syncfusion
 description: readonly
 platform: mobileaspnetmvc
 control: TextArea

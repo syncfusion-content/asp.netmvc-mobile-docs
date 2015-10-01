@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-AutoComplete-dependency-files
+title: Mobile AutoComplete Dependency Files| AutoComplete  | MobileAspNetMVC | Syncfusion
 description: mobile autocomplete dependency files
 platform: mobileaspnetmvc
 control: AutoComplete 
@@ -16,8 +16,8 @@ _Script files to render the Autocomplete control_
 <table>
 <tr>
 <th>
-{{ '*File*' | markdownify }}</th><th>
-{{ '*Description/Usage*' | markdownify }}</th></tr>
+File</th><th>
+Description/Usage</th></tr>
 <tr>
 <td>
 ej.mobile.application.min.js</td><td>

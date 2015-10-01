@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IOS7-specific-customization
+title: IOS7 specific customization| Tab | MobileAspNetMVC | Syncfusion
 description: ios7 specific customization
 platform: mobileaspnetmvc
 control: Tab
@@ -33,39 +33,39 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
             {
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+item.Add().Text("Till I Collapse");
 
-            })
+})
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 {% endhighlight %}
 
@@ -201,75 +201,75 @@ The Value property is used to set the badge value for the overflow Tab item. Def
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("charts").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Facebook");
+item.Add().Text("Facebook");
 
-                item.Add().Text("Skype");
+item.Add().Text("Skype");
 
-                item.Add().Text("YouTube");                
+item.Add().Text("YouTube");                
 
-            })
+})
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("explore").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Find your near Location");
+item.Add().Text("Find your near Location");
 
-            })
+})
 
 <!-- Tab fourth item -->
 
 @Html.EJMobile().ListView("music").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");                
+item.Add().Text("Till I Collapse");                
 
-            })
+})
 
 <!-- Tab fifth item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 <!-- Tab sixth item -->
 
 @Html.EJMobile().ListView("search").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Search content here");               
+item.Add().Text("Search content here");               
 
-            })
+})
 
 {% endhighlight %}
 
@@ -287,21 +287,21 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).IOS7(ios7 => ios7.OverflowBadge(overflow => { 
 
-    overflow.Enabled(true).Value(2).MaximumValue(1); })).Items(item =>
+overflow.Enabled(true).Value(2).MaximumValue(1); })).Items(item =>
 
 {    
 
-    item.Add().Text("Featured").Href("#favorites").IOS7(ios7 => ios7.ImageClass("icn-Favorites"));
+item.Add().Text("Featured").Href("#favorites").IOS7(ios7 => ios7.ImageClass("icn-Favorites"));
 
-    item.Add().Text("Charts").Href("#charts").IOS7(ios7 => ios7.ImageClass("icn-Charts"));
+item.Add().Text("Charts").Href("#charts").IOS7(ios7 => ios7.ImageClass("icn-Charts"));
 
-    item.Add().Text("Explore").Href("#explore").IOS7(ios7 => ios7.ImageClass("icn-Explore"));    
+item.Add().Text("Explore").Href("#explore").IOS7(ios7 => ios7.ImageClass("icn-Explore"));    
 
-    item.Add().Text("Music").Href("#music").IOS7(ios7 => ios7.ImageClass("icn-Mymusic"));
+item.Add().Text("Music").Href("#music").IOS7(ios7 => ios7.ImageClass("icn-Mymusic"));
 
-    item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Updates"));
+item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Updates"));
 
-    item.Add().Text("Search").Href("#search").IOS7(ios7 => ios7.ImageClass("icn-Search"));
+item.Add().Text("Search").Href("#search").IOS7(ios7 => ios7.ImageClass("icn-Search"));
 
 }) 
 
@@ -309,75 +309,75 @@ The Value property is used to set the maximum badge value to the overflow Tab it
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("charts").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Facebook");
+item.Add().Text("Facebook");
 
-                item.Add().Text("Skype");
+item.Add().Text("Skype");
 
-                item.Add().Text("YouTube");                
+item.Add().Text("YouTube");                
 
-            })
+})
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("explore").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Find your near Location");
+item.Add().Text("Find your near Location");
 
-            })
+})
 
 <!-- Tab fourth item -->
 
 @Html.EJMobile().ListView("music").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");                
+item.Add().Text("Till I Collapse");                
 
-            })
+})
 
 <!-- Tab fifth item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 <!-- Tab sixth item -->
 
 @Html.EJMobile().ListView("search").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Search content here");               
+item.Add().Text("Search content here");               
 
-            })
+})
 
 {% endhighlight %}
 

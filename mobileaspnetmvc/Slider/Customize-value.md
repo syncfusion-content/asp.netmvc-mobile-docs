@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-value
+title: Customize value| Slider | MobileAspNetMVC | Syncfusion
 description: customize value
 platform: mobileaspnetmvc
 control: Slider

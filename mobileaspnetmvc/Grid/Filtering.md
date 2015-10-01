@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Filtering
+title: Filtering| Grid | MobileAspNetMVC | Syncfusion
 description: filtering
 platform: mobileaspnetmvc
 control: Grid
@@ -21,7 +21,7 @@ _Filter Bar Record Table_
 <tr>
 <td rowspan = "4">
 Numeric column</td><td>
-> value</td><th rowspan = "4">
+> value</td><td rowspan = "4">
 To filter numeric column. You can use these expressions.</td></tr>
 <tr>
 <td>
@@ -62,7 +62,7 @@ Boolean filter bar works with either true or false.</td></tr>
  
 @(Html.EJMobile().Grid<object>("MobileGrid")
 
-      .Datasource((IEnumerable<object>)ViewBag.datasource)
+.Datasource((IEnumerable<object>)ViewBag.datasource)
 
 .AllowFiltering())
 
@@ -74,25 +74,25 @@ namespace MVCSampleBrowser.Controllers
 
 {
 
-    public partial class GridController : Controller
+public partial class GridController : Controller
 
-    {
+{
 
-        public ActionResult GridView()
+public ActionResult GridView()
 
-        {
+{
 
-            var DataSource = OrderRepository.GetAllRecords();
+var DataSource = OrderRepository.GetAllRecords();
 
-            ViewBag.datasource = DataSource;
+ViewBag.datasource = DataSource;
 
-            return View();
+return View();
 
-        }
+}
 
 
 
-    }
+}
 
 }
 

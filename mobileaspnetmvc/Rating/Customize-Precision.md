@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Precision
+title: Customize Precision| Rating | MobileAspNetMVC | Syncfusion
 description: customize precision
 platform: mobileaspnetmvc
 control: Rating

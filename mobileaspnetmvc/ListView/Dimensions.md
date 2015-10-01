@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dimensions
+title: Dimensions| ListView | MobileAspNetMVC | Syncfusion
 description: dimensions
 platform: mobileaspnetmvc
 control: ListView
@@ -17,25 +17,25 @@ To customize the ListView dimensions, Width and Height properties are used.
 
 {
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 })
 
@@ -56,25 +56,25 @@ The AutoAdjustScrollHeight is a Boolean property that lets you adjust the scroll
 
 {
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 })
 
@@ -90,25 +90,25 @@ When the AutoAdjustHeight property is set to true, it sets the Height of the lis
 
 {
 
-    items.Add().Text("ArtWork");
+items.Add().Text("ArtWork");
 
-    items.Add().Text("Abstract");
+items.Add().Text("Abstract");
 
-    items.Add().Text("2 Acrylic Mediums");
+items.Add().Text("2 Acrylic Mediums");
 
-    items.Add().Text("Creative Acrylic");
+items.Add().Text("Creative Acrylic");
 
-    items.Add().Text("Modern Painting");
+items.Add().Text("Modern Painting");
 
-    items.Add().Text("Canvas Art");
+items.Add().Text("Canvas Art");
 
-    items.Add().Text("Black white");
+items.Add().Text("Black white");
 
-    items.Add().Text("Children");
+items.Add().Text("Children");
 
-    items.Add().Text("Preschool Crafts");
+items.Add().Text("Preschool Crafts");
 
-    items.Add().Text("School-age Crafts");
+items.Add().Text("School-age Crafts");
 
 })
 

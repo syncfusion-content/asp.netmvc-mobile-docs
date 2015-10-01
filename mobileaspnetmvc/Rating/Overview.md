@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Overview
+title: Overview| Rating | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Rating
 documentation: ug
 ---
 
-# Overview
+# Rating
 
 
 Essential Studio for ASP.NET MVC, Mobile Rating widget provides an intuitive Rating experience that enables you to select a number of stars that represent a Rating.

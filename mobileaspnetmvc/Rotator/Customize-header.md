@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-header
+title: Customize header| Rotator | MobileAspNetMVC | Syncfusion
 description: customize header
 platform: mobileaspnetmvc
 control: Rotator

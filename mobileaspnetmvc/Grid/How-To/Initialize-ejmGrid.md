@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Initialize-ejmGrid
+title: Initialize ejmGrid| Grid | MobileAspNetMVC | Syncfusion
 description: initialize ejmgrid
 platform: mobileaspnetmvc
 control: Grid

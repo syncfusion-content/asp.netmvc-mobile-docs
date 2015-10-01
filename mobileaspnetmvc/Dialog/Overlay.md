@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overlay
+title: Overlay| Dialog | MobileAspNetMVC | Syncfusion
 description: overlay
 platform: mobileaspnetmvc
 control: Dialog
@@ -11,7 +11,7 @@ documentation: ug
 
 The EnableModal property enables the modal Dialog that blocks you from interacting with the rest of the page until it is closed. The default value is false.
 
-
+{% tabs %}
 {% highlight html %}
 @{
 
@@ -46,7 +46,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mobile-Menu-Dependency-files
+title: Mobile Menu Dependency files| Menu | MobileAspNetMVC | Syncfusion
 description: mobile menu dependency files
 platform: mobileaspnetmvc
 control: Menu

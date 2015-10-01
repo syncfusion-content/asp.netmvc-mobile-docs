@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-dimensions
+title: Customize dimensions| ScrollPanel | MobileAspNetMVC | Syncfusion
 description: customize dimensions
 platform: mobileaspnetmvc
 control: ScrollPanel
@@ -12,21 +12,22 @@ documentation: ug
 ##Scroll height and width
 
 The “ScrollHeight” and “ScrollWidth” properties allow you to specify the height and width of the scrollable content respectively. In some cases, some part of the scrollable content may be hidden due to some fixed elements (other than ejm elements). To avoid this, manually set the scrollable content’s height or width. 
+
 {% highlight html %}
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div>
+<div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        </div>
+</div>
 
-    </div> 
+</div> 
 
 
 
@@ -48,18 +49,18 @@ The “AdjustFixedPosition” is a Boolean property that lets you adjust the scr
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div>
+<div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        </div>
+</div>
 
-    </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AdjustFixedPosition(true)
-	
+</div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AdjustFixedPosition(true)
+
 {% endhighlight %}
 
 The following screenshot displays the auto adjustscroll height:
@@ -76,17 +77,17 @@ When the “AutoAdjustHeight” property is set to true, it sets the height of t
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div>
+<div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        </div>
+</div>
 
-    </div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AutoAdjustHeight(true)
+</div> @Html.EJMobile().Scrollpanel("sample_scrollpanel").Target("maincontent").EnableNativeScrolling(false).AutoAdjustHeight(true)
 	
 {% endhighlight %}
 
@@ -98,17 +99,17 @@ The TargetHeight and TargetWidth properties are used to manually set the height 
 
 @Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
-    <div id="maincontent" style="padding:10px">
+<div id="maincontent" style="padding:10px">
 
-        <div>
+<div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
+Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
 
 
 
-        </div>
+</div>
 
-    </div> 
+</div> 
 
 
 

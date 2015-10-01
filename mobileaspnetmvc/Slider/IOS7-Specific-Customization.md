@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IOS7-Specific-Customization
+title: IOS7 Specific Customization| Slider | MobileAspNetMVC | Syncfusion
 description: ios7 specific customization
 platform: mobileaspnetmvc
 control: Slider

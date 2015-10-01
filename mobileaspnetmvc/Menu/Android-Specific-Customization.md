@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android-Specific-Customization
+title: Android Specific Customization| Menu | MobileAspNetMVC | Syncfusion
 description: android specific customization
 platform: mobileaspnetmvc
 control: Menu
@@ -24,24 +24,24 @@ The possible values are,
 
 {% highlight html %}
 
-    <div style="text-align: center;">
+<div style="text-align: center;">
 
-        @Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.Android)
+@Html.EJMobile().Button("menuitem").Text("Menu").RenderMode(RenderMode.Android)
 
-    </div>
+</div>
 
-    @Html.EJMobile().Menu("menu_sample").TargetId("menuitem").RenderMode(RenderMode.Android).Android(android=>android.Type(AndroidMenuType.Contextual)).Items(item =>
+@Html.EJMobile().Menu("menu_sample").TargetId("menuitem").RenderMode(RenderMode.Android).Android(android=>android.Type(AndroidMenuType.Contextual)).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Get info");
+item.Add().Text("Get info");
 
-                item.Add().Text("Show in folder");
+item.Add().Text("Show in folder");
 
-                item.Add().Text("Delete");
+item.Add().Text("Delete");
 
-            })
-			
+})
+
 {% endhighlight %}
 
 The following screenshot displays the Android-specific Type:

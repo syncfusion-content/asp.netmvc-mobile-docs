@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Select-Item
+title: Select Item| Tab | MobileAspNetMVC | Syncfusion
 description: select item
 platform: mobileaspnetmvc
 control: Tab
@@ -27,41 +27,41 @@ item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Up
 
 @Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+item.Add().Text("Till I Collapse");
 
-            })
+})
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 {% endhighlight %}
 

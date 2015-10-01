@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Slider | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Slider
@@ -35,27 +35,27 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
 
 
-    <div id="content">
+<div id="content">
 
 
 
-        <div>
+<div>
 
 
 
-            @RenderBody()
+@RenderBody()
 
 
 
-        </div>
+</div>
 
 
 
-    </div>
+</div>
 
 
 
-       @Html.EJMobile().Scrollpanel("scroll").Target("content")
+@Html.EJMobile().Scrollpanel("scroll").Target("content")
 
 {% endhighlight %}
 
@@ -127,14 +127,16 @@ Add the following code example to the corresponding view page.
 
    @Html.EJMobile().Dialog("alert").LeftButtonCaption("OK").ClientSideEvents(events r=> events.ButtonTap("alertClose")).Content(@<div>
 
-      Based on your suggestions the phones will display now
+      <!-- Based on your suggestions the phones will display now -->
 
-               </div>).EnableAutoOpen(false)
+</div>).EnableAutoOpen(false)
 
 
 {% endhighlight %}
 
 Execute the above code to render the following output. 
+
+
 ![](Getting-Started_images/Getting-Started_img2.png)
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Menu | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Menu
@@ -32,25 +32,25 @@ Create a simple MVC application and add the following code example in the <body>
 
 @Html.EJMobile().Header("menuitems").Position(MobileHeaderPosition.Normal).Title("Gallery").ShowRightButton(true).RightButtonCaption("Share")      
 
-  <div id="content">
+ <div id="content">
 
-            <div>
+ <div>
 
-                <div>
+ <div>
 
-                    @RenderBody()
+  @RenderBody()
 
-                </div>
+ </div>
 
-            </div>
+ </div>
 
-        </div>
+ </div>
 
-        <!-- ScrollPanel helper -->
+ <!-- ScrollPanel helper -->
 
-        @Html.EJMobile().Scrollpanel("scroll").Target("content")
+@Html.EJMobile().Scrollpanel("scroll").Target("content")
 
-    </div>
+</div>
 
 {% endhighlight %}
 
@@ -60,19 +60,19 @@ Use the following styles for content.
 
 {% highlight css %}
 
-  <style>
+<style>
 
-        .appview.e-m-windows.e-m-light {
-
-
-
-            background: none repeat scroll 0 0 #eee;
+.appview.e-m-windows.e-m-light {
 
 
 
-        }
+background: none repeat scroll 0 0 #eee;
 
-    </style> 
+
+
+}
+
+</style> 
 
 {% endhighlight %}
 
@@ -84,9 +84,9 @@ To create a Menu, add the following code example to the corresponding view page.
 
 <div align="center">
 
-    <img src="http://js.syncfusion.com/UG/Mobile/Content/wheat.jpg" style="width: 270px;
+<img src="http://js.syncfusion.com/UG/Mobile/Content/wheat.jpg" style="width: 270px;
 
-        padding-top: 10%; height: 170px;" /></div>
+padding-top: 10%; height: 170px;" /></div>
 
 <!-- dialog helper -->
 
@@ -105,7 +105,8 @@ Execute the above code to render the following output.
 ![2](Getting-Started_images/Getting-Started_img2.png)
 
 
-_Gallery App with Share button_
+Gallery App with Share button
+{:.caption}
 
 ## Create the Menu control
 
@@ -119,24 +120,24 @@ Refer to the following code example.
 
         @Html.EJMobile().Menu("menuitem").IOS7(ios7 => ios7.ShowTitle(false)).Items(items =>
 
-       {
+{
 
 
 
-           items.Add().Text("Twitter");
+items.Add().Text("Twitter");
 
 
 
-           items.Add().Text("Whatsapp");
+items.Add().Text("Whatsapp");
 
 
 
-           items.Add().Text("Facebook");
+items.Add().Text("Facebook");
 
 
 
-       }) 
-	   
+}) 
+
 {% endhighlight %}
 
 ## Show the Menu
@@ -149,23 +150,23 @@ Refer to the following code example.
 
         @Html.EJMobile().Menu("menuitem").TargetId("menuitems_rightbutton").IOS7(ios7 => ios7.ShowTitle(false)).Items(items =>
 
-       {
+{
 
 
 
-           items.Add().Text("Twitter");
+items.Add().Text("Twitter");
 
 
 
-           items.Add().Text("Whatsapp");
+items.Add().Text("Whatsapp");
 
 
 
-           items.Add().Text("Facebook");
+items.Add().Text("Facebook");
 
 
 
-       })  
+})  
 
 {% endhighlight %}
 
@@ -184,14 +185,51 @@ TouchEnd event is handled to add functionalities to each Menu item. This is achi
 Add the following code example to the Menu control and the script code to the view page.
 
 
-<table>
-<tr>
-<td>
-{% highlight html %}<!-- Menu helper -->        @Html.EJMobile().Menu("menuitem").TargetId("menuitems_rightbutton").IOS7(ios7 => ios7.ShowTitle(false)).ClientSideEvents(events => { events.TouchEnd("showDialog"); }).Items(items =>       {           items.Add().Text("Twitter");           items.Add().Text("Whatsapp");           items.Add().Text("Facebook");       }) {% endhighlight %} </td></tr>
-<tr>
-<td>
-{% highlight js %} <script>      //object declaration        $(document).ready(function () {            window.menuObject = $("#menuitem").data("ejmMenu"); // create object for menu.            window.dialogObject = $("#alertdlg").data("ejmDialog"); // create object for dialog.            if (ej.isWindows() && ej.isMobile())                $("#menuitem").ejmMenu("model.theme", "light");        });//handling menu action <br>        //to show Dialog        function showDialog(args) {            var text = args.text; //to get menu item text            $("#dialogContent").append("Content shared in " + text + " successfully"); // add content to dialog            window.menuObject.hide(); // to hide menu            window.dialogObject.open(); //to open dialog        }        //to close dialog        function alertClose(args) {            $("#dialogContent").empty(); //to empty the dialog content            window.dialogObject.close(); //to close dialog        } </script>  {% endhighlight %}    </td></tr>
-</table>
+{% tabs %}
+{% highlight html %}
+<!-- Menu helper -->        
+@Html.EJMobile().Menu("menuitem").TargetId("menuitems_rightbutton").IOS7(ios7 => ios7.ShowTitle(false)).ClientSideEvents
+(events => { 
+events.TouchEnd("showDialog"); 
+}).Items(items =>      
+ {           items.Add().Text("Twitter");           items.Add().Text("Whatsapp");           items.Add().Text("Facebook");      
+ })
+ 
+ {% endhighlight %} 
+
+{% highlight js %} 
+<script>      
+//object declaration        
+$(document).ready(function () 
+{            window.menuObject = $("#menuitem").data("ejmMenu");
+ // create object for menu.           
+ window.dialogObject = $("#alertdlg").data("ejmDialog"); 
+ // create object for dialog.          
+ if (ej.isWindows() && ej.isMobile())               
+ $("#menuitem").ejmMenu("model.theme", "light");        });
+ //handling menu action <br>        
+ //to show Dialog       
+  function showDialog(args) 
+ {            var text = args.text;
+  //to get menu item text           
+ $("#dialogContent").append("Content shared in " + text + " successfully"); 
+ // add content to dialog           
+ window.menuObject.hide(); 
+ // to hide menu            
+ window.dialogObject.open(); 
+ //to open dialog        
+ }        
+ //to close dialog       
+  function alertClose(args)
+ {           
+ $("#dialogContent").empty(); 
+ //to empty the dialog content          
+   window.dialogObject.close(); 
+ //to close dialog       
+ } 
+ </script> 
+ {% endhighlight %}    
+{% endtabs %}
 
 
 Execute the above code and the following output displays when you click the particular Menu item present in the Menu control.

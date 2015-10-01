@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scrolling-Settings
+title: Scrolling Settings| Dialog | MobileAspNetMVC | Syncfusion
 description: scrolling settings
 platform: mobileaspnetmvc
 control: Dialog
@@ -13,7 +13,7 @@ documentation: ug
 
 The AllowScrolling property is used to enable scrollingbehavior for the Dialog content. The default value is true.
 
-
+{% tabs %}
         {% highlight html %}
         @{
 
@@ -59,7 +59,7 @@ The AllowScrolling property is used to enable scrollingbehavior for the Dialog c
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 
@@ -71,7 +71,7 @@ The following screenshot displays the output.
 
 The CheckDOMChanges property is used to refresh the scroll panel rendered in the control when elements are added dynamically. The default value is false.
 
-
+{% tabs %}
 {% highlight html %}
 @{
 
@@ -95,7 +95,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 {% endhighlight %}
 
 {% highlight js %}
-[Script]
+
 
 
 
@@ -108,6 +108,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
         }
 
 {% endhighlight %}
+{% endtabs %}
 
 The following screenshot displays the output.
 
@@ -119,7 +120,7 @@ The following screenshot displays the output.
 
 The EnableNativeScrolling property is used to enable native (built-in browser) scrolling functionality of the devices when scrolling is allowed. The default value is false.
 
-
+{% tabs %}
 {% highlight html %}
 @{
 
@@ -146,7 +147,7 @@ The EnableNativeScrolling property is used to enable native (built-in browser) s
 {% endhighlight %}
 
 {% highlight js %}
-[Script]
+
 
 
 
@@ -158,7 +159,7 @@ The EnableNativeScrolling property is used to enable native (built-in browser) s
 
         }
 {% endhighlight %}
-
+{% endtabs %}
 
 The following screenshot displays the output.
 

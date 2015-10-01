@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get-Mobile-Grid-object
+title: Get Mobile Grid object| Grid | MobileAspNetMVC | Syncfusion
 description: get mobile grid object	
 platform: mobileaspnetmvc
 control: Grid

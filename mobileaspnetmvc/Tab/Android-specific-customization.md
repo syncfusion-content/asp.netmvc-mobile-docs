@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android-specific-customization
+title: Android specific customization| Tab | MobileAspNetMVC | Syncfusion
 description: android specific customization
 platform: mobileaspnetmvc
 control: Tab
@@ -19,56 +19,56 @@ The ShowImage property is used to enable or disable the image to your Tab. Defau
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.Android).Android(android=>android.ShowImage(true)).Items(item =>{
 
-    item.Add().Text("My Music").Href("#mymusic").Android(android => android.ImageClass("icn-Mymusic"));
+item.Add().Text("My Music").Href("#mymusic").Android(android => android.ImageClass("icn-Mymusic"));
 
-    item.Add().Text("Favorites").Href("#favorites").Android(android => android.ImageClass("icn-Favorites"));
+item.Add().Text("Favorites").Href("#favorites").Android(android => android.ImageClass("icn-Favorites"));
 
-    item.Add().Text("Updates").Href("#updates").Android(android=>android.ImageClass("icn-Updates"));
+item.Add().Text("Updates").Href("#updates").Android(android=>android.ImageClass("icn-Updates"));
 
-       })
+})
 
 
 <!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+item.Add().Text("Till I Collapse");
 
-            })
-			
+})
+
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
-			
+})
+
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 {% endhighlight %}	
 
@@ -108,17 +108,17 @@ android.ImageClass("icn-Updates"));
 
 ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+item.Add().Text("Till I Collapse");
 
-            })
+})
 
 <!-- Tab second item -->
 
@@ -126,13 +126,13 @@ ShowHeader(false).Items(item =>
 
 ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab third item -->
 
@@ -140,13 +140,13 @@ ShowHeader(false).Items(item =>
 
 ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 {% endhighlight %}	
 
@@ -164,53 +164,53 @@ The Position property holds fixed and normal values. Normal position allows rela
 
 @Html.EJMobile().Tab("tab").RenderMode(RenderMode.Android).Android(android=>android.ShowImage(true).Position(ControlPosition.Normal)).Items(item =>{
 
-    item.Add().Text("My Music").Href("#mymusic").Android(android => android.ImageClass("icn-Mymusic"));
+item.Add().Text("My Music").Href("#mymusic").Android(android => android.ImageClass("icn-Mymusic"));
 
-    item.Add().Text("Favorites").Href("#favorites").Android(android => android.ImageClass("icn-Favorites"));
+item.Add().Text("Favorites").Href("#favorites").Android(android => android.ImageClass("icn-Favorites"));
 
-    item.Add().Text("Updates").Href("#updates").Android(android=>android.ImageClass("icn-Updates"));
+item.Add().Text("Updates").Href("#updates").Android(android=>android.ImageClass("icn-Updates"));
 
-       })
+})
 
 <!-- Tab first item -->
 
 @Html.EJMobile().ListView("mymusic").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Not Afraid");
+item.Add().Text("Not Afraid");
 
-                item.Add().Text("Get Lucky");
+item.Add().Text("Get Lucky");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-                item.Add().Text("Till I Collapse");
+item.Add().Text("Till I Collapse");
 
-            })
+})
 
 <!-- Tab second item -->
 
 @Html.EJMobile().ListView("favorites").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("Dark Horse");
+item.Add().Text("Dark Horse");
 
-                item.Add().Text("Roar");
+item.Add().Text("Roar");
 
-            })
+})
 
 <!-- Tab third item -->
 
 @Html.EJMobile().ListView("updates").RenderMode(RenderMode.Android).ShowHeader(false).Items(item =>
 
-            {
+{
 
-                item.Add().Text("New songs available for download");
+item.Add().Text("New songs available for download");
 
-                item.Add().Text("1.2.1 update available");
+item.Add().Text("1.2.1 update available");
 
-            })
+})
 
 {% endhighlight %}	
 

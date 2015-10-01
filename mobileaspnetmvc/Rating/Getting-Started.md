@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting Started| Rating | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Rating
@@ -47,7 +47,7 @@ The following steps guide you to add a Rating control for a mobile application. 
 	
      
    ~~~
-   {:.prettyprint}
+   
 
 
 3. Add the following template to the corresponding view page to create Rating control for this scenario.
@@ -75,7 +75,7 @@ The following steps guide you to add a Rating control for a mobile application. 
    <div data-role="ejmscrollpanel" data-ej-target="content">
    </div>
    ~~~
-   {:.prettyprint}
+   
 
 ## Adding Rating control
 
@@ -85,7 +85,7 @@ The following steps guide you to add a Rating control for a mobile application. 
    
 		@Html.EJMobile().Rating("rating")
    ~~~
-   {:.prettyprint}
+   
 
 
 2. Execute this code to render a Rating control to rate the application by selecting the stars. For more details, to run the samples refer "Common Getting Started" section.
@@ -112,7 +112,7 @@ The Rating control supports three precision modes as follows.
 
 
    ~~~
-   {:.prettyprint}
+   
 
 ![](Getting-Started_images/Getting-Started_img3.png)
 
