@@ -27,7 +27,7 @@ Essential ASP.NET MVC Mobile Checkbox widget has built-in features like indeterm
 
 Create a simple MVC application and add the following header and scrollpanel controls inside the <body> tag of layout.cshtml. 
 
-For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) for mobile. 
+For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) for mobile. 
 
 
 {% highlight html %}

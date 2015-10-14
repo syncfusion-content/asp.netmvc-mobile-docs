@@ -25,7 +25,7 @@ In the above screenshot , you can switch between different view from single webp
 
 The Essential Studio for ASP.NET MVC Mobile Tab widget is rendered either by specifying static content or by using on demand contents by specifying the respective url. On either case Tab control is rendered based on the default values for all the properties. You can easily customize Tab control by changing its properties according to your requirement. 
 
-In this Music App three tabs are required. One is for displaying the available music; one is for listing out the favorite tracks that you have marked and the last one is for displaying the updates on the Music App. The following steps guide you to create a basic Tab in your application. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the following [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) for mobile.
+In this Music App three tabs are required. One is for displaying the available music; one is for listing out the favorite tracks that you have marked and the last one is for displaying the updates on the Music App. The following steps guide you to create a basic Tab in your application. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the following [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) for mobile.
 
 Add the following Layout code to the corresponding layout view page.
 

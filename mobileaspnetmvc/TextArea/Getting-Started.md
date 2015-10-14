@@ -23,7 +23,7 @@ In the above image, message field is rendered by using the TextArea.
 
 ### Create the necessary layout 
 
-Create a simple MVC application and add the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. To create a MVC Project, add necessary Dll’s and Scripts with the help of [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) for mobile.
+Create a simple MVC application and add the following header and scrollpanel layout page content inside the <body> tag of layout.cshtml. To create a MVC Project, add necessary Dll’s and Scripts with the help of [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) for mobile.
 
 Create an HTML file and add the following template to the HTML file.
 
