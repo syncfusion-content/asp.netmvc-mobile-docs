@@ -23,7 +23,7 @@ The ASP.NET MVC DatePicker allows you to display the picker element in your webp
 
 ### Create a DatePicker 
 
-ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDatePicker Helper. To create an MVC Project and to add necessary Dlls and script, use the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/).
+ASP.NET MVC Mobile DatePicker widget can easily be created by using the MobileDatePicker Helper. To create an MVC Project and to add necessary Dlls and script, use the [MVC-Getting Started Documentation](http://help.syncfusion.com/js/).
 
 1. Add the following code example to the corresponding view page.
 

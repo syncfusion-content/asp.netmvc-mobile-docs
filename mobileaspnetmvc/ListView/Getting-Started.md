@@ -23,7 +23,7 @@ The following steps help you add a ListView control.
 
 ### Create Basic Mobile Layout 
 
-Refer [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) to create an MVC Project, add necessary Dll’s and Scripts.
+Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) to create an MVC Project, add necessary Dll’s and Scripts.
 
 Add the following code inside the <body> tag in the Layout.cshtml page.
 
@@ -101,7 +101,7 @@ Set EnableGroupList property to “True”. You can provide individual header 
 
 {% endhighlight %}
 
-Run the above code and you can see the following output. For queries on how to run, you refer this [link](http://docs.syncfusion.com/js/).
+Run the above code and you can see the following output. For queries on how to run, you refer this [link](http://help.syncfusion.com/js/).
 
 
 ![C:/Users/isuriyar/Desktop/image122_1.jpg](Getting-Started_images/Getting-Started_img2.jpeg)
@@ -247,7 +247,7 @@ You can define the image classes specified for the ListView items as follows.
 
 {% endhighlight %}
 
-Run the above code and you can see the following output. For queries on how to run please refer this [link](http://docs.syncfusion.com/js/).
+Run the above code and you can see the following output. For queries on how to run please refer this [link](http://help.syncfusion.com/js/).
 
 
 ![](Getting-Started_images/Getting-Started_img3.jpeg)
@@ -421,7 +421,7 @@ You can use the following styles to add custom style to the template content.
 
 In this example, you can move to the inbox page by tapping inbox list item to render the child items in inbox.            
 
-Run the above code and you can see the following output. For queries on how to run, refer this [link](http://docs.syncfusion.com/js/).
+Run the above code and you can see the following output. For queries on how to run, refer this [link](http://help.syncfusion.com/js/).
 
 ![](Getting-Started_images/Getting-Started_img4.jpeg)
 

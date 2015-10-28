@@ -21,7 +21,7 @@ The following steps guide you in adding a Tile control.
 
 ### Creating basic mobile layout
 
-Refer [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) to create a MVC Project, add necessary Dll’s and Scripts.
+Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) to create a MVC Project, add necessary Dll’s and Scripts.
 
 Add the following code example in layout page of the application.
 
@@ -63,7 +63,7 @@ Add the following code to the corresponding view page.
 
 {% endhighlight %}
 
-Run the above code to render the following output. To know how to run the code, refer to this [section](http://docs.syncfusion.com/js/)
+Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/js/)
 
 ![C:/Users/durga/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)
 
@@ -142,7 +142,7 @@ Add the following style for setting the background image for all Tiles (page bac
 
 {% endhighlight %}
 
-Run the above code to render the following output. To know how to run the code, refer to this [section](http://docs.syncfusion.com/js/)
+Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/js/)
 
 ![C:/Users/durga/Desktop/Tile1.png](Getting-Started_images/Getting-Started_img3.png)
 

@@ -24,7 +24,7 @@ The ASP.NET MVC Mobile Group Button widget is created with Radiobutton or Checkb
 
 Create a MVC application and add the following code example in the <body> tag of layout.cshtml file.
 
-You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](http://docs.syncfusion.com/js/)
+You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](http://help.syncfusion.com/js/)
 
 {% highlight html %}
 

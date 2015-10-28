@@ -25,7 +25,7 @@ Rotator control is rendered based on the default values of all the properties. Y
 
 Create a simple MVC application and add the following header page content inside the <Body> tag of layout.cshtml. 
 
-You can create a MVC Project and add necessary Dll’s and Scripts with the help of the [MVC-Getting Started Documentation](http://docs.syncfusion.com/aspnetmvc/captcha/getting-started#create-your-first-captcha-in-aspnet-mvc ) for mobile.
+You can create a MVC Project and add necessary Dll’s and Scripts with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/aspnetmvc/captcha/getting-started#create-your-first-captcha-in-aspnet-mvc ) for mobile.
 
 {% highlight html %}
 
