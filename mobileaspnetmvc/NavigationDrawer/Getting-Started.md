@@ -23,7 +23,7 @@ The following steps guide you in adding a Navigation Drawer control for a mobile
 
 The following steps explain you on how to add a Navigation Drawer control.
 
-1. Creating a MVC Project and adding necessary Dll’s and Scripts using the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/).
+1. Creating a MVC Project and adding necessary Dll’s and Scripts using the [MVC-Getting Started Documentation](http://help.syncfusion.com/js/).
 2. Add the following code example in layout page of the application.
 
     {% highlight html %}
@@ -134,7 +134,7 @@ To set the target icon image from sprite and to position the target icon properl
 
  {% endhighlight %}
 
-Run the above code to render the following output. To know how to run the code, refer to this [section](http://docs.syncfusion.com/js/)
+Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/js/)
 
 ![](Getting-Started_images/Getting-Started_img2.png)
 
@@ -232,7 +232,7 @@ You can define the image classes specified for the list items as follows.
 
  {% endhighlight %}
 
-Run the above code to render the following output. To know how to run the code, refer to this [section](http://docs.syncfusion.com/js/)
+Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/js/)
 
 ![](Getting-Started_images/Getting-Started_img4.png)
 
@@ -336,7 +336,7 @@ Add the following code example to display the first listitem content while rende
 
  {% endhighlight %}
 
-Run the above code to render the following output. To know how to run the code, refer to this [section](http://docs.syncfusion.com/js/).
+Run the above code to render the following output. To know how to run the code, refer to this [section](http://help.syncfusion.com/js/).
 
 ![](Getting-Started_images/Getting-Started_img5.png)
 

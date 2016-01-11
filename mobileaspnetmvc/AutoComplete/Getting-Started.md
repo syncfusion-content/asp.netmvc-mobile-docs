@@ -24,7 +24,7 @@ ASP.NET MVC Mobile AutoComplete control can be rendered based on the default val
 
 Create a simple MVC application and paste the following header and scrollpanel layout page content inside the body tag of layout.cshtml and paste other templates in the view page for AutoComplete creation.
 
-You can create an MVC Project and add necessary Dlls and script, with the help of the [MVC-Getting Started Documentation](http://docs.syncfusion.com/js/) for Mobile.
+You can create an MVC Project and add necessary Dlls and script, with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) for Mobile.
 
 Add the following code layout to the corresponding master page.
 
