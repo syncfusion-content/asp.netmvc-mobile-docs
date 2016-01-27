@@ -17,7 +17,8 @@ You can refer the following code examples.
 
 
 {% highlight css %}
-    !--In head section--
+
+<!--In head section-->
 
 <style>
 
@@ -26,11 +27,9 @@ You can refer the following code examples.
 background-image: url("silverlight.jpg");
 
 }
+</style>
 
-
-
-
-    !--In body section--
+<!--In body section-->
 
 @Html.EJMobile().Button("sample_button").ContentType(ButtonContentType.Image).ImageClass("image")
 
@@ -38,11 +37,11 @@ background-image: url("silverlight.jpg");
 {% endhighlight %}
 
 
-{% include image.html url="Image-Support_images/Image-Support_img1.png" Caption="Button - ImageClass"%}
+![](image-support_images/image-support_img1.png)
 
 ## ImagePosition
 
-You can also set the position of the image in the **Button**. **ImagePosition** property allows you to specify the position of the image in your **Button** control. You can set the position of the image in the **Button** either after the text or before text by setting the image position to ‘**rRght**’ or ‘**Left**’ respectively.
+You can also set the position of the image in the **Button**. **ImagePosition** property allows you to specify the position of the image in your **Button** control. You can set the position of the image in the **Button** either after the text or before text by setting the image position to ‘**Right**’ or ‘**Left**’ respectively.
 
 By default this property is set to Left.
 
@@ -55,5 +54,5 @@ You can refer to the following code examples.
 
 
 
-{% include image.html url="Image-Support_images/Image-Support_img2.png" Caption="Button – ImagePosition"%}
+![](image-support_images/image-support_img2.png)
 
