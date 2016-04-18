@@ -193,7 +193,7 @@ Refer the following code example to display a confirmation message by clicking t
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script>
 

@@ -218,7 +218,7 @@ Refer the following code example.
 {% endhighlight %}
 
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script type="text/javascript">
 

@@ -55,7 +55,7 @@ The Possible values for Position property are
 
 </style>
 {% endhighlight %}
-{% highlight js %}
+{% highlight javascript %}
 <script>
 
     function click(e) {

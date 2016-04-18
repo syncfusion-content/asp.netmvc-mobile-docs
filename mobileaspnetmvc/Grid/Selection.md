@@ -89,7 +89,7 @@ col.Field("Email").HeaderText("Email").Add();
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

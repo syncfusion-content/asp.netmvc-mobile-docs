@@ -239,7 +239,7 @@ Run this code example and the following output is displayed. For more details, t
 
 Refer to the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script type="text/javascript">
 

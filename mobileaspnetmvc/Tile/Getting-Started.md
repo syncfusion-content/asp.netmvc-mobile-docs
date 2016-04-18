@@ -154,7 +154,7 @@ In the windows mode scenario, you require different size of tiles and live tiles
 
 Refer to the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script>
 

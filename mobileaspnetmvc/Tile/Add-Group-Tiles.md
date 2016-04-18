@@ -144,7 +144,7 @@ To render column grouped tile, render the number of tiles inside a div element w
 	
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script>
 

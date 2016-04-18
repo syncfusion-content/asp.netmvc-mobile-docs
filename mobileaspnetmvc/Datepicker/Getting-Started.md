@@ -147,7 +147,7 @@ With the above mentioned steps, you can create two MobileDatePicker widgets in a
 In a real-time ticket booking scenario, the booking is open only for a limited number of days. You can select a date from that range. You can achieve this by using the properties minDate and maxDate. 
 
 
-{% highlight js %}
+{% highlight javascript %}
     
 	<script type="text/javascript">
 
@@ -244,7 +244,7 @@ In the first DatePicker, after you select the Onward Journey Date, the Return Jo
 By selecting the Onward Journey Date in the first DatePicker, you can select the Return Journey Date with the limited range. Add the following code example, to set the maxDate, to restrict false selection of date.
 
 
-{% highlight js %}
+{% highlight javascript %}
 <script type="text/javascript">
 
         function selectedStartDate(args) {

@@ -45,7 +45,7 @@ items.Add().Text("Item6");
 
 While selecting an item from the left pane, the corresponding content in right pane is to be loaded. To achieve this, you can handle the touchEnd handler using the loadContent method as follows. 
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script>
 

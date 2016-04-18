@@ -46,7 +46,7 @@ The AllowScrolling property is used to enable scrollingbehavior for the Dialog c
          </div>
          {% endhighlight %}
 
-         {% highlight js %}
+         {% highlight javascript %}
         
 
 
@@ -94,7 +94,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 </div>
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -146,7 +146,7 @@ The EnableNativeScrolling property is used to enable native (built-in browser) s
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

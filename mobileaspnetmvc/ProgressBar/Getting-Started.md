@@ -114,7 +114,7 @@ You can call ProgressBar helper to render ProgressBar control. You can set its i
 
 You can hide ProgressBar, with desired action on its hide API and you can show it with desired action on its show API.
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script>
 
@@ -186,7 +186,7 @@ The ProgressBar text and its value can be changed dynamically. In this scenario,
 
 You can use setInterval function in JavaScript to change its value and text dynamically.
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script>
 

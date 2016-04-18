@@ -254,7 +254,7 @@ col.Field("Email").HeaderText("Email").Add();
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -342,7 +342,7 @@ return View();
 
 ejmGrid supports data types in JavaScript such as string, number, datetime and Boolean. By default, ejmGrid reads datatypes from Mobile Grid Datasource. Grid uses these DataTypes for filtering and other operations. You can also customize these DataTypes through column property type. It overrides default data type reading. For example refer the following code.
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script id="table1" type="text/template" >
 
