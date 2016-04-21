@@ -332,7 +332,7 @@ Run this code and the following output is achieved. For more details, to run the
 
 To update the Badge value dynamically whenever a new update is added, use the following code example.
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script type="text/javascript">
 

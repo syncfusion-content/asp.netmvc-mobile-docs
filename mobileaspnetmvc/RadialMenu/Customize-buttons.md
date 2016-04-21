@@ -101,7 +101,7 @@ Refer to the following code example.
 
 </style>
 {% endhighlight  %}
-{% highlight js %}
+{% highlight javascript %}
 
 
 <script>

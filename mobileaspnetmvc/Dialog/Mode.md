@@ -44,7 +44,7 @@ The AlertDialog box property is used to communicate an Alert message.
 </div>
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -91,7 +91,7 @@ Turn on cellular data or use Wi-Fi to access data
 </div>
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -138,7 +138,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 </div>
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 
@@ -183,7 +183,7 @@ Syncfusion provides software components and tools for the Microsoft .NET platfor
 </div>
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 
 

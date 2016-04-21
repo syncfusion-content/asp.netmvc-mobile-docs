@@ -197,7 +197,7 @@ events.TouchEnd("showDialog");
  
  {% endhighlight %} 
 
-{% highlight js %} 
+{% highlight javascript %} 
 <script>      
 //object declaration        
 $(document).ready(function () 

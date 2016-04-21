@@ -137,7 +137,7 @@ Add the following code to render the dialog when the toggle state is changed.
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 <script>
 

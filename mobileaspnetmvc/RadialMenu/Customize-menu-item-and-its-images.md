@@ -37,7 +37,7 @@ item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/lig
 
 })
 {% endhighlight %}
-{% highlight js %}
+{% highlight javascript %}
 <script>
 
     function click(e) {
