@@ -11,7 +11,7 @@ documentation: ug
 
 ej.mobile.all.js is a bundle of all ASP.NET MVC mobile controls. When you are using ej.mobile.all.js in your application, then you can leave this section or else you tried to render ejmgrid in your application using ej.mobile.grid file then need to refer following frameworks and controls in your project.
 
-_ASP.NET MVC mobile controls table_
+ASP.NET MVC mobile controls table
 
 <table>
 <tr>

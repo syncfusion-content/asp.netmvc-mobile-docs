@@ -15,7 +15,7 @@ Filtering behavior is used to filter particular or related records in Mobile Gri
 
 Filter bar is the filtering type available in Mobile Grid. It is otherwise called as text filtering because filter bar working is based on text boxes. Through this you can filter records. Filter bar contains expression to filter records. They are based on type of column. Refer the following table for expression usage
 
-_Filter Bar Record Table_
+Filter Bar Record Table
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ _Default Filtering_
 
 ejmGrid uses filter operators from DataManager that is used at the time of filtering. Here you can learn about filter operators and its usage categories. Filter operators denotes filtering type.
 
-_Filter Operators Table_
+Filter Operators Table
 
 <table>
 <tr>
