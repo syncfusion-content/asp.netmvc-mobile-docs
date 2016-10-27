@@ -19,7 +19,7 @@ The “HeightAdjustMode” property is used to customize the height of each item
 
 
 {% highlight html %}
-@{ Html.EJMobile().Accordion("accordion_sample").HeightAdjustMode(HeightAdjustMode.Auto).Items(accItem =>{
+@Html.EJMobile().Accordion("accordion_sample").HeightAdjustMode(HeightAdjustMode.Auto).Items(accItem =>{
 
 accItem.Add().Text("MVC").Content(@<div>
 
@@ -39,7 +39,8 @@ WCF is a tool often used to implement and deploy a service-oriented architecture
 
 </div>);
 
- }).Render();}
+ })
+ 
 {% endhighlight %}
 
 

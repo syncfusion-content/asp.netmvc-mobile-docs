@@ -19,11 +19,11 @@ In some cases, you can load content only when it is required. To achieve this, s
 
         {
 
-         accItem.Add().Text("MVC").AjaxUrl("text1");
+         accItem.Add().Text("MVC").Href(@Url.Content("~/accordion/text1"));
 
-         accItem.Add().Text("WPF").AjaxUrl("text2");
+         accItem.Add().Text("WPF").Href(@Url.Content("~/accordion/text2"));
 
-         accItem.Add().Text("WCF").AjaxUrl("text3");
+         accItem.Add().Text("WCF").Href(@Url.Content("~/accordion/text3"));
 
 
 
@@ -43,7 +43,7 @@ Create an HTML file with the name text1.html.
 
     representation of information from the user's interaction with it.
 
-    The model consists      of application data, business rules, logic, and functions
+    The model consists  of application data, business rules, logic, and functions
 
 </body>
 
