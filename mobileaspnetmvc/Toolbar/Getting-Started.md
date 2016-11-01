@@ -15,7 +15,7 @@ The Essential Studio for ASP.NET MVC Mobile Toolbar provides a single interface 
 
 
 
-![1](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -25,7 +25,7 @@ Create a simple MVC application and paste the following header and scrollpanel l
 
 {% highlight html %}
 
-@Html.EJMobile().Header("header").Position(MobileHeaderPosition.Normal).Title("inbox")
+@Html.EJMobile().NavigationBar("header").Position(NavBarPosition.Auto).Title("inbox")
 
 <div id="content">
 
@@ -69,7 +69,7 @@ Create a simple MVC application and paste the following header and scrollpanel l
 
 Execute this code to render the following output.
 
-![2](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
@@ -79,21 +79,18 @@ To render the Toolbar control, add the following code and include a list of Tool
 
 {% highlight html %}
 
-@Html.EJMobile().Toolbar("toolbar") .Position(Position.Normal) .Android(android=>android.Position(AndroidToolbarPosition.Fixed) .Title("Inbox")).Windows(windows=>windows.Position(WindowsToolbarPosition.Fixed)).Items(item =>
+  @Html.EJMobile().NavigationBar("toolbar").Position(NavBarPosition.Bottom).Mode(NavBarMode.Toolbar).Android(android => android.Position(NavBarPosition.Auto)).Title("indox").Windows(windows => windows.Position(NavBarPosition.Auto)).Items(item =>
 
-            {
+    {
 
-                item.Add().IconName(IconName.Back);
+        item.Add().IconName("addnew");
+        item.Add().IconName("cut");
+        item.Add().IconName("copy");
+        item.Add().IconName("save");
+        item.Add().IconName("search");
+    
 
-                item.Add().IconName(IconName.Next);
-
-                item.Add().IconName(IconName.Compose);
-
-                item.Add().IconName(IconName.Delete);
-
-                item.Add().IconName(IconName.Close);
-
-            })
+    }).IconAlignment(IconAlignment.Group
 
  Use the following styles for content style.
 
@@ -111,7 +108,7 @@ To render the Toolbar control, add the following code and include a list of Tool
 
 {% endhighlight %}
 
-![1](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 
@@ -122,21 +119,18 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 {% tabs %}
 {% highlight html %}
 
-@Html.EJMobile().Toolbar("toolbar").ClientSideEvents(c => c.TouchEnd("performAction")).Position(Position.Normal) .Android(android=>android.Position(Position.Fixed)).Windows(windows=>windows.Position(Position.Fixed)).Items(item =>
+  @Html.EJMobile().NavigationBar("toolbar").Position(NavBarPosition.Bottom).Mode(NavBarMode.Toolbar).Android(android => android.Position(NavBarPosition.Auto)).Title("indox").Windows(windows => windows.Position(NavBarPosition.Auto)).ClientSideEvents(c => c.TouchEnd("performAction")).Items(item =>
 
-            {
+    {
 
-                item.Add().IconName(IconName.Back);
+        item.Add().IconName("addnew");
+        item.Add().IconName("cut");
+        item.Add().IconName("copy");
+        item.Add().IconName("save");
+        item.Add().IconName("search");
+    
 
-                item.Add().IconName(IconName.Next);
-
-                item.Add().IconName(IconName.Compose);
-
-                item.Add().IconName(IconName.Delete);
-
-                item.Add().IconName(IconName.Close);
-
-            })
+    }).IconAlignment(IconAlignment.Group
 
 {% endhighlight %}
 
@@ -154,7 +148,7 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
     function performAction(args) {
 
-        var itemName = args.itemname;// to get the toolbar item name
+        var itemName = args.iconname;// to get the toolbar item name
 
         $("#dialogContent").append(itemName + " toolbar item selected."); // appends the content to the dialog
 
