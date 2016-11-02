@@ -231,11 +231,6 @@ The following code example adds Recent Matches and Upcoming Matches panels’ co
              })
 {% endhighlight %}
 
-
-
-{% endhighlight %}
-
-
 ![](Getting-Started_images/Getting-Started_img5.png)
 
 
