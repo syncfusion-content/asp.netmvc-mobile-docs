@@ -25,7 +25,7 @@ Create a simple MVC application and paste the following header and scrollpanel l
 
 {% highlight html %}
 
-@Html.EJMobile().NavigationBar("header").Position(NavBarPosition.Auto).Title("inbox")
+ @Html.EJMobile().NavigationBar("header").Mode(NavBarMode.Header).Position(NavBarPosition.Auto).Title("inbox")
 
 <div id="content">
 
@@ -83,14 +83,14 @@ To render the Toolbar control, add the following code and include a list of Tool
 
     {
 
-        item.Add().IconName("addnew");
-        item.Add().IconName("cut");
-        item.Add().IconName("copy");
-        item.Add().IconName("save");
-        item.Add().IconName("search");
+        item.Add().IconName("back");
+        item.Add().IconName("next");
+        item.Add().IconName("compose");
+        item.Add().IconName("delete");
+        item.Add().IconName("close");
     
 
-    }).IconAlignment(IconAlignment.Group
+    }).IconAlignment(IconAlignment.Group)
 
  Use the following styles for content style.
 
@@ -108,7 +108,7 @@ To render the Toolbar control, add the following code and include a list of Tool
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -123,14 +123,14 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
     {
 
-        item.Add().IconName("addnew");
-        item.Add().IconName("cut");
-        item.Add().IconName("copy");
-        item.Add().IconName("save");
-        item.Add().IconName("search");
+        item.Add().IconName("back");
+        item.Add().IconName("next");
+        item.Add().IconName("compose");
+        item.Add().IconName("delete");
+        item.Add().IconName("close");
     
 
-    }).IconAlignment(IconAlignment.Group
+    }).IconAlignment(IconAlignment.Group)
 
 {% endhighlight %}
 
@@ -173,7 +173,7 @@ You can provide functionalities for each Toolbar items and this can be achieved 
 
   Execute this code to render the following output.
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 

@@ -15,11 +15,11 @@ Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().NavigationBar("toolbar_sample").RenderMode(RenderMode.Windows).Items(item =>
+@Html.EJMobile().NavigationBar("toolbar_sample").Mode(NavBarMode.Toolbar).RenderMode(RenderMode.Windows).Items(item =>
 
    {
 
-      item.Add().IconName("addnew");
+      item.Add().IconName("add");
       item.Add().IconName("cut");
       item.Add().IconName("copy");
       item.Add().IconName("save");

@@ -44,7 +44,7 @@ Refer to the following code example.
 
     {
 
-        item.Add().IconName("addnew");
+        item.Add().IconName("add");
         item.Add().IconName("cut");
         item.Add().IconName("copy");
         item.Add().IconName("save");

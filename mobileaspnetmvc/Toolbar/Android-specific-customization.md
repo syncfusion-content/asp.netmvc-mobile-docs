@@ -19,10 +19,10 @@ Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().NavigationBar("toolbar_sample").RenderMode(RenderMode.Android).TemplateID("sample1").Items(item =>
+@Html.EJMobile().NavigationBar("toolbar_sample").Mode(NavBarMode.Toolbar).RenderMode(RenderMode.Android).TemplateID("sample1").Items(item =>
    {
 
-      item.Add().IconName("addnew");
+      item.Add().IconName("add");
       item.Add().IconName("cut");
 
    })
@@ -45,11 +45,11 @@ Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().NavigationBar("toolbar_sample").RenderMode(RenderMode.Android).Items(item =>
+@Html.EJMobile().NavigationBar("toolbar_sample").Mode(NavBarMode.Toolbar).RenderMode(RenderMode.Android).Items(item =>
 
    {
 
-        item.Add().IconName("addnew");
+        item.Add().IconName("add");
         item.Add().IconName("cut");
         item.Add().IconName("copy");
 
