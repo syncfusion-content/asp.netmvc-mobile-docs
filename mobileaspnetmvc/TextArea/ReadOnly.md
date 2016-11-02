@@ -15,7 +15,7 @@ Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().TextArea("mailMessage").WatermarkText ("TextArea").ReadOnly(true)
+@Html.EJMobile().TextArea("mailMessage").WatermarkText("TextArea").ReadOnly(true)
 
 {% endhighlight %}
 

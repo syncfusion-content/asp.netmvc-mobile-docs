@@ -29,7 +29,7 @@ You can create a MVC project and add the necessary DLLs and scripts with the hel
 
 {% highlight html %}
 
-@Html.EJMobile().Header("header").Title("Login").Position(MobileHeaderPosition.Normal)
+@Html.EJMobile().NavigationBar("header").Title("Login")
 
 <div class="sample" style="padding:10px">
 
@@ -77,7 +77,7 @@ You can create a MVC project and add the necessary DLLs and scripts with the hel
 
 	<!--Password Control-->
 
-	@Html.EJMobile().PassWord("password").WatermarkText("Password")                           
+	@Html.EJMobile().PassWord("password").WatermarkText("Password").Width("200px")                           
 
 </td>
 
@@ -121,7 +121,7 @@ To create the Textbox control, add the following code.
 
 
 
-@Html.EJMobile().TextBox("textbox_sample").WatermarkText("User Name")
+@Html.EJMobile().TextBox("textbox_sample").WatermarkText("User Name").Width("200px")
 
 
 

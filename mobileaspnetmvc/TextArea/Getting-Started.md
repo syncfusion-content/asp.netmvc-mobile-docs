@@ -30,7 +30,7 @@ Create an HTML file and add the following template to the HTML file.
 {% highlight html %}
 
 <!-- header control -->          
-@Html.EJMobile().Header("mailheader").Title("New Message")
+@Html.EJMobile().NavigationBar("mailheader").Title("New Message")
 
 <div id="mailcontainer" class="sample">
 

@@ -15,7 +15,7 @@ Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox")
+    @Html.EJMobile().TextBox("textbox_sample").WatermarkText("Custom WaterMark").Width("200px")
 
 {% endhighlight %}
 

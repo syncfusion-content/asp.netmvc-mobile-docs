@@ -9,13 +9,13 @@ documentation: ug
 
 # Border support
 
-The ShowBorder property is used to decide whether the Textbox border can be visible or hidden. The default value is true.
+The 'BorderStyle' property is used to decide the style of the border.
 
 Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox").ShowBorder(false)
+   @Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox").BorderStyle(MobileTextboxBorderStyle.None).Width("200px")
 
 {% endhighlight %}
 

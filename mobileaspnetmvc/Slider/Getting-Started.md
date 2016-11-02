@@ -31,27 +31,21 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
 {% highlight html %}
 
-@Html.EJMobile().Header("header").Title("Shopping cart")
-
-
+@Html.EJMobile().NavigationBar("header").Title("Shopping cart")
 
 <div id="content">
+    <div>
+
+        <!--Render Slider control!-->
 
 
-
-<div>
-
-
-
-@RenderBody()
-
+    </div>
 
 
 </div>
 
+@Html.EJMobile().Scrollpanel("scroll").Target("content")
 
-
-</div>
 
 
 
@@ -64,72 +58,53 @@ Add the following code example to the corresponding view page.
 {% highlight html %}
 
 <div id="form" style="margin: 20px;">
+    <div>
+        <div>
+            <span class="text">Search-->MobilePhones-->Filter</span>
+        </div>
+        <br>
+        <span class="text">Operating System</span>
+    </div>
 
-     <div style="margin-bottom: 10px">
+    <!-- create check box for different OS  -->
 
-         <div style="margin-top:10px;">
+    <div align="center" id="checkbox" style="margin-bottom:10px">
 
-             <h1>Search-->MobilePhones-->Filter</h1>
+        <table border="0" cellpadding="6">
 
-          </div>
+            <tr>
 
-           <h1>Operating System</h1>
+                @Html.EJMobile().CheckBox("check1")IOS7
 
-      </div>
+            </tr>
 
-       <!-- create check box for different OS  -->
+            <tr>
 
-       <div align="center" id="checkbox" style="margin-bottom:10px">
+                @Html.EJMobile().CheckBox("check3")Android
 
-       <table border="0" cellpadding="6">
+            </tr>
 
-        <tr>
+            <tr>
 
-         @Html.EJMobile().CheckBox("check1").Text("IOS7")
+                @Html.EJMobile().CheckBox("check2")Windows
 
-        </tr>
+            </tr>
 
-        <tr>
+        </table>
 
-          @Html.EJMobile().CheckBox("check3").Text("Android")
+    </div>
 
-        </tr>
+    <div style="margin-bottom: 10px">
 
-        <tr>
+        <span class="text">Price Range</span>
 
-          @Html.EJMobile().CheckBox("check2").Text("Windows")
+    </div>
+    <span id="min" style="float: left;"></span>
+    <span id="max" style="float: right;"></span>
 
-        </tr>
+    <!—Add your Slider control here-->
 
-       </table>
-
-           </div>
-
-           <div style="margin-bottom: 10px">
-
-               <h1>Price Range</h1>
-
-            </div>
-
-            <b>Min:</b><span id="min">      <b>Max:  </b></span><span id="max" style="float:right"></span>
-
-             <!—Add your Slider control here-->
-
-             </div>
-
-             <div align=center style="margin-top:20px;">
-
-            @Html.EJMobile().Button("submit").Text("SUBMIT").ClientSideEvents(events => events.TouchEnd("openAlertDialog"))
-
-              </div>
-
-              <!-- dialog control -->
-
-   @Html.EJMobile().Dialog("alert").LeftButtonCaption("OK").ClientSideEvents(events r=> events.ButtonTap("alertClose")).Content(@<div>
-
-      <!-- Based on your suggestions the phones will display now -->
-
-</div>).EnableAutoOpen(false)
+</div>
 
 
 {% endhighlight %}
@@ -233,7 +208,7 @@ You can get the present value of both the Slider handles at any time using its g
 
 Execute the above code to render the following output. 
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -250,7 +225,7 @@ function alertClose() {
 
 
 
-        $("#alertdlg").ejmDialog("close");
+         dialogObject.close()
 
 
 
@@ -260,12 +235,9 @@ function alertClose() {
 
          function openAlertDialog(args) {
 
+             dialogObject.open()
 
-
-        App.activePage.find("#alertdlg").ejmDialog("open");
-
-
-
+ 
     }//close dialog
 
 </script>
@@ -278,7 +250,7 @@ Execute the above code to render the following output, when you click submit.
 
 
 
-![](Getting-Started_images/Getting-Started_img6.png)
+![](Getting-Started_images/Getting-Started_img5.png)
 
 
 
