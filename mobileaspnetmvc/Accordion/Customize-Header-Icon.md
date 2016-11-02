@@ -9,13 +9,11 @@ documentation: ug
 
 # Customize Header Icon
 
-The “ShowHeaderIcon” property is used to display the default icon for the Accordion header. 
-
-
-
+The “ShowHeaderIcon” property is used to display the default icon for the Accordion header. By default, header icons are visible. To make the icons invisible, set 'ShowHeaderIcon' to false.
 
 {% highlight html %}
-@Html.EJMobile().Accordion("accordion_sample").ShowHeaderIcon(false).Items(accItem =>{
+
+@Html.EJMobile().Accordion("accordion_sample").ShowHeaderIcon(true).Items(accItem =>{
 
           accItem.Add().Text("MVC").Content(@<div>
 
