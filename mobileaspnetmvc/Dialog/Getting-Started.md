@@ -15,7 +15,7 @@ This section explains briefly on how to create a Dialog control in your applicat
 
 The ASP.NET MVCDialog window is an overlay positioned within the AppView and displays a message along with supplementary content such as images or text and interactive content such as forms etc. It contains a title and a content area. The following example explains how to create a MailSign in form through that you can learn the features of the ASP.NET MVC Dialog widget.
 
-![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -29,21 +29,20 @@ You can render the Dialog control based on the default values for all the proper
 {% highlight html %}
 <!-- header control -->          
 
-@Html.EJMobile().Header("header").Title("Mail").RightButtonCaption("Next").ShowRightButton(true).ClientSideEvents(evt => { evt.RightButtonTap("formsubmit"); })
+@Html.EJMobile().NavigationBar("header").Title("Mail")
 
-        <div id="content">
+<div id="content">
 
-            <div>
+    <div>
 
-                @RenderBody()
+        @*Render Dialog control*@
 
-            </div>			
+    </div>
 
-        </div>
+</div>
 
-<!-- ScrollPanel -->        
-
-@Html.EJMobile().Scrollpanel("scroll").Target("content") 
+<!-- ScrollPanel -->
+@Html.EJMobile().Scrollpanel("scroll").Target("content")
 {% endhighlight %}
 
 
@@ -53,101 +52,117 @@ Add the following Layout code to the corresponding view page
 
     <div>
 
-        <!-- Adding Mail Sign in Form -->
+        @*Render Dialog control*@
 
-
-
-        <form id="form1">
-
-
-
-            <label>
-
-                Name:
-
-
-
-            </label>
-
-
+        <div id="content">
 
             <div>
 
-                @Html.EJMobile().TextBox("name_def").WatermarkText("Name")
-
-                <label for="name_def" class="error" generated="true" />
+                <!-- Adding Mail Sign in Form -->
 
 
+
+                <form id="form1">
+
+
+
+                    <label>
+
+                        Name:
+
+
+
+                    </label>
+
+
+
+                    <div>
+
+                        @Html.EJMobile().TextBox("name_def").WatermarkText("Name")
+
+                        <label for="name_def" class="error" generated="true" />
+
+
+
+                    </div>
+
+
+
+                    <label>
+
+                        Email:
+
+
+
+                    </label>
+
+
+
+                    <div>
+
+                        @Html.EJMobile().TextBox("email_def").WatermarkText("user@mail.com")
+
+                        <label for="email_def" class="error" generated="true" />
+
+
+
+                    </div>
+
+
+
+                    <label>
+
+                        Password:
+
+
+
+                    </label>
+
+
+
+                    <div>
+
+                        @Html.EJMobile().PassWord("password_def").WatermarkText("Required")
+
+                        <label for="password_def" class="error" generated="true" />
+
+                    </div>
+
+
+
+                    <label>
+
+                        Job Description (Optional):
+
+
+
+                    </label>
+
+
+
+                    <div>
+
+
+
+                        @Html.EJMobile().TextBox("description_def")
+
+
+
+                    </div>
+                    <center>
+                        @Html.EJMobile().Button("button").Text("Save").ClientSideEvents(eve => eve.TouchEnd("formsubmit"))
+                    </center>
+
+
+                </form>
+
+                @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>)
 
             </div>
 
-
-
-            <label>
-
-                Email:
-
-
-
-            </label>
-
-
-
-            <div>
-
-                @Html.EJMobile().TextBox("email_def").WatermarkText("user@mail.com")
-
-                <label for="email_def" class="error" generated="true" />
-
-
-
             </div>
 
-
-
-            <label>
-
-                Password:
-
-
-
-            </label>
-
-
-
-            <div>
-
-                @Html.EJMobile().PassWord("password_def").WatermarkText("Required")
-
-                <label for="password_def" class="error" generated="true" />
-
-            </div>
-
-
-
-            <label>
-
-                Job Description (Optional):
-
-
-
-            </label>
-
-
-
-            <div>
-
-
-
-                @Html.EJMobile().TextBox("description_def")
-
-
-
-            </div>
-
-
-
-        </form>
+        </div>
 
 
 
@@ -155,7 +170,6 @@ Add the following Layout code to the corresponding view page
 
 
 
-@Html.EJMobile().Scrollpanel("scroll").Target("content")
 {% endhighlight %}
 
 
@@ -257,7 +271,7 @@ To render the Dialog control, you can add the following code example and specify
 
 ### Display the Dialog
 
-To display the Dialog, you can click the next button present in the header. The click event is handled by “formsubmit” function as mentioned as follows. Create an object for Dialog control and then using the dialog’s “open” function you can display the Dialog. 
+To display the Dialog, you can click the save button. The click event is handled by “formsubmit” function as mentioned as follows. Create an object for Dialog control and then using the dialog’s “open” function you can display the Dialog. 
 
 Add the following script code to the <body> tag.
 {% highlight js%}
@@ -327,38 +341,4 @@ Execute this code to render the following output. For more details, to run the s
 
 ![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png)
 
-
-
-### Handle Dialog events
-
-To close the alert Dialog, click OK. This is achieved by triggering the ButtonTap event of Dialog. The ButtonTap event is handled by alertClose function. Create an object for Dialog control and using close function you can close the Dialog.
-
-Refer to the following code example. 
-{% tabs %}
-{% highlight html%}
-        @Html.EJMobile().Dialog("alertdlg").Title("Success").LeftButtonCaption("OK").Content(@<div id="contentDialog"></div>).EnableModal(true).ClientSideEvents(evt => { evt.ButtonTap("alertClose"); })
-
-    </div>
-
-</div>
-{% endhighlight %}
-
-
-
-{% highlight js%}
-//Button tap event handling
-
-        function alertClose(event) {
-
-            var alertDlgInstance = $("#alertdlg").data("ejmDialog"); // Create alert dialog instance
-
-            alertDlgInstance.close(); // To close alert dialog
-
-            $(".e-m-text-input").val("");
-
-            $(".e-m-editor-input").val("");
-
-        }
-{% endhighlight %}
-{% endtabs %}
 

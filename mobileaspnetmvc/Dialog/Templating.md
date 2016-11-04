@@ -15,16 +15,15 @@ The TemplateId property is used to define the ID of the template element where y
 {% highlight html %}
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").TemplateId("temp").Content(
+    @Html.EJMobile().Dialog("alertdlg").Title("welcome").LeftButtonCaption("Cancel").TemplateId("temp").Content(
 
-@<div>
+        @<div>
 
-Syncfusion provides software components and tools for the Microsoft .NET platform
+             London, one of the most popular tourist destinations in the world for a reason.
 
-</div>).Content(@<div id="temp">Syncfusion Software</div>)
+        </div>).Content(@<div id="temp">London</div>)
 
 }
-
 
 
 <div style="text-align: center">

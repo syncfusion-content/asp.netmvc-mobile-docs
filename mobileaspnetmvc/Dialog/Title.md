@@ -15,13 +15,13 @@ The Title property is used to display the title text of the Dialog box.
 {% highlight html %}
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").Content(
+    @Html.EJMobile().Dialog("alertdlg").Title("Welcome").LeftButtonCaption("Cancel").Content(
 
-@<div>
+        @<div>
 
-Syncfusion provides software components and tools for the Microsoft .NET platform
+             London, one of the most popular tourist destinations in the world for a reason.
 
-</div>)
+        </div>)
 
 }
 

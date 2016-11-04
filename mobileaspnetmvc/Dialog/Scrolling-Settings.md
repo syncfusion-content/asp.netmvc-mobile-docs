@@ -15,35 +15,25 @@ The AllowScrolling property is used to enable scrollingbehavior for the Dialog c
 
 {% tabs %}
         {% highlight html %}
-        @{
+@{
 
-        @Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").AllowScrolling(false).Content(
+    @Html.EJMobile().Dialog("alertdlg").Title("Audi").LeftButtonCaption("Cancel").AllowScrolling(false).Content(
 
-         @<div>
+    @<div>
 
-         Syncfusion provides software components and tools for the Microsoft .NET    
-
-         platform.Inc.a developer solutions company, announced the release of Essential 
-
-         Studio Enterprise Edition 2014, Volume 1, and the first major update to its  
-
-         components in 2014. In response to the increasing use of JavaScript in line- 
-
-         of-business applications, this release features dozens of new JavaScript tools    
-
-         and numerous updates to its current lineup.At the forefront of Volume 1 are 27 
-
-         new JavaScript libraries designed specifically for mobile development.
- 
-         </div>)
+         It is a concept vehicle with Liquid Silver body colour, 20-inch wheels, fabric folding roof, electrically-controlled hood, 4-cylinder 2.0 TDI engine rated 204 PS (150 kW; 201 hp)
+         and 400 N·m (295.02 lbf·ft), diesel particulate filter and Bluetec emission control system, quattro permanent four-wheel drive system with Haldex clutch,
+         Audi S tronic dual-clutch gearbox, McPherson-strut front axle and a four-link rear axle, Audi drive select system with 3 modes (dynamic, sport, efficiency),
+         MMI control panel with touch pad and dual-view technology, sound system with the prominent extending tweeters.
+    </div>)
 
 }
 
-         <div style="text-align: center">
+<div style="text-align: center">
 
-         @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
+    @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-         </div>
+</div>
          {% endhighlight %}
 
          {% highlight javascript %}
@@ -67,53 +57,6 @@ The following screenshot displays the output.
 
 
 
-## CheckDOMChanges                      
-
-The CheckDOMChanges property is used to refresh the scroll panel rendered in the control when elements are added dynamically. The default value is false.
-
-{% tabs %}
-{% highlight html %}
-@{
-
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").CheckDOMChanges(true).Content(
-
-@<div>
-
-Syncfusion provides software components and tools for the Microsoft .NET platform
-
-</div>)
-
-}
-
-
-
-<div style="text-align: center">
-
-@Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
-
-</div>
-{% endhighlight %}
-
-{% highlight javascript %}
-
-
-
-
-        function openAlertDialog(args)
-
-        {
-
-            App.activePage.find("#alertdlg").ejmDialog("open");
-
-        }
-
-{% endhighlight %}
-{% endtabs %}
-
-The following screenshot displays the output.
-
-![](Scrolling-Settings_images/Scrolling-Settings_img2.png)
-
 
 
 ## EnableNativeScrolling
@@ -121,28 +64,32 @@ The following screenshot displays the output.
 The EnableNativeScrolling property is used to enable native (built-in browser) scrolling functionality of the devices when scrolling is allowed. The default value is false.
 
 {% tabs %}
-{% highlight html %}
-@{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableNativeScrolling(true).Content(
+        @Html.EJMobile().NavigationBar("header").Title("Dialog")
 
-@<div>
+        <div id="content">
+            @{
 
- Syncfusion, Inc.a developer solutions company, announced the release of Essential Studio Enterprise Edition 2014, Volume 1, the first major update to its components in 2014. In response to the increasing use of JavaScript in line-of-business applications, this release features dozens of new JavaScript tools and numerous updates to its current lineup.At the forefront of Volume 1 are 27 new JavaScript libraries designed specifically for mobile development. They provide solutions for a variety of development requirements, including specialized tools for navigation and data visualization. All are compatible with the popular Knockout JavaScript library, allowing them to work seamlessly with current development projects. Windows, Android, and iOS themes are built into every library to emulate the appearance of native apps.
+                @Html.EJMobile().Dialog("alertdlg").Title("Audi").LeftButtonCaption("Cancel").AllowScrolling(true).EnableNativeScrolling(true).Content(
+
+                @<div>
+
+                    It is a concept vehicle with Liquid Silver body colour, 20-inch wheels, fabric folding roof, electrically-controlled hood, 4-cylinder 2.0 TDI engine rated 204 PS (150 kW; 201 hp)
+                    and 400 N·m (295.02 lbf·ft), diesel particulate filter and Bluetec emission control system, quattro permanent four-wheel drive system with Haldex clutch,
+                    Audi S tronic dual-clutch gearbox, McPherson-strut front axle and a four-link rear axle, Audi drive select system with 3 modes (dynamic, sport, efficiency),
+                    MMI control panel with touch pad and dual-view technology, sound system with the prominent extending tweeters.
+                </div>)
+
+            }
 
 
 
-</div>)
+            <div style="text-align: center">
 
-}
+                @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
+            </div>
 
-
-<div style="text-align: center">
-
-@Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
-
-</div>
 
 {% endhighlight %}
 

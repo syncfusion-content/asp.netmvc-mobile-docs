@@ -15,11 +15,11 @@ The EnableModal property enables the modal Dialog that blocks you from interacti
 {% highlight html %}
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableModal(true).Content(
+@Html.EJMobile().Dialog("alertdlg").Title("London").LeftButtonCaption("Cancel").EnableModal(true).Content(
 
 @<div>
 
-Syncfusion provides software components and tools for the Microsoft .NET platform
+ London, one of the most popular tourist destinations in the world for a reason.
 
 </div>)
 

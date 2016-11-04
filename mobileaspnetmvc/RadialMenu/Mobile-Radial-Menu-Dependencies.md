@@ -7,7 +7,7 @@ control: Radial Menu
 documentation: ug
 ---
 
-# Mobile Radial Menu Dependencies
+# Dependencies
 
 This section deals with the dependency files for Radial Menu control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you use this file, skip this section else refer to the following script files to render the Radial Menu control.
 

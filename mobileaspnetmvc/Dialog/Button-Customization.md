@@ -69,13 +69,13 @@ The ShowButtons property is used to show the buttons in the Dialog box. The defa
 {% highlight html %}
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").RightButtonCaption("Continue").EnableAutoOpen(true).ShowButtons(false).Mode(DialogMode.Confirm).Content(
+    @Html.EJMobile().Dialog("alertdlg").Title("London").RightButtonCaption("Continue").EnableAutoOpen(true).ShowButtons(false).Mode(DialogMode.Confirm).Content(
 
-@<div>
+        @<div>
 
-Syncfusion provides software components and tools for the Microsoft .NET platform
+             London, one of the most popular tourist destinations in the world for a reason.
 
-</div>)
+        </div>)
 
 }
 {% endhighlight %}

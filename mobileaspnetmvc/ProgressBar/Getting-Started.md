@@ -29,63 +29,56 @@ You can create an MVC Project and add necessary Dlls and script, with the help o
 
 
 {% highlight html %}
+<!-- Layout Page Content -->
+<!-- header control -->
+@Html.EJMobile().NavigationBar("header").Title("App Installer")
 
-    <!-- Layout Page Content -->
-
-    <!-- header control -->
-
-    @Html.EJMobile().Header("header").Title("App Installer")
-
-          @RenderBody()
-
-    <!-- ScrollPanel -->
-
-    @Html.EJMobile().Scrollpanel("scrollpanel").Target("content")
+<!-- ScrollPanel -->
+@Html.EJMobile().Scrollpanel("scrollpanel").Target("content")
 
 
 
 
 
-    <!-- View Page Content -->
+<!-- View Page Content -->
 
-    <div id="content">
+<div id="content">
 
-        <div>
+    <div>
 
-            <!-- Add image and definition -->
+        <!-- Add image and definition -->
 
-            <div align="center">
+        <div align="center">
 
-                <img src="http://js.syncfusion.com/UG/Mobile/Content/debug.png" style="width: 125px;" />
+            <img src="http://js.syncfusion.com/UG/Mobile/Content/debug.png" style="width: 125px;" />
 
-            </div> <br /><br />
+        </div> <br /><br />
 
-            <div id="definition" align="center" style="padding: 0 20px">
+        <div id="definition" align="center" style="padding: 0 20px">
 
-                <b>BUG DETECTIVE</b><br />
+            <b>BUG DETECTIVE</b><br />
 
-                Bug Detective is an open source application which integrates with web browsers to debug web development tools while you browse. We can debug HTML and JavaScript live in any web page using bug detective.
+            Bug Detective is an open source application which integrates with web browsers to debug web development tools while you browse. We can debug HTML and JavaScript live in any web page using bug detective.
 
-            </div><br />
+        </div><br />
 
-            <!-- Button control -->
+        <!-- Button control -->
 
-            <div align="center">
+        <div align="center">
 
-                @Html.EJMobile().Button("button").Text("Install").ClientSideEvents(eve => eve.TouchEnd("startProgress"))
+            @Html.EJMobile().Button("button").Text("Install").ClientSideEvents(eve => eve.TouchEnd("startProgress"))
 
-            </div>
-
-
-
-            <!--Add progressbar Element here-->
+        </div>
 
 
 
-        </div>
+        <!--Add progressbar Element here-->
 
-    </div>
 
+
+    </div>
+
+</div>
 
 {% endhighlight %}
 
@@ -104,11 +97,9 @@ You can call ProgressBar helper to render ProgressBar control. You can set its i
 
  <!--ProgressBar control -->
 
- <div style="width: 75%; margin:auto;">
 
       @Html.EJMobile().ProgressBar("progress").Value(73)
 
- </div>
 
 {% endhighlight %}
 
@@ -154,7 +145,7 @@ The default text of ProgressBar is downloading. In this scenario you are install
 
 <div style="width: 75%; margin:auto;">
 
-@Html.EJMobile().ProgressBar("progress").Value(73) .EnableCustomText(true).Text("Installing..")
+  @Html.EJMobile().ProgressBar("progress").Value(73).EnableCustomText(true).Text("Installing..")
 
  </div>
 
@@ -174,13 +165,12 @@ The ProgressBar text and its value can be changed dynamically. In this scenario,
 
 <!-- Progressbar control -->
 
-<div style="width: 75%; margin:auto;">
+
 
 @Html.EJMobile().ProgressBar("progress").EnableCustomText(true).Text("Installing..")
 
 @* Value(73) is removed here *@
 
- </div>
 
 {% endhighlight %}
 

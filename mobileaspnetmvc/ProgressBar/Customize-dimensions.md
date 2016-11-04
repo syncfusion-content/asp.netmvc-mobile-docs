@@ -13,7 +13,7 @@ By setting an integer value to Height property, you can change the height of the
 
 {% highlight html %}
 
-@Html.EJMobile().ProgressBar("progressbar_sample").Height(10)
+ @Html.EJMobile().ProgressBar("progressbar_sample").Height("20")
 
 {% endhighlight %}
 
