@@ -44,7 +44,7 @@ ej.touch.min.js</td><td>
 It is referred for touch events supports.</td></tr>
 <tr>
 <td>
-ej.mobile.toolbar.min.js</td><td>
+ej.mobile.navigationbar.js</td><td>
 It is referred to handle toolbar control </td></tr>
 <tr>
 <td>

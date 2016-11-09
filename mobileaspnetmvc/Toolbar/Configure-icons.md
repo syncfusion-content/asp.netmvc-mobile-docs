@@ -40,21 +40,18 @@ Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().Toolbar("toolbar_sample").Items(items =>
+  @Html.EJMobile().NavigationBar("toolbar").Mode(NavBarMode.Toolbar).Title("toolbar").Items(item =>
 
-   {
+    {
 
-       items.Add().IconName(IconName.Add);
+        item.Add().IconName("add");
+        item.Add().IconName("cut");
+        item.Add().IconName("copy");
+        item.Add().IconName("save");
+        item.Add().IconName("search");
+    
 
-       items.Add().IconName(IconName.Cut);
-
-       items.Add().IconName(IconName.Copy);
-
-       items.Add().IconName(IconName.Save);
-
-       items.Add().IconName(IconName.Search);
-
-   })
+    })
 
 {% endhighlight %}
 
@@ -63,32 +60,6 @@ The following screenshot illustrates the output of the above code.
 ![](Configure-icons_images/Configure-icons_img1.png)
 
 
-
-You can set the user defined icons using IconUrl property. This property overrides the IconName property when both properties are set at a time. 
-
-{% highlight html %}
-
-    @Html.EJMobile().Toolbar("sample-toolbar").Items(items =>
-
-   {
-
-       items.Add().IconUrl("http://js.syncfusion.com/UG/Mobile/Content/toolbar/back.png");
-
-       items.Add().IconUrl("http://js.syncfusion.com/UG/Mobile/Content/toolbar/forward.png");
-
-       items.Add().IconUrl("http://js.syncfusion.com/UG/Mobile/Content/toolbar/plugin.png");
-
-       items.Add().IconUrl("http://js.syncfusion.com/UG/Mobile/Content/toolbar/edit.png");
-
-       items.Add().IconUrl("http://js.syncfusion.com/UG/Mobile/Content/toolbar/airoplane_mode.png");
-
-   })
-
-{% endhighlight %}
-
- The following screenshot illustrates the output of the above code.
-
-![](Configure-icons_images/Configure-icons_img2.png)
 
 
 

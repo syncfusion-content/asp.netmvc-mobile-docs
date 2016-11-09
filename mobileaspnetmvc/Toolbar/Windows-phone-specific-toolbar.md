@@ -15,21 +15,15 @@ Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().Toolbar("toolbar_sample").RenderMode(RenderMode.Windows).Items(items =>
+@Html.EJMobile().NavigationBar("toolbar_sample").Mode(NavBarMode.Toolbar).RenderMode(RenderMode.Windows).Items(item =>
 
    {
 
-       items.Add().IconName(IconName.Add);
-
-       items.Add().IconName(IconName.Cut); 
-
-       items.Add().IconName(IconName.Copy);
-
-       items.Add().IconName(IconName.Save);
-
-       items.Add().IconName(IconName.Search);
-
-
+      item.Add().IconName("add");
+      item.Add().IconName("cut");
+      item.Add().IconName("copy");
+      item.Add().IconName("save");
+      item.Add().IconName("search");
 
    })
 
