@@ -4,6 +4,7 @@ title: Customize Orientation| Rating | MobileAspNetMVC | Syncfusion
 description: customize orientation        
 platform: mobileaspnetmvc
 control: Rating
+keywords:rating
 documentation: ug
 ---
 

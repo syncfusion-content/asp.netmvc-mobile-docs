@@ -4,6 +4,7 @@ title: Overview| Textbox | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox
 documentation: ug
 ---
 

@@ -4,6 +4,7 @@ title: Border support| Textbox | MobileAspNetMVC | Syncfusion
 description: border support
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox
 documentation: ug
 ---
 

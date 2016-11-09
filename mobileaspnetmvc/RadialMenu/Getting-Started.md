@@ -4,6 +4,7 @@ title: getting-started
 description: getting started
 platform: js
 control: Radial Menu
+keywords:radialmenu
 documentation: ug
 ---
 

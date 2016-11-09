@@ -4,6 +4,7 @@ title: Overlay| Dialog | MobileAspNetMVC | Syncfusion
 description: overlay
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog
 documentation: ug
 ---
 
@@ -19,7 +20,7 @@ The EnableModal property enables the modal Dialog that blocks you from interacti
 
 @<div>
 
- London, one of the most popular tourist destinations in the world for a reason.
+ London, one of the most popular tourist destination in the world for a reason.
 
 </div>)
 

@@ -4,6 +4,7 @@ title: Border Support| TextArea | MobileAspNetMVC | Syncfusion
 description: Border Support
 platform: mobileaspnetmvc
 control: TextArea
+keywords:textArea
 documentation: ug
 ---
 

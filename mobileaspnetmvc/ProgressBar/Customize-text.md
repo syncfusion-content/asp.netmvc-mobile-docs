@@ -4,6 +4,7 @@ title: Customize text| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize text
 platform: mobileaspnetmvc
 control: ProgressBar
+keywords:progressBar
 documentation: ug
 ---
 

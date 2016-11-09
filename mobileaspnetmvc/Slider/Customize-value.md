@@ -4,6 +4,7 @@ title: Customize value| Slider | MobileAspNetMVC | Syncfusion
 description: customize value
 platform: mobileaspnetmvc
 control: Slider
+keywords:slider
 documentation: ug
 ---
 

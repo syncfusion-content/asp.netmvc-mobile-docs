@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Mobile Dialog Dependency files| Dialog | MobileAspNetMVC | Syncfusion
-description: mobile dialog dependency files
+description: Dependency files
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog
 documentation: ug
 ---
 

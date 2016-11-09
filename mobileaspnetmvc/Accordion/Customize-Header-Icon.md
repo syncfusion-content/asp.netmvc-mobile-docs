@@ -4,6 +4,7 @@ title: Customize Header Icon| Accordion | MobileAspNetMVC | Syncfusion
 description: customize header icon
 platform: mobileaspnetmvc
 control: Accordion
+keywords:accordion
 documentation: ug
 ---
 

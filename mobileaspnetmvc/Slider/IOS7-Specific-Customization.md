@@ -4,6 +4,7 @@ title: IOS7 Specific Customization| Slider | MobileAspNetMVC | Syncfusion
 description: ios7 specific customization
 platform: mobileaspnetmvc
 control: Slider
+keywords:slider
 documentation: ug
 ---
 

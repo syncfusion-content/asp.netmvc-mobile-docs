@@ -4,6 +4,7 @@ title: Overview| ProgressBar | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: ProgressBar
+keywords:progressBar
 documentation: ug
 ---
 

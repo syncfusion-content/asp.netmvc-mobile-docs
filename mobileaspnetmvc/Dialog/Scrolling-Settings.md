@@ -4,6 +4,7 @@ title: Scrolling Settings| Dialog | MobileAspNetMVC | Syncfusion
 description: scrolling settings
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog
 documentation: ug
 ---
 
@@ -11,7 +12,7 @@ documentation: ug
 
 ## AllowScrolling   
 
-The AllowScrolling property is used to enable scrollingbehavior for the Dialog content. The default value is true.
+To enable  scrollingbehavior for the Dialog content. The default value is true.
 
 {% tabs %}
         {% highlight html %}
@@ -61,7 +62,7 @@ The following screenshot displays the output.
 
 ## EnableNativeScrolling
 
-The EnableNativeScrolling property is used to enable native (built-in browser) scrolling functionality of the devices when scrolling is allowed. The default value is false.
+ To enable native (built-in browser) scrolling functionality of the devices when scrolling is allowed. The default value is false.
 
 {% tabs %}
 

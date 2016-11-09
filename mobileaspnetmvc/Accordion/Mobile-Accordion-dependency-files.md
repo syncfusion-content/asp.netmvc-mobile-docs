@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Mobile Accordion Dependency Files| Accordion | MobileAspNetMVC | Syncfusion
-description: mobile accordion dependency files
+description: Dependency files
 platform: mobileaspnetmvc
 control: Accordion
 documentation: ug
 ---
 
-# Mobile Accordion dependency files
+# Dependency files
 
 This section deals with the dependency files for Accordion control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When not, then you need to refer the following script files to render the Accordion control.
 

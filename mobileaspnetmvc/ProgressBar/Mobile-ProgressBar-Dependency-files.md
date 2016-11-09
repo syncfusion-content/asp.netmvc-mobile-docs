@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Mobile ProgressBar Dependency files| ProgressBar | MobileAspNetMVC | Syncfusion
-description: mobile progressbar dependency files
+description:Dependency files
 platform: mobileaspnetmvc
 control: ProgressBar
+keywords:progressBar
 documentation: ug
 ---
 

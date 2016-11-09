@@ -4,20 +4,21 @@ title: Button Customization| Dialog | MobileAspNetMVC | Syncfusion
 description: button customization
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog
 documentation: ug
 ---
 
 # Button Customization
 
 ## LeftButtonCaption
-
-The LeftButtonCaption property is used to specify the text of the Left Button. The default value is cancel.
+ 
+ To specifies the text of the Left Button. The default value is Cancel.
 
 
 {% highlight html %}
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Cellular Data is Turned off").LeftButtonCaption("Ok").EnableAutoOpen(true).Mode(DialogMode.Confirm).Content(
+@Html.EJMobile().Dialog("alertdlg").Title("Cellular Data is Turned off").LeftButtonCaption("OK").EnableAutoOpen(true).Mode(DialogMode.Confirm).Content(
 
 @<div>
 
@@ -38,7 +39,7 @@ The following screenshot displays the output.
 
 ## RightButtonCaption
 
-The RightButtonCaption property specifies the text of the Right Button. The default value is continue.
+To specifies the text of the Right Button. The default value is continue.
 
 
 {% highlight html %}
@@ -63,7 +64,7 @@ The following screenshot displays the output.
 
 ## ShowButtons                                
 
-The ShowButtons property is used to show the buttons in the Dialog box. The default value is true.
+ To show the buttons in the Dialog box. The default value is true.
 
 
 {% highlight html %}
@@ -73,7 +74,7 @@ The ShowButtons property is used to show the buttons in the Dialog box. The defa
 
         @<div>
 
-             London, one of the most popular tourist destinations in the world for a reason.
+             London, one of the most popular tourist destination in the world for a reason.
 
         </div>)
 

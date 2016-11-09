@@ -4,6 +4,7 @@ title: Getting Started| Rating | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Rating
+keywords:rating
 documentation: ug
 ---
 
@@ -48,7 +49,7 @@ The following steps guide you to add a Rating control for a mobile application. 
                 <h2>
                     Description
                 </h2>
-                The fastest, easiest way to find what you need on the web and on your device. Quickly search the web and your phone or tablet.
+                 Google Search provides many different options for customized search in easiest way.
                 <br /><br />
                 <h2>
                     Rate Me

@@ -4,6 +4,7 @@ title: Masking| Textbox | MobileAspNetMVC | Syncfusion
 description: masking
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox
 documentation: ug
 ---
 

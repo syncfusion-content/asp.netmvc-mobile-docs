@@ -4,6 +4,7 @@ title: Getting Started| ProgressBar | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: ProgressBar
+keywords:progressBar
 documentation: ug
 ---
 

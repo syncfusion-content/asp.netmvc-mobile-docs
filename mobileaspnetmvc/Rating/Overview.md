@@ -4,6 +4,7 @@ title: Overview| Rating | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Rating
+keywords:rating
 documentation: ug
 ---
 

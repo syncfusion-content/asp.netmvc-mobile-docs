@@ -4,6 +4,7 @@ title: Customize Content Height| Accordion | MobileAspNetMVC | Syncfusion
 description: customize content height 
 platform: mobileaspnetmvc
 control: Accordion
+keywords:accordion
 documentation: ug
 ---
 

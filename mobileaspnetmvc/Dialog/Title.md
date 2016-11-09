@@ -4,12 +4,13 @@ title: Title| Dialog | MobileAspNetMVC | Syncfusion
 description: title
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog
 documentation: ug
 ---
 
 # Title
 
-The Title property is used to display the title text of the Dialog box. 
+To display the title text of the Dialog box. 
 
 {% tabs %}
 {% highlight html %}
@@ -19,7 +20,7 @@ The Title property is used to display the title text of the Dialog box.
 
         @<div>
 
-             London, one of the most popular tourist destinations in the world for a reason.
+             London, one of the most popular tourist destination in the world for a reason.
 
         </div>)
 

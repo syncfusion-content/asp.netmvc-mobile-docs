@@ -4,6 +4,7 @@ title: Getting Started| TextArea | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: TextArea
+keywords:textArea
 documentation: ug
 ---
 

@@ -4,6 +4,7 @@ title: Overview| TextArea | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: TextArea
+keywords:textArea
 documentation: ug
 ---
 

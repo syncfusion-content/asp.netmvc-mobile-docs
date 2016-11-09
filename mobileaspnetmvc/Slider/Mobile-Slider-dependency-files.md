@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Mobile Slider dependency files| Slider | MobileAspNetMVC | Syncfusion
-description: mobile slider dependency files
+description: Dependency files
 platform: mobileaspnetmvc
 control: Slider
+keywords:slider
 documentation: ug
 ---
 
-# Mobile Slider dependency files
+# Dependency files
 
 This section deals with the dependency files for Slider control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, then you can refer the following script files to render the Slider control.
 

@@ -6,6 +6,7 @@ platform: mobileaspnetmvc
 control: Accordion
 documentation: ug
 keywords:accordion
+keywords:accordion
 ---
 
 # Getting Started

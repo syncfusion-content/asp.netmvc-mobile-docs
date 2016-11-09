@@ -4,6 +4,7 @@ title: Dimensions| Radial Menu | MobileAspNetMVC | Syncfusion
 description: dimensions
 platform: mobileaspnetmvc
 control: Radial Menu
+keywords:radialmenu
 documentation: ug
 ---
 

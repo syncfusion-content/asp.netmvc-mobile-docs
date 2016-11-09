@@ -4,6 +4,7 @@ title: Disabling The Items| Accordion | MobileAspNetMVC | Syncfusion
 description: disabling the items
 platform: mobileaspnetmvc
 control: Accordion
+keywords:accordion
 documentation: ug
 ---
 

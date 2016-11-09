@@ -4,6 +4,7 @@ title: Getting Started| Slider | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Slider
+keywords:slider
 documentation: ug
 ---
 
@@ -57,55 +58,75 @@ Add the following code example to the corresponding view page.
 
 {% highlight html %}
 
-<div id="form" style="margin: 20px;">
-    <div>
+<div class="sample">
+    <div id="form">
         <div>
-            <span class="text">Search-->MobilePhones-->Filter</span>
+            <div>
+                <span class="text">Search-->Mobile Phones-->Filter</span>
+            </div>
+            <br>
+            <span class="text">Operating System</span>
         </div>
-        <br>
-        <span class="text">Operating System</span>
+
+        <!-- create check box for different OS  -->
+
+        <div align="center" id="checkbox" style="margin-bottom:10px">
+
+            <table border="0" cellpadding="6">
+
+                <tr>
+                    <td>
+                        @Html.EJMobile().CheckBox("check1")IOS7
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        @Html.EJMobile().CheckBox("check3")Android
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        @Html.EJMobile().CheckBox("check2")Windows
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div style="margin-bottom: 10px">
+
+            <span class="text">Price Range</span>
+
+        </div>
+        <span id="min" style="float: left;"></span>
+        <span id="max" style="float: right;"></span>
+
+        <!—Add your Slider control here-->
+
+    </div>
+    <div align=center style="margin-top:20px;">
+
+        @Html.EJMobile().Button("submit").Text("SUBMIT").ClientSideEvents(events => events.TouchEnd("openAlertDialog"))
+
     </div>
 
-    <!-- create check box for different OS  -->
+    <!-- dialog control -->
+    @Html.EJMobile().Dialog("alert").Title("Dialog").LeftButtonCaption("OK").ClientSideEvents(events=> events.ButtonTap("alertClose")).Content(@<div>
 
-    <div align="center" id="checkbox" style="margin-bottom:10px">
+      Based on your suggestions the phones will display now
 
-        <table border="0" cellpadding="6">
-
-            <tr>
-
-                @Html.EJMobile().CheckBox("check1")IOS7
-
-            </tr>
-
-            <tr>
-
-                @Html.EJMobile().CheckBox("check3")Android
-
-            </tr>
-
-            <tr>
-
-                @Html.EJMobile().CheckBox("check2")Windows
-
-            </tr>
-
-        </table>
-
-    </div>
-
-    <div style="margin-bottom: 10px">
-
-        <span class="text">Price Range</span>
-
-    </div>
-    <span id="min" style="float: left;"></span>
-    <span id="max" style="float: right;"></span>
-
-    <!—Add your Slider control here-->
+    </div>).EnableAutoOpen(false)
 
 </div>
-
+<style type="text/css">
+    span.text {
+        font-size: 17px;
+        font-weight: bold;
+    }
+ </style>   
 
 {% endhighlight %}
 
