@@ -25,7 +25,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
    
    ~~~ html
 		<!--Page Header-->
-		@Html.EJMobile().Header("page_header").Title("Rooms Availability").Position(MobileHeaderPosition.Fixed)
+		@Html.EJMobile().NavigationBar("page_header").Title("Rooms Availability").Mode(NavBarMode.Header).Position(NavBarPosition.Auto)
 		<div id="content" class="content">
 		<div class="content_area">
 		<!--Numeric TextBox 1 code here-->
