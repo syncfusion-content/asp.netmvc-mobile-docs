@@ -17,7 +17,7 @@ ItemsCount specifies the number of items to be displayed in the suggestion list.
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").ItemsCount(2)
+ @Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Fields(fields => fields.Text("name")).ItemsCount(2)
 {% endhighlight %}
 
 
@@ -39,7 +39,7 @@ By default, the value for the property is “contains”.
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").FilterType(AutoCompleteFilterType.StartsWith)
+@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Fields(fields => fields.Text("name")).FilterType(AutoCompleteFilterType.StartsWith)
 {% endhighlight %}
 
 
@@ -51,26 +51,8 @@ EnableDistinct property is used to hide or show the duplicate items from the sug
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").EnableDistinct(true)
+@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Fields(fields => fields.Text("name")).EnableDistinct(true)
 {% endhighlight %}
-
-
-## Scrolling
-
-The AllowScrolling property defines whether to allow the scrolling functionality or not in the suggestion list. Default value is set to true.
-
-
-{% highlight html %}
-@model List<Cars>
-
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").AllowScrolling(false)
-{% endhighlight %}
-
-
-The following screenshot displays the ouput:
-
-![](Customize-suggestion-list_images/Customize-suggestion-list_img2.png)
-
 
 
 ## Sorting
@@ -88,7 +70,7 @@ The possible values are,
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").AllowScrolling(true).SortOrder(SortOrder.Descending).AllowSorting(true)
+        @Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Fields(fields => fields.Text("name")).SortOrder(SortOrder.Descending).AllowSorting(true)
 {% endhighlight %}
 
 
@@ -108,7 +90,7 @@ EmptyResultText property is used to customize the text that is displayed when no
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name")").ShowEmptyResultText(true).EmptyResultText("No Values available")
+        @Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Fields(fields => fields.Text("name")).ShowEmptyResultText(true).EmptyResultText("No Values available")
 {% endhighlight %}
 
 

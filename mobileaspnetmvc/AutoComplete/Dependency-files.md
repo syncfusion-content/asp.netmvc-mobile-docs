@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Mobile AutoComplete Dependency Files| AutoComplete  | MobileAspNetMVC | Syncfusion
-description: mobile autocomplete dependency files
+title: Dependency Files| AutoComplete  | MobileAspNetMVC | Syncfusion
+description: dependency files
 platform: mobileaspnetmvc
 control: AutoComplete 
 documentation: ug
 ---
 
-# Mobile AutoComplete dependency files
+# Dependency files
 
 This section deals with dependency files for AutoComplete textbox control. The file ej.mobile.all.min.js is a collection of Mobile Controls. When you are using this file, then you can skip this section. When not, then you need to refer to the following script files to render the AutoComplete control.
 

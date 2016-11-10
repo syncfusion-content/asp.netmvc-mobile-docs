@@ -31,7 +31,7 @@ You can create a MVC Project and add necessary Dll’s and Scripts with the help
 
 <!-- header control -->
 
-@Html.EJMobile().Header("header").Title("Photo Gallery")
+@Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Photo Gallery")
 
 <div id="content">
 
