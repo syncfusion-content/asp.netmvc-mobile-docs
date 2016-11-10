@@ -33,8 +33,7 @@ Refer to the following code example.
 
 <!-- header control -->
 
-@Html.EJMobile().Header("header").Title("Rotator")
-
+ @Html.EJMobile().NavigationBar("Header").Title("Rotator")
 
 
 <div id="rotatorcontentdefault">
@@ -89,9 +88,9 @@ Refer to the following code example.
 
     @{  
 
-@Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault").Orientation(Orientation.Vertical).ShowPager(true).PagerPosition(pager => { pager.PagerPositionVertical(PagerPositionVertical.Left);});
+        @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault").Orientation(Orientation.Vertical).ShowPager(true).PagerPosition(MobilePagerPosition.Left);
 
-}
+    }
 
 </div>
 
@@ -165,7 +164,7 @@ N> You can use the following styles for all the other samples explained as follo
 
 {% endhighlight %}
 
-![F:/thangavel/dev/source/Trunk/JSDoc/rotator-4.png](Orientation_images/Orientation_img1.png)
+![](Orientation_images/Orientation_img1.png)
 
 
 

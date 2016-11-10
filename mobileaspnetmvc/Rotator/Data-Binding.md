@@ -11,7 +11,7 @@ documentation: ug
 
 Essential Studio for ASP.NET MVC Mobile Rotator provides support for data binding. Data binding provides a simple and consistent way for applications to present and interact with data. Elements can be bound to data from a variety of data sources.
 
-Using DataBinding property you can enable the databinding and DataSource is used to get the datasource that holds the Rotator items. Refer to the following code example.
+DataSource is used to get the datasource that holds the Rotator items. Refer to the following code example.
 
 {% highlight html %}
 
@@ -21,7 +21,7 @@ Using DataBinding property you can enable the databinding and DataSource is used
 
 <!-- header control -->
 
-@Html.EJMobile().Header("header").Title("Photo Gallery")
+ @Html.EJMobile().NavigationBar("Header").Title("Rotator")
 
 <div id="rotatorcontentdefault">
 
@@ -39,7 +39,7 @@ Using DataBinding property you can enable the databinding and DataSource is used
 
 <div id="scrollparent">
 
-    @{     @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault").DataBinding(true).DataSource(Model);
+    @{     @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault").DataSource(Model);
 
     }
 
@@ -49,7 +49,7 @@ Using DataBinding property you can enable the databinding and DataSource is used
 
 
 
-![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Data-Binding_images/Data-Binding_img1.png)
+![](Data-Binding_images/Data-Binding_img1.png)
 
 
 
