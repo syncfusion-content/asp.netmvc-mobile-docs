@@ -21,7 +21,7 @@ DataSource is used to get the datasource that holds the Rotator items. Refer to 
 
 <!-- header control -->
 
- @Html.EJMobile().NavigationBar("Header").Title("Rotator")
+ @Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Rotator")
 
 <div id="rotatorcontentdefault">
 

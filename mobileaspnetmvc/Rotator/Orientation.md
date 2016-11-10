@@ -33,7 +33,7 @@ Refer to the following code example.
 
 <!-- header control -->
 
- @Html.EJMobile().NavigationBar("Header").Title("Rotator")
+ @Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Rotator")
 
 
 <div id="rotatorcontentdefault">

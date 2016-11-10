@@ -17,7 +17,7 @@ The TargetId property is used to define the Id of the target element where you c
 
 <!-- header control -->
 
-@Html.EJMobile().NavigationBar("Header").Title("Rotator")
+@Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Rotator")
 
 
 

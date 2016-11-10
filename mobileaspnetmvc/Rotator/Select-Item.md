@@ -15,7 +15,7 @@ Rotator control takes a numeric value given in CurrentItemIndex property and dis
 
 <!-- header control -->
 
-@Html.EJMobile().NavigationBar("Header").Title("Rotator")
+@Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Rotator")
 
 
 
