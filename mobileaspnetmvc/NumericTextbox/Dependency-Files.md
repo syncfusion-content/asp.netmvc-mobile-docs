@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Mobile Numeric Textbox Dependency Files| NumericTextbox | MobileAspNetMVC | Syncfusion
-description: mobile numeric textbox dependency files
+title: Dependency Files| NumericTextbox | MobileAspNetMVC | Syncfusion
+description: dependency files
 platform: mobileaspnetmvc
 control: NumericTextbox
 documentation: ug
 ---
 
-# Mobile Numeric Textbox dependency files
+# Dependency files
 
 This section deals with the dependency files for the Numeric Textbox control. The file, ej.mobile.all.min.js, is a mass collection of Mobile Controls. When you are using this file, you can skip this section. When you are not, you can refer to the following script files to render the Numeric Textbox control.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CustomizeWatermark Text| Numeric Textbox | MobileAspNetMVC | Syncfusion
+title: Customize Watermark Text| Numeric Textbox | MobileAspNetMVC | Syncfusion
 description: customize watermark text
 platform: mobileaspnetmvc
 control: Numeric Textbox
@@ -21,7 +21,7 @@ The WatermarkText property is used to define watermark text in the control, tha
 
 The following screenshot displays the output.
 
-![](CustomizeWatermark-Text_images/CustomizeWatermark-Text_img1.png)
+![](Customize-Watermark-Text_images/Customize-Watermark-Text_img1.png)
 
 
 

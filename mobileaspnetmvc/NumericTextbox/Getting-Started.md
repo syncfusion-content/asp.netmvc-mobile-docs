@@ -25,7 +25,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
    
    ~~~ html
 		<!--Page Header-->
-		@Html.EJMobile().Header("page_header").Title("Rooms Availability").Position(MobileHeaderPosition.Fixed)
+		@Html.EJMobile().NavigationBar("page_header").Title("Rooms Availability").Mode(NavBarMode.Header).Position(NavBarPosition.Auto)
 		<div id="content" class="content">
 		<div class="content_area">
 		<!--Numeric TextBox 1 code here-->
@@ -45,7 +45,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 			<!--Numeric TextBox 1 code-->
 			<div class="text_row">
 			<label>No of person per room :</label>
-			@Html.EJMobile().NumericTextbox("persontext").ShowSpinButton(true).MinimumValue(1).MaximumValue(6)
+			@Html.EJMobile().NumericTextbox("persontext").MinimumValue(1).MaximumValue(6)
 			</div>
 			
    ~~~		
@@ -62,7 +62,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 		<!--Numeric TextBox 2 code-->
 		<div class="text_row">
 		<label>No of rooms :</label>
-		@Html.EJMobile().NumericTextbox("roomstxt").ShowSpinButton(true).MinimumValue(1).MaximumValue(5)
+		@Html.EJMobile().NumericTextbox("roomstxt").MinimumValue(1).MaximumValue(5)
 		</div>
    
 
