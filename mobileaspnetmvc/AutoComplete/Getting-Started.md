@@ -15,7 +15,7 @@ This section explains briefly on how to create an AutoComplete control in your a
 
 The ASP.NET MVC Mobile AutoComplete control is a textbox control that provides a list of suggestions based on the query.  When you enter text into the text box, the control performs a search operation and provides a list of results. There are several filter types available, to perform the search. In the following example, you can learn how to create an application to search for a contact and learn about the features in AutoComplete widget.
 
-'![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 ### Create AutoComplete to search for a contact
@@ -30,7 +30,8 @@ Add the following code layout to the corresponding master page.
 
 
 {% highlight html %}
-    @Html.EJMobile().Header("header").Title("Contacts")
+
+    @Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Contacts")
 
     <div id="content">
 
@@ -43,6 +44,7 @@ Add the following code layout to the corresponding master page.
     </div>
 
     @Html.EJMobile().Scrollpanel("scroll").Target("content")
+	
 {% endhighlight %}
 
 
@@ -63,7 +65,7 @@ Add the following code example to render the AutoComplete control in the corresp
 {% endhighlight html %}
 
 
-![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
@@ -83,7 +85,7 @@ You can customize watermark text using the WatermarkText property as follows.
 
 
 
-![C:/Users/apoorvah.ramanathan/Desktop/1.png](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 ### Data Binding
@@ -103,8 +105,7 @@ using MVCSample.Models;
 public ActionResult Contacts()
 
         {
-
-                             ContactsModel.clearSource();
+            ContactsModel.clearSource();
 
             return View(ContactsModel.setSource());
 
@@ -123,7 +124,7 @@ N> Here “MVCSample” is your project name.
 
 @model List<Contacts>
 
-            @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource(Model).Field("name").FilterType(AutoCompleteFilterType.Contains)
+                   @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource(Model).Fields(fields=>fields.Text("name")).FilterType(AutoCompleteFilterType.Contains)
 
 {% endhighlight %}
 
@@ -145,7 +146,7 @@ AutoComplete textbox enables you to select multiple items from the suggestions l
 
 @model List<Contacts>
 
-            @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource(Model).Field("name").FilterType(AutoCompleteFilterType.Contains). EnableMultiSelect(true).DelimiterChar(";")    
+            @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource(Model).Fields(fields => fields.Text("name")).FilterType(AutoCompleteFilterType.Contains). EnableMultiSelect(true).DelimiterChar(";")    
 {% endhighlight %}
 
 
@@ -162,13 +163,12 @@ The Select eventenables you to handle AutoComplete selection. By assigning a fun
 {% highlight html %}
           <!-- Autocomplete control -->
 
-@Html.EJMobile().AutoComplete("contacts").WatermarkText("Search Contacts").DataSource(Model).Field("name").EnableMultiSelect(true).DelimiterChar(";").ClientSideEvents(c => c.Select("onSelect"))   
+    @Html.EJMobile().AutoComplete("contacts").WatermarkText("Search Contacts").DataSource(Model).Fields(fields => fields.Text("name")).EnableMultiSelect(true).DelimiterChar(";").ClientSideEvents(c => c.Select("onSelect"))
 
-     <!-- onSelect() function is called on selection of a suggestion item.-->
+        <!-- onSelect() function is called on selection of a suggestion item.-->
+        <!-- Dialog control -->
 
-     <!-- Dialog control -->
-
-@Html.EJMobile().Dialog("dialog").Title("Alert").EnableModal(true).LeftButtonCaption("OK").ClientSideEvents(c => c.ButtonTap("hidedialog")).Content(@<div id="dialogcontent"><!-- Dialog content --></div>)
+    @Html.EJMobile().Dialog("dialog").Title("Alert").EnableModal(true).LeftButtonCaption("OK").ClientSideEvents(c=>c.ButtonTap("")).Content(@<div id="dialogcontent"><!--Dialog content--></div>)
 
      </div>
 

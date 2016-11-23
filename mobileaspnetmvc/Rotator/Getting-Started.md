@@ -13,9 +13,9 @@ In this section, you can learn how to create Rotator for your mobile app.
 
 ## Create your first Rotator in MVC
 
-The Essential Studio for ASP.NET MVC Mobile Rotator widget is a container that helps you to navigate next and previous items through swipe gestures. Each item in Rotator can hold any html content. In the following guideline, you can learn the features in the MobileRotator widget by creating a Photo Gallery App.
+The Essential Studio for ASP.NET MVC Mobile Rotator widget is a container that helps you to navigate next and previous items through swipe gestures. Each item in Rotator can hold any html content. In the following guideline, you can learn the features in the Mobile Rotator widget by creating a Photo Gallery App.
 
-![C:/Users/labuser/AppData/Local/Temp/SNAGHTML1f8cc07.PNG](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -31,7 +31,7 @@ You can create a MVC Project and add necessary Dll’s and Scripts with the help
 
 <!-- header control -->
 
-@Html.EJMobile().Header("header").Title("Photo Gallery")
+@Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Photo Gallery")
 
 <div id="content">
 
@@ -180,7 +180,7 @@ Add the following styles to the Rotator items.
 
 Execute the above code to render the following output. 
 
-![C:/Users/labuser/Desktop/ac.png](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
@@ -198,7 +198,7 @@ Execute the above code to render the following output.
 
 
 
-![C:/Users/labuser/Desktop/b.png](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 
@@ -206,7 +206,7 @@ Execute the above code to render the following output.
 
 By swiping left and right, you can move to the other images in the Photo Gallery.
 
-![C:/Users/labuser/Desktop/c.png](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 
 

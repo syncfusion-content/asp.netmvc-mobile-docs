@@ -15,7 +15,7 @@ Rotator control takes a numeric value given in CurrentItemIndex property and dis
 
 <!-- header control -->
 
-@Html.EJMobile().Header("header").Title("Photo Gallery")
+@Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Rotator")
 
 
 
@@ -77,7 +77,7 @@ Rotator control takes a numeric value given in CurrentItemIndex property and dis
 
 
 
-![F:/thangavel/dev/source/Trunk/JSDoc/rotator-2.png](Select-Item_images/Select-Item_img1.png)
+![](Select-Item_images/Select-Item_img1.png)
 
 
 

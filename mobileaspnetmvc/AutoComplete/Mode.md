@@ -20,7 +20,8 @@ Default is used to render the AutoComplete as normal textbox. Search is used to 
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").Mode(Mode.Search)
+@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Fields(fields=>fields.Text("name")).Mode(Mode.Search)
+
 {% endhighlight %}
 
 

@@ -17,7 +17,7 @@ DataSource property is used to provide the suggestion list to the AutoComplete t
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name")
+@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Fields(fields => fields.Text("name"))
 {% endhighlight %}
 
 
@@ -96,7 +96,7 @@ Mapper property is used to specify the remote URL of the DataSource for the sugg
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").WatermarkText("Select Customer").FilterType(AutoCompleteFilterType.StartsWith).CaseSensitiveSearch(true).Mapper("http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers").Field("ContactName")
+@Html.EJMobile().AutoComplete("autocomplete_sample").WatermarkText("Select Customer").FilterType(AutoCompleteFilterType.StartsWith).CaseSensitiveSearch(true).DataSource(d => d.URL("http://mvc.syncfusion.com/Services/Northwnd.svc/Suppliers")).Fields(fields => fields.Text("ContactName"))
 {% endhighlight %}
 
 
@@ -114,7 +114,8 @@ ImageField property is used to map the specific field name of the given DataSour
 {% highlight html %}
 @model List<Countries>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("country").ImageField("flag")
+@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Fields(fields=>fields.Text("country").Image("flag"))
+
 {% endhighlight %}
 
 
@@ -166,7 +167,8 @@ ImageClass property is used to map the specific field name of the given DataSour
 {% highlight html %}
 @model List<Countries>
 
-@Html.EJMobile().AutoComplete("accmultivalue").DataSource(Model).Field("country").ImageClass("flag")
+@Html.EJMobile().AutoComplete("accmultivalue").DataSource(Model).Fields(fields=>fields.Text("country").Image("flag"))
+
 {% endhighlight %}
 
 

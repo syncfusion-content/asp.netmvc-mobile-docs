@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MinimumCharacter| AutoComplete  | MobileAspNetMVC | Syncfusion
-description: minimumcharacter
+title: Minimum Character| AutoComplete  | MobileAspNetMVC | Syncfusion
+description: minimum character
 platform: mobileaspnetmvc
 control: AutoComplete 
 documentation: ug
@@ -9,7 +9,7 @@ documentation: ug
 
 # MinimumCharacter
 
-MinimumCharacter specifies the minimum number of characters you can enter in the text box to display the suggestion list. By default the value is set to “1”.
+Minimum Character specifies the minimum number of characters you can enter in the text box to display the suggestion list. By default the value is set to “1”.
 
 
 {% highlight html %}

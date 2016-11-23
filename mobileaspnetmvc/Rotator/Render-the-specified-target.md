@@ -17,7 +17,7 @@ The TargetId property is used to define the Id of the target element where you c
 
 <!-- header control -->
 
-@Html.EJMobile().Header("header").Title("Photo Gallery")
+@Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Rotator")
 
 
 
@@ -81,7 +81,7 @@ The TargetId property is used to define the Id of the target element where you c
 {% endhighlight %}
 
 
-![F:/thangavel/dev/source/Trunk/JSDoc/rotator-1.png](Render-the-specified-target_images/Render-the-specified-target_img1.png)
+![](Render-the-specified-target_images/Render-the-specified-target_img1.png)
 
 
 

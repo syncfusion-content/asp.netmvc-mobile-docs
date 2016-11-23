@@ -9,15 +9,75 @@ documentation: ug
 
 # Customize header
 
-In Rotator you can enable the built-in header support.
+In Rotator you can enable the built-in header support. You can use Title property. You can set the title for NavigationBar using Title property. Refer to the following code example.
 
-To show or hide the header in Rotator, you can use ShowHeader property. You can set the title for header using HeaderTitle property. Refer to the following code example.
+{% highlight html %}
+
+<!-- header control -->
+
+@Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Photo Gallery")
 
 
 
+<div id="rotatorcontentdefault">
+
+    <div>
+
+        <div class="photo photo1">
+
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="photo photo2">
+
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="photo photo3">
+
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="photo photo4">
+
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="photo photo5">
+
+        </div>
+
+    </div>
+
+</div>
 
 
-![F:/thangavel/dev/source/Trunk/JSDoc/rotator-3.png](Customize-header_images/Customize-header_img1.png)
+
+<div id="scrollparent">
+
+    @{         @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault");
+
+    }
+
+</div>
+
+{% endhighlight %}
+
+
+
+![](Customize-header_images/Customize-header_img1.png)
 
 
 

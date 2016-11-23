@@ -15,7 +15,8 @@ EnableAutoFill property is used to automatically fill the AutoComplete textbox w
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").DataSource(Model).Field("name").FilterType(AutoCompleteFilterType.StartsWith).EnableAutoFill(true)
+ @Html.EJMobile().AutoComplete("autocomplete_sample").WatermarkText("Select a car").DataSource(Model).Fields(fields => fields.Text("name")).MinimumCharacter(2).EnableAutoFill(true)
+ 
 {% endhighlight %}
 
 

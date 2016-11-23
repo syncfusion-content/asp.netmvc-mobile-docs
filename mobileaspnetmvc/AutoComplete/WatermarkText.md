@@ -15,7 +15,7 @@ WatermarkText property displays text in the AutoComplete textbox when it is empt
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").WatermarkText("Select a car").DataSource(Model).Field("name").WatermarkText("Search a Car")
+        @Html.EJMobile().AutoComplete("autocomplete_sample").WatermarkText("Select a car").DataSource(Model).Fields(fields => fields.Text("name")).WatermarkText("Search a Car")
 {% endhighlight %}
 
 
