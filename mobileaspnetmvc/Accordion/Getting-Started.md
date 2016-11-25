@@ -5,8 +5,8 @@ description: getting started
 platform: mobileaspnetmvc
 control: Accordion
 documentation: ug
-keywords:accordion
-keywords:accordion
+keywords:accordion,expand,collapse
+
 ---
 
 # Getting Started
@@ -108,15 +108,15 @@ The SelectedItems property expands the specific content section, initially by us
 
 
 
-## Enable Header icons
+## Enable Expand and collapse icons
 
-By default Header icons are  visible. To make the icons invisible, set ShowHeaderIcon property to false.
+By default Header icons are  visible. To make the icons invisible, set "ShowHeaderIcon" property to false.
 
 
 {% highlight html %}
        <!--Accordion Control-->
 
-          @Html.EJMobile().Accordion("accordionControl").ShowHeaderIcon(false).Items(accItem =>
+          @Html.EJMobile().Accordion("accordionControl").ShowHeaderIcon(true).Items(accItem =>
              {
 
                  accItem.Add().Text("Recent Matches");
@@ -242,8 +242,7 @@ The following code example adds Recent Matches and Upcoming Matches panels’ co
 
 ## Load content on-demand
 
-In some cases, you can load content only when it is required. In this case, the OngoingMatches panel needs to be loaded only when you want to check for updates, since it refers a live content. To achieve this, specify AjaxUrl property with the respective URL of the view page file that contains the dynamic content.
-
+In some cases, you can load the Ajax content. content only when it is required. In this case, the OngoingMatches panel needs to be loaded only when you want to check for updates, since it refers a live content. To achieve this, specify AjaxUrl property with the respective URL of the view page file that contains the dynamic content.Specify “Href” attribute with the respective URL of the HTML file that contains the dynamic content. The data-ej-spinnertext attribute is used to show the loading text, while getting (waiting for) the response from the server (via Ajax request).
 
 {% highlight html%}
 

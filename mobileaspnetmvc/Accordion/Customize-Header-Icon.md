@@ -4,13 +4,13 @@ title: Customize Header Icon| Accordion | MobileAspNetMVC | Syncfusion
 description: customize header icon
 platform: mobileaspnetmvc
 control: Accordion
-keywords:accordion
+keywords:accordion,expand,collapse
 documentation: ug
 ---
 
-# Customize Header Icon
+# Customize expand and collapse icon
 
-The “ShowHeaderIcon” property is used to display the default icon for the Accordion header. By default, header icons are visible. To make the icons invisible, set 'ShowHeaderIcon' to false.
+The “ShowHeaderIcon” property is used to display the expand and collapse icon of the Accordion. By default, header icons are visible. To make the icons invisible, set 'ShowHeaderIcon' to false.
 
 {% highlight html %}
 
@@ -38,8 +38,8 @@ The “ShowHeaderIcon” property is used to display the default icon for the Ac
 {% endhighlight %}
 
 
-The following screenshot displays header icon:
+The following screenshot displays expand and collapse icon
 
 
 
-![](Customize-Header-Icon_images/Customize-Header-Icon_img1.png)
+![](Customize-Header-Icon_images/Customize-expandandcollapse_img1.png)

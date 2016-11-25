@@ -4,7 +4,7 @@ title: Disable Rating| Rating | MobileAspNetMVC | Syncfusion
 description: disable rating
 platform: mobileaspnetmvc
 control: Rating
-keywords:rating
+keywords:rating,disable
 documentation: ug
 ---
 

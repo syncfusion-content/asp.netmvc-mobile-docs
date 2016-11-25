@@ -4,7 +4,7 @@ title: Mode| Dialog | MobileAspNetMVC | Syncfusion
 description: mode
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog
+keywords:dialog,mode
 documentation: ug
 ---
 

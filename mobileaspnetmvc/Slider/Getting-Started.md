@@ -4,7 +4,7 @@ title: Getting Started| Slider | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Slider
-keywords:slider
+keywords:slider,events
 documentation: ug
 ---
 
@@ -271,7 +271,7 @@ Execute the above code to render the following output, when you click submit.
 
 
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 

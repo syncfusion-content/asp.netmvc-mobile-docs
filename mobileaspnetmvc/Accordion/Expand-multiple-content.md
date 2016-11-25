@@ -4,13 +4,13 @@ title: Expand Multiple Content| Accordion | MobileAspNetMVC | Syncfusion
 description: expand multiple content 
 platform: mobileaspnetmvc
 control: Accordion
-keywords:accordion
+keywords:accordion,expand,collpase
 documentation: ug
 ---
 
 # Expand multiple content 
 
-EnableMultipleOpen property is used to display or expand more than one item at a time. The index of the items to be expanded can be specified by using SelectedItems property as an array.
+"EnableMultipleOpen" property is used to display or expand more than one item at a time. The index of the items to be expanded can be specified by using "SelectedItems" property as an array.
 
 
 

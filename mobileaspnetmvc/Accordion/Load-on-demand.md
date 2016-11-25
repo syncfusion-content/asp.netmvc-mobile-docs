@@ -4,31 +4,31 @@ title: Load On Demand| Accordion | MobileAspNetMVC | Syncfusion
 description: load on demand
 platform: mobileaspnetmvc
 control: Accordion
-keywords:accordion
+keywords:accordion,load
 documentation: ug
 ---
 
 # Load on demand
 
-In some cases, you can load content only when it is required. To achieve this, specify “AjaxUrl” property with the respective URL of the HTML file that contains the dynamic content. SpinnerText property is used to show the loading text, while getting (waiting for) the response from the server (via Ajax request).
+Enable the "Enableajax" property to load the Ajax content. To achieve this, specify “Href” attribute with the respective URL of the HTML file that contains the dynamic content. The data-ej-spinnertext attribute is used to show the loading text, while getting (waiting for) the response from the server (via Ajax request).
 
 
 
 
 {% highlight html %}
-@{ Html.EJMobile().Accordion("accordion_sample").SpinnerText("Loading..").Items(accItem =>
-
+ @{ Html.EJMobile().Accordion("accordion_sample").EnableAjax(true).SpinnerText("Loading..").Items(accItem =>
         {
 
-         accItem.Add().Text("MVC").Href(@Url.Content("~/accordion/text1"));
+            accItem.Add().Text("MVC").Href(@Url.Content("~/accordion/text1"));
 
-         accItem.Add().Text("WPF").Href(@Url.Content("~/accordion/text2"));
+            accItem.Add().Text("WPF").Href(@Url.Content("~/accordion/text2"));
 
-         accItem.Add().Text("WCF").Href(@Url.Content("~/accordion/text3"));
+            accItem.Add().Text("WCF").Href(@Url.Content("~/accordion/text3"));
 
 
 
-         }).Render();}
+        }).Render();}
+
 {% endhighlight %}
 
 

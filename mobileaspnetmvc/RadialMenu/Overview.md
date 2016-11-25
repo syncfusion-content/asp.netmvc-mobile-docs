@@ -5,7 +5,7 @@ description: overview
 platform: mobileaspnetmvc
 control: Radial Menu
 keywords:radialmenu
-documentation: ug
+documentation: ug,features
 ---
 
 # Radial Menu

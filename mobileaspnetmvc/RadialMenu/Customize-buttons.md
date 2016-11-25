@@ -4,7 +4,7 @@ title: Customize buttons| Radial Menu | MobileAspNetMVC | Syncfusion
 description: customize buttons
 platform: mobileaspnetmvc
 control: Radial Menu
-keywords:radialmenu
+keywords:radialmenu,button
 documentation: ug
 ---
 

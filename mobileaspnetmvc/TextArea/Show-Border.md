@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Border Support| TextArea | MobileAspNetMVC | Syncfusion
-description: Border Support
+description: Border style
 platform: mobileaspnetmvc
 control: TextArea
-keywords:textArea
+keywords:textArea,style
 documentation: ug
 ---
 
-# Border Support
+# Border style
 
 The BorderStyle property is used to decide the style of the border.
 

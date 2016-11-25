@@ -4,7 +4,7 @@ title: Button Customization| Dialog | MobileAspNetMVC | Syncfusion
 description: button customization
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog
+keywords:dialog,button
 documentation: ug
 ---
 

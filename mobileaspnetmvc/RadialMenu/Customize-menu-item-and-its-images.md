@@ -4,7 +4,7 @@ title: Customize menu item and its images| Radial Menu | MobileAspNetMVC | Syncf
 description: customize menu item and its images
 platform: mobileaspnetmvc
 control: Radial Menu
-keywords:radialmenu
+keywords:radialmenu,image
 documentation: ug
 ---
 

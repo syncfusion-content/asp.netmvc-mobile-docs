@@ -16,7 +16,7 @@ This section briefly describes how to create Essential MVC Mobile Textbox widget
 
 To create a textbox for the login page in the mobile application, follow the guidelines given. 
 
-![D:/Final Doc/mockup/IMG_0526_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -134,7 +134,7 @@ To create the Textbox control, add the following code.
 
 Run the code and get the following output.
 
-![D:/Final Doc/mockup/IMG_0531_iphone5s_spacegrey_portrait.png](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 

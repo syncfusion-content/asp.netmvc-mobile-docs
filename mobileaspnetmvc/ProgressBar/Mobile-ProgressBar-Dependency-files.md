@@ -4,7 +4,7 @@ title: Mobile ProgressBar Dependency files| ProgressBar | MobileAspNetMVC | Sync
 description:Dependency files
 platform: mobileaspnetmvc
 control: ProgressBar
-keywords:progressBar
+keywords:progressbar,dependency
 documentation: ug
 ---
 

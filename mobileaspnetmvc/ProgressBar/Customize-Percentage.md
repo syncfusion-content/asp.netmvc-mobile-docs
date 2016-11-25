@@ -4,13 +4,13 @@ title: Customize Percentage| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize percentage
 platform: mobileaspnetmvc
 control: ProgressBar
-keywords:progressBar
+keywords:progressbar,percentage
 documentation: ug
 ---
 
 # Customize Percentage
 
-Percentage property is used to specify the ProgressBar value in percentage that depends on maximum value. You can refer to the following code examples.  
+ Specifies the ProgressBar value in percentage that depends on maximum value. You can refer to the following code examples.  
 
 {% highlight html %}
 

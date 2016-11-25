@@ -4,7 +4,7 @@ title: Masking| Textbox | MobileAspNetMVC | Syncfusion
 description: masking
 platform: mobileaspnetmvc
 control: Textbox
-keywords:textbox
+keywords:textbox,mask
 documentation: ug
 ---
 
@@ -22,5 +22,5 @@ Refer to the following code example.
 
 
 
-{% include image.html url="Masking_images/Masking_img1.png" Caption="Textbox –mask property"%}
+
 

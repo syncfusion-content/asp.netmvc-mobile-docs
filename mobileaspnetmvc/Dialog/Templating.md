@@ -4,7 +4,7 @@ title: Templating| Dialog | MobileAspNetMVC | Syncfusion
 description: templating                                  
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog
+keywords:dialog,templating
 documentation: ug
 ---
 

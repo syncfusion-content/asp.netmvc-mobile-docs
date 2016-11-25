@@ -5,6 +5,7 @@ description: Dependency files
 platform: mobileaspnetmvc
 control: Accordion
 documentation: ug
+keywords:accordion,depencency
 ---
 
 # Dependency files

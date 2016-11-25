@@ -4,7 +4,7 @@ title: Customize Content Height| Accordion | MobileAspNetMVC | Syncfusion
 description: customize content height 
 platform: mobileaspnetmvc
 control: Accordion
-keywords:accordion
+keywords:accordion,height
 documentation: ug
 ---
 
@@ -45,11 +45,11 @@ WCF is a tool often used to implement and deploy a service-oriented architecture
 {% endhighlight %}
 
 
-The following screenshot displays the customizedcontent height:
+The following screenshot displays the customized "auto" content height:
 
 
 
-![C:/Users/isuriyar/Desktop/acc scr/heht.png](Customize-content-height_images/Customize-content-height_img1.png)
+![](Customize-content-height_images/Customize-content-height_img1.png)
 
 
 

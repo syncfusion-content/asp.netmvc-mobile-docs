@@ -4,7 +4,7 @@ title: Getting Started| TextArea | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: TextArea
-keywords:textArea
+keywords:textarea
 documentation: ug
 ---
 
@@ -94,7 +94,7 @@ Add the following styles to show the TextArea control in an order.
 
 Run this code example and you can see the following output.
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 

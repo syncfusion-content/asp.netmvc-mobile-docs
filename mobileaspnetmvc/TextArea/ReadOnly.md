@@ -4,7 +4,7 @@ title: ReadOnly| TextArea | MobileAspNetMVC | Syncfusion
 description: readonly
 platform: mobileaspnetmvc
 control: TextArea
-keywords:textArea
+keywords:textarea,readonly
 documentation: ug
 ---
 

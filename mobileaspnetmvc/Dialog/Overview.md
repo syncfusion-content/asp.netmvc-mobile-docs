@@ -4,7 +4,7 @@ title: Overview| Dialog | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog
+keywords:dialog,features
 documentation: ug
 ---
 

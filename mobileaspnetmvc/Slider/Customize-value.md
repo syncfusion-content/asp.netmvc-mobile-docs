@@ -4,7 +4,7 @@ title: Customize value| Slider | MobileAspNetMVC | Syncfusion
 description: customize value
 platform: mobileaspnetmvc
 control: Slider
-keywords:slider
+keywords:slider,value
 documentation: ug
 ---
 
@@ -20,7 +20,7 @@ Value property is used to set the value for the Slider on initialization. Maximu
 
 The following screenshot displays the customized Slider Value:
 
-![C:/Users/dineshr/Desktop/val.png](Customize-value_images/Customize-value_img1.png)
+![](Customize-value_images/Customize-value_img1.png)
 
 
 

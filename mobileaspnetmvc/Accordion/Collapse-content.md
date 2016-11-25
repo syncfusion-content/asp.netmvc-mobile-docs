@@ -4,7 +4,7 @@ title: Collapse Content| Accordion | MobileAspNetMVC | Syncfusion
 description: collapse content
 platform: mobileaspnetmvc
 control: Accordion
-keywords:accordion
+keywords:accordion.collapse
 documentation: ug
 ---
 

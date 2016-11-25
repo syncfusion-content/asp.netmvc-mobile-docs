@@ -4,7 +4,7 @@ title: Scrolling Settings| Dialog | MobileAspNetMVC | Syncfusion
 description: scrolling settings
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog
+keywords:dialog,scrolling
 documentation: ug
 ---
 
