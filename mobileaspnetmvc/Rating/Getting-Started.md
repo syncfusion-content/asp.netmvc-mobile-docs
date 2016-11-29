@@ -4,7 +4,7 @@ title: Getting Started| Rating | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Rating
-keywords:rating
+keywords: rating
 documentation: ug
 ---
 

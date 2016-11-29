@@ -5,7 +5,7 @@ description: getting started
 platform: mobileaspnetmvc
 control: Accordion
 documentation: ug
-keywords:accordion,expand,collapse
+keywords: accordion, expand, collapse
 
 ---
 

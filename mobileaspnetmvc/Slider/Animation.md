@@ -4,7 +4,7 @@ title: Animation| Slider | MobileAspNetMVC | Syncfusion
 description: animation
 platform: mobileaspnetmvc
 control: Slider
-keywords:slider,animation
+keywords: slider, animation
 documentation: ug
 ---
 

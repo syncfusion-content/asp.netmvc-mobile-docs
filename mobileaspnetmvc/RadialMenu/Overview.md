@@ -4,8 +4,8 @@ title: Overview| Radial Menu | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Radial Menu
-keywords:radialmenu
-documentation: ug,features
+keywords: radialmenu, features
+documentation: ug
 ---
 
 # Radial Menu

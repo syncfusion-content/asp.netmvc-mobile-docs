@@ -4,7 +4,7 @@ title: Overlay| Dialog | MobileAspNetMVC | Syncfusion
 description: overlay
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog
+keywords: dialog
 documentation: ug
 ---
 

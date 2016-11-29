@@ -4,7 +4,7 @@ title: Customize Precision| Rating | MobileAspNetMVC | Syncfusion
 description: customize precision
 platform: mobileaspnetmvc
 control: Rating
-keywords:rating,precision
+keywords: rating, precision
 documentation: ug
 ---
 

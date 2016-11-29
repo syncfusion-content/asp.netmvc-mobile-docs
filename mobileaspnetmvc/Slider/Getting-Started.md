@@ -4,7 +4,7 @@ title: Getting Started| Slider | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Slider
-keywords:slider,events
+keywords: slider, events
 documentation: ug
 ---
 

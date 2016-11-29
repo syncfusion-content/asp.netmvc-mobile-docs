@@ -4,7 +4,7 @@ title: Mobile Slider dependency files| Slider | MobileAspNetMVC | Syncfusion
 description: Dependency files
 platform: mobileaspnetmvc
 control: Slider
-keywords:slider,dependancy
+keywords: slider, dependancy
 documentation: ug
 ---
 

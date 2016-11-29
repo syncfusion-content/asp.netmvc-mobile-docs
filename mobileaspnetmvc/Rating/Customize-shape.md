@@ -4,7 +4,7 @@ title: Customize shape| Rating | MobileAspNetMVC | Syncfusion
 description: customize shape
 platform: mobileaspnetmvc
 control: Rating
-keywords:rating,shape
+keywords: rating, shape
 documentation: ug
 ---
 

@@ -4,7 +4,7 @@ title: Getting Started| Dialog | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog,model
+keywords: dialog, model
 documentation: ug
 ---
 

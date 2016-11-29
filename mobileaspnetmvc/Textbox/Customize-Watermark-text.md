@@ -4,7 +4,7 @@ title: Customize Watermark text| Textbox | MobileAspNetMVC | Syncfusion
 description: customize watermark text
 platform: mobileaspnetmvc
 control: Textbox
-keywords:textbox,watermarktext
+keywords: textbox, watermarktext
 documentation: ug
 ---
 

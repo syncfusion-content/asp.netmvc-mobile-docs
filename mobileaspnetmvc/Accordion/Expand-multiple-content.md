@@ -4,7 +4,7 @@ title: Expand Multiple Content| Accordion | MobileAspNetMVC | Syncfusion
 description: expand multiple content 
 platform: mobileaspnetmvc
 control: Accordion
-keywords:accordion,expand,collpase
+keywords: accordion, expand, collpase
 documentation: ug
 ---
 

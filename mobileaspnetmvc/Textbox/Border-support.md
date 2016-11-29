@@ -4,7 +4,7 @@ title: Border style| Textbox | MobileAspNetMVC | Syncfusion
 description: border style
 platform: mobileaspnetmvc
 control: Textbox
-keywords:textbox,border
+keywords: textbox, border
 documentation: ug
 ---
 

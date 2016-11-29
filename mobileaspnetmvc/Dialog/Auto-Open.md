@@ -4,7 +4,7 @@ title: Auto Open| Dialog | MobileAspNetMVC | Syncfusion
 description: auto open
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog,auto-open
+keywords: dialog, auto-open
 documentation: ug
 ---
 

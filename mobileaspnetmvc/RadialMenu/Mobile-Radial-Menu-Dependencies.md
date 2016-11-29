@@ -4,7 +4,7 @@ title: Mobile Radial Menu dependency files| Radial Menu | MobileAspNetMVC | Sync
 description:Dependency files
 platform: mobileaspnetmvc
 control: Radial Menu
-keywords:radialmenu,dependencies
+keywords: radialmenu, dependencies
 documentation: ug
 ---
 

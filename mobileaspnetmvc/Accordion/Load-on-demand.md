@@ -4,7 +4,7 @@ title: Load On Demand| Accordion | MobileAspNetMVC | Syncfusion
 description: load on demand
 platform: mobileaspnetmvc
 control: Accordion
-keywords:accordion,load
+keywords: accordion, load
 documentation: ug
 ---
 

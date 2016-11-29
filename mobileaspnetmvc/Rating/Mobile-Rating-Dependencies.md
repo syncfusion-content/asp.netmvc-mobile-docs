@@ -4,7 +4,7 @@ title: Mobile Rating Dependency files| Rating | MobileAspNetMVC | Syncfusion
 description: Dependency files
 platform: mobileaspnetmvc
 control: Rating
-keywords:rating,dependency
+keywords: rating, dependency
 documentation: ug
 ---
 

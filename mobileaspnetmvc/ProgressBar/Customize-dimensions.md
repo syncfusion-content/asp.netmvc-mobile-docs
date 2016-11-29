@@ -4,7 +4,7 @@ title: Customize dimensions| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize dimensions
 platform: mobileaspnetmvc
 control: ProgressBar
-keywords:progressbar,height
+keywords: progressbar, height
 documentation: ug
 ---
 
