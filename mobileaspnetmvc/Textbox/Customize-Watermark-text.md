@@ -4,6 +4,7 @@ title: Customize Watermark text| Textbox | MobileAspNetMVC | Syncfusion
 description: customize watermark text
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox,watermarktext
 documentation: ug
 ---
 
@@ -15,13 +16,13 @@ Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox")
+    @Html.EJMobile().TextBox("textbox_sample").WatermarkText("Custom WaterMark").Width("200px")
 
 {% endhighlight %}
 
 The following screenshot displays the customization of the text with WatermarkText property.
 
-![D:/Final Doc/mockup/IMG_0530_iphone5s_spacegrey_portrait.png](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)
+![](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)
 
 
 

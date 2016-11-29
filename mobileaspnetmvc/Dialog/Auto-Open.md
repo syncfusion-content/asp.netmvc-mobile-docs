@@ -4,24 +4,26 @@ title: Auto Open| Dialog | MobileAspNetMVC | Syncfusion
 description: auto open
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog,auto-open
 documentation: ug
 ---
 
 # Auto Open
 
-The EnableAutoOpen property is used to open the Dialog box on initial loading. The default value is false.
+To open the Dialog box on initial loading. The default value is false.
 
 
 {% highlight html %}
-@{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableAutoOpen(true).Content(@<div>
+            @{
 
-Syncfusion provides software components and tools for the Microsoft .NET platform
+                @Html.EJMobile().Dialog("alertdlg").Title("London").LeftButtonCaption("Cancel").EnableAutoOpen(true).Content(@<div>
 
-</div>)
+                    London, one of the most popular tourist destination in the world for a reason.
 
-}
+                </div>)
+
+            }
 {% endhighlight %}
 
 

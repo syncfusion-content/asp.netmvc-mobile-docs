@@ -4,12 +4,13 @@ title: Customize Orientation| Rating | MobileAspNetMVC | Syncfusion
 description: customize orientation        
 platform: mobileaspnetmvc
 control: Rating
+keywords:rating,orientation
 documentation: ug
 ---
 
 # Customize Orientation        
 
-Customize Orientation specifies the display orientation. It can be,
+Rating provides support for vertical orientation. By default Rating renders with horizontal orientation. You can the change the orientation by the "Orientation" property.
 
 1. Horizontal.
 2. Vertical. 

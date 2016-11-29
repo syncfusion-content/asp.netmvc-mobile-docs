@@ -4,6 +4,7 @@ title: Getting Started| TextArea | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: TextArea
+keywords:textarea
 documentation: ug
 ---
 
@@ -30,7 +31,7 @@ Create an HTML file and add the following template to the HTML file.
 {% highlight html %}
 
 <!-- header control -->          
-@Html.EJMobile().Header("mailheader").Title("New Message")
+@Html.EJMobile().NavigationBar("mailheader").Title("New Message")
 
 <div id="mailcontainer" class="sample">
 
@@ -93,7 +94,7 @@ Add the following styles to show the TextArea control in an order.
 
 Run this code example and you can see the following output.
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 

@@ -4,6 +4,7 @@ title: Getting Started| Slider | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Slider
+keywords:slider,events
 documentation: ug
 ---
 
@@ -31,27 +32,21 @@ You can create a MVC project and add necessary DLL’s and scripts with the help
 
 {% highlight html %}
 
-@Html.EJMobile().Header("header").Title("Shopping cart")
-
-
+@Html.EJMobile().NavigationBar("header").Title("Shopping cart")
 
 <div id="content">
+    <div>
+
+        <!--Render Slider control!-->
 
 
-
-<div>
-
-
-
-@RenderBody()
-
+    </div>
 
 
 </div>
 
+@Html.EJMobile().Scrollpanel("scroll").Target("content")
 
-
-</div>
 
 
 
@@ -63,74 +58,75 @@ Add the following code example to the corresponding view page.
 
 {% highlight html %}
 
-<div id="form" style="margin: 20px;">
+<div class="sample">
+    <div id="form">
+        <div>
+            <div>
+                <span class="text">Search-->Mobile Phones-->Filter</span>
+            </div>
+            <br>
+            <span class="text">Operating System</span>
+        </div>
 
-     <div style="margin-bottom: 10px">
+        <!-- create check box for different OS  -->
 
-         <div style="margin-top:10px;">
+        <div align="center" id="checkbox" style="margin-bottom:10px">
 
-             <h1>Search-->MobilePhones-->Filter</h1>
+            <table border="0" cellpadding="6">
 
-          </div>
+                <tr>
+                    <td>
+                        @Html.EJMobile().CheckBox("check1")IOS7
+                    </td>
+                </tr>
 
-           <h1>Operating System</h1>
+                <tr>
+                    <td>
+                        @Html.EJMobile().CheckBox("check3")Android
+                    </td>
+                </tr>
 
-      </div>
+                <tr>
+                    <td>
+                        @Html.EJMobile().CheckBox("check2")Windows
+                    </td>
+                </tr>
 
-       <!-- create check box for different OS  -->
+            </table>
 
-       <div align="center" id="checkbox" style="margin-bottom:10px">
+        </div>
 
-       <table border="0" cellpadding="6">
+        <div style="margin-bottom: 10px">
 
-        <tr>
+            <span class="text">Price Range</span>
 
-         @Html.EJMobile().CheckBox("check1").Text("IOS7")
+        </div>
+        <span id="min" style="float: left;"></span>
+        <span id="max" style="float: right;"></span>
 
-        </tr>
+        <!—Add your Slider control here-->
 
-        <tr>
+    </div>
+    <div align=center style="margin-top:20px;">
 
-          @Html.EJMobile().CheckBox("check3").Text("Android")
+        @Html.EJMobile().Button("submit").Text("SUBMIT").ClientSideEvents(events => events.TouchEnd("openAlertDialog"))
 
-        </tr>
+    </div>
 
-        <tr>
+    <!-- dialog control -->
+    @Html.EJMobile().Dialog("alert").Title("Dialog").LeftButtonCaption("OK").ClientSideEvents(events=> events.ButtonTap("alertClose")).Content(@<div>
 
-          @Html.EJMobile().CheckBox("check2").Text("Windows")
+      Based on your suggestions the phones will display now
 
-        </tr>
+    </div>).EnableAutoOpen(false)
 
-       </table>
-
-           </div>
-
-           <div style="margin-bottom: 10px">
-
-               <h1>Price Range</h1>
-
-            </div>
-
-            <b>Min:</b><span id="min">      <b>Max:  </b></span><span id="max" style="float:right"></span>
-
-             <!—Add your Slider control here-->
-
-             </div>
-
-             <div align=center style="margin-top:20px;">
-
-            @Html.EJMobile().Button("submit").Text("SUBMIT").ClientSideEvents(events => events.TouchEnd("openAlertDialog"))
-
-              </div>
-
-              <!-- dialog control -->
-
-   @Html.EJMobile().Dialog("alert").LeftButtonCaption("OK").ClientSideEvents(events r=> events.ButtonTap("alertClose")).Content(@<div>
-
-      <!-- Based on your suggestions the phones will display now -->
-
-</div>).EnableAutoOpen(false)
-
+</div>
+<style type="text/css">
+    span.text {
+        font-size: 17px;
+        font-weight: bold;
+    }
+ </style>   
 
 {% endhighlight %}
 
@@ -233,7 +229,7 @@ You can get the present value of both the Slider handles at any time using its g
 
 Execute the above code to render the following output. 
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 
@@ -250,7 +246,7 @@ function alertClose() {
 
 
 
-        $("#alertdlg").ejmDialog("close");
+         dialogObject.close()
 
 
 
@@ -260,12 +256,9 @@ function alertClose() {
 
          function openAlertDialog(args) {
 
+             dialogObject.open()
 
-
-        App.activePage.find("#alertdlg").ejmDialog("open");
-
-
-
+ 
     }//close dialog
 
 </script>
@@ -278,7 +271,7 @@ Execute the above code to render the following output, when you click submit.
 
 
 
-![](Getting-Started_images/Getting-Started_img6.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
 

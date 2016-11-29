@@ -4,6 +4,7 @@ title: Style and Appearance| Dialog | MobileAspNetMVC | Syncfusion
 description: style and appearance
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog,styles
 documentation: ug
 ---
 

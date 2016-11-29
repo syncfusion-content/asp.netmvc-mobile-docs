@@ -4,12 +4,13 @@ title: Overview| Textbox | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox,theme
 documentation: ug
 ---
 
 # Textbox
 
-TheEssential JavaScript Mobile Textboxis used to display or get any value. In this control, you can customize the various features. 
+The Essential JavaScript Mobile Textbox is used to display or get any value. In this control, you can customize the various features. 
 
 ## Key Features
 

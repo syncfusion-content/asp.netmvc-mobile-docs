@@ -1,27 +1,28 @@
 ---
 layout: post
-title: Border support| Textbox | MobileAspNetMVC | Syncfusion
-description: border support
+title: Border style| Textbox | MobileAspNetMVC | Syncfusion
+description: border style
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox,border
 documentation: ug
 ---
 
-# Border support
+# Border style
 
-The ShowBorder property is used to decide whether the Textbox border can be visible or hidden. The default value is true.
+The 'BorderStyle' property is used to decide the style of the border.
 
 Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox").ShowBorder(false)
+   @Html.EJMobile().TextBox("textbox_sample").WatermarkText("Textbox").BorderStyle(MobileTextboxBorderStyle.None).Width("200px")
 
 {% endhighlight %}
 
 The following screenshot displays the ShowBorder property.
 
-![D:/Final Doc/mockup/IMG_0527_iphone5s_spacegrey_portrait.png](Border-support_images/Border-support_img1.png)
+![](Border-support_images/Border-support_img1.png)
 
 
 

@@ -4,6 +4,7 @@ title: Styles And Appearance| Accordion | MobileAspNetMVC | Syncfusion
 description: styles and appearance
 platform: mobileaspnetmvc
 control: Accordion
+keywords:accordion,styles,appearenece
 documentation: ug
 ---
 

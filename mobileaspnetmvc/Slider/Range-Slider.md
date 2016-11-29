@@ -4,6 +4,7 @@ title: Range Slider| Slider | MobileAspNetMVC | Syncfusion
 description: range slider
 platform: mobileaspnetmvc
 control: Slider
+keywords:slider,rangeslider
 documentation: ug
 ---
 
@@ -13,7 +14,7 @@ The “EnableRange” property is used to select the range of values that is fro
 
 {% highlight html %}
 
-@Html.EJMobile().Slider("slider_sample").EnableRange(true) ).Values(new int[] {30, 90})
+    @Html.EJMobile().Slider("slider_sample").EnableRange(true).Values(new int[] {30, 90})
 
 {% endhighlight %}
 

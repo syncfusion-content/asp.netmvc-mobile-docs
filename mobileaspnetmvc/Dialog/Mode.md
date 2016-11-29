@@ -4,6 +4,7 @@ title: Mode| Dialog | MobileAspNetMVC | Syncfusion
 description: mode
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog,mode
 documentation: ug
 ---
 
@@ -13,8 +14,8 @@ The Mode property specifies the different types of dialog modes. The possible va
 
 1. Alert mode. 
 2. Confirm mode.
-3. Normal mode.
-4. Full view mode.
+3. Custom mode.
+
 
 ## Alert Mode
 
@@ -66,7 +67,7 @@ The following screenshot displays the output.
 
 ## Confirm Mode
 
-The ConfirmDialog box property is mostly used to take the user's consent on any option. It displays a Dialog box with two buttons, Ok and Cancel. Ok button returns true and Cancel button returns false.
+The ConfirmDialog box property is mostly used to take the user's content on any option. It displays a Dialog box with two buttons, Ok and Cancel. Ok button returns true and Cancel button returns false.
 
 {% tabs %}
 {% highlight html %}
@@ -111,31 +112,33 @@ The following screenshot displays the output.
 ![](Mode_images/Mode_img2.png)
 
 
-## Normal Mode
+## Custom Mode
 
-The Normal Mode Dialog box property is used to display the message in sub screen area on a whole screen. It displays a Dialog box with two buttons, Continue and Cancel. Continue button returns true and Cancel button returns false. It is suitable for tablet devices.
+The custom'Mode' Dialog box property  displays the dialog as custom type.
 
 {% tabs %}
 {% highlight html %}
-@{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome").Mode(DialogMode.Normal).Content(
+            @{
 
-@<div>
+                @Html.EJMobile().Dialog("alertdlg").Title("Welcome").Mode(DialogMode.Custom).Content(
 
-Syncfusion provides software components and tools for the Microsoft .NET platform.
+                    @<div>
 
-</div>)
+                         London, one of the most popular tourist destination in the world for a reason.
 
-}
+                    </div>)
+
+            }
 
 
 
-<div style="text-align: center">
+            <div style="text-align: center">
 
-@Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
+                @Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
 
-</div>
+            </div>
+
 {% endhighlight %}
 
 {% highlight javascript %}
@@ -157,49 +160,5 @@ The following screenshot displays the output.
 
 ![](Mode_images/Mode_img3.png)
 
-
-## Full View Mode
-
-The FullViewDialog box property is used to display messages on full screen and it is suitable for mobile devices.
-
-{% tabs %}
-{% highlight html %}
-@{
-
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome").Mode(DialogMode.Fullview).Content(@<div>
-
-Syncfusion provides software components and tools for the Microsoft .NET platform.
-
-</div>)
-
-}
-
-
-
-<div style="text-align: center">
-
-@Html.EJMobile().Button("btn1").Text("Click here to open dialog").ClientSideEvents(evt => { evt.TouchEnd("openAlertDialog"); })
-
-</div>
-{% endhighlight %}
-
-{% highlight javascript %}
-
-
-
-
-        function openAlertDialog(args)
-
-        {
-
-            App.activePage.find("#alertdlg").ejmDialog("open");
-
-        }
-{% endhighlight %}
-{% endtabs %}
-
-The following screenshot displays the output.
-
-![](Mode_images/Mode_img4.png)
 
 

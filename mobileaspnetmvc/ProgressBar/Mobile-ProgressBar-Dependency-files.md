@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Mobile ProgressBar Dependency files| ProgressBar | MobileAspNetMVC | Syncfusion
-description: mobile progressbar dependency files
+description:Dependency files
 platform: mobileaspnetmvc
 control: ProgressBar
+keywords:progressbar,dependency
 documentation: ug
 ---
 
-## Mobile ProgressBar Dependency files
+## Dependency files
 
 This section deals with the dependency files for ProgressBar control. The file ej.mobile.all.min.js is a collection of Mobile Controls. If you are using this file, then you can skip this section. If not, then you need to refer to the following script files to render the ProgressBar control.
 

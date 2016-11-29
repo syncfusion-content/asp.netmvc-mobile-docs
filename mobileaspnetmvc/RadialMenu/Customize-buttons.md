@@ -4,6 +4,7 @@ title: Customize buttons| Radial Menu | MobileAspNetMVC | Syncfusion
 description: customize buttons
 platform: mobileaspnetmvc
 control: Radial Menu
+keywords:radialmenu,button
 documentation: ug
 ---
 
@@ -18,14 +19,11 @@ Refer to the following code example.
 {% tabs %}
 {% highlight html %}
 
-@Html.EJMobile().RadialMenu("radialmenu_sample").Position(RadialMenuPosition.LeftCenter).ImageClass("imageclass").BackImageClass("backimage").Items(item =>
 
+        @Html.EJMobile().RadialMenu("radialmenu_sample").ImageClass("imageclass").BackImageClass("backimage").Position(RadialMenuPosition.LeftTop).Items(item =>
 {
-
     item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/music.png");
-
     item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/social.png").Children(child =>
-
     {
 
         child.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/googleplus.png");
@@ -33,11 +31,8 @@ Refer to the following code example.
         child.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/facebook.png");
 
     });
-
     item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png");
-
     item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png").Children(child =>
-
     {
 
         child.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/chrome.png");
@@ -49,9 +44,7 @@ Refer to the following code example.
         child.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/yahoo.png");
 
     });
-
     item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png").Children(child =>
-
     {
 
         child.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/google.png");
@@ -62,60 +55,32 @@ Refer to the following code example.
 
 })
 
+
+
 {% endhighlight  %}
 {% highlight css %}
 
 <style>
-
     .imageclass {
-
         background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/home.png");
-
         background-position: center;
-
         background-repeat: no-repeat;
-
     }
 
     .backimage {
-
         background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/windowsback.png");
-
         background-position: center;
-
         background-repeat: no-repeat;
-
         -moz-transform: scaleX(-1);
-
         -o-transform: scaleX(-1);
-
         -webkit-transform: scaleX(-1);
-
         transform: scaleX(-1);
-
         filter: FlipH;
-
         -ms-filter: "FlipH";
-
     }
-
 </style>
 {% endhighlight  %}
-{% highlight javascript %}
 
-
-<script>
-
-    function click(e) {
-
-        $("# radialmenu_sample ").ejmRadialMenu("menuHide");
-
-    }
-
-</script>
-
-
-{% endhighlight %}
 {% endtabs %}
 
 

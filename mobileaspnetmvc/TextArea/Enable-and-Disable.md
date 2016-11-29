@@ -4,6 +4,7 @@ title: Enable and Disable| TextArea | MobileAspNetMVC | Syncfusion
 description: enable and disable
 platform: mobileaspnetmvc
 control: TextArea
+keywords:textarea,enable,disable
 documentation: ug
 ---
 

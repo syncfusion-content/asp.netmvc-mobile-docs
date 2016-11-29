@@ -4,6 +4,7 @@ title: Dimensions| Radial Menu | MobileAspNetMVC | Syncfusion
 description: dimensions
 platform: mobileaspnetmvc
 control: Radial Menu
+keywords:radialmenu
 documentation: ug
 ---
 
@@ -24,49 +25,28 @@ The Possible values for Position property are
 {% highlight html %}
 
 
-@Html.EJMobile().RadialMenu("radialmenu_sample").ImageClass("imageclass").Radius(300).Position(RadialMenuPosition.RightCenter).Items(item =>
-
+        @Html.EJMobile().RadialMenu("defaultradialmenu").Position(RadialMenuPosition.RightCenter).Radius(100).ImageClass("imageclass").Items(item =>
 {
-
-    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/social.png");
-
-    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/music.png");
-
+    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/music.png");
+    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/social.png");
     item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png");
-
-    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png");
-
     item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png");
-
+    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png");
 })
+
 {% endhighlight  %}
 {% highlight css %}
 <style>
 
-    .imageclass {
-
-            background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/radialSettings.png");
-
-            background-position: center;
-
-            background-repeat: no-repeat;
-
-        }
+ .imageclass {
+        background: url("http://js.syncfusion.com/UG/Mobile/Content/radial/radialSettings.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
 </style>
 {% endhighlight %}
-{% highlight javascript %}
-<script>
 
-    function click(e) {
-
-        $("#radialmenu_sample").ejmRadialMenu("menuHide");
-
-    }
-
-</script>
-
-{% endhighlight %}
 {% endtabs %}
 
 

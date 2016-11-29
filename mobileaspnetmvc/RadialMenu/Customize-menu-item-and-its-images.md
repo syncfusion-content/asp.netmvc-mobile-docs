@@ -4,6 +4,7 @@ title: Customize menu item and its images| Radial Menu | MobileAspNetMVC | Syncf
 description: customize menu item and its images
 platform: mobileaspnetmvc
 control: Radial Menu
+keywords:radialmenu,image
 documentation: ug
 ---
 
@@ -20,36 +21,20 @@ Alternatively you can use imageurl property to directly specify the url of the i
 N> Imagepath and imagename properties can be used when you want to specify separate images for each render mode. Imageurl property is used when you want to provide common images for all render modes.
 
 Refer to the following code example.
-{% tabs %}
+
 {% highlight html %}
 
- @Html.EJMobile().RadialMenu("radialmenu_sample").Items(item =>{
 
-item.Add().ImagePath(Url.Content("http://js.syncfusion.com/UG/Mobile/Content/radial")).ImageName("social.png"));    
-
-item.Add().ImagePath(Url.Content("http://js.syncfusion.com/UG/Mobile/Content/radial")).ImageName("music.png"));
-
-item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/direction.png"));
-
-item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/message.png"));
-
-item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial /ios7/light/browser.png"));
-
+        @Html.EJMobile().RadialMenu("defaultradialmenu").Items(item =>
+{
+    item.Add().ImagePath(Url.Content("~/themes/sampleimages/radialmenu")).ImageName("music.png");
+    item.Add().ImagePath(Url.Content("~/themes/sampleimages/radialmenu")).ImageName("social.png");
+    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/direction.png");
+    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/browser.png");
+    item.Add().ImageURL("http://js.syncfusion.com/UG/Mobile/Content/radial/ios7/light/message.png");
 })
 {% endhighlight %}
-{% highlight javascript %}
-<script>
 
-    function click(e) {
-
-        $("#radialmenu_sample").ejmRadialMenu("menuHide");
-
-    }
-
-</script>
-
-{% endhighlight %}
-{% endtabs %}
 
 
 

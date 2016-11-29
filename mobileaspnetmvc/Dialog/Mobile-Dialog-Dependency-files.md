@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Mobile Dialog Dependency files| Dialog | MobileAspNetMVC | Syncfusion
-description: mobile dialog dependency files
+description: Dependency files
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog,dependency
 documentation: ug
 ---
 
-# Mobile Dialog Dependency files
+# Dependency files
 
 This section deals with the dependency files for the Dialog control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, you can refer to the following script files to render the Dialog control.
 

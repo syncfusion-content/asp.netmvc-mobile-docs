@@ -4,6 +4,7 @@ title: Customize dimensions| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize dimensions
 platform: mobileaspnetmvc
 control: ProgressBar
+keywords:progressbar,height
 documentation: ug
 ---
 
@@ -13,7 +14,7 @@ By setting an integer value to Height property, you can change the height of the
 
 {% highlight html %}
 
-@Html.EJMobile().ProgressBar("progressbar_sample").Height(10)
+ @Html.EJMobile().ProgressBar("progressbar_sample").Height("20")
 
 {% endhighlight %}
 

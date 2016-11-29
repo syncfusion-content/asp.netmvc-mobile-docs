@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Mobile Textbox Package Dependency Files| Textbox | MobileAspNetMVC | Syncfusion
-description: mobile textbox package dependency files
+description: Dependency files
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox,dependency
 documentation: ug
 ---
 
-# Mobile Textbox package dependency files
+# Dependency files
 
 This section deals with the dependency files for all **Textbox** control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, skip this section, else refer to the following script files to render all the **ejm****Textbox** controls.
 

@@ -4,6 +4,7 @@ title: Overlay| Dialog | MobileAspNetMVC | Syncfusion
 description: overlay
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog
 documentation: ug
 ---
 
@@ -15,11 +16,11 @@ The EnableModal property enables the modal Dialog that blocks you from interacti
 {% highlight html %}
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").EnableModal(true).Content(
+@Html.EJMobile().Dialog("alertdlg").Title("London").LeftButtonCaption("Cancel").EnableModal(true).Content(
 
 @<div>
 
-Syncfusion provides software components and tools for the Microsoft .NET platform
+ London, one of the most popular tourist destination in the world for a reason.
 
 </div>)
 

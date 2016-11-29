@@ -4,24 +4,25 @@ title: Title| Dialog | MobileAspNetMVC | Syncfusion
 description: title
 platform: mobileaspnetmvc
 control: Dialog
+keywords:dialog,title
 documentation: ug
 ---
 
 # Title
 
-The Title property is used to display the title text of the Dialog box. 
+To display the title text of the Dialog box. 
 
 {% tabs %}
 {% highlight html %}
 @{
 
-@Html.EJMobile().Dialog("alertdlg").Title("Welcome to Syncfusion").LeftButtonCaption("Cancel").Content(
+    @Html.EJMobile().Dialog("alertdlg").Title("Welcome").LeftButtonCaption("Cancel").Content(
 
-@<div>
+        @<div>
 
-Syncfusion provides software components and tools for the Microsoft .NET platform
+             London, one of the most popular tourist destination in the world for a reason.
 
-</div>)
+        </div>)
 
 }
 

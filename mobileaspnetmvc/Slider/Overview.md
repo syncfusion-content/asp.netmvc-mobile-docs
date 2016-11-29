@@ -4,6 +4,7 @@ title: Overview| Slider | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Slider
+keywords:slider,overview
 documentation: ug
 ---
 

@@ -4,6 +4,7 @@ title: Styles and Appearance| Textbox | MobileAspNetMVC | Syncfusion
 description: styles and appearance
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox,styles
 documentation: ug
 ---
 

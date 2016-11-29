@@ -4,6 +4,7 @@ title: Read only support| Textbox | MobileAspNetMVC | Syncfusion
 description: read only support
 platform: mobileaspnetmvc
 control: Textbox
+keywords:textbox,readonly
 documentation: ug
 ---
 

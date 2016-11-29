@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Mobile Radial Menu Dependencies| Radial Menu | MobileAspNetMVC | Syncfusion
-description: mobile radial menu dependencies
+title: Mobile Radial Menu dependency files| Radial Menu | MobileAspNetMVC | Syncfusion
+description:Dependency files
 platform: mobileaspnetmvc
 control: Radial Menu
+keywords:radialmenu,dependencies
 documentation: ug
 ---
 
-# Mobile Radial Menu Dependencies
+# Dependency files
 
 This section deals with the dependency files for Radial Menu control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you use this file, skip this section else refer to the following script files to render the Radial Menu control.
 

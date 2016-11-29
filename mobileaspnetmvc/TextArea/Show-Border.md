@@ -1,21 +1,22 @@
 ---
 layout: post
-title: Show Border| TextArea | MobileAspNetMVC | Syncfusion
-description: show border
+title: Border Support| TextArea | MobileAspNetMVC | Syncfusion
+description: Border style
 platform: mobileaspnetmvc
 control: TextArea
+keywords:textArea,style
 documentation: ug
 ---
 
-# Show Border
+# Border style
 
-ShowBorder property decides whether the Textbox border can be visible or hidden. The default value is true.
+The BorderStyle property is used to decide the style of the border.
 
 Refer to the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().TextArea("mailMessage").WatermarkText("TextArea").ShowBorder(false)
+  @Html.EJMobile().TextArea("mailMessage").BorderStyle(MobileTextboxBorderStyle.None).WatermarkText("Textarea")
 
 {% endhighlight %}
 
