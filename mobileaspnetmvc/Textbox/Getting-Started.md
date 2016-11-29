@@ -4,7 +4,7 @@ title: Getting Started| Textbox | MobileAspNetMVC | Syncfusion
 description: getting started
 platform: mobileaspnetmvc
 control: Textbox
-keywords:textbox
+keywords: textbox
 documentation: ug
 ---
 

@@ -4,7 +4,7 @@ title: Customize value| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize value
 platform: mobileaspnetmvc
 control: ProgressBar
-keywords:progressbar,value
+keywords: progressbar, value
 documentation: ug
 ---
 

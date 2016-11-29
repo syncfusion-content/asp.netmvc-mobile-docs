@@ -4,7 +4,7 @@ title: Range Slider| Slider | MobileAspNetMVC | Syncfusion
 description: range slider
 platform: mobileaspnetmvc
 control: Slider
-keywords:slider,rangeslider
+keywords: slider, rangeslider
 documentation: ug
 ---
 

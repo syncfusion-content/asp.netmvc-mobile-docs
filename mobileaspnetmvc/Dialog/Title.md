@@ -4,7 +4,7 @@ title: Title| Dialog | MobileAspNetMVC | Syncfusion
 description: title
 platform: mobileaspnetmvc
 control: Dialog
-keywords:dialog,title
+keywords: dialog, title
 documentation: ug
 ---
 

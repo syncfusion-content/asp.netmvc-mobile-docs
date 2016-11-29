@@ -4,7 +4,7 @@ title: Enable and Disable| Textbox | MobileAspNetMVC | Syncfusion
 description: enable and disable
 platform: mobileaspnetmvc
 control: Textbox
-keywords:textbox,enable,disable
+keywords: textbox, enable, disable
 documentation: ug
 ---
 

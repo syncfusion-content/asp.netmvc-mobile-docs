@@ -4,7 +4,7 @@ title: Customize Percentage| ProgressBar | MobileAspNetMVC | Syncfusion
 description: customize percentage
 platform: mobileaspnetmvc
 control: ProgressBar
-keywords:progressbar,percentage
+keywords: progressbar, percentage
 documentation: ug
 ---
 

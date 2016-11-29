@@ -4,7 +4,7 @@ title: Styles and Appearance| Slider | MobileAspNetMVC | Syncfusion
 description: styles and appearance
 platform: mobileaspnetmvc
 control: Slider
-keywords:slider,styles
+keywords: slider, styles
 documentation: ug
 ---
 

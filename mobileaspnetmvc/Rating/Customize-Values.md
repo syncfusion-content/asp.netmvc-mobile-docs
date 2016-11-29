@@ -4,7 +4,7 @@ title: Customize Values| Rating | MobileAspNetMVC | Syncfusion
 description: customize values                           
 platform: mobileaspnetmvc
 control: Rating
-keywords:rating
+keywords: rating
 documentation: ug
 ---
 

@@ -4,7 +4,7 @@ title: Overview| Accordion | MobileAspNetMVC | Syncfusion
 description: overview
 platform: mobileaspnetmvc
 control: Accordion
-keywords:accordion,overview
+keywords: accordion, overview
 documentation: ug
 ---
 
