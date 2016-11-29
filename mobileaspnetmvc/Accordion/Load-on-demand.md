@@ -10,7 +10,7 @@ documentation: ug
 
 # Load on demand
 
-Enable the "Enableajax" property to load the Ajax content. To achieve this, specify “Href” attribute with the respective URL of the HTML file that contains the dynamic content. The data-ej-spinnertext attribute is used to show the loading text, while getting (waiting for) the response from the server (via Ajax request).
+Enable the "EnableAjax" property to load the Ajax content. To achieve this, specify “Href” attribute with the respective URL of the HTML file that contains the dynamic content. The data-ej-spinnertext attribute is used to show the loading text, while getting (waiting for) the response from the server (via Ajax request).
 
 
 

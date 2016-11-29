@@ -28,7 +28,7 @@ You can customize Slider control by changing their properties. In shopping cart 
 
 Create a simple MVC application and add the following code example in the <body> tag of Layout.cshtml file.
 
-You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](http://help.syncfusion.com/js/)
+You can create a MVC project and add necessary DLL’s and scripts with the help of the [MVC Getting Started Documentation.](https://help.syncfusion.com/aspnetmvc/getting-started)
 
 {% highlight html %}
 
