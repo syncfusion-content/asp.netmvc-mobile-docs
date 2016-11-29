@@ -24,7 +24,7 @@ The ASP.NET MVC, Mobile Rating Control provides an intuitive Rating experience t
 The following steps guide you to add a Rating control for a mobile application. In this scenario, Rating control is used to rate Google Search mobile app. 
 
 1. Create a simple MVC application and add the following header page content inside the body tag of layout.cshtml. 
-2. Creating a MVC Project and adding necessary Dll’s and Scripts is done with the help of the [MVC-Getting Started](http://help.syncfusion.com/aspnetmvc/captcha/getting-started#create-your-first-captcha-in-aspnet-mvc ) Documentation.
+2. Creating a MVC Project and adding necessary Dll’s and Scripts is done with the help of the [MVC-Getting Started](https://help.syncfusion.com/aspnetmvc/getting-started) Documentation.
    
 {% highlight html %}
    @Html.EJMobile().NavigationBar("header").Title(" Google Search")

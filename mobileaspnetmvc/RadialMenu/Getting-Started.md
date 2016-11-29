@@ -21,7 +21,7 @@ The following steps guide you to add a Radial Menu control for a mobile applicat
 
 ## Create basic mobile layout
 
-1. Refer [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) to create a MVC Project, add necessary Dll’s and Scripts.
+1. Refer [MVC-Getting Started Documentation](https://help.syncfusion.com/aspnetmvc/getting-started) to create a MVC Project, add necessary Dll’s and Scripts.
 2. Add the following code in layout.cshtml page to create a header element.
    
 {% highlight html %}
