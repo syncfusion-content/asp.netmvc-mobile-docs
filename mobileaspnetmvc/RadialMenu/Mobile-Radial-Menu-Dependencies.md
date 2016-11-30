@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mobile Radial Menu dependency files| Radial Menu | MobileAspNetMVC | Syncfusion
-description:Dependency files
+description: Dependency files
 platform: mobileaspnetmvc
 control: Radial Menu
 keywords: radialmenu, dependencies
