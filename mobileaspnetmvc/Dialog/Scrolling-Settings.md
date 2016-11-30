@@ -65,7 +65,7 @@ The following screenshot displays the output.
  To enable native (built-in browser) scrolling functionality of the devices when scrolling is allowed. The default value is false.
 
 {% tabs %}
-
+{% highlight html %}
         @Html.EJMobile().NavigationBar("header").Title("Dialog")
 
         <div id="content">
