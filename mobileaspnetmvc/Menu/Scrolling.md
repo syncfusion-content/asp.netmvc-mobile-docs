@@ -9,7 +9,7 @@ documentation: ug
 
 # Scrolling 	
 
-The AllowScrolling property defines whether to allow the scrolling behavior or not when the number of Menu items exceed the specified Menu height. To display the scrollbars when Allowscrolling is enabled, set the ShowScrollbars property to true. You can customize the height and width of the Menu control by setting the desired value to Height and Width properties respectively. 
+The AllowScrolling property defines whether to allow the scrolling behavior or not when the number of Menu items exceed the specified Menu height.You can display the scrollbars when Allowscrolling is enabled, set the ShowScrollbars property to true. You can customize the height and width of the Menu control by setting the desired value to Height and Width properties respectively. 
 
 {% highlight html %}
 

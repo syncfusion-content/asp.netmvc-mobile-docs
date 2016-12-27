@@ -5,6 +5,7 @@ description: livetile configuration
 platform: mobileaspnetmvc
 control: Tile
 documentation: ug
+keywords: livetile
 ---
 
 # LiveTile Configuration
@@ -23,9 +24,9 @@ Refer to the following code example.
 
 <div style="margin-top:45px;">
 
-@Html.EJMobile().Header("head").Title("Tileview")
+@Html.EJMobile().NavigationBar("head").Title("Tileview")
 
-@Html.EJMobile().Tile("tile").RenderMode(RenderMode.Windows).LiveTile(live => { live.Enabled(true).Type(LiveTileType.Slide).UpdateInterval(2500).ImageUrl(new string[] { "photo1.png", "photo2.png" }); }).ImagePath(Url.Content("~/themes/sample/tileview")).ImagePosition(TileImagePosition.Fill)
+ @Html.EJMobile().Tile("tile").BackgroundColor("#3086e5").RenderMode(RenderMode.Windows).TileSize(TileSize.Medium).ImagePosition(TileImagePosition.Fill).Text("People").LiveTile(live => live.Type(LiveTileType.Slide).Enabled(true).UpdateInterval(2500).ImageUrl(new List<string>() {"../themes/sampleimages/tileview/windows/people_1.png" }));
 
 </div>
 
@@ -35,31 +36,15 @@ Using ImageTemplateId property, you can specify live tile images outside the til
 
 {% highlight html %}
 
-<div style="margin-top:45px;">
-
-
-
-@Html.EJMobile().Tile("tile").RenderMode(RenderMode.Windows).LiveTile(live => { live.Enabled(true).ImageTemplateId(new string[] { "temp1", "temp2" }); })
-
-</div>
-
-
-
-     <div id="temp1" style="background-image:      
-
-     url('@Url.Content("~/themes/sample/tileview/windows/calendar.png")'); width: 100%; height:    
-
-     100%;">
-
-     </div>
-
-     <div id="temp2" style="background-image:   
-
-     url('@Url.Content("~/themes/sample/tileview/windows/setting.png")'); width: 100%; height:   
-
-     100%;">
-
-     </div>
+<div class="tiles" style="top: 45px; position: relative;">
+               @Html.EJMobile().Tile("tile").BackgroundColor("#3086e5").RenderMode(RenderMode.Windows).TileSize(TileSize.Medium).ImagePosition(TileImagePosition.Fill).Text("People").LiveTile(live => live.ImageTemplateId(new List<string>() { "temp1", "temp2" }).Enabled(true));
+    </div>
+    <div id="temp1" style="background-image:
+            url('../themes/sampleimages/tileview/windows/people_1.png'); width: 100%; height: 100%;">
+    </div>
+    <div id="temp2" style="background-image:
+            url('../themes/sampleimages/tileview/windows/people_3.png'); width: 100%; height: 100%;">
+    </div>
 
 {% endhighlight %}
 
@@ -71,8 +56,8 @@ You can specify the array of images for live tile through CSS classes by using I
 <div style="margin-top:45px;">
 
 
+@Html.EJMobile().Tile("tile").BackgroundColor("#3086e5").RenderMode(RenderMode.Windows).TileSize(TileSize.Medium).ImagePosition(TileImagePosition.Fill).Text("People").LiveTile(live => live.ImageClass(new List<string>() { "people_1","people_2" }).Enabled(true));
 
-@Html.EJMobile().Tile("tile").RenderMode(RenderMode.Windows).LiveTile(live => { live.Enabled(true).ImageClass(new string[] { "calendar", "setting" }); })
 
 </div>
 
@@ -83,19 +68,22 @@ You can specify the array of images for live tile through CSS classes by using I
 
    <style>
 
-        .calendar {
-
-            background-image: url('../themes/sample/tileview/windows/calendar.png');
-
+       .people_1 {
+            background-image: url('../themes/sampleimages/tileview/windows/people_1.png');
         }
-
-        .setting {
-
-            background-image: url('../themes/sample/tileview/windows/setting.png');
-
+        .people_2 {
+            background-image: url('../themes/sampleimages/tileview/windows/people_2.png');
         }
 
     </style>
 
 {% endhighlight %}
 {% endtabs %}
+
+You can specify the array of caption text for the Live Tile by Text attribute.
+
+{% highlight html %}
+
+ @Html.EJMobile().Tile("tile").BackgroundColor("#3086e5").RenderMode(RenderMode.Windows).TileSize(TileSize.Medium).ImagePosition(TileImagePosition.Fill).Text("People").LiveTile(live => live.ImageUrl(new List<string>() { "../themes/sampleimages/tileview/windows/people_1.png", "../themes/sampleimages/tileview/windows/people_2.png", "../themes/sampleimages/tileview/windows/people_3.png" }).Enabled(true).Text(new List<string>() {"John","Smith","Johnson" }));
+
+{% endhighlight %}

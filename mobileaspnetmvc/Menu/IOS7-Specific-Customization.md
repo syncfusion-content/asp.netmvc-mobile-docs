@@ -5,6 +5,7 @@ description: ios7 specific customization
 platform: mobileaspnetmvc
 control: Menu
 documentation: ug
+keywords: ios7
 ---
 
 # IOS7 Specific Customization
