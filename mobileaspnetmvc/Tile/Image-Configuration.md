@@ -5,21 +5,23 @@ description: image configuration
 platform: mobileaspnetmvc
 control: Tile
 documentation: ug
+keywords: tile , image 
 ---
 
 # Image Configuration
 
-ImagePosition property is used to adjust the position of tile image. It accepts the following values.
+"ImagePosition" property is used to adjust the position of tile image. It accepts the following values.
 
 1. Center
-2. Top
-3. Bottom
-4. Right
-5. Left
+2. TopCenter
+3. BottomCenter
+4. RightCenter
+5. LeftCenter
 6. TopLeft
 7. BottomRight
 8. BottomLeft 
 9. Fill
+10.TopRight
 
 
 
@@ -33,40 +35,41 @@ ImageUrl property is used to specify the file name for the background image of t
 
 
 
-Note: Both Imagepath and imageurl properties can be set when you want to specify separate images for each render mode and so it is necessary to specify separate path for iOS, android and windows rendermode. When Imageurl property is alone used, you can provide common images for all render modes. That is you should provide the whole image path for this property.
+Note: Both ImagePath and ImageUrl properties can be set when you want to specify separate images for each render mode and so it is necessary to specify separate path for iOS, android and windows rendermode. When ImageUrl property is alone used, you can provide common images for all render modes. you can provide common images for all render modes. So, you should provide the whole image path for this attribute.
 
 
 
 {% highlight html %}
 
 <div style="margin-top:45px;">
+    @Html.EJMobile().NavigationBar("head").Title("Tile")
 
-@Html.EJMobile().Header("head").Title("Tileview")
+    <div style="margin-top:45px;">
 
-@Html.EJMobile().Tile("tile").ImagePosition(TileImagePosition.Fill).ImagePath("~/themes/sample/tileview").ImageUrl("Weather_1.png").BackgroundColor("#ae12ae").Text("Weather")</div>
-
+        @Html.EJMobile().Tile("tile").ImagePosition(TileImagePosition.Fill).ImagePath("http://js.syncfusion.com/UG/Mobile/Content/tile").ImageUrl("setting.png").Caption(c => c.Alignment(TextAlignment.Left).Text("Settings")).TileSize(TileSize.Small).ShowRoundedCorner(true).ImagePosition(TileImagePosition.Fill)
+    </div>
 
 {% endhighlight %}
 
 
 The following screenshot illustrates the output of the above code.
 
-![C:/Users/labuser/AppData/Roaming/Skype/My Skype Received Files/imagepositionchange.png](Image-Configuration_images/Image-Configuration_img1.png)
+![](Image-Configuration_images/Image-Configuration_img1.png)
 
 
 
-Also you can give images for each tile through CSS classes by using ImageClass property. You can define your desired styles in the specified class.
+Also you can give images for each Tile through CSS classes by using the ImageClass attribute. You can define your desired styles in the specified class.
 
 Refer to the following code example.
 
 {% tabs %}
 {% highlight html %}
+        @Html.EJMobile().NavigationBar("head").Title("Tile")
+    <div style="margin-top:45px;">
 
-<div style="margin-top:45px;">
+        @Html.EJMobile().Tile("tile").ImageClass("picture").Text("Music").ShowRoundedCorner(true)
 
-@Html.EJMobile().Header("head").Title("Tileview")
-
-@Html.EJMobile().Tile("tile").ImageClass("picture").Text("Weather")
+    </div>
 
 </div>
 
@@ -77,14 +80,8 @@ Refer to the following code example.
 <style>
 
 .picture {
-
-background-image: url("../themes/sample/tileview/windows/calculator.png");
-
-background-color: #ae12ae;
-
-background-size: 40px 40px;
-
-}
+            background-image: url("http://js.syncfusion.com/UG/Mobile/Content/tile/music.png");
+         }
 
     </style>
 
@@ -93,7 +90,7 @@ background-size: 40px 40px;
 
 The following screenshot illustrates the output of the above code.
 
-![C:/Users/labuser/Desktop/ImagClass.png](Image-Configuration_images/Image-Configuration_img2.png)
+![](Image-Configuration_images/Image-Configuration_img2.png)
 
 
 
