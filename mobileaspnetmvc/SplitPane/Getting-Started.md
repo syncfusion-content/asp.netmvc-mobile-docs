@@ -5,6 +5,7 @@ description: getting started
 platform: mobileaspnetmvc
 control: SplitPane
 documentation: ug
+keywords: spiltpane, right, left
 ---
 
 # Getting Started
@@ -13,9 +14,9 @@ This section enables you to create SplitPane using JavaScript in your mobile app
 
 ## Create your first SplitPane in MVC
 
-The Essential Studio for ASP.NET MVC Mobile Splitpane divides a region on the web page.  It is configured to split up the horizontal view vertically. Right side panes can display the content from an external URL that is specific to the item selected in the left pane. In the following guidelines, you can learn the features in Splitpane widget by creating a Mail App.
+The Essential Studio for ASP.NET MVC Mobile Splitpane divides a region on the web page. 
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
@@ -28,440 +29,401 @@ Create a simple MVC application and add the following code example in the view p
 {% highlight html %}
 
 
-@Html.EJMobile().SplitPane("splitview").LeftPaneTemplate(@<div></div>)
+    @Html.EJMobile().SplitPane("defaultsplitpane").LeftPane(lp => lp.TemplateId("splitpaneleftPane").ShowOnTablet(false)).ContentPane(cP => cP.TemplateId("splitpanecontentPane"))
 
 
 {% endhighlight %}
-
-
-
-Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
-
-
-
-![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
 ### Add left Pane content
 
-In the Left Pane, you can add listbox for easy navigation. To provide data source for listbox template in the Left Pane content, you can create a ListTemplate.cs file in the model and add the following code example to the file.
+The ShowOnTablet property is used to specifies the leftpane visibility for tablet devices.LeftPane property is used to open from left side window on swipe.
 
-
-{% highlight c# %}
-
-    public class ListTemplate
-
-    {
-
-        public string Name { get; set; }
-
-        public string Time { get; set; }
-
-        public string About { get; set; }
-
-        public string Url { get; set; }
-
-    }
-
-    public static class ListTemplateModal
-
-    {
-
-        public static List<ListTemplate> listTempSource = new List<ListTemplate>();
-
-        public static List<ListTemplate> setListTempSource()
-
-        {
-
-            listTempSource.Add(new ListTemplate { Name = "Skype", Time = "3:06 am", About = "Password changed successfully", Url = "load1" });
-
-            listTempSource.Add(new ListTemplate { Name = "Skype", Time = "3:00 am", About = "Your password has been changed", Url = "load2" });
-
-            listTempSource.Add(new ListTemplate { Name = "Skype", Time = "Yesterday", About = "Password token", Url = "load3" });
-
-            listTempSource.Add(new ListTemplate { Name = "Skype", Time = "Monday", About = "Hello from Skype", Url = "load4" });
-
-            return listTempSource;
-
-        }
-
-        public static void clearSource()
-
-        {
-
-            listTempSource.Clear();
-
-        }       
-
-    }
-
-{% endhighlight %}
-
-In the controller for the view page, add the following code example.
-
-{% highlight c# %}
-
-        public ActionResult SplitPaneSample()
-
-        {
-
-            ListTemplateModal.clearSource();
-
-            return View(ListTemplateModal.setListTempSource());
-
-        }
-
-
-{% endhighlight %}
-
-Create a partial view page with the name “ListViewContent.cshtml” and add the following code example to the file.
-
-{% highlight html %}
-
-@model List<ListTemplate>
-
-
-@{
-
-@Html.EJMobile().ListView("templatelist").AllowScrolling(true).ShowHeader(false).RenderTemplate(true).DataSource(Model).PersistSelection(true).SelectedItemIndex(0).ClientSideEvents(evt => { evt.TouchEnd("listItemSelect"); }).ContentTemplate(
-
-
-
-    @<div class="cont-bg">
-
-
-
-        <span class="templatetext">{{>Name}}</span> <span class="timestyle">{{>Time}}</span>
-
-
-
-        <div class="aboutstyle">
-
-
-
-{{>About}}
-
+{% highlight js %}
+    <script id="splitpaneleftPane" type="text/x-jsrender">
+        <div id="leftHeader" data-role="ejmnavigationbar" style="height:130px;">
+            <div id="userimg">
+            </div>
+            <div id="username">
+                Orville M. Brown
+            </div>
         </div>
+        <div id="navLeftScroll" data-role="ejmscrollpanel" style="top:130px;">
+            <div id="listLeftPane" data-role="ejmlistview" data-ej-selectedindex="0" data-ej-touchend="_optionClick" data-ej-persistselection="true" data-ej-datasource="window.optionList" data-ej-templateid="optionList">
+            </div>
+        </div>
+    </script>
+    <script id="splitpanecontentPane" type="text/x-jsrender">
+        <div id="splitHeader" data-role="ejmnavigationbar" data-ej-mode="header">
+            <button data-ej-cssclass="e-m-left" id="openDrawer" data-role="ejmactionlink" data-ej-contenttype="image" data-ej-showborder="false" data-ej-imageclass="nav-icon e-m-sbicon-drawermenu" data-ej-touchend="onNavOpen"></button>
+            <span id="mailHeadText" class="e-m-navbar-text e-m-title-left" style="margin-left: 48px;">Inbox</span>
+        </div>
+        <div id="navContentScroll" data-role="ejmscrollpanel">
+            <div id="list" data-role="ejmlistview" data-ej-preventselection="true" data-ej-datasource="window.listData" data-ej-templateid="emailList">
+            </div>
+        </div>
+    </script>
+    <script id="emailList" type="text/x-jsrender">
+        <span class="item-lst">
+            <div class="cnt">
+                <span class="lst-ima">
+                    <img src="../themes/sample/splitpane/{{>class}}.png" class="img-{{>class}} user-image" />
+                </span>
+                <span class='lst-content'>
+                    <span class="lst-name">{{>name}}</span>
+                    <span class="lst-time">{{>time}}</span>
+                    <span class="lst-sub">{{>subject}}</span>
+                    <span class="lst-des">{{>description}}</span>
+                </span>
+            </div>
+        </span>
+    </script>
+
+    <script id="optionList" type="text/x-jsrender">
+        <span class="opt-lst">
+            <span class="opt-img">
+                <img src="../themes/sample/splitpane/icons/{{>icon}}.png" class="img-{{>icon}} user-image" />
+            </span>
+            <span class='opt-content'>
+                <span class="opt-name">{{>text}}</span>
+            </span>
+        </span>
+    </script>
+
+    <script>
+        function _optionClick(e) {
+            switch (e.data.text) {
+                case "Inbox":
+                    $("#list").ejmListView("option", "dataSource", window.listData);
+                    break;
+                case "Sent Item":
+                    $("#list").ejmListView("option", "dataSource", window.sentItemData);
+                    break;
+                case "Outbox":
+                    $("#list").ejmListView("option", "dataSource", window.outboxData);
+                    break;
+            }
+            $("#mailHeadText").text(e.data.text);
+            $("#defaultsplitpane").ejmSplitPane("closePane");
+            $("#navContentScroll").ejmScrollPanel("scrollTo", 0, 0);
+        }
+
+        function onNavOpen() {
+            $("#defaultsplitpane").ejmSplitPane("openLeftPane");
+        }
 
 
+window.listData = [
+    {
+        "name": "Frank M. Eisele ",
+        "class": "brooke",
+        "time": "10:15 AM",
+        "subject": "Weekend Trip Plan",
+        "description": "Hi, Please have a pre look what are all place gonna visit."
+    },
+    {
+        "name": "Kendra M. Price",
+        "class": "claire",
+        "time": "12:00 PM",
+        "subject": "Re : David Party",
+        "description": "Can we go to the party by 9 O'Clk Get ready."
+    },
+    {
+        "name": "Adele D. Schreffler",
+        "class": "erik",
+        "time": "1:06 PM",
+        "subject": "Meeting Appoinment",
+        "description": "Hi Schreffler, We have scheduled meeting for our discussion."
+    }];
+    window.sentItemData = [
 
-    </div>)
+    {
+        "name": "David J. Thomas",
+        "class": "jacob",
+        "time": "4:03 PM",
+        "subject": "Re : Home Page Design",
+        "description": "I applied those updates, here's the latest design for the homepage."
+    },
+    {
+        "name": "Harriett T. Jolley",
+        "class": "claire",
+        "time": "12:00 PM",
+        "subject": "Re : David Party",
+        "description": "Can we go to the party by 9 O'Clk Get ready."
+    }];
+    window.outboxData = [
+    {
+        "name": "Frank M. Eisele ",
+        "class": "brooke",
+        "time": "10:15 AM",
+        "subject": "Weekend Trip Plan",
+        "description": "Hi, Please have a pre look what are all place gonna visit."
+    },
+    
+    {
+        "name": "June R. Carter",
+        "class": "grace",
+        "time": "2:11 PM",
+        "subject": "Fw : Critical Update",
+        "description": "Deeds, Please receive the critical from the host."
+    }];
 
+{% endhighlight %}
+
+Use the following styles to apply style for Splitpane.
+
+{% highlight css %}
+
+
+.default.splitpane #userimg
+{
+    background-image: url("../sample/splitpane/brooke.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 80px;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.default.splitpane #username
+{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default.splitpane #list .e-m-lv
+{
+    background-color: white;
+}
+
+.default.splitpane #list .e-m-lv-item
+{
+    border-bottom: 1px solid #a5a5a5;
+    padding: 5px 0px;
+}
+
+.default.splitpane #splitHeader .e-m-navbar-text
+{
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.default.splitpane .lst-time
+{
+    color: darkblue;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
+
+.default.splitpane .e-m-lv-active .item-lst
+{
+    color: #fff;
+}
+
+.default.splitpane .item-lst
+{
+    color: #333;
+    display: block;
+    font-family: Helvetica Neue, Helvetica;
+    font-size: 14px;
+    min-height: 68px;
+    position: relative;
+}
+
+.default.splitpane .item-lst span
+{
+    display: block;
+}
+
+.default.splitpane .lst-ima
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 5;
+    width: 65px;
+}
+
+.default.splitpane .lst-content
+{
+    bottom: 0;
+    left: 66px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.default.splitpane .lst-name
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.default.splitpane .lst-des
+{
+    font-size: 12px;
+    margin-top: 3px;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.default.splitpane .lst-sub
+{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.default.splitpane .opt-img
+{
+    width: 38px;
+    left: 0;
+}
+
+.default.splitpane .opt-lst
+{
+    height: 47px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.default.splitpane .opt-lst span
+{
+    display: block;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.default.splitpane .e-m-lv-active .opt-lst span
+{
+    color: #fff;
+}
+
+.default.splitpane .opt-name
+{
+    padding-top: 10px;
+}
+
+.default.splitpane .opt-content
+{
+    position: absolute;
+    left: 36px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 5px;
+}
+
+.default.splitpane .opt-img img
+{
+    background-repeat: no-repeat;
+    bottom: 7px;
+    display: block;
+    height: 51px;
+    padding: 7px;
+    position: relative;
+    width: 45px;
+}
+
+.default.splitpane #contentscroll
+{
+    background: #fff;
+}
+
+.default.splitpane .nav-icon::before
+{
+    font-size: 22px;
+}
+
+.default.splitpane .e-m-windows.nav-icon::before
+{
+    color: #000;
+}
+.default.splitpane .e-m-android.nav-icon
+{
+    position: absolute;
+    left: 4px;
+    top: 13px;
+}
+.default.splitpane .e-m-windows.nav-icon, .default.splitpane .e-m-flat.nav-icon
+{
+    position: absolute;
+    left: 5px;
+}
+.default.splitpane .e-m-flat.nav-icon
+{
+    top: 11px;
+}
+.default.splitpane .e-m-android.nav-icon::before
+{
+    color: #fff;
+    font-size: 32px;
+}
+
+.default.splitpane .e-m-flat.nav-icon::before
+{
+    color: #fff;
+}
+.default.splitpane .e-m-ios7.nav-icon
+{
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.default.splitpane .e-m-ios7.nav-icon::before
+{
+    color: #2883f2;
 }
 
 {% endhighlight %}
 
-Title of the Left Pane is set using LeftHeaderSettings property. In this case, you can set the title as “Inbox”. In the same way, you can set the title for Right Pane by using RightHeaderSettings property. In android mode you don’t have header, instead toolbar is present. To set title for toolbar, use the ToolbarSettings property.
+Run the above code to display the Splitpane with left side.
 
-Refer the following code example. The partial view (ListViewContent) is called to render the Left Pane content.
-
-{% highlight html %}
-
-@Html.EJMobile().SplitPane("splitview").LeftHeaderSettings(left => left.Title("Inbox")).RightHeaderSettings(right => right.Title("Message")).ToolbarSettings(tool => tool.Android(and => and.Title("Inbox"))).LeftPaneTemplate(@<div>@Html.Partial("ListViewContent")</div>)
-
-{% endhighlight %}
-
-Use the following styles to apply style for ListView template.
-
-{% highlight css %}
-
-<style type="text/css">
-
-    .cont-bg {
-
-        padding: 6px 0px;
-
-    }
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-
-    .templatetext {
-
-        font-weight: bolder;
-
-        font-size: 17px;
-
-    }
-
-
-
-    #templatelist .timestyle {
-
-        float: right;
-
-        font-size: 12px;
-
-        position: relative;
-
-        right: 25px;
-
-        padding-right: 5px;
-
-    }
-
-
-
-    #templatelist .aboutstyle {
-
-        font-size: 14px;
-
-    }
-
-
-
-    .e-m-ios7.e-m-tablet .e-m-state-active .e-m-list-div * {
-
-        color: #FFFFFF;
-
-    }
-
-
-
-    #splitview.e-m-windows.e-m-dark .e-m-sp-left {
-
-        background: black;
-
-    }
-
-</style>
-
-
-{% endhighlight %}
-
-Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
-
-![](Getting-Started_images/Getting-Started_img3.png)
 
 
 
 ### Add right Pane content
 
-Refer to the following code example.
+To open the content from right side,you can use  RightPane property.
 
-{% highlight javascript %}
-
-<script type="text/javascript">
-
-
-
-    // initial loading right pane content
-
-
-
-    $(document).ready(function () {
-
-
-
-        // $("#splitview").data("ejmSplitPane").loadContent(toPage, options)
-
-
-
-        var split = $("#splitview").data("ejmSplitPane");
-
-        var args = $('#templatelist').ejmListView('instance');
-
-        split.loadContent(args.model.dataSource[0].Url, {
-
-
-
-            rightHeaderSettings:
-
-            { title: args.model.dataSource[0].About },
-
-            toolbarSettings: { android: { title: args.model.dataSource[0].About } },
-
-            transition: "none"
-
-
-
-        });
-
-
-
-    });
-
-
-
-
-
-
-
-    // loading right pane content by clicking list item selected
-
-
-
-    function listItemSelect(args) {
-
-
-
-        // $("#splitview").data("ejmSplitPane").loadContent(toPage, options)
-
-
-
-        var split = $("#splitview").data("ejmSplitPane");
-
-
-
-        split.loadContent(args.model.dataSource[args.index].Url, {
-
-
-
-            rightHeaderSettings:
-
-            { title: args.model.dataSource[args.index].About },
-
-            toolbarSettings: { android: { title: args.model.dataSource[args.index].About } },
-
-            transition: "none"
-
-
-
-        });
-
-
-
-    }
-
-
-
-</script>
-
-{% endhighlight %}
-
-Create a view page with name load1.cshtml and add the following code example to the file.
 
 {% highlight html %}
 
-<h2>
 
-    Hi John,</h2>
+    @Html.EJMobile().SplitPane("defaultsplitpane").RightPane(lp => lp.TemplateId("splitpaneleftPane").ShowOnTablet(false)).ContentPane(cP => cP.TemplateId("splitpanecontentPane"))
 
-<br />
+    @*Use the above content and styles*@
+{% endhighlight %}
 
-<h3>
+{% highlight javascript %}
 
-    Password successfully changed</h3>
+        function onNavOpen() {
+            $("#defaultsplitpane").ejmSplitPane("openLeftPane");
+        }
 
-<br />
-
-Your new Skype password has been set.
-
-<br />
-
-You can now access your Account, view your call history or change your account settings.
-
-<br />
-
-<br />
-
-<h5>
-
-    Talk soon,</h5>
-
-The people at Skype
-
-
-
-Create a view page with name load2.cshtml and add the following code example to the file.
-
-<h2>
-
-    Hello John,</h2>
-
-<br />
-
-<h3>
-
-    Your password has been changed</h3>
-
-<br />
-
-Your Skype password has been changed. If you did not change this yourself please
-
-contact one of the administrators of the Skype Manager you belong to.
-
-<br />
-
-<br />
-
-<h5>
-
-    Talk soon,</h5>
-
-The people at Skype
-
-
-
-Create a view page with name load3.cshtml and add the following code example to the file,
-
-<h2>
-
-    Hello John,</h2>
-
-<br />
-
-<h3>
-
-    Password token</h3>
-
-<br />
-
-Reset your password with this temporary code. Please note that this link is only
-
-active for 6 hours after receipt. After the time limit expires, the code does not
-
-work and you have to resubmit the password change request.<br />
-
-<br />
-
-If the link doesn't work, you can enter the code manually using this token: 45c5chg15ae33c438ch2cc7ehn004hg6
-
-<br />
-
-<br />
-
-<h5>
-
-    Talk soon,</h5>
-
-The people at Skype
-
-
-
-Create a view page with name load4.cshtml and add the following code example to the file,
-
-<h3>
-
-    Hi John,</h3>
-
-<br />
-
-<h2>
-
-    Welcome to Skype</h2>
-
-<br />
-
-Congratulations on joining Skype! Now you can enjoy the magic of free face-to-face
-
-calls, instant messaging, screen sharing and so much more - all with Skype.
-
-<br />
-
-<br />
-
-<h5>
-
-    Talk soon,</h5>
-
-The people at Skype
 
 {% endhighlight %}
 
-Run this code example and the following output is displayed. For more details, to run the samples refer "Common Getting Started" section.
+Run the above code to display the Splitpane with right side.
 
-![](Getting-Started_images/Getting-Started_img4.png)
-
-
-
+![](Getting-Started_images/Getting-Started_img2.png)

@@ -5,6 +5,7 @@ description: zooming
 platform: mobileaspnetmvc
 control: ScrollPanel
 documentation: ug
+keywords: zoom, zoommax, startzoom, zoommin
 ---
 
 # Zooming
@@ -13,17 +14,17 @@ EnableZoom is a Boolean property that lets you specify whether the scrolling con
 
 {% highlight html %}
 
-@Html.EJMobile().Header("sample_header").Title("ScrollPanel")
+
 
 <div id="maincontent" style="padding:10px">
+        <div>
 
-<div>
+                       London : London, one of the most popular tourist destinations in the world for a reason. A cultural and historical hub, London has an excellent public transportation system that allows visitors to see all the fantastic sights without spending a ton of money on a rental car.
+				     London contains four World Heritage Sites.
+            paris  : Paris, the city of lights and love - this short guide is full of ideas for how to make the most of the romanticism that oozes from every one of its beautiful corners.You couldn't possibly visit Paris without seeing the Eiffel Tower.
+				     Even if you do not want to visit this world famous structure, you will see its top from all over Paris.
 
-Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
-
-
-
-</div>
+        </div>
 
 </div> 
 
@@ -45,15 +46,16 @@ ZoomMax property lets you set the maximum limit to which the content can be zoom
 
 {% highlight html %}
 
-@Html.EJMobile().Header("sample_header").Title("ScrollPanel")
+
 
     <div id="maincontent" style="padding:10px">
 
         <div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
-
-
+                       London : London, one of the most popular tourist destinations in the world for a reason. A cultural and historical hub, London has an excellent public transportation system that allows visitors to see all the fantastic sights without spending a ton of money on a rental car.
+				     London contains four World Heritage Sites.
+            paris  : Paris, the city of lights and love - this short guide is full of ideas for how to make the most of the romanticism that oozes from every one of its beautiful corners.You couldn't possibly visit Paris without seeing the Eiffel Tower.
+				     Even if you do not want to visit this world famous structure, you will see its top from all over Paris.
 
         </div>
 
@@ -71,15 +73,16 @@ This property lets you set the minimum limit to which the content can be zoomed.
 
 {% highlight html %}
 
-@Html.EJMobile().Header("sample_header").Title("ScrollPanel")
+
 
     <div id="maincontent" style="padding:10px">
 
         <div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
-
-
+                       London : London, one of the most popular tourist destinations in the world for a reason. A cultural and historical hub, London has an excellent public transportation system that allows visitors to see all the fantastic sights without spending a ton of money on a rental car.
+				     London contains four World Heritage Sites.
+            paris  : Paris, the city of lights and love - this short guide is full of ideas for how to make the most of the romanticism that oozes from every one of its beautiful corners.You couldn't possibly visit Paris without seeing the Eiffel Tower.
+				     Even if you do not want to visit this world famous structure, you will see its top from all over Paris.
 
         </div>
 
@@ -97,15 +100,14 @@ This property lets you specify the zooming value on initial rendering of the scr
 
 {% highlight html %}
 
-@Html.EJMobile().Header("sample_header").Title("ScrollPanel")
 
     <div id="maincontent" style="padding:10px">
-
         <div>
 
-            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio.
-
-
+                       London : London, one of the most popular tourist destinations in the world for a reason. A cultural and historical hub, London has an excellent public transportation system that allows visitors to see all the fantastic sights without spending a ton of money on a rental car.
+				     London contains four World Heritage Sites.
+            paris  : Paris, the city of lights and love - this short guide is full of ideas for how to make the most of the romanticism that oozes from every one of its beautiful corners.You couldn't possibly visit Paris without seeing the Eiffel Tower.
+				     Even if you do not want to visit this world famous structure, you will see its top from all over Paris.
 
         </div>
 
@@ -119,7 +121,7 @@ This property lets you specify the zooming value on initial rendering of the scr
 
 The following screenshot displays the startzoom:
 
-![](Zooming_images/Zooming_img2.png)
+![](Zooming_images/Zooming_img1.png)
 
 
 

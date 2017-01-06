@@ -5,6 +5,7 @@ description: customize suggestion list
 platform: mobileaspnetmvc
 control: AutoComplete 
 documentation: ug
+keywords: count ,filter
 ---
 
 # Customize suggestion list

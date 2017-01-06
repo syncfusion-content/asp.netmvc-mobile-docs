@@ -15,7 +15,7 @@ Minimum Character specifies the minimum number of characters you can enter in th
 {% highlight html %}
 @model List<Cars>
 
-@Html.EJMobile().AutoComplete("autocomplete_sample").WatermarkText("Select a car").DataSource(Model).Field("name").MinimumCharacter(2)
+  @Html.EJMobile().AutoComplete("autocomplete_sample").WatermarkText("Select a car").DataSource(Model).Fields(field => field.Text("country")).MinimumCharacter(2)
 {% endhighlight %}
 
 

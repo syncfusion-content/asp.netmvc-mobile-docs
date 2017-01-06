@@ -9,8 +9,7 @@ documentation: ug
 
 # Scrolling 	
 
-The AllowScrolling property defines whether to allow the scrolling behavior or not when the number of Menu items exceed the specified Menu height.You can display the scrollbars when Allowscrolling is enabled, set the ShowScrollbars property to true. You can customize the height and width of the Menu control by setting the desired value to Height and Width properties respectively. 
-
+The AllowScrolling property defines whether to allow the scrolling behavior or not when the number of Menu items exceed the specified Menu height.The default value of allowscrolling  property  is true.
 {% highlight html %}
 
 	<div style="text-align: center;">
@@ -18,36 +17,35 @@ The AllowScrolling property defines whether to allow the scrolling behavior or n
 	@Html.EJMobile().Button("menuitem").Text("Menu")
 
 	</div>
+@Html.EJMobile().Menu("menu_sample").Target("menuitem").Height("200").Items(item =>
+    {
 
-	@Html.EJMobile().Menu("menu_sample").TargetId("menuitem").AllowScrolling(true).ShowScrollbars(true).Height(200).Items(item =>
+        item.Add().Text("Get info");
 
-	{
+        item.Add().Text("Show in folder");
 
-	item.Add().Text("Get info");
+        item.Add().Text("Delete");
 
-	item.Add().Text("Show in folder");
+        item.Add().Text("Get info");
 
-	item.Add().Text("Delete");
+        item.Add().Text("Show in folder");
 
-	item.Add().Text("Get info");
+        item.Add().Text("Delete");
 
-	item.Add().Text("Show in folder");
+        item.Add().Text("Get info");
 
-	item.Add().Text("Delete");
+        item.Add().Text("Show in folder");
 
-	item.Add().Text("Get info");
+        item.Add().Text("Delete");
 
-	item.Add().Text("Show in folder");
+    })
 
-	item.Add().Text("Delete");
-
-	})
 
 {% endhighlight %}
 
 The following screenshot displays Scrolling:
 
-![ShowScrollBars](Scrolling_images/Scrolling_img1.png)
+![](Scrolling_images/Scrolling_img1.png)
 
 
 

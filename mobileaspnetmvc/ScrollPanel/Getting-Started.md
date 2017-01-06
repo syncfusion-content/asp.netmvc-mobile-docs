@@ -5,6 +5,7 @@ description: getting started
 platform: mobileaspnetmvc
 control: ScrollPanel
 documentation: ug
+keywords: scrollpanel
 ---
 
 # Getting Started
@@ -22,57 +23,39 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel is an interactive panel 
 
 ## Create Layout
 
-The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based on the default values for all the properties. You can easily customize ScrollPanel control by changing its properties according to your requirements. The following steps guide you to add ScrollPanel for the required content area. Create an MVC Project and add necessary Dlls and script with the help of [MVC-Getting Started Documentation.](http://help.syncfusion.com/aspnetmvc/captcha/getting-started#create-your-first-captcha-in-aspnet-mvc )
+The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based on the default values for all the properties. You can easily customize ScrollPanel control by changing its properties according to your requirements. The following steps guide you to add ScrollPanel for the required content area. Create an MVC Project and add necessary Dlls and script with the help of [MVC-Getting Started Documentation.](https://help.syncfusion.com/aspnetmvc/getting-started) 
 
 
 1. Add the following header control code in layout.cshtml page.
    
-   ~~~ html
+{% highlight html %}
    
 		<!-- Header control -->
-		@Html.EJMobile().Header("header").Title("Syncfusion")
+	  @Html.EJMobile().NavigationBar("header").Title("Scrollpanel")
    
-   ~~~
+{% endhighlight %}
    
 
 
 2. Add the following code example to the corresponding view page.
    
-   ~~~ html
+{% highlight html %}
+   
    
 		<!-- Content that needs to be scrolled-->
 		<div id="content" style="text-align:justify;">
-		<div>
-		<div id="image">
-		</div>
-		Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio. For more details about Essential Studio please click the below.
-		</div>
+		        <div id="content" style="text-align:justify;">
+            Founded by industry experts in 2001, Syncfusion, Inc. provides the broadest range of enterprise-class software components and tools for the Microsoft .NET platform. With Syncfusion, developers can move beyond simply coding applications to delivering real business innovation—the elegant user interfaces, business intelligence dashboards, and sophisticated reporting that today's business users need, in the formats they demand. Our award-winning .NET components and controls are designed to meet your evolving development needs, whether you're working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, or Silverlight. At Syncfusion, we uncompromisingly strive for excellence in order to offer the very best value to our customers—from small ISVs to Fortune 100 companies. Our most successful product is Essential Studio. For more details about Essential Studio please click the below.
+    </div>
+</div>
 		</div>
 		<!— Add scroll panel helper here-->
   
-   ~~~
+{% endhighlight %}
+   
    
 
-3. Add the following styles to display image and align the content.
-   
-   ~~~ css
-   
-		<style>
-		#image
-		{
-		margin: auto;
-		width: 150px;
-		height: 150px;
-		background: url(http://js.syncfusion.com/UG/Mobile/Content/syncfusion.png) center / 150px 150px;
-		}
-		#content
-		{
-		margin: 0  auto;
-		font-size: 18px;
-		text-indent: 2em;
-		}
-		</style>
-   ~~~
+
    
 Run the above code example to render the following output.
 
@@ -90,7 +73,7 @@ Add the following code example to the corresponding view page.
 
 {% highlight html %}
 
-@Html.EJMobile().ScrollPanel("ScrollPanel").Target("content")
+@Html.EJMobile().Scrollpanel("ScrollPanel").Target("content")
 
 {% endhighlight %}
 
@@ -104,14 +87,14 @@ The TargetHeight and TargetWidth properties describe the height and width of the
 
 {% highlight html %}
 
-  @Html.EJMobile().ScrollPanel("ScrollPanel").Target("content").TargetHeight(400).TargetWidth(300)
+  @Html.EJMobile().Scrollpanel("ScrollPanel").Target("content").TargetHeight(400).TargetWidth(300)
 
 
 {% endhighlight %}
 
 Run the above code example and you will see the following output.
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
@@ -122,8 +105,7 @@ The Target content can be scrolled vertically or horizontally or in both ways. T
 <!-- Scroll Panel control -->
 
 {% highlight html %}
-
-@Html.EJMobile().ScrollPanel("ScrollPanel").Target("content").EnableHorizontalScroll(true).EnableVerticalScroll(true)
+@Html.EJMobile().Scrollpanel("ScrollPanel").Target("content").EnableHorizontalScroll(true).EnableVerticalScroll(true)
 
 
 

@@ -5,7 +5,7 @@ description: getting started
 platform: mobileaspnetmvc
 control: Menu
 documentation: ug
-ketwords: menu, layout. events
+keywords: menu, layout, events
 ---
 
 # Getting Started
@@ -23,7 +23,7 @@ The ASP.NET MVC Mobile Menu provides you an interface to easily navigate hierarc
 
 The ASP.NET MVC Mobile Menu widget can be rendered from a hierarchy of <ul> and <li> and can perform unique actions based on the properties given for each <li> item. You can easily customize the Menu control by changing its properties. In the following code example, the gallery app menu is used to show multiple sharing options to share images.
 
-Create a simple MVC application and add the following code example in the <body> tag of Layout.cshtml file.
+Create a simple MVC application and paste the following header and scrollpanel layout page content inside the <body>tag of layout.cshtml. You can create a MVC Project and add necessary Dll’s and Scripts with the help of the [MVC Getting Started Documentation](https://help.syncfusion.com/aspnetmvc/getting-started) and add the following code example in the <body> tag of Layout.cshtml file.
 
 {% highlight html %}
 
