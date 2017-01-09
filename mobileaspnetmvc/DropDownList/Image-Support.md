@@ -8,7 +8,7 @@ documentation: ug
 keywords : image
 ---
 
-## Adding watermark text
+## Image Support
 
 You can add images to your DropDownList items by specifying the image class name for individual items using ‘data-ej-fields-image’ attribute.
 
