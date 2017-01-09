@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Data Binding | DropDownList | MobileAspNetMVC | Syncfusion
-description: data binding
+title: Customization | DropDownList | MobileAspNetMVC | Syncfusion
+description: customization
 platform: mobileaspnetmvc
 control: DropDownList (Mobile)
 documentation: ug

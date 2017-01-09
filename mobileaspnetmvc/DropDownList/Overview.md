@@ -5,7 +5,7 @@ description: overview
 platform: Mobilejs
 control: DropDownList (Mobile)
 documentation: ug
-keywords: datasource , remote , local
+keywords: dropdownlis , features 
 ---
 # DropDownList
 
