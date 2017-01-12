@@ -5,7 +5,7 @@ description: data binding
 platform: mobileaspnetmvc
 control: DropDownList (Mobile)
 documentation: ug
-keywords : selection 
+keywords : Selection 
 ---
 
 # selection
