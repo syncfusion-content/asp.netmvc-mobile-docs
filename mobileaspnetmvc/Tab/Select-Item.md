@@ -5,6 +5,7 @@ description: select item
 platform: mobileaspnetmvc
 control: Tab
 documentation: ug
+keywords: select
 ---
 
 # Select Item
@@ -13,61 +14,32 @@ Tab control takes a numeric value given in selectedItemIndex property and select
 
 {% highlight html %}
 
-@Html.EJMobile().Tab("tab").RenderMode(RenderMode.IOS7).SelectedItemIndex(1).Items(item =>{
-
-item.Add().Text("My Music").Href("#mymusic").IOS7(ios7=>ios7.ImageClass("icn-Mymusic"));
-
-item.Add().Text("Favorites").Href("#favorites").IOS7(ios7 => ios7.ImageClass("icn-Favorites"));
-
-item.Add().Text("Updates").Href("#updates").IOS7(ios7 => ios7.ImageClass("icn-Updates"));
-
-       })
-
-<!-- Tab first item -->
-
-@Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
-
-{
-
-item.Add().Text("Not Afraid");
-
-item.Add().Text("Get Lucky");
-
-item.Add().Text("Roar");
-
-item.Add().Text("Till I Collapse");
-
-})
-
-<!-- Tab second item -->
-
-@Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
-
-{
-
-item.Add().Text("Dark Horse");
-
-item.Add().Text("Roar");
-
-})
-
-<!-- Tab third item -->
-
-@Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
-
-{
-
-item.Add().Text("New songs available for download");
-
-item.Add().Text("1.2.1 update available");
-
-})
+        @Html.EJMobile().ListView("mymusic").Items(items =>
+           {
+               items.Add().Text("Not Afraid");
+               items.Add().Text("Get Lucky");
+               items.Add().Text("Roar");
+               items.Add().Text("Matrix");
+               items.Add().Text("Till I Collapse");
+           })
+        @Html.EJMobile().ListView("favourite").Items(items =>
+           {
+               items.Add().Text("Dark Horse");
+               items.Add().Text("Roar");
+           })
+        @Html.EJMobile().Tab("tabdefault").Position(MobileTabPosition.Bottom).SelectedItemIndex(1).ContentId("tabdefault-container").Items(tabItem =>
+                {
+                    tabItem.Add().Text("My Music").Href("#mymusic");
+                    tabItem.Add().Text("Favorites").Href("#favourite");
+                })
+        <div id="tabdefault-container">
+        </div>
 
 {% endhighlight %}
 
 The following screenshot displays the Selected Items:
 
-![C:/Users/vincentxavier/Desktop/Work/Documentation/Complete Doc/Tab/Tab Complete Doc/Screen shots/tab5.png](Select-Item_images/Select-Item_img1.png)
+![](Select-Item_images/Select-Item_img1.png)
 
 
 

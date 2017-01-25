@@ -5,6 +5,7 @@ description: customize size
 platform: mobileaspnetmvc
 control: Tile
 documentation: ug
+keywords: size
 ---
 
 # Customize size
@@ -26,9 +27,9 @@ Refer to the following code example.
 
 <div style="margin-top:45px;">
 
-@Html.EJMobile().Header("head").Title("Tileview")
+@Html.EJMobile().NavigationBar("head").Title("Tileview")
 
-@Html.EJMobile().Tile("tile").ImageUrl("map.png").ImagePath(Url.Content("~/themes/sample/tileview")).TileSize(TileSize.Medium).ImagePosition(TileImagePosition.Fill).Text("map")
+ @Html.EJMobile().Tile("tile").ImageUrl("map.png").ImagePath(Url.Content("http://js.syncfusion.com/UG/Mobile/Content/tile")).TileSize(TileSize.Medium).ImagePosition(TileImagePosition.Fill).Text("map")
 
 </div>
 

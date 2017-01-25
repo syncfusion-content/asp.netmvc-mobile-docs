@@ -5,6 +5,7 @@ description: getting started
 platform: mobileaspnetmvc
 control: AutoComplete 
 documentation: ug
+keywords: search
 ---
 
 # Getting Started
@@ -15,7 +16,7 @@ This section explains briefly on how to create an AutoComplete control in your a
 
 The ASP.NET MVC Mobile AutoComplete control is a textbox control that provides a list of suggestions based on the query.  When you enter text into the text box, the control performs a search operation and provides a list of results. There are several filter types available, to perform the search. In the following example, you can learn how to create an application to search for a contact and learn about the features in AutoComplete widget.
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images\Getting-Started_1.png)
 
 
 ### Create AutoComplete to search for a contact
@@ -24,26 +25,23 @@ ASP.NET MVC Mobile AutoComplete control can be rendered based on the default val
 
 Create a simple MVC application and paste the following header and scrollpanel layout page content inside the body tag of layout.cshtml and paste other templates in the view page for AutoComplete creation.
 
-You can create an MVC Project and add necessary Dlls and script, with the help of the [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) for Mobile.
+You can create an MVC Project and add necessary Dlls and script, with the help of the [MVC-Getting Started Documentation](https://help.syncfusion.com/aspnetmvc/getting-started) for Mobile.
 
 Add the following code layout to the corresponding master page.
 
 
 {% highlight html %}
 
-    @Html.EJMobile().NavigationBar("Header").Mode(NavBarMode.Header).Title("Contacts")
+  @Html.EJMobile().NavigationBar("Header").Title("Contacts")
+                <div id="content">
 
-    <div id="content">
+                    <div>
 
-        <div>   
+                     @*Render Autocomplete control*@
 
-             @RenderBody()
+                    </div>
 
-        </div>
-
-    </div>
-
-    @Html.EJMobile().Scrollpanel("scroll").Target("content")
+                </div>
 	
 {% endhighlight %}
 
@@ -65,10 +63,6 @@ Add the following code example to render the AutoComplete control in the corresp
 {% endhighlight html %}
 
 
-![](Getting-Started_images/Getting-Started_img2.png)
-
-
-
 
 
 ### Customize watermark text
@@ -85,7 +79,7 @@ You can customize watermark text using the WatermarkText property as follows.
 
 
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images\Getting-Started_2.png)
 
 
 ### Data Binding
@@ -132,7 +126,7 @@ N> Here “MVCSample” is your project name.
 
 Run the above code and type the contact details to search for (In this example, you can type A) in the AutoComplete textbox, and you can see the result displayed.
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 ### Multi Value Selection
@@ -152,7 +146,7 @@ AutoComplete textbox enables you to select multiple items from the suggestions l
 
 Run the above code and type the necessary query in the textbox. The contact is displayed as shown in the following screenshot.
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_1.png)
 
 
 ### Event handling
@@ -219,7 +213,7 @@ The Select eventenables you to handle AutoComplete selection. By assigning a fun
 {% endhighlight %}
 
 
-![](Getting-Started_images/Getting-Started_img6.png)
+![](Getting-Started_images/event-handling_img1.png)
 
 
 

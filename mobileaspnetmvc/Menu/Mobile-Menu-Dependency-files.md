@@ -5,9 +5,10 @@ description: mobile menu dependency files
 platform: mobileaspnetmvc
 control: Menu
 documentation: ug
+keywords : dependency
 ---
 
-# Mobile Menu Dependency files
+#  Dependency files
 
 This section deals with the dependency files for Menu control. The file ej.mobile.all.min.js is a mass collection of Mobile Controls. When you are using this file, then you can skip this section. When you are not, you can refer the following script files to render the Menu control.
 

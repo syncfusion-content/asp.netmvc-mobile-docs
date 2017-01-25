@@ -5,6 +5,7 @@ description: overview
 platform: mobileaspnetmvc
 control: Tile
 documentation: ug
+keywords: text, image, badge
 ---
 
 # Tile

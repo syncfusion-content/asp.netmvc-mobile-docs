@@ -9,7 +9,7 @@ documentation: ug
 
 # Menu 
 
-The Essential Studio for ASP.NET MVC, Mobile Menu widget provides an interface to easily navigate hirarchical data.
+The Mobile **Menu** control supports displaying a Menu created from list items. The Menu is based on a hierarchy of UL and LI elements where the list items are rendered as sub-menu items.
 
 ## Key Features
 

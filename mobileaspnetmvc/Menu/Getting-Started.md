@@ -5,6 +5,7 @@ description: getting started
 platform: mobileaspnetmvc
 control: Menu
 documentation: ug
+keywords: menu, layout, events
 ---
 
 # Getting Started
@@ -15,66 +16,39 @@ This section explains you on how to create a Menu using Essential ASP.NET MVC an
 
 The ASP.NET MVC Mobile Menu provides you an interface to easily navigate hierarchical data.  In the following section, you can learn to create a Gallery app and learn the features in Menu widget. 
 
-![1](Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 
-##Create the required layout for Gallery app
+## Create the required layout for Gallery app
 
-The ASP.NET MVCMobile Menu widget can be rend from a hierarchy of items and perform unique actions based on the properties set to each item. You can easily customize Menu control by changing its properties. The following code example illustrates the Gallery app Menu that is used to show multiple sharing options to share images. 
+The ASP.NET MVC Mobile Menu widget can be rendered from a hierarchy of <ul> and <li> and can perform unique actions based on the properties given for each <li> item. You can easily customize the Menu control by changing its properties. In the following code example, the gallery app menu is used to show multiple sharing options to share images.
 
-Create a simple MVC application and add the following code example in the <body> tag of Layout.cshtml file.
+Create a simple MVC application and paste the following header and scrollpanel layout page content inside the <body>tag of layout.cshtml. You can create a MVC Project and add necessary Dll’s and Scripts with the help of the [MVC Getting Started Documentation](https://help.syncfusion.com/aspnetmvc/getting-started) and add the following code example in the <body> tag of Layout.cshtml file.
 
 {% highlight html %}
 
-<div id="page" data-role="appview">
+    <div class="page">
 
-        <!-- header helper -->
+        <!-- header helper -->
+        @Html.EJMobile().NavigationBar("menuitems").Title("Gallery")
 
-@Html.EJMobile().Header("menuitems").Position(MobileHeaderPosition.Normal).Title("Gallery").ShowRightButton(true).RightButtonCaption("Share")      
+        <div id="content">
 
- <div id="content">
+            <div>
 
- <div>
+                <!-- Render Menu control -->
 
- <div>
+            </div>
+        </div>
 
-  @RenderBody()
+        <!-- ScrollPanel helper -->
+        @Html.EJMobile().Scrollpanel("scroll").Target("content")
 
- </div>
+    </div>
 
- </div>
-
- </div>
-
- <!-- ScrollPanel helper -->
-
-@Html.EJMobile().Scrollpanel("scroll").Target("content")
-
-</div>
 
 {% endhighlight %}
 
-
-
-Use the following styles for content.
-
-{% highlight css %}
-
-<style>
-
-.appview.e-m-windows.e-m-light {
-
-
-
-background: none repeat scroll 0 0 #eee;
-
-
-
-}
-
-</style> 
-
-{% endhighlight %}
 
 To create a Menu, add the following code example to the corresponding view page.
 
@@ -102,7 +76,7 @@ padding-top: 10%; height: 170px;" /></div>
 
 Execute the above code to render the following output.
 
-![2](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 Gallery App with Share button
@@ -110,7 +84,7 @@ Gallery App with Share button
 
 ## Create the Menu control
 
-To render Menu control use EJmobile Menu helper. Type property allows you to set the Menu display behavior. ShowTitle property is used to enable or disable the Menu title. Menu items are added by using the Items collection and you can name each item using the Text property. 
+To render the Menu control, you need to call Menu helper. Menu can be displayed with or without a title. In this example, a title is not required,'ShowTitle' property to false. By using 'Text' property, you can set text for menu items. Refer to the following code example. 
 
 Refer to the following code example.
 
@@ -118,57 +92,51 @@ Refer to the following code example.
 
  <!-- Menu helper -->
 
-        @Html.EJMobile().Menu("menuitem").IOS7(ios7 => ios7.ShowTitle(false)).Items(items =>
+ @Html.EJMobile().Menu("menuitem").ShowTitle(false).Items(items =>
+                {
 
-{
+                    items.Add().Text("Twitter");
 
+                    items.Add().Text("Whatsapp");
 
+                    items.Add().Text("Facebook");
+                })
+ 
 
-items.Add().Text("Twitter");
+{% endhighlight %}
 
+Add the below styles
 
-
-items.Add().Text("Whatsapp");
-
-
-
-items.Add().Text("Facebook");
-
-
-
-}) 
+{% highlight html %}
+        .appview.e-m-windows.e-m-light {
+            background: none repeat scroll 0 0 #eee;
+        }
 
 {% endhighlight %}
 
 ## Show the Menu
 
-You can click the share button present in the header to display the Menu. You can achieve this by setting the targetid property as share button’s id. 
+You can click the share button present in the header to display the Menu. Yo u can achieve this by setting the targetid property as share button’s id. 
 
 Refer to the following code example.
 
 {% highlight html %}
 
-        @Html.EJMobile().Menu("menuitem").TargetId("menuitems_rightbutton").IOS7(ios7 => ios7.ShowTitle(false)).Items(items =>
+                    @Html.EJMobile().Button("menu_target").Text("Share")
 
-{
+                    @Html.EJMobile().Menu("menuitem").ShowTitle(false).Target("menu_target").Items(items =>
+                {
 
+                    items.Add().Text("Twitter");
 
+                    items.Add().Text("Whatsapp");
 
-items.Add().Text("Twitter");
+                    items.Add().Text("Facebook");
+                })
 
-
-
-items.Add().Text("Whatsapp");
-
-
-
-items.Add().Text("Facebook");
-
-
-
-})  
 
 {% endhighlight %}
+
 
 Execute the above code and the following output displays when you click the share button.
 
@@ -180,21 +148,22 @@ Execute the above code and the following output displays when you click the shar
 
 ## Handle Menu events
 
-TouchEnd event is handled to add functionalities to each Menu item. This is achieved using the ClientSideEvents property. When you click a particular Menu item, its corresponding TouchEnd event action is triggered and handled as illustrated in the following code example.
-
-Add the following code example to the Menu control and the script code to the view page.
+You can add functionalities for each Menu item by setting the TouchEnd event. When you click a particular menu item, its corresponding touchend event is triggered and it can be handled as shown in the following code example.
 
 
 {% tabs %}
 {% highlight html %}
 <!-- Menu helper -->        
-@Html.EJMobile().Menu("menuitem").TargetId("menuitems_rightbutton").IOS7(ios7 => ios7.ShowTitle(false)).ClientSideEvents
-(events => { 
-events.TouchEnd("showDialog"); 
-}).Items(items =>      
- {           items.Add().Text("Twitter");           items.Add().Text("Whatsapp");           items.Add().Text("Facebook");      
- })
- 
+  @Html.EJMobile().Menu("menuitem").ShowTitle(false).Target("menu_target").ClientSideEvents(events => { events.TouchEnd("showDialog"); }).Items(items =>
+                {
+
+                    items.Add().Text("Twitter");
+
+                    items.Add().Text("Whatsapp");
+
+                    items.Add().Text("Facebook");
+                })
+
  {% endhighlight %} 
 
 {% highlight javascript %} 

@@ -5,6 +5,7 @@ description: watermarktext
 platform: mobileaspnetmvc
 control: AutoComplete 
 documentation: ug
+kewords : watermarktext
 ---
 
 # WatermarkText
@@ -22,7 +23,8 @@ WatermarkText property displays text in the AutoComplete textbox when it is empt
 
 The following screenshot displays Watermark text:
 
-![](WatermarkText_images/WatermarkText_img1.png)
+![](WatermarkText_images\customize-watermarktext_img1.png)
+
 
 
 

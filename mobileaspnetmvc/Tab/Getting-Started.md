@@ -5,6 +5,7 @@ description: getting started
 platform: mobileaspnetmvc
 control: Tab
 documentation: ug
+keywords: Tab, app
 ---
 
 # Getting Started
@@ -25,13 +26,13 @@ In the above screenshot , you can switch between different view from single webp
 
 The Essential Studio for ASP.NET MVC Mobile Tab widget is rendered either by specifying static content or by using on demand contents by specifying the respective url. On either case Tab control is rendered based on the default values for all the properties. You can easily customize Tab control by changing its properties according to your requirement. 
 
-In this Music App three tabs are required. One is for displaying the available music; one is for listing out the favorite tracks that you have marked and the last one is for displaying the updates on the Music App. The following steps guide you to create a basic Tab in your application. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the following [MVC-Getting Started Documentation](http://help.syncfusion.com/js/) for mobile.
+In this Music App three tabs are required. One is for displaying the available music; one is for listing out the favorite tracks that you have marked and the last one is for displaying the updates on the Music App. The following steps guide you to create a basic Tab in your application. For creating a MVC Project, adding necessary Dll’s and Scripts can be done with help of the following [MVC-Getting Started Documentation](https://help.syncfusion.com/aspnetmvc/getting-started) for mobile.
 
 Add the following Layout code to the corresponding layout view page.
 
 {% highlight html %}
 
-@Html.EJMobile().Header("header").HideForUnSupportedDevice(true).Position(MobileHeaderPosition.Normal).Title("Music App")
+   @Html.EJMobile().NavigationBar("header").Title("Music App"))
 
 <div id="content">
 
@@ -51,7 +52,7 @@ To render the Tab control, you add the following code example in the correspondi
 
 <!-- Tab control -->
 
-@Html.EJMobile().Tab("tabdefault").Android(a => a.Position(ControlPosition.Normal)).Windows(w => w.Position(ControlPosition.Normal)).Items(item =>
+@Html.EJMobile().Tab("tabdefault").Items(item =>
 
             {
 
@@ -72,43 +73,26 @@ N> Regarding the third Tab in the “loading on demand content section” is dis
 
 <!-- Tab control -->
 
-@Html.EJMobile().Tab("tabdefault").Android(a => a.Position(ControlPosition.Normal)).Windows(w => w.Position(ControlPosition.Normal)).Items(item =>
-
-            {
-
-                item.Add().Text("My Music").Href("#mymusic");
-
-                item.Add().Text("Favorites").Href("#favorites");
-
-            })
-
-<!-- Tab1 -->
-
-@Html.EJMobile().ListView("mymusic").ShowHeader(false).Items(item =>
-
-            {
-
-                item.Add().Text("Not Afraid");
-
-                item.Add().Text("Get Lucky");
-
-                item.Add().Text("Roar");
-
-                item.Add().Text("Till I Collapse");
-
-            })
-
-<!-- Tab2 -->
-
-@Html.EJMobile().ListView("favorites").ShowHeader(false).Items(item =>
-
-            {
-
-                item.Add().Text("Dark Horse");
-
-                item.Add().Text("Roar");
-
-            })
+    @Html.EJMobile().ListView("mymusic").Items(items =>
+           {
+               items.Add().Text("Not Afraid");
+               items.Add().Text("Get Lucky");
+               items.Add().Text("Roar");
+               items.Add().Text("Matrix");
+               items.Add().Text("Till I Collapse");
+           })
+    @Html.EJMobile().ListView("favourite").Items(items =>
+           {
+               items.Add().Text("Dark Horse");
+               items.Add().Text("Roar");
+           })
+    @Html.EJMobile().Tab("tabdefault").Position(MobileTabPosition.Bottom).ContentId("tabdefault-container").Items(tabItem =>
+                {
+                    tabItem.Add().Text("My Music").Href("#mymusic");
+                    tabItem.Add().Text("Favorites").Href("#favourite");
+                })
+    <div id="tabdefault-container">
+    </div>
 
 {% endhighlight %}
 
@@ -126,117 +110,20 @@ The following code example explains how to add images to the Tabs.
 
 {% highlight html %}
 
-@Html.EJMobile().Tab("tabdefault").Android(a => a.Position(ControlPosition.Normal)).Windows(w => w.Position(ControlPosition.Normal)).Items(item =>
-
+@Html.EJMobile().Tab("tabdefault").Position(MobileTabPosition.Bottom).ContentId("tabdefault-container").Items(item =>
 {
 
-item.Add().Text("My Music").Href("#mymusic").IOS7(ios7=>ios7.ImageClass("icn-Mymusic"));
+    item.Add().Text("My Music").Href("#mymusic").Icon("musicicon");
 
 
 
-item.Add().Text("Favorites").Href("#favorites").IOS7(ios7 => ios7.ImageClass("icn-Favorites"));
+    item.Add().Text("Favorites").Href("#favorites").Icon("Favorites");
 
-       })
+})
 
 
 {% endhighlight %}
 
-
-Use the following styles for adding the image to Tab.
-
-{% highlight css %}
-
-<style>
-
-.icn-Mymusic
-
-{
-
-    background: url('http://js.syncfusion.com/UG/Mobile/Content/mymusic.png')no-repeat center center;
-
-}
-
-.icn-Updates
-
-{
-
-    background: url('http://js.syncfusion.com/UG/Mobile/Content/updates.png')no-repeat center center;
-
-}
-
-.e-m-tabitem.e-m-state-default .icn-Mymusic
-
-{
-
-    background: url('http://js.syncfusion.com/UG/Mobile/Content/mymusic-default.png') no-repeat center center;
-
-}
-
-.e-m-tabitem.e-m-state-default .icn-Updates
-
-{
-
-    background: url('http://js.syncfusion.com/UG/Mobile/Content/updates-default.png') no-repeat center center;
-
-}
-
-.icn-Favorites
-
-{
-
-    background: url('http://js.syncfusion.com/UG/Mobile/Content/favorites.png')no-repeat center center;
-
-}
-
-.e-m-tabitem.e-m-state-default .icn-Favorites
-
-{
-
-    background: url('http://js.syncfusion.com/UG/Mobile/Content/favorites-default.png') no-repeat center center;
-
-}
-
-      .e-m-tab.e-m-ios7 .e-m-tab-image 
-
-      {
-
-          width: 26px;
-
-      }
-
-
-
-	.e-m-tab-content .e-m-content 
-
-      {
-
-padding: 0px;
-
-}
-
-
-
-	.e-m-lv .e-m-list .e-m-list-text,.e-m-windows.e-m-lv.e-m-mobile .e-m-list-text 
-
-      {
-
-left: 0px;
-
-}
-
-
-
-      .e-m-lv.e-m-android .e-m-list .e-m-list-text 
-
-      {
-
-left: 20px;
-
-}
-
-</style>
-
-{% endhighlight %}
 
 Run this code and the following output is achieved. For more details, to run the samples refer to "Common Getting Started" section.
 
@@ -252,19 +139,14 @@ Refer the following code example to achieve this.
 
 {% highlight html %}
 
-@Html.EJMobile().Tab("tabdefault").Android(a => a.Position(ControlPosition.Normal)).Windows(w => w.Position(ControlPosition.Normal)).Items(item =>
+        @Html.EJMobile().Tab("tabdefault").Position(MobileTabPosition.Bottom).EnableAjax(true).ContentId("tabdefault-container").Items(item =>
+{
 
-            {
+    item.Add().Text("My Music").Href("#mymusic").Icon("musicicon");
+    item.Add().Text("Favorites").Href("#favorites").Icon("Favorites");
+    item.Add().Text("playmusic").Href(@Url.Content("~/tab/updates")).Text("Updates");
+})
 
-item.Add().Text("My Music").Href("#mymusic").IOS7(ios7=>ios7.ImageClass("icn-Mymusic"));
-
-
-
-item.Add().Text("Favorites").Href("#favorites").IOS7(ios7 => ios7.ImageClass("icn-Favorites"));
-
-                item.Add().Text("Updates").Href("Home/Updates").EnableAjax (true).IOS7(ios7 => ios7.ImageClass("icn-Updates"));
-
-            })
 
 
 {% endhighlight %}
@@ -276,8 +158,7 @@ Create a view page with the following code example.
 
 {% highlight html %}
 
-@Html.EJMobile().ListView("updates").ShowHeader(false).Items(item =>
-
+        @Html.EJMobile().ListView("updates").Items(item =>
             {
 
                 item.Add().Text("New songs available for download");
@@ -285,6 +166,7 @@ Create a view page with the following code example.
                 item.Add().Text("1.2.1 update available");
 
             })
+
 
 
 {% endhighlight %}
@@ -304,21 +186,14 @@ Use the following code example to initialize the Badge values.
 
 {% highlight html %}
 
-@Html.EJMobile().Tab("tabdefault").Android(a => a.Position(ControlPosition.Normal)).Windows(w => w.Position(ControlPosition.Normal)).Items(item =>
 
+        @Html.EJMobile().Tab("tabdefault").Position(MobileTabPosition.Bottom).EnableAjax(true).ContentId("tabdefault-container").Items(item =>
 {
 
-item.Add().Text("My Music").Href("#mymusic").IOS7(ios7=>ios7.ImageClass("icn-Mymusic"));
-
-
-
-item.Add().Text("Favorites").Href("#favorites").IOS7(ios7 => ios7.ImageClass("icn-Favorites"));
-
-             item.Add().Text("Updates").Href("Home/Updates").Badge(badge => { badge.Enabled(true); badge.Value(2); }).EnableAjax (true).IOS7(ios7 => ios7.ImageClass("icn-Updates"));
-
-
-
-         })
+    item.Add().Text("My Music").Href("#mymusic").Icon("musicicon");
+    item.Add().Text("Favorites").Href("#favorites").Icon("Favorites");
+    item.Add().Text("playmusic").Href(@Url.Content("~/tab/updates")).Text("Updates").Badge(badge => badge.Value("2"));
+})
 
 
 {% endhighlight %}
@@ -330,25 +205,8 @@ Run this code and the following output is achieved. For more details, to run the
 
 
 
-To update the Badge value dynamically whenever a new update is added, use the following code example.
-
-{% highlight javascript %}
-
-<script type="text/javascript">
-
-   //Updates the _Badge value_
-
-   $("#tabdefault").ejmTab("updateBadgeValue", 2, 10);
-
-</script>
-
-{% endhighlight %}
 
 
-
-After calling the above script you can get the updated Badge as shown in the following screenshot.
-
-![](Getting-Started_images/Getting-Started_img6.png)
 
 
 

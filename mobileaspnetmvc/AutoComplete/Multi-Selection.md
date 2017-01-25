@@ -27,7 +27,7 @@ You can refer to the following code examples.
 
 The following screenshot displays the DelimiterChar:
 
-![](Multi-Selection_images/Multi-Selection_img1.png)
+![](multi-selection_images\multi-value-selection_img1.png)
 
 
 
