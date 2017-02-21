@@ -8,7 +8,7 @@ keywords: rating, orientation
 documentation: ug
 ---
 
-# Customize Orientation        
+# Customize orientation        
 
 Rating provides support for vertical orientation. By default Rating renders with horizontal orientation. You can the change the orientation by the "Orientation" property.
 

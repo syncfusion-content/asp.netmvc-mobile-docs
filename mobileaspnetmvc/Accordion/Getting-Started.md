@@ -108,7 +108,7 @@ The SelectedItems property expands the specific content section, initially by us
 
 
 
-## Enable Expand and collapse icons
+## Enable expand and collapse icons
 
 By default Header icons are  visible. To make the icons invisible, set "ShowHeaderIcon" property to false.
 

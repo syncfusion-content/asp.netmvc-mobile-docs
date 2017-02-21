@@ -248,14 +248,14 @@ Use the following styles for adding content element.
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-![F:/Work/UGchanges/Images/ios7_2.png](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 
 Mail Sign in Form
 {:.caption}
 
-### Create the Dialog control
+## Create the Dialog control
 
 There are four types of Dialog modes namely alert, confirm, normal and full view Dialogs. The defaultDialog mode is “alert”. In your use case, an error message is displayed when invalid details are entered. AlertDialog contains title, content and a button. 
 
@@ -270,7 +270,7 @@ To render the Dialog control, you can add the following code example and specify
 
 {% endhighlight %}
 
-### Display the Dialog
+## Display the Dialog
 
 To display the Dialog, you can click the save button. The click event is handled by “formsubmit” function as mentioned as follows. Create an object for Dialog control and then using the dialog’s “open” function you can display the Dialog. 
 
@@ -322,11 +322,11 @@ Add the following script code to the <body> tag.
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-![F:/Work/UGchanges/Images/ios7_5.png](Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 
 
-### Enable Modal Dialog
+## Enable Modal Dialog
 
 The EnableModalDialog prevents you from interacting with the rest of the page until it is closed. Enable the modal Dialog using “EnableModal” property.
 {% highlight html%}
@@ -340,6 +340,6 @@ The EnableModalDialog prevents you from interacting with the rest of the page un
 
 Execute this code to render the following output. For more details, to run the sample refers "Common Getting Started" section.
 
-![F:/Work/UGchanges/Images/ios7_4.png](Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 

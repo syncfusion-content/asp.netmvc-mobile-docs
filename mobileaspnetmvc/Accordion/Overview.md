@@ -12,7 +12,7 @@ documentation: ug
 
 The EssentialJavaScriptMobileAccordion widget is an interface where lists of items are collapsed or expanded. Accordion control has several collapsible panels, where only one can be expanded at a time. It has a template for its header and its content.
 
-## Key Features
+## Key features
 
 * Collapsible Header: All headers are collapsible.
 * AJAX Load: Load AJAX content in the Accordion content panel.

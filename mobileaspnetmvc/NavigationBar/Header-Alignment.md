@@ -8,7 +8,7 @@ documentation: ug
 keywords: alignment
 ---
 
-# Header Text Alignment
+# Header text alignment
 
 TitleAlignment property is used to change the alignment of the text.The defaut value of TitleAligment property is left
 

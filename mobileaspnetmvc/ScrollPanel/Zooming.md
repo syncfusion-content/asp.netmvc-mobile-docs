@@ -40,7 +40,7 @@ The following screenshot displays zooming:
 
 
 
-## ZoomMax
+## Zoom Max
 
 ZoomMax property lets you set the maximum limit to which the content can be zoomed. By default, this property is set to 6. 
 
@@ -67,7 +67,7 @@ ZoomMax property lets you set the maximum limit to which the content can be zoom
 
 {% endhighlight %}
 
-## ZoomMin
+## Zoom Min
 
 This property lets you set the minimum limit to which the content can be zoomed. By default, this property is set to 1. 
 
@@ -94,7 +94,7 @@ This property lets you set the minimum limit to which the content can be zoomed.
 
 {% endhighlight %}
 
-## StartZoom
+## Start zoom
 
 This property lets you specify the zooming value on initial rendering of the scrollable content.  By default this property is set to 1. 
 

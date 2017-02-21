@@ -111,7 +111,7 @@ Phone No
 
 Run the code and get the following output.
 
-![C:/Users/Vignesh Kumar/Desktop/screen.png](Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 
 

@@ -8,7 +8,7 @@ keywords: textarea, watermarktext
 documentation: ug
 ---
 
-# Customize Watermark text
+# Customize watermark text
 
 WatermarkText property customizes the text that appears in the background of the TextArea. It acts like a label for the TextArea.
 

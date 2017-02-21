@@ -7,7 +7,7 @@ control: Numeric Textbox
 documentation: ug
 ---
 
-# Customize Value
+# Customize value
 
 The current value of the Numeric Textbox can be specified by using the Value property. The range for the Numeric Textbox can be specified by using the MaxValue and MinValue properties. The Numeric Textbox can only accept values within the specified range. The Step property is used to set the step value in each incrementing or decrementing textbox when the spin buttons are clicked or when the up or down arrows are used.
 

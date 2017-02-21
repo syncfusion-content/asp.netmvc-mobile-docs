@@ -7,7 +7,7 @@ control: NumericTextbox
 documentation: ug
 ---
 
-# Styles and Appearance
+# Styles and appearance
 
 The Styles and Appearance of the Numeric textbox works based on the CSS class. You need a style sheet to apply styles to the Numeric textbox control, ej.mobile.all.min.css.
 

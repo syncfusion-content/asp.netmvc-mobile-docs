@@ -28,7 +28,7 @@ Refer to the following code example.
 
 The following screenshot displays the ReadOnly property set to true.
 
-![D:/Final Doc/mockup/IMG_0529_iphone5s_spacegrey_portrait.png](Read-only-support_images/Read-only-support_img1.png)
+![](Read-only-support_images/Read-only-support_img1.png)
 
 
 

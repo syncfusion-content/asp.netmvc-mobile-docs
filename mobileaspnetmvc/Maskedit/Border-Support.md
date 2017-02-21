@@ -7,7 +7,7 @@ control: MaskEdit
 documentation: ug
 ---
 
-# Border Support
+# Border support
 
 ShowBorder property is used to decide whether the MaskEdit Textbox border can be visible or hidden. The default value is true.
 
@@ -19,7 +19,7 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-![D:/Final Doc/mockup/IMG_0522_iphone5s_spacegrey_portrait.png](Border-Support_images/Border-Support_img1.png)
+![](Border-Support_images/Border-Support_img1.png)
 
 
 

@@ -18,7 +18,7 @@ The current value of the ProgressBar is specified by using 'Value' property. "Ma
 
 {% endhighlight %}
 
-Output of Customize value:
+Output of customize value:
 
 ![](Customize-value_images/Customize-value_img1.png)
 

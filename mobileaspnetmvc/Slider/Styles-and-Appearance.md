@@ -8,7 +8,7 @@ keywords: slider, styles
 documentation: ug
 ---
 
-# Styles and Appearance
+# Styles and appearance
 
 Styles and Appearance of the Slider control are rendered by using CSS class. The style sheet for the control is defined in ej.mobile.all.min.css. 
 

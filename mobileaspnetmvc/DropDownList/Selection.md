@@ -10,7 +10,7 @@ keywords : Selection
 
 # selection
 
-## MultiSelection
+## Multi selection
 
 DropDownList has a check list feature that is used to select multiple list items, by using set enableMultiSelect property as true.
 

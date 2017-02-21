@@ -21,7 +21,7 @@ The Essential Studio for ASP.NET MVC Mobile ScrollPanel is an interactive panel 
 
 
 
-## Create Layout
+## Create layout
 
 The Essential Studio for ASP.NET MVC Mobile ScrollPanel widget is rendered based on the default values for all the properties. You can easily customize ScrollPanel control by changing its properties according to your requirements. The following steps guide you to add ScrollPanel for the required content area. Create an MVC Project and add necessary Dlls and script with the help of [MVC-Getting Started Documentation.](https://help.syncfusion.com/aspnetmvc/getting-started) 
 
@@ -98,7 +98,7 @@ Run the above code example and you will see the following output.
 
 
 
-### Enable Horizontal and Vertical Scrolling
+### Enable horizontal and vertical Scrolling
 
 The Target content can be scrolled vertically or horizontally or in both ways. The property EnableVerticalScroll enables vertical scrolling and the property EnableHorizontalScroll enables horizontal scrolling.
 

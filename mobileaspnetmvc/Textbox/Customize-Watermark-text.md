@@ -8,7 +8,7 @@ keywords: textbox, watermarktext
 documentation: ug
 ---
 
-# Customize Watermark text
+# Customize watermark text
 
 The WatermarkText property is used in customize the text that appears in the background of the Textbox. It acts like a label for the Textbox.
 

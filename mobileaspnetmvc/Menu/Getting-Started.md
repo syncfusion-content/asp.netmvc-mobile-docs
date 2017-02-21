@@ -8,7 +8,7 @@ documentation: ug
 keywords: menu, layout, events
 ---
 
-# Getting Started
+# Getting started
 
 This section explains you on how to create a Menu using Essential ASP.NET MVC and how to use it in your application.
 
@@ -19,7 +19,7 @@ The ASP.NET MVC Mobile Menu provides you an interface to easily navigate hierarc
 ![](Getting-Started_images/Getting-Started_img1.png)
 
 
-## Create the required layout for Gallery app
+## Create the required layout for gallery app
 
 The ASP.NET MVC Mobile Menu widget can be rendered from a hierarchy of <ul> and <li> and can perform unique actions based on the properties given for each <li> item. You can easily customize the Menu control by changing its properties. In the following code example, the gallery app menu is used to show multiple sharing options to share images.
 

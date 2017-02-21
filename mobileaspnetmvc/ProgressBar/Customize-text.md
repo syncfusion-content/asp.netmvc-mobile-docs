@@ -27,5 +27,5 @@ Output of enable Customize text:
 
 
 
-_Progressbar-Enablecustomtext_
+
 

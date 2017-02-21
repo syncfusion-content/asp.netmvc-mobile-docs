@@ -8,7 +8,7 @@ documentation: ug
 keywords: apprearance
 ---
 
-# Styles and Appearance
+# Styles and appearance
 
 Styles and appearance of SplitPane works based on CSS class. You require one style sheet to apply styles to SplitPane control ej.mobile.all.min.css
 

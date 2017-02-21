@@ -59,7 +59,7 @@ Run the above code to render the following output.
 
 ![](getting-started-images/img2.png)
 
-## Add List of Options
+## Add list of options
 
 Specifies the Targetid attribute for  target element which consists the list of options to render DropDownList. 
 
@@ -89,7 +89,7 @@ Run the above code to render the following output.
 
 ![](getting-started-images/img1.png)
 
-## cssClass
+## Css class
 
 Sets the root class for DropDownList. This cssClass API helps to use custom skinning option for DropDownList control. By defining the root class using this API, we need to include this root class in CSS.
 

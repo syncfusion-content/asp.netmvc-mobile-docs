@@ -8,7 +8,7 @@ keywords: textarea, readonly
 documentation: ug
 ---
 
-# ReadOnly
+# Readonly
 
 When it is set to true, you cannot edit the value in the TextArea. The default value is false.
 

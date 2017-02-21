@@ -8,7 +8,7 @@ documentation: ug
 keywords: tile , image 
 ---
 
-# Image Configuration
+# Image configuration
 
 "ImagePosition" property is used to adjust the position of tile image. It accepts the following values.
 
