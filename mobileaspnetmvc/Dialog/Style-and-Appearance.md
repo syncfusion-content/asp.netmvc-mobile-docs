@@ -8,7 +8,7 @@ keywords: dialog, styles
 documentation: ug
 ---
 
-# Style and Appearance
+# Style and appearance
 
 Style and Appearance of Mobile Dialog are based on CSS class. You require a style sheet to apply styles to Mobile Dialog control that is ej.mobile.all.min.css.
 

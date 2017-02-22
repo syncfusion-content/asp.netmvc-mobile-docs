@@ -8,7 +8,7 @@ keywords: textbox, enable, disable
 documentation: ug
 ---
 
-# Enable and Disable
+# Enable and disable
 
 Enabled property is used to enable or disable your Textbox control. The default value is true.
 

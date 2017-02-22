@@ -7,7 +7,7 @@ control: Rotator
 documentation: ug
 ---
 
-# Style and Appearance     
+# Style and appearance     
 
 Style and appearance of Mobile Rotator are based on CSS class. You require a style sheet to apply styles to Mobile Rotator control that is ej.mobile.all.min.css.
 

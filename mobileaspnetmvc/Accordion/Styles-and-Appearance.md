@@ -8,7 +8,7 @@ keywords: accordion, styles, appearenece
 documentation: ug
 ---
 
-# Styles and Appearance
+# Styles and appearance
 
 Styles and appearance of Accordion work based on CSS class. You need a style sheet to apply styles to Accordion control, that is, ej.mobile.all.min.css
 

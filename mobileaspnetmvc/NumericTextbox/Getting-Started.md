@@ -7,7 +7,7 @@ control: Numeric Textbox
 documentation: ug
 ---
 
-# Getting Started 
+# Getting started 
 
 In this section you can learn how to create first Numeric Textbox Control in mobile application.
 
@@ -23,7 +23,7 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 
 1. Create a View page and add the following template.
    
-   ~~~ html
+{% highlight html %}
 		<!--Page Header-->
 		@Html.EJMobile().NavigationBar("page_header").Title("Rooms Availability").Mode(NavBarMode.Header).Position(NavBarPosition.Auto)
 		<div id="content" class="content">
@@ -35,12 +35,12 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 		</div>
 		</div>
 		</div>    
-   ~~~
+{% endhighlight %}
    
 
 2. Add the following code example to render Numeric Textbox to input number of persons per room.
 
-   ~~~ html
+{% highlight html %}
    
 			<!--Numeric TextBox 1 code-->
 			<div class="text_row">
@@ -48,16 +48,13 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 			@Html.EJMobile().NumericTextbox("persontext").MinimumValue(1).MaximumValue(6)
 			</div>
 			
-   ~~~		
-   {:.prettyprint }
-
-
+{% endhighlight %}	
 
 
 
 3. Add the following code example to render Numeric Textbox to input number of rooms needed.
 
-   ~~~ html
+{% highlight html %}
    
 		<!--Numeric TextBox 2 code-->
 		<div class="text_row">
@@ -65,15 +62,13 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 		@Html.EJMobile().NumericTextbox("roomstxt").MinimumValue(1).MaximumValue(5)
 		</div>
    
-
-
-   ~~~
+{% endhighlight %}
    
 
 
 4. To improve the look and feel of Rooms Availability Check, you need to add the following styles in the application.
    
-   ~~~ css
+{% highlight css %}
    
 		<style>
 		.content_area {
@@ -94,6 +89,6 @@ You can create an MVC Project and add necessary assemblies, styles and scripts t
 		}
 		</style>
 
-   ~~~
+{% endhighlight %}
    
 ![](Getting-Started_images/Getting-Started_img1.png)

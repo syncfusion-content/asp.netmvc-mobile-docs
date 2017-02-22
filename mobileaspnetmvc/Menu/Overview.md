@@ -7,10 +7,10 @@ control: Menu
 documentation: ug
 ---
 
-# Menu 
+# Overview 
 
 The Mobile **Menu** control supports displaying a Menu created from list items. The Menu is based on a hierarchy of UL and LI elements where the list items are rendered as sub-menu items.
 
-## Key Features
+## Key features
 
 * Template support: Menu supports template content.

@@ -8,7 +8,7 @@ documentation: ug
 keywords: template
 ---
 
-# Template Support
+# Template support
 
 ImageTemplateId and CaptionTemplateId properties are used to customize the image and caption/description of a tile by providing the specific template id respectively. 
 

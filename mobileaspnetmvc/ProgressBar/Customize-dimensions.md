@@ -18,7 +18,7 @@ By setting an integer value to Height property, you can change the height of the
 
 {% endhighlight %}
 
-Output of Customize dimensions:
+Output of customize dimensions:
 
 ![](Customize-dimensions_images/Customize-dimensions_img1.png)
 

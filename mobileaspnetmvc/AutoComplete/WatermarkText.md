@@ -8,7 +8,7 @@ documentation: ug
 kewords : watermarktext
 ---
 
-# WatermarkText
+# Watermarktext
 
 WatermarkText property displays text in the AutoComplete textbox when it is empty. It acts like a label for the textbox. When you enter the query, the WatermarkText disappears and the typed text is entered in the textbox. Default value for the property is set to “search”.
 

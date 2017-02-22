@@ -8,7 +8,7 @@ documentation: ug
 keywords: image
 ---
 
-## Image Support
+## Image support
 
 You can add images to your ListView items by specifying the "ImageUrl" attribute.
 

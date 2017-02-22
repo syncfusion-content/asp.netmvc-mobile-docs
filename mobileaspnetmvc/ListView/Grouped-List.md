@@ -8,7 +8,7 @@ documentation: ug
 keywords: grouped
 ---
 
-## Grouped List
+## Grouped list
 
 Here, you can learn how ListView with items are grouped together using the grouplist feature in ListView.
 

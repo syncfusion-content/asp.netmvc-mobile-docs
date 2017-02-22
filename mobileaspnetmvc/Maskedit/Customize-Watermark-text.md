@@ -7,7 +7,7 @@ control: MaskEdit
 documentation: ug
 ---
 
-# Customize Watermark text
+# Customize watermark text
 
 WatermarkText property is used in customizing the text that appears in the background of your MaskEdit Textbox. It acts like a label for the MaskEdit Textbox.
 
@@ -19,7 +19,7 @@ Refer to the following code example.
 
 {% endhighlight %}
 
-![D:/Final Doc/mockup/IMG_0525_iphone5s_spacegrey_portrait.png](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)
+![](Customize-Watermark-text_images/Customize-Watermark-text_img1.png)
 
 
 

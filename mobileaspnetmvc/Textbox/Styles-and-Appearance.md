@@ -8,7 +8,7 @@ keywords: textbox, styles
 documentation: ug
 ---
 
-# Styles and Appearance
+# Styles and appearance
 
 Styles and appearance of **Textbox** works based on **CSS** class. You require a style sheet to apply styles to textbox control that is, **ej.mobile.all.min**.**css**
 

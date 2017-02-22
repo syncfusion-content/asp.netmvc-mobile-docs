@@ -8,7 +8,7 @@ keywords: rating
 documentation: ug
 ---
 
-# Customize Values                           
+# Customize values                           
 
 The MaximumValue property is used to denote the maximum value up to which the rating can be accepted. The MinimumValue property is used to denote the minimum rating value. The Value property specifies the current selection value. The IncrementStep property specifies the step value incrementation between each rating value (star) selection.
 

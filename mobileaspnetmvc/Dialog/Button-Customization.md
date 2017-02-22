@@ -10,7 +10,7 @@ documentation: ug
 
 # Button Customization
 
-## LeftButtonCaption
+## Left button caption
  
  To specifies the text of the Left Button. The default value is Cancel.
 
@@ -37,7 +37,7 @@ The following screenshot displays the output.
 ![](Button-Customization_images/Button-Customization_img1.png)
 
 
-## RightButtonCaption
+## Right button caption
 
 To specifies the text of the Right Button. The default value is continue.
 
@@ -62,7 +62,7 @@ The following screenshot displays the output.
 ![](Button-Customization_images/Button-Customization_img2.png)
 
 
-## ShowButtons                                
+## Show buttons                                
 
  To show the buttons in the Dialog box. The default value is true.
 

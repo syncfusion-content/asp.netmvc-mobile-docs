@@ -67,7 +67,7 @@ In Rotator you can enable the built-in header support. You can use Title propert
 
 <div id="scrollparent">
 
-    @{         @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault");
+    @{    @Html.EJMobile().Rotator("rotatordefault").TargetId("rotatorcontentdefault");
 
     }
 

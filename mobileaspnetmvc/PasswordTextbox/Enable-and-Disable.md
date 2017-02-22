@@ -7,7 +7,7 @@ control: Password
 documentation: ug
 ---
 
-# Enable and Disable
+# Enable and disable
 
 The Enabled property is used to enable or disable your Password control. The default value is “True”.
 

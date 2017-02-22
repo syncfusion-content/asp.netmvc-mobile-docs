@@ -10,7 +10,7 @@ keywords: radialslider , dimension
 
 ## Dimension
 
-### Stroke Width
+### Stroke width
 
 Radial Slider 'StrokeWidth' property specifies the width of the outline. Refer to the following code example.
 

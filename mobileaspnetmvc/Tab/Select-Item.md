@@ -8,7 +8,7 @@ documentation: ug
 keywords: select
 ---
 
-# Select Item
+# Select item
 
 Tab control takes a numeric value given in selectedItemIndex property and selects the corresponding item that matches the given index. Default value for SelectedItemIndex property is set to 0. You can refer the following code example. 
 

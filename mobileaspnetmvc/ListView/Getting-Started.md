@@ -8,7 +8,7 @@ documentation: ug
 keywords: listview , layout
 ---
 
-# Getting Started
+# Getting started
 
 This section explains briefly on how to create a ListView control in your ASP.NET MVC application.
 
@@ -27,7 +27,7 @@ The following steps help you to add a ListView control for a mobile application 
 
 The following steps help you add a ListView control.
 
-### Create Basic Mobile Layout 
+## Create basic mobile layout 
 
 Refer [MVC-Getting Started Documentation](https://help.syncfusion.com/aspnetmvc/getting-started) to create an MVC Project, add necessary Dll’s and Scripts.
 
@@ -45,7 +45,7 @@ Add the following code inside the <body> tag in the Layout.cshtml page.
 
 {% endhighlight %}
 
-### Create a Basic Mobile Layout
+## Create a basic mobile layout
 
 To add Listview control, you need to call ListView helper.                 
 

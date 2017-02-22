@@ -8,7 +8,7 @@ keywords: rating, precision
 documentation: ug
 ---
 
-# Customize Precision
+# Customize precision
 
 The Precision property is used to specify how the Rating control can accept its value. The possible values are,
 

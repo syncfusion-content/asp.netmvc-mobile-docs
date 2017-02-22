@@ -7,7 +7,7 @@ control: Rotator
 documentation: ug
 ---
 
-# Data Binding
+# Data binding
 
 Essential Studio for ASP.NET MVC Mobile Rotator provides support for data binding. Data binding provides a simple and consistent way for applications to present and interact with data. Elements can be bound to data from a variety of data sources.
 

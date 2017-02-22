@@ -54,7 +54,7 @@ The following screenshot displays the Slider Orientation:
 
 
 
-## ReadOnly
+## Readonly
 
 ReadOnly property makes the Slider control to be fixed. When this property is set to true, the Slider knob cannot be dragged from its current position that is the Slider value cannot be changed.
 

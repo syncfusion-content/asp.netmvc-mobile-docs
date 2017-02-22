@@ -10,7 +10,7 @@ documentation: ug
 
 # Scrolling Settings
 
-## AllowScrolling   
+## Allow scrolling   
 
 To enable  scrollingbehavior for the Dialog content. The default value is true.
 
