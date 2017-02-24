@@ -7,11 +7,11 @@ control: MaskEdit
 documentation: ug
 ---
 
-# MaskEdit
+# Overview
 
 The Essential Studio for ASP.NET MVC Mobile MaskEdit control provides an easy and reliable way of collecting user input and displaying standard data in a specific format. Some common uses of the MaskEdit control are IP address editors, phone number editors, and Social Security number editors. 
 
-## Key Features
+## Key features
 
 Mask- The format where the value should be entered in the Textbox is set by using this property.
 

@@ -7,7 +7,7 @@ control: Password
 documentation: ug
 ---
 
-# Getting Started
+# Getting started
 
 This section describes in brief how to create and customize an ASP.NET MVC Mobile Password widget.
 
@@ -155,7 +155,7 @@ Run this code example and you can see the following output.
 
 
 
-### Set Watermark text
+## Set Watermark text
 
 The watermark text specifies a short hint that describes the expected value of the input field. This can be achieved by using the “watermarktext” property.
 

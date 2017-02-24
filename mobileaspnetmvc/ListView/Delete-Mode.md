@@ -8,7 +8,7 @@ documentation: ug
 keywords: listview, delete
 ---
 
-## Delete Mode
+## Delete mode
 
 Enables delete option for each ListView item when swipe left happens to the ListView item.
 

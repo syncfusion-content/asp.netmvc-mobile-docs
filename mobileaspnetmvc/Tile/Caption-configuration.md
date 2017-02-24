@@ -8,7 +8,7 @@ documentation: ug
 keywords: tile , caption
 ---
 
-# Caption Configuration
+# Caption configuration
 
 The `data-ej-caption-enabled` attribute is used to show or hide the **Tile caption**. The `data-ej-caption-text` attribute is used to set the caption of a Tile. The `data-ej-caption-alignment` attribute is used to align the Tile text based on the requirement. The possible position values for `alignment` are as follows.
 

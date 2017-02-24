@@ -8,7 +8,7 @@ documentation: ug
 keywords: template
 ---
 
-# Header TemplateId
+# Header templateid
 
 data-ej-templateid is used to define the ID of the template element where you can specify the content to render in the control.
 

@@ -11,7 +11,7 @@ keywords: dropdownlis , features
 
 The DropDownList widget displays a single column list of items which enables you to select single or multiple items from the list. By default no selection is been made in the widget, the user has to navigate through the items using mouse or keyboard actions to select an item.
 
-##Key Features
+## Key features
 
 * **DataBinding** - Supports Data binding with JSON data and remote data.  
 * **Virtual scrolling** - Fetches the data from remote on demand. 

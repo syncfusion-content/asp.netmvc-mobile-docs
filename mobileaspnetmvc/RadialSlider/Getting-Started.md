@@ -8,7 +8,7 @@ documentation: ug
 keywords: radialslider
 ---
 
-# Getting Started
+# Getting started
 
 This section explains briefly on how to create a Radial Slider control in your mobile application.
 

@@ -16,7 +16,7 @@ N> As per guidelines, the radial menu is displayed partially for an elegant look
 
 
 
-## Key Features
+## Key features
 
 * Nested Menu: Support to render child menu item.
 

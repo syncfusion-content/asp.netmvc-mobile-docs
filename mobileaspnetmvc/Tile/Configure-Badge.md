@@ -8,7 +8,7 @@ documentation: ug
 keywords: badge
 ---
 
-# Configure Badge
+# Configure badge
 
 The Badge property handles badge specific functionalities like enable or disable the badge and setting badge value for tile. The Text property is used to set the text instead of number for tile badge. The MaxValue and MinValue properties areusedto set the maximum and minimum badge value to a tile respectively. 
 

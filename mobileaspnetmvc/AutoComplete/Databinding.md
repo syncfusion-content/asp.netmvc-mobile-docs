@@ -10,7 +10,7 @@ keywords: databinding, local, remote
 
 # Databinding
 
-## Local Databinding
+## Local databinding
 
 DataSource property is used to provide the suggestion list to the AutoComplete textbox. The list of items are passed as an array and by using the DataSource property, AutoComplete retrieves the suggestion list. Field property is used to map the specific field name of the given DataSource to render the suggestion list when user type is in the textbox. You can refer to the following code example.
 
@@ -91,7 +91,7 @@ The following screenshot displays the DataSource:
 
 
 
-## Remote Databinding
+## Remote databinding
 
 Mapper property is used to specify the remote URL of the DataSource for the suggestion list. 
 

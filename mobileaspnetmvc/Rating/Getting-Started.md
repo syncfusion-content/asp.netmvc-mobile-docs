@@ -8,7 +8,7 @@ keywords: rating
 documentation: ug
 ---
 
-# Getting Started
+# Getting started
 
 ## Create your first Rating control in MVC
 

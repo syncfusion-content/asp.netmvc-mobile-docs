@@ -8,7 +8,7 @@ keywords: progressbar, percentage
 documentation: ug
 ---
 
-# Customize Percentage
+# Customize percentage
 
  Specifies the ProgressBar value in percentage that depends on maximum value. You can refer to the following code examples.  
 
@@ -18,7 +18,7 @@ documentation: ug
 
 {% endhighlight %}
 
-Output of Percentage:
+Output of percentage:
 
 ![](Customize-Percentage_images/Customize-Percentage_img1.png)
 

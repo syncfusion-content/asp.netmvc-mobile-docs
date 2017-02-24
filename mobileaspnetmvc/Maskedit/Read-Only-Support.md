@@ -7,7 +7,7 @@ control: MaskEdit
 documentation: ug
 ---
 
-# Read Only Support
+# Read only support
 
 When it is set to true, you cannot edit the value in the MaskEdit Textbox. The default value is false.
 

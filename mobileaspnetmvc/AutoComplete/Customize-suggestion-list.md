@@ -27,7 +27,7 @@ The following screenshot displays items count:
 ![](Customize-suggestion-list_images/Customize-suggestion-list_img1.png)
 
 
-## FilterType
+## Filter type
 
 FilterType property is used to filter and display the suggestion list based on your requirements. The possible values are, 
 
@@ -44,7 +44,7 @@ By default, the value for the property is “contains”.
 {% endhighlight %}
 
 
-## EnableDistinct
+## Enable distinct
 
 EnableDistinct property is used to hide or show the duplicate items from the suggestion list. By default, the value for the property is “false”.
 
@@ -81,7 +81,7 @@ The following screenshot displays sorting:
 
 
 
-## EmptyResult
+## Empty result
 
 ShowEmptyResultText property is used to show or hide the suggestion box when there is no suggestion available for the user query. By default, the value is “true”.
 

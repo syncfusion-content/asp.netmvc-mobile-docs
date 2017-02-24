@@ -8,7 +8,7 @@ documentation: ug
 keywords: radialslider, position
 ---
 
-## Behavior settings
+# Behavior settings
 
 The following are some properties that enables you to an option to enhance the behavior of RadialSlider control.
 

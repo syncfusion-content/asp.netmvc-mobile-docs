@@ -12,7 +12,7 @@ keywords: overview
 
 The Essential JavaScript Mobile ListView widget builds interactive list view interface. This control allows you to select an item from a list-like interface and display a set of data items in different layouts or views. Lists are used for displaying data, data navigation, result lists, and data entry.
 
-## Key Features
+## Key features
 
 * Data binding: Supports Data binding with JSON data and remote data.
 

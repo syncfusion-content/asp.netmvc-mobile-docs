@@ -8,7 +8,7 @@ keywords: dialog, auto-open
 documentation: ug
 ---
 
-# Auto Open
+# Auto open
 
 To open the Dialog box on initial loading. The default value is false.
 

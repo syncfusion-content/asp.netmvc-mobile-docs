@@ -7,7 +7,7 @@ control: AutoComplete
 documentation: ug
 ---
 
-# Multi Selection
+# Multi selection
 
 This feature is enabled by setting the “EnableMultiSelect” property to true.
 

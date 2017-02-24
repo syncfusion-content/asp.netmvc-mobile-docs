@@ -65,7 +65,7 @@ Add the following code example to render the AutoComplete control in the corresp
 
 
 
-### Customize watermark text
+## Customize watermark text
 
 You can customize watermark text using the WatermarkText property as follows.
 
@@ -82,7 +82,7 @@ You can customize watermark text using the WatermarkText property as follows.
 ![](Getting-Started_images\Getting-Started_2.png)
 
 
-### Data Binding
+## Data Binding
 
 You need to add model, to sync the contact items to AutoComplete. For that, you can download the following zip file which contains the contacts.cs model file and paste the cs file in the model folder. 
 
@@ -129,7 +129,7 @@ Run the above code and type the contact details to search for (In this example, 
 ![](Getting-Started_images/Getting-Started_img3.png)
 
 
-### Multi Value Selection
+## Multi Value Selection
 
 AutoComplete textbox enables you to select multiple items from the suggestions list. To achieve this, set the EnableMultiSelect property to true. The DelimiterChar property holds a string value that specifies the separator between two selected items.  You can customize the delimiter string. In this example “;” is used as delimiter.
 
@@ -149,7 +149,7 @@ Run the above code and type the necessary query in the textbox. The contact is d
 ![](Getting-Started_images/Getting-Started_1.png)
 
 
-### Event handling
+## Event handling
 
 The Select eventenables you to handle AutoComplete selection. By assigning a function name to the event, you can handle the selection. Here you can set Select event with the function name OnSelect.  By processing the onSelect( ) function, you can implement the necessary actions. In this example, the full Contact detail of the selected contact name is displayed. 
 
