@@ -84,24 +84,67 @@ You can customize watermark text using the WatermarkText property as follows.
 
 ## Data Binding
 
-You need to add model, to sync the contact items to AutoComplete. For that, you can download the following zip file which contains the contacts.cs model file and paste the cs file in the model folder. 
+You need to add model, to sync the contact items to AutoComplete. For that, you can have to add a class file named contact.cs in the model folder. 
 
-Zip file link: [http://js.syncfusion.com/UG/Mobile/Content/Contacts.zip](http://js.syncfusion.com/UG/Mobile/Content/Contacts.zip)
+{% highlight html %}
+
+namespace MvcApplication.Models
+{
+    public class Contacts
+    {
+        public int uniqueKey { get; set; }
+        public string name { get; set; }
+        public static List<Contacts> clearSource()
+        {
+            List<Contacts> list = new List<Contacts>();
+            list.Add(new Contacts { name = "Audi S6" });
+            list.Add(new Contacts { name = "Austin-Healey" });
+            list.Add(new Contacts { name = "Alfa Romeo" });
+            list.Add(new Contacts { name = "Aston Martin" });
+            list.Add(new Contacts { name = "BMW 7" });
+            list.Add(new Contacts { name = "Bentley Mulsanne" });
+            list.Add(new Contacts { name = "Bugatti Veyron" });
+            list.Add(new Contacts { name = "Chevrolet Camaro" });
+            list.Add(new Contacts { name = "Cadillac" });
+            list.Add(new Contacts { name = "Duesenberg J" });
+            list.Add(new Contacts { name = "Dodge Sprinter" });
+            list.Add(new Contacts { name = "Elantra" });
+            list.Add(new Contacts { name = "Excavator" });
+            list.Add(new Contacts { name = "Ford Boss 302" });
+            list.Add(new Contacts { name = "Ferrari 360" });
+            list.Add(new Contacts { name = "Ford Thunderbird" });
+            list.Add(new Contacts { name = "GAZ Siber" });
+            list.Add(new Contacts { name = "Honda S2000" });
+            list.Add(new Contacts { name = "Hyundai Santro" });
+            list.Add(new Contacts { name = "Isuzu Swift" });
+            list.Add(new Contacts { name = "Infiniti Skyline" });
+            list.Add(new Contacts { name = "Jaguar XJS" });
+            list.Add(new Contacts { name = "Kia Sedona EX" });
+            list.Add(new Contacts { name = "Koenigsegg Agera" });
+            list.Add(new Contacts { name = "Lotus Esprit" });
+            list.Add(new Contacts { name = "Lamborghini Diablo" });
+            list.Add(new Contacts { name = "Mercedes-Benz" });
+            list.Add(new Contacts { name = "Mercury Coupe" });
+            list.Add(new Contacts { name = "Maruti Alto 800" });
+            return list;
+        }
+    }
+}
+
+{% endhighlight %}
 
 Add the corresponding namespace for model in controller and modify the existing controller as follows. 
 
 
 {% highlight html %}
-using MVCSample.Models;
-
-
+using MvcApplication.Models;
 
 public ActionResult Contacts()
 
         {
-            ContactsModel.clearSource();
+            ViewBag.datasource = Contacts.clearSource();
 
-            return View(ContactsModel.setSource());
+            return View();
 
         }
 
@@ -116,9 +159,9 @@ N> Here “MVCSample” is your project name.
 
 
 
-@model List<Contacts>
+@using MvcApplication.Models;
 
-                   @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource(Model).Fields(fields=>fields.Text("name")).FilterType(AutoCompleteFilterType.Contains)
+                   @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource((IEnumerable<Contacts>)ViewBag.datasource).Fields(fields=>fields.Text("name")).FilterType(AutoCompleteFilterType.Contains)
 
 {% endhighlight %}
 
