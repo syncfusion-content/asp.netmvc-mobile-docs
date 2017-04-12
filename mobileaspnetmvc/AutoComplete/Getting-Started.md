@@ -86,7 +86,7 @@ You can customize watermark text using the WatermarkText property as follows.
 
 You need to add model, to sync the contact items to AutoComplete. For that, you can have to add a class file named contact.cs in the model folder. 
 
-{% highlight html %}
+{% highlight c# %}
 
 namespace MvcApplication.Models
 {
@@ -136,7 +136,8 @@ namespace MvcApplication.Models
 Add the corresponding namespace for model in controller and modify the existing controller as follows. 
 
 
-{% highlight html %}
+{% highlight c# %}
+
 using MvcApplication.Models;
 
 public ActionResult Contacts()
@@ -159,9 +160,9 @@ N> Here “MVCSample” is your project name.
 
 
 
-@using MvcApplication.Models;
+    @using MvcApplication.Models;
 
-                   @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource((IEnumerable<Contacts>)ViewBag.datasource).Fields(fields=>fields.Text("name")).FilterType(AutoCompleteFilterType.Contains)
+    @Html.EJMobile().AutoComplete("accdefault").WatermarkText("Search Contacts ").DataSource((IEnumerable<Contacts>)ViewBag.datasource).Fields(fields=>fields.Text("name")).FilterType(AutoCompleteFilterType.Contains)
 
 {% endhighlight %}
 
