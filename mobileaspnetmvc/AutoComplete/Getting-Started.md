@@ -94,7 +94,7 @@ namespace MvcApplication.Models
     {
         public int uniqueKey { get; set; }
         public string name { get; set; }
-        public static List<Contacts> clearSource()
+        public static List<Contacts> setSource()
         {
             List<Contacts> list = new List<Contacts>();
             list.Add(new Contacts { name = "Audi S6" });
@@ -142,7 +142,7 @@ using MvcApplication.Models;
 public ActionResult Contacts()
 
         {
-            ViewBag.datasource = Contacts.clearSource();
+            ViewBag.datasource = Contacts.setSource();
 
             return View();
 
