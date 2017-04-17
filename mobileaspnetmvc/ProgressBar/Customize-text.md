@@ -21,7 +21,7 @@ EnableCustomText property is used to specify the custom text for ProgressBar. Th
 
 Output of enable Customize text:
 
-![](Customize-text_images/Customize-text_img1.jpeg)
+![](Customize-text_images/Customize-text_img1.png)
 
 
 
