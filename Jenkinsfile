@@ -1,6 +1,6 @@
 node('content')
 { 
-String platform='ASP.NET MVC';
+String platform='mobileaspnetmvc';
    try
 	{   
 		//Clone scm repository in Workspace source directory
