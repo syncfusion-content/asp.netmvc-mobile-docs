@@ -72,4 +72,5 @@ if(currentBuild.result != 'FAILURE')
     }
 	    step([$class: 'WsCleanup'])	]
 	    }
+	    }
 }
