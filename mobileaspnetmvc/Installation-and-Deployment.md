@@ -25,9 +25,9 @@ The steps to install the Syncfusion ASP.NET MVC NuGet Packages in Visual Studio 
 
    **Name**: Name of the package that listed in Available package sources  
    **Source**: Syncfusion ASP.NET MVC NuGet Package feed url 
-   [http://nuget.syncfusion.com/aspnetmvc](http://nuget.syncfusion.com/aspnetmvc)
+   [http://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc](http://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc)
     
-   ![](installation-and-deployment_images/NuGetConfig2.jpeg)
+   ![](installation-and-deployment_images/NuGetConfig2.png)
 
    N> The `Source` text box in the above image denotes the location of the NuGet packages and the `Name` section, allows you to provide a unique name for NuGet Packages Source.
     
