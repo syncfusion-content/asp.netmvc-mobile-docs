@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installation and Deployment | MobileAspNetMVC | Syncfusion
-description: Installation and Deployment
+description: Installation and Deployment of Syncfusion ASP.NET MVC NuGet Packages in Visual Studio.
 platform: mobileaspnetmvc
 control: Common 
 documentation: ug
