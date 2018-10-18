@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installation and Deployment | MobileAspNetMVC | Syncfusion
-description: Installation and Deployment
+description: Installation and Deployment of Syncfusion ASP.NET MVC NuGet Packages in Visual Studio.
 platform: mobileaspnetmvc
 control: Common 
 documentation: ug
@@ -19,7 +19,7 @@ The steps to install the Syncfusion ASP.NET MVC NuGet Packages in Visual Studio 
 
 1. In Visual Studio, navigate to `Tools | NuGet Package Manager | Package Manager Settings`, the options dialog will appear on the screen as shows below,
 
-   ![](installation-and-deployment_images/NuGetConfig1.jpeg)
+   ![NuGetConfig1](installation-and-deployment_images/NuGetConfig1.jpeg)
 
 2. Select `NuGet Package Manager | Package Sources` and click `Add` button to add the `Package Name` and `Package Source` of Syncfusion NuGet Packages.    
 
@@ -27,7 +27,7 @@ The steps to install the Syncfusion ASP.NET MVC NuGet Packages in Visual Studio 
    **Source**: Syncfusion ASP.NET MVC NuGet Package feed url 
    [http://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc](http://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc)
     
-   ![](installation-and-deployment_images/NuGetConfig2.png)
+   ![NuGetConfig2](installation-and-deployment_images/NuGetConfig2.png)
 
    N> The `Source` text box in the above image denotes the location of the NuGet packages and the `Name` section, allows you to provide a unique name for NuGet Packages Source.
     
@@ -39,7 +39,7 @@ Syncfusion ASP.NET MVC NuGet can install once configured the package source. The
 
 1. Once configured the Package source with Syncfusion NuGet Packages, right click on project and choose `Manage NuGet Packages | Online | <Package Source Name>`.
 
-   ![](installation-and-deployment_images/NuGetConfig3.jpeg)
+   ![NuGetConfig3](installation-and-deployment_images/NuGetConfig3.jpeg)
 
 2. The NuGet Packages are listed which are available in package source location. Install the required packages to your application by clicking `Install` button.
 
@@ -53,7 +53,7 @@ Using the `Manage NuGet Packages` in Visual Studio, NuGet packages can be update
 
 2. Select the `Updates -> <Syncfusion Package Source>`. Refer to the following screenshot for more information.
 
-   ![](installation-and-deployment_images/NuGetConfig4.jpeg)
+   ![NuGetConfig4](installation-and-deployment_images/NuGetConfig4.jpeg)
 
 3. If there is a new version of NuGet you will see it in the list of available updates.
 
